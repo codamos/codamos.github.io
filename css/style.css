@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 /*COMPONENTES BASICOS*/
 *{
 	box-sizing: border-box;
@@ -42,7 +44,8 @@ li {
 
 #menu ul li a{
 	padding: 10px;
-    font-size: 14px;
+    font-size: 15px;
+    font-family: Roboto;
 }
 
 #menu a:hover {
@@ -56,7 +59,7 @@ ul.social-media {
 
 .social-media li{
 	display: inline;
-	padding: 3px;
+	padding: 2px;
 }
 
 .social-media i.fa{
@@ -73,27 +76,37 @@ input.search {
 
 /*BANNER*/
 #banner{
-	background-image: url("../imagens/mulher.png");
+	background-image: url("../imagens/campus.png");
 	background-repeat: no-repeat;
 	padding: 10px;
 	text-align: center;
 	height: 90vh;
 	background-size: cover;
 	color: white;
+	padding-top: 160px;
 }
 
 .title{
-	font-size: 40px;
+  width: 872px;
+  height: 47px;
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 202px;
+
+}
+
+.sub-title{
+	font-size: 20px;
+	padding-bottom: 20px;
 }
 
 .button-primary{
-	border: 1px solid;
-	border-radius: 20px;
-	cursor: pointer;
-	width: 220px;
-  	height: 43px;
-  	font-size: 15px;
-  	padding: 10px 20px;
-  	background: #ccc;
-  	color: #333333;
+	border: 1px solid #2AC2F5;
+	border-radius: 15px;
+	cursor: pointer;  	
+    font-size: 15px;
+  	padding: 13px 65px;
+  	background: #2AC2F5;
+  	color: white;
+  	text-transform: uppercase;
 }
