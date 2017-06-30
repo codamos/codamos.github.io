@@ -1,0 +1,31 @@
+/*COMPONENTES BASICOS*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*CABECALHO*/
+.logo{
+	}
+
+.navegacao{
+	display: flex;
+}
+
+/*BANNER*/
+#banner{
+	background-image: url("../imagens/mulher.png");
+	background-repeat: no-repeat;
+}
