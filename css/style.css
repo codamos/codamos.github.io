@@ -1,0 +1,289 @@
+/*Cores*/
+.white{
+	color: #eeeeee;
+}
+
+.grey{
+	color:#434343;
+}
+
+.white-two{
+	color: #ffffff;
+}
+
+.black{
+	color: #333333;
+}
+
+.lipstick{
+	color: #ba205a;
+}
+
+.windows-blue{
+	color: : #3b57c2;
+}
+
+.black-two{
+	color: #030303;
+}
+
+.pea{
+	color: #cbad22;
+}
+
+.ocher{
+	color: #c2a20c;
+}
+
+.black-three{
+	color: #000000;
+}
+
+.dusty-lavender{
+	color: #cac8c9;
+}
+
+.maize{
+	color: #f3c259;
+}
+
+.white-three{
+color: #fefefe;
+}
+/*Fim de Cores*/
+
+/* Text styles */
+.title-large {
+  font-family: Roboto;
+  font-size: 60px;
+  text-align: center;
+}
+
+.title-medium {
+  font-family: Roboto;
+  font-size: 48px;
+  text-align: center;
+}
+
+.title-normal {
+  font-family: Roboto;
+  font-size: 36px;
+  text-align: left;
+}
+
+.Text-Style {
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: left;
+  color: #c2a20c;
+  color: var(--ocher);
+}
+
+.text-medium {
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: left;
+}
+
+.text-normal {
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-small {
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white-two);
+}
+
+/*Lista de Palestrantes da página de palestrantes*/
+#find-a-speaker h2, #find-a-speaker p{
+	text-align: center;
+}
+
+/*Estilos para o Speaker Card*/
+.speaker-card{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	justify-content: space-around;
+  width: 304px;
+  height: 508px;
+  background-color: #ffffff;
+  border: solid 0.4px #000000;
+}
+
+.speaker-card img{
+	width: 117px;
+  height: 117px;
+  border: solid 6px #1bb6c1;
+	border-radius: 50%;
+}
+
+.speaker-card h4{
+	width: 100%;
+	height: 18px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #ba205a;
+	margin: 0 auto;
+}
+
+#adress{
+	width: 100%;
+  height: 18px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #333333;
+}
+
+#skills{
+	width: 100%;
+  height: 17px;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  color: #ba205a;
+}
+
+.speaker-labels{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+}
+
+.speaker-labels i{
+	color:  #1bb6c1;
+}
+
+.speaker-card p{
+	margin: 0 auto;
+	width: 90%;
+  height: auto;
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+  color: #030303;
+  color: var(--black-two);
+}
+
+.speakers-social-media{
+	width: 60%;
+}
+
+.speakers-social-media ul{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+
+.speakers-social-media li{
+	width: 31px;
+  height: 31px;
+}
+
+.button-primary{
+	background: #1bb6c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+	width: 152px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-secundary{
+	border: solid 2px #5ebede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+	width: 233px;
+  height: 46px;
+	font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+  color: #5ebede;
+	margin: 15px auto;
+}
+
+#highlighted-speakers{
+	margin: 0 auto;
+}
+
+.highlighted-speakers-cards{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.midle img{
+	border: solid 6px #1bb6c1;
+}
+
+/*Estilos do Filtro*/
+
+.speakers-tags label{
+	border: solid 2px #1bb6c1;
+  padding: 10px;
+  border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.speakers-tags{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.speakers-tag label{
+	font-family: 'roboto', Arial, sans-serif;
+	width: 25%;
+	height: 30px;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	line-height: 33px;
+	font-size: 19px;
+	background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	float:left;
+	box-shadow:
+		0px 0px 0px 1px #aaa,
+		1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+		0px 1px 2px rgba(0,0,0,0.2);
+}
+
+.speakers-tag input.selector-venus:checked ~ label.label-venus,
+.speakers-tag input.selector-wheelchair:checked ~ label.label-wheelchair,
+.speakers-tag input.selector-plane:checked ~ label.label-plane,
+.speakers-tag input.selector-link:checked ~ label.label-link,
+.speakers-tag input.selector-sign-language:checked ~ label.label-sign-language,
+.speakers-tag input.selector-transgender:checked ~ label.label-transgender,
+.speakers-tag input.selector-venus-mars:checked ~ label.label-venus-mars,
+.speakers-tag input.selector-hand-rock-o:checked ~ label.label-hand-rock-o{
+	background: linear-gradient(top, #646d93 0%,#7c87ad 100%);
+	color: #424d71;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	box-shadow:
+		0px 0px 0px 1px #40496e,
+		0 1px 2px rgba(0,0,0,0.1) inset;
+}
+
+.speakers-tag input{
+	display: none;
+}
