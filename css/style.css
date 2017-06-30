@@ -5,27 +5,95 @@
 
 body{
 	margin: 0;
+	font-family: Roboto;
 }
 
 li {
 	list-style: none;
 }
 
-.container{
-	width: 1140px;
-	margin: 0 auto;
-}
-
 /*CABECALHO*/
-.logo{
-	}
-
-.navegacao{
-	display: flex;
+#cabecalho {
+	padding: 5px 30px;
+    background-color: #eeeeee;
 }
+
+.navbar {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search {
+  width: 219px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 0.4px #000000;
+}
+
+#menu ul{
+	margin-top: 25px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a{
+	padding: 10px;
+    font-size: 14px;
+}
+
+#menu a:hover {
+	color: #ba205a;
+	cursor: pointer;
+}
+
+ul.social-media {
+    padding-top: 7px;
+}
+
+.social-media li{
+	display: inline;
+	padding: 3px;
+}
+
+.social-media i.fa{
+	font-size: 22px;
+    color: #666666;
+}
+
+input.search {
+    margin-top: 17px;
+    border: solid 1px #999999;
+    text-align: center;
+}
+
 
 /*BANNER*/
 #banner{
 	background-image: url("../imagens/mulher.png");
 	background-repeat: no-repeat;
+	padding: 10px;
+	text-align: center;
+	height: 90vh;
+	background-size: cover;
+	color: white;
+}
+
+.title{
+	font-size: 40px;
+}
+
+.button-primary{
+	border: 1px solid;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 220px;
+  	height: 43px;
+  	font-size: 15px;
+  	padding: 10px 20px;
+  	background: #ccc;
+  	color: #333333;
 }
