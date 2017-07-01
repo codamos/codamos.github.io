@@ -110,6 +110,7 @@ li {
     background: #2AC2F5;
     color: white;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -155,7 +156,7 @@ body {
 .events label[for="load_more"] {
     left: 50%;
     bottom: 30px;
-    margin: 0 0 0 40px;
+    margin: 0;
     position: absolute;
     transform: translateX(-50%);
 }
@@ -182,26 +183,59 @@ body {
 
 .events .button-primary {
     color: white;
-    background-color: #bbcc5e;
-    border: none;
-    border-radius: 5px;
+    background: #d6de23;
+    border: 1px solid #d6de23;
+    border-radius: 15px;
     cursor: pointer;
-    padding: 5px;
-    width: 153px;
+    padding: 13px 65px;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .events .button-secondary {
-    color: white;
-    background-color: #1bb6c1;
-    border: none;
-    border-radius: 5px;
+    color: #1bb6c1;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #1bb6c1;
+    border-radius: 15px;
     cursor: pointer;
-    padding: 10px;
+    padding: 13px 65px;
     width: 233px;
     margin: 70px auto 0 auto;
     display: block;
+    text-transform: uppercase;
+}
+
+.events-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    color: #333333;
+    padding: 65px 0;
+    margin: 0;
+}
+
+.events-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    color: #BB1B58;
+    margin: 65px 0 30px 0;
+}
+
+.events-description {
+    max-width: 823px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #030303;
+    margin: 0 auto;
 }
 
 .card-event {
@@ -460,7 +494,6 @@ body {
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px;
     color:  #ffffff;
     border: 2px solid #ffffff;
     border-radius: 15px;
