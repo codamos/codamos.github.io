@@ -6,46 +6,111 @@ body {
 	font-size: 14px;
 }
 
-section {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
+.events {
+	position: relative;
+}
+
+.events ul {
+	padding: 0;
+	position: relative;
+}
+
+.events:after {
+	clear: both
+}
+
+.events:before, .events:after {
+	content: "";
+	display: inline;
+}
+
+.events input[type=checkbox] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+}
+
+.events label[for="load_more"] {
+	left: 50%;
+	bottom: -3rem;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.events label[for="load_more"] span:last-of-type {
+	display: none;
+	visibility: hidden;
+}
+
+.events input[type=checkbox]:checked ~ ul li {
+	display: inline-block;
+	visibility:visible;
+}
+
+.events input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
+	display: none;
+	visibility: hidden;
+}
+
+.events input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
+	visibility: visible;
+	display:block
 }
 
 .card-event {
 	position: relative;
-	margin: 0 10px;
-	width: 255px;
+	display: inline-block;
+	margin: 37px 10px;
+	width: 25%;
+}
+
+.card-event:nth-child(n+7) {
+	display: none;
+	visibility: hidden;
 }
 
 .card-event-header img {
-	width: 255px;
+	width: 100%;
     height: 137px;
 }
 
-.card-event-header p {
+.card-event-header span {
     position: absolute;
-    top: -8px;
+    top: 4px;
     color: #ffffff;
-    left: 155px;
+    right: 0;
     background-color: #008d8d;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     width: 100px;
     height: 25px;
     font-size: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    opacity: 0.9;
  }
 
-
- h3{
+.card-event-title {
  	color: #d52f5e;
  	white-space: nowrap;
- 	overflow: hidden;
+ 	text-transform: uppercase;
  	text-overflow: ellipsis;
- }
+ 	overflow: hidden;
+ 	margin: 13px 0 0 19px;
+}
+
+.card-event-body > * {
+	margin: 8px 0;
+}
+
+.card-event-body-local p {
+	margin: 0;
+}
 
 .card-event-body .card-event-body-local,
 .card-event-body .card-event-body-date {
@@ -54,11 +119,11 @@ section {
 	align-items: center;
 }
 
-
 .card-event-body .fa,
 .card-event-body .card-event-body-social-media .fa {
 	color: #6d6d6d;
-	margin-right: 5px;
+	font-size: 25px;
+	margin-right: 8px;
 }
 
 .button-primary {
@@ -84,27 +149,3 @@ section {
     margin: 70px auto 0 auto;
     display: block;
 }
-
-.speedlist { position: relative;}
-.speedlist .card-event {display:inline ; margin:30px}
-.speedlist:before, .speedlist:after { content: ""; display: inline;}
-.speedlist:after { clear: both }
-.speedlist .card-event:nth-child(n+11) { display: none; visibility: hidden;}
-
-input[type=checkbox] { border: 0; clip: rect(0 0 0 0);  height: 1px;    width: 1px;  margin: -1px;    overflow: hidden;    padding: 0;    position: absolute;}
-
-[for="load_more"] { color: white;
-	background-color: #1bb6c1;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-    padding: 10px;
-    width: 233px;
-    margin: 70px auto 0 auto;
-    display: block;
-}
-[for="load_more"] span:last-of-type { display: none; visibility: hidden;}
-
-input[type=checkbox]:checked ~ .card-event { display: inline; visibility:visible; }
-input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {display: none; visibility: hidden;}
-input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {visibility: visible;display:block}
