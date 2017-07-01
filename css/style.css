@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*COMPONENTES BASICOS*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto;
+}
+
+li {
+	list-style: none;
+}
+
+/*CABECALHO*/
+#header {
+	padding: 5px 30px;
+    background-color: #eeeeee;
+}
+
+.header-navbar {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-navbar-menu ul {
+	margin-top: 25px;
+}
+
+.header-navbar-menu ul li {
+	display: inline;
+}
+
+.header-navbar-menu ul li a {
+	padding: 10px;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.header-navbar-menu a:hover {
+	color: #ba205a;
+	cursor: pointer;
+}
+
+.header-social-media {
+    padding-top: 7px;
+}
+
+.header-social-media li {
+	display: inline;
+	padding: 2px;
+}
+
+.header-social-media i.fa {
+	font-size: 22px;
+    color: #666666;
+}
+
+.search {
+	text-align: center;
+	width: 219px;
+	height: 30px;
+    margin-top: 17px;
+    border: solid 1px #999999;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+/*BANNER*/
+#banner{
+	background-image: url("../imagens/campus.png");
+	background-repeat: no-repeat;
+	padding: 10px;
+	text-align: center;
+	height: 90vh;
+	background-size: cover;
+	color: white;
+	padding-top: 160px;
+}
+
+.title {
+  height: 47px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-title {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.button-primary {
+	border: 1px solid #2AC2F5;
+	border-radius: 15px;
+	cursor: pointer;  	
+    font-size: 15px;
+  	padding: 13px 65px;
+  	background: #2AC2F5;
+  	color: white;
+  	text-transform: uppercase;
+}
