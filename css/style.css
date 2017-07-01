@@ -48,55 +48,55 @@
 }
 
 .white-three{
-color: #fefefe;
+    color: #fefefe;
 }
 /*Fim de Cores*/
 
 /* Text styles */
 .title-large {
-  font-family: Roboto;
-  font-size: 60px;
-  text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    text-align: center;
 }
 
 .title-medium {
-  font-family: Roboto;
-  font-size: 48px;
-  text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    text-align: center;
 }
 
 .title-normal {
-  font-family: Roboto;
-  font-size: 36px;
-  text-align: left;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: left;
 }
 
-.Text-Style {
-  font-family: Roboto;
-  font-size: 30px;
-  text-align: left;
-  color: #c2a20c;
-  color: var(--ocher);
+.text-style {
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: left;
+    color: #c2a20c;
+    color: var(--ocher);
 }
 
 .text-medium {
-  font-family: Roboto;
-  font-size: 24px;
-  text-align: left;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: left;
 }
 
 .text-normal {
-  font-family: Roboto;
-  font-size: 20px;
-  text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
 }
 
 .text-small {
-  font-family: Roboto;
-  font-size: 14px;
-  text-align: left;
-  color: #ffffff;
-  color: var(--white-two);
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    color: var(--white-two);
 }
 
 /*Lista de Palestrantes da página de palestrantes*/
@@ -106,20 +106,20 @@ color: #fefefe;
 
 /*Estilos para o Speaker Card*/
 .speaker-card{
-	display: flex;
-  flex-direction: column;
-  align-items: center;
-	justify-content: space-around;
-  width: 304px;
-  height: 508px;
-  background-color: #ffffff;
-  border: solid 0.4px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 304px;
+    height: 508px;
+    background-color: #ffffff;
+    border: solid 0.4px #000000;
 }
 
 .speaker-card img{
 	width: 117px;
-  height: 117px;
-  border: solid 6px #1bb6c1;
+    height: 117px;
+    border: solid 6px #1bb6c1;
 	border-radius: 50%;
 }
 
@@ -136,21 +136,21 @@ color: #fefefe;
 
 #adress{
 	width: 100%;
-  height: 18px;
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
-  color: #333333;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #333333;
 }
 
 #skills{
 	width: 100%;
-  height: 17px;
-  font-family: Roboto;
-  font-size: 24px;
-  text-align: center;
-  color: #ba205a;
+    height: 17px;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: center;
+    color: #ba205a;
 }
 
 .speaker-labels{
@@ -166,12 +166,12 @@ color: #fefefe;
 .speaker-card p{
 	margin: 0 auto;
 	width: 90%;
-  height: auto;
-  font-family: Roboto;
-  font-size: 18px;
-  text-align: center;
-  color: #030303;
-  color: var(--black-two);
+    height: auto;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    color: #030303;
+    color: var(--black-two);
 }
 
 .speakers-social-media{
@@ -188,35 +188,35 @@ color: #fefefe;
 
 .speakers-social-media li{
 	width: 31px;
-  height: 31px;
+    height: 31px;
 }
 
 .button-primary{
 	background: #1bb6c1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 	width: 152px;
-  height: 38px;
-  font-family: Roboto;
-  font-size: 18px;
-  text-align: center;
-  color: #ffffff;
+    height: 38px;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .button-secundary{
 	border: solid 2px #5ebede;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 	width: 233px;
-  height: 46px;
+    height: 46px;
 	font-family: Roboto;
-  font-size: 18px;
-  text-align: center;
-  color: #5ebede;
+    font-size: 18px;
+    text-align: center;
+    color: #5ebede;
 	margin: 15px auto;
 }
 
@@ -238,8 +238,8 @@ color: #fefefe;
 
 .speakers-tags label{
 	border: solid 2px #1bb6c1;
-  padding: 10px;
-  border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
 	margin-bottom: 15px;
 }
 
