@@ -114,7 +114,7 @@ li {
 
 
 /*EQUIPE E COLABORADORES*/
-.team-colaborators {
+#team-colaborators {
     position: relative;
     padding: 79px 170px;
     background-color: #eeeeee;
@@ -175,16 +175,13 @@ li {
 }
 
 .team-colaborators-card li a {
+    font-size: 25px;
     color: #BB1B58;
     text-decoration: none;
 }
 
 
-
-
-
-/*------------------------------*/
-/*código de conduta*/
+/*CÓDIGO DE CONDUTA*/
 
 #code-of-conduct {
     width: 100%;
@@ -216,8 +213,7 @@ li {
 }
 
 
-/*----------------------------
-parceiros e apoiadores*/
+/*PARCEIROS E APOIADORES*/
 #partners-supporters {
     background-color: #eeeeee;
     width: 100%;
@@ -317,8 +313,7 @@ parceiros e apoiadores*/
 }
 
 
-/*-----------------------------------
-incluir palestrante*/
+/*INCLUIR PALESTRANTE*/
 #include-speaker {
     position: fixed;
     width: 100%;
@@ -342,8 +337,7 @@ incluir palestrante*/
 }
 
 
-/*-----------------------------------
-incluir evento*/
+/*INCLUIR EVENTO*/
 #include-event {
     position: fixed;
     width: 100%;
@@ -367,8 +361,7 @@ incluir evento*/
 }
 
 
-/*------------------------------*/
-/*footer*/
+/*FOOTER*/
 #footer {
     height: 290.3px;
     background-color: #2f2f2f;
@@ -450,8 +443,7 @@ incluir evento*/
 }
 
 
-/*------------------------------------*/
-/* The Modal (background) */
+/*MODAL*/
 #myBtn {
     background-color: #B2B222;
     color:  #ffffff;
@@ -464,38 +456,26 @@ incluir evento*/
 
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
-    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    /* Could be more or less, depending on screen size */
 }
 
 
-/* The Close Button */
 .close {
     color: #aaa;
     float: right;
