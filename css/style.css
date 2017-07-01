@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*COMPONENTES BASICOS*/
-*{
+* {
 	box-sizing: border-box;
 }
 
-body{
+body {
 	margin: 0;
 	font-family: Roboto;
 }
@@ -15,62 +15,58 @@ li {
 }
 
 /*CABECALHO*/
-#cabecalho {
+#header {
 	padding: 5px 30px;
     background-color: #eeeeee;
 }
 
-.navbar {
+.header-navbar {
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.search {
-  width: 219px;
-  height: 30px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  border: solid 0.4px #000000;
-}
-
-#menu ul{
+.header-navbar-menu ul {
 	margin-top: 25px;
 }
 
-#menu ul li {
+.header-navbar-menu ul li {
 	display: inline;
 }
 
-#menu ul li a{
+.header-navbar-menu ul li a {
 	padding: 10px;
     font-size: 15px;
     font-family: Roboto;
 }
 
-#menu a:hover {
+.header-navbar-menu a:hover {
 	color: #ba205a;
 	cursor: pointer;
 }
 
-ul.social-media {
+.header-social-media {
     padding-top: 7px;
 }
 
-.social-media li{
+.header-social-media li {
 	display: inline;
 	padding: 2px;
 }
 
-.social-media i.fa{
+.header-social-media i.fa {
 	font-size: 22px;
     color: #666666;
 }
 
-input.search {
+.search {
+	text-align: center;
+	width: 219px;
+	height: 30px;
     margin-top: 17px;
     border: solid 1px #999999;
-    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
 
@@ -86,21 +82,19 @@ input.search {
 	padding-top: 160px;
 }
 
-.title{
-  width: 872px;
+.title {
   height: 47px;
   font-size: 48px;
   font-weight: bold;
-  margin-left: 202px;
-
+  text-align: center;
 }
 
-.sub-title{
+.sub-title {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
 
-.button-primary{
+.button-primary {
 	border: 1px solid #2AC2F5;
 	border-radius: 15px;
 	cursor: pointer;  	
