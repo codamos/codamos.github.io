@@ -113,6 +113,162 @@ li {
 }
 
 
+/*EVENTOS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.events {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.events ul {
+    padding: 0;
+    position: relative;
+}
+
+.events:after {
+    clear: both
+}
+
+.events:before, .events:after {
+    content: "";
+    display: inline;
+}
+
+.events input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.events label[for="load_more"] {
+    left: 50%;
+    bottom: 30px;
+    margin: 0 0 0 40px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.events label[for="load_more"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+.events input[type=checkbox]:checked ~ ul li {
+    display: inline-block;
+    visibility:visible;
+}
+
+.events input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+.events input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
+    visibility: visible;
+    display:block
+}
+
+.events .button-primary {
+    color: white;
+    background-color: #bbcc5e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 153px;
+    margin: 0 auto;
+    display: block;
+}
+
+.events .button-secondary {
+    color: white;
+    background-color: #1bb6c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 233px;
+    margin: 70px auto 0 auto;
+    display: block;
+}
+
+.card-event {
+    position: relative;
+    display: inline-block;
+    margin: 37px 10px;
+    width: 25%;
+}
+
+.card-event:nth-child(n+7) {
+    display: none;
+    visibility: hidden;
+}
+
+.card-event-header img {
+    width: 100%;
+    height: 137px;
+}
+
+.card-event-header span {
+    position: absolute;
+    top: 4px;
+    color: #ffffff;
+    right: 0;
+    background-color: #008d8d;
+    border-radius: 5px 0 0 5px;
+    width: 100px;
+    height: 25px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+ }
+
+.card-event-title {
+    color: #d52f5e;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 13px 0 0 19px;
+}
+
+.card-event-body > * {
+    margin: 8px 0;
+}
+
+.card-event-body-local p {
+    margin: 0;
+}
+
+.card-event-body .card-event-body-local,
+.card-event-body .card-event-body-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-event-body .fa,
+.card-event-body .card-event-body-social-media .fa {
+    color: #6d6d6d;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+
 /*EQUIPE E COLABORADORES*/
 #team-colaborators {
     position: relative;
