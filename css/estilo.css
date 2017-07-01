@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
 section {
@@ -11,24 +14,37 @@ section {
 
 .card-event {
 	position: relative;
-	text-align: center;
-	margin: 0 15px;
+	margin: 0 10px;
+	width: 255px;
 }
 
 .card-event-header img {
-	width: 252px;
-    height: 136px;
+	width: 255px;
+    height: 137px;
 }
 
 .card-event-header p {
- 	position: absolute;
-    top: -13px;
-    color: #f3c259;
-    left: 140px;
+    position: absolute;
+    top: -8px;
+    color: #ffffff;
+    left: 155px;
+    background-color: #008d8d;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
  }
+
 
  h3{
  	color: #d52f5e;
+ 	white-space: nowrap;
+ 	overflow: hidden;
+ 	text-overflow: ellipsis;
  }
 
 .card-event-body .card-event-body-local,
