@@ -14,10 +14,6 @@ li {
     list-style: none;
 }
 
-.in-transition {
-    transition: transform 900ms ease;
-}
-
 
 /*CORES*/
 .white{
