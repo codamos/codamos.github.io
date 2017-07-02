@@ -23,14 +23,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-// Scroll to a certain element
-var scrolls = document.querySelectorAll('.scroll');
-
-for (var i = 0; i < scrolls.length; i++) {
-	scrolls[i].onclick = function(event) {
-		this.scrollIntoView({ 
-		  	behavior: 'smooth' 
-		});
-	}
-}

@@ -5,28 +5,52 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="css/font-awesome.css" rel="stylesheet">
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-101942144-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<!-- CABECALHO-->
 		<header id="header">
 			<div class="header-navbar">
-				<a class="logo" href="#"><img src="imagens/logo.png"></a>
+				<a class="logo" href="/"><img src="images/logo.png"></a>
 				
 				<nav class="header-navbar-menu">
 					<ul>
-						<li><a herf="#eventos">Eventos</a></li>
-						<li><a herf="#palestrantes">Palestrantes</a></li>
-						<li><a herf="#quemsomos">Quem Somos</a></li>
-						<li><a herf="#quemsomos">Código de conduta</a></li>
-						<li><a herf="#quemsomos">Include</a></li>
+						<li><a class="scroll" href="#events">Eventos</a></li>
+						<li><a class="scroll" href="#highlighted-speakers">Palestrantes</a></li>
+						<li><a class="scroll" href="#code-of-conduct">Código de conduta</a></li>
 					</ul>
 				</nav>
 
 				<ul class="header-social-media">
-					<li><i class="fa fa-facebook-square" alt="iconeface" title="facebook"></i></li>
-					<li><i class="fa fa-twitter-square" alt="iconetwitter" title="twitter"></i></li>
-					<li><i class="fa fa-github-square" alt="iconegithub" title="github"></i></li>
-					<li><i class="fa fa-medium" alt="iconemedium" title="medium"></i></li>
+					<li>
+						<a href="https://twitter.com/CodamosClub" target="_blank">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+				    </li>
+				    <li>
+						<a href="https://www.facebook.com/codamosclub" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+				    </li>
+				    <li>
+						<a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+							<i class="fa fa-meetup" aria-hidden="true"></i>
+						</a>
+				    </li>
+				    <li>
+						<a href="https://medium.com/codamos" target="_blank">
+							<i class="fa fa-medium" aria-hidden="true"></i>
+						</a>
+				    </li>
 				</ul>
 
 				<input class="search" type="search" placeholder="Pesquisar">
@@ -44,7 +68,7 @@
 		</section>
 
 	    <!-- EVENTOS -->
-	    <section class="events">
+	    <section id="events">
 	    	<h2 class="events-title">Onde estão os eventos?</h2>
 
 	    	<p class="events-description">
@@ -63,7 +87,7 @@
 			<ul>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/frontinsampa1.png">
+		 				<img src="images/frontinsampa1.png">
 		 				<span>#FrontinSampa</span>
 		 			</div>
 		 			<h3 class="card-event-title">FrontinSampa</h3>
@@ -87,7 +111,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/empodera.png">
+		 				<img src="images/empodera.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">EMPODERA - MULHERES DE ATITUDE</h3>
@@ -111,7 +135,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/nodebr.png">
+		 				<img src="images/nodebr.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">NodeBR #28 - Node.js Além de Web Services</h3>
@@ -135,7 +159,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/asminas.png">
+		 				<img src="images/asminas.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">AS MINAS E AS CARREIRAS #1</h3>
@@ -159,7 +183,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/bela.png">
+		 				<img src="images/bela.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">BELA, EMPREENDEDORA E DO BAR #5 Mulheres na Obra</h3>
@@ -183,7 +207,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/lewagon.png">
+		 				<img src="images/lewagon.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">Product Specs 101 - Define seu produto na lingua do seu CTO</h3>
@@ -207,7 +231,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/designthin.png">
+		 				<img src="images/designthin.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">Design Thinking: Um bate-papo sobre o assunto. 2º Edição</h3>
@@ -231,7 +255,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/frontendday.png">
+		 				<img src="images/frontendday.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">Front-End Day</h3>
@@ -255,7 +279,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/ff.png">
+		 				<img src="images/ff.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">Fast Forward Design Thinking #2 @SP</h3>
@@ -279,7 +303,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/unicorn.png">
+		 				<img src="images/unicorn.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">LIVING WITH UNICORNS - SPOTIFY AND WEWORK</h3>
@@ -303,7 +327,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/roadsec.png">
+		 				<img src="images/roadsec.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">HACKAFLAG</h3>
@@ -327,7 +351,7 @@
 		 		</li>
 		 		<li class="card-event">
 		 			<div class="card-event-header">
-		 				<img src="imagens/maria.png">
+		 				<img src="images/maria.png">
 		 				<span></span>
 		 			</div>
 		 			<h3 class="card-event-title">Café com Marialab</h3>
@@ -356,132 +380,115 @@
 	    <section id="highlighted-speakers">
 			<h2 class="lipstick title-medium">Palestrantes</h2>
 
-	      	<ul class="highlighted-speakers-cards">
+	      	<ul class="speakers-cards">
 		        <li class="speaker-card">
-		          <img src="imgs/Jeliel_Mendes.jpg" alt="">
-		          <h4 class="lipstick title-large">Evelyn Jeliel Mendes</h4>
-		          <p class="address">Porto Alegre - RS</p>
-		          <div class="speaker-labels">
-		            <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
-		            <span class="label-site"><i class="fa fa-link fa-2x" aria-hidden="true"></i></span>
-		            <span class="label-trans"><i class="fa fa-transgender-alt fa-2x" aria-hidden="true"></i></span>
-		          </div>
-		          <p  class="skills">#HTML #CSS #UI #UX</p>
-		          <p>
-		          	Mulher transexual, analista e desenvolvedora de sistemas, amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
-	          	  </p>
-		          <nav class="speakers-social-media">
-		            <ul>
-		              <li><a href="https://twitter.com/jelielmendes"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
+		            <img src="images/jeliel-mendes.jpg" alt="Jeliel Mendes"/>
+		            <h4 class="lipstick title-large">Evelyn Jeliel Mendes</h4>
+		            <p class="speaker-card-address">Porto Alegre - RS</p>
+					<div class="speaker-card-labels">
+						<span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
+						<span class="label-site"><i class="fa fa-link fa-2x" aria-hidden="true"></i></span>
+						<span class="label-trans"><i class="fa fa-transgender-alt fa-2x" aria-hidden="true"></i></span>
+					</div>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+					<p class="speaker-card-bio">
+						Mulher transexual, analista e desenvolvedora de sistemas, amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+					</p>
+		            <ul class="speakers-social-media">
+		            	<li><a href="https://twitter.com/jelielmendes"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
 		            </ul>
-		          </nav>
-		          <a class="button-primary">Entrar em contato</a>
+		            <a class="button-primary">Entrar em contato</a>
 		        </li>
 		        <li class="speaker-card">
-		          <img src="imgs/Geisy_Domiciano.jpg" alt="">
-		          <h4 class="lipstick title-large">Geisy Domiciano</h4>
-		          <p class="address">Diadema - SP</p>
-		          <div class="speaker-labels">
-		            <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
-		          </div>
-		          <p  class="skills">#HTML #CSS #UI #UX</p>
-		          <p>
-		          	Apaixonada por desenvolvimento front end, interessada em DevOps e IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
-      			  </p>
-		          <nav class="speakers-social-media">
-		            <ul>
-		              <li><a href="https://www.linkedin.com/in/geisydomiciano/"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
-		              <li><a href="https://github.com/gdomiciano"><i class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a></li>
+		            <img src="images/geisy-domiciano.jpg" alt="Geisy Domiciano"/>
+		            <h4 class="lipstick title-large">Geisy Domiciano</h4>
+		            <p class="speaker-card-address">Diadema - SP</p>
+					<div class="speaker-card-labels">
+						<span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
+					</div>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+					<p class="speaker-card-bio">
+						Apaixonada por desenvolvimento front end, interessada em DevOps e IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
+					</p>
+		            <ul class="speakers-social-media">
+		            	<li><a href="https://www.linkedin.com/in/geisydomiciano/"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/gdomiciano"><i class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a></li>
 		            </ul>
-		          </nav>
-		          <a class="button-primary">Entrar em contato</a>
+		            <a class="button-primary">Entrar em contato</a>
 		        </li>
 		        <li class="speaker-card">
-		          <div class="speaker-card midle">
-		            <img src="imgs/Ivanise_Gomes.jpg" alt="">
+		        	<img src="images/ivanise-gomes.jpg" alt="Ivanise Gomes"/>
 		            <h4 class="lipstick title-large">Ivanise Maravalhas Gomes</h4>
-		            <p class="address">São Paulo - SP</p>
-		            <div class="speaker-labels">
-		              <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
+		            <p class="speaker-card-address">São Paulo - SP</p>
+		            <div class="speaker-card-labels">
+		            	<span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
 		            </div>
-		            <p  class="skills">#HTML #CSS #UI #UX</p>
-		            <p>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+		            <p class="speaker-card-bio">
 		            	Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento de software e gestão de projetos e programas. Especialista em e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
 		            </p>
-		            <nav class="speakers-social-media">
-		              <ul>
+		            <ul class="speakers-social-media">
 		                <li><a href="#"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
-		              </ul>
+		            </ul>
 		            </nav>
 		            <a class="button-primary">Entrar em contato</a>
-		          </div>
 		        </li>
 		        <li class="speaker-card">
-		          <div class="speaker-card midle">
-		            <img src="imgs/Tatiana_Barros.jpg" alt="">
+		          	<img src="images/tatiana-barros.jpg" alt="Tatiana Barros"/>
 		            <h4 class="lipstick title-large">Tatiana Barros</h4>
-		            <p class="address">São Paulo - SP</p>
-		            <div class="speaker-labels">
-		              <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
+		            <p class="speaker-card-address">São Paulo - SP</p>
+		            <div class="speaker-card-labels">
+		            	<span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
 		            </div>
-		            <p  class="skills">#HTML #CSS #UI #UX</p>
-		            <p>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+		            <p class="speaker-card-bio">
 		            	Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar. Criadora do
-		               Smart Cities for teens para alunos da rede pública. Ama jornada do herói, arduínos e chatbots.
+		            	Smart Cities for teens para alunos da rede pública. Ama jornada do herói, arduínos e chatbots.
 	                </p>
-		            <nav class="speakers-social-media">
-		              <ul>
+		            <ul class="speakers-social-media">
 		                <li><a href="https://www.linkedin.com/in/tatybarros/"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
 		                <li><a href="https://twitter.com/umataldetatiana"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
-		              </ul>
-		            </nav>
+		            </ul>
 		            <a class="button-primary">Entrar em contato</a>
-		          </div>
 		        </li>
 		        <li class="speaker-card">
-		          <div class="speaker-card midle">
-		            <img src="imgs/Thais_Moura.jpg" alt="">
+		        	<img src="images/thais-moura.jpg" alt="Thais Moura"/>
 		            <h4 class="lipstick title-large">Thais Moura</h4>
-		            <p class="address">Recife - PE</p>
-		            <div class="speaker-labels">
-		              <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
+		            <p class="speaker-card-address">Recife - PE</p>
+		            <div class="speaker-card-labels">
+		            	<span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
 		            </div>
-		            <p  class="skills">#HTML #CSS #UI #UX</p>
-		            <p>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+		            <p class="speaker-card-bio">
 		            	Sou analista de qualidade, graduada em SI pela UFRPE e mestranda. Adoro encontrar formas de ajudar no processo ágil de desenvolvimento de software e na garantia da qualidade.
 	            	</p>
-		            <nav class="speakers-social-media">
-		              <ul>
+		            <ul class="speakers-social-media">
 		                <li><a href="https://www.linkedin.com/in/tha%C3%ADs-freitas-056b1540/"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
 		                <li><a href="https://twitter.com/tha_ta"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
-		              </ul>
-		            </nav>
+		            </ul>
 		            <a class="button-primary">Entrar em contato</a>
-		          </div>
 		        </li>
 		        <li class="speaker-card">
-		          <div class="speaker-card midle">
-		            <img src="imgs/Cleber_Santos.jpg" alt="">
+		            <img src="images/cleber-santos.jpg" alt="Cleber Santos"/>
 		            <h4 class="lipstick title-large">Cleber J. Santos</h4>
-		            <p class="address">São Paulo - SP</p>
-		            <div class="speaker-labels">
-		              <span class="label-black"><i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i></span>
+		            <p class="speaker-card-address">São Paulo - SP</p>
+		            <div class="speaker-card-labels">
+						<span class="label-black"><i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i></span>
 		            </div>
-		            <p  class="skills">#HTML #CSS #UI #UX</p>
-		            <p>
+		            <p class="speaker-card-skills">#HTML #CSS #UI #UX</p>
+		            <p class="speaker-card-bio">
 		            	Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária além de linguagens antigas como Pascal e Assembly. Desenvolvedor Python desde 2005 e amante de Varnish-Cache.
 	            	</p>
-		            <nav class="speakers-social-media">
-		              <ul>
+		            <ul class="speakers-social-media">
 		                <li><a href="https://twitter.com/cleberjsantos"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
 		                <li><a href="https://github.com/cleberjsantos"><i class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a></li>
-		            </nav>
+		            </ul>
 		            <a class="button-primary">Entrar em contato</a>
-		          </div>
 		        </li>
 	        </ul>
 	        <!-- <a class="button-secundary">Ver mais</a> -->
 	    </section>
+
 
 	    <!-- EQUIPE E COLABORADORES -->
 	    <section id="team-colaborators">
@@ -489,7 +496,7 @@
 
             <ul class="team-colaborators-cards">
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -515,7 +522,7 @@
                     </ul>
                 </li>
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -541,7 +548,7 @@
                     </ul>
                 </li>
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -567,7 +574,7 @@
                     </ul>
                 </li>
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -593,7 +600,7 @@
                     </ul>
                 </li>
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -619,7 +626,7 @@
                     </ul>
                 </li>
                 <li class="team-colaborators-card">
-                    <img src="imagens/alda-rocha.jpg" alt="Alda Rocha" title="Alda Rocha" />
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
                     <h3>Alda Rocha</h3>
                     <ul>
                     	<li>
@@ -646,6 +653,7 @@
                 </li>
             </ul>
         </section>
+
 
         <!-- CÓDIGO DE CONDUTA -->
 		<section id="code-of-conduct">
@@ -654,75 +662,95 @@
 	        </div>
 	    </section>
 
+
 	    <!-- PARCEIROS E APOIADORES -->
 	    <section id="partners-supporters">
             <h2 class="partners-supporters-title">Parceiros e Apoiadores</h2>
 
             <ul class="partners-supporters-links">
                 <li>
-                    <a href="https://braziljs.org/" target="_blank"><img src="imagens/brasilJS.png" alt="Logo BrazilJS "/></a>
+                    <a href="https://braziljs.org/" target="_blank">
+                    	<img src="images/brasiljs.png" alt="Logo BrazilJS"/>
+                	</a>
                 </li>
                 <li>
-                    <a href="http://www.codeclubbrasil.org.br/" target="_blank "><img src="imagens/codeclub.png" alt="Logo Code Club Brasil"/></a>
+                    <a href="http://www.codeclubbrasil.org.br/" target="_blank">
+                    	<img src="images/codeclub.png" alt="Logo Code Club Brasil"/>
+                	</a>
                 </li>
                 <li>
-                    <a href="http://frontinvale.com.br/ " target="_blank "><img src="imagens/frontinvale.png" alt="Logo Front in Vale"/></a>
+                    <a href="http://frontinvale.com.br/ " target="_blank">
+                    	<img src="images/frontinvale.png" alt="Logo Front in Vale"/>
+                	</a>
                 </li>
                 <li>    
-                    <a href="http://railsgirls.com/saopaulo.html " target="_blank "><img src="imagens/rails.png" alt="Logo Rail Girls"/></a>
+                    <a href="http://railsgirls.com/saopaulo.html " target="_blank">
+                    	<img src="images/rails.png" alt="Logo Rail Girls"/>
+                	</a>
                 </li>
                 <li>
-                    <a href="http://www.frontinsampa.com.br/" target="_blank "><img src="imagens/frontinsampa2.png" alt="Logo Front in Sampa 2017"/></a>
+                    <a href="http://www.frontinsampa.com.br/" target="_blank">
+                    	<img src="images/frontinsampa2.png" alt="Logo Front in Sampa 2017"/>
+                	</a>
                 </li>
                 <li>
-                    <a href="http://www.sp.senai.br/" target="_blank"><img src="imagens/senai.png" alt="Logo Senai"/></a>
+                    <a href="http://www.sp.senai.br/" target="_blank">
+                    	<img src="images/senai.png" alt="Logo Senai"/>
+                	</a>
                 </li>
             </ul>
 
             <div class="partners-supporters-box">
                 <div class="partners-supporters-wannabe">
-                  <img src="imagens/notebook.png" alt="Teclado notebook">
+                    <img src="images/notebook.png" alt="Teclado notebook">
                   
-                  <div>
-                    <h3>Seja um parceiro</h3>
-                    <p>Envie seu email para receber maiores indormações</p>
-                  </div>
+                    <div>
+                        <h3>Seja um parceiro</h3>
+                        <p>Envie seu email para receber maiores indormações</p>
+                    </div>
                 </div>
 
                 <div class="partners-supporters-form">
-                  <a href="parceiros-incluir.html">Incluir</a>
+                    <a href="parceiros-incluir.html">Incluir</a>
                 </div>
             </div>
         </section>
 
         <!-- FOOTER -->
         <section id="footer">
-          <div class="footer-first">
-              <img class="footer-logo" src="imagens/footer.png" alt="Logo Codamos"/>
-              <p class="footer-text">Feito pela equipe Codamos 2017 com muito <3</p>
-          </div>
+            <div class="footer-first">
+                <img class="footer-logo" src="images/footer.png" alt="Logo Codamos"/>
+                <p class="footer-text">Feito pela equipe Codamos 2017 com muito <3</p>
+            </div>
 
-          <ul class="footer-menu-social" >
-              <li><a href="eventos.html" target="_self">Eventos</a></li>
-              <li><a href="palestrantes.html" target="_self">Palestrantes</a></li>
-              <li><a href="quem-somos.html" target="_self">Quem somos</a></li>
-              <li><a href="include.html" target="_self">Include</a></li>
-              <li>
-                <ul class="footer-social-media">
-                    <li>
-                      <a href="https://twitter.com/CodamosClub" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/codamosclub" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://medium.com/codamos" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-              </li>
+            <ul class="footer-menu-social" >
+				<li><a href="#events" target="_self">Eventos</a></li>
+				<li><a href="#highlighted-speakers" target="_self">Palestrantes</a></li>
+				<li><a href="#code-of-conduct" target="_self">Código de conduta</a></li>
+				<li>
+					<ul class="footer-social-media">
+					    <li>
+							<a href="https://twitter.com/CodamosClub" target="_blank">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+					    </li>
+					    <li>
+							<a href="https://www.facebook.com/codamosclub" target="_blank">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+					    </li>
+					    <li>
+							<a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+								<i class="fa fa-meetup" aria-hidden="true"></i>
+							</a>
+					    </li>
+					    <li>
+							<a href="https://medium.com/codamos" target="_blank">
+								<i class="fa fa-medium" aria-hidden="true"></i>
+							</a>
+					    </li>
+					</ul>
+				</li>
             </ul>
         </section>
 	</body>

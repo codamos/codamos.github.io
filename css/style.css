@@ -14,6 +14,10 @@ li {
     list-style: none;
 }
 
+.in-transition {
+    transition: transform 900ms ease;
+}
+
 
 /*CORES*/
 .white{
@@ -124,8 +128,12 @@ li {
 
 /*CABECALHO*/
 #header {
+    position: fixed;
+    width: 100%;
     padding: 5px 30px;
     background-color: #eeeeee;
+    box-shadow: 0 0 10px 0 #999;
+    z-index: 1;
 }
 
 .header-navbar {
@@ -143,6 +151,8 @@ li {
 }
 
 .header-navbar-menu ul li a {
+    color: currentColor;
+    text-decoration: none;
     padding: 10px;
     font-size: 15px;
     font-family: Roboto;
@@ -158,8 +168,14 @@ li {
 }
 
 .header-social-media li {
-    display: inline;
+    display: inline-block;
     padding: 2px;
+}
+
+.header-social-media ul li a, 
+.header-social-media ul li a:active, 
+.header-social-media ul li a:visited {
+    text-decoration: none;
 }
 
 .header-social-media i.fa {
@@ -180,7 +196,7 @@ li {
 
 /*BANNER*/
 #banner{
-    background-image: url("../imagens/campus.png");
+    background-image: url("../images/campus.png");
     background-repeat: no-repeat;
     text-align: center;
     height: 100vh;
@@ -193,10 +209,10 @@ li {
 }
 
 .title {
-  height: 47px;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
+    height: 47px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .sub-title {
@@ -226,12 +242,12 @@ body {
     font-size: 14px;
 }
 
-.events {
+#events {
     position: relative;
     padding-bottom: 60px;
 }
 
-.events ul {
+#events ul {
     padding: 0;
     position: relative;
 }
@@ -245,7 +261,7 @@ body {
     display: inline;
 }
 
-.events input[type=checkbox] {
+#events input[type=checkbox] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -256,7 +272,7 @@ body {
     position: absolute;
 }
 
-.events label[for="load_more"] {
+#events label[for="load_more"] {
     left: 50%;
     bottom: 30px;
     margin: 0;
@@ -264,27 +280,27 @@ body {
     transform: translateX(-50%);
 }
 
-.events label[for="load_more"] span:last-of-type {
+#events label[for="load_more"] span:last-of-type {
     display: none;
     visibility: hidden;
 }
 
-.events input[type=checkbox]:checked ~ ul li {
+#events input[type=checkbox]:checked ~ ul li {
     display: inline-block;
     visibility:visible;
 }
 
-.events input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
+#events input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
-.events input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
+#events input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
     visibility: visible;
     display:block
 }
 
-.events .button-primary {
+#events .button-primary {
     color: white;
     background: #d6de23;
     border: 1px solid #d6de23;
@@ -297,7 +313,7 @@ body {
     text-transform: uppercase;
 }
 
-.events .button-secondary {
+#events .button-secondary {
     color: #1bb6c1;
     font-size: 15px;
     text-decoration: none;
@@ -407,26 +423,63 @@ body {
 
 
 /*PALESTRANTES*/
+#highlighted-speakers {
+    margin: 0 auto;
+}
+
+#highlighted-speakers .button-primary {
+    background: #1bb6c1;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    padding: 13px 30px;
+}
+
+#highlighted-speakers .button-secundary {
+    border: solid 2px #5ebede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 233px;
+    height: 46px;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: center;
+    color: #5ebede;
+    margin: 15px auto;
+}
+
 #find-a-speaker h2, #find-a-speaker p {
     text-align: center;
 }
 
+.speakers-cards {
+    padding: 0;
+    margin: 0 0 48px 0;
+}
+
 .speaker-card {
-    width: 304px;
-    height: 508px;
+    width: 25%;
+    height: 540px;
+    padding: 20px;
     background-color: #ffffff;
     border: solid 0.4px #000000;
     display: inline-block;
-    float: left;
 }
 
-.speaker-card + .speaker-card {
-    margin: 0 0 10px 10px;
+.speaker-card:nth-child(2) {
+    margin-bottom: 10px;
 }
 
-/*.speaker-card:nth-child(odd) {
+.speaker-card:nth-child(3n-7) {
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #eaeaea;
-}*/
+}
 
 .speaker-card img {
     width: 117px;
@@ -434,11 +487,10 @@ body {
     border: solid 6px #1bb6c1;
     border-radius: 50%;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .speaker-card h4 {
-    height: 18px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: bold;
@@ -447,8 +499,7 @@ body {
     margin: 10px 0;
 }
 
-.speaker-card .adress {
-    height: 18px;
+.speaker-card-adress {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 300;
@@ -457,36 +508,34 @@ body {
     margin: 10px 0;
 }
 
-.speaker-card .skills {
-    height: 17px;
+.speaker-card-skills {
     font-family: Roboto;
     font-size: 24px;
     text-align: center;
     color: #ba205a;
     margin: 10px 0;
-}
+} 
 
-.speaker-labels {
-    margin: 10px 0;
-}
-
-.speaker-labels i {
-    color:  #1bb6c1;
-}
-
-.speaker-card p {
-    margin: 0 auto;
-    width: 90%;
-    height: auto;
+.speaker-card-bio {
+    height: 126px;
     font-family: Roboto;
     font-size: 18px;
     text-align: center;
     color: #030303;
-    color: var(--black-two);
+    margin: 0;
+}
+
+.speaker-card-labels {
+    margin: 10px 0;
+}
+
+.speaker-card-labels i {
+    color:  #1bb6c1;
 }
 
 .speakers-social-media {
-    
+    padding: 0;
+    margin: 10px 0;
 }
 
 .speakers-social-media ul {
@@ -505,48 +554,6 @@ body {
 .speakers-social-media li + li {
     margin-left: 10px;
 }
-
-#highlighted-speakers .button-primary {
-    background: #1bb6c1;
-    border-radius: 5px;
-    font-family: Roboto;
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    display: inline-block;
-    padding: 13px 30px;
-}
-
-#highlighted-speakers .button-secundary {
-    border: solid 2px #5ebede;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    width: 233px;
-    height: 46px;
-    font-family: Roboto;
-    font-size: 18px;
-    text-align: center;
-    color: #5ebede;
-    margin: 15px auto;
-}
-
-#highlighted-speakers {
-    margin: 0 auto;
-}
-
-.highlighted-speakers-cards {
-    padding: 0 48px;
-    margin: 0 0 48px 0;
-    vertical-align: text-top;
-    display: table;
-}
-
-.midle img {
-    border: solid 6px #1bb6c1;
-}
-
 
 .speakers-tags label {
     border: solid 2px #1bb6c1;
