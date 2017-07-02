@@ -3,6 +3,7 @@
 	<head>
 		<title>Codamos</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="css/font-awesome.css" rel="stylesheet">
 
@@ -24,9 +25,9 @@
 				
 				<nav class="header-navbar-menu">
 					<ul>
-						<li><a class="scroll" href="#events">Eventos</a></li>
-						<li><a class="scroll" href="#highlighted-speakers">Palestrantes</a></li>
-						<li><a class="scroll" href="#code-of-conduct">Código de conduta</a></li>
+						<li><a href="#events">Eventos</a></li>
+						<li><a href="#highlighted-speakers">Palestrantes</a></li>
+						<li><a href="#code-of-conduct">Código de conduta</a></li>
 					</ul>
 				</nav>
 
@@ -53,7 +54,43 @@
 				    </li>
 				</ul>
 
-				<input class="search" type="search" placeholder="Pesquisar">
+				<div class="header-menu-hamburger">
+					<input id="button-hamburguer" type="checkbox">
+					<label for="button-hamburguer">
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</label>
+					
+					<ul class="submenu-hamburger">
+						<li><a href="#events">Eventos</a></li>
+						<li><a href="#highlighted-speakers">Palestrantes</a></li>
+						<li><a href="#code-of-conduct">Código de conduta</a></li>
+						<li>
+							<ul>
+								<li>
+									<a href="https://twitter.com/CodamosClub" target="_blank">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+							    </li>
+							    <li>
+									<a href="https://www.facebook.com/codamosclub" target="_blank">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+							    </li>
+							    <li>
+									<a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+										<i class="fa fa-meetup" aria-hidden="true"></i>
+									</a>
+							    </li>
+							    <li>
+									<a href="https://medium.com/codamos" target="_blank">
+										<i class="fa fa-medium" aria-hidden="true"></i>
+									</a>
+							    </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- <input class="search" type="search" placeholder="Pesquisar"> -->
 			</div>
 		</header>
 
@@ -658,7 +695,9 @@
         <!-- CÓDIGO DE CONDUTA -->
 		<section id="code-of-conduct">
 	        <div class="code-of-conduct-download">
-	            <p> Conheça nosso Código de Conduta: <a href="Código de Conduta Codamos.pdf" target="_blank">saiba mais</a></p>
+	            <p>
+	            	Conheça nosso Código de Conduta: <a href="Código de Conduta Codamos.pdf" target="_blank">saiba mais</a>.
+            	</p>
 	        </div>
 	    </section>
 
