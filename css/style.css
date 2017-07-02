@@ -754,15 +754,15 @@ body {
 .team-colaborators-card img {
     display: block;
     margin: 0 auto;
-    width: 118px;
-    height: 117px;
+    width: 100px;
+    height: 100px;
     border: solid 6px #f1b800;
     border-radius: 100%;
 }
 
 .team-colaborators-card h3 {
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     color: #ba205a;
@@ -807,6 +807,11 @@ body {
 
     .team-colaborators-card h3 {
         font-size: 24px;
+    }
+
+    .team-colaborators-card img {
+        width: 118px;
+        height: 118px;
     }
 }
 
