@@ -762,7 +762,7 @@ body {
 
 .team-colaborators-card h3 {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #ba205a;
@@ -803,6 +803,10 @@ body {
         width: 33%;
         display: inline-block;
         padding: 0;
+    }
+
+    .team-colaborators-card h3 {
+        font-size: 24px;
     }
 }
 
