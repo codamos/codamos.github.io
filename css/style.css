@@ -216,9 +216,9 @@ li {
 }
 
 .header-menu-hamburger label {
-    height: 100%;
     display: flex;
     align-items: center;
+    padding: 5px 0;
 }
 
 .search {
