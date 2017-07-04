@@ -1,11 +1,13 @@
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
 </style>
 
 
-body {
-    width: 100%;
+iframe {
+	height: 100vh !important;
+    width: 100% !important;
 }
+
 /*------------------------------*/
 /*footer*/
 #footer {
@@ -21,28 +23,29 @@ body {
 }
 
 .footer-first {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .footer-menu-social {
-padding: 0;
+	padding: 0;
 }
 
 .footer-menu-social li {
-  list-style: none;
-  display: inline-flex;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  margin-left: 10px;
+	list-style: none;
+	display: inline-flex;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin-left: 10px;
 }
 
 .footer-menu-social li:before {
+
 }
 
 .footer-menu-social a {
-color: #ffffff;
-text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .footer-text {
@@ -55,32 +58,34 @@ text-decoration: none;
     width: 29px;
     height: 42px;
     margin-right: 14px
-  }
+}
 
 .footer-social-media {
     padding: 5px;
 }
+
 .footer-social-media a {
-  color: #ffffff;
-  list-style: none;
+	color: #ffffff;
+	list-style: none;
 }
+
 .footer-social-media ul {
-  list-style: none;
-  display: inline-flex;
-  text-decoration: none;
+	list-style: none;
+	display: inline-flex;
+	text-decoration: none;
 }
 
 .footer-social-media li {
-  list-style: none;list-style: none;
-  display: inline-flex;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  margin-left: 4px;
+	list-style: none;list-style: none;
+	display: inline-flex;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin-left: 4px;
 }
 
 .footer-social-media .footer-menu {
-  align-items: flex-end;
+	align-items: flex-end;
 }
 
 
@@ -94,13 +99,14 @@ text-decoration: none;
 }
 
 #code-of-conduct {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
 .code-of-conduct-download {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -109,170 +115,174 @@ text-decoration: none;
     color: #ffffff;
     text-decoration: none;
 }
+
 .code-of-conduct-download a {
-  text-decoration: none;
-  color: #D8DF42;
+    text-decoration: none;
+    color: #D8DF42;
 }
+
 
 /*----------------------------
 parceiros e apoiadores*/
 #partners-supporters {
-  background-color: #eeeeee;
-  width: 100%;
-  }
+    background-color: #eeeeee;
+    width: 100%;
+}
 
 .partners-supporters-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 48px;
-  font-weight: bolder;
-  text-align: center;
-  color: #BB1B58;
-  padding-top: 65px;
-  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    color: #BB1B58;
+    padding-top: 65px;
+    margin: 0;
 }
 
 .partners-supporters-links {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 144px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 144px;
 }
 
 .partners-supporters-links li {
-  width: 33%;
-  text-align: center;
-  list-style: none;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 100px;
+    width: 33%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
 }
 
 .partners-supporters-links a {
-  margin: 50px;
-  padding: 50px;
+    margin: 50px;
+    padding: 50px;
 }
 
 .partners-supporters-box {
-  width: 100%;
-  height: 305px;
-  display: flex;
-}
-.partners-supporters-wannabe img {
-  height: 305px;
+    width: 100%;
+    height: 305px;
+    display: flex;
 }
 
 .partners-supporters-wannabe {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+.partners-supporters-wannabe img {
+    display: block;
+    width: 100%;
+    height: 305px;
+}
+
 .partners-supporters-wannabe p {
-  color:  #ffffff;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  background: black;
-  text-align: center;
+    color:  #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    text-align: center;
 }
 
 .partners-supporters-wannabe h3 {
-  color: #ffffff;
-  font-size: 48px;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin-bottom: 6px;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 6px;
 }
 
 .partners-supporters-wannabe div {
-  position: absolute;
+    position: absolute;
 }
-.partners-supporters-form {
-  height: 305px;
-  width: 50%;
-  background: #ba205a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.partners-supporters-form a {
-font-size: 18px;
-text-decoration: none;
-font-weight: bold;
-padding: 5px;
-color:  #ffffff;
-border: 2px solid #ffffff;
-border-radius: 5px;
-text-transform: uppercase;
-padding: 15px 30px
 
+.partners-supporters-form {
+    height: 305px;
+    width: 50%;
+    background: #ba205a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.partners-supporters-form a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    color:  #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 15px 60px
 }
 
 
 /*-----------------------------------
 incluir palestrante*/
 #include-speaker {
-  position: fixed;
-  width: 100%;
-  height: 200px;
-  background-color: #ba205a;
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: #ba205a;
 }
 
 .include-speaker-title {
-  padding-top: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff
 }
 
 .include-speaker-call {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
 /*-----------------------------------
 incluir evento*/
-
 #include-event {
-  position: fixed;
-  width: 100%;
-  height: 200px;
-  background-color: #ba205a;
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: #ba205a;
 }
 
 .includ-event-title {
-  padding-top: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff
 }
 
 .includ-event-call {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-#myBtn {
-}
 
 /*------------------------------------*/
 /* The Modal (background) */
 #myBtn {
-  background-color: #B2B222;
-  color:  #ffffff;
-  border: 2px solid #B2B222;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 15px 30px;
-  font-weight: bold;
+    background-color: #B2B222;
+    color:  #ffffff;
+    border: 2px solid #B2B222;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-weight: bold;
 }
 
 .modal {
@@ -296,9 +306,7 @@ incluir evento*/
     /* Black w/ opacity */
 }
 
-
 /* Modal Content/Box */
-
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
@@ -311,7 +319,6 @@ incluir evento*/
 
 
 /* The Close Button */
-
 .close {
     color: #aaa;
     float: right;
