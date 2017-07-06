@@ -349,7 +349,7 @@ a:hover {
 
 /*BANNER*/
 #banner {
-    background-image: url("../images/webbr2017.png");
+    background-image: url("../images/webbr2017.png"); 
     background-repeat: no-repeat;
     text-align: center;
     height: 100vh;
@@ -359,6 +359,18 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#banner a:hover {
+    border: 1px solid #90c0c6;
+    border-radius: 15px;
+    cursor: pointer;    
+    padding: 15px 45px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(0,177,235);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .title {
@@ -435,7 +447,7 @@ body {
 
 #events label[for="load_more"] {
     left: 50%;
-    bottom: 68px;
+    bottom: 2%;
     margin: 0;
     position: absolute;
     transform: translateX(-50%);
@@ -463,8 +475,8 @@ body {
 
 #events .button-primary {
     color: white;
-    background: #d6de23;
-    border: 1px solid #d6de23;
+    background: #bdc509;
+    border: 1px solid #b6d060;
     border-radius: 15px;
     cursor: pointer;
     padding: 13px 65px;
@@ -472,6 +484,7 @@ body {
     display: inline-block;
     font-size: 15px;
     text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 #events .button-secondary {
@@ -547,9 +560,76 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.card-event-header img {
+/*.card-event-header img {
     width: 100%;
     height: 150px;
+}*/
+
+.card-event-img-frontinsampa {
+    background: url("../images/frontinsampa1.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-img-empodera {
+    background: url("../images/empodera.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-img-nodebr {
+    background: url("../images/nodebr.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-img-asminas {
+    background: url("../images/asminas.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-img-beladobar {
+    background: url("../images/bela.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-img-lewagon {
+    background: url("../images/lewagon.png") center no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-event-ico {
+    background: url("../images/ico-bg.png") left repeat;
+    color: #9fd7de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.card-event-ico .fa {
+    margin: 0 10px;
 }
 
 .card-event-header span {
@@ -557,7 +637,7 @@ body {
     top: 10px;
     color: #ffffff;
     right: 0;
-    background-color: #008d8d;
+    background-color: #D91C5C;
     border-radius: 5px 0 0 5px;
     width: 100px;
     height: 25px;
@@ -566,6 +646,7 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+    text-transform: uppercase;
  }
 
 .card-event-title {
@@ -622,7 +703,7 @@ body {
         position: relative;
         display: table;
         margin: 0 auto;
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .card-event {
@@ -646,7 +727,7 @@ body {
 
 @media (min-width: 992px) {
     .card-events {
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .card-event {
@@ -670,7 +751,7 @@ body {
 /*PALESTRANTES*/
 #highlighted-speakers {
     margin: 0 auto;
-    background: #9FD7DE;
+    background: #f9f9f9;
 }
 
 #highlighted-speakers .button-primary {
@@ -684,9 +765,21 @@ body {
     background-color: #1bb6c1;
 }
 
+#highlighted-speakers .button-primary a:hover {
+    border: 1px solid #90c0c6;
+    border-radius: 15px;
+    cursor: pointer;    
+    padding: 15px 45px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(0,177,235);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 #highlighted-speakers h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 300;
     color: #d91c5c;
     padding: 5% 0;
@@ -699,7 +792,7 @@ body {
 .speakers-cards {
     display: table;
     position: relative;
-    padding: 0 0 68px 0;
+    padding: 0 0 8% 0;
 }
 
 .speaker-card {
@@ -709,6 +802,7 @@ body {
     padding-top: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #eeeeee;
 }
 
 .speaker-card:hover {
@@ -720,55 +814,91 @@ body {
 }
 
 .speaker-card:nth-child(3n-7) {
-    background-color: #eaeaea;
+    background-color: #ddd;
 }
 
 .speaker-card img {
     display: block;
-    width: 117px;
-    height: 117px;
+    width: 118px;
+    height: 118px;
     margin: 20px auto;
-    border: solid 6px #1bb6c1;
+    border: solid 6px #fff;
     border-radius: 50%;
+}
+/* ICO LEGENDA */
+.ico-lgbt img {
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 100px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F8B518;
+    box-shadow: 2px 2px 5px #888888;
+}
+.ico-comunidade img {
+    position: absolute;
+    z-index: 1;
+    left: 52%;
+    top: 100px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border: 2px solid #D7DF23;
+    box-shadow: 2px 2px 5px #888888;
+}
+.ico-pais img {
+    position: absolute;
+    z-index: 1;
+    left: 84%;
+    top: 100px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border: 2px solid #9FD7DE;
+    box-shadow: 2px 2px 5px #888888;
 }
 
 .speaker-card h4 {
     font-family: Roboto;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    color: #ba205a;
+    color: #666666;
     margin: 10px 0;
 }
 
 .speaker-card-adress {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     color: #333333;
     margin: 10px 0;
+    text-transform: uppercase;
 }
 
 .speaker-card-skills {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 700;
     text-align: center;
-    color: #ba205a;
+    color: #D91C5C;
     margin: 10px 0;
+    text-transform: uppercase;
 } 
 
 .speaker-card-bio {
     font-family: Roboto;
     font-size: 16px;
     text-align: center;
-    color: #030303;
-    height: 126px;
-    margin: 0 10px;
+    color: #666666;
+    height: 100px;
+    margin: 10px 20px;
 }
 
 .speaker-card-labels i {
-    color:  #1bb6c1;
+    color:  #F8B518;
 }
 
 .speakers-social-media {
@@ -850,7 +980,7 @@ body {
         position: relative;
         display: table;
         margin: 0 auto;
-        max-width: 90%;
+        max-width: 70%;
     }
 
     .speaker-card {
@@ -874,7 +1004,7 @@ body {
 
 @media (min-width: 992px) {
     .speakers-cards {
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .speaker-card {
@@ -929,7 +1059,7 @@ body {
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    border: solid 4px #D7DF23;
+    border: solid 6px #ffffff;
     border-radius: 100%;
 }
 
@@ -1119,6 +1249,18 @@ body {
     background: #d91c5c; 
     opacity: 0.9;
     background-color: #d91c5c;
+}
+
+.partners-supporters-form a:hover {
+    border: 1px solid #90c0c6;
+    border-radius: 15px;
+    cursor: pointer;    
+    padding: 15px 45px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(0,177,235);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .partners-supporters-form h3 {
