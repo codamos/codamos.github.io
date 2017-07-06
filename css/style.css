@@ -65,6 +65,18 @@ p {
     line-height: 1.3;
 }
 
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+        color: #d91c5c;
+        cursor: pointer;
+        -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
+        -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
+        box-shadow: inset 0 -2px 0 #9FD7DE;
+}
 
 /*CORES*/
 .white{
@@ -501,7 +513,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
-    color: #030303;
+    color: #666666;
     padding: 0 10px;
     margin: 0 auto;
     max-width: 70%;
@@ -594,11 +606,11 @@ body {
 
 @media (min-width: 768px) {
     .events-title {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .events-subtitle {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .events-description {
@@ -886,30 +898,30 @@ body {
 /*EQUIPE E COLABORADORES*/
 #team-colaborators {
     position: relative;
-    padding: 10px;
     background-color: #f4f4f4;
 }
 
 .team-colaborators-title {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 300;
     text-align: center;
     color: #BB1B58;
-    padding-top: 65px;
+    padding: 5% 0;
     margin: 0;
 }
 
 .team-colaborators-cards {
     position: relative;
-    padding: 0;
-    margin: 20px auto;
+    padding: 0 0 5% 0;
+    margin: 0 auto;
 }
 
 .team-colaborators-card {
     width: 49%;
     display: inline-block;
     padding: 0;
+    font-size: 25px;
 }
 
 .team-colaborators-card img {
@@ -917,17 +929,17 @@ body {
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    border: solid 6px #f1b800;
+    border: solid 4px #D7DF23;
     border-radius: 100%;
 }
 
 .team-colaborators-card h3 {
     font-family: Roboto;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    color: #ba205a;
-    margin: 0 8px;
+    color: #666666;
+    margin: 8px;
 }
 
 .team-colaborators-card ul {
@@ -947,13 +959,19 @@ body {
 
 .team-colaborators-card li a {
     font-size: 25px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.team-colaborators-card li a:hover {
+    font-size: 25px;
     color: #BB1B58;
     text-decoration: none;
 }
 
 @media (min-width: 768px) {
     .team-colaborators-title {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .team-colaborators-cards {
@@ -967,7 +985,7 @@ body {
     }
 
     .team-colaborators-card h3 {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .team-colaborators-card img {
@@ -986,8 +1004,8 @@ body {
 /*CÓDIGO DE CONDUTA*/
 
 #code-of-conduct {
-    padding: 116px 0;
-    background-color: #F8B518;
+    padding: 10% 0;
+    background-color: #9FD7DE;
 }
 
 .code-of-conduct-download {
@@ -996,7 +1014,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: 300;
-    color: #ffffff;
+    color: #1d5d64;
     padding: 0 15px;
 }
 
@@ -1072,7 +1090,7 @@ body {
 }
 
 .partners-supporters-wannabe h3 {
-    color: #ffffff;
+    color: #9FD7DE;
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -1083,7 +1101,7 @@ body {
 }
 
 .partners-supporters-wannabe p {
-    color:  #ffffff;
+    color:  #9FD7DE;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-align: right;
@@ -1114,30 +1132,29 @@ body {
 }
 
 .partners-supporters-form p {
-    color:  #ffffff;
+    color:  #f4f4f4;
     font-family: 'Roboto', sans-serif;
     text-align: right;
     font-weight: 300;
-    background: #F8B518;
     text-transform: uppercase;
     margin: 20px auto 30px auto;
     padding: 5px;
     width: 100%;
 }
 
-.partners-supporters-form a {
+/*.partners-supporters-form a {
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     color:  #ffffff;
-    padding: 13px 65px;
+    padding: 13px 50px;
     border: 2px solid #ffffff;
     border-radius: 15px;
     display: block;
     width: 70%;
     margin: 0 auto;
-}
+}*/
 
 @media (min-width: 768px) {
     .partners-supporters-links {
@@ -1148,13 +1165,13 @@ body {
 
 @media (min-width: 992px) {
     .partners-supporters-title {
-        font-size: 48px;
+        font-size: 36px;
         padding: 5% 0;
     }
 
     .partners-supporters-links {
         max-width: 70%;
-        padding: 85px 0;
+        padding: 0 0 8% 0;
         margin: 0 auto;
     }
 
