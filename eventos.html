@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codamos</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="css/font-awesome.css" rel="stylesheet">
+
+        <!-- ANALYTICS -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-101942144-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <!-- CABECALHO -->
+        <header id="header">
+            <div class="header-navbar">
+                <a class="logotipo-codamos" href="index.html"><img src="images/logo.png" alt="Logotipo Codamos"></a>
+                
+                <nav class="header-navbar-menu">
+                    <ul>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="palestrantes.html">Palestrantes</a></li>
+                        <li><a href="#code-of-conduct">Código de conduta</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="header-social-media">
+                    <li>
+                        <a href="https://twitter.com/CodamosClub" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/codamosclub" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+                            <i class="fa fa-meetup" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/codamos" target="_blank">
+                            <i class="fa fa-medium" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header-menu-hamburger">
+                    <input id="button-hamburguer" type="checkbox">
+                    <label for="button-hamburguer">
+                        <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+                    </label>
+                    
+                    <ul class="submenu-hamburger">
+                        <li><a href="#events">Eventos</a></li>
+                        <li><a href="#highlighted-speakers">Palestrantes</a></li>
+                        <li><a href="#code-of-conduct">Código de conduta</a></li>
+                        <li>
+                            <ul class="submenu-hamburger-social-media">
+                                <li>
+                                    <a href="https://twitter.com/CodamosClub" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/codamosclub" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+                                        <i class="fa fa-meetup" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://medium.com/codamos" target="_blank">
+                                        <i class="fa fa-medium" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <input class="header-search" type="search" placeholder="Pesquisar"> -->
+            </div>
+        </header>
+
+        <!-- BANNER -->
+        <section id="banner">
+            <h1 class="page-section-title">Eventos de tecnologia no Brasil em 2017</h1>
+            
+            <p class="page-section-text">
+                O Evento Webbr feito pelo W3C vai abordar inclusão e sentidos.
+                O evento vai acontecer dia 18/10/2017 em São Paulo.
+            </p>
+            
+            <a class="button-primary" href="http://conferenciaweb.w3c.br/" target="_blank">Ver mais</a>
+        </section>
+
+        <!-- EVENTOS -->
+        <section id="events" class="page-section">
+        <h2 class="page-section-subtitle lipstick">Eventos</h2>
+
+            <input type="checkbox" id="load_more" role="button">
+            <label class="button-secondary" for="load_more">
+                <span>Veja mais</span><span>Esconder</span>
+            </label>  
+            
+            <ul class="events-cards events-cards-load-more">
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/frontinsampa1.png">
+                        <span>#FrontinSampa</span>
+                    </div>
+                    <h3 class="events-card-title">FrontinSampa</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>Maskoud Plaza - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>01/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary" href="http://www.frontinsampa.com.br/" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/empodera.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">EMPODERA - MULHERES DE ATITUDE</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>Edifício Renaissance - MG</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>01/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary" href="https://www.sympla.com.br/empodera---mulheres-de-atitude__138081" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/nodebr.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">NodeBR #28 - Node.js Além de Web Services</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>03/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary" href="https://www.meetup.com/nodebr/events/240894474/?eventId=240894474&chapter_analytics_code=UA-53750345-1" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/asminas.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">AS MINAS E AS CARREIRAS #1</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>Rio de Janeiro - RJ</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>04/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.sympla.com.br/as-minas-e-as-carreiras-1__155552"><i class="fa fa-link" aria-hidden="true"></i></a> 
+                        </div>
+                        <a class="button-primary" href="https://www.sympla.com.br/as-minas-e-as-carreiras-1__155552" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/bela.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">BELA, EMPREENDEDORA E DO BAR #5 Mulheres na Obra</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>04/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.sympla.com.br/bela-empreendedora-e-do-bar-5__158265"><i class="fa fa-link" aria-hidden="true"></i></a> 
+                        </div>
+                        <a class="button-primary" href="https://www.sympla.com.br/bela-empreendedora-e-do-bar-5__158265" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/lewagon.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">Product Specs 101 - Define seu produto na lingua do seu CTO</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - Sp</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>05/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/239156019/"><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary" href="https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/239156019/" target="_blank">
+                            Quero ir
+                        </a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/designthin.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">Design Thinking: Um bate-papo sobre o assunto. 2º Edição</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>06/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.meetup.com/pt-BR/hivelabsaopaulo/events/240392514/"><i class="fa fa-link" aria-hidden="true"></i></a>  
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/frontendday.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">Front-End Day</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>08/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.meetup.com/pt-BR/Developers-SP/events/240816644/"><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/ff.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">Fast Forward Design Thinking #2 @SP</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>08/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.meetup.com/pt-BR/Fast-Forward-Design-Thinking-Hub-SaoPaulo/events/240753719/"><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/unicorn.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">LIVING WITH UNICORNS - SPOTIFY AND WEWORK</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>11/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.sympla.com.br/living-with-unicorns---spotify--wework__159492"><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/roadsec.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">HACKAFLAG</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - SP</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>11/11/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="http://roadsec.com.br/hackaflag/"><i class="fa fa-link" aria-hidden="true"></i></a>    
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+                <li class="events-card">
+                    <div class="events-card-header">
+                        <img src="images/maria.png">
+                        <span></span>
+                    </div>
+                    <h3 class="events-card-title">Café com Marialab</h3>
+                    <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>São Paulo - Sp</p>
+                        </div>  
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <p>15/07/2017</p>
+                        </div>  
+                        <div class="events-card-body-social-media">
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-slack" aria-hidden="true"></i></a>
+                            <a href="https://www.meetup.com/pt-BR/marialab/events/238940333/"><i class="fa fa-link" aria-hidden="true"></i></a> 
+                        </div>
+                        <a class="button-primary">Quero ir</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- INCLUIR EVENTO -->
+        <section id="include-event"
+            <h2 class="includ-event-title">Inclua um Evento!</h2>
+            <p class="includ-event-call">
+                Quer divulgar <span class="text-uppercase">gratuitamente</span> um evento com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+            </p>
+
+            <button id="myBtn" class="button-default-outline">Incluir Evento</button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevg7emeHgwnTXQQRyfQUX0YUkNObGqz0sufNTMsyOCLnqYtw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">
+                        Carregando…
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- EQUIPE E COLABORADORES -->
+        <section id="team-colaborators" class="page-section">
+            <h2 class="page-section-subtitle lipstick">Equipe e Colaboradores</h2>
+
+            <ul class="team-colaborators-cards">
+                <li class="team-colaborators-card">
+                    <img src="images/vanessa-nonato.jpg" alt="Vanessa Nonato"/>
+                    <h3>Vanessa Nonato</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/vanNonato" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/vgaldinov" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vanivannonato" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/miguel-soares.jpg" alt="Miguel Soares"/>
+                    <h3>Miguel Soares</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/oieusouamiguel" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/oieusouamiguell" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/erica-tirzah.jpg" alt="Tirzah Lima"/>
+                    <h3>Tirzah Lima</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/ericatirzah.lima" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/tiirzuda" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/tiirzuda/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/ane-gurjao.jpg" alt="Ane Gurjão"/>
+                    <h3>Ane Gurjão</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/anegurjao" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ane.silva.77312" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/anegurjao" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/barbara-santiago.jpg" alt="Barbara Santiago"/>
+                    <h3>Barbara Santiago</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/babisantiago" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/barbara.santiagou" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/cybelle-oliveira.jpg" alt="Cybelle Oliveira"/>
+                    <h3>Cybelle Oliveira</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/cyb3113" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/cybelle.oliveira" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cy63ll3" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/camila-belo.jpg" alt="Camila Belo"/>
+                    <h3>Camila Belo</h3>
+                    <ul>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/camilaibs" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/camilaibs" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/mayra-oliveira.jpg" alt="Mayra Oliveira"/>
+                    <h3>Mayra Oliveira</h3>
+                    <ul>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/mayra.oliveira.5074" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/camila-neri.jpg" alt="Camila Neri"/>
+                    <h3>Camila Neri</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/camilaneri" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/camila.neri" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-colaborators-card">
+                    <img src="images/alda-rocha.jpg" alt="Alda Rocha"/>
+                    <h3>Alda Rocha</h3>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/mjcoffeeholick" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/mjcoffeholick" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mjcoffeeholick" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- CÓDIGO DE CONDUTA -->
+        <section id="code-of-conduct">
+            <p>
+                Conheça nosso Código de Conduta: <a href="Código de Conduta Codamos.pdf" target="_blank">saiba mais</a>.
+            </p>
+        </section>
+
+
+        <!-- PARCEIROS E APOIADORES -->
+        <section id="partners-supporters">
+            <h2 class="page-section-subtitle lipstick">Parceiros e Apoiadores</h2>
+
+            <ul class="partners-supporters-links">
+                <li>
+                    <a href="https://braziljs.org/" target="_blank">
+                        <img src="images/brasiljs.png" alt="Logo BrazilJS"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.codeclubbrasil.org.br/" target="_blank">
+                        <img src="images/codeclub.png" alt="Logo Code Club Brasil"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://frontinvale.com.br/ " target="_blank">
+                        <img src="images/frontinvale.png" alt="Logo Front in Vale"/>
+                    </a>
+                </li>
+                <li>    
+                    <a href="http://railsgirls.com/saopaulo.html " target="_blank">
+                        <img src="images/rails.png" alt="Logo Rail Girls"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.frontinsampa.com.br/" target="_blank">
+                        <img src="images/frontinsampa2.png" alt="Logo Front in Sampa 2017"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.sp.senai.br/" target="_blank">
+                        <img src="images/senai.png" alt="Logo Senai"/>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="partners-supporters-box">
+                <div class="partners-supporters-wannabe">
+                    <img src="images/notebook.png" alt="Teclado notebook">
+                  
+                    <div>
+                        <h3>Seja um parceiro</h3>
+                        <p>Envie seu email para receber maiores informações</p>
+                    </div>
+                </div>
+
+                <div class="partners-supporters-form">
+                    <a class="button-default-outline" href="parceiros.html">Incluir</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="footer-first">
+                <img class="footer-logo" src="images/footer.png" alt="Logo Codamos"/>
+                <p class="footer-text">Feito pela equipe Codamos 2017 com muito <3</p>
+            </div>
+
+            <ul class="footer-menu-social" >
+                <li><a href="#events" target="_self">Eventos</a></li>
+                <li><a href="#highlighted-speakers" target="_self">Palestrantes</a></li>
+                <li><a href="#code-of-conduct" target="_self">Código de conduta</a></li>
+                <li>
+                    <ul class="footer-social-media">
+                        <li>
+                            <a href="https://twitter.com/CodamosClub" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/codamosclub" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+                                <i class="fa fa-meetup" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/codamos" target="_blank">
+                                <i class="fa fa-medium" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+
+        <script type="text/javascript" src="js/modal.js"></script>
+    </body>
+</html>
