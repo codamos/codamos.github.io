@@ -486,6 +486,7 @@ a:hover {
 
 .header-social-media li {
     display: inline-block;
+    padding: 0 10px;
 }
 
 .header-social-media ul li a, 
