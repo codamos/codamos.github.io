@@ -65,20 +65,6 @@ p {
     line-height: 1.3;
 }
 
-a {
-    color: #666666;
-    text-decoration: none;
-}
-
-a:hover {
-        color: #d91c5c;
-        cursor: pointer;
-        -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
-        -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
-        box-shadow: inset 0 -2px 0 #9FD7DE;
-}
-
-
 /*CORES*/
 :root {
     --black: #333333;
@@ -284,7 +270,7 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     padding: 15px 45px;
-    border: 1px solid #2ac2f5;
+    border: 2px solid #2ac2f5;
     border-radius: 15px;
     background-color: #2ac2f5;
 }
@@ -357,6 +343,23 @@ a:hover {
 /*SEÇÃO*/
 .page-section {
     text-align: center;
+}
+
+.page-section p a {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
+    -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
+    box-shadow: inset 0 -2px 0 #9FD7DE;
+}
+
+.page-section p a:hover {
+    color: #d91c5c;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
+    -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
+    box-shadow: inset 0 -2px 0 #9FD7DE;
 }
 
 .page-section-title {
@@ -589,7 +592,12 @@ a:hover {
         font-weight: 300;
         text-decoration: none;
         text-transform: uppercase;
-        padding: 5px 10px;
+        padding: 5px 0;
+        margin: 0 10px;
+        cursor: pointer;
+        -webkit-box-shadow: inset 0 -2px 0 #9fd7de;
+        -moz-box-shadow: inset 0 -2px 0 #9fd7de;
+        box-shadow: inset 0 -2px 0 #9fd7de;
     }
 
     .header-navbar-menu a:hover {
@@ -1197,7 +1205,11 @@ a:hover {
 /*CÓDIGO DE CONDUTA*/
 
 #code-of-conduct {
-    padding: 6em 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 290.3px;
+    padding: 0 40px;
 }
 
 #code-of-conduct p {
@@ -1235,7 +1247,6 @@ a:hover {
 #partners-supporters {
     text-align: center;
     width: 100%;
-    padding-top: 4em;
 }
 
 .partners-supporters-links {
@@ -1258,6 +1269,7 @@ a:hover {
     width: 100%;
     height: 599px;
     background-image: url("../images/parceiros.png");
+    margin-bottom: 4em;
 }
 
 .partners-supporters-wannabe {
