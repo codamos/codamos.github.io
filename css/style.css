@@ -371,8 +371,12 @@ a:hover {
     font-weight: 300;
 }
 
-.page-section-title, .page-section-subtitle {
-    margin-bottom: 1.5em;
+.page-section-title {
+    margin-bottom: .5em;
+}
+
+.page-section-subtitle {
+    margin-bottom: 1.8em;
 }
 
 .page-section-text {
@@ -623,6 +627,7 @@ a:hover {
 
 #banner .page-section-text {
     color: #ffffff;
+    padding: 0 5%;
 }
 
 
