@@ -435,7 +435,7 @@ p {
 
     .page-section-subtitle {
         font-size: var(--subtitle-medium);
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .page-section-text {
@@ -452,7 +452,7 @@ p {
 
     .page-section-subtitle {
         font-size: var(--subtitle-large);
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .page-section-text {
@@ -1220,12 +1220,12 @@ p {
     font-weight: 300;
     text-align: center;
     text-decoration: none;
-    color: #1d5d64;
+    color: #ffffff;
 }
 
 #code-of-conduct a {
     text-decoration: none;
-    color: #d91c5c;
+    color: #d6de23;
     font-weight: 400;
 }
 
