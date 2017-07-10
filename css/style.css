@@ -270,7 +270,7 @@ p {
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     padding: 15px 45px;
-    border: 2px solid #2ac2f5;
+    border: 1px solid #2ac2f5;
     border-radius: 15px;
     background-color: #2ac2f5;
 }
@@ -304,14 +304,14 @@ p {
 .button-primary-outline {
     display: inline-block;
     cursor: pointer;
-    color: #1bb6c1;
+    color: #d91c5c;
     font-family: Roboto, Sans-Serif;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 45px;
-    border: 2px solid #1bb6c1;
+    border: 2px solid #d91c5c;
     border-radius: 15px;
 }
 
@@ -343,6 +343,11 @@ p {
 /*SEÇÃO*/
 .page-section {
     text-align: center;
+}
+
+.page-section-top {
+    text-align: center;
+    padding-bottom: 0;
 }
 
 .page-section p a {
@@ -647,8 +652,13 @@ p {
     padding: 4em 10px;
 }
 
+#events-top {
+    position: relative;
+    padding: 4em 10px 0 10px;
+}
+
 #events .button-primary-outline {
-    margin-top: 1.5em;
+    margin-top: 4em;
 }
 
 #events input[type=checkbox] {
@@ -860,7 +870,7 @@ p {
 }
 
 #speakers .button-primary-outline {
-     margin-top: 1.5em;
+     margin-top: 4em;
 }
 
 .speakers-cards {
@@ -1322,18 +1332,6 @@ p {
     height: 50%;
     background-color: #d91c5c;
     opacity: 0.9;
-}
-
-.partners-supporters-form a:hover {
-    cursor: pointer;    
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    padding: 15px 45px;
-    border: 1px solid #90c0c6;
-    border-radius: 15px;
-    background: rgb(0, 177, 235);
 }
 
 .partners-supporters-form h3 {
