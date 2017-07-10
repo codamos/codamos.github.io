@@ -372,6 +372,7 @@ p {
     font-size: var(--subtitle-small);
     font-size: 26px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .page-section-title {
