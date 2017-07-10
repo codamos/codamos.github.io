@@ -97,6 +97,7 @@ a:hover {
     --white: #f4f4f4;
     --white-two: #ffffff;
     --white-three: #fefefe;
+    --white-four: #f9f9f9;
     --yellow: #f8b518;
 }
 
@@ -178,6 +179,11 @@ a:hover {
 .white-three {
     color: #fefefe;
     color: var(--white-three);
+}
+
+.white-four {
+    color: #f9f9f9;
+    color: var(--white-four);
 }
 
 .yellow {
@@ -370,9 +376,12 @@ a:hover {
 }
 
 .page-section-text {
+    color: #666666;
     font-size: var(--text-medium);
     font-size: 16px;
-    margin-bottom: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 2em;
 }
 
 .page-section-white {
@@ -403,6 +412,11 @@ a:hover {
 .page-section-black-four {
     background-color: var(--black-four);
     background-color: #2f2f2f;
+}
+
+.page-section-white-four {
+    background-color: var(--white-four);
+    background-color: #f9f9f9;
 }
 
 @media (min-width: 768px) {
@@ -606,11 +620,15 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+#banner .page-section-text {
+    color: #ffffff;
+}
+
 
 /*EVENTOS*/
 #events {
     position: relative;
-    padding: 3em 10px;
+    padding: 4em 10px;
 }
 
 #events .button-primary-outline {
@@ -631,7 +649,7 @@ a:hover {
 #events label[for="load_more"] {
     position: absolute;
     left: 50%;
-    bottom: 3em;
+    bottom: 4em;
     margin: 0;
     transform: translateX(-50%);
     z-index: 1;
@@ -822,7 +840,7 @@ a:hover {
 
 /*PALESTRANTES*/
 #speakers {
-    padding: 3em 10px;
+    padding: 4em 10px;
 }
 
 #speakers .button-primary-outline {
@@ -1078,7 +1096,7 @@ a:hover {
 /*EQUIPE E COLABORADORES*/
 #team-colaborators {
     position: relative;
-    padding: 3em 10px;
+    padding: 4em 10px;
 }
 .team-colaborators-cards {
     display: flex;
@@ -1173,7 +1191,7 @@ a:hover {
 /*CÓDIGO DE CONDUTA*/
 
 #code-of-conduct {
-    padding: 5em 10px;
+    padding: 6em 10px;
 }
 
 #code-of-conduct p {
@@ -1211,11 +1229,11 @@ a:hover {
 #partners-supporters {
     text-align: center;
     width: 100%;
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 .partners-supporters-links {
-    padding: 1.5em 0 3em 0;
+    padding: 1.5em 0 4em 0;
     margin: 0;
 }
 
@@ -1379,7 +1397,7 @@ a:hover {
 #include-speaker {
     text-align: center;
     width: 100%;
-    padding: 5em 10px;
+    padding: 6em 10px;
 }
 
 .include-speaker-title {
@@ -1424,7 +1442,7 @@ a:hover {
 #include-event {
     text-align: center;
     width: 100%;
-    padding: 5em 10px;
+    padding: 6em 10px;
 }
 
 .include-event-title {
