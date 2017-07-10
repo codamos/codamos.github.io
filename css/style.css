@@ -1280,8 +1280,7 @@ a:hover {
     font-style: italic;
     text-align: center;
     line-height: 1.3;
-    width: 65%;
-    margin: 10px auto;
+    margin: 0 10px;
 }
 
 .partners-supporters-wannabe p {
@@ -1364,6 +1363,11 @@ a:hover {
         width: 50%;
     }
 
+    .partners-supporters-wannabe h3 {
+        width: 85%;
+        margin: 0 auto;
+    }
+
     .partners-supporters-wannabe h3, 
     .partners-supporters-form h3 {
         font-size: 32px;
@@ -1378,6 +1382,10 @@ a:hover {
 @media (min-width: 992px) {
     .partners-supporters-links {
         max-width: 80%;
+    }
+
+    .partners-supporters-wannabe h3 {
+        width: 75%;
     }
 
     .partners-supporters-wannabe h3, 
