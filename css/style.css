@@ -751,6 +751,21 @@ p {
 
 .events-card-header {
     position: relative;
+    background: #2f2f2f;
+}
+
+.events-card-header-ico {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    padding: 5px 0;
+    background: #2f2f2f;
+}
+
+.events-card-header-ico i {
+    padding: 0 5px;
+    color: #d6de23;
 }
 
 .events-card-header span {
@@ -770,6 +785,11 @@ p {
     text-transform: uppercase;
  }
 
+ .events-card-header span a,
+ .events-card-header span a:hover {
+    color: #fff;
+ }
+
 .events-card-title {
     color: #d52f5e;
     white-space: nowrap;
@@ -777,8 +797,9 @@ p {
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 0 10px;
-    margin: 20px 0 0 0;
+    padding: 10px;
+    margin: 0;
+    border-top: 1px dotted #9fd7de;
 }
 
 .events-card-body {
@@ -801,11 +822,22 @@ p {
     align-items: center;
 }
 
-.events-card-body i,
-.events-card-body .events-card-body-social-media i {
+.events-card-body i {
     color: #6d6d6d;
     font-size: 25px;
     margin-right: 8px;
+}
+
+.events-card-body .events-card-body-social-media  i {
+    color: #cccccc;
+}
+
+.events-card-body .events-card-body-social-media a i {
+    color: #6d6d6d;
+}
+
+.events-card-body .events-card-body-social-media a:hover i {
+    color: #D91C5C;
 }
 
 .events-cards-load-more {
@@ -953,7 +985,7 @@ p {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
-    color: #666666;
+    color: #333333;
     margin: 10px 0;
 }
 
@@ -962,14 +994,14 @@ p {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    color: #333333;
+    color: #666666;
     margin: 10px 0;
     text-transform: uppercase;
 }
 
 .speaker-card-skills {
     font-family: Roboto, Sans-Serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     text-align: center;
     color: #D91C5C;
@@ -981,8 +1013,14 @@ p {
     font-family: Roboto, Sans-Serif;
     font-size: 16px;
     text-align: center;
+    font-weight: 300;
     color: #666666;
     height: 126px;
+}
+
+.speaker-card-labels {
+    background: #fff;
+    padding: 5px 0;
 }
 
 .speaker-card-labels i {
