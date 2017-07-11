@@ -1406,7 +1406,7 @@ p {
 
     .partners-supporters-links li {
         width: 33%;
-        margin-top: 0;
+        margin-bottom: 5%;
     }
 
     .partners-supporters-links li:nth-child(1n+4) {
