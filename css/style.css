@@ -775,7 +775,8 @@ p {
     right: 0;
     background-color: #D91C5C;
     border-radius: 5px 0 0 5px;
-    width: 100px;
+    width: auto;
+    padding: 0 10px;
     height: 25px;
     font-size: 11px;
     display: flex;
