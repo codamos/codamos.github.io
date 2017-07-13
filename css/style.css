@@ -802,6 +802,10 @@ p {
     border-top: 1px dotted #9fd7de;
 }
 
+.events-card-body-opacity {
+    opacity: 0.5;
+}
+
 .events-card-body {
     text-align: center;
     padding: 0 8px 20px 8px;
