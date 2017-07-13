@@ -846,8 +846,8 @@ p {
 
 @media (min-width: 768px) {
     #events {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .events-card {
@@ -869,8 +869,8 @@ p {
 
 @media (min-width: 992px) {
     #events {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     .events-card {
@@ -918,7 +918,7 @@ p {
 
 .speaker-card {
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     background-color: #ffffff;
@@ -1106,8 +1106,8 @@ p {
 
 @media (min-width: 768px) {
     #speakers {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .speaker-card {
@@ -1129,8 +1129,8 @@ p {
 
 @media (min-width: 992px) {
     #speakers {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     .speaker-card {
