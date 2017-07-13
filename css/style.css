@@ -751,7 +751,7 @@ p {
 
 .events-card-header {
     position: relative;
-    background: #2f2f2f;
+    background: #fff;
 }
 
 .events-card-header-ico {
@@ -759,7 +759,7 @@ p {
     justify-content: center;
     align-content: center;
     height: 30px;
-    padding: 5px 0;
+    padding: 8px 0;
     background: #2f2f2f;
 }
 
