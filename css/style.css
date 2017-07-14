@@ -754,6 +754,25 @@ p {
     background: #fff;
 }
 
+.events-ico {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.events-ico li {
+    color: #2f2f2f;
+    border: 1px solid #666;
+    background: #d6de23;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    opacity: 0.9;
+    font-family: Roboto, Sans-Serif;
+    font-weight: 300;
+}
+
 .events-card-header-ico {
     display: flex;
     justify-content: center;
