@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1.3;
 }
 ol, ul {
     list-style: none;
@@ -62,7 +62,7 @@ body {
 }
 
 p {
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 /*CORES*/
@@ -270,6 +270,7 @@ p {
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     padding: 15px 45px;
+    margin-bottom: 10px;
     border: 1px solid #2ac2f5;
     border-radius: 15px;
     background-color: #2ac2f5;
@@ -472,7 +473,7 @@ p {
 #header {
     position: fixed;
     width: 100%;
-    padding: 5px 30px;
+    padding: 5px 2%;
     background-color: #f4f4f4;
     box-shadow: 0 0 10px 0 #999;
     z-index: 2;
@@ -633,7 +634,7 @@ p {
     color: #ffffff;
     text-align: center;
     height: 100vh;
-    padding: 0 10px;
+    padding: 0 2%;
     background-size: cover;
     background-image: url("../images/webbr2017.png");
     background-repeat: no-repeat;
@@ -642,7 +643,6 @@ p {
 #banner .page-section-text {
     color: #ffffff;
     padding: 0 5%;
-    width: 70%;
 }
 
 
@@ -654,7 +654,7 @@ p {
 
 #events-top {
     position: relative;
-    padding: 4em 10px 0 10px;
+    padding: 4em 2% 0 2%;
 }
 
 #events .button-primary-outline {
@@ -870,8 +870,8 @@ p {
 
 @media (min-width: 768px) {
     #events {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .events-card {
@@ -893,8 +893,8 @@ p {
 
 @media (min-width: 992px) {
     #events {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .events-card {
@@ -942,7 +942,7 @@ p {
 
 .speaker-card {
     width: 100%;
-    padding: 10px 10px 20px 10px;
+    padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     background-color: #ffffff;
@@ -964,7 +964,7 @@ p {
     display: block;
     width: 118px;
     height: 118px;
-    margin: 20px auto;
+    margin: 10px auto;
     border: solid 6px #cccccc;
     border-radius: 50%;
 }
@@ -1006,7 +1006,7 @@ p {
 
 .speaker-card h4 {
     font-family: Roboto, Sans-Serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
     color: #333333;
@@ -1015,7 +1015,7 @@ p {
 
 .speaker-card-adress {
     font-family: Roboto, Sans-Serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-align: center;
     color: #666666;
@@ -1035,7 +1035,7 @@ p {
 
 .speaker-card-bio {
     font-family: Roboto, Sans-Serif;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     color: #666666;
@@ -1130,8 +1130,8 @@ p {
 
 @media (min-width: 768px) {
     #speakers {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .speaker-card {
@@ -1153,8 +1153,8 @@ p {
 
 @media (min-width: 992px) {
     #speakers {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .speaker-card {
