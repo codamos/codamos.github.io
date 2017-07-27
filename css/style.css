@@ -301,6 +301,26 @@ p {
     box-shadow: none;
 }
 
+.button-old-event {
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Roboto, Sans-Serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px 45px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    background-color: #cccccc;
+}
+
+.button-old-event:active, .button-old-event:hover {
+    color: #ffffff;
+    box-shadow: none;
+}
+
 
 .button-primary-outline {
     display: inline-block;
@@ -777,14 +797,14 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 30px;
-    padding: 8px 0;
-    background: #2f2f2f;
+    background: #fff;
+    height: 36px;
 }
 
 .events-card-header-ico i {
-    padding: 0 5px;
-    color: #d6de23;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #0096eb;
 }
 
 .events-card-header span {
@@ -817,7 +837,7 @@ p {
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 0 0 0;
     margin: 0;
     border-top: 1px dotted #9fd7de;
 }
@@ -893,8 +913,8 @@ p {
 
 @media (min-width: 992px) {
     #events {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     .events-card {
@@ -1153,8 +1173,8 @@ p {
 
 @media (min-width: 992px) {
     #speakers {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     .speaker-card {
