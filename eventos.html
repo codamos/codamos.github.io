@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
     <head>
@@ -163,63 +165,76 @@
             </label>  
             
             <ul class="events-cards events-cards-load-more">
-                
+                {% for event in site.data.events %}
                 <li class="events-card">
                     <div class="events-card-header">
-                        <img src="images/eventos/elixir.png">
-                        <span><a href="https://twitter.com/hashtag/myelixirstatus?src=hash">#myelixirstatus</a></span>
+                        <img src="images/eventos/{{ event.banner }}">
+                        {% if event.hashtag %}
+                        <span>
+                            <a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+                               target="_blank">#{{ event.hashtag }}</a>
+                        </span>
+                        {% endif %}
                         <div class="events-card-header-ico">
-                            <i class="fa fa-venus" aria-hidden="true"></i>
-                            <i class="fa fa-cc" aria-hidden="true"></i>
+                            {% for tag in event.tags %}
+                            <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
+                            {% endfor %}
                         </div>
                     </div>
-                    <h3 class="events-card-title">Elixir Meetup #10</h3>
+                    <h3 class="events-card-title">{{ event.title }}</h3>
                     <div class="events-card-body">
                         <div class="events-card-body-local">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>São Paulo - SP</p>
-                        </div>  
+                            <p>{{ event.location }}</p>
+                        </div>
                         <div class="events-card-body-date">
-                            <i class="fa fa-calendar" aria-hidden="true"></i> 
-                            <p>29/07</p>
-                        </div>  
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <p>{{ event.date }}</p>
+                        </div>
                         <div class="events-card-body-social-media">
-                            <a href="https://twitter.com/elug_sp" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            {% if event.twitter %}
+                            <a href="https://twitter.com/{{ event.twitter }}"
+                               target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            {% else %}
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            {% endif %}
+
+                            {% if event.facebook %}
+                            <a href="https://www.facebook.com/{{ event.facebook }}/"
+                               target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            {% else %}
                             <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://groups.google.com/forum/?hl=pt#!forum/elug-sp" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>   
+                            {% endif %}
+
+                            {% if event.instagram %}
+                            <a href="http://instagram.com/{{ event.instagram }}"
+                               target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            {% endif %}
+
+                            {% if event.linkedin %}
+                            <a href="https://www.linkedin.com/{{ event.linkedin }}"
+                               target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            {% endif %}
+
+                            {% if event.meetup %}
+                            <a href="https://www.meetup.com/{{ event.meetup }}/"
+                               target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+                            {% endif %}
+
+                            {% if event.youtube %}
+                            <a href="https://www.youtube.com/user/{{ event.youtube }}/videos"
+                               target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            {% endif %}
+
+                            <a href="{{ event.main_url }}"
+                               target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div>
-                        <a class="button-primary" href="https://www.meetup.com/elug_sp/events/240970138/" target="_blank">
-                            Quero ir
-                        </a>
+                        <a href="{{ event.rsvp_url }}"
+                           class="button-primary" target="_blank">Quero ir</a>
                     </div>
                 </li>
-                <li class="events-card">
-                    <div class="events-card-header">
-                        <img src="images/eventos/coletividad-ui-design.png">
-                        <div class="events-card-header-ico"></div>
-                    </div>
-                    <h3 class="events-card-title">UI - Construindo Interfaces Centradas no Usuário - Coletividad</h3>
-                    <div class="events-card-body">
-                        <div class="events-card-body-local">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>São Paulo - SP</p>
-                        </div>  
-                        <div class="events-card-body-date">
-                            <i class="fa fa-calendar" aria-hidden="true"></i> 
-                            <p>02/08</p>
-                        </div>  
-                        <div class="events-card-body-social-media">
-                            <a href="https://twitter.com/coletividad" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.facebook.com/COLETIVIDAD/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/coletividad/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="http://www.coletividad.org/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>   
-                        </div>
-                        <a class="button-secondary" href="https://www.eventbrite.com.br/e/ui-construindo-interfaces-centradas-no-usuario-tickets-35673532496" target="_blank">
-                            Quero ir
-                        </a>
-                    </div>
-                </li>
+                {% endfor %}
+
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/19989791_1391372324284177_4312225780255282211_n.jpg?oh=9ddcddc96c543908e894a5dcb9aaad7a&oe=59F3F3F7">
@@ -250,7 +265,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/20229130_1697622760544463_1461855041987799932_n.jpg?oh=a7ec3a7685221ee993f9982fb982a560&oe=59EC9147">
@@ -366,7 +380,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="images/eventos/phpsp.png">
@@ -420,7 +433,7 @@
                         </a>
                     </div>
                 </li>
-                 <li class="events-card">
+                <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/19904949_1825825164126226_4227589014023754403_n.png?oh=6e34fd8a1c09265ffcc7fbe307bfe47f&oe=59F4A885">
                         <div class="events-card-header-ico">
@@ -600,7 +613,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/20106762_1482201691822799_1214028600969136272_n.png?oh=b815f05d1aaabc48d95c277203465f6f&oe=5A38F1E4">
@@ -631,7 +643,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="http://pythonsul.org/images/logo/logo-pythonsul-small.png">
@@ -662,7 +673,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://d1gkntzr8mxq7s.cloudfront.net/594826066a00c-lg.jpg">
@@ -693,7 +703,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/18221933_622090544654371_6627842047961049034_n.png?oh=ceda180322030351e0166d524453d744&oe=59F8E5D0">
@@ -724,7 +733,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://static.wixstatic.com/media/80f318_ecf02f9371f54988961fd5f78591d916~mv2.png/v1/fill/w_558,h_182,al_c,usm_0.66_1.00_0.01/80f318_ecf02f9371f54988961fd5f78591d916~mv2.png">
@@ -863,7 +871,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://d1gkntzr8mxq7s.cloudfront.net/59566df2e5f72-lg.png">
@@ -890,7 +897,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="http://sbdi.org.br/cidi2017/images/site%20revisao_4-crop-u421.jpg">
@@ -917,7 +923,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://d1gkntzr8mxq7s.cloudfront.net/591111d7aaf0f-lg.png">
@@ -944,7 +949,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="http://i.imgur.com/DdsTZ2W.jpg">
@@ -971,7 +975,7 @@
                         </a>
                     </div>
                 </li>
-                 <li class="events-card">
+                <li class="events-card">
                     <div class="events-card-header">
                         <img src="images/eventos/webbr.png">
                         <span><a href="https://twitter.com/search?q=%23webbr2017&src=typd">#Webbr2017</a></span>
@@ -1004,7 +1008,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://www.eventize.com.br/eventize/sites/002831/003395/img/banner.jpg?v=3">
@@ -1035,7 +1038,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="images/eventos/tdc.svg">
@@ -1067,8 +1069,7 @@
                         </a>
                     </div>
                 </li>
-
-                 <li class="events-card">
+                <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://2017.gopherconbr.org/images/floripa/gophercon-floripa-v4.png">
                         <div class="events-card-header-ico">
@@ -1098,7 +1099,6 @@
                         </a>
                     </div>
                 </li>
-
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t1.0-9/19105749_820954581397335_5244299006861331028_n.png?oh=08984f528db8e184b9e17aa619536670&oe=59F2E843">
@@ -1129,7 +1129,6 @@
                         </a>
                     </div>
                 </li>
-
             </ul>
         </section>
 
