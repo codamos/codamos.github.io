@@ -913,8 +913,8 @@ p {
 
 @media (min-width: 992px) {
     #events {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .events-card {
