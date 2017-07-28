@@ -837,7 +837,7 @@ p {
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 10px 0 0 0;
+    padding: 10px 10px 0 10px;
     margin: 0;
     border-top: 1px dotted #9fd7de;
 }
