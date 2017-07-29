@@ -1,0 +1,120 @@
+# Eventos passados.
+
+# title:     texto, obrigatório.
+# location:  texto, obrigatório.
+# date:      texto, obrigatório.
+# banner:    arquivo na pasta `images/eventos`, obrigatório.
+# tags:      lista de classes de ícones do font awesome, opcional.
+# hashtag:   texto sem espaços, opcional.
+# twitter:   texto sem espaços, opcional.
+# facebook:  texto sem espaços, opcional.
+# instagram: texto sem espaços, opcional.
+# linkedin:  texto sem espaços, opcional.
+# meetup:    texto sem espaços, opcional.
+# youtube:   texto sem espaços, opcional.
+# main_url:  URL, obrigatório.
+# rsvp_url:  URL, obrigatório.
+
+- title: "LIVING WITH UNICORNS - SPOTIFY AND WEWORK"
+  location: "São Paulo - SP"
+  date: "11/07/2017"
+  banner: "unicorn.png"
+  hashtag: "LigaVentures"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "http://liga.ventures/"
+  rsvp_url: "https://www.sympla.com.br/living-with-unicorns---spotify--wework__159492"
+
+- title: "HACKAFLAG - Roadsec"
+  location: "São Paulo - SP"
+  date: "15/07/2017"
+  banner: "roadsec.png"
+  hashtag: "Hackaflag"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br/"
+  rsvp_url: "http://roadsec.com.br/hackaflag/"
+
+- title: "Café com Marialab - Julho"
+  location: "São Paulo - SP"
+  date: "15/07/2017"
+  banner: "maria.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  main_url: "https://marialab.org/"
+  rsvp_url: "https://www.meetup.com/marialab/events/238940333/"
+
+- title: "7 Masters - Vue.js"
+  location: "São Paulo - SP"
+  date: "19/07/2017"
+  banner: "7masters.png"
+  hashtag: "7Masters"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  linkedin: "company/imasters"
+  main_url: "http://imasters.com.br/"
+  rsvp_url: "https://www.meetup.com/iMasters/events/241270184/"
+
+- title: "The Developers Conference - SP"
+  location: "São Paulo - SP"
+  date: "18 a 22/07/2017"
+  banner: "tdc.svg"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "TheDevConf"
+  twitter: "TheDevConf"
+  facebook: "thedevelopersconference"
+  instagram: "thedevconf"
+  main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
+  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/saopaulo/trilhas"
+
+- title: "Design de Produto: colocando sua ideia no mercado - Coletividad"
+  location: "São Paulo - SP"
+  date: "22/07/2017"
+  banner: "coletividad-design.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/design-de-produto-colocando-sua-ideia-no-mercado-tickets-35584941518"
+
+- title: "Code in the dark - Recife"
+  location: "Recife - PE"
+  date: "23/07/2017"
+  banner: "code-in-the-dark.png"
+  tags: [venus, cc]
+  hashtag: "codeinthedarkbr"
+  facebook: "Code-in-the-Dark-Recife-1317500518368334"
+  main_url: "https://www.meetup.com/GDG-Recife/events/241098435/"
+  rsvp_url: "https://loja.tampa.works/produto/code-in-the-dark-recife/"
+
+- title: "Design Debate #2: O que realmente precisamos falar sobre Design? - Coletividad"
+  location: "São Paulo - SP"
+  date: "25/07/2017"
+  banner: "coletividad-design-debate.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/design-debate-2-o-que-realmente-precisamos-falar-sobre-design-registration-36086735397"
+
+- title: "PWA, Web Apps e Aplicações Offline na Prática - 2ª Turma - Coletividad"
+  location: "São Paulo - SP"
+  date: "27/07/2017"
+  banner: "coletividad-workshop-pwa.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/pwa-web-apps-e-aplicacoes-offline-na-pratica-2a-turma-tickets-35613738651"
+
+- title: "Lean UX e Agile - como projetar uma experiência incrível para o usuário - Coletividad"
+  location: "São Paulo - SP"
+  date: "27/07/2017"
+  banner: "coletividad-ux-agile.jpg"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/lean-ux-e-agile-como-projetar-uma-experiencia-incrivel-para-o-usuario-tickets-35926596417"

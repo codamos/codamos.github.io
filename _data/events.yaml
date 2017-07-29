@@ -1,3 +1,20 @@
+# Eventos atuais.
+
+# title:     texto, obrigatório.
+# location:  texto, obrigatório.
+# date:      texto, obrigatório.
+# banner:    arquivo na pasta `images/eventos`, obrigatório.
+# tags:      lista de classes de ícones do font awesome, opcional.
+# hashtag:   texto sem espaços, opcional.
+# twitter:   texto sem espaços, opcional.
+# facebook:  texto sem espaços, opcional.
+# instagram: texto sem espaços, opcional.
+# linkedin:  texto sem espaços, opcional.
+# meetup:    texto sem espaços, opcional.
+# youtube:   texto sem espaços, opcional.
+# main_url:  URL, obrigatório.
+# rsvp_url:  URL, obrigatório.
+
 - title: "Elixir Meetup #10"
   location: "São Paulo - SP"
   date: "29/07"
