@@ -1,0 +1,82 @@
+# Palestrantes.
+
+# name:      texto, obrigatório.
+# full_name: texto, opcional.
+# location:  texto, obrigatório.
+# avatar:    arquivo na pasta `images/fotos`, obrigatório.
+# labels:    lista: [female, site, trans, black], opcional.
+# linkedin:  texto sem espaços, opcional.
+# twitter:   texto sem espaços, opcional.
+# github:    texto sem espaços, opcional.
+
+- name: "Jeliel Mendes"
+  full_name: "Evelyn Jeliel Mendes"
+  avatar: "jeliel-mendes.jpg"
+  location: "Porto Alegre - RS"
+  labels: [female, site, trans]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Mulher transexual, analista e desenvolvedora de sistemas,
+    amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
+    shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+  twitter: "jelielmendes"
+
+- name: "Geisy Domiciano"
+  avatar: "geisy-domiciano.jpg"
+  location: "Diadema - SP"
+  labels: [female]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Apaixonada por desenvolvimento front end, interessada em DevOps e
+    IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
+  linkedin: "geisydomiciano"
+  github: "gdomiciano"
+
+- name: "Ivanise Gomes"
+  full_name: "Ivanise Maravalhas Gomes"
+  avatar: "ivanise-gomes.jpg"
+  location: "São Paulo - SP"
+  labels: [female]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
+    de software e gestão de projetos e programas. Especialista em
+    e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
+  linkedin: "ivanise"
+
+- name: "Tatiana Barros"
+  avatar: "tatiana-barros.jpg"
+  location: "São Paulo - SP"
+  labels: [female]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
+    Criadora do Smart Cities for teens para alunos da rede pública.
+    Ama jornada do herói, arduínos e chatbots.
+  linkedin: "tatybarros"
+  twitter: "umataldetatiana"
+
+- name: "Thaís Freitas"
+  avatar: "thais-moura.jpg"
+  location: "Recife - PE"
+  labels: [female]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
+    Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
+    de software e na garantia da qualidade.
+  linkedin: "thaís-freitas-056b1540"
+  twitter: "tha_ta"
+
+- name: "Cleber Santos"
+  full_name: "Cleber J. Santos"
+  avatar: "cleber-santos.jpg"
+  location: "São Paulo - SP"
+  labels: [black]
+  skills: [HTML, CSS, UI, UX]
+  bio: >
+    Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária
+    além de linguagens antigas como Pascal e Assembly. Desenvolvedor Python
+    desde 2005 e amante de Varnish-Cache.
+  twitter: "cleberjsantos"
+  github: "cleberjsantos"
