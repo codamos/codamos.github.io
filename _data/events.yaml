@@ -192,4 +192,15 @@
   facebook: "braziljs"
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"        
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
+
+ - title: "RanchoDev"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "ranchodev.png"
+  tags: [cc,]
+  hashtag: "#ranchodev2017"
+  twitter: "https://twitter.com/ranchodev"
+  facebook: "https://www.facebook.com/RDCONF/"
+  main_url: "http://ranchodev.com.br/"
+  rsvp_url: "http://ranchodev.com.br/"           
