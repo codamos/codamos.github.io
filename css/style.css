@@ -1703,7 +1703,7 @@ p {
     font-weight: 300;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 660px) {
      .footer-first {
         width: 100%;
         margin: 0 auto;
