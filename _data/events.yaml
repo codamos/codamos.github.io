@@ -15,16 +15,6 @@
 # main_url:  URL, obrigatório.
 # rsvp_url:  URL, obrigatório.
 
-- title: "Elixir Meetup #10"
-  location: "São Paulo - SP"
-  date: "29/07"
-  banner: "elixir.png"
-  tags: [venus, cc]
-  hashtag: "myelixirstatus"
-  twitter: "elug_sp"
-  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
-  rsvp_url: "https://www.meetup.com/elug_sp/events/240970138/"
-
 - title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
   location: "São Paulo - SP"
   date: "02/08"
@@ -180,7 +170,17 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/prototipacao-em-ux-registration-36444265780?aff=erellivmlt" 
+  rsvp_url: "https://www.eventbrite.com.br/e/prototipacao-em-ux-registration-36444265780?aff=erellivmlt"
+
+- title: "Android Dev Conference - Imasters"
+  location: "São Paulo - SP"
+  date: "23/08 a 25/08"
+  banner: "android-dev-conf.png"
+  hashtag: "androiddevconf"
+  twitter: "AndroidDevBrOrg"
+  facebook: "PortaliMasters"
+  main_url: "https://eventos.imasters.com.br/android-devconference"
+  rsvp_url: "https://eventos.imasters.com.br/android-devconference"  
 
 - title: "BrazilJS - RS"
   location: "Porto Alegre - RS"
@@ -193,6 +193,40 @@
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
+
+- title: "PHP Community Summit by Locaweb"
+  location: "São Paulo - SP"
+  date: "01/09 e 02/09"
+  banner: "phpsm-lw.png"
+  tags: [venus, cc]
+  hashtag: "PHPcsLW"
+  twitter: "phpsp"
+  facebook: "sao.paulo.elephants"
+  main_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/"
+  rsvp_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/#inscrevase"
+
+- title: "BrazilJS - CE"
+  location: "Fortaleza - CE"
+  date: "01/09 e 02/09"
+  banner: "braziljs-2.svg"
+  tags: [venus, cc, wheelchair]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
+
+- title: "Python Sul"
+  location: "Caxias do Sul - RS"
+  date: "08/09 a 10/09"
+  banner: "pythonsul.png"
+  tags: []
+  hashtag: "Python"
+  twitter: "PythonSul"
+  facebook: "pythonsul"
+  main_url: "http://pythonsul.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"  
 
 - title: "Agile Brazil"
   location: "Belém - PA"
@@ -226,4 +260,62 @@
   twitter: "E_B_A_C"
   facebook: "hyperimmersive"
   main_url: "https://www.hypervrfestival.com/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hyper-virtual-reality-festival-2017-tickets-34610890104"  
+  rsvp_url: "https://www.eventbrite.com.br/e/hyper-virtual-reality-festival-2017-tickets-34610890104"
+
+- title: "6º Fórum Empreendedoras"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "forum-empreendedoras.png"
+  tags: [venus, cc, wheelchair]
+  hashtag: "womeninleadership"
+  twitter: "RMEmpreendedora"
+  facebook: "ForumEmpreendedoras"
+  main_url: "http://www.forumempreendedoras.com.br"
+  rsvp_url: "https://www.sympla.com.br/vi-forum-empreendedoras---empreendedorismo-e-o-empoderamento-economico-da-mulher__157250"
+
+- title: "Front in Vale"
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "front-in-vale.png"
+  tags: [venus, cc, wheelchair]
+  hashtag: "frontinvale2017"
+  twitter: "frontinvale"
+  facebook: "frontinvale"
+  main_url: "http://frontinvale.com.br/"
+  rsvp_url: "https://www.sympla.com.br/frontinvale-2017__130049"
+
+- title: "Front in BH 2k17 - BH"
+  location: "Belo Horizonte - MG"
+  date: "23/09"
+  banner: "front-inbh.jpg"
+  tags: [venus, cc]
+  hashtag: "FrontInBH2k17"
+  twitter: "frontinbh"
+  facebook: "FrontInBH"
+  instagram: "frontinbh"
+  main_url: "http://frontinbh.com.br/"
+  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"  
+
+- title: "The Conf"
+  location: "São Paulo - SP"
+  date: "29/09 e 30/09"
+  banner: "the-conf.png"
+  tags: []
+  hashtag: "theconf"
+  twitter: "theconfbr"
+  facebook: "TheConfClub"
+  main_url: "http://www.theconf.club/"
+  rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
+
+- title: "ABCDev"
+  location: "Santo André - SP"
+  date: "30/09"
+  banner: "abc-dev.png"
+  tags: [venus, cc]
+  hashtag: "abcdev2017"
+  twitter: "abc_developers"
+  facebook: "abcdevelopers"
+  main_url: "http://2017.abcdevelopers.org/"
+  rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"    
+
+

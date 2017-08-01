@@ -118,3 +118,13 @@
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/lean-ux-e-agile-como-projetar-uma-experiencia-incrivel-para-o-usuario-tickets-35926596417"
+
+- title: "Elixir Meetup #10"
+  location: "São Paulo - SP"
+  date: "29/07"
+  banner: "elixir.png"
+  tags: [venus, cc]
+  hashtag: "myelixirstatus"
+  twitter: "elug_sp"
+  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
+  rsvp_url: "https://www.meetup.com/elug_sp/events/240970138/"  
