@@ -194,6 +194,18 @@
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
+- title: "Agile Brazil"
+  location: "Belém - PA"
+  date: "13/09 a 15/09"
+  banner: "agile-br.png"
+  tags: [cc]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/2017//"
+  rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"  
+
 - title: "RanchoDev"
   location: "São Paulo - SP"
   date: "16/09"
