@@ -209,10 +209,21 @@
 - title: "RanchoDev"
   location: "São Paulo - SP"
   date: "16/09"
-  banner: "ranchodev.png"
-  tags: [cc,]
-  hashtag: "#ranchodev2017"
+  banner: "rancho-dev.png"
+  tags: [cc]
+  hashtag: "ranchodev2017"
   twitter: "ranchodev"
   facebook: "RDCONF"
   main_url: "http://ranchodev.com.br/"
-  rsvp_url: "http://ranchodev.com.br/"           
+  rsvp_url: "http://ranchodev.com.br/"
+
+- title: "Hyper Virtual festival"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "hypervr.png"
+  tags: []
+  hashtag: "vr"
+  twitter: "E_B_A_C"
+  facebook: "hyperimmersive"
+  main_url: "https://www.hypervrfestival.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hyper-virtual-reality-festival-2017-tickets-34610890104"  
