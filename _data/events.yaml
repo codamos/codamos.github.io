@@ -92,7 +92,38 @@
   twitter: "phpsp"
   facebook: "sao.paulo.elephants"
   main_url: "http://phpsp.org.br/"
-  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"   
+  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+
+- title: "CURSO DE INTRODUÇÃO AO DESENVOLVIMENTO EM JAVA"
+  location: "A distância"
+  date: "11/08"
+  banner: "lead.png"
+  tags: [wheelchair, language]
+  instagram: "lead.dell"
+  facebook: "dell.lead"
+  main_url: "http://projetolead.com.br/selecao/"
+  rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1" 
+
+- title: "NodeBR #34 - Services like a boss"
+  location: "São Paulo - SP"
+  date: "11/08"
+  banner: "node-br.png"
+  tags: []
+  hashtag: "nodebr34"
+  twitter: "nodebr"
+  facebook: "brnode"
+  main_url: "https://www.meetup.com/nodebr/"
+  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/?eventId=242068584&chapter_analytics_code=UA-53750345-1"  
+
+- title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc, wheelchair]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/?a=socialmedia&_locale=pt-BR" 
 
 - title: "Design para Inovação Social"
   location: "São Paulo - SP"
@@ -316,6 +347,57 @@
   twitter: "abc_developers"
   facebook: "abcdevelopers"
   main_url: "http://2017.abcdevelopers.org/"
-  rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"    
+  rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"
 
+- title: "PHPeste"
+  location: "Fortaleza - CE"
+  date: "06/10 a 08/10"
+  banner: "phpeste.png"
+  tags: [venus, cc]
+  hashtag: "PHPeste"
+  twitter: "phpestene"
+  facebook: "PHPeste-998428916863351"
+  main_url: "http://phpeste.net/"
+  rsvp_url: "https://www.sympla.com.br/phpeste-2017--fortaleza-ce__143467"
 
+- title: "React Conf"
+  location: "São Paulo - SP"
+  date: "07/10"
+  banner: "react.png"
+  tags: [venus, cc]
+  hashtag: "reactconf"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "reactconf"
+  rsvp_url: "https://www.sympla.com.br/react-conf-brasil-2017__161239"  
+
+- title: "Intercon 2017 - Imasters"
+  location: "São Paulo - SP"
+  date: "20/10 e 21/10"
+  banner: "intercon2017.png"
+  tags: [cc]
+  hashtag: "Intercon2017"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  main_url: "https://eventos.imasters.com.br/intercon"
+  rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "UX Team Summit - Mergo e SENAI"
+  location: "São Paulo - SP"
+  date: "28/10"
+  banner: "uxteam2017.png"
+  tags: [cc, wheelchair]
+  hashtag: "UXTeamSummit"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "https://www.uxteamsummit.com.br/"
+  rsvp_url: "https://www.uxteamsummit.com.br/"
+
+- title: "CIDI 2017"
+  location: "Natal - RN"
+  date: "29/10 a 01/11"
+  banner: "cidi.png"
+  tags: [cc, wheelchair]
+  facebook: "CIDI2017"
+  main_url: "http://sbdi.org.br/cidi2017/index.html"
+  rsvp_url: "http://sbdi.org.br/cidi2017/inscricao.html"
