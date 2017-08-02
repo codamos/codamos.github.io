@@ -282,6 +282,18 @@
   main_url: "http://ranchodev.com.br/"
   rsvp_url: "http://ranchodev.com.br/"
 
+- title: "CSSday"
+  location: "Recife - PE"
+  date: "16/09"
+  banner: "cssday.png"
+  tags: [venus, cc]
+  hashtag: "cssdaybr"
+  twitter: "cssdaybr"
+  facebook: "cssdaybr"
+  youtube: "caravanaweb"
+  main_url: "https://cssday.com.br/"
+  rsvp_url: "https://cssday.com.br/"  
+
 - title: "Hyper Virtual festival"
   location: "São Paulo - SP"
   date: "16/09"
