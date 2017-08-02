@@ -1703,6 +1703,12 @@ p {
     font-weight: 300;
 }
 
+.copyleft {
+  font: 12px Arial, sans-serif;
+  display: inline-block;
+  transform: rotate(180deg);
+} 
+
 @media (max-width: 660px) {
      .footer-first {
         width: 100%;
