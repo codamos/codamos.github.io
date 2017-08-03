@@ -2,6 +2,7 @@
 
 # title:     texto, obrigatório.
 # free:      booleano (true ou false), opcional.
+# call:      booleano (true ou false), opcional.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
@@ -63,7 +64,7 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-dados-publicos-usando-python-tickets-35734688415"  
+  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-dados-publicos-usando-python-tickets-35734688415"
 
 - title: "IBM - Blue Experience - Edição Centenário"
   location: "São Paulo - SP"
@@ -74,7 +75,7 @@
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
   main_url: "https://www.ibm.com/br-pt/"
-  rsvp_url: "https://www-03.ibm.com/marketing/br/ibmbrasil100/blue_experience/"    
+  rsvp_url: "https://www-03.ibm.com/marketing/br/ibmbrasil100/blue_experience/"
 
 - title: "DevOps Day"
   location: "Porto Alegre - RS"
@@ -85,7 +86,7 @@
   twitter: "poadevopsday"
   facebook: "devopsdaypoa"
   main_url: "https://www.devopsdays.org/events/2017-porto-alegre/"
-  rsvp_url: "https://devopsdayportoalegre.eventize.com.br/index.php?inscricao" 
+  rsvp_url: "https://devopsdayportoalegre.eventize.com.br/index.php?inscricao"
 
 - title: "PHPSP + Pub"
   location: "São Paulo - SP"
@@ -107,7 +108,7 @@
   instagram: "lead.dell"
   facebook: "dell.lead"
   main_url: "http://projetolead.com.br/selecao/"
-  rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1" 
+  rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1"
 
 - title: "NodeBR #34 - Services like a boss"
   free: true
@@ -119,7 +120,7 @@
   twitter: "nodebr"
   facebook: "brnode"
   main_url: "https://www.meetup.com/nodebr/"
-  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/?eventId=242068584&chapter_analytics_code=UA-53750345-1"  
+  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/?eventId=242068584&chapter_analytics_code=UA-53750345-1"
 
 - title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
   location: "São Paulo - SP"
@@ -129,7 +130,7 @@
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/?a=socialmedia&_locale=pt-BR" 
+  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/?a=socialmedia&_locale=pt-BR"
 
 - title: "Design para Inovação Social"
   location: "São Paulo - SP"
@@ -141,7 +142,7 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060" 
+  rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060"
 
 - title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
   free: true
@@ -164,7 +165,7 @@
   twitter: "TEDxSaoPaulo"
   facebook: "TEDxSP"
   main_url: "http://tedxsp.com/"
-  rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"   
+  rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"
 
 - title: "Moonhack"
   location: "São Paulo - SP"
@@ -175,7 +176,7 @@
   twitter: "CodeClubBrasil"
   facebook: "CodeClubBrasil"
   main_url: "https://www.moonhack.com/home-portuguese"
-  rsvp_url: "https://www.moonhack.com/sign-up"   
+  rsvp_url: "https://www.moonhack.com/sign-up"
 
 - title: "Rails Girls São Paulo"
   free: true
@@ -187,7 +188,7 @@
   twitter: "railsgirlssp"
   facebook: "railsgirls.sp"
   main_url: "http://railsgirls.com/saopaulo.html"
-  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/" 
+  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "Café com Marialab"
   free: true
@@ -199,7 +200,7 @@
   twitter: "MarialabHackers"
   facebook: "marialab.org"
   main_url: "https://marialab.org/"
-  rsvp_url: "https://www.meetup.com/marialab/events/240257283/"   
+  rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
 
 - title: "Prototipação em UX"
   location: "São Paulo - SP"
@@ -220,7 +221,7 @@
   twitter: "AndroidDevBrOrg"
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/android-devconference"
-  rsvp_url: "https://eventos.imasters.com.br/android-devconference"  
+  rsvp_url: "https://eventos.imasters.com.br/android-devconference"
 
 - title: "BrazilJS - RS"
   location: "Porto Alegre - RS"
@@ -266,7 +267,7 @@
   twitter: "PythonSul"
   facebook: "pythonsul"
   main_url: "http://pythonsul.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"  
+  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
 
 - title: "Agile Brazil"
   location: "Belém - PA"
@@ -278,7 +279,7 @@
   facebook: "AgileBrazil"
   instagram: "agilebrazil"
   main_url: "http://www.agilebrazil.com/2017//"
-  rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"  
+  rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
 
 - title: "RanchoDev"
   location: "São Paulo - SP"
@@ -301,7 +302,7 @@
   facebook: "cssdaybr"
   youtube: "caravanaweb"
   main_url: "https://cssday.com.br/"
-  rsvp_url: "https://cssday.com.br/"  
+  rsvp_url: "https://cssday.com.br/"
 
 - title: "Hyper Virtual festival"
   location: "São Paulo - SP"
@@ -326,6 +327,7 @@
   rsvp_url: "https://www.sympla.com.br/vi-forum-empreendedoras---empreendedorismo-e-o-empoderamento-economico-da-mulher__157250"
 
 - title: "Front in Vale"
+  call: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "front-in-vale.png"
@@ -346,7 +348,7 @@
   facebook: "FrontInBH"
   instagram: "frontinbh"
   main_url: "http://frontinbh.com.br/"
-  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"  
+  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
 
 - title: "The Conf"
   location: "São Paulo - SP"
@@ -382,6 +384,7 @@
   rsvp_url: "https://www.sympla.com.br/phpeste-2017--fortaleza-ce__143467"
 
 - title: "React Conf"
+  call: true
   location: "São Paulo - SP"
   date: "07/10"
   banner: "react.png"
@@ -390,7 +393,7 @@
   twitter: "reactconfbr"
   facebook: "reactconf"
   main_url: "reactconf"
-  rsvp_url: "https://www.sympla.com.br/react-conf-brasil-2017__161239" 
+  rsvp_url: "https://www.sympla.com.br/react-conf-brasil-2017__161239"
 
 - title: "Interaction South America"
   location: "São Paulo - SP"
@@ -401,7 +404,7 @@
   twitter: "ixda"
   facebook: "ixdasaopaulo"
   main_url: "http://isa.ixda.org/2017/"
-  rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"   
+  rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
 
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
@@ -423,7 +426,7 @@
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "https://www.uxteamsummit.com.br/"
-  rsvp_url: "https://www.uxteamsummit.com.br/" 
+  rsvp_url: "https://www.uxteamsummit.com.br/"
 
 - title: "WEBBR 2017"
   location: "São Paulo - SP"
@@ -435,7 +438,7 @@
   facebook: "W3CWebbr"
   youtube: "user/NICbrvideos/videos"
   main_url: "http://conferenciaweb.w3c.br/"
-  rsvp_url: "https://cursoseventos.nic.br/users/login" 
+  rsvp_url: "https://cursoseventos.nic.br/users/login"
 
 - title: "CIDI 2017"
   location: "Natal - RN"
@@ -455,7 +458,7 @@
   twitter: "devopsdaysbsb"
   meetup: "devops-df"
   main_url: "http://devopsdays.bsb.br/"
-  rsvp_url: "hhttps://www.devopsdays.org/events/2017-brasilia/registration/"   
+  rsvp_url: "hhttps://www.devopsdays.org/events/2017-brasilia/registration/"
 
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
@@ -478,7 +481,7 @@
   twitter: "gopherconbrasil"
   facebook: "gopherconbrasil"
   main_url: "https://2017.gopherconbr.org/"
-  rsvp_url: "https://www.sympla.com.br/gophercon-brasil-2017__135639"       
+  rsvp_url: "https://www.sympla.com.br/gophercon-brasil-2017__135639"
 
 - title: "Rubyconf BR"
   location: "São Paulo - SP"
@@ -490,7 +493,7 @@
   facebook: "locaweb"
   main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
-  
+
 - title: "Mobile Summit Brazil"
   location: "Porto Alegre - RS"
   date: "25/11"
@@ -501,4 +504,4 @@
   facebook: "mobile.summit.br"
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
-  rsvp_url: "http://msummit.com.br/#ct-subscription"  
+  rsvp_url: "http://msummit.com.br/#ct-subscription"

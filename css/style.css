@@ -793,6 +793,26 @@ p {
     box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
 }
 
+.events-card-header-call4papers {
+    background: #F6A623;
+    border: 4px solid #F8E81C;
+    position: absolute;
+    font-size: small;
+    top: 55px;
+    color: #fff;
+    left: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*opacity: 0.9;*/
+    text-transform: uppercase;
+    padding: 7px 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
+}
+
 .events-ico {
     display: flex;
     justify-content: center;

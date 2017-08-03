@@ -54,6 +54,11 @@ layout: default
           <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
         </div>
         {% endif %}
+        {% if event.call %}
+        <div class="events-card-header-call4papers">
+          <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
+        </div>
+        {% endif %}
         <span class="events-card-header-ico">
           {% for tag in event.tags %}
           <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
