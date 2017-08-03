@@ -8,11 +8,11 @@ icons:
 ---
 <!-- BANNER -->
 <section id="banner">
-  <h1 class="page-section-title">WebBr 2017: W3C vai abordar inclusão.</h1>
+  <h2 class="page-section-title">WebBr 2017: W3C vai abordar inclusão.</h2>
 
   <p class="page-section-text">
     O Evento WebBr 2017 vai abordar inclusão e sentidos.
-    Podemos contar com uma grande discursão e apoio para acessibilidade.
+    Podemos contar com uma grande abordagem sobre acessibilidade.
     O WebBr vai acontecer dia 24 e 25/10/2017 em São Paulo.
   </p>
   <a class="button-primary" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
@@ -20,7 +20,7 @@ icons:
 
 <!-- PALESTRANTES -->
 <section id="events" class="page-section page-section-white-four">
-  <h2 class="page-section-subtitle pink">Legendas</h2>
+  <h1 class="page-section-subtitle pink">Legendas</h1>
 
   <p class="page-section-text">
     No Codamos a gente categoriza os eventos com foco em diversidade, acessibilidade, inclusão e outras legendas.
@@ -41,24 +41,24 @@ icons:
 {% include add_speaker.html %}
 
 <section id="speakers" class="page-section page-section-white-four">
-  <h2 class="page-section-subtitle pink">Pessoas que querem palestrar em eventos</h2>
+  <h1 class="page-section-subtitle pink">Pessoas que querem palestrar em eventos</h1>
 
   <ul class="speakers-cards">
     {% for speaker in site.data.speakers %}
     <li class="speaker-card">
       <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
-      <h4 class="pink title-large">{{ speaker.full_name | default: speaker.name }}</h4>
+      <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
       <p class="speaker-card-address">{{ speaker.location }}</p>
       <div class="speaker-card-labels">
         {% for label in speaker.labels %}
         <span class="label-{{ label }}"><i class="fa fa-{{ page.icons[label] }} fa-2x" aria-hidden="true"></i></span>
         {% endfor %}
       </div>
-      <p class="speaker-card-skills">
+      <h4 class="speaker-card-skills">
         {% for skill in speaker.skills %}
         #{{ skill }}
         {% endfor %}
-      </p>
+      </h4>
       <p class="speaker-card-bio">
         {{ speaker.bio }}
       </p>

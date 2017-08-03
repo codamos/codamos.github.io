@@ -390,7 +390,9 @@ p {
 .page-section-title {
     font-size: var(--title-small);
     font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.5);
 }
 
 .page-section-subtitle {
@@ -655,13 +657,14 @@ p {
     height: 80vh;
     padding: 0 2%;
     background-size: cover;
-    background-image: url("../images/webbr2017.png");
+    background-image: url("../images/bg-banner.png");
     background-repeat: no-repeat;
 }
 
 #banner .page-section-text {
     color: #ffffff;
     padding: 0 5%;
+    text-shadow: 1px 1px 1px rgba(4, 8, 12, 0.5);
 }
 
 
@@ -753,6 +756,7 @@ p {
 .events-card-header img {
     width: 100%;
     height: 140px;
+    object-fit: cover;
 }
 
 .card-event-ico {
@@ -1080,13 +1084,12 @@ p {
     box-shadow: 2px 2px 5px #888888;
 }
 
-.speaker-card h4 {
+.speaker-card {
     font-family: Roboto, Sans-Serif;
-    font-size: 20px;
+    font-size: medium;
     font-weight: 300;
     text-align: center;
     color: #333333;
-    margin: 10px 0;
 }
 
 .speaker-card-adress {
@@ -1101,7 +1104,7 @@ p {
 
 .speaker-card-skills {
     font-family: Roboto, Sans-Serif;
-    font-size: 14px;
+    font-size: medium;
     font-weight: 700;
     text-align: center;
     color: #D91C5C;
