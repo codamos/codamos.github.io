@@ -5,6 +5,7 @@
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
+# group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
 # hashtag:   texto sem espaços, opcional.
 # twitter:   texto sem espaços, opcional.
@@ -14,7 +15,6 @@
 # meetup:    texto sem espaços, opcional.
 # youtube:   texto sem espaços, opcional.
 # main_url:  URL, obrigatório.
-# grupo:     arquivo na pasta `images/grupo`, opcional.
 # rsvp_url:  URL, obrigatório.
 
 - title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
