@@ -38,45 +38,7 @@ icons:
   </ul>
 </section>
 
-<!-- INCLUIR PALESTRANTE -->
-<section id="include-speaker" class="page-section-pink">
-  <h2 class="include-speaker-title">Inclua um Palestrante!</h2>
-
-  <p class="include-speaker-call">
-    Faça parte da equipe de palestrantes mais incríveis do Brasil.
-  </p>
-
-  <a class="button-default-outline modal-button">Incluir Palestrante</a>
-
-  <div class="modal">
-    <div class="modal-content">
-      <span class="modal-close">&times;</span>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjGJTTAK1w19vxz4rRO7UsUKL_zalrqB7YxXEO1w2EQ3IncA/viewform?embedded=true" height="500" style="width: 100%;" frameborder="0" marginheight="0" marginwidth="0">
-        Carregando…
-      </iframe>
-    </div>
-  </div>
-
-  <script>
-    var modal = document.getElementsByClassName('modal')[0];
-    var button = document.getElementsByClassName("modal-button")[0];
-    var span = document.getElementsByClassName("modal-close")[0];
-
-    button.onclick = function() {
-      modal.style.display = "block";
-    }
-
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  </script>
-</section>
+{% include add_speaker.html %}
 
 <section id="speakers" class="page-section page-section-white-four">
   <h2 class="page-section-subtitle pink">Pessoas que querem palestrar em eventos</h2>

@@ -1,0 +1,44 @@
+<!-- INCLUIR EVENTO -->
+<section id="include-event" class="page-section-pink">
+  <h2 class="include-event-title">Inclua um Evento!</h2>
+
+  <p class="include-event-call">
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um evento com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+  </p>
+
+  <a class="button-default-outline modal-button">Incluir Evento</a>
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevg7emeHgwnTXQQRyfQUX0YUkNObGqz0sufNTMsyOCLnqYtw/viewform?embedded=true"
+              height="500"
+              style="width: 100%;"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0">
+        Carregando…
+      </iframe>
+    </div>
+  </div>
+
+  <script>
+    var modal = document.getElementsByClassName('modal')[0];
+    var button = document.getElementsByClassName("modal-button")[0];
+    var span = document.getElementsByClassName("modal-close")[0];
+
+    button.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</section>
