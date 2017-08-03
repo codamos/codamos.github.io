@@ -1790,16 +1790,16 @@ p {
         width: 70%;
         border-top: 1px solid #444;
         margin: 0 auto;
-        display: inline-flex;
+        display: block;
         justify-content: space-between;
     }
 
     .footer-social-links {
-        width: 50%;
+        width: 100%;
         box-sizing: border-box;
         padding: 3px;
         display: inline-flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         margin: 0;
         font-size: small;
@@ -1815,10 +1815,10 @@ p {
         box-sizing: border-box;
         padding: 3px;
         display: inline-flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         margin: 0;
-        width: 50%;
+        width: 100%;
     }
 
     .footer-social-media li {
