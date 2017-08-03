@@ -16,6 +16,7 @@
 # rsvp_url:  URL, obrigatório.
 
 - title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "02/08"
   banner: "coletividad-ui-design.png"
@@ -23,6 +24,7 @@
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
+  grupo: "brazil-js-grupo.png"
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/ui-construindo-interfaces-centradas-no-usuario-tickets-35673532496"
 

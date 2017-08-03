@@ -169,11 +169,6 @@
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="images/eventos/{{ event.banner }}">
-                        {% for tag in event.free %}
-                        <div class="events-card-header-free">
-                            <i class="fa fa-ticket" aria-hidden="true"></i><h3>{{ event.free }}</h3>
-                        </div>
-                        {% endfor %}
                         <span class="events-card-header-ico">
                             {% for tag in event.tags %}
                             <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
@@ -182,7 +177,7 @@
                         <h3 class="events-card-title">{{ event.title }}</h3>
                     </div>
                     <div class="events-card-body">
-                        <div class="events-card-body-social-media">
+                    	<div class="events-card-body-social-media">
                             {% if event.twitter %}
                             <a href="https://twitter.com/{{ event.twitter }}"
                                target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -220,9 +215,10 @@
                             <a href="{{ event.main_url }}"
                                target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div>
-                        {% if event.hashtag %}
-                        <div class="events-card-body-hastag">
-                            <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+                    	{% if event.hashtag %}
+                        <div>
+                        	<i class="fa fa-hashtag" aria-hidden="true"></i>
+                            <a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
                                target="_blank">{{ event.hashtag }}</a>
                         </div>
                         {% endif %}
@@ -234,13 +230,13 @@
                             <i class="fa fa-calendar" aria-hidden="true"></i>
                             <p>{{ event.date }}</p>
                         </div>
-                        <div class="events-card-body-grupo">
-                        {% if event.grupo %}
-                        <img src="images/grupo/{{ event.grupo }}">
-                        {% endif %}
-                        </div>
                         <div class="events-card-body-button">
-                            <a href="{{ event.rsvp_url }}" class="button-primary" target="_blank">Quero ir</a>
+                        	<a href="{{ event.rsvp_url }}" class="button-primary" target="_blank">Quero ir</a>
+                        </div>
+                        <div class="events-card-body-hastag">
+                        	{% if event.grupo %}
+                        	<img src="images/grupo/{{ event.grupo }}">
+                        	{% endif %}
                         </div>
                     </div>
                 </li>
@@ -262,19 +258,28 @@
                 <li class="events-card events-card-body-opacity">
                     <div class="events-card-header">
                         <img src="images/eventos/{{ event.banner }}">
-                        {% for tag in event.free %}
-                        <span class="events-card-header-free">
-                            <i class="fa fa-ticket" aria-hidden="true"></i><p>{{ event.free }}</p>
+                        {% if event.hashtag %}
+                        <span>
+                            <a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+                               target="_blank">#{{ event.hashtag }}</a>
                         </span>
-                        {% endfor %}
-                        <span class="events-card-header-ico">
+                        {% endif %}
+                        <div class="events-card-header-ico">
                             {% for tag in event.tags %}
                             <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
                             {% endfor %}
-                        </span>
-                        <h3 class="events-card-title">{{ event.title }}</h3>
+                        </div>
                     </div>
+                    <h3 class="events-card-title">{{ event.title }}</h3>
                     <div class="events-card-body">
+                        <div class="events-card-body-local">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>{{ event.location }}</p>
+                        </div>
+                        <div class="events-card-body-date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <p>{{ event.date }}</p>
+                        </div>
                         <div class="events-card-body-social-media">
                             {% if event.twitter %}
                             <a href="https://twitter.com/{{ event.twitter }}"
@@ -313,28 +318,8 @@
                             <a href="{{ event.main_url }}"
                                target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div>
-                        {% if event.hashtag %}
-                        <div class="events-card-body-hastag">
-                            <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
-                               target="_blank">{{ event.hashtag }}</a>
-                        </div>
-                        {% endif %}
-                        <div class="events-card-body-local">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>{{ event.location }}</p>
-                        </div>
-                        <div class="events-card-body-date">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <p>{{ event.date }}</p>
-                        </div>
-                        <div class="events-card-body-grupo">
-                        {% if event.grupo %}
-                        <img src="images/grupo/{{ event.grupo }}">
-                        {% endif %}
-                        </div>
-                        <div class="events-card-body-button">
-                            <a href="{{ event.rsvp_url }}" class="button-old-event" target="_blank">Quero ir</a>
-                        </div>
+                        <a href="{{ event.rsvp_url }}"
+                           class="button-old-event" target="_blank">Quero ir</a>
                     </div>
                 </li>
                 {% endfor %}
