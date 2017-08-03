@@ -1,6 +1,7 @@
 # Eventos atuais.
 
 # title:     texto, obrigatório.
+# free:      texto GRATUITO, opcional.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
@@ -13,10 +14,10 @@
 # meetup:    texto sem espaços, opcional.
 # youtube:   texto sem espaços, opcional.
 # main_url:  URL, obrigatório.
+# grupo:     arquivo na pasta `images/grupo`, opcional.
 # rsvp_url:  URL, obrigatório.
 
 - title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
-  free: "Gratuito"
   location: "São Paulo - SP"
   date: "02/08"
   banner: "coletividad-ui-design.png"
@@ -24,7 +25,6 @@
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
-  grupo: "brazil-js-grupo.png"
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/ui-construindo-interfaces-centradas-no-usuario-tickets-35673532496"
 
@@ -40,6 +40,7 @@
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/241616528/"
 
 - title: "Happy hour ELA Líder"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "02/08"
   banner: "ela-lider-happyhour.jpg"
@@ -52,10 +53,11 @@
   rsvp_url: "https://www.meetup.com/elalider/events/241913472/"
 
 - title: "Hackeando Dados Públicos usando Python"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "05/08"
   banner: "coletividad-hacker.png"
-  tags: [venus, cc, ticket]
+  tags: [venus, cc]
   hashtag: "coletividad"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -97,16 +99,18 @@
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "CURSO DE INTRODUÇÃO AO DESENVOLVIMENTO EM JAVA"
+  free: "Gratuito"
   location: "A distância"
   date: "11/08"
   banner: "lead.png"
-  tags: [wheelchair, language]
+  tags: [wheelchair, sing-language]
   instagram: "lead.dell"
   facebook: "dell.lead"
   main_url: "http://projetolead.com.br/selecao/"
   rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1" 
 
 - title: "NodeBR #34 - Services like a boss"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "11/08"
   banner: "node-br.png"
@@ -140,6 +144,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060" 
 
 - title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "12/08"
   banner: "mozilla-rust.png"
@@ -173,10 +178,11 @@
   rsvp_url: "https://www.moonhack.com/sign-up"   
 
 - title: "Rails Girls São Paulo"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "18/08 e 19/08"
   banner: "railsgirls.png"
-  tags: [venus, cc, ticket]
+  tags: [venus, cc]
   hashtag: "railsgirls"
   twitter: "railsgirlssp"
   facebook: "railsgirls.sp"
@@ -184,10 +190,11 @@
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/" 
 
 - title: "Café com Marialab"
+  free: "Gratuito"
   location: "São Paulo - SP"
   date: "19/08"
   banner: "maria.png"
-  tags: [venus, cc, ticket]
+  tags: [venus, cc]
   hashtag: "Marialab"
   twitter: "MarialabHackers"
   facebook: "marialab.org"

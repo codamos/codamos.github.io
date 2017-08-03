@@ -785,12 +785,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
     text-transform: uppercase;
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 4px 6px 8px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
 }
 
 .events-ico {
@@ -848,7 +848,7 @@ p {
     padding: 2px 0 2px 0;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 4px 6px 8px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
  }
 
  .events-card-header span a,
