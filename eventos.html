@@ -132,7 +132,6 @@
                 <li><i class="fa fa-universal-access" aria-hidden="true"></i> - para todos os públicos</li>
                 <li><i class="fa fa-ticket" aria-hidden="true"></i> - evento gratuito</li>
             </ul>
-            
         </section>
 
         <!-- INCLUIR EVENTO -->
@@ -169,11 +168,11 @@
                 <li class="events-card">
                     <div class="events-card-header">
                         <img src="images/eventos/{{ event.banner }}">
-                        {% for tag in event.free %}
+                        {% if event.free %}
                         <div class="events-card-header-free">
-                            <i class="fa fa-ticket" aria-hidden="true"></i><h3>{{ event.free }}</h3>
+                            <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
                         </div>
-                        {% endfor %}
+                        {% endif %}
                         <span class="events-card-header-ico">
                             {% for tag in event.tags %}
                             <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
@@ -262,11 +261,11 @@
                 <li class="events-card events-card-body-opacity">
                     <div class="events-card-header">
                         <img src="images/eventos/{{ event.banner }}">
-                        {% for tag in event.free %}
+                        {% if event.free %}
                         <span class="events-card-header-free">
-                            <i class="fa fa-ticket" aria-hidden="true"></i><p>{{ event.free }}</p>
+                            <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
                         </span>
-                        {% endfor %}
+                        {% endif %}
                         <span class="events-card-header-ico">
                             {% for tag in event.tags %}
                             <i class="fa fa-{{ tag }}" aria-hidden="true"></i>

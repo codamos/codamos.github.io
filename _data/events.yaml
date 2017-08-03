@@ -1,7 +1,7 @@
 # Eventos atuais.
 
 # title:     texto, obrigatório.
-# free:      texto GRATUITO, opcional.
+# free:      booleano (true ou false), opcional.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
@@ -40,7 +40,7 @@
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/241616528/"
 
 - title: "Happy hour ELA Líder"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "02/08"
   banner: "ela-lider-happyhour.jpg"
@@ -53,7 +53,7 @@
   rsvp_url: "https://www.meetup.com/elalider/events/241913472/"
 
 - title: "Hackeando Dados Públicos usando Python"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "05/08"
   banner: "coletividad-hacker.png"
@@ -99,7 +99,7 @@
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "CURSO DE INTRODUÇÃO AO DESENVOLVIMENTO EM JAVA"
-  free: "Gratuito"
+  free: true
   location: "A distância"
   date: "11/08"
   banner: "lead.png"
@@ -110,7 +110,7 @@
   rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1" 
 
 - title: "NodeBR #34 - Services like a boss"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "11/08"
   banner: "node-br.png"
@@ -144,7 +144,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060" 
 
 - title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "12/08"
   banner: "mozilla-rust.png"
@@ -178,7 +178,7 @@
   rsvp_url: "https://www.moonhack.com/sign-up"   
 
 - title: "Rails Girls São Paulo"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "18/08 e 19/08"
   banner: "railsgirls.png"
@@ -190,7 +190,7 @@
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/" 
 
 - title: "Café com Marialab"
-  free: "Gratuito"
+  free: true
   location: "São Paulo - SP"
   date: "19/08"
   banner: "maria.png"
