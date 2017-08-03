@@ -128,36 +128,14 @@
       <h2 class="page-section-subtitle pink">Parceiros e Apoiadores</h2>
 
       <ul class="partners-supporters-links">
-        <li>
-          <a href="http://www.frontinsampa.com.br/" target="_blank">
-            <img src="images/frontinsampa2.png" alt="Logo Front in Sampa 2017"/>
-          </a>
-        </li>
-        <li>
-          <a href="http://frontinvale.com.br/ " target="_blank">
-            <img src="images/frontinvale.png" alt="Logo Front in Vale"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://braziljs.org/" target="_blank">
-            <img src="images/brasiljs.png" alt="Logo BrazilJS"/>
-          </a>
-        </li>
-        <li>
-          <a href="http://railsgirls.com/saopaulo.html " target="_blank">
-            <img src="images/rails.png" alt="Logo Rail Girls"/>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.sp.senai.br/" target="_blank">
-            <img src="images/senai.png" alt="Logo Senai"/>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.codeclubbrasil.org.br/" target="_blank">
-            <img src="images/codeclub.png" alt="Logo Code Club Brasil"/>
-          </a>
-        </li>
+        {% for partner in site.data.partners %}
+          <li>
+            <a href="{{ partner.main_url }}" target="_blank">
+              <img src="images/parceiros/{{ partner.logo }}" alt="{{ partner.name }}"/>
+            </a>
+          </li>
+        {% endfor %}
+
       </ul>
     </section>
 

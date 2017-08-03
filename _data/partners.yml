@@ -1,0 +1,30 @@
+# Parceiros atuais.
+
+# main_url:  URL, obrigatório.
+# logo:      arquivo na pasta `images/parceiros`, obrigatório.
+# name:      texto com nome do parceiro, obrigatório.
+
+- main_url: "https://informatica.sp.senai.br/"
+  logo: "senai.png"
+  name: "Escola de informática SENAI"
+
+- main_url: "http://frontinvale.com.br/"
+  logo: "frontinvale.png"
+  name: "Front in Vale"
+
+- main_url: "https://braziljs.org/"
+  logo: "brasiljs.png"
+  name: "BrazilJS"
+
+- main_url: "http://railsgirls.com/saopaulo.html"
+  logo: "rails.png"
+  name: "Rail Girls"
+
+- main_url: "http://www.codeclubbrasil.org.br/"
+  logo: "codeclub.png"
+  name: "Code Club Brasil"
+
+- main_url: "http://www.frontinsampa.com.br/"
+  logo: "frontinsampa.png"
+  name: "Front in Sampa"
+
