@@ -1286,46 +1286,23 @@ p {
 }
 
 .partners-supporters-box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 599px;
-    background-image: url("../images/parceiros.png");
     margin-bottom: 4em;
-}
-
-.partners-supporters-wannabe {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
-    width: 100%;
-}
-
-.partners-supporters-wannabe div {
-    position: absolute;
-}
-
-.partners-supporters-wannabe h3 {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.3;
-    margin: 0 10px;
+    height: 80vh;
+    padding: 0 2%;
+    background-size: cover;
+    background-image: url("../images/bg-parceiros.png");
+    background-repeat: no-repeat;
 }
 
-.partners-supporters-wannabe p {
-    color:  #9fd7de;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    text-align: right;
-    width: 50%;
-    margin: 0 auto;
-    padding: 5px;
+@media (max-width: 660px) {
+    .partners-supporters-wannabe div {
+    position: absolute;
+    top: 10%;
+    }
 }
 
 .partners-supporters-form {
@@ -1333,7 +1310,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
     background-color: #d91c5c;
     opacity: 0.9;
 }
@@ -1379,26 +1355,10 @@ p {
         margin-top: 10px;
     }
 
-    .partners-supporters-wannabe,
     .partners-supporters-form {
-        height: 100%;
-        width: 50%;
+        height: 80vh;
     }
 
-    .partners-supporters-wannabe h3 {
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .partners-supporters-wannabe h3,
-    .partners-supporters-form h3 {
-        font-size: 32px;
-    }
-
-    .partners-supporters-wannabe p,
-    .partners-supporters-form p {
-        font-size: 18px;
-    }
 }
 
 @media (min-width: 992px) {
@@ -1406,16 +1366,10 @@ p {
         max-width: 80%;
     }
 
-    .partners-supporters-wannabe h3 {
-        width: 75%;
-    }
-
-    .partners-supporters-wannabe h3,
     .partners-supporters-form h3 {
-        font-size: 36px;
+        font-size: x-large;
     }
 
-    .partners-supporters-wannabe p,
     .partners-supporters-form p {
         font-size: 20px;
     }
