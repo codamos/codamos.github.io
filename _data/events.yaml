@@ -3,6 +3,8 @@
 # title:     texto, obrigatório.
 # free:      booleano (true ou false), opcional.
 # call:      booleano (true ou false), opcional.
+# cat:       booleano (true ou false), opcional.
+# cat_name:  texto sem espaços, obrigatório se cat for true.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
@@ -17,41 +19,6 @@
 # youtube:   texto sem espaços, opcional.
 # main_url:  URL, obrigatório.
 # rsvp_url:  URL, obrigatório.
-
-- title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
-  location: "São Paulo - SP"
-  date: "02/08"
-  banner: "coletividad-ui-design.png"
-  hashtag: "coletividad"
-  twitter: "coletividad"
-  facebook: "COLETIVIDAD"
-  instagram: "coletividad"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/ui-construindo-interfaces-centradas-no-usuario-tickets-35673532496"
-
-- title: "Empreendedorismo Feminino - Por onde começar? #ElaQuemFaz"
-  location: "São Paulo - SP"
-  date: "02/08"
-  banner: "emprededorismo-womakers.jpg"
-  tags: [venus, cc, wheelchair]
-  hashtag: "womakerscode"
-  twitter: "womakerscode"
-  facebook: "womakerscode"
-  main_url: "http://womakerscode.org/"
-  rsvp_url: "https://www.meetup.com/WoMakersCode/events/241616528/"
-
-- title: "Happy hour ELA Líder"
-  free: true
-  location: "São Paulo - SP"
-  date: "02/08"
-  banner: "ela-lider-happyhour.jpg"
-  tags: [venus, cc]
-  hashtag: "elalider"
-  twitter: "_elalider"
-  facebook: "elaliderfeminina"
-  youtube: "https://www.youtube.com/channel/UC-gc9bhY5CdbPlpFz0SzRNQ"
-  main_url: "https://elalider.com/"
-  rsvp_url: "https://www.meetup.com/elalider/events/241913472/"
 
 - title: "Hackeando Dados Públicos usando Python"
   free: true
@@ -80,7 +47,7 @@
 - title: "DevOps Day"
   location: "Porto Alegre - RS"
   date: "05/08"
-  banner: "devops.jpg"
+  banner: "devopsday-poa.png"
   tags: []
   hashtag: "devopsday"
   twitter: "poadevopsday"
@@ -101,6 +68,8 @@
 
 - title: "CURSO DE INTRODUÇÃO AO DESENVOLVIMENTO EM JAVA"
   free: true
+  cat: true
+  cat_name: CURSO
   location: "A distância"
   date: "11/08"
   banner: "lead.png"

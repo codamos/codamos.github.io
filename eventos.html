@@ -54,17 +54,22 @@ layout: default
           <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
         </div>
         {% endif %}
+        {% if event.cat %}
+        <div class="events-card-header-cat">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.cat_name }}</h3>
+        </div>
+        {% endif %}
         {% if event.call %}
         <div class="events-card-header-call4papers">
           <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
         </div>
         {% endif %}
+        <h3 class="events-card-title">{{ event.title }}</h3>
         <span class="events-card-header-ico">
           {% for tag in event.tags %}
           <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
           {% endfor %}
         </span>
-        <h3 class="events-card-title">{{ event.title }}</h3>
       </div>
       <div class="events-card-body">
         <div class="events-card-body-social-media">
@@ -150,6 +155,11 @@ layout: default
         {% if event.free %}
         <div class="events-card-header-free">
           <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
+        </div>
+        {% endif %}
+        {% if event.cat %}
+        <div class="events-card-header-free">
+          <i class="fa fa-ticket" aria-hidden="true"></i><h3>{{ event.cat_name }}</h3>
         </div>
         {% endif %}
         <span class="events-card-header-ico">
