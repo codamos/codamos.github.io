@@ -1260,13 +1260,11 @@ p {
     padding: 0 40px;
 }
 
-#code-of-conduct p {
-    font-family: Roboto, Sans-Serif;
+#code-of-conduct h2 {
     font-size: 26px;
     font-weight: 300;
-    text-align: center;
-    text-decoration: none;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 #code-of-conduct a {
@@ -1276,15 +1274,14 @@ p {
 }
 
 @media (min-width: 768px) {
-    #code-of-conduct p {
+    #code-of-conduct h2 {
         font-size: 32px;
         max-width: 90%;
-        margin: 0 auto;
     }
 }
 
 @media (min-width: 992px) {
-    #code-of-conduct p {
+    #code-of-conduct h2 {
         font-size: 36px;
         max-width: 80%;
     }
