@@ -1,24 +1,25 @@
 # Eventos atuais.
 
-# title:     texto, obrigatório.
-# free:      booleano (true ou false), opcional.
-# call:      booleano (true ou false), opcional.
-# cat:       booleano (true ou false), opcional.
-# cat_name:  texto sem espaços, obrigatório se cat for true.
+# title:     texto, obrigatório. Nome do evento.
+# free:      booleano (true ou false), opcional. Evento gratuito.
+# category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
 # group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
-# hashtag:   texto sem espaços, opcional.
-# twitter:   texto sem espaços, opcional.
-# facebook:  texto sem espaços, opcional.
-# instagram: texto sem espaços, opcional.
-# linkedin:  texto sem espaços, opcional.
-# meetup:    texto sem espaços, opcional.
-# youtube:   texto sem espaços, opcional.
-# main_url:  URL, obrigatório.
-# rsvp_url:  URL, obrigatório.
+# hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter.
+# twitter:   texto sem espaços, opcional. Twitter handle.
+# facebook:  texto sem espaços, opcional. Facebook handle.
+# instagram: texto sem espaços, opcional. Instagram handle.
+# linkedin:  texto sem espaços, opcional. LinkedIn handle.
+# meetup:    texto sem espaços, opcional. Id do grupo no Meetup.
+# youtube:   texto sem espaços, opcional. Youtube handle.
+# main_url:  URL, obrigatório. Site do evento.
+
+# rsvp_url:  URL, obrigatório. Site para inscrição no evento.
+# cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
+# highlight: booleano (true ou false), opcional. Destaque na home.
 
 - title: "Hackeando Dados Públicos usando Python"
   free: true
@@ -66,10 +67,9 @@
   main_url: "http://phpsp.org.br/"
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
-- title: "CURSO DE INTRODUÇÃO AO DESENVOLVIMENTO EM JAVA"
+- title: "Curso de Introdução ao Desenvolvimento em Java"
   free: true
-  cat: true
-  cat_name: CURSO
+  category: Curso
   location: "A distância"
   date: "11/08"
   banner: "lead.png"
@@ -149,6 +149,7 @@
 
 - title: "Rails Girls São Paulo"
   free: true
+  highlight: true
   location: "São Paulo - SP"
   date: "18/08 e 19/08"
   banner: "railsgirls.png"
@@ -193,6 +194,7 @@
   rsvp_url: "https://eventos.imasters.com.br/android-devconference"
 
 - title: "BrazilJS - RS"
+  highlight: true
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
   banner: "brazil-js.png"
@@ -205,6 +207,7 @@
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
 - title: "PHP Community Summit by Locaweb"
+  highlight: true
   location: "São Paulo - SP"
   date: "01/09 e 02/09"
   banner: "phpsm-lw.png"
@@ -296,7 +299,8 @@
   rsvp_url: "https://www.sympla.com.br/vi-forum-empreendedoras---empreendedorismo-e-o-empoderamento-economico-da-mulher__157250"
 
 - title: "Front in Vale"
-  call: true
+  cfp: true
+  highlight: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "front-in-vale.png"
@@ -353,7 +357,8 @@
   rsvp_url: "https://www.sympla.com.br/phpeste-2017--fortaleza-ce__143467"
 
 - title: "React Conf"
-  call: true
+  cfp: true
+  highlight: true
   location: "São Paulo - SP"
   date: "07/10"
   banner: "react.png"
@@ -398,6 +403,7 @@
   rsvp_url: "https://www.uxteamsummit.com.br/"
 
 - title: "WEBBR 2017"
+  highlight: true
   location: "São Paulo - SP"
   date: "24/10 e 25/10"
   banner: "webbr.png"
