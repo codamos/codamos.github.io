@@ -635,8 +635,10 @@ p {
     height: 80vh;
     padding: 0 2%;
     background-size: cover;
-    background-image: url("../images/bg-banner.png");
+    background-image: url("../images/bg-banner.jpg");
     background-repeat: no-repeat;
+    background-color: rgba(74, 144, 266, 0.5);
+    background-blend-mode: multiply;
 }
 
 #banner .page-section-text {
@@ -1318,9 +1320,12 @@ p {
     height: 80vh;
     padding: 0 2%;
     background-size: cover;
-    background-image: url("../images/bg-parceiros.png");
+    background-image: url("../images/bg-parceiros.jpg");
     background-repeat: no-repeat;
+    background-color: rgba(74, 144, 266, 0.5);
+    background-blend-mode: multiply;
 }
+
 .partners-supporters-text {
     width: 70%;
 }
