@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<!-- BANNER -->
+<section id="banner">
+  <h2 class="page-section-title">WebBr 2017: W3C vai abordar inclusão.</h2>
+
+  <p class="page-section-text">
+    O Evento WebBr 2017 vai abordar inclusão e sentidos.
+    Podemos contar com uma grande abordagem sobre acessibilidade.
+    O WebBr vai acontecer dia 24 e 25/10/2017 em São Paulo.
+  </p>
+  <a class="button-primary" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
+</section>
+
+<!-- QUEM SOMOS TOPO -->
+<section class="page-section events-section page-section-white">
+  <h1 class="page-section-subtitle pink">Quem somos:</h1>
+
+  <p class="page-section-text">
+    Somos uma plataforma sem fins lucrativos que recebe contribuições de todos que compartilham
+    nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso
+    ecossistema tecnológico. Portanto, as pessoas são nossa essência, estão em primeiro lugar e
+    fazemos o nosso melhor para reconhecer, valorizar e respeitar a pluralidade.
+  </p>
+
+  <p class="page-section-text">
+    Queremos descomplicar a comunicação entre quem organiza <a href="/eventos">eventos</a> e quem
+    quer participar, seja como <a href="/palestrantes">palestrante</a> ou oferecendo workshops e
+    cursos, seja como espectador.
+  </p>
+
+  <p class="page-section-text">
+    Somos uma equipe formada por pessoas de diversos backgrounds, formação e profissões ligadas
+    à tecnologia.
+  </p>
+
+  <img src="images/logo.png" alt="Logotipo Codamos">
+</section>
+
+<!-- EQUIPE E COLABORADORES -->
+<section id="team-collaborators" class="page-section page-section-white">
+  <h1 class="page-section-subtitle pink">Nossa Equipe e Colaboradores</h1>
+
+  <ul class="team-collaborators-cards">
+    {% for collaborator in site.data.collaborators %}
+    <li class="team-collaborators-card">
+      <img src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
+      <h3>{{ collaborator.name }}</h3>
+      <ul>
+        <li>
+          {% if collaborator.twitter %}
+          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
+          target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.facebook %}
+          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
+          target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.instagram %}
+          <a href="http://instagram.com/{{ collaborator.instagram }}" title="Instagram"
+          target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.linkedin %}
+          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
+          target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="team-collaborators-talk-to-us">
+    <h4 class="page-section-text">
+      Trabalhamos voluntariamente para fazer do Codamos um ponto de encontro do fantástico mundo tecnológico.
+    </h4>
+    <a class="button-primary-outline" href="mailto:contato@codamos.club">Fale conosco</a>
+  </div>
+</section>
+
+{% include code_of_conduct.html %}

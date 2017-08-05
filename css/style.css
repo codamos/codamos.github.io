@@ -1134,12 +1134,11 @@ p {
 
 
 /*EQUIPE E COLABORADORES*/
-#team-colaborators {
+#team-collaborators {
     position: relative;
-    padding: 4em 10px;
 }
 
-.team-colaborators-cards {
+.team-collaborators-cards {
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -1149,14 +1148,14 @@ p {
     margin: 0 auto;
 }
 
-.team-colaborators-card {
+.team-collaborators-card {
     width: 50%;
     display: inline-block;
     padding: 0;
     font-size: 25px;
 }
 
-.team-colaborators-card img {
+.team-collaborators-card img {
     display: block;
     margin: 0 auto;
     width: 100px;
@@ -1165,7 +1164,7 @@ p {
     border-radius: 100%;
 }
 
-.team-colaborators-card h3 {
+.team-collaborators-card h3 {
     font-family: Roboto, Sans-Serif;
     font-size: 16px;
     font-weight: 300;
@@ -1174,56 +1173,60 @@ p {
     margin: 8px 0;
 }
 
-.team-colaborators-card ul {
+.team-collaborators-card ul {
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0 auto;
 }
 
-.team-colaborators-card:nth-last-child(2n+3) {
+.team-collaborators-card:nth-last-child(2n+3) {
     margin-bottom: 40px;
 }
 
-.team-colaborators-card li + li {
+.team-collaborators-card li + li {
     margin-left: 10px;
 }
 
-.team-colaborators-card li a {
+.team-collaborators-card li a {
     font-size: 25px;
     color: #666666;
     text-decoration: none;
 }
 
-.team-colaborators-card li a:hover {
+.team-collaborators-card li a:hover {
     font-size: 25px;
     color: #BB1B58;
     text-decoration: none;
 }
 
+.team-collaborators-talk-to-us {
+    padding: 4em 10px;
+}
+
 @media (min-width: 768px) {
-    .team-colaborators-cards {
+    .team-collaborators-cards {
         max-width: 90%;
     }
 
-    .team-colaborators-card {
+    .team-collaborators-card {
         width: 33%;
         display: inline-block;
         padding: 0;
     }
 
-    .team-colaborators-card h3 {
+    .team-collaborators-card h3 {
         font-size: 16px;
     }
 
-    .team-colaborators-card img {
+    .team-collaborators-card img {
         width: 118px;
         height: 118px;
     }
 }
 
 @media (min-width: 992px) {
-    .team-colaborators-cards {
+    .team-collaborators-cards {
         max-width: 80%;
     }
 }
@@ -1310,7 +1313,6 @@ p {
     font-size: x-large;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
-    text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.5);
 }
 
