@@ -649,7 +649,7 @@ p {
 
 
 /*EVENTOS*/
-#events {
+.events-section {
     position: relative;
     padding: 4em 10px;
 }
@@ -659,11 +659,11 @@ p {
     padding: 4em 2% 0 2%;
 }
 
-#events .button-primary-outline {
+.events-section .button-primary-outline {
     margin-top: 4em;
 }
 
-#events input[type=checkbox] {
+.events-section input[type=checkbox] {
     position: absolute;
     border: 0;
     height: 1px;
@@ -674,7 +674,7 @@ p {
     clip: rect(0 0 0 0);
 }
 
-#events label[for="load_more"] {
+.events-section label[for="load_more"] {
     position: absolute;
     left: 50%;
     bottom: 4em;
@@ -683,22 +683,22 @@ p {
     z-index: 1;
 }
 
-#events label[for="load_more"] span:last-of-type {
+.events-section label[for="load_more"] span:last-of-type {
     display: none;
     visibility: hidden;
 }
 
-#events input[type=checkbox]:checked ~ ul li {
+.events-section input[type=checkbox]:checked ~ ul li {
     display: inline-block;
     visibility: visible;
 }
 
-#events input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
+.events-section input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
-#events input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
+.events-section input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
     visibility: visible;
     display: block;
 }
@@ -938,7 +938,7 @@ p {
 }
 
 @media (min-width: 768px) {
-    #events {
+    .events-section {
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -961,7 +961,7 @@ p {
 }
 
 @media (min-width: 992px) {
-    #events {
+    .events-section {
         padding-left: 10%;
         padding-right: 10%;
     }
