@@ -280,26 +280,6 @@ p {
     box-shadow: none;
 }
 
-.button-secondary {
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Roboto, Sans-Serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    padding: 15px 45px;
-    border: 1px solid #d6de23;
-    border-radius: 15px;
-    background-color: #d6de23;
-}
-
-.button-secondary:active, .button-secondary:hover {
-    color: #ffffff;
-    box-shadow: none;
-}
-
 .button-primary-outline {
     display: inline-block;
     cursor: pointer;
@@ -642,46 +622,6 @@ p {
     margin-top: 4em;
 }
 
-.events-section input[type=checkbox] {
-    position: absolute;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-}
-
-.events-section label[for="load_more"] {
-    position: absolute;
-    left: 50%;
-    bottom: 4em;
-    margin: 0;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.events-section label[for="load_more"] span:last-of-type {
-    display: none;
-    visibility: hidden;
-}
-
-.events-section input[type=checkbox]:checked ~ ul li {
-    display: inline-block;
-    visibility: visible;
-}
-
-.events-section input[type=checkbox]:checked ~ [for="load_more"] span:first-of-type {
-    display: none;
-    visibility: hidden;
-}
-
-.events-section input[type=checkbox]:checked ~ [for="load_more"] span:last-of-type {
-    visibility: visible;
-    display: block;
-}
-
 .events-cards {
     display: flex;
     align-items: stretch;
@@ -711,11 +651,6 @@ p {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.events-card:nth-child(n+7) {
-    display: none;
-    visibility: hidden;
-}
-
 .events-card-header img {
     width: 100%;
     height: 140px;
@@ -728,10 +663,12 @@ p {
     position: relative;
     background: #fff;
 }
+
 .events-card-header-overlay {
     background-color: rgba(25, 128, 162, 0.9);
     width: 100%;
 }
+
 .events-card-header-free {
     background: #417505;
     border: 4px solid #7ED321;

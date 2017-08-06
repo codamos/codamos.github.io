@@ -35,11 +35,6 @@ layout: default
 <section class="page-section events-section page-section-white-four">
   <h1 class="page-section-subtitle pink">Eventos que vão acontecer</h1>
 
-  <input type="checkbox" id="load_more" role="button">
-  <label class="button-secondary" for="load_more">
-    <span>Veja todos os eventos</span><span>Fechar todos os eventos</span>
-  </label>
-
   <ul class="events-cards events-cards-load-more">
     {% include events.html events=site.data.events %}
   </ul>
@@ -48,11 +43,6 @@ layout: default
 <!-- EVENTOS PASSADOS -->
 <section class="page-section events-section page-section-white-four">
   <h1 class="page-section-subtitle pink">Eventos passados</h1>
-
-  <input type="checkbox" id="load_more" role="button">
-  <label class="button-secondary" for="load_more">
-    <span>Veja todos os eventos</span><span>Fechar todos os eventos</span>
-  </label>
 
   <ul class="events-cards events-cards-load-more events-cards-past">
     {% include events.html events=site.data.past_events %}
