@@ -19,7 +19,7 @@
     {% endif %}
     <span class="events-card-header-ico">
       {% for tag in event.tags %}
-      <i class="fa fa-{{ tag }}" aria-hidden="true"></i>
+      <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
       {% endfor %}
     </span>
     <h3 class="events-card-title">{{ event.title }}</h3>
