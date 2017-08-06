@@ -73,7 +73,7 @@
   location: "A distância"
   date: "11/08"
   banner: "lead.png"
-  tags: [wheelchair, sign-language]
+  tags: [wheelchair-alt, sign-language]
   instagram: "lead.dell"
   facebook: "dell.lead"
   main_url: "http://projetolead.com.br/selecao/"
@@ -95,7 +95,7 @@
   location: "São Paulo - SP"
   date: "12/08"
   banner: "nerdezao.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
@@ -118,7 +118,7 @@
   location: "São Paulo - SP"
   date: "12/08"
   banner: "mozilla-rust.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "mozillabrasil"
   twitter: "mozillabrasil"
   facebook: "mozillabrasil"
@@ -129,7 +129,7 @@
   location: "São Paulo - SP"
   date: "12/08"
   banner: "tedxeducacao.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "TEDxSaoPaulo"
   twitter: "TEDxSaoPaulo"
   facebook: "TEDxSP"
@@ -140,7 +140,7 @@
   location: "São Paulo - SP"
   date: "15/08"
   banner: "moonhack.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "moonhack"
   twitter: "CodeClubBrasil"
   facebook: "CodeClubBrasil"
@@ -198,7 +198,7 @@
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
   banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "BrazilJS"
   twitter: "braziljs"
   facebook: "braziljs"
@@ -222,7 +222,7 @@
   location: "Fortaleza - CE"
   date: "01/09 e 02/09"
   banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "BrazilJS"
   twitter: "braziljs"
   facebook: "braziljs"
@@ -291,7 +291,7 @@
   location: "São Paulo - SP"
   date: "16/09"
   banner: "forum-empreendedoras.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "womeninleadership"
   twitter: "RMEmpreendedora"
   facebook: "ForumEmpreendedoras"
@@ -304,7 +304,7 @@
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "front-in-vale.png"
-  tags: [venus, cc, wheelchair]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "frontinvale2017"
   twitter: "frontinvale"
   facebook: "frontinvale"
@@ -395,7 +395,7 @@
   location: "São Paulo - SP"
   date: "28/10"
   banner: "uxteam2017.png"
-  tags: [cc, wheelchair]
+  tags: [cc, wheelchair-alt]
   hashtag: "UXTeamSummit"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
@@ -419,7 +419,7 @@
   location: "Natal - RN"
   date: "29/10 a 01/11"
   banner: "cidi.png"
-  tags: [cc, wheelchair]
+  tags: [cc, wheelchair-alt]
   facebook: "CIDI2017"
   main_url: "http://sbdi.org.br/cidi2017/index.html"
   rsvp_url: "http://sbdi.org.br/cidi2017/inscricao.html"
