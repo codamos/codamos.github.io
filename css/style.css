@@ -1296,10 +1296,10 @@ p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 80vh;
     padding: 0 2%;
     background-size: cover;
     background-image: url("../images/bg-parceiros.jpg");
+    background-position: top center;
     background-repeat: no-repeat;
     background-color: rgba(74, 144, 266, 0.5);
     background-blend-mode: multiply;
@@ -1307,7 +1307,9 @@ p {
 
 .partners-supporters-text {
     width: 70%;
+    margin: 5em 0;
 }
+
 .partners-supporters-text h3 {
     font-weight: 300;
     font-size: x-large;
