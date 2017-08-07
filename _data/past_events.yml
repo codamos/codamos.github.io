@@ -151,3 +151,35 @@
   facebook: "elaliderfeminina"
   youtube: "https://www.youtube.com/channel/UC-gc9bhY5CdbPlpFz0SzRNQ"
   main_url: "https://elalider.com/"
+
+- title: "Hackeando Dados Públicos usando Python"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/08"
+  banner: "coletividad-hacker.png"
+  tags: [venus, cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "IBM - Blue Experience - Edição Centenário"
+  location: "São Paulo - SP"
+  date: "05/08"
+  banner: "ibm-blue-hack.png"
+  tags: []
+  hashtag: "IBMBrasil"
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
+  main_url: "https://www.ibm.com/br-pt/"
+
+- title: "DevOps Day"
+  location: "Porto Alegre - RS"
+  date: "05/08"
+  banner: "devopsday-poa.png"
+  tags: []
+  hashtag: "devopsday"
+  twitter: "poadevopsday"
+  facebook: "devopsdaypoa"
+  main_url: "https://www.devopsdays.org/events/2017-porto-alegre/"

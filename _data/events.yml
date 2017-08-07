@@ -21,41 +21,6 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- title: "Hackeando Dados Públicos usando Python"
-  free: true
-  location: "São Paulo - SP"
-  date: "05/08"
-  banner: "coletividad-hacker.png"
-  tags: [venus, cc]
-  hashtag: "coletividad"
-  twitter: "coletividad"
-  facebook: "COLETIVIDAD"
-  instagram: "coletividad"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-dados-publicos-usando-python-tickets-35734688415"
-
-- title: "IBM - Blue Experience - Edição Centenário"
-  location: "São Paulo - SP"
-  date: "05/08"
-  banner: "ibm-blue-hack.png"
-  tags: []
-  hashtag: "IBMBrasil"
-  twitter: "ibmbrasil"
-  facebook: "IBMBrasil"
-  main_url: "https://www.ibm.com/br-pt/"
-  rsvp_url: "https://www-03.ibm.com/marketing/br/ibmbrasil100/blue_experience/"
-
-- title: "DevOps Day"
-  location: "Porto Alegre - RS"
-  date: "05/08"
-  banner: "devopsday-poa.png"
-  tags: []
-  hashtag: "devopsday"
-  twitter: "poadevopsday"
-  facebook: "devopsdaypoa"
-  main_url: "https://www.devopsdays.org/events/2017-porto-alegre/"
-  rsvp_url: "https://devopsdayportoalegre.eventize.com.br/index.php?inscricao"
-
 - title: "WagonTalk com Dennis Wang"
   free: true
   location: "São Paulo - SP"
@@ -66,7 +31,7 @@
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/?eventId=242090509&chapter_analytics_code=UA-85165968-1"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/"
 
 - title: "PHPSP + Pub"
   location: "São Paulo - SP"
@@ -101,7 +66,7 @@
   twitter: "nodebr"
   facebook: "brnode"
   main_url: "https://www.meetup.com/nodebr/"
-  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/?eventId=242068584&chapter_analytics_code=UA-53750345-1"
+  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/"
 
 - title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
   location: "São Paulo - SP"
@@ -111,7 +76,7 @@
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/?a=socialmedia&_locale=pt-BR"
+  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/"
 
 - title: "Design para Inovação Social"
   location: "São Paulo - SP"
@@ -159,6 +124,18 @@
   main_url: "https://www.moonhack.com/home-portuguese"
   rsvp_url: "https://www.moonhack.com/sign-up"
 
+- title: "Le Wagon Coding Bootcamp Open Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "le-wagon.png"
+  tags: []
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
+
 - title: "Rails Girls São Paulo"
   free: true
   highlight: true
@@ -204,6 +181,18 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/android-devconference"
   rsvp_url: "https://eventos.imasters.com.br/android-devconference"
+
+- title: "Crie a landing page da sua startup... em 2 horas!"
+  free: true
+  location: "São Paulo - SP"
+  date: "24/08"
+  banner: "le-wagon.png"
+  tags: []
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242226755/"
 
 - title: "BrazilJS - RS"
   highlight: true
