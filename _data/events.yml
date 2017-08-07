@@ -56,6 +56,18 @@
   main_url: "https://www.devopsdays.org/events/2017-porto-alegre/"
   rsvp_url: "https://devopsdayportoalegre.eventize.com.br/index.php?inscricao"
 
+- title: "WagonTalk com Dennis Wang"
+  free: true
+  location: "São Paulo - SP"
+  date: "08/08"
+  banner: "le-wagon.png"
+  tags: []
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/?eventId=242090509&chapter_analytics_code=UA-85165968-1"
+
 - title: "PHPSP + Pub"
   location: "São Paulo - SP"
   date: "10/08"
