@@ -15,12 +15,12 @@ icons:
     Podemos contar com uma grande abordagem sobre acessibilidade.
     O WebBr vai acontecer dia 24 e 25/10/2017 em São Paulo.
   </p>
-  <a class="button-primary" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
+  <a class="button-banner" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
 </section>
 
 <!-- PALESTRANTES -->
-<section class="page-section events-section page-section-white-four">
-  <h1 class="page-section-subtitle pink">Palestrantes</h1>
+<section class="page-section events-section">
+  <h1 class="page-section-subtitle">Sobre palestrantes</h1>
 
   <p class="page-section-text">
     Nossa plataforma está em constante crescimento para que cada vez mais possamos ter diversidade, inclusão e acessibilidade, por isso, você encontra uma legenda em cada pessoa que quer palestrar e poderá checar os grupos de diversidade que cada um faz parte.
@@ -41,54 +41,56 @@ icons:
 
 {% include add_speaker.html %}
 
-<section id="speakers" class="page-section page-section-white-four">
-  <h1 class="page-section-subtitle pink">Pessoas que querem palestrar em eventos</h1>
+<section id="speakers">
+  <div class="page-section">
+    <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
 
-  <ul class="speakers-cards">
-    {% for speaker in site.data.speakers %}
-    <li class="speaker-card">
-      <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
-      <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
-      <p class="speaker-card-address">{{ speaker.location }}</p>
-      <div class="speaker-card-labels">
-        {% for label in speaker.labels %}
-        <span class="label-{{ label }}"><i class="fa fa-{{ page.icons[label] }} fa-2x" aria-hidden="true"></i></span>
-        {% endfor %}
-      </div>
-      <h4 class="speaker-card-skills">
-        {% for skill in speaker.skills %}
-        #{{ skill }}
-        {% endfor %}
-      </h4>
-      <p class="speaker-card-bio">
-        {{ speaker.bio }}
-      </p>
-      <ul class="speaker-card-social-media">
-        {% if speaker.linkedin %}
-        <li>
-          <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/"><i
-             class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a>
-        </li>
-        {% endif %}
+    <ul class="speakers-cards">
+      {% for speaker in site.data.speakers %}
+      <li class="speaker-card">
+        <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
+        <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
+        <p class="speaker-card-address">{{ speaker.location }}</p>
+        <div class="speaker-card-labels">
+          {% for label in speaker.labels %}
+          <span class="label-{{ label }}"><i class="fa fa-{{ page.icons[label] }} fa-2x" aria-hidden="true"></i></span>
+          {% endfor %}
+        </div>
+        <h4 class="speaker-card-skills">
+          {% for skill in speaker.skills %}
+          #{{ skill }}
+          {% endfor %}
+        </h4>
+        <p class="speaker-card-bio">
+          {{ speaker.bio }}
+        </p>
+        <ul class="speaker-card-social-media">
+          {% if speaker.linkedin %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/"><i
+               class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a>
+          </li>
+          {% endif %}
 
-        {% if speaker.twitter %}
-        <li>
-          <a href="https://twitter.com/{{ speaker.twitter }}"><i
-             class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a>
-        </li>
-        {% endif %}
+          {% if speaker.twitter %}
+          <li>
+            <a href="https://twitter.com/{{ speaker.twitter }}"><i
+               class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a>
+          </li>
+          {% endif %}
 
-        {% if speaker.github %}
-        <li>
-          <a href="https://github.com/{{ speaker.github }}"><i
-             class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a>
-        </li>
-        {% endif %}
-      </ul>
-      <a class="button-primary">Entrar em contato</a>
-    </li>
-    {% endfor %}
-  </ul>
+          {% if speaker.github %}
+          <li>
+            <a href="https://github.com/{{ speaker.github }}"><i
+               class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a>
+          </li>
+          {% endif %}
+        </ul>
+        <a class="button-primary">Entrar em contato</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 
 {% include code_of_conduct.html %}

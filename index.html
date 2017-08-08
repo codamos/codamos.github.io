@@ -10,42 +10,44 @@ layout: default
     Podemos contar com uma grande abordagem sobre acessibilidade.
     O WebBr vai acontecer dia 24 e 25/10/2017 em São Paulo.
   </p>
-  <a class="button-primary" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
+  <a class="button-banner" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
 </section>
 
 <!-- EVENTOS TOPO -->
-<section id="events-top" class="page-section page-section-white">
-  <h1 class="page-section-subtitle pink">Onde estão os eventos de tecnologia?</h1>
-
-  <p class="page-section-text">
-    Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde concentrar todas as informações de eventos, workshops, palestras, cursos e oportunidades de networking em todo Brasil reunidas um lugar só. Essa é a razão pela qual criamos o Codamos Club.
-
-    Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os eventos que querem ter ou já tem inclusão e diversidade.
-
-    O objetivo do Codamos é promover <a href="/eventos">eventos</a> com esse foco.<br>
-    Aqui você encontra informações relevantes sobre eventos cadastrados e pode facilmente escolher o mais adequado ao seu perfil. Faça parte do Codamos e nos ajude a mudar a vida das pessoas.
-  </p>
-  <img src="images/logo.png" alt="Logotipo Codamos">
+<section id="events-top" class="page-section">
+    <h1 class="page-section-subtitle">Onde estão os eventos de tecnologia?</h1>
+    <p class="page-section-text">
+      Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde concentrar todas as informações de eventos, workshops, palestras, cursos e oportunidades de networking em todo Brasil reunidas um lugar só.
+    </p>
+    <p class="page-section-text">
+      Essa é a razão pela qual criamos o Codamos Club.
+    </p>
+    <p class="page-section-text">
+      Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os eventos que querem ter ou já tem inclusão e diversidade.
+      O objetivo do Codamos é promover <a href="/eventos">eventos</a> com esse foco.<br>
+      Aqui você encontra informações relevantes sobre eventos cadastrados e pode facilmente escolher o mais adequado ao seu perfil. Faça parte do Codamos e nos ajude a mudar a vida das pessoas.
+    </p>
+    <img src="images/logo.png" alt="Logotipo Codamos">
 </section>
 
 <!-- EVENTOS -->
-<section class="page-section events-section page-section-white">
-  <h1 class="page-section-subtitle pink">Eventos em destaque</h1>
+<section class="page-section events-section">
+    <h1 class="page-section-subtitle">Eventos em destaque</h1>
 
-  <ul class="events-cards">
-    {% assign highlights = site.data.events | where:"highlight",true %}
-    {% include events.html events=highlights %}
-  </ul>
+    <ul class="events-cards">
+      {% assign highlights = site.data.events | where:"highlight",true %}
+      {% include events.html events=highlights %}
+    </ul>
 
-  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
+    <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
 </section>
 
 {% include code_of_conduct.html %}
 
 <!-- PALESTRANTES -->
-<section id="speakers" class="page-section page-section-white-four">
-  <h1 class="page-section-subtitle pink">Pessoas que querem palestrar</h1>
-
+<section id="speakers">
+  <div class="page-section">
+  <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
   <ul class="speakers-cards">
     <li class="speaker-card">
       <img src="images/fotos/jeliel-mendes.jpg" alt="Jeliel Mendes"/>
@@ -56,12 +58,12 @@ layout: default
         <span class="label-trans"><i class="fa fa-transgender-alt fa-2x" aria-hidden="true"></i></span>
       </div>
       <h4 class="speaker-card-skills">#HTML #CSS #UI #UX</h4>
-      <ul class="speaker-card-social-media">
-        <li><a href="https://twitter.com/jelielmendes"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
-      </ul>
       <p class="speaker-card-bio">
         Mulher transexual, analista e desenvolvedora de sistemas, amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
       </p>
+      <ul class="speaker-card-social-media">
+        <li><a href="https://twitter.com/jelielmendes"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a></li>
+      </ul>
       <a class="button-primary">Entrar em contato</a>
     </li>
     <li class="speaker-card">
@@ -73,13 +75,13 @@ layout: default
         <span class="label-black"><i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i></span>
       </div>
       <h4 class="speaker-card-skills">#HTML #CSS #UI #UX</h4>
+      <p class="speaker-card-bio">
+        Apaixonada por desenvolvimento front end, interessada em DevOps e IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
+      </p>
       <ul class="speaker-card-social-media">
         <li><a href="https://www.linkedin.com/in/geisydomiciano/"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
         <li><a href="https://github.com/gdomiciano"><i class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a></li>
       </ul>
-      <p class="speaker-card-bio">
-        Apaixonada por desenvolvimento front end, interessada em DevOps e IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
-      </p>
       <a class="button-primary">Entrar em contato</a>
     </li>
     <li class="speaker-card">
@@ -90,15 +92,16 @@ layout: default
         <span class="label-female"><i class="fa fa-venus fa-2x" aria-hidden="true"></i></span>
       </div>
       <h4 class="speaker-card-skills">#HTML #CSS #UI #UX</h4>
-      <ul class="speaker-card-social-media">
-        <li><a href="#"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
-      </ul>
       <p class="speaker-card-bio">
         Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento de software e gestão de projetos e programas. Especialista em e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
       </p>
+      <ul class="speaker-card-social-media">
+        <li><a href="#"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a></li>
+      </ul>
       <a class="button-primary">Entrar em contato</a>
     </li>
   </ul>
 
   <a class="button-primary-outline" href="/palestrantes">Veja todos os palestrantes</a>
+  </div>
 </section>

@@ -1,7 +1,9 @@
 {% for event in include.events %}
 <li class="events-card">
   <div class="events-card-header">
-    <img src="images/eventos/{{ event.banner }}" alt="{{ event.title }}">
+    <div class="events-card-banner">
+      <img src="images/eventos/{{ event.banner }}" alt="{{ event.title }}">
+    </div>
     {% if event.free %}
     <div class="events-card-header-free">
       <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
