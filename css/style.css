@@ -654,10 +654,21 @@ p {
     height: 80vh;
     padding: 0 5%;
     background-size: cover;
-    background-image: url("../images/bg-banner.jpg");
     background-repeat: no-repeat;
     background-color: rgba(74, 144, 266, 0.9);
     background-blend-mode: multiply;
+}
+.banner-index {
+    background-image: url("../images/bg-banner001.jpg");
+}
+.banner-eventos {
+    background-image: url("../images/bg-banner006.jpg");
+}
+.banner-palestrantes {
+    background-image: url("../images/bg-banner007.jpg");
+}
+.banner-quem-somos {
+    background-image: url("../images/bg-banner004.jpg");
 }
 
 #banner .page-section-text {
