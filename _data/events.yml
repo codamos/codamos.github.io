@@ -33,6 +33,27 @@
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/"
 
+- title: "INFO SESSION - LIGA AUTOTECH"
+  free: true
+  location: "São Paulo - SP"
+  date: "08/08"
+  banner: "liga-autotech.png"
+  hashtag: "LigaAutoTech"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "http://liga.ventures/autotech/"
+  rsvp_url: "https://www.sympla.com.br/info-session---liga-autotech__171774"
+
+- title: "ProdutoSP #10 - Evino"
+  free: true
+  location: "São Paulo - SP"
+  date: "09/08"
+  banner: "produto-sp.png"
+  meetup: "produtoSP"
+  twitter: "_ProdutoSP"
+  main_url: "https://www.meetup.com/produtoSP/"
+  rsvp_url: "https://www.meetup.com/produtoSP/events/241597542/"
+
 - title: "PHPSP + Pub"
   location: "São Paulo - SP"
   date: "10/08"
