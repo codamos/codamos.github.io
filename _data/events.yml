@@ -55,6 +55,7 @@
   rsvp_url: "https://www.meetup.com/produtoSP/events/241597542/"
 
 - title: "PHPSP + Pub"
+  free: true
   location: "São Paulo - SP"
   date: "10/08"
   banner: "phpsp.png"
@@ -64,6 +65,18 @@
   facebook: "sao.paulo.elephants"
   main_url: "http://phpsp.org.br/"
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+
+- title: "7o Meetup Facebook Developer Circle SP"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "facebook-dev.png"
+  tags: [venus, cc]
+  hashtag: "Facebook"
+  twitter: "facebook"
+  facebook: "/groups/DevCSaoPaulo/"
+  main_url: "https://developers.facebook.com/developercircles"
+  rsvp_url: "https://www.sympla.com.br/7o-meetup-facebook-developer-circle-sp__170824"
 
 - title: "Curso de Introdução ao Desenvolvimento em Java"
   free: true
@@ -90,6 +103,7 @@
   rsvp_url: "https://www.meetup.com/nodebr/events/242068584/"
 
 - title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
+  free: true
   location: "São Paulo - SP"
   date: "12/08"
   banner: "nerdezao.png"
@@ -134,7 +148,20 @@
   main_url: "http://tedxsp.com/"
   rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"
 
+- title: "Estrelas além do Tempo - Ciência e Racismo em Debate"
+  free: true
+  location: "São Paulo - SP"
+  date: "13/08"
+  banner: "mis-estrelas-filme.png"
+  tags: [venus, cc, wheelchair-alt]
+  instagram: "mis_sp"
+  twitter: "mis_sp"
+  facebook: "museudaimagemedosom"
+  main_url: "http://www.mis-sp.org.br/"
+  rsvp_url: "https://www.facebook.com/events/751231861714747/"
+
 - title: "Moonhack"
+  free: true
   location: "São Paulo - SP"
   date: "15/08"
   banner: "moonhack.png"
@@ -144,6 +171,18 @@
   facebook: "CodeClubBrasil"
   main_url: "https://www.moonhack.com/home-portuguese"
   rsvp_url: "https://www.moonhack.com/sign-up"
+
+- title: "WagonTalk com Alexis Silva"
+  free: true
+  location: "São Paulo - SP"
+  date: "15/08"
+  banner: "le-wagon.png"
+  tags: []
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
 
 - title: "Le Wagon Coding Bootcamp Open Day"
   free: true
@@ -287,6 +326,7 @@
   rsvp_url: "http://ranchodev.com.br/"
 
 - title: "CSSday"
+  cfp: true
   location: "Recife - PE"
   date: "16/09"
   banner: "cssday.png"
@@ -455,7 +495,7 @@
   twitter: "devopsdaysbsb"
   meetup: "devops-df"
   main_url: "http://devopsdays.bsb.br/"
-  rsvp_url: "hhttps://www.devopsdays.org/events/2017-brasilia/registration/"
+  rsvp_url: "http://devopsdays.bsb.br/post/registration_open/"
 
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
@@ -467,7 +507,7 @@
   facebook: "TheDevelopersConference"
   instagram: "thedevconf"
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
-  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
+  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
