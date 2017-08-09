@@ -2,42 +2,48 @@
 
 # name:      texto, obrigatório.
 # full_name: texto, opcional.
-# email: texto, opcional.
+# email:     texto, opcional.
 # location:  texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
-# labels:    lista: [female, site, trans, black], opcional.
+# labels:    lista: [female, mars, trans, black, child, deaf, blind, wheelchair-alt, ], opcional.
 # linkedin:  texto sem espaços, opcional.
 # twitter:   texto sem espaços, opcional.
+# site:      URL, obrigatório.
 # github:    texto sem espaços, opcional.
 
 - name: "Jeliel Mendes"
+  highlight: true
   full_name: "Evelyn Jeliel Mendes"
   email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
-  labels: [female, site, trans]
+  labels: [female, trans]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Mulher transexual, analista e desenvolvedora de sistemas,
     amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
     shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+  linkedin: ""
+  facebook: ""
   twitter: "jelielmendes"
-  highlight: true
+  site: ""
+  github: ""
 
 - name: "Geisy Domiciano"
+  highlight: true
   email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
-  labels: [female]
+  labels: [female, black]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Apaixonada por desenvolvimento front end, interessada em DevOps e
     IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
   linkedin: "geisydomiciano"
   github: "gdomiciano"
-  highlight: true
 
 - name: "Ivanise Gomes"
+  highlight: true
   full_name: "Ivanise Maravalhas Gomes"
   email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
@@ -49,13 +55,12 @@
     de software e gestão de projetos e programas. Especialista em
     e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
   linkedin: "ivanise"
-  highlight: true
 
 - name: "Tatiana Barros"
   email: "sagapolen@gmail.com"
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
-  labels: [female]
+  labels: [female, child]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
@@ -82,7 +87,7 @@
   email: "cleber@cleberjsantos.com.br"
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
-  labels: [black]
+  labels: [mars, black]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária

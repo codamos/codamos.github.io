@@ -1024,10 +1024,6 @@ p {
     margin-top: 10px;
 }
 
-.speaker-card:nth-child(3n-7) {
-    background-color: #f4f4f4;
-}
-
 .speaker-card img {
     display: block;
     width: 118px;
@@ -1075,7 +1071,7 @@ p {
     text-align: center;
     font-weight: 300;
     color: #666666;
-    height: 110px;
+    min-height: 120px;
 }
 
 .speaker-card-labels {
@@ -1089,6 +1085,7 @@ p {
 .speaker-card-social-media {
     padding: 0;
     margin: 10px 0;
+    color: #cccccc;
 }
 
 .speaker-card-social-media li {
@@ -1097,12 +1094,12 @@ p {
     height: 31px;
 }
 
-.speaker-card-social-media li + li {
-    margin-left: 10px;
-}
-
 .speaker-card-social-media a {
     color: #333333;
+}
+
+.speaker-card-social-media a:hover {
+    color: #D91C5C;
 }
 
 @media (min-width: 768px) {
