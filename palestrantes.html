@@ -47,49 +47,7 @@ icons:
     <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
-      {% for speaker in site.data.speakers %}
-      <li class="speaker-card">
-        <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
-        <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
-        <p class="speaker-card-address">{{ speaker.location }}</p>
-        <div class="speaker-card-labels">
-          {% for label in speaker.labels %}
-          <span class="label-{{ label }}"><i class="fa fa-{{ page.icons[label] }} fa-2x" aria-hidden="true"></i></span>
-          {% endfor %}
-        </div>
-        <h4 class="speaker-card-skills">
-          {% for skill in speaker.skills %}
-          #{{ skill }}
-          {% endfor %}
-        </h4>
-        <p class="speaker-card-bio">
-          {{ speaker.bio }}
-        </p>
-        <a class="button-primary">Entrar em contato</a>
-        <ul class="speaker-card-social-media">
-          {% if speaker.linkedin %}
-          <li>
-            <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/"><i
-               class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a>
-          </li>
-          {% endif %}
-
-          {% if speaker.twitter %}
-          <li>
-            <a href="https://twitter.com/{{ speaker.twitter }}"><i
-               class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a>
-          </li>
-          {% endif %}
-
-          {% if speaker.github %}
-          <li>
-            <a href="https://github.com/{{ speaker.github }}"><i
-               class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a>
-          </li>
-          {% endif %}
-        </ul>
-      </li>
-      {% endfor %}
+      {% include speakers.html speakers=site.data.speakers %}
     </ul>
   </div>
 </section>

@@ -2,6 +2,7 @@
 
 # name:      texto, obrigatório.
 # full_name: texto, opcional.
+# email: texto, opcional.
 # location:  texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
 # labels:    lista: [female, site, trans, black], opcional.
@@ -11,6 +12,7 @@
 
 - name: "Jeliel Mendes"
   full_name: "Evelyn Jeliel Mendes"
+  email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
   labels: [female, site, trans]
@@ -20,8 +22,10 @@
     amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
     shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
   twitter: "jelielmendes"
+  highlight: true
 
 - name: "Geisy Domiciano"
+  email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
   labels: [female]
@@ -31,9 +35,11 @@
     IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
   linkedin: "geisydomiciano"
   github: "gdomiciano"
+  highlight: true
 
 - name: "Ivanise Gomes"
   full_name: "Ivanise Maravalhas Gomes"
+  email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
   labels: [female]
@@ -43,8 +49,10 @@
     de software e gestão de projetos e programas. Especialista em
     e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
   linkedin: "ivanise"
+  highlight: true
 
 - name: "Tatiana Barros"
+  email: "sagapolen@gmail.com"
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
   labels: [female]
@@ -57,6 +65,7 @@
   twitter: "umataldetatiana"
 
 - name: "Thaís Freitas"
+  email: "thaisfreitas31@gmail.com"
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
   labels: [female]
@@ -70,6 +79,7 @@
 
 - name: "Cleber Santos"
   full_name: "Cleber J. Santos"
+  email: "cleber@cleberjsantos.com.br"
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
   labels: [black]

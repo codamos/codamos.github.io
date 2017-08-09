@@ -1,0 +1,49 @@
+{% for speaker in include.speakers %}
+<li class="speaker-card">
+  <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
+  <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
+  <p class="speaker-card-address">{{ speaker.location }}</p>
+  <div class="speaker-card-labels">
+    {% for label in speaker.labels %}
+    <span class="label-{{ label }}"><i class="fa fa-{{ page.icons[label] }} fa-2x" aria-hidden="true"></i></span>
+    {% endfor %}
+  </div>
+  <h4 class="speaker-card-skills">
+    {% for skill in speaker.skills %}
+    #{{ skill }}
+    {% endfor %}
+  </h4>
+  <p class="speaker-card-bio">
+    {{ speaker.bio }}
+  </p>
+  <ul class="speaker-card-social-media">
+    {% if speaker.linkedin %}
+    <li>
+      <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/"><i
+              class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a>
+    </li>
+    {% endif %}
+
+    {% if speaker.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ speaker.twitter }}"><i
+              class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a>
+    </li>
+    {% endif %}
+
+    {% if speaker.github %}
+    <li>
+      <a href="https://github.com/{{ speaker.github }}"><i
+              class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a>
+    </li>
+    {% endif %}
+
+    {% if speaker.email %}
+    <li>
+      <a href="mailto:{{ speaker.email }}"><i
+              class="fa fa-envelope fa-2x grey" aria-hidden="true"></i></a>
+    </li>
+    {% endif %}
+  </ul>
+</li>
+{% endfor %}
