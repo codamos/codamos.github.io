@@ -14,7 +14,7 @@
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
   labels: [female, site, trans]
-  skills: [HTML, CSS, UI, UX]
+  skills: [Agora JS, TS, NoSQL, Firebase, Angular]
   bio: >
     Mulher transexual, analista e desenvolvedora de sistemas,
     amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
@@ -25,19 +25,18 @@
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
   labels: [female]
-  skills: [HTML, CSS, UI, UX]
+  skills: [Desenvolvimento JS, Angular 1.x, CSS, HTML, Git Flow, CI/CD]
   bio: >
-    Apaixonada por desenvolvimento front end, interessada em DevOps e
+    Apaixonada por desenvolvimento front-end, interessada em DevOps e
     IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
   linkedin: "geisydomiciano"
   github: "gdomiciano"
 
 - name: "Ivanise Gomes"
-  full_name: "Ivanise Maravalhas Gomes"
   avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
   labels: [female]
-  skills: [HTML, CSS, UI, UX]
+  skills: [Liderança; Gestão de Projetos; Mentoring; Inclusão e Diversidade; Desenvolvimento de Carreira]
   bio: >
     Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
     de software e gestão de projetos e programas. Especialista em
@@ -48,7 +47,7 @@
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
   labels: [female]
-  skills: [HTML, CSS, UI, UX]
+  skills: [Educação, Startup, Prototipações e Validações de Ideias, Processos de Aprendizagem, Jornada do Herói.]
   bio: >
     Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
     Criadora do Smart Cities for teens para alunos da rede pública.
@@ -60,7 +59,7 @@
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
   labels: [female]
-  skills: [HTML, CSS, UI, UX]
+  skills: [Mulher em TI, Qualidade de Software, Testes e Team Ágil]
   bio: >
     Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
     Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
@@ -69,14 +68,75 @@
   twitter: "tha_ta"
 
 - name: "Cleber Santos"
-  full_name: "Cleber J. Santos"
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
   labels: [black]
-  skills: [HTML, CSS, UI, UX]
+  skills: [SysAdmin, PenTests, Varnish-cache, Python, Oracle PL/SQL]
   bio: >
     Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária
-    além de linguagens antigas como Pascal e Assembly. Desenvolvedor Python
-    desde 2005 e amante de Varnish-Cache.
+    além de linguagens antigas como Pascal e Assembly. Desenvolvedor Python desde 2005 e amante de Varnish-Cache.
   twitter: "cleberjsantos"
   github: "cleberjsantos"
+
+# qd coloca link do site, não aparece nem o link felipedemorais.com.br
+- name: "Felipe de Morais"  
+  avatar: "felipe-morais.jpg"
+  location: "Porto Alegre - RS"
+  labels: [black, site]
+  skills: [Docker, Python, Feedback, Haskell]
+  bio: >
+    Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
+
+- name: "Lucas Macedo"
+  avatar: "lucas-macedo.jpg"
+  location: "São Paulo - SP"
+  labels: [black]
+  skills: [Debate Racial]
+  bio: >
+    Com bagagem de 5 anos em marketing nos mais variados segmentos, atua na Resultados Digitais na área de Tech Touch em Customer Success com objetivo de escalar o sucesso.
+  linkedin: "lucashmacedo"  
+
+- name: "Paullo Norato"
+  avatar: "paullo-norato.jpg"
+  location: "São Paulo - SP"
+  skills: [UX, Arquitetura de Informação, Front-end]
+  bio: >
+    Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário, 8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
+  linkedin: "paullonorato"
+  
+- name: "Rogério Rodrigues"
+  avatar: "rogerio-rodrigues.jpg"
+  location: "Salvador-BA"
+  labels: [site]
+  skills: [Desenvolvimento Mobile e Inteligencia Artificial/Cognitive Services]
+  bio: >
+    Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP, CTO na Connect HealthCare e Membro dos Microsoft Student Partners. 
+  twitter: "rogerrrodrigues"
+
+- name: "Dan Jesus"
+  avatar: "dan-jesus.jpg"
+  location: "Salvador-BA"
+  labels: [black]
+  skills: [Fullstack]
+  bio: >
+    Sou um desenvolvedor de software, entusiasta de metodologias ágeis e desenvolvimento no geral, seja ele front, back ou mobile.
+    Gosto de compartilhar conhecimento, então frequentemente estou palestrando por ai.
+  linkedin: "danjesus"  
+
+- name: "Keyla Peixoto"
+  avatar: "keyla-peixoto.jpg"
+  location: "Rio de Janeiro-RJ"
+  labels: [female, black]
+  skills: [Modelagem de Dados, DW, ETL]
+  bio: >
+    Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados, quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
+  linkedin: "keyla-peixoto-400a1a33"
+
+- name: "Lucas Coelho"
+  avatar: "lucas-coelho.jpg"
+  location: "Brasília-DF"
+  labels: [site]
+  skills: [UX Design, Business Design, Javascript Frameworks, Rails]
+  bio: >
+    Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design, educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
+  twitter: "coelholucas"  
