@@ -21,40 +21,20 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- title: "WagonTalk com Dennis Wang"
-  free: true
+- title: "{Reprograma} - Turma 4"
+  category: Curso
   location: "São Paulo - SP"
-  date: "08/08"
-  banner: "le-wagon.png"
-  tags: []
-  hashtag: "lewagonBR"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/"
-
-- title: "INFO SESSION - LIGA AUTOTECH"
-  free: true
-  location: "São Paulo - SP"
-  date: "08/08"
-  banner: "liga-autotech.png"
-  hashtag: "LigaAutoTech"
-  facebook: "ligaventures"
-  linkedin: "company/liga-ventures"
-  main_url: "http://liga.ventures/autotech/"
-  rsvp_url: "https://www.sympla.com.br/info-session---liga-autotech__171774"
-
-- title: "ProdutoSP #10 - Evino"
-  free: true
-  location: "São Paulo - SP"
-  date: "09/08"
-  banner: "produto-sp.png"
-  meetup: "produtoSP"
-  twitter: "_ProdutoSP"
-  main_url: "https://www.meetup.com/produtoSP/"
-  rsvp_url: "https://www.meetup.com/produtoSP/events/241597542/"
+  date: "até 21/08"
+  banner: "reprograma.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
 
 - title: "PHPSP + Pub"
+  free: true
   location: "São Paulo - SP"
   date: "10/08"
   banner: "phpsp.png"
@@ -64,6 +44,18 @@
   facebook: "sao.paulo.elephants"
   main_url: "http://phpsp.org.br/"
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+
+- title: "7o Meetup Facebook Developer Circle SP"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "facebook-dev.png"
+  tags: [venus, cc]
+  hashtag: "Facebook"
+  twitter: "facebook"
+  facebook: "/groups/DevCSaoPaulo/"
+  main_url: "https://developers.facebook.com/developercircles"
+  rsvp_url: "https://www.sympla.com.br/7o-meetup-facebook-developer-circle-sp__170824"
 
 - title: "Curso de Introdução ao Desenvolvimento em Java"
   free: true
@@ -90,6 +82,7 @@
   rsvp_url: "https://www.meetup.com/nodebr/events/242068584/"
 
 - title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
+  free: true
   location: "São Paulo - SP"
   date: "12/08"
   banner: "nerdezao.png"
@@ -134,7 +127,20 @@
   main_url: "http://tedxsp.com/"
   rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"
 
+- title: "Estrelas além do Tempo - Ciência e Racismo em Debate"
+  free: true
+  location: "São Paulo - SP"
+  date: "13/08"
+  banner: "mis-estrelas-filme.png"
+  tags: [venus, cc, wheelchair-alt]
+  instagram: "mis_sp"
+  twitter: "mis_sp"
+  facebook: "museudaimagemedosom"
+  main_url: "http://www.mis-sp.org.br/"
+  rsvp_url: "https://www.facebook.com/events/751231861714747/"
+
 - title: "Moonhack"
+  free: true
   location: "São Paulo - SP"
   date: "15/08"
   banner: "moonhack.png"
@@ -144,6 +150,18 @@
   facebook: "CodeClubBrasil"
   main_url: "https://www.moonhack.com/home-portuguese"
   rsvp_url: "https://www.moonhack.com/sign-up"
+
+- title: "WagonTalk com Alexis Silva"
+  free: true
+  location: "São Paulo - SP"
+  date: "15/08"
+  banner: "le-wagon.png"
+  tags: []
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
 
 - title: "Le Wagon Coding Bootcamp Open Day"
   free: true
@@ -157,9 +175,20 @@
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
 
+- title: "AngularSP Talks #14 Pagar.me"
+  free: true
+  location: "São Paulo - SP"
+  date: "17/08"
+  banner: "angular-sp.png"
+  tags: [venus, cc]
+  hashtag: "AngularSP"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/events/242264885/"
+  rsvp_url: "https://www.eventbrite.com/e/angularsp-14-pagarme-tickets-36835706590"
+
 - title: "Rails Girls São Paulo"
   free: true
-  highlight: true
   location: "São Paulo - SP"
   date: "18/08 e 19/08"
   banner: "railsgirls.png"
@@ -181,6 +210,18 @@
   facebook: "marialab.org"
   main_url: "https://marialab.org/"
   rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
+
+- title: "Construindo meu primeiro robô seguidor de linha"
+  category: Curso
+  location: "Fortaleza - CE"
+  date: "19/08"
+  banner: "byte-girl-robo.png"
+  tags: [venus, cc]
+  hashtag: "bg17"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+  rsvp_url: "https://www.sympla.com.br/construindo-meu-primeiro-robo-seguidor-de-linha__168847"
 
 - title: "Prototipação em UX"
   location: "São Paulo - SP"
@@ -228,6 +269,55 @@
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
+- title: "Cryptoparty"
+  free: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "crypto-rave.png"
+  tags: [venus, cc]
+  hashtag: "Cryptoparty"
+  twitter: "cryptoravebr"
+  facebook: "cryptorave"
+  main_url: "https://cryptorave.org/"
+  rsvp_url: "https://www.facebook.com/events/107849046551519/"
+
+- title: "LIDERANÇA FEMININA: COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "deevas.png"
+  tags: [venus, cc]
+  hashtag: "MulheresLíderes"
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+  rsvp_url: "https://www.sympla.com.br/lideranca-feminina-como-trabalhar-a-sua-autoconfianca-e-conquistar-o-mundo__174362"
+
+- title: "Mercado Livre experience"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "mercado-livre.png"
+  tags: []
+  hashtag: "MLXP2017"
+  twitter: "MercadoLivre"
+  facebook: "MercadoLivreExperience"
+  main_url: "http://www.mercadolivreexperience.com.br/programacao"
+  rsvp_url: "http://www.mercadolivreexperience.com.br/programacao/#inscrevase"
+
+- title: "Dev Xperience"
+  location: "São Paulo - SP"
+  cfp: true
+  date: "01/09 e 02/09"
+  banner: "dev-xperience.png"
+  tags: []
+  hashtag: "devxbr2017"
+  twitter: "DevXperienceBR"
+  facebook: "devxperience"
+  instagram: "devxperience"
+  main_url: "https://www.devxperience.com.br/"
+  rsvp_url: "https://www.devxperience.com.br/inscreva-se"
+
 - title: "PHP Community Summit by Locaweb"
   highlight: true
   location: "São Paulo - SP"
@@ -251,6 +341,29 @@
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
+
+- title: "PyLadies - 2 anos"
+  location: "São Paulo - SP"
+  date: "07/09"
+  banner: "pyladies-2anos.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  facebook: "PyLadiesSP"
+  main_url: "https://www.meetup.com/PyLadiesSP/"
+  rsvp_url: "https://www.facebook.com/events/162824437599273/"
+
+- title: "1º HACKATHON POSTOS PETROBRAS"
+  location: "São Paulo - SP"
+  date: "07/09"
+  cfp: true
+  banner: "hackathon-petrobras.png"
+  tags: []
+  hashtag: "ésócurtirocaminho"
+  twitter: "postospetrobras"
+  facebook: "postospetrobras"
+  main_url: "http://hotsitesbr.com.br/hackathon/"
+  rsvp_url: "http://hotsitesbr.com.br/hackathon/inscricoes/"
 
 - title: "Python Sul"
   location: "Caxias do Sul - RS"
@@ -287,6 +400,7 @@
   rsvp_url: "http://ranchodev.com.br/"
 
 - title: "CSSday"
+  cfp: true
   location: "Recife - PE"
   date: "16/09"
   banner: "cssday.png"
@@ -332,6 +446,17 @@
   facebook: "frontinvale"
   main_url: "http://frontinvale.com.br/"
   rsvp_url: "https://www.sympla.com.br/frontinvale-2017__130049"
+
+- title: "Code in the Dark"
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "code-in-the-dark-vp.png"
+  tags: [venus, cc,]
+  hashtag: "CITD"
+  twitter: "CodeintheDarkBR"
+  facebook: "codeinthedarkbr"
+  main_url: "http://codeinthedark.frontinvale.com.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScHuE4X-XL5Lltg_QUI_qooW76klZbU93zj5n2YmMoIR3SlrQ/viewform"
 
 - title: "Front in BH 2k17 - BH"
   location: "Belo Horizonte - MG"
@@ -402,6 +527,17 @@
   main_url: "http://isa.ixda.org/2017/"
   rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
 
+- title: "Byte Girl 2017"
+  location: "Fortaleza - CE"
+  date: "14/10"
+  banner: "byte-girl-2017.png"
+  tags: [venus, cc]
+  hashtag: "bg2017"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+  rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
+
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -455,7 +591,7 @@
   twitter: "devopsdaysbsb"
   meetup: "devops-df"
   main_url: "http://devopsdays.bsb.br/"
-  rsvp_url: "hhttps://www.devopsdays.org/events/2017-brasilia/registration/"
+  rsvp_url: "http://devopsdays.bsb.br/post/registration_open/"
 
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
@@ -467,7 +603,7 @@
   facebook: "TheDevelopersConference"
   instagram: "thedevconf"
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
-  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
+  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"

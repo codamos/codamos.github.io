@@ -2,29 +2,39 @@
 
 # name:      texto, obrigatório.
 # full_name: texto, opcional.
+# email:     texto, opcional.
 # location:  texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
-# labels:    lista: [female, site, trans, black], opcional.
-# linkedin:  texto sem espaços, opcional.
-# twitter:   texto sem espaços, opcional.
-# github:    texto sem espaços, opcional.
+# labels:    lista de classes de ícones do font awesome, opcional.
+# skills:    lista de textos sem espaços, opcional.
+# email:     email, opcional.
+# site:      URL, opcional.
+# linkedin:  texto sem espaços, opcional. LinkedIn handle.
+# github:    texto sem espaços, opcional. Github handle.
+# twitter:   texto sem espaços, opcional. Twitter handle.
+# facebook:  texto sem espaços, opcional. Facebook handle.
+# instagram: texto sem espaços, opcional. Instagram handle.
+# highlight: booleano (true ou false), opcional. Destaque na home.
 
 - name: "Jeliel Mendes"
+  highlight: true
   full_name: "Evelyn Jeliel Mendes"
+  email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
-  labels: [female, site, trans]
+  labels: [venus, transgender-alt]
   skills: [Agora JS, TS, NoSQL, Firebase, Angular]
   bio: >
-    Mulher transexual, analista e desenvolvedora de sistemas,
-    amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
-    shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+    Mulher transexual, analista e desenvolvedora de sistemas,amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+  site: "transnerd.com.br" 
   twitter: "jelielmendes"
 
 - name: "Geisy Domiciano"
+  highlight: true
+  email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
-  labels: [female]
+  labels: [venus, hand-rock-o]
   skills: [Desenvolvimento JS, Angular 1.x, CSS, HTML, Git Flow, CI/CD]
   bio: >
     Apaixonada por desenvolvimento front-end, interessada em DevOps e
@@ -33,9 +43,12 @@
   github: "gdomiciano"
 
 - name: "Ivanise Gomes"
+  highlight: true
+  full_name: "Ivanise Maravalhas Gomes"
+  email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
-  labels: [female]
+  labels: [venus]
   skills: [Liderança; Gestão de Projetos; Mentoring; Inclusão e Diversidade; Desenvolvimento de Carreira]
   bio: >
     Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
@@ -44,9 +57,10 @@
   linkedin: "ivanise"
 
 - name: "Tatiana Barros"
+  email: "sagapolen@gmail.com"
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
-  labels: [female]
+  labels: [venus, child]
   skills: [Educação, Startup, Prototipações e Validações de Ideias, Processos de Aprendizagem, Jornada do Herói.]
   bio: >
     Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
@@ -56,9 +70,10 @@
   twitter: "umataldetatiana"
 
 - name: "Thaís Freitas"
+  email: "thaisfreitas31@gmail.com"
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
-  labels: [female]
+  labels: [venus]
   skills: [Mulher em TI, Qualidade de Software, Testes e Team Ágil]
   bio: >
     Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
@@ -68,9 +83,11 @@
   twitter: "tha_ta"
 
 - name: "Cleber Santos"
+  full_name: "Cleber J. Santos"
+  email: "cleber@cleberjsantos.com.br"
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
-  labels: [black]
+  labels: [mars, hand-rock-o]
   skills: [SysAdmin, PenTests, Varnish-cache, Python, Oracle PL/SQL]
   bio: >
     Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária
@@ -78,16 +95,20 @@
   twitter: "cleberjsantos"
   github: "cleberjsantos"
 
-# qd coloca link do site, não aparece nem o link felipedemorais.com.br
-- name: "Felipe de Morais"  
+
+- name: "Felipe de Morais" 
+  email: "felipejpa15@gmail.com"
   avatar: "felipe-morais.jpg"
   location: "Porto Alegre - RS"
   labels: [black, site]
   skills: [Docker, Python, Feedback, Haskell]
+  site: "felipedemorais.com.br"
   bio: >
     Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
+  facebook: "felipedemorais"
 
 - name: "Lucas Macedo"
+  email: "lucas.hmacedo@hotmail.com"
   avatar: "lucas-macedo.jpg"
   location: "São Paulo - SP"
   labels: [black]
@@ -97,23 +118,29 @@
   linkedin: "lucashmacedo"  
 
 - name: "Paullo Norato"
+  email: "norato.ux@gmail.com"
   avatar: "paullo-norato.jpg"
   location: "São Paulo - SP"
   skills: [UX, Arquitetura de Informação, Front-end]
   bio: >
     Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário, 8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
   linkedin: "paullonorato"
+  facebook: "paullonorato23"
   
 - name: "Rogério Rodrigues"
+  email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
   location: "Salvador-BA"
   labels: [site]
-  skills: [Desenvolvimento Mobile e Inteligencia Artificial/Cognitive Services]
+  skills: [Desenvolvimento Mobile e Inteligencia 
+  Artificial/Cognitive Services]
+  site: "www.rogerio.eti.br"
   bio: >
     Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP, CTO na Connect HealthCare e Membro dos Microsoft Student Partners. 
   twitter: "rogerrrodrigues"
 
 - name: "Dan Jesus"
+  email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
   location: "Salvador-BA"
   labels: [black]
@@ -122,8 +149,10 @@
     Sou um desenvolvedor de software, entusiasta de metodologias ágeis e desenvolvimento no geral, seja ele front, back ou mobile.
     Gosto de compartilhar conhecimento, então frequentemente estou palestrando por ai.
   linkedin: "danjesus"  
+  facebook: "danper.jesus"
 
 - name: "Keyla Peixoto"
+  email: "keyla.caroline@gmail.com"
   avatar: "keyla-peixoto.jpg"
   location: "Rio de Janeiro-RJ"
   labels: [female, black]
@@ -131,12 +160,15 @@
   bio: >
     Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados, quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
   linkedin: "keyla-peixoto-400a1a33"
+  facebook: "caroline.peixoto.319"
 
 - name: "Lucas Coelho"
+  email: "lucas@flama.is"
   avatar: "lucas-coelho.jpg"
   location: "Brasília-DF"
   labels: [site]
   skills: [UX Design, Business Design, Javascript Frameworks, Rails]
+  site: "http://lucascoelho.me"
   bio: >
     Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design, educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
   twitter: "coelholucas"  

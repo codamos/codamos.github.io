@@ -1,0 +1,81 @@
+{% for speaker in include.speakers %}
+<li class="speaker-card">
+  <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
+
+  <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
+
+  <p class="speaker-card-address">{{ speaker.location }}</p>
+
+  <div class="speaker-card-labels">
+    {% for label in speaker.labels %}
+    <i class="fa fa-{{ label }} fa-2x" aria-hidden="true"></i>
+    {% endfor %}
+  </div>
+
+  <h4 class="speaker-card-skills">
+    {% for skill in speaker.skills %}
+    #{{ skill }}
+    {% endfor %}
+  </h4>
+
+  <p class="speaker-card-bio">
+    {{ speaker.bio }}
+  </p>
+
+  <ul class="speaker-card-social-media">
+    <li>
+    {% if speaker.email %}
+      <a href="mailto:{{ speaker.email }}" title="E-mail"
+         target="_blank"><i class="fa fa-envelope-o fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-envelope-o fa-2x" aria-hidden="true" title="E-mail"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if speaker.site %}
+      <a href="{{ speaker.site }}" title="Site"
+         target="_blank"><i class="fa fa-link fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-link fa-2x" aria-hidden="true" title="Site"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if speaker.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
+         target="_blank"><i class="fa fa-linkedin-square fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true" title="Linkedin"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if speaker.github %}
+      <a href="https://github.com/{{ speaker.github }}" title="Github"
+         target="_blank"><i class="fa fa-github-square fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-github-square fa-2x" aria-hidden="true" title="GitHub"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if speaker.twitter %}
+      <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
+         target="_blank"><i class="fa fa-twitter-square fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-twitter-square fa-2x" aria-hidden="true" title="Twitter"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if speaker.facebook %}
+      <a href="https://twitter.com/{{ speaker.facebook }}" title="Facebook"
+         target="_blank"><i class="fa fa-facebook-square fa-2x grey" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fa fa-facebook-square fa-2x" aria-hidden="true" title="Facebook"></i>
+    {% endif %}
+    </li>
+  </ul>
+</li>
+{% endfor %}
