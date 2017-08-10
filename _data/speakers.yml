@@ -5,11 +5,16 @@
 # email:     texto, opcional.
 # location:  texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
-# labels:    lista: [female, mars, trans, black, child, deaf, blind, wheelchair-alt, ], opcional.
-# linkedin:  texto sem espaços, opcional.
-# twitter:   texto sem espaços, opcional.
-# site:      URL, obrigatório.
-# github:    texto sem espaços, opcional.
+# labels:    lista de classes de ícones do font awesome, opcional.
+# skills:    lista de textos sem espaços, opcional.
+# email:     email, opcional.
+# site:      URL, opcional.
+# linkedin:  texto sem espaços, opcional. LinkedIn handle.
+# github:    texto sem espaços, opcional. Github handle.
+# twitter:   texto sem espaços, opcional. Twitter handle.
+# facebook:  texto sem espaços, opcional. Facebook handle.
+# instagram: texto sem espaços, opcional. Instagram handle.
+# highlight: booleano (true ou false), opcional. Destaque na home.
 
 - name: "Jeliel Mendes"
   highlight: true
@@ -17,24 +22,20 @@
   email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
-  labels: [female, trans]
+  labels: [venus, transgender-alt]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Mulher transexual, analista e desenvolvedora de sistemas,
     amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos
     shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
-  linkedin: ""
-  facebook: ""
   twitter: "jelielmendes"
-  site: ""
-  github: ""
 
 - name: "Geisy Domiciano"
   highlight: true
   email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
-  labels: [female, black]
+  labels: [venus, hand-rock-o]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Apaixonada por desenvolvimento front end, interessada em DevOps e
@@ -48,7 +49,7 @@
   email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
-  labels: [female]
+  labels: [venus]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
@@ -60,7 +61,7 @@
   email: "sagapolen@gmail.com"
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
-  labels: [female, child]
+  labels: [venus, child]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
@@ -73,7 +74,7 @@
   email: "thaisfreitas31@gmail.com"
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
-  labels: [female]
+  labels: [venus]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
@@ -87,7 +88,7 @@
   email: "cleber@cleberjsantos.com.br"
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
-  labels: [mars, black]
+  labels: [mars, hand-rock-o]
   skills: [HTML, CSS, UI, UX]
   bio: >
     Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária
