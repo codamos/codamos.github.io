@@ -216,3 +216,97 @@
   twitter: "_ProdutoSP"
   main_url: "https://www.meetup.com/produtoSP/"
   rsvp_url: "https://www.meetup.com/produtoSP/events/241597542/"
+
+- title: "PHPSP + Pub"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "phpsp.png"
+  tags: []
+  hashtag: "phpsp"
+  twitter: "phpsp"
+  facebook: "sao.paulo.elephants"
+  main_url: "http://phpsp.org.br/"
+  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+
+- title: "7o Meetup Facebook Developer Circle SP"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "facebook-dev.png"
+  tags: [venus, cc]
+  hashtag: "Facebook"
+  twitter: "facebook"
+  facebook: "/groups/DevCSaoPaulo/"
+  main_url: "https://developers.facebook.com/developercircles"
+  rsvp_url: "https://www.sympla.com.br/7o-meetup-facebook-developer-circle-sp__170824"
+
+- title: "Curso de Introdução ao Desenvolvimento em Java"
+  free: true
+  category: Curso
+  location: "A distância"
+  date: "11/08"
+  banner: "lead.png"
+  tags: [wheelchair-alt, sign-language]
+  instagram: "lead.dell"
+  facebook: "dell.lead"
+  main_url: "http://projetolead.com.br/selecao/"
+  rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1"
+
+- title: "NodeBR #34 - Services like a boss"
+  free: true
+  location: "São Paulo - SP"
+  date: "11/08"
+  banner: "node-br.png"
+  tags: []
+  hashtag: "nodebr34"
+  twitter: "nodebr"
+  facebook: "brnode"
+  main_url: "https://www.meetup.com/nodebr/"
+  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/"
+
+- title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/"
+
+- title: "Design para Inovação Social"
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "coletividad-design-social.png"
+  tags: [cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060"
+
+- title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "mozilla-rust.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-registration-35237171328"
+
+- title: "TEDXSÃOPAULO EDUCAÇÃO 2017"
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "tedxeducacao.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "TEDxSaoPaulo"
+  twitter: "TEDxSaoPaulo"
+  facebook: "TEDxSP"
+  main_url: "http://tedxsp.com/"
+  rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"
