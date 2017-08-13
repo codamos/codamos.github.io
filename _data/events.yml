@@ -5,7 +5,7 @@
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
-# banner:    arquivo na pasta `images/eventos`, obrigatório.
+# banner:    arquivo na pasta `images/eventos`, opcional.
 # group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
 # hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter.
