@@ -69,6 +69,18 @@
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
 
+- title: "React #12 – Empreendedorismo + React"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "react-12.png"
+  tags: []
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-SP/events/242266357/"
+
 - title: "Le Wagon Coding Bootcamp Open Day"
   free: true
   location: "São Paulo - SP"
@@ -80,6 +92,16 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
+
+- title: "A Era dos Games"
+  location: "São Paulo - SP"
+  date: "16/08 a 12/11"
+  banner: "era-dos-games.png"
+  tags: []
+  twitter: "bienalsaopaulo"
+  facebook: "bienalsaopaulo"
+  main_url: "http://aeradosgames.com.br/"
+  rsvp_url: "https://ingresse.com/search/name/games"
 
 - title: "AngularSP Talks #14 Pagar.me"
   free: true
@@ -116,6 +138,18 @@
   facebook: "marialab.org"
   main_url: "https://marialab.org/"
   rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
+
+- title: "6º Encontro - ReactJS Florianópolis"
+  free: true
+  location: "Florianópolis - SC"
+  date: "19/08"
+  banner: "react-cw-5.png"
+  tags: []
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-Floripa/events/242395044/"
 
 - title: "Construindo meu primeiro robô seguidor de linha"
   category: Curso
@@ -199,6 +233,29 @@
   facebook: "UPWIT"
   main_url: "http://upwit.org/"
   rsvp_url: "https://www.sympla.com.br/lideranca-feminina-como-trabalhar-a-sua-autoconfianca-e-conquistar-o-mundo__174362"
+
+- title: "Nodebots Day Salvador"
+  free: true
+  location: "Salvador - BA"
+  date: "27/08"
+  banner: "nodebots-day.png"
+  tags: [venus, cc]
+  twitter: "pyladiessa"
+  facebook: "PyLadiesSalvador"
+  main_url: "https://pyladiessalvador.github.io/"
+  rsvp_url: "https://www.meetup.com/Pyladies-SSA/events/240892993/"
+
+- title: "React CWB #5"
+  free: true
+  location: "Curitiba - PR"
+  date: "30/08"
+  banner: "react-cw-5.png"
+  tags: []
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
 
 - title: "Mercado Livre experience"
   location: "São Paulo - SP"
