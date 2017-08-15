@@ -8,7 +8,7 @@
 # banner:    arquivo na pasta `images/eventos`, obrigatório.
 # group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
-# hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter.
+# hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter
 # twitter:   texto sem espaços, opcional. Twitter handle.
 # facebook:  texto sem espaços, opcional. Facebook handle.
 # instagram: texto sem espaços, opcional. Instagram handle.
