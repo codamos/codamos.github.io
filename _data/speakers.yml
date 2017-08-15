@@ -95,16 +95,15 @@
   twitter: "cleberjsantos"
   github: "cleberjsantos"
 
-
-- name: "Felipe de Morais" 
+- name: "Felipe de Morais"
   email: "felipejpa15@gmail.com"
   avatar: "felipe-morais.jpg"
   location: "Porto Alegre - RS"
-  labels: [black, site]
+  labels: [hand-rock-o]
   skills: [Docker, Python, Feedback, Haskell]
-  site: "felipedemorais.com.br"
   bio: >
     Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
+  site: "http://felipedemorais.com.br"
   facebook: "felipedemorais"
 
 - name: "Lucas Macedo"
