@@ -574,6 +574,17 @@
   main_url: "https://www.meetup.com/PyLadiesSP/"
   rsvp_url: "https://www.facebook.com/events/162824437599273/"
 
+- title: "HackTown 2017"
+  free: false
+  location: "Santa Rita do Sapucaí - MG"
+  date: "07/09 a 10/09"
+  banner: ""
+  twitter: "hacktow"
+  facebook: "hacktownfest"
+  instagram: “hacktownsrs”
+  main_url: "http://hacktown.com.br/" 
+  rsvp_url: "https://app.lets.events/events/hacktown#participate”
+
 - title: "1º HACKATHON POSTOS PETROBRAS"
   location: "São Paulo - SP"
   date: "07/09"
