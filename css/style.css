@@ -750,14 +750,13 @@ p {
     border: 4px solid #99ff00;
     position: absolute;
     font-size: small;
-    top: 10px;
+    top: 52px;
     color: #fff;
     left: 10px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*opacity: 0.9;*/
     text-transform: uppercase;
     padding: 7px 5px;
     border-radius: 3px;
@@ -770,7 +769,7 @@ p {
     border: 4px solid #F6A623;
     position: absolute;
     font-size: small;
-    top: 55px;
+    top: 96px;
     color: #660000;
     left: 10px;
     font-weight: 700;
@@ -778,7 +777,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*opacity: 0.9;*/
     text-transform: uppercase;
     padding: 7px 5px;
     border-radius: 3px;
@@ -791,14 +789,13 @@ p {
     border: 4px solid #cc66ff;
     position: absolute;
     font-size: small;
-    top: 55px;
+    top: 96px;
     color: #fff;
     left: 10px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*opacity: 0.9;*/
     text-transform: uppercase;
     padding: 7px 5px;
     border-radius: 3px;
@@ -845,17 +842,17 @@ p {
 }
 
 .events-card-header span {
+    background: #ff0066;
     position: absolute;
+    font-size: large;
     top: 10px;
     color: #fff;
-    right: 10px;
-    background-color: #ff0066;
+    left: 10px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 2px 0 2px 0;
     border-radius: 3px;
     letter-spacing: 2px;
     box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
