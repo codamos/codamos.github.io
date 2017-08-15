@@ -33,41 +33,6 @@
   main_url: "http://www.reprograma.com.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
 
-- title: "Estrelas além do Tempo - Ciência e Racismo em Debate"
-  free: true
-  location: "São Paulo - SP"
-  date: "13/08"
-  banner: "mis-estrelas-filme.png"
-  tags: [venus, cc, wheelchair-alt]
-  instagram: "mis_sp"
-  twitter: "mis_sp"
-  facebook: "museudaimagemedosom"
-  main_url: "http://www.mis-sp.org.br/"
-  rsvp_url: "https://www.facebook.com/events/751231861714747/"
-
-- title: "Moonhack"
-  free: true
-  location: "São Paulo - SP"
-  date: "15/08"
-  banner: "moonhack.png"
-  tags: [venus, cc, wheelchair-alt]
-  hashtag: "moonhack"
-  twitter: "CodeClubBrasil"
-  facebook: "CodeClubBrasil"
-  main_url: "https://www.moonhack.com/home-portuguese"
-  rsvp_url: "https://www.moonhack.com/sign-up"
-
-- title: "WagonTalk com Alexis Silva"
-  free: true
-  location: "São Paulo - SP"
-  date: "15/08"
-  banner: "le-wagon.png"
-  hashtag: "lewagonBR"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
-
 - title: "React #12 – Empreendedorismo + React"
   free: true
   location: "São Paulo - SP"
