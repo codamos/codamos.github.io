@@ -29,6 +29,9 @@
       ga('create', 'UA-101942144-1', 'auto');
       ga('send', 'pageview');
     </script>
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver|gated" defer></script>
+    <script src="js/iolazy.min.js" defer></script>
   </head>
   <body>
     <!-- CABECALHO -->
@@ -190,5 +193,11 @@
         </p>
       </div>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new IOlazy({image: 'img[data-src]', threshold: 0.25});
+      });
+    </script>
   </body>
 </html>

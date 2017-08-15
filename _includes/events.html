@@ -2,7 +2,7 @@
 <li class="events-card">
   <div class="events-card-header">
     <div class="events-card-banner">
-      <img src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
+      <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
     </div>
     {% if event.free %}
     <div class="events-card-header-free">
