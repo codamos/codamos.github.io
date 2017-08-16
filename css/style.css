@@ -1035,7 +1035,7 @@ p {
 
 .speaker-card img {
     display: block;
-    margin: 0px auto;
+    margin: 10px auto 0px auto;
     border: solid 6px #cccccc;
     border-radius: 50%;
     object-fit: cover;
@@ -1092,6 +1092,14 @@ p {
 
 .speaker-card-labels {
     padding: 5px 0;
+}
+
+.lgbt-label img {
+    border: none;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2px;
 }
 
 .speaker-card-labels i {
