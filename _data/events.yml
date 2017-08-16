@@ -131,6 +131,7 @@
   date: "19/08"
   banner: "roadsec-rj.jpg"
   tags: [sign-language]
+  hashtag: "Roadsec"
   twitter: "roadsec"
   facebook: "roadsec"
   instagram: "roadsec"
@@ -400,8 +401,11 @@
   cfp: true
   highlight: true
   date: "02/09"
-  banner: "installfest-phpwomen.jpg"
-  tags: [venus]
+  banner: "installfest-phpwomen.png"
+  tags: [venus, cc]
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
   main_url: "https://phpwomenbr.github.io/rio/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"
 
@@ -433,17 +437,19 @@
   location: "Belo Horizonte - MG"
   date: "02/09"
   banner: "devisland.png"
-  tags: [cc]
+  tags: [cc, child]
+  hashtag: "DEVDAY2017"
   twitter: "devisland"
   facebook: "DevIsland"
   main_url: "http://devday.devisland.com/"
-  rsvp_url: "http://devday.devisland.com/"
+  rsvp_url: "http://devday.devisland.com/#ticket"
 
 - title: "Roadsec 2017 | Vitória"
   location: "Vitória - ES"
   date: "02/09"
   banner: "roadsec-es.jpg"
   tags: [sign-language]
+  hashtag: "Roadsec"
   twitter: "roadsec"
   facebook: "roadsec"
   instagram: "roadsec"
@@ -707,6 +713,7 @@
   date: "30/09"
   banner: "roadsec-poa.jpg"
   tags: [sign-language]
+  hashtag: "Roadsec"
   twitter: "roadsec"
   facebook: "roadsec"
   instagram: "roadsec"
