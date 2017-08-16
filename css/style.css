@@ -1115,13 +1115,14 @@ p {
     width: 31px;
     height: 31px;
     margin: 0 2px;
+    font-size: x-large;
 }
 
-.speaker-card-social-media a {
+.speaker-card-social-media li a {
     color: #333333;
 }
 
-.speaker-card-social-media a:hover {
+.speaker-card-social-media li a:hover {
     color: #D91C5C;
 }
 

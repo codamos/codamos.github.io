@@ -71,7 +71,6 @@
   twitter: "umataldetatiana"
 
 - name: "Ivanise Gomes"
-  highlight: true
   full_name: "Ivanise Maravalhas Gomes"
   email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
@@ -130,6 +129,7 @@
   linkedin: "lucashmacedo"
 
 - name: "Rogério Rodrigues"
+  highlight: true
   email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
   location: "Salvador - BA"
