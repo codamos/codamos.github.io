@@ -273,7 +273,6 @@
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242226755/"
 
 - title: "BrazilJS - RS"
-  highlight: true
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
   banner: "brazil-js.png"
@@ -383,6 +382,7 @@
   location: "Rio de Janeiro - RJ"
   free: true
   cfp: true
+  highlight: true
   date: "02/09"
   tags: [venus]
   main_url: "https://phpwomenbr.github.io/rio/"
@@ -541,6 +541,7 @@
   rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/?eventId=240366543"
 
 - title: "CSSday"
+  highlight: true
   cfp: true
   location: "Recife - PE"
   date: "16/09"
@@ -648,7 +649,12 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "23/09 a 24/09"
-  main_url: "https://credencial.imasters.com.br/uxweekend-setembro"
+  banner: "mergo-ux.png"
+  tags: [wheelchair-alt, universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
 
 - title: "The Conf"
@@ -702,7 +708,11 @@
   category: "Curso"
   location: "Belo Horizonte - MG"
   date: "30/09 a 01/10"
-  main_url: "https://credencial.imasters.com.br/uxstrategy-bh"
+  banner: "mergo-ux.png"
+  hashtag: "UXStrategy"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration"
 
 # OUTUBRO
@@ -784,7 +794,6 @@
   rsvp_url: "https://www.uxteamsummit.com.br/"
 
 - title: "WEBBR 2017"
-  highlight: true
   location: "São Paulo - SP"
   date: "24/10 e 25/10"
   banner: "webbr.png"
