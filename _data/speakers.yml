@@ -44,6 +44,32 @@
   linkedin: "geisydomiciano"
   github: "gdomiciano"
 
+- name: "Thaís Freitas"
+  email: "thaisfreitas31@gmail.com"
+  avatar: "thais-moura.jpg"
+  location: "Recife - PE"
+  labels: [venus]
+  skills: [Mulher em TI, Qualidade de Software, Testes, Team Ágil]
+  bio: >
+    Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
+    Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
+    de software e na garantia da qualidade.
+  linkedin: "thaís-freitas-056b1540"
+  twitter: "tha_ta"
+
+- name: "Tatiana Barros"
+  email: "sagapolen@gmail.com"
+  avatar: "tatiana-barros.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, child]
+  skills: [Educação, Startup, Prototipações, Validações de Ideias, Processos de Aprendizagem, Jornada do Herói]
+  bio: >
+    Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
+    Criadora do Smart Cities for teens para alunos da rede pública.
+    Ama jornada do herói, arduínos e chatbots.
+  linkedin: "tatybarros"
+  twitter: "umataldetatiana"
+
 - name: "Ivanise Gomes"
   highlight: true
   full_name: "Ivanise Maravalhas Gomes"
@@ -58,31 +84,16 @@
     e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
   linkedin: "ivanise"
 
-- name: "Tatiana Barros"
-  email: "sagapolen@gmail.com"
-  avatar: "tatiana-barros.jpg"
+- name: "Paullo Norato"
+  email: "norato.ux@gmail.com"
+  avatar: "paullo-norato.jpg"
   location: "São Paulo - SP"
-  labels: [venus, child]
-  skills: [Educação, Startup, Prototipações e Validações de Ideias, Processos de Aprendizagem, Jornada do Herói.]
+  labels: [mars]
+  skills: [UX, Arquitetura de Informação, Front-end]
   bio: >
-    Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
-    Criadora do Smart Cities for teens para alunos da rede pública.
-    Ama jornada do herói, arduínos e chatbots.
-  linkedin: "tatybarros"
-  twitter: "umataldetatiana"
-
-- name: "Thaís Freitas"
-  email: "thaisfreitas31@gmail.com"
-  avatar: "thais-moura.jpg"
-  location: "Recife - PE"
-  labels: [venus]
-  skills: [Mulher em TI, Qualidade de Software, Testes e Team Ágil]
-  bio: >
-    Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
-    Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
-    de software e na garantia da qualidade.
-  linkedin: "thaís-freitas-056b1540"
-  twitter: "tha_ta"
+    Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário, 8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
+  linkedin: "paullonorato"
+  facebook: "paullonorato23"
 
 - name: "Cleber Santos"
   full_name: "Cleber J. Santos"
@@ -90,7 +101,7 @@
   avatar: "cleber-santos.jpg"
   location: "São Paulo - SP"
   labels: [mars, hand-rock-o]
-  skills: [SysAdmin, PenTests, Varnish-cache, Python, Oracle PL/SQL]
+  skills: [SysAdmin, PenTests, Varnish-cache, Python, Oracle, PL/SQL]
   bio: >
     Programador/Sysadmin auto-didata, apaixonado por fé, café e culinária
     além de linguagens antigas como Pascal e Assembly. Desenvolvedor Python desde 2005 e amante de Varnish-Cache.
@@ -101,7 +112,7 @@
   email: "felipejpa15@gmail.com"
   avatar: "felipe-morais.jpg"
   location: "Porto Alegre - RS"
-  labels: [hand-rock-o]
+  labels: [mars, hand-rock-o]
   skills: [Docker, Python, Feedback, Haskell]
   bio: >
     Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
@@ -112,27 +123,18 @@
   email: "lucas.hmacedo@hotmail.com"
   avatar: "lucas-macedo.jpg"
   location: "São Paulo - SP"
-  labels: [hand-rock-o]
+  labels: [mars, hand-rock-o]
   skills: [Debate Racial]
   bio: >
     Com bagagem de 5 anos em marketing nos mais variados segmentos, atua na Resultados Digitais na área de Tech Touch em Customer Success com objetivo de escalar o sucesso.
   linkedin: "lucashmacedo"
 
-- name: "Paullo Norato"
-  email: "norato.ux@gmail.com"
-  avatar: "paullo-norato.jpg"
-  location: "São Paulo - SP"
-  skills: [UX, Arquitetura de Informação, Front-end]
-  bio: >
-    Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário, 8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
-  linkedin: "paullonorato"
-  facebook: "paullonorato23"
-
 - name: "Rogério Rodrigues"
   email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
   location: "Salvador - BA"
-  skills: [Desenvolvimento Mobile e Inteligencia Artificial/Cognitive Services]
+  labels: [mars, hand-rock-o]
+  skills: [Desenvolvimento Mobile, Inteligencia Artificial, Cognitive Services]
   bio: >
     Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP, CTO na Connect HealthCare e Membro dos Microsoft Student Partners.
   site: "http://www.rogerio.eti.br"
@@ -142,7 +144,7 @@
   email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
   location: "Salvador - BA"
-  labels: [hand-rock-o]
+  labels: [mars, hand-rock-o, child]
   skills: [Fullstack]
   bio: >
     Sou um desenvolvedor de software, entusiasta de metodologias ágeis e desenvolvimento no geral, seja ele front, back ou mobile.
@@ -154,7 +156,7 @@
   email: "keyla.caroline@gmail.com"
   avatar: "keyla-peixoto.jpg"
   location: "Rio de Janeiro - RJ"
-  labels: [female, hand-rock-o]
+  labels: [venus, hand-rock-o]
   skills: [Modelagem de Dados, DW, ETL]
   bio: >
     Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados, quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
@@ -165,7 +167,8 @@
   email: "lucas@flama.is"
   avatar: "lucas-coelho.jpg"
   location: "Brasília - DF"
-  skills: [UX Design, Business Design, Javascript Frameworks, Rails]
+  labels: [mars, hand-rock-o]
+  skills: [UX Design, Business Design, Javascript, Frameworks, Rails]
   bio: >
     Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design, educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
   site: "http://lucascoelho.me"
