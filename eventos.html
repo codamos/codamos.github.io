@@ -21,9 +21,11 @@ layout: default
     O Codamos está comprometido a dar destaque a eventos que prezem pela inclusão, diversidade e acessibilidade. Criamos rótulos para facilitar a busca por eventos que têm ícones representados pelas legendas abaixo:
   </p>
 
-  <ul class="events-ico">
+  <ul class="icon-labels">
     {% for icon in site.data.event_icons %}
-    <li><i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}</li>
+    <li class="events-section-label">
+      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
+    </li>
     {% endfor %}
   </ul>
 </section>

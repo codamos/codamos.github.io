@@ -363,6 +363,32 @@ p {
 }
 
 
+/*LABELS*/
+.icon-labels {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-labels li {
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 5px;
+    opacity: 0.9;
+    font-family: Roboto, Sans-Serif;
+    font-weight: 300;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-labels li i {
+    margin-right: 5px;
+}
+
+
 /*SEÇÃO*/
 .page-section {
     text-align: center;
@@ -426,9 +452,9 @@ p {
     background-color: #0099CC;
 }
 
-.page-section-green {
+.page-section-purple {
     background-color: var(--green);
-    background-color: #009966;
+    background-color: #660099;
 }
 
 .page-section-yellow {
@@ -684,6 +710,12 @@ p {
     padding: 4em 10px;
 }
 
+.events-section-label {
+    color: #fff;
+    border: 2px solid #ff99cc;
+    background: #ff0066;
+}
+
 #events-top {
     position: relative;
     padding: 4em 2% 0 2%;
@@ -803,30 +835,6 @@ p {
     box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
 }
 
-.events-ico {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.events-ico li {
-    color: #ffffff;
-    border: 4px solid #f1f1f1;
-    background: #ff0066;
-    border-radius: 5px;
-    padding: 5px 8px;
-    margin: 5px;
-    opacity: 0.9;
-    font-family: Roboto, Sans-Serif;
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.events-ico li i {
-    margin-right: 5px;
-}
 .events-card-header-ico {
     display: flex;
     justify-content: center;
@@ -859,7 +867,7 @@ p {
 }
 
 .events-card-title {
-    color: #d52f5e;
+    color: #ff0066;
     font-family: 'Josefin Sans', Sans-Serif;
     font-size: large;
     font-weight: bold;
@@ -925,7 +933,7 @@ p {
 }
 
 .events-card-body-hastag a:hover {
-    color: #2ac2f5;
+    color: #D91C5C;
     text-transform: uppercase;
 }
 .events-card-body-button {
@@ -990,6 +998,12 @@ p {
      margin-top: 4em;
 }
 
+.speakers-section-label {
+    color: #fff;
+    border: 2px solid #ff7700;
+    background: #ff9900;
+}
+
 .speakers-cards {
     display: flex;
     align-items: stretch;
@@ -1024,6 +1038,7 @@ p {
     margin: 0px auto;
     border: solid 6px #cccccc;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .speaker-card {
