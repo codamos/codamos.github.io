@@ -1003,10 +1003,12 @@ p {
 
 .speaker-card {
     width: 100%;
-    padding: 10px;
+    padding: 3%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
 }
 
 .speaker-card:hover {
@@ -1019,9 +1021,7 @@ p {
 
 .speaker-card img {
     display: block;
-    width: 118px;
-    height: 118px;
-    margin: 10px auto;
+    margin: 0px auto;
     border: solid 6px #cccccc;
     border-radius: 50%;
 }
@@ -1035,7 +1035,9 @@ p {
 }
 
 .speaker-card h3 {
-    font-size: large;
+    font-size: x-large;
+    color: #3366cc;
+    font-family: Josefin Sans, Sans-Serif;
 }
 
 .speaker-card-adress {
@@ -1049,22 +1051,26 @@ p {
 }
 
 .speaker-card-skills {
-    font-family: Roboto, Sans-Serif;
-    font-size: medium;
-    font-weight: 700;
-    text-align: center;
-    color: #D91C5C;
     margin: 10px 0;
-    text-transform: uppercase;
 }
-
+.speaker-card-skills span {
+    color: #D91C5C;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 2px 1px;
+    opacity: 0.9;
+    font-family: Roboto, Sans-Serif;
+    font-weight: 400;
+    display: inline-block;
+}
 .speaker-card-bio {
     font-family: Roboto, Sans-Serif;
     font-size: 14px;
     text-align: center;
     font-weight: 300;
     color: #323232;
-    min-height: 120px;
+    flex-basis: 100%;
 }
 
 .speaker-card-labels {
@@ -1074,11 +1080,17 @@ p {
 .speaker-card-labels i {
     color:  #F8B518;
 }
-
+.speaker-card-social-media h4 {
+    color: #999;
+    text-transform: uppercase;
+    font-size: small;
+    margin: 10px auto 5px auto;
+}
 .speaker-card-social-media {
     padding: 0;
     margin: 10px 0;
     color: #cccccc;
+    border-top: 1px dotted #ccc;
 }
 
 .speaker-card-social-media li {

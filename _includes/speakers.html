@@ -1,10 +1,6 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
-  <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}"/>
-
-  <h3 class="pink">{{ speaker.full_name | default: speaker.name }}</h3>
-
-  <p class="speaker-card-address">{{ speaker.location }}</p>
+  <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
 
   <div class="speaker-card-labels">
     {% for label in speaker.labels %}
@@ -12,9 +8,13 @@
     {% endfor %}
   </div>
 
+  <h3>{{ speaker.full_name | default: speaker.name }}</h3>
+
+  <p class="speaker-card-address">{{ speaker.location }}</p>
+
   <h4 class="speaker-card-skills">
     {% for skill in speaker.skills %}
-    #{{ skill }}
+    <span>#{{ skill }}</span>
     {% endfor %}
   </h4>
 
@@ -23,6 +23,7 @@
   </p>
 
   <ul class="speaker-card-social-media">
+    <h4>Entre em contato</h4>
     <li>
     {% if speaker.email %}
       <a href="mailto:{{ speaker.email }}" title="E-mail"
