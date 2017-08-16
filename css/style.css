@@ -1039,6 +1039,7 @@ p {
     border: solid 6px #cccccc;
     border-radius: 50%;
     object-fit: cover;
+    flex: 0 0 118px;
 }
 
 .speaker-card {
@@ -1079,13 +1080,14 @@ p {
     font-weight: 400;
     display: inline-block;
 }
+
 .speaker-card-bio {
     font-family: Roboto, Sans-Serif;
     font-size: 14px;
     text-align: center;
     font-weight: 300;
     color: #323232;
-    flex-basis: 100%;
+    flex: 1 1 100%;
 }
 
 .speaker-card-labels {
