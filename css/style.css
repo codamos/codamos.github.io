@@ -1769,10 +1769,14 @@ p {
 
 .modal-content {
     background-color: #fefefe;
-    width: 80%;
-    padding: 20px;
+    width: 90%;
+    padding: 10px;
     margin: 30px auto;
     border: 1px solid #888;
+}
+
+.modal-content iframe {
+    width: 100%;
 }
 
 .modal-close {
