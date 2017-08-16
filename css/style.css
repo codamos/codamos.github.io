@@ -847,7 +847,7 @@ p {
     font-size: large;
     top: 10px;
     color: #fff;
-    left: 10px;
+    right: 10px;
     width: auto;
     display: flex;
     justify-content: center;
