@@ -25,10 +25,8 @@
   labels: [venus, transgender-alt]
   skills: [Agora JS, TS, NoSQL, Firebase, Angular]
   bio: >
-    Mulher transexual, analista e desenvolvedora de sistemas,
-    amo tecnologia, muito nerd e geek, mãe e avó de 3 lindos
-    shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
-  site: "http://transnerd.com.br"
+    Mulher transexual, analista e desenvolvedora de sistemas,amo  tecnologia, muito nerd e geek, mãe e avó de 3 lindos shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+  site: "transnerd.com.br" 
   twitter: "jelielmendes"
 
 - name: "Geisy Domiciano"
@@ -51,7 +49,7 @@
   avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
   labels: [venus]
-  skills: [Liderança, Gestão de Projetos, Mentoring, Inclusão e Diversidade, Desenvolvimento de Carreira]
+  skills: [Liderança; Gestão de Projetos; Mentoring; Inclusão e Diversidade; Desenvolvimento de Carreira]
   bio: >
     Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
     de software e gestão de projetos e programas. Especialista em
@@ -112,11 +110,11 @@
   email: "lucas.hmacedo@hotmail.com"
   avatar: "lucas-macedo.jpg"
   location: "São Paulo - SP"
-  labels: [hand-rock-o]
+  labels: [black]
   skills: [Debate Racial]
   bio: >
     Com bagagem de 5 anos em marketing nos mais variados segmentos, atua na Resultados Digitais na área de Tech Touch em Customer Success com objetivo de escalar o sucesso.
-  linkedin: "lucashmacedo"
+  linkedin: "lucashmacedo"  
 
 - name: "Paullo Norato"
   email: "norato.ux@gmail.com"
@@ -127,34 +125,36 @@
     Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário, 8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
   linkedin: "paullonorato"
   facebook: "paullonorato23"
-
+  
 - name: "Rogério Rodrigues"
   email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
-  location: "Salvador - BA"
-  skills: [Desenvolvimento Mobile e Inteligencia Artificial/Cognitive Services]
+  location: "Salvador-BA"
+  labels: [site]
+  skills: [Desenvolvimento Mobile e Inteligencia 
+  Artificial/Cognitive Services]
+  site: "www.rogerio.eti.br"
   bio: >
-    Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP, CTO na Connect HealthCare e Membro dos Microsoft Student Partners.
-  site: "http://www.rogerio.eti.br"
+    Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP, CTO na Connect HealthCare e Membro dos Microsoft Student Partners. 
   twitter: "rogerrrodrigues"
 
 - name: "Dan Jesus"
   email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
-  location: "Salvador - BA"
-  labels: [hand-rock-o]
+  location: "Salvador-BA"
+  labels: [black]
   skills: [Fullstack]
   bio: >
     Sou um desenvolvedor de software, entusiasta de metodologias ágeis e desenvolvimento no geral, seja ele front, back ou mobile.
     Gosto de compartilhar conhecimento, então frequentemente estou palestrando por ai.
-  linkedin: "danjesus"
+  linkedin: "danjesus"  
   facebook: "danper.jesus"
 
 - name: "Keyla Peixoto"
   email: "keyla.caroline@gmail.com"
   avatar: "keyla-peixoto.jpg"
-  location: "Rio de Janeiro - RJ"
-  labels: [female, hand-rock-o]
+  location: "Rio de Janeiro-RJ"
+  labels: [female, black]
   skills: [Modelagem de Dados, DW, ETL]
   bio: >
     Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados, quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
@@ -164,9 +164,10 @@
 - name: "Lucas Coelho"
   email: "lucas@flama.is"
   avatar: "lucas-coelho.jpg"
-  location: "Brasília - DF"
+  location: "Brasília-DF"
+  labels: [site]
   skills: [UX Design, Business Design, Javascript Frameworks, Rails]
+  site: "http://lucascoelho.me"
   bio: >
     Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design, educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
-  site: "http://lucascoelho.me"
-  twitter: "coelholucas"
+  twitter: "coelholucas"  

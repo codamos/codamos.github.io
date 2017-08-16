@@ -8,7 +8,7 @@
 # banner:    arquivo na pasta `images/eventos`, opcional.
 # group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
-# hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter.
+# hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter
 # twitter:   texto sem espaços, opcional. Twitter handle.
 # facebook:  texto sem espaços, opcional. Facebook handle.
 # instagram: texto sem espaços, opcional. Instagram handle.
@@ -68,6 +68,7 @@
   free: true
   location: "São Paulo - SP"
   date: "16/08"
+  banner: "ela-lider.png"
   tags: [venus]
   hashtag: "#elalider"
   twitter: "_elalider"
@@ -91,8 +92,10 @@
   free: true
   location: "São Paulo - SP"
   date: "17/08"
+  banner: "usp-inovacao.jpg"
   main_url: "http://inovacao.usp.br/"
-  rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"
+  rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"  
+
 
 - title: "Rails Girls São Paulo"
   free: true
@@ -107,24 +110,29 @@
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "MEAN Stack em Módulos"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "18/08 a 19/08"
+  banner: "mean-stack-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/stack-mean/"
-  rsvp_url: "https://www.sympla.com.br/curso-mean-stack-em-modulos__168267"
+  rsvp_url: "https://www.sympla.com.br/curso-mean-stack-em-modulos__168267"   
 
 - title: "Curso NodeJS 6.3"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "18/08 a 19/08"
+  banner: "nodejs-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-de-nodejs/"
-  rsvp_url: "https://www.sympla.com.br/curso-nodejs-63---9-turma__163670"
+  rsvp_url: "https://www.sympla.com.br/curso-nodejs-63---9-turma__163670"   
 
 - title: "Roadsec 2017 | Rio de Janeiro"
   location: "Rio de Janeiro - RJ"
   date: "19/08"
+  banner: "roadsec-rj.jpg"
   tags: [sign-language]
   twitter: "roadsec"
   facebook: "roadsec"
@@ -144,6 +152,16 @@
   main_url: "https://marialab.org/"
   rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
 
+- title: "Chatbot4Devs"
+  free: false
+  location: "Belo Horizonte - MG"
+  date: "19/08"
+  banner: "chatbot-4devs.jpg"
+  twitter: "takenet"
+  facebook: "take.net"
+  main_url: "http://chatbot4devs.take.net"
+  rsvp_url: "https://www.sympla.com.br/chatbot4devs__145769"  
+
 - title: "6º Encontro - ReactJS Florianópolis"
   free: true
   location: "Florianópolis - SC"
@@ -154,14 +172,6 @@
   facebook: "reactconf"
   main_url: "http://reactconfbr.com.br/"
   rsvp_url: "https://www.meetup.com/ReactJS-Floripa/events/242395044/"
-
-- title: "Chatbot4Devs"
-  location: "Belo Horizonte - MG"
-  date: "19/08"
-  twitter: "takenet"
-  facebook: "take.net"
-  main_url: "http://chatbot4devs.take.net"
-  rsvp_url: "https://www.sympla.com.br/chatbot4devs__145769"
 
 - title: "Construindo meu primeiro robô seguidor de linha"
   category: Curso
@@ -187,6 +197,7 @@
   category: "Curso"
   location:  "Campinas - SP"
   date: "21/08"
+  banner: "women-techmakers.jpg"
   tags: [venus]
   twitter: "gdgcampinas"
   facebook: "gdgcampinas"
@@ -196,15 +207,18 @@
   rsvp_url: "https://www.meetup.com/pt-BR/gdgcampinas/events/242471577/"
 
 - title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
+  free: false
   location: "Bambuí - MG"
   date: "21/08 a 25/08"
-  main_url: "http://computacaoifmg.com.br/"
+  banner: "setec.JPG"
   rsvp_url: "http://computacaoifmg.com.br/Inscricao.html"
+  main_url: "http://computacaoifmg.com.br/"
 
 - title: "DevTalk #2 - Comunidade e Cultura Open Source"
   free: true
   location: "São Paulo - SP"
   date: "22/08"
+  banner: "devtalk2.jpg"
   tags: [venus]
   twitter: "Desprograme"
   facebook: "desprograme123"
@@ -217,10 +231,11 @@
   free: true
   location: "São Paulo - SP"
   date: "22/08"
+  banner: "cloud-girls.jpeg"
   tags: [venus]
   meetup: "Cloud-Girls-Sao-Paulo"
   main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/events/241324092/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/events/241324092/"  
 
 - title: "Prototipação em UX"
   location: "São Paulo - SP"
@@ -238,6 +253,7 @@
   category: "Curso"
   location:  "São Paulo - SP"
   date: "23/08"
+  banner: "meetup.JPG"
   facebook: "developerssp"
   meetup: "Developers-SP"
   main_url: "https://www.meetup.com/pt-BR/Developers-SP/"
@@ -247,9 +263,10 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "23/08"
+  banner: "java-rio.jpeg"
   meetup: "Java-at-Rio"
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812107/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812107/"  
 
 - title: "Android Dev Conference - Imasters"
   location: "São Paulo - SP"
@@ -290,6 +307,7 @@
   category: "Curso"
   location:  "São Paulo - SP"
   date: "23/08"
+  banner: "pwa-netcoders.jpeg"
   facebook: "groups/netcoders"
   linkedin: "grp/home?gid=4357976"
   meetup: "NetCoders"
@@ -313,9 +331,10 @@
   free: true
   location: "São Paulo - SP"
   date: "26/08"
+  banner: "maujor-css-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/funcionalidades-css-na-pratica/"
-  rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"
+  rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"   
 
 - title: "LIDERANÇA FEMININA: COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
   category: Workshop
@@ -330,12 +349,14 @@
   rsvp_url: "https://www.sympla.com.br/lideranca-feminina-como-trabalhar-a-sua-autoconfianca-e-conquistar-o-mundo__174362"
 
 - title: "Curso Introdução ao MongoDB"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "26/08"
+  banner: "mongo-db-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-dados-banco-de-dados/curso-introducao-mongodb/"
-  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-mongodb---6-turma__163674"
+  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-mongodb---6-turma__163674"   
 
 - title: "Nodebots Day Salvador"
   free: true
@@ -348,6 +369,19 @@
   main_url: "https://pyladiessalvador.github.io/"
   rsvp_url: "https://www.meetup.com/Pyladies-SSA/events/240892993/"
 
+  # SETEMBRO
+
+- title: "Introdução ao AngularJS 1.6"
+  free: false
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "01/09 a 02/09"
+  banner: "angularjs-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
+  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-angularjs-16----1-turma__168135"  
+
+
 - title: "React CWB #5"
   free: true
   location: "Curitiba - PR"
@@ -358,16 +392,6 @@
   facebook: "reactconf"
   main_url: "http://reactconfbr.com.br/"
   rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
-
-# SETEMBRO
-
-- title: "Introdução ao AngularJS 1.6"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "01/09 a 02/09"
-  facebook: "ctnovatec"
-  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
-  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-angularjs-16----1-turma__168135"
 
 - title: "Mercado Livre experience"
   location: "São Paulo - SP"
@@ -382,11 +406,12 @@
 - title: "Install Fest - PHP Women RJ"
   location: "Rio de Janeiro - RJ"
   free: true
-  cfp: true
+  cfp: true 
   date: "02/09"
+  banner: "installfest-phpwomen.jpg"
   tags: [venus]
   main_url: "https://phpwomenbr.github.io/rio/"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"  
 
 - title: "Dev Xperience"
   location: "São Paulo - SP"
@@ -415,6 +440,7 @@
 - title: "Devday 2017"
   location: "Belo Horizonte - MG"
   date: "02/09"
+  banner: "devisland.png"
   tags: [cc]
   twitter: "devisland"
   facebook: "DevIsland"
@@ -422,8 +448,10 @@
   rsvp_url: "http://devday.devisland.com/"
 
 - title: "Roadsec 2017 | Vitória"
+  free: false
   location: "Vitória - ES"
   date: "02/09"
+  banner: "roadsec-es.jpg"
   tags: [sign-language]
   twitter: "roadsec"
   facebook: "roadsec"
@@ -441,7 +469,17 @@
   facebook: "braziljs"
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"  
+
+- title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "xamarin-novatec.jpg"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
+  rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244" 
 
 - title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
   free: true
@@ -520,12 +558,13 @@
   free: true
   location: "Belo Horizonte - MG"
   date: "16/09"
+  banner: "mozilla-rust-bh.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "mozillabrasil"
   twitter: "mozillabrasil"
   facebook: "mozillabrasil"
   main_url: "https://www.mozilla.org/pt-BR/"
-  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-2-registration-36876136517"
+  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-2-registration-36876136517" 
 
 - title: "Café com Marialab"
   free: true
@@ -538,7 +577,7 @@
   facebook: "marialab.org"
   meetup:  "marialab"
   main_url: "https://marialab.org/"
-  rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/?eventId=240366543"
+  rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/?eventId=240366543"  
 
 - title: "CSSday"
   cfp: true
@@ -601,6 +640,7 @@
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
+  banner: "protecao-privacidade-cgi.JPG"
   main_url: "http://seminarioprivacidade.cgi.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
 
@@ -608,6 +648,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "20/09"
+  banner: "java-rio.jpeg"
   meetup: "Java-at-Rio"
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
   rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812115/"
@@ -616,6 +657,7 @@
   free: true
   location: "Campinas - SP"
   date: "21/09"
+  banner: "phpsp-campinas.jpeg"
   twitter: "phpspcampinas"
   facebook: "grupo.campinas"
   meetup: "PHPSP-Campinas"
@@ -626,6 +668,7 @@
   free: true
   location: "São Paulo - SP"
   date: "21/09"
+  banner: "arduino-community.jpeg"
   facebook: "fablablivresp"
   instagram: "frontinbh"
   meetup: "Clube-do-Arduino"
@@ -633,6 +676,7 @@
   rsvp_url: "https://www.meetup.com/pt-BR/Clube-do-Arduino/events/242222319/"
 
 - title: "Front in BH 2k17 - BH"
+  free: false
   location: "Belo Horizonte - MG"
   date: "23/09"
   banner: "front-inbh.jpg"
@@ -645,11 +689,13 @@
   rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
 
 - title: "UX Weekend São Paulo"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "23/09 a 24/09"
+  banner: "ux-weekend-sp.jpg"
   main_url: "https://credencial.imasters.com.br/uxweekend-setembro"
-  rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
+  rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"  
 
 - title: "The Conf"
   location: "São Paulo - SP"
@@ -662,30 +708,36 @@
   rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
 
 - title: "Curso Docker"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "29/09 a 30/09"
+  banner: "docker-novatec.jpg"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
-  rsvp_url: "https://www.sympla.com.br/curso-docker-9-turma__174961"
+  rsvp_url: "https://www.sympla.com.br/curso-docker-9-turma__174961" 
 
 - title: "Roadsec 2017 | Porto Alegre"
+  free: false
   location: "Porto Alegre - RS"
   date: "30/09"
+  banner: "roadsec-poa.jpg"
   tags: [sign-language]
   twitter: "roadsec"
   facebook: "roadsec"
   instagram: "roadsec"
   main_url: "http://roadsec.com.br"
-  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-porto-alegre-registration-30533541645"
+  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-porto-alegre-registration-30533541645?aff=contatosite"  
 
 - title: "Primeiros Passos em Robótica"
+  free: false
   category: "Curso"
   location: "São Paulo - SP"
   date: "30/09"
+  banner: "robotica-novatec.jpg"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-hardware-robotica/primeiros-passos-em-robotica/"
-  rsvp_url: "https://www.sympla.com.br/curso-primeiros-passos-em-robotica---3-turma__171859"
+  rsvp_url: "https://www.sympla.com.br/curso-primeiros-passos-em-robotica---3-turma__171859"  
 
 - title: "ABCDev"
   location: "Santo André - SP"
@@ -699,16 +751,19 @@
   rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"
 
 - title: "UX Strategy Belo Horizonte"
+  free: false
   category: "Curso"
   location: "Belo Horizonte - MG"
   date: "30/09 a 01/10"
+  banner: "ux-strategy-bh.JPG"
   main_url: "https://credencial.imasters.com.br/uxstrategy-bh"
-  rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration"
+  rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration" 
 
 # OUTUBRO
 
 - title: "PHPeste"
   location: "Fortaleza - CE"
+  free: false
   date: "06/10 a 08/10"
   banner: "phpeste.png"
   tags: [venus, cc]
@@ -733,7 +788,9 @@
 
 - title: "Bots Brasil Conf"
   location: "São Paulo - SP"
+  free: false
   date: "07/10"
+  banner: "bots-brasil-conf.png"
   hashtag: "BotsBrasilConf"
   twitter: "botsbrasil"
   facebook: "groups/1043955085659560"
