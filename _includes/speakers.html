@@ -2,10 +2,13 @@
 <li class="speaker-card">
   <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
 
-  <div class="speaker-card-labels">
+  <div class="speaker-card-labels lgbt-label">
     {% for label in speaker.labels %}
     <i class="fa fa-{{ label }} fa-2x" aria-hidden="true"></i>
     {% endfor %}
+    {% if speaker.lgbt %}
+    <img src="images/lgbt.png" alt="LGBTQI+">
+    {% endif %}
   </div>
 
   <h3>{{ speaker.full_name | default: speaker.name }}</h3>

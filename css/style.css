@@ -1094,6 +1094,14 @@ p {
     padding: 5px 0;
 }
 
+.lgbt-label img {
+    border: none;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2px;
+}
+
 .speaker-card-labels i {
     color:  #F8B518;
 }

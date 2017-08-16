@@ -4,6 +4,7 @@
 # full_name: texto, opcional.
 # email:     texto, opcional.
 # location:  texto, obrigatório.
+# lgbt:      texto, opcional.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
 # labels:    lista de classes de ícones do font awesome, opcional.
 # skills:    lista de textos sem espaços, opcional.
@@ -37,11 +38,13 @@
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
   labels: [venus, hand-rock-o]
-  skills: [Desenvolvimento JS, Angular 1.x, CSS, HTML, Git Flow, CI/CD]
+  lgbt: "lgbt"
+  skills: [Desenvolvimento JS, Vue.js, CSS, HTML, Git Flow, CI/CD]
   bio: >
     Apaixonada por desenvolvimento front-end, interessada em DevOps e
     IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
   linkedin: "geisydomiciano"
+  twitter: "geisydomiciano"
   github: "gdomiciano"
 
 - name: "Thaís Freitas"
@@ -49,6 +52,7 @@
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
   labels: [venus]
+  lgbt: "lgbt"
   skills: [Mulher em TI, Qualidade de Software, Testes, Team Ágil]
   bio: >
     Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
