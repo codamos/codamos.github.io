@@ -43,14 +43,14 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section events-section">
-    <h1 class="page-section-subtitle">Eventos em destaque</h1>
+  <h1 class="page-section-subtitle">Eventos em destaque</h1>
 
-    <ul class="events-cards">
-      {% assign highlights = site.data.events | where:"highlight",true %}
-      {% include events.html events=highlights %}
-    </ul>
+  <ul class="events-cards">
+    {% assign highlights = site.data.events | where:"highlight",true %}
+    {% include events.html events=highlights %}
+  </ul>
 
-    <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
+  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
 </section>
 
 {% include code_of_conduct.html %}
@@ -58,12 +58,13 @@ layout: default
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-  <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
-  <ul class="speakers-cards">
-    {% assign speakers = site.data.speakers | where:"highlight",true %}
-    {% include speakers.html speakers=speakers %}
-  </ul>
+    <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
 
-  <a class="button-primary-outline" href="/palestrantes">Veja todos os palestrantes</a>
+    <ul class="speakers-cards">
+      {% assign speakers = site.data.speakers | where:"highlight",true %}
+      {% include speakers.html speakers=speakers %}
+    </ul>
+
+    <a class="button-primary-outline" href="/palestrantes">Veja todos os palestrantes</a>
   </div>
 </section>
