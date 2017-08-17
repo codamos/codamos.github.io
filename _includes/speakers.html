@@ -4,7 +4,7 @@
 
   <div class="speaker-card-labels lgbt-label">
     {% for label in speaker.labels %}
-    <i class="fa fa-{{ label }} fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.speaker_icons[label] }}"></i>
     {% endfor %}
     {% if speaker.lgbt %}
     <img src="images/lgbt.png" alt="LGBTQI+">
