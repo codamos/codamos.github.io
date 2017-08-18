@@ -345,3 +345,67 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
+
+
+- title: "React #12 – Empreendedorismo + React"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "react-12.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-SP/events/242266357/"
+
+- title: "Le Wagon Coding Bootcamp Open Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
+
+- title: "A Era dos Games"
+  location: "São Paulo - SP"
+  date: "16/08 a 12/11"
+  banner: "era-dos-games.png"
+  twitter: "bienalsaopaulo"
+  facebook: "bienalsaopaulo"
+  main_url: "http://aeradosgames.com.br/"
+  rsvp_url: "https://ingresse.com/search/name/games"
+
+- title: "Ela Líder #12"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+  rsvp_url: "https://www.meetup.com/pt-BR/elalider/events/242299814/"
+
+- title: "AngularSP Talks #14 Pagar.me"
+  free: true
+  location: "São Paulo - SP"
+  date: "17/08"
+  banner: "angular-sp.png"
+  tags: [venus, cc]
+  hashtag: "AngularSP"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/events/242264885/"
+  rsvp_url: "https://www.eventbrite.com/e/angularsp-14-pagarme-tickets-36835706590"
+
+- title: "Startups Pitch Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "17/08"
+  banner: "usp-inovacao.jpg"
+  main_url: "http://inovacao.usp.br/"
+  rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"

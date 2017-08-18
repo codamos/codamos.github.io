@@ -33,69 +33,6 @@
   main_url: "http://www.reprograma.com.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
 
-- title: "React #12 – Empreendedorismo + React"
-  free: true
-  location: "São Paulo - SP"
-  date: "16/08"
-  banner: "react-12.png"
-  hashtag: "ReactConfBr"
-  twitter: "reactconfbr"
-  facebook: "reactconf"
-  main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-SP/events/242266357/"
-
-- title: "Le Wagon Coding Bootcamp Open Day"
-  free: true
-  location: "São Paulo - SP"
-  date: "16/08"
-  banner: "le-wagon.png"
-  hashtag: "lewagonBR"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
-
-- title: "A Era dos Games"
-  location: "São Paulo - SP"
-  date: "16/08 a 12/11"
-  banner: "era-dos-games.png"
-  twitter: "bienalsaopaulo"
-  facebook: "bienalsaopaulo"
-  main_url: "http://aeradosgames.com.br/"
-  rsvp_url: "https://ingresse.com/search/name/games"
-
-- title: "Ela Líder #12"
-  free: true
-  location: "São Paulo - SP"
-  date: "16/08"
-  banner: "ela-lider.png"
-  tags: [venus]
-  hashtag: "#elalider"
-  twitter: "_elalider"
-  facebook: "elaliderfeminina"
-  main_url: "https://elalider.com/"
-  rsvp_url: "https://www.meetup.com/pt-BR/elalider/events/242299814/"
-
-- title: "AngularSP Talks #14 Pagar.me"
-  free: true
-  location: "São Paulo - SP"
-  date: "17/08"
-  banner: "angular-sp.png"
-  tags: [venus, cc]
-  hashtag: "AngularSP"
-  twitter: "AngularSP"
-  facebook: "AngularSP"
-  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/events/242264885/"
-  rsvp_url: "https://www.eventbrite.com/e/angularsp-14-pagarme-tickets-36835706590"
-
-- title: "Startups Pitch Day"
-  free: true
-  location: "São Paulo - SP"
-  date: "17/08"
-  banner: "usp-inovacao.jpg"
-  main_url: "http://inovacao.usp.br/"
-  rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"
-
 - title: "Rails Girls São Paulo"
   free: true
   location: "São Paulo - SP"
@@ -195,7 +132,7 @@
   location:  "Campinas - SP"
   date: "21/08"
   banner: "women-techmakers.jpg"
-  tags: [venus]
+  tags: [venus, cc]
   twitter: "gdgcampinas"
   facebook: "gdgcampinas"
   meetup: "gdgcampinas"
@@ -285,18 +222,6 @@
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242226755/"
 
-- title: "BrazilJS - RS"
-  location: "Porto Alegre - RS"
-  date: "25/08 e 26/08"
-  banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair-alt]
-  hashtag: "BrazilJS"
-  twitter: "braziljs"
-  facebook: "braziljs"
-  instagram: "brazil.js"
-  main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
-
 - title: "Desenvolvimento de Progressive Web Apps (PWA)"
   free: true
   category: "Curso"
@@ -308,6 +233,29 @@
   meetup: "NetCoders"
   main_url: "http://netcoders.com.br/"
   rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/242380815/"
+
+- title: "Virada sustentável na BRAIN"
+  free: true
+  location:  "São Paulo - SP"
+  date: "24/08 a 26/08"
+  banner: "brain.png"
+  facebook: "Brain.b4igroup"
+  linkedin: "company-beta/15081533/"
+  instagram: "brain__club"
+  main_url: "http://brain.club/"
+  rsvp_url: "https://www.sympla.com.br/vire-sua-empresa--virada-sustentavel-na-brain__171494"
+
+- title: "BrazilJS - RS"
+  location: "Porto Alegre - RS"
+  date: "25/08 e 26/08"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
 - title: "Cryptoparty"
   free: true
@@ -331,7 +279,7 @@
   main_url: "http://ctnovatec.com.br/funcionalidades-css-na-pratica/"
   rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"
 
-- title: "LIDERANÇA FEMININA: COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
+- title: "COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
   category: Workshop
   location: "São Paulo - SP"
   date: "26/08"
@@ -363,6 +311,18 @@
   main_url: "https://pyladiessalvador.github.io/"
   rsvp_url: "https://www.meetup.com/Pyladies-SSA/events/240892993/"
 
+- title: "Hackeando seu eletrodoméstico usando Arduino"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "hackeando-eletrodomestico.png"
+  tags: [venus, cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-seu-eletrodomestico-usando-arduino-tickets-36122540491"
+
 - title: "React CWB #5"
   free: true
   location: "Curitiba - PR"
@@ -384,30 +344,6 @@
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
   rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-angularjs-16----1-turma__168135"
-
-- title: "Mercado Livre experience"
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "mercado-livre.png"
-  hashtag: "MLXP2017"
-  twitter: "MercadoLivre"
-  facebook: "MercadoLivreExperience"
-  main_url: "http://www.mercadolivreexperience.com.br/programacao"
-  rsvp_url: "http://www.mercadolivreexperience.com.br/programacao/#inscrevase"
-
-- title: "Install Fest - PHP Women RJ"
-  location: "Rio de Janeiro - RJ"
-  free: true
-  cfp: true
-  highlight: true
-  date: "02/09"
-  banner: "installfest-phpwomen.png"
-  tags: [venus, cc]
-  hashtag: "PHPWomen"
-  twitter: "PHPWomenBR"
-  facebook: "elephants.together"
-  main_url: "https://phpwomenbr.github.io/rio/"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"
 
 - title: "Dev Xperience"
   location: "São Paulo - SP"
@@ -433,6 +369,53 @@
   main_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/"
   rsvp_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/#inscrevase"
 
+- title: "BrazilJS - CE"
+  location: "Fortaleza - CE"
+  date: "01/09 e 02/09"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
+
+- title: "Lab de Gamificação"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "lab-gameficacao.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/lab-de-gamificacao-tickets-36372310560"
+
+- title: "Mercado Livre experience"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "mercado-livre.png"
+  hashtag: "MLXP2017"
+  twitter: "MercadoLivre"
+  facebook: "MercadoLivreExperience"
+  main_url: "http://www.mercadolivreexperience.com.br/programacao"
+  rsvp_url: "http://www.mercadolivreexperience.com.br/programacao/#inscrevase"
+
+- title: "Install Fest - PHP Women RJ"
+  location: "Rio de Janeiro - RJ"
+  free: true
+  cfp: true
+  highlight: true
+  date: "02/09"
+  banner: "installfest-phpwomen.png"
+  tags: [venus, cc]
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
+  main_url: "https://phpwomenbr.github.io/rio/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"
+
 - title: "Devday 2017"
   location: "Belo Horizonte - MG"
   date: "02/09"
@@ -456,18 +439,6 @@
   main_url: "http://roadsec.com.br"
   rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-vitoria-registration-30532103343"
 
-- title: "BrazilJS - CE"
-  location: "Fortaleza - CE"
-  date: "01/09 e 02/09"
-  banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair-alt]
-  hashtag: "BrazilJS"
-  twitter: "braziljs"
-  facebook: "braziljs"
-  instagram: "brazil.js"
-  main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
-
 - title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
   free: true
   category: "Curso"
@@ -489,16 +460,6 @@
   main_url: "https://www.meetup.com/PyLadiesSP/"
   rsvp_url: "https://www.facebook.com/events/162824437599273/"
 
-- title: "HackTown 2017"
-  location: "Santa Rita do Sapucaí - MG"
-  date: "07/09 a 10/09"
-  banner: "hack-town.jpg"
-  twitter: "hacktown"
-  facebook: "hacktownfest"
-  instagram: "hacktownsrs"
-  main_url: "http://hacktown.com.br/"
-  rsvp_url: "https://app.lets.events/events/hacktown#participate"
-
 - title: "1º HACKATHON POSTOS PETROBRAS"
   location: "São Paulo - SP"
   date: "07/09"
@@ -509,6 +470,16 @@
   facebook: "postospetrobras"
   main_url: "http://hotsitesbr.com.br/hackathon/"
   rsvp_url: "http://hotsitesbr.com.br/hackathon/inscricoes/"
+
+- title: "HackTown 2017"
+  location: "Santa Rita do Sapucaí - MG"
+  date: "07/09 a 10/09"
+  banner: "hack-town.jpg"
+  twitter: "hacktown"
+  facebook: "hacktownfest"
+  instagram: "hacktownsrs"
+  main_url: "http://hacktown.com.br/"
+  rsvp_url: "https://app.lets.events/events/hacktown#participate"
 
 - title: "Python Sul"
   location: "Caxias do Sul - RS"
@@ -542,6 +513,17 @@
   facebook: "RDCONF"
   main_url: "http://ranchodev.com.br/"
   rsvp_url: "http://ranchodev.com.br/"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "smart-city.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/smart-city-com-arduino-design-thinking-e-scrum-tickets-36976354271"
 
 - title: "Mergulhando em Rust @TW Belo Horizonte"
   free: true
@@ -664,6 +646,17 @@
   meetup: "Clube-do-Arduino"
   main_url: "http://fablablivresp.art.br/unidades/galeria-olido"
   rsvp_url: "https://www.meetup.com/pt-BR/Clube-do-Arduino/events/242222319/"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  date: "23/09"
+  banner: "pesquisa-de-mercado.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/metodos-de-pesquisa-de-mercado-tickets-37038829135"
 
 - title: "Front in BH 2k17 - BH"
   location: "Belo Horizonte - MG"
