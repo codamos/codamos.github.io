@@ -119,25 +119,29 @@
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/construindo-meu-primeiro-robo-seguidor-de-linha__168847"
 
-- title: "People in tech"
-  free: true
-  location: "São Paulo - SP"
-  date: "19/08"
-  main_url: "https://doity.com.br/people-in-tech"
-  rsvp_url: "https://doity.com.br/people-in-tech#registration"
-
 - title: "Women Techmakers - Grupo de estudos Android"
   free: true
   category: "Curso"
   location:  "Campinas - SP"
   date: "21/08"
-  banner: "women-techmakers.jpg"
+  banner: "women-techmakers.png"
   tags: [venus, cc]
   twitter: "gdgcampinas"
   facebook: "gdgcampinas"
   meetup: "gdgcampinas"
   linkedin: "company-beta/15240699"
   main_url: "https://www.meetup.com/pt-BR/gdgcampinas/"
+  rsvp_url: "https://www.meetup.com/pt-BR/gdgcampinas/events/242471577/"
+
+- title: "II semana da diversidade"
+  free: true
+  category: "Curso"
+  location:  "Bragança Paulista - SP"
+  date: "21/08"
+  banner: "semana-diversidade.png"
+  tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
+  facebook: "semanadadiversidadeifspbra"
+  main_url: "http://bra.ifsp.edu.br/diversidade/"
   rsvp_url: "https://www.meetup.com/pt-BR/gdgcampinas/events/242471577/"
 
 - title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
@@ -270,6 +274,18 @@
   main_url: "https://cryptorave.org/"
   rsvp_url: "https://www.facebook.com/events/107849046551519/"
 
+- title: "Certificações Ethical Hacking Essentials"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "it-certs.png"
+  twitter: "Itcerts_"
+  facebook: "itcerts"
+  linkedin: "company/itcerts"
+  main_url: "http://itcerts.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/2608-curso-preparatorio-gratuito-para-as-certificacoes-ethical-hacking-essentials-computer-registration-36983135554"
+
 - title: "Funcionalidades CSS na prática"
   free: true
   location: "São Paulo - SP"
@@ -322,6 +338,18 @@
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/hackeando-seu-eletrodomestico-usando-arduino-tickets-36122540491"
+
+- title: "AdaptTALKS: Mulheres na Tecnologia"
+  free: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "adapt-talks.png"
+  tags: [venus, cc]
+  hashtag: "adaptTALKS"
+  twitter: "adaptworks"
+  facebook: "adaptworks"
+  main_url: "http://www.adaptworks.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
 
 - title: "React CWB #5"
   free: true
@@ -900,3 +928,13 @@
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "UXconfBR"
+  location: "Porto Alegre - RS"
+  date: "05/2018"
+  banner: "ux-confbr.png"
+  hashtag: "UXConfBR"
+  twitter: "uxconfbr"
+  facebook: "uxconferencebr"
+  main_url: "http://www.uxconf.com.br/"
+  rsvp_url: "http://www.uxconf.com.br/ingressos/"
