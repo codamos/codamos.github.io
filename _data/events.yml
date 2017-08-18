@@ -253,13 +253,25 @@
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
   banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair-alt]
+  tags: [venus, cc, wheelchair-alt, child]
   hashtag: "BrazilJS"
   twitter: "braziljs"
   facebook: "braziljs"
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
+
+- title: "DjangoGirls"
+  location: "Novo Hamburgo - RS"
+  date: "25/08 e 26/08"
+  banner: "django-girls.png"
+  tags: [venus, cc]
+  hashtag: "DjangoGirls"
+  twitter: "djangogirls"
+  facebook: "djangogirlsnh"
+  github: "DjangoGirls"
+  main_url: "https://djangogirls.org/novohamburgo/"
+  rsvp_url: "https://djangogirls.org/novohamburgo/"
 
 - title: "Cryptoparty"
   free: true
