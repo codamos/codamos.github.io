@@ -489,6 +489,18 @@
   main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
   rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244"
 
+- title: "PALESTRA: COMO SEGUIR CARREIRA EM UX?"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__178973"
+
 - title: "PyLadies - 2 anos"
   location: "São Paulo - SP"
   date: "07/09"
