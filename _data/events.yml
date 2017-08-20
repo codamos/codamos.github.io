@@ -239,6 +239,18 @@
   main_url: "http://netcoders.com.br/"
   rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/242380815/"
 
+- title: "Diálogos: Fortalecendo conexões entre mulheres negras"
+  free: true
+  location:  "Belo Horizonte - MG"
+  date: "23/08"
+  banner: "conexoes-tw.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "thoughtworksbr"
+  facebook: "ThoughtWorksBR"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSelMlG1QhVHuH0VgI47aLUD3ClYBtEtHUzo8jpXL-SjESyC6w/viewform"
+
 - title: "Virada sustentável na BRAIN"
   free: true
   location:  "São Paulo - SP"
@@ -433,6 +445,18 @@
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
+
+- title: "</> JUNTOS NA TI - 3ª EDIÇÃO"
+  free: true
+  location:  "São Paulo - SP"
+  date: "02/09"
+  banner: "juntos-na-ti.png"
+  tags: [cc, universal-access]
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+  rsvp_url: "https://docs.google.com/forms/d/1nEpljF6APDziX1-PIvCgnelHfRUPC9disIhKC7kSY54/closedform"
 
 - title: "Lab de Gamificação"
   location: "São Paulo - SP"
@@ -766,6 +790,17 @@
   instagram: "frontinbh"
   main_url: "http://frontinbh.com.br/"
   rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
+
+- title: "Devfest Maceió"
+  location: "Maceió - AL"
+  date: "23/09"
+  banner: "gdg-maceio.png"
+  tags: [cc]
+  hashtag: "dfmcz17"
+  twitter: "gdgmaceio"
+  facebook: "gdgmaceio"
+  main_url: "https://devfest.gdgmaceio.org/"
+  rsvp_url: "https://www.sympla.com.br/devfest-maceio-2017__158502"
 
 - title: "UX Weekend São Paulo"
   category: "Curso"
