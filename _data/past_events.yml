@@ -409,3 +409,15 @@
   banner: "usp-inovacao.jpg"
   main_url: "http://inovacao.usp.br/"
   rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"
+
+- title: "Rails Girls São Paulo"
+  free: true
+  location: "São Paulo - SP"
+  date: "18/08 e 19/08"
+  banner: "railsgirls.png"
+  tags: [venus, cc]
+  hashtag: "railsgirls"
+  twitter: "railsgirlssp"
+  facebook: "railsgirls.sp"
+  main_url: "http://railsgirls.com/saopaulo.html"
+  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"

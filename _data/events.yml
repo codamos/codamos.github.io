@@ -33,17 +33,18 @@
   main_url: "http://www.reprograma.com.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
 
-- title: "Rails Girls São Paulo"
+- title: "FAB LAB LIVRE SP"
   free: true
+  category: Curso
   location: "São Paulo - SP"
-  date: "18/08 e 19/08"
-  banner: "railsgirls.png"
-  tags: [venus, cc]
-  hashtag: "railsgirls"
-  twitter: "railsgirlssp"
-  facebook: "railsgirls.sp"
-  main_url: "http://railsgirls.com/saopaulo.html"
-  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+  date: "08/2017"
+  banner: "fab-lab-livre.png"
+  tags: [venus, cc, universal-access]
+  youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
+  instagram: "fablablivresp"
+  facebook: "fablablivresp"
+  main_url: "http://www.fablablivresp.art.br/"
+  rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
 - title: "MEAN Stack em Módulos"
   category: "Curso"
@@ -248,6 +249,18 @@
   instagram: "brain__club"
   main_url: "http://brain.club/"
   rsvp_url: "https://www.sympla.com.br/vire-sua-empresa--virada-sustentavel-na-brain__171494"
+
+- title: "#00 - PWA"
+  free: true
+  location:  "São Paulo - SP"
+  date: "24/08"
+  banner: "collabcode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Meetup"
+  twitter: "collabcodebr"
+  facebook: "collabcode"
+  main_url: "https://www.meetup.com/CollabCodeBR/"
+  rsvp_url: "https://www.meetup.com/CollabCodeBR/events/242479951/"
 
 - title: "BrazilJS - RS"
   location: "Porto Alegre - RS"
@@ -467,6 +480,18 @@
   main_url: "http://devday.devisland.com/"
   rsvp_url: "http://devday.devisland.com/#ticket"
 
+- title: "Red Bull Basement"
+  location: "São Paulo - SP"
+  free: true
+  date: "02/09"
+  banner: "red-bull-basement.png"
+  tags: [universal-access]
+  hashtag: "Basement"
+  twitter: "RedBullBR"
+  facebook: "RedBullStation"
+  main_url: "http://www.redbullbasement.com.br/"
+  rsvp_url: "https://www.redbull.com/br-pt/terceira-edicao-festival-red-bull-basement-2017"
+
 - title: "Roadsec 2017 | Vitória"
   location: "Vitória - ES"
   date: "02/09"
@@ -661,10 +686,30 @@
   main_url: "http://codeinthedark.frontinvale.com.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScHuE4X-XL5Lltg_QUI_qooW76klZbU93zj5n2YmMoIR3SlrQ/viewform"
 
+- title: "Impactos da exposição de crianças e adolescentes na Internet"
+  free: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "18/09"
+  banner: "workshopexposicaonainternet.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "NICbr"
+  twitter: "comuNICbr"
+  facebook: "nic.br"
+  youtube: "user/NICbrvideos"
+  main_url: "http://workshopexposicaonainternet.nic.br/"
+  rsvp_url: "https://cursoseventos.nic.br/users/login"
+
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
+  free: true
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
   banner: "protecao-privacidade-cgi.JPG"
+  tags: [cc, universal-access]
+  hashtag: "SeminárioPrivacidade"
+  twitter: "comuNICbr"
+  facebook: "nic.br"
+  youtube: "user/NICbrvideos"
   main_url: "http://seminarioprivacidade.cgi.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
 
@@ -898,6 +943,17 @@
 
 # NOVEMBRO
 
+- title: "São Paulo Tech Week"
+  location: "São Paulo - SP"
+  date: "05/11 a 12/11"
+  banner: "sptw.png"
+  hashtag: "saopaulotechweek"
+  twitter: "sptw16"
+  instagram: "saopaulotechweek"
+  facebook: "SaoPauloTechWeek"
+  main_url: "http://www.saopaulotechweek.com/"
+  rsvp_url: "http://www.saopaulotechweek.com/cadastro/"
+
 - title: "DevOps Day Brasília"
   location: "Brasília - DF"
   date: "07/11 e 08/11"
@@ -918,6 +974,17 @@
   facebook: "TheDevelopersConference"
   instagram: "thedevconf"
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
+  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
+
+- title: "Women Dev Summit"
+  cfp: true
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "wds.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "WDS2k17"
+  facebook: "womendevsummit"
+  main_url: "http://womendevsummit.com/"
   rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
 - title: "Gophercon Brasil"
