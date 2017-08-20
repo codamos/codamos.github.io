@@ -1,0 +1,7 @@
+plugins:
+  - algoliasearch-jekyll
+algolia:
+  application_id: '3TPMHSP0P5'
+  index_name:     'codamos'
+  record_css_selector: '.events-card, .speaker-card'
+exclude: [vendor]

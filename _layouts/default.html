@@ -19,6 +19,8 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/3e3109a2ea.css" media="all">
     </noscript>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@1/dist/instantsearch.min.css">
+
     <!-- ANALYTICS -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -67,6 +69,12 @@
             </a>
           </li>
         </ul>
+
+        <div>
+          <div id="search-box"></div>
+          <div id="infinite-hits-container"></div>
+        </div>
+        
 
         <div class="header-menu-hamburger">
           <input id="button-hamburguer" type="checkbox">
@@ -190,5 +198,38 @@
         </p>
       </div>
     </footer>
+    <script src="js/instantsearch.min.js"></script>
+    <script>
+      var search = instantsearch({
+        appId: '3TPMHSP0P5',
+        apiKey: 'c03117241db23f077d86f72462db9f89',
+        indexName: 'codamos',
+        urlSync: true
+      });
+
+      search.addWidget(
+        instantsearch.widgets.searchBox({
+          container: '#search-box',
+          placeholder: 'Pesquisar...'
+        })
+      );
+
+      search.addWidget(
+        instantsearch.widgets.infiniteHits({
+          container: '#infinite-hits-container',
+          templates: {
+            item: function(data) {
+              console.log(data);
+              var result = data._highlightResult;
+              var value = result.h1.value || result.h2.value || result.h3.value
+              return '<div>' + value + '</div>'
+            }
+          },
+          hitsPerPage: 3
+        })
+      );
+
+      search.start();
+    </script>
   </body>
 </html>
