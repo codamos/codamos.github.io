@@ -1347,28 +1347,64 @@ p {
 
 
 /*CÓDIGO DE CONDUTA*/
-
-#code-of-conduct {
-    padding: 5em 1em;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 4em;
-}
-#code-of-conduct p {
-    padding-bottom: 2em;
-}
-#code-of-conduct h2 {
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    padding-bottom: .5em;
-    font-family: 'Roboto', Sans-Serif;
+.page-section-title.cdc-title {
+text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+color: #3366cc;
 }
 
-#code-of-conduct a {
-    text-decoration: none;
+.text-box.left {
+    text-align: left;
+}
+
+.text-box.left a {
+    color: #ff0066;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.text-box.left a:hover { 
+    background: #ff0066;
     color: #ffffff;
 }
+
+.text-box.left h2 {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #3366cc;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.text-box.left h3 {
+    font-weight: bold;
+}
+
+.text-box.left ul {
+    text-align: left;
+    margin-left: 3rem;
+} 
+
+.text-box.left li{
+    list-style: disc;
+    color: #ff0066;
+}
+.page-section-text.center{
+    text-align: center;
+}
+li span {
+    color: #666666;
+}
+
+.page-section-text.featured {
+    text-transform: uppercase;
+    line-height: 3;
+ }
+
+.page-section-text.featured a {
+    cursor: pointer;
+    color: #3366cc;
+} 
+
+/* ---------------------------- */
 
 @media (max-width: 660px) {
     #code-of-conduct h2 {
