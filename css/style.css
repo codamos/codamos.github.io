@@ -286,12 +286,12 @@ p {
 .button-primary-outline {
     display: inline-block;
     cursor: pointer;
-    color: #ff0066;
+    color: #e60050;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
-    border: 4px solid #ff0066;
+    border: 4px solid #e60050;
     padding: 14px 44px;
     border-radius: 14px;
 }
@@ -338,7 +338,7 @@ p {
 .button-banner:active, .button-banner:hover {
     color: #ffffff;
     box-shadow: none;
-    background-color: #ff0066;
+    background-color: #e60050;
 }
 
 .button-partners {
@@ -359,7 +359,7 @@ p {
 .button-partners:active, .button-partners:hover {
     color: #ffffff;
     box-shadow: none;
-    background-color: #ff0066;
+    background-color: #e60050;
 }
 
 
@@ -397,10 +397,10 @@ p {
 }
 
 .page-section p a {
-    color: #ff0066;
+    color: #e60050;
     text-decoration: none;
     cursor: pointer;
-    -webkit-box-shadow: inset 0 -1px 0 #ff0066;
+    -webkit-box-shadow: inset 0 -1px 0 #e60050;
 }
 
 .page-section p a:hover {
@@ -409,7 +409,7 @@ p {
     cursor: pointer;
     -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
     -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
-    box-shadow: inset 20px 20px 20px 20px #ff0066;
+    box-shadow: inset 20px 20px 20px 20px #e60050;
 }
 
 .page-section-title {
@@ -464,7 +464,7 @@ p {
 
 .page-section-pink {
     background-color: var(--pink);
-    background-color: #ff0066;
+    background-color: #e60050;
 }
 
 .page-section-black-four {
@@ -651,7 +651,7 @@ p {
         color: #ffffff;
         cursor: pointer;
         padding: 0 5px;
-        box-shadow: inset 20px 20px 20px 20px #ff0066;
+        box-shadow: inset 20px 20px 20px 20px #e60050;
     }
 
     .header-social-media {
@@ -713,7 +713,7 @@ p {
 .events-section-label {
     color: #fff;
     border: 2px solid #ff99cc;
-    background: #ff0066;
+    background: #e60050;
 }
 
 #events-top {
@@ -850,7 +850,7 @@ p {
 }
 
 .events-card-header span {
-    background: #ff0066;
+    background: #e60050;
     position: absolute;
     font-size: large;
     top: 10px;
@@ -867,7 +867,7 @@ p {
 }
 
 .events-card-title {
-    color: #ff0066;
+    color: #e60050;
     font-family: 'Josefin Sans', Sans-Serif;
     font-size: large;
     font-weight: bold;
@@ -1106,7 +1106,7 @@ p {
     color:  #F8B518;
 }
 .speaker-card-social-media h4 {
-    color: #999;
+    color: #333;
     text-transform: uppercase;
     font-size: small;
     margin: 10px auto 5px auto;
@@ -1247,7 +1247,7 @@ p {
 
 .team-collaborators-card li a:hover {
     font-size: 25px;
-    color: #ff0066;
+    color: #e60050;
     text-decoration: none;
 }
 
