@@ -917,7 +917,7 @@ p {
 }
 
 .events-card-body .events-card-body-social-media a:hover i {
-    color: #D91C5C;
+    color: #e60050;
     font-size: 20px;
 }
 
@@ -933,7 +933,7 @@ p {
 }
 
 .events-card-body-hastag a:hover {
-    color: #D91C5C;
+    color: #e60050;
     text-transform: uppercase;
 }
 .events-card-body-button {
@@ -1070,7 +1070,7 @@ p {
     margin: 10px 0;
 }
 .speaker-card-skills span {
-    color: #D91C5C;
+    color: #e60050;
     background: #fff;
     border-radius: 5px;
     padding: 5px 8px;
@@ -1105,17 +1105,19 @@ p {
 .speaker-card-labels i {
     color:  #F8B518;
 }
-.speaker-card-social-media h4 {
-    color: #333;
-    text-transform: uppercase;
-    font-size: small;
-    margin: 10px auto 5px auto;
-}
+
 .speaker-card-social-media {
     padding: 0;
     margin: 10px 0;
     color: #cccccc;
     border-top: 1px dotted #ccc;
+}
+
+.speaker-card-social-media h4 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: small;
+    margin: 10px auto 5px auto;
 }
 
 .speaker-card-social-media li {
@@ -1131,7 +1133,7 @@ p {
 }
 
 .speaker-card-social-media li a:hover {
-    color: #D91C5C;
+    color: #e60050;
 }
 
 @media (min-width: 768px) {

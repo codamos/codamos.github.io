@@ -25,8 +25,9 @@
     {{ speaker.bio }}
   </p>
 
-  <ul class="speaker-card-social-media">
-    <h4>Entre em contato</h4>
+  <div class="speaker-card-social-media">
+  <h4>Entre em contato</h4>
+  <ul>
     <li>
     {% if speaker.email %}
       <a href="mailto:{{ speaker.email }}" title="E-mail"
@@ -81,5 +82,6 @@
     {% endif %}
     </li>
   </ul>
+  </div>
 </li>
 {% endfor %}
