@@ -2,6 +2,7 @@
 
 # title:     texto, obrigatório. Nome do evento.
 # free:      booleano (true ou false), opcional. Evento gratuito.
+# inclusive: booleano (true ou false), opcional. Evento inclusivo.
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
@@ -65,6 +66,7 @@
   rsvp_url: "https://www.sympla.com.br/curso-nodejs-63---9-turma__163670"
 
 - title: "Roadsec 2017 | Rio de Janeiro"
+  inclusive: true
   location: "Rio de Janeiro - RJ"
   date: "19/08"
   banner: "roadsec-rj.jpg"
@@ -109,6 +111,7 @@
   rsvp_url: "https://www.sympla.com.br/chatbot4devs__145769"
 
 - title: "Construindo meu primeiro robô seguidor de linha"
+  inclusive: true
   category: Curso
   location: "Fortaleza - CE"
   date: "19/08"
@@ -122,6 +125,7 @@
 
 - title: "Women Techmakers - Grupo de estudos Android"
   free: true
+  inclusive: true
   category: "Curso"
   location:  "Campinas - SP"
   date: "21/08"
@@ -136,6 +140,7 @@
 
 - title: "II semana da diversidade"
   free: true
+  inclusive: true
   category: "Curso"
   location:  "Bragança Paulista - SP"
   date: "21/08"
@@ -167,6 +172,7 @@
 
 - title: "3° Meetup Cloud Girls SP"
   free: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "22/08"
   banner: "cloud-girls.jpeg"
@@ -241,6 +247,7 @@
 
 - title: "Diálogos: Fortalecendo conexões entre mulheres negras"
   free: true
+  inclusive: true
   location:  "Belo Horizonte - MG"
   date: "23/08"
   banner: "conexoes-tw.png"
@@ -275,6 +282,7 @@
   rsvp_url: "https://www.meetup.com/CollabCodeBR/events/242479951/"
 
 - title: "BrazilJS - RS"
+  inclusive: true
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
   banner: "brazil-js.png"
@@ -287,6 +295,7 @@
   rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
 - title: "DjangoGirls"
+  inclusive: true
   location: "Novo Hamburgo - RS"
   date: "25/08 e 26/08"
   banner: "django-girls.png"
@@ -333,6 +342,7 @@
   rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"
 
 - title: "COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
+  inclusive: true
   category: Workshop
   location: "São Paulo - SP"
   date: "26/08"
@@ -378,6 +388,8 @@
 
 - title: "AdaptTALKS: Mulheres na Tecnologia"
   free: true
+  inclusive: true
+  highlight: true
   location: "São Paulo - SP"
   date: "29/08"
   banner: "adapt-talks.png"
@@ -435,10 +447,11 @@
   rsvp_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/#inscrevase"
 
 - title: "BrazilJS - CE"
+  inclusive: true
   location: "Fortaleza - CE"
   date: "01/09 e 02/09"
   banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair-alt]
+  tags: [venus, cc, wheelchair-alt, child]
   hashtag: "BrazilJS"
   twitter: "braziljs"
   facebook: "braziljs"
@@ -448,6 +461,8 @@
 
 - title: "</> JUNTOS NA TI - 3ª EDIÇÃO"
   free: true
+  inclusive: true
+  highlight: true
   location:  "São Paulo - SP"
   date: "02/09"
   banner: "juntos-na-ti.png"
@@ -482,6 +497,7 @@
 - title: "Install Fest - PHP Women RJ"
   location: "Rio de Janeiro - RJ"
   free: true
+  inclusive: true
   cfp: true
   highlight: true
   date: "02/09"
@@ -518,6 +534,7 @@
 
 - title: "Roadsec 2017 | Vitória"
   location: "Vitória - ES"
+  inclusive: true
   date: "02/09"
   banner: "roadsec-es.jpg"
   tags: [sign-language]
@@ -552,6 +569,7 @@
 
 - title: "PyLadies - 2 anos"
   location: "São Paulo - SP"
+  inclusive: true
   date: "07/09"
   banner: "pyladies-2anos.png"
   tags: [venus, cc, wheelchair-alt]
@@ -677,6 +695,7 @@
 
 - title: "6º Fórum Empreendedoras"
   location: "São Paulo - SP"
+  inclusive: true
   date: "16/09"
   banner: "forum-empreendedoras.png"
   tags: [venus, cc, wheelchair-alt]
@@ -689,6 +708,7 @@
 - title: "Front in Vale"
   cfp: true
   highlight: true
+  inclusive: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "front-in-vale.png"
@@ -865,6 +885,20 @@
   main_url: "http://2017.abcdevelopers.org/"
   rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"
 
+- title: "Include Day"
+  free: true
+  highlight: true
+  inclusive: true
+  location: "Campinas - SP"
+  date: "30/09"
+  banner: "include-day.png"
+  tags: [cc, sign-language, universal-access]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
+  facebook: "ciandt"
+  main_url: "http://www.ciandt.com/card/include-day"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScdhcBOjb5cWTbbuoSgbIpKDd31iGBpQ6WoCckpsufNJVzooA/viewform"
+
 - title: "UX Strategy Belo Horizonte"
   category: "Curso"
   location: "Belo Horizonte - MG"
@@ -924,6 +958,7 @@
 
 - title: "Byte Girl 2017"
   location: "Fortaleza - CE"
+  inclusive: true
   date: "14/10"
   banner: "byte-girl-2017.png"
   tags: [venus, cc]
@@ -957,6 +992,7 @@
 
 - title: "WEBBR 2017"
   location: "São Paulo - SP"
+  inclusive: true
   date: "24/10 e 25/10"
   banner: "webbr.png"
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
@@ -1013,6 +1049,7 @@
 
 - title: "Women Dev Summit"
   cfp: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "11/11"
   banner: "wds.png"

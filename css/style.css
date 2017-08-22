@@ -796,6 +796,26 @@ p {
     box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
 }
 
+.events-card-header-inclusive {
+    background: #3366cc;
+    border: 4px solid #40C5F5;
+    position: absolute;
+    font-size: small;
+    top: 96px;
+    color: #FFF;
+    left: 10px;
+    font-weight: 700;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 0px rgba(46, 61, 73, 0.2);
+}
+
 .events-card-header-call4papers {
     background: #FFFF66;
     border: 4px solid #F6A623;
@@ -803,7 +823,7 @@ p {
     font-size: small;
     top: 96px;
     color: #660000;
-    left: 10px;
+    right: 10px;
     font-weight: 700;
     width: auto;
     display: flex;
@@ -821,9 +841,9 @@ p {
     border: 4px solid #cc66ff;
     position: absolute;
     font-size: small;
-    top: 96px;
+    top: 52px;
     color: #fff;
-    left: 10px;
+    right: 10px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -839,7 +859,6 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    background: #fff;
     height: 36px;
 }
 
@@ -855,7 +874,7 @@ p {
     font-size: large;
     top: 10px;
     color: #fff;
-    right: 10px;
+    left: 10px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -863,7 +882,7 @@ p {
     text-transform: uppercase;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 1px 1px 1px 0px rgba(46, 61, 73, 0.5);
 }
 
 .events-card-title {
@@ -875,7 +894,7 @@ p {
     text-transform: uppercase;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 5px 10px;
+    padding: 10px 10px 5px 10px;
     border-top: 1px dotted #cccccc;
     margin: 0;
 }
@@ -883,10 +902,18 @@ p {
 .events-card-body {
     text-align: center;
     padding: 0 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .events-card-body > * {
     margin: 8px 0px;
+}
+
+.events-card-body-content {
+    flex-grow: 2;
+    flex-shrink: 2;
+    margin: 0;
 }
 
 .events-card-body-local p {
@@ -898,14 +925,25 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px auto;
 }
 
 .events-card-body i {
     color: #6d6d6d;
     font-size: medium;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
+/*.events-card-body-footer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}*/
+.events-card-body-social-media {
+    margin: 5px auto;
+}
 .events-card-body .events-card-body-social-media  i {
     color: #cccccc;
     font-size: 20px;
@@ -921,23 +959,39 @@ p {
     font-size: 20px;
 }
 
-.events-card-body-hastag i {
+.events-card-body-no-hashtag {
+    color: #ccc;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: medium;
+    margin: 10px auto;
+}
+
+.events-card-body-no-hashtag i {
+    color: #ccc;
+}
+
+.events-card-body-hashtag {
+    margin: 10px auto;
+}
+
+.events-card-body-hashtag i {
     color: #3366cc;
 }
 
-.events-card-body-hastag a {
+.events-card-body-hashtag a {
     color: #3366cc;
     text-transform: uppercase;
     text-decoration: none;
     font-size: medium;
 }
 
-.events-card-body-hastag a:hover {
+.events-card-body-hashtag a:hover {
     color: #e60050;
     text-transform: uppercase;
 }
 .events-card-body-button {
-
+    flex-grow: 1;
 }
 .events-cards-load-more {
     padding-bottom: calc(1.5em + 48px);
