@@ -421,3 +421,125 @@
   facebook: "railsgirls.sp"
   main_url: "http://railsgirls.com/saopaulo.html"
   rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
+
+- title: "MEAN Stack em Módulos"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "18/08 a 19/08"
+  banner: "mean-stack-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/stack-mean/"
+  rsvp_url: "https://www.sympla.com.br/curso-mean-stack-em-modulos__168267"
+
+- title: "Curso NodeJS 6.3"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "18/08 a 19/08"
+  banner: "nodejs-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-de-nodejs/"
+  rsvp_url: "https://www.sympla.com.br/curso-nodejs-63---9-turma__163670"
+
+- title: "Roadsec 2017 | Rio de Janeiro"
+  inclusive: true
+  location: "Rio de Janeiro - RJ"
+  date: "19/08"
+  banner: "roadsec-rj.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-rio-de-janeiro-registration-30529943884"
+
+- title: "Café com Marialab"
+  free: true
+  location: "São Paulo - SP"
+  date: "19/08"
+  banner: "maria.png"
+  tags: [venus, cc]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  main_url: "https://marialab.org/"
+  rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
+
+- title: "6º Encontro - ReactJS Florianópolis"
+  free: true
+  location: "Florianópolis - SC"
+  date: "19/08"
+  banner: "react-cw-5.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-Floripa/events/242395044/"
+
+- title: "Chatbot4Devs"
+  location: "Belo Horizonte - MG"
+  date: "19/08"
+  banner: "chatbot-4devs.jpg"
+  twitter: "takenet"
+  facebook: "take.net"
+  main_url: "http://chatbot4devs.take.net"
+  rsvp_url: "https://www.sympla.com.br/chatbot4devs__145769"
+
+- title: "Construindo meu primeiro robô seguidor de linha"
+  inclusive: true
+  category: Curso
+  location: "Fortaleza - CE"
+  date: "19/08"
+  banner: "byte-girl-robo.png"
+  tags: [venus, cc]
+  hashtag: "bg17"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+  rsvp_url: "https://www.sympla.com.br/construindo-meu-primeiro-robo-seguidor-de-linha__168847"
+
+- title: "Women Techmakers - Grupo de estudos Android"
+  free: true
+  inclusive: true
+  category: "Curso"
+  location:  "Campinas - SP"
+  date: "21/08"
+  banner: "women-techmakers.png"
+  tags: [venus, cc]
+  twitter: "gdgcampinas"
+  facebook: "gdgcampinas"
+  meetup: "gdgcampinas"
+  linkedin: "company-beta/15240699"
+  main_url: "https://www.meetup.com/pt-BR/gdgcampinas/"
+  rsvp_url: "https://www.meetup.com/pt-BR/gdgcampinas/events/242471577/"
+
+- title: "{Reprograma} - Turma 4"
+  category: Curso
+  location: "São Paulo - SP"
+  date: "até 21/08"
+  banner: "reprograma.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
+
+- title: "II semana da diversidade"
+  free: true
+  inclusive: true
+  category: "Curso"
+  location:  "Bragança Paulista - SP"
+  date: "21/08"
+  banner: "semana-diversidade.png"
+  tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
+  facebook: "semanadadiversidadeifspbra"
+  main_url: "http://bra.ifsp.edu.br/diversidade/"
+  rsvp_url: "http://bra.ifsp.edu.br/diversidade/"
+
+- title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
+  location: "Bambuí - MG"
+  date: "21/08 a 25/08"
+  banner: "setec.JPG"
+  main_url: "http://computacaoifmg.com.br/"
+  rsvp_url: "http://computacaoifmg.com.br/Inscricao.html"
