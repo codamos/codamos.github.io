@@ -140,6 +140,29 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/hackeando-seu-eletrodomestico-usando-arduino-tickets-36122540491"
 
+- title: "NerdZão - Trilha Nerdgirlz"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/Nerdzao/events/242633607/"
+
+- title: "7 Masters - Firebase"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "7masters.png"
+  hashtag: "7Masters"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  linkedin: "company/imasters"
+  main_url: "https://setemasters.imasters.com.br/"
+  rsvp_url: "https://setemasters.imasters.com.br/edicoes/firebase/"
+
 - title: "AdaptTALKS: Mulheres na Tecnologia"
   free: true
   inclusive: true
@@ -153,6 +176,17 @@
   facebook: "adaptworks"
   main_url: "http://www.adaptworks.com.br/"
   rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
+
+- title: "NerdZão - Trilha Mobile"
+  free: true
+  location: "São Paulo - SP"
+  date: "30/08"
+  banner: "nerdezao.png"
+  tags: [cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/Nerdzao/events/242632806/"
 
 - title: "React CWB #5"
   free: true
@@ -308,6 +342,17 @@
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
   rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244"
+
+- title: "Iniciação ao Web Scraping - Puxar dados da Internet para quem não programa..."
+  free: true
+  location: "São Paulo - SP"
+  date: "04/09"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242446696/"
 
 - title: "Investimento anjo para startups"
   inclusive: true
@@ -725,6 +770,19 @@
   main_url: "http://www.botsbrasil.com.br/"
   rsvp_url: "https://www.sympla.com.br/bots-brasil-conf__162267"
 
+- title: "Introdução à TypeScript & Features Ts 2.x"
+  fre: true
+  inclusive: true
+  location: "Ao vivo"
+  date: "10/10"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242021187/"
+
 - title: "Interaction South America"
   location: "São Paulo - SP"
   date: "09/10 a 11/10"
@@ -747,6 +805,32 @@
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
 
+- title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
+  fre: true
+  inclusive: true
+  location: "Ao vivo"
+  date: "17/10"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242076708/"
+
+- title: "Usando Microsoft Teams com Bots para produtividade"
+  fre: true
+  inclusive: true
+  location: "Ao vivo"
+  date: "17/10"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242229678/"
+
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -757,17 +841,6 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://eventos.imasters.com.br/intercon"
-
-- title: "UX Team Summit - Mergo e SENAI"
-  location: "São Paulo - SP"
-  date: "28/10"
-  banner: "uxteam2017.png"
-  tags: [cc, wheelchair-alt]
-  hashtag: "UXTeamSummit"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "https://www.uxteamsummit.com.br/"
-  rsvp_url: "https://www.uxteamsummit.com.br/"
 
 - title: "WEBBR 2017"
   location: "São Paulo - SP"
@@ -781,6 +854,28 @@
   youtube: "user/NICbrvideos/videos"
   main_url: "http://conferenciaweb.w3c.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
+
+- title: "Hackathon Ninja 2017"
+  location: "São Paulo - SP"
+  date: "28/10"
+  banner: "get-ninjas.png"
+  tags: [cc]
+  hashtag: "HackathonNinja"
+  twitter: "getninjas"
+  facebook: "GetNinjas"
+  main_url: "https://www.getninjas.com.br/"
+  rsvp_url: "https://www.meetup.com/Hackathon-Ninja-2017/events/242535906/"
+
+- title: "UX Team Summit - Mergo e SENAI"
+  location: "São Paulo - SP"
+  date: "28/10"
+  banner: "uxteam2017.png"
+  tags: [cc, wheelchair-alt]
+  hashtag: "UXTeamSummit"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "https://www.uxteamsummit.com.br/"
+  rsvp_url: "https://www.uxteamsummit.com.br/"
 
 - title: "CIDI 2017"
   location: "Natal - RN"
