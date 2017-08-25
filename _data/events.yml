@@ -35,131 +35,6 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "DevTalk #2 - Comunidade e Cultura Open Source"
-  free: true
-  inclusive: true
-  location: "São Paulo - SP"
-  date: "22/08"
-  banner: "devtalk2.jpg"
-  tags: [venus]
-  twitter: "Desprograme"
-  facebook: "desprograme123"
-  instagram: "desprograme123"
-  meetup: "Desprograme123"
-  main_url: "http://desprograme.com.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Desprograme123/events/242372525/"
-
-- title: "3° Meetup Cloud Girls SP"
-  free: true
-  inclusive: true
-  location: "São Paulo - SP"
-  date: "22/08"
-  banner: "cloud-girls.jpeg"
-  tags: [venus]
-  meetup: "Cloud-Girls-Sao-Paulo"
-  main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/events/241324092/"
-
-- title: "Prototipação em UX"
-  location: "São Paulo - SP"
-  date: "23/08"
-  banner: "prototipacao-ux.png"
-  hashtag: "coletividad"
-  twitter: "coletividad"
-  facebook: "COLETIVIDAD"
-  instagram: "coletividad"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/prototipacao-em-ux-registration-36444265780"
-
-- title: "Mini curso de Angular 4"
-  free: true
-  category: "Curso"
-  location:  "São Paulo - SP"
-  date: "23/08"
-  banner: "meetup.JPG"
-  facebook: "developerssp"
-  meetup: "Developers-SP"
-  main_url: "https://www.meetup.com/pt-BR/Developers-SP/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Developers-SP/events/242400515/"
-
-- title: "Java @ Rio #2 - Machine Learning & Ser um Java Ninja"
-  free: true
-  location: "Rio de Janeiro - RJ"
-  date: "23/08"
-  banner: "java-rio.jpeg"
-  meetup: "Java-at-Rio"
-  main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812107/"
-
-- title: "Android Dev Conference - Imasters"
-  location: "São Paulo - SP"
-  date: "23/08 a 25/08"
-  banner: "android-dev-conf.png"
-  hashtag: "androiddevconf"
-  twitter: "AndroidDevBrOrg"
-  facebook: "PortaliMasters"
-  main_url: "https://eventos.imasters.com.br/android-devconference"
-  rsvp_url: "https://eventos.imasters.com.br/android-devconference"
-
-- title: "Crie a landing page da sua startup... em 2 horas!"
-  free: true
-  location: "São Paulo - SP"
-  date: "24/08"
-  banner: "le-wagon.png"
-  hashtag: "lewagonBR"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242226755/"
-
-- title: "Desenvolvimento de Progressive Web Apps (PWA)"
-  free: true
-  category: "Curso"
-  location:  "São Paulo - SP"
-  date: "23/08"
-  banner: "pwa-netcoders.jpeg"
-  facebook: "groups/netcoders"
-  linkedin: "grp/home?gid=4357976"
-  meetup: "NetCoders"
-  main_url: "http://netcoders.com.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/242380815/"
-
-- title: "Diálogos: Fortalecendo conexões entre mulheres negras"
-  free: true
-  inclusive: true
-  location:  "Belo Horizonte - MG"
-  date: "23/08"
-  banner: "conexoes-tw.png"
-  tags: [venus, cc, universal-access]
-  hashtag: "thoughtworksbr"
-  facebook: "ThoughtWorksBR"
-  twitter: "thoughtworksbr"
-  main_url: "https://www.thoughtworks.com/pt"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSelMlG1QhVHuH0VgI47aLUD3ClYBtEtHUzo8jpXL-SjESyC6w/viewform"
-
-- title: "Virada sustentável na BRAIN"
-  free: true
-  location:  "São Paulo - SP"
-  date: "24/08 a 26/08"
-  banner: "brain.png"
-  facebook: "Brain.b4igroup"
-  linkedin: "company-beta/15081533/"
-  instagram: "brain__club"
-  main_url: "http://brain.club/"
-  rsvp_url: "https://www.sympla.com.br/vire-sua-empresa--virada-sustentavel-na-brain__171494"
-
-- title: "#00 - PWA"
-  free: true
-  location:  "São Paulo - SP"
-  date: "24/08"
-  banner: "collabcode.png"
-  tags: [venus, cc, wheelchair-alt]
-  hashtag: "Meetup"
-  twitter: "collabcodebr"
-  facebook: "collabcode"
-  main_url: "https://www.meetup.com/CollabCodeBR/"
-  rsvp_url: "https://www.meetup.com/CollabCodeBR/events/242479951/"
-
 - title: "BrazilJS - RS"
   inclusive: true
   location: "Porto Alegre - RS"
@@ -434,6 +309,18 @@
   main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
   rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244"
 
+- title: "Investimento anjo para startups"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "girls-in-tech.png"
+  tags: [venus, cc]
+  hashtag: "Girlsintechbr"
+  twitter: "Girlsintechbr"
+  facebook: "GiTSaoPaulo"
+  main_url: "http://brazil.girlsintech.org/"
+  rsvp_url: "https://www.sympla.com.br/investimento-anjo-para-startups---com-maria-rita-anjos-do-brasil__168915"
+
 - title: "PALESTRA: COMO SEGUIR CARREIRA EM UX?"
   free: true
   location: "São Paulo - SP"
@@ -627,7 +514,7 @@
   free: true
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
-  banner: "protecao-privacidade-cgi.JPG"
+  banner: "protecao-privacidade-cgi.jpg"
   tags: [cc, universal-access]
   hashtag: "SeminárioPrivacidade"
   twitter: "comuNICbr"
@@ -644,6 +531,19 @@
   meetup: "Java-at-Rio"
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
   rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812115/"
+
+- title: "Ela Líder #13"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+  rsvp_url: "https://www.meetup.com/elalider/events/242702192/"
 
 - title: "PHPSP Campinas + PUB"
   free: true
@@ -915,6 +815,7 @@
   rsvp_url: "http://devopsdays.bsb.br/post/registration_open/"
 
 - title: "The Developers Conference - RS"
+  cfp: true
   location: "Porto Alegre - RS"
   date: "8/11 a 11/11"
   banner: "tdc.png"
