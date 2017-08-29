@@ -669,3 +669,145 @@
   main_url: "https://www.meetup.com/CollabCodeBR/"
   rsvp_url: "https://www.meetup.com/CollabCodeBR/events/242479951/"
 
+- title: "BrazilJS - RS"
+  inclusive: true
+  location: "Porto Alegre - RS"
+  date: "25/08 e 26/08"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt, child]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
+
+- title: "DjangoGirls"
+  inclusive: true
+  location: "Novo Hamburgo - RS"
+  date: "25/08 e 26/08"
+  banner: "django-girls.png"
+  tags: [venus, cc]
+  hashtag: "DjangoGirls"
+  twitter: "djangogirls"
+  facebook: "djangogirlsnh"
+  github: "DjangoGirls"
+  main_url: "https://djangogirls.org/novohamburgo/"
+  rsvp_url: "https://djangogirls.org/novohamburgo/"
+
+- title: "Cryptoparty"
+  free: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "crypto-rave.png"
+  tags: [venus, cc]
+  hashtag: "Cryptoparty"
+  twitter: "cryptoravebr"
+  facebook: "cryptorave"
+  main_url: "https://cryptorave.org/"
+  rsvp_url: "https://www.facebook.com/events/107849046551519/"
+
+- title: "Certificações Ethical Hacking Essentials"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "it-certs.png"
+  twitter: "Itcerts_"
+  facebook: "itcerts"
+  linkedin: "company/itcerts"
+  main_url: "http://itcerts.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/2608-curso-preparatorio-gratuito-para-as-certificacoes-ethical-hacking-essentials-computer-registration-36983135554"
+
+- title: "Funcionalidades CSS na prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "maujor-css-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/funcionalidades-css-na-pratica/"
+  rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"
+
+- title: "COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
+  inclusive: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "deevas.png"
+  tags: [venus, cc]
+  hashtag: "MulheresLíderes"
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+  rsvp_url: "https://www.sympla.com.br/lideranca-feminina-como-trabalhar-a-sua-autoconfianca-e-conquistar-o-mundo__174362"
+
+- title: "Curso Introdução ao MongoDB"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "mongo-db-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-dados-banco-de-dados/curso-introducao-mongodb/"
+  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-mongodb---6-turma__163674"
+
+- title: "Nodebots Day Salvador"
+  free: true
+  location: "Salvador - BA"
+  date: "27/08"
+  banner: "nodebots-day.png"
+  tags: [venus, cc]
+  twitter: "pyladiessa"
+  facebook: "PyLadiesSalvador"
+  main_url: "https://pyladiessalvador.github.io/"
+  rsvp_url: "https://www.meetup.com/Pyladies-SSA/events/240892993/"
+
+- title: "Hackeando seu eletrodoméstico usando Arduino"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "hackeando-eletrodomestico.png"
+  tags: [venus, cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-seu-eletrodomestico-usando-arduino-tickets-36122540491"
+
+- title: "NerdZão - Trilha Nerdgirlz"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/Nerdzao/events/242633607/"
+
+- title: "7 Masters - Firebase"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "7masters.png"
+  hashtag: "7Masters"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  linkedin: "company/imasters"
+  main_url: "https://setemasters.imasters.com.br/"
+  rsvp_url: "https://setemasters.imasters.com.br/edicoes/firebase/"
+
+- title: "AdaptTALKS: Mulheres na Tecnologia"
+  free: true
+  inclusive: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "adapt-talks.png"
+  tags: [venus, cc]
+  hashtag: "adaptTALKS"
+  twitter: "adaptworks"
+  facebook: "adaptworks"
+  main_url: "http://www.adaptworks.com.br/"
+  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
+

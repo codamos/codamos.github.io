@@ -418,6 +418,7 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.5);
+    text-transform: uppercase;
 }
 
 .page-section-subtitle {
@@ -679,14 +680,21 @@ p {
     background-color: rgba(74, 144, 266, 0.9);
     background-blend-mode: multiply;
 }
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
 .banner-index {
     background-image: url("../images/bg-banner001.jpg");
 }
 .banner-eventos {
-    background-image: url("../images/bg-banner006.jpg");
+    background-image: url("../images/bg-banner008.jpg");
 }
 .banner-palestrantes {
-    background-image: url("../images/bg-banner007.jpg");
+    background-image: url("../images/bg-banner009.jpg");
 }
 .banner-quem-somos {
     background-image: url("../images/bg-banner004.jpg");
