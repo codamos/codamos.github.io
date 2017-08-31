@@ -35,28 +35,6 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "NerdZão - Trilha Mobile"
-  free: true
-  location: "São Paulo - SP"
-  date: "30/08"
-  banner: "nerdezao.png"
-  tags: [cc]
-  twitter: "ONerdzao"
-  facebook: "nerdzao"
-  main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/Nerdzao/events/242632806/"
-
-- title: "React CWB #5"
-  free: true
-  location: "Curitiba - PR"
-  date: "30/08"
-  banner: "react-cw-5.png"
-  hashtag: "ReactConfBr"
-  twitter: "reactconfbr"
-  facebook: "reactconf"
-  main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
-
 # SETEMBRO
 
 - title: "Introdução ao AngularJS 1.6"
