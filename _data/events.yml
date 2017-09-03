@@ -35,28 +35,6 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "NerdZão - Trilha Mobile"
-  free: true
-  location: "São Paulo - SP"
-  date: "30/08"
-  banner: "nerdezao.png"
-  tags: [cc]
-  twitter: "ONerdzao"
-  facebook: "nerdzao"
-  main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/Nerdzao/events/242632806/"
-
-- title: "React CWB #5"
-  free: true
-  location: "Curitiba - PR"
-  date: "30/08"
-  banner: "react-cw-5.png"
-  hashtag: "ReactConfBr"
-  twitter: "reactconfbr"
-  facebook: "reactconf"
-  main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
-
 # SETEMBRO
 
 - title: "Introdução ao AngularJS 1.6"
@@ -130,6 +108,13 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/lab-de-gamificacao-tickets-36372310560"
 
+- title: "SQL Day Bahia"
+  location: "Salvador - BA"
+  date: "02/09"
+  banner: "sql-bahia.jpg"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.sympla.com.br/sql-day-bahia-2__158128"  
+
 - title: "Mercado Livre experience"
   location: "São Paulo - SP"
   date: "02/09"
@@ -201,6 +186,24 @@
   main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
   rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244"
 
+- title: "UX DAY: User Experience na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "ux-day.jpg"
+  facebook: "labreset"
+  main_url: "http://reset-lab.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ux-day-user-experience-na-pratica-tickets-34016904477" 
+
+- title: "SCRUM na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "scrum.jpg"
+  facebook: "DotNetCoders"
+  main_url: "https://www.facebook.com/DotNetCoders"
+  rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/241195246/"    
+
 - title: "Iniciação ao Web Scraping - Puxar dados da Internet para quem não programa..."
   free: true
   location: "São Paulo - SP"
@@ -235,6 +238,18 @@
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__178973"
+
+- title: "AngularSP Dojo #1 na Lambda3"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "angular-dojo.jpg"
+  tags: [ticket]
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://www.meetup.com/pt-BR/AngularJS-Sao-Paulo/events/242769329/?"
 
 - title: "PyLadies - 2 anos"
   location: "São Paulo - SP"
@@ -279,6 +294,25 @@
   main_url: "http://pythonsul.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
 
+- title: "IBMHosts: Etapa SP da Maratona de Programação"
+  location: "São Paulo - SP"
+  date: "09/09"
+  banner: "ibm-host.jpg"
+  facebook: "BlueHack-Community-Brasil"
+  main_url: "http://maratona.ime.usp.br/sedes17.html"
+  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"  
+
+- title: "Inteligência artificial: aplicação e novas experiências"
+  category: "Curso"
+  location: "Online"
+  date: "13/09 a 16/10"
+  banner: "ai-itsrio.JPG"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
+
 - title: "Agile Brazil"
   location: "Belém - PA"
   date: "13/09 a 15/09"
@@ -315,6 +349,7 @@
 
 - title: "Mergulhando em Rust @TW Belo Horizonte"
   free: true
+  category: "Curso"
   location: "Belo Horizonte - MG"
   date: "16/09"
   banner: "mozilla-rust-bh.png"
@@ -336,7 +371,7 @@
   facebook: "marialab.org"
   meetup:  "marialab"
   main_url: "https://marialab.org/"
-  rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/?eventId=240366543"
+  rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/"
 
 - title: "CSSday"
   highlight: true
@@ -399,6 +434,22 @@
   main_url: "http://codeinthedark.frontinvale.com.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScHuE4X-XL5Lltg_QUI_qooW76klZbU93zj5n2YmMoIR3SlrQ/viewform"
 
+- title: "Curso Arduino I - Conhecendo a plataforma"
+  category: "Curso"
+  location: "Salvador - BA"
+  date: "16/09"
+  banner: "curso-arduino-ba.jpg"
+  facebook: "fsagdg"
+  main_url: "https://developers.google.com/groups/chapter/101301229214170008465/"
+  rsvp_url: "https://www.sympla.com.br/curso-arduino-i-conhecendo-a-plataforma__166824" 
+
+- title: "Codelab: HTML e CSS"
+  location: "Feira de Santana - BA"
+  date: "16/09"
+  banner: "codelab.jpg"
+  main_url: "https://www.facebook.com/events/1904361406485528/"
+  rsvp_url: "https://www.sympla.com.br/codelab-html-e-css__179881"    
+
 - title: "Impactos da exposição de crianças e adolescentes na Internet"
   free: true
   category: Workshop
@@ -415,6 +466,7 @@
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
+  category: Seminário
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
   banner: "protecao-privacidade-cgi.jpg"
@@ -447,6 +499,17 @@
   facebook: "elaliderfeminina"
   main_url: "https://elalider.com/"
   rsvp_url: "https://www.meetup.com/elalider/events/242702192/"
+
+- title: "Introdução a Git e GitHub"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "20/09"
+  banner: "git-itsrio.jpg"
+  tags: [ticket]
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937245/?"  
 
 - title: "PHPSP Campinas + PUB"
   free: true
@@ -504,6 +567,16 @@
   main_url: "https://devfest.gdgmaceio.org/"
   rsvp_url: "https://www.sympla.com.br/devfest-maceio-2017__158502"
 
+- title: "NerdGirlz #1 - Minicurso de MongoDB"
+  location: "São Paulo - SP"
+  category: "Curso"
+  date: "23/09"
+  banner: "nerdgilz.jpg"
+  tags: [venus, ticket]
+  facebook: "nerdzao"
+  main_url: "https://devfest.gdgmaceio.org/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"  
+
 - title: "UX Weekend São Paulo"
   category: "Curso"
   location: "São Paulo - SP"
@@ -515,6 +588,15 @@
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
+
+- title: "Customer Experience Summit 2017"
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "cx-summit.jpg"
+  tags: [wheelchair-alt, universal-access]
+  facebook: "CXSummit"
+  main_url: "https://cxsummit.com.br/"
+  rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062?d=cxnow"  
 
 - title: "The Conf"
   location: "São Paulo - SP"
@@ -628,8 +710,17 @@
   main_url: "http://www.botsbrasil.com.br/"
   rsvp_url: "https://www.sympla.com.br/bots-brasil-conf__162267"
 
+- title: "HackBahia - 2017"
+  location: "Salvador -BA"
+  date: "07/10"
+  banner: "hack-bahia.jpg"
+  twitter: "hackbahia"
+  facebook: "hackbahia"
+  main_url: "https://hackbahia.github.io/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hackbahia-2017-tickets-34769728193"  
+
 - title: "Introdução à TypeScript & Features Ts 2.x"
-  fre: true
+  free: true
   inclusive: true
   location: "Ao vivo"
   date: "10/10"
@@ -640,6 +731,15 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/242021187/"
+
+- title: "Colloquium 2017 - Inteligência Artificial • IBM Research|Brasil"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  banner: "colloquium-ai.jpg"
+  tags: [ticket]
+  main_url: "http://www.brlcolloquium.com.br/"
+  rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
 
 - title: "Interaction South America"
   location: "São Paulo - SP"
@@ -689,6 +789,17 @@
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/242229678/"
 
+- title: "Introdução a Ruby"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "18/10"
+  banner: "git-itsrio.jpg"
+  tags: [ticket]
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937378/?"
+
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -699,6 +810,25 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "DevFest Nordeste 2017"
+  location: "Salvador - BA"
+  date: "21/10"
+  banner: "devfest-nordest.png"
+  hashtag: "dfne2k17"
+  twitter: "DevfestNE"
+  facebook: "devfestne"
+  main_url: "https://devfestne.com.br/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"  
+
+- title: "FRJ#1 Festival de Robótica de Joinville"
+  location: "Joinville - SC"
+  date: "24/10 e 25/10"
+  banner: "festival-robotica.jpg"
+  tags: [ticket]
+  facebook: "festivalroboticajoinville"
+  main_url: "https://eventos.imasters.com.br/intercon"
+  rsvp_url: "https://www.facebook.com/events/113565649365696/?active_tab=about"  
 
 - title: "WEBBR 2017"
   location: "São Paulo - SP"
@@ -735,6 +865,15 @@
   main_url: "https://www.uxteamsummit.com.br/"
   rsvp_url: "https://www.uxteamsummit.com.br/"
 
+- title: "XI Brazilian Meeting on Cognitive Science"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "28/10"
+  banner: "intro-datascience.jpg"
+  facebook: "datamastersbr"
+  main_url: "http://www.datamasters.com.br"
+  rsvp_url: "http://www.datamasters.com.br/cursos/" 
+
 - title: "CIDI 2017"
   location: "Natal - RN"
   date: "29/10 a 01/11"
@@ -743,6 +882,17 @@
   facebook: "CIDI2017"
   main_url: "http://sbdi.org.br/cidi2017/index.html"
   rsvp_url: "http://sbdi.org.br/cidi2017/inscricao.html"
+
+- title: "Introdução ao Data Science"
+  location: "São Paulo - SP"
+  date: "30/10"
+  banner: "ebicc.png"
+  tags: [cc, wheelchair-alt]
+  twitter: "ebicc2017"
+  facebook: "ebicc2017"
+  main_url: "http://ebicc.sbcc.org.br/"
+  rsvp_url: "http://ebicc.sbcc.org.br/#registration"  
+
 
 # NOVEMBRO
 
@@ -792,6 +942,15 @@
   main_url: "http://womendevsummit.com/"
   rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
+- title: "2° Encontro de Software livre"
+  location: "Salvador - BA"
+  date: "11/11"
+  banner: "encontro-sf.jpg"
+  tags: [ticket]
+  facebook: "inoveacaolivre"
+  main_url: "inoveacaolivre.github.io/2016"
+  rsvp_url: "https://www.facebook.com/events/121483665162404/?"  
+
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
   date: "17/11 a 19/11"
@@ -812,6 +971,15 @@
   facebook: "locaweb"
   main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
+
+- title: "NullByte Security Conference"
+  location: "Salvador - BA"
+  date: "18/11"
+  banner: "null-byte.jpg"
+  twitter: "nullbytecon"
+  facebook: "nullbytecon"
+  main_url: "https://nullbyte-con.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"  
 
 - title: "Mobile Summit Brazil"
   location: "Porto Alegre - RS"
