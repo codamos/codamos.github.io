@@ -477,6 +477,28 @@ p {
     background-color: var(--white-four);
     background-color: #f9f9f9;
 }
+
+.text-box {
+    text-align: left;
+    border: 3px solid #cac8c9;
+    padding: 2ch;
+    }
+
+.text-box h3 {
+      font-weight: bolder;
+}
+
+ .text-box li{
+    /* padding-left: 2ch; */
+    list-style-type: circle;
+} 
+
+ .text-box h4 {
+    font-weight: bold ;
+} 
+.text-italic {
+    font-style: italic;
+}
 @media (max-width: 660px) {
     .page-section {
     text-align: center;
