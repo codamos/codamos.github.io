@@ -421,6 +421,15 @@ p {
     text-transform: uppercase;
 }
 
+.page-section-title {
+    font-size: var(--title-small);
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.8em 0;
+}
+
 .page-section-subtitle {
     font-weight: 300;
     font-size: x-large;
@@ -1347,62 +1356,36 @@ p {
 
 
 /*CÓDIGO DE CONDUTA*/
-.page-section-title.cdc-title {
-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-color: #3366cc;
-}
-
-.text-box.left {
-    text-align: left;
-}
-
-.text-box.left a {
-    color: #ff0066;
-    cursor: pointer;
-    font-weight: bolder;
-}
-
-.text-box.left a:hover { 
-    background: #ff0066;
-    color: #ffffff;
-}
-
-.text-box.left h2 {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+.coc-section .page-section-title {
     color: #3366cc;
-    font-weight: bolder;
-    font-size: x-large;
 }
 
-.text-box.left h3 {
-    font-weight: bold;
-}
-
-.text-box.left ul {
+.coc-section .page-section-text {
     text-align: left;
+}
+
+.coc-section ul {
+    list-style: none;
     margin-left: 3rem;
-} 
+}
 
-.text-box.left li{
-    list-style: disc;
+.coc-section li::before {
+    content: "•";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
     color: #ff0066;
 }
-.page-section-text.center{
-    text-align: center;
-}
-li span {
-    color: #666666;
-}
 
-.page-section-text.featured {
+.coc-section-download {
     text-transform: uppercase;
-    line-height: 3;
- }
-
-.page-section-text.featured a {
-    cursor: pointer;
+    font-weight: bolder;
     color: #3366cc;
-} 
+}
+
+.coc-section-license {
+    margin: 4em 0;
+}
 
 /* ---------------------------- */
 
