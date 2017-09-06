@@ -27,7 +27,7 @@ layout: default
     Nosso objetivo é promover <a href="/eventos">eventos</a> com esse foco.
   </p>
 
-  <p class="page-section-text">
+  <p class="page-section-subtitle pink">
     Essa é a razão pela qual criamos o Codamos.
   </p>
 
@@ -45,7 +45,7 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-subtitle">Eventos em destaque</h1>
+  <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.data.events | where:"highlight",true %}
@@ -58,7 +58,7 @@ layout: default
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}

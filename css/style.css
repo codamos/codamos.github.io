@@ -294,6 +294,7 @@ p {
     border: 4px solid #e60050;
     padding: 14px 44px;
     border-radius: 14px;
+    margin-top: 4em;
 }
 
 .button-primary-outline:active, .button-primary-outline:hover {
@@ -424,7 +425,6 @@ p {
 .page-section-title {
     font-size: var(--title-large);
     font-size: 2.5em;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 1.8em 0 1.0em 0;
     color: #3366cc;
 }
@@ -436,11 +436,11 @@ p {
 }
 
 .page-section-subtitle-alt {
-    font-weight: 400;
-    font-size: large;
-    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.0em;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 1.5em 0;
-    color: #222222;
+    color: #666666;
 }
 
 .page-section-text {
@@ -735,10 +735,6 @@ p {
 #events-top {
     position: relative;
     padding: 4em 2% 0 2%;
-}
-
-.events-section .button-primary-outline {
-    margin-top: 4em;
 }
 
 .events-cards {
@@ -1061,10 +1057,6 @@ p {
 #speakers {
     width: 100%;
     margin: 0 auto;
-}
-
-#speakers .button-primary-outline {
-     margin-top: 4em;
 }
 
 .speakers-section-label {
@@ -1390,6 +1382,7 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
+    margin-top: 4em;
 }
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
@@ -1578,6 +1571,7 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
+    margin-top: 4em;
 }
 
 .include-speaker-title {
@@ -1623,6 +1617,7 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
+    margin-top: 4em;
 }
 
 .include-event-title {
