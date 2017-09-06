@@ -15,8 +15,8 @@ layout: default
 </section>
 
 <!-- EVENTOS -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">Sobre os eventos</h1>
+<section class="page-section">
+  <h1 class="page-section-title">Sobre os eventos</h1>
 
   <p class="page-section-text">
     O Codamos está comprometido a dar destaque a eventos que prezem pela inclusão, diversidade e
@@ -33,22 +33,22 @@ layout: default
   </ul>
 </section>
 
-{% include add_event.html %}
-
 <!-- EVENTOS -->
-<section class="page-section events-section">
+<section class="page-section">
   <h1 class="page-section-subtitle">O que vem pela frente</h1>
 
-  <ul class="events-cards events-cards-load-more">
+  <ul class="events-cards">
     {% include events.html events=site.data.events %}
   </ul>
 </section>
 
+{% include add_event.html %}
+
 <!-- EVENTOS PASSADOS -->
-<section class="page-section events-section">
+<section class="page-section">
   <h1 class="page-section-subtitle">O que já aconteceu</h1>
 
-  <ul class="events-cards events-cards-load-more events-cards-past">
+  <ul class="events-cards events-cards-past">
     {% include events.html events=site.data.past_events %}
   </ul>
 </section>

@@ -77,7 +77,7 @@ p {
     --dusty-lavender: #cac8c9;
     --green: #d7df23;
     --grey: #434343;
-    --pink: #ba205a;
+    --pink: #e60050;
     --maize: #f3c259;
     --ocher: #c2a20c;
     --pea: #cbad22;
@@ -130,7 +130,7 @@ p {
 }
 
 .pink {
-    color: #d91c5c;
+    color: #e60050;
     color: var(--pink);
 }
 
@@ -422,17 +422,25 @@ p {
 }
 
 .page-section-title {
-    font-size: var(--title-small);
-    font-size: 32px;
+    font-size: var(--title-large);
+    font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    margin: 1.8em 0 1.2em 0;
+    margin: 1.8em 0 1.0em 0;
+    color: #3366cc;
 }
 
 .page-section-subtitle {
     font-weight: 300;
     font-size: x-large;
     margin: 1.5em 0;
+}
+
+.page-section-subtitle-alt {
+    font-weight: 400;
+    font-size: large;
+    text-transform: uppercase;
+    margin: 1.5em 0;
+    color: #222222;
 }
 
 .page-section-text {
@@ -717,10 +725,6 @@ p {
 }
 
 /*EVENTOS*/
-.events-section {
-    position: relative;
-    padding: 4em 10px;
-}
 
 .events-section-label {
     color: #fff;
@@ -1055,7 +1059,6 @@ p {
 
 /*PALESTRANTES*/
 #speakers {
-    padding: 4em 10px;
     width: 100%;
     margin: 0 auto;
 }
@@ -1387,7 +1390,6 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    margin-bottom: 4em;
 }
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
