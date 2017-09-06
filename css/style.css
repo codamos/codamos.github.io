@@ -400,7 +400,7 @@ p {
     color: #e60050;
     text-decoration: none;
     cursor: pointer;
-    -webkit-box-shadow: inset 0 -1px 0 #e60050;
+    -webkit-box-shadow: inset 0 -2px 0 #e60050;
 }
 
 .page-section p a:hover {
@@ -425,22 +425,14 @@ p {
     font-size: var(--title-small);
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
     text-transform: uppercase;
-    margin: 1.8em 0;
+    margin: 1.8em 0 1.2em 0;
 }
 
 .page-section-subtitle {
     font-weight: 300;
     font-size: x-large;
-}
-
-.page-banner-title {
-    margin-bottom: .5em;
-}
-
-.page-section-subtitle {
-    margin-bottom: 1.8em;
+    margin: 1.5em 0;
 }
 
 .page-section-text {
@@ -448,8 +440,8 @@ p {
     font-size: var(--text-medium);
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.3;
-    margin-bottom: 2em;
+    line-height: 1.5;
+    margin: 1.8em 0;
 }
 
 .page-section-white {
@@ -1382,6 +1374,7 @@ p {
 
 .coc-section-download {
     text-transform: uppercase;
+    font-size: larger;
     font-weight: bolder;
     color: #3366cc;
 }
@@ -1390,8 +1383,26 @@ p {
     margin: 4em 0;
 }
 
-/* ---------------------------- */
-
+#code-of-conduct {
+    text-align: center;
+    width: 100%;
+    padding: 5em 1em;
+    margin-bottom: 4em;
+}
+.code-of-conduct-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: .5em;
+}
+.code-of-conduct-call {
+    padding-bottom: 2em;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
 @media (max-width: 660px) {
     #code-of-conduct h2 {
         font-size: xx-large;
