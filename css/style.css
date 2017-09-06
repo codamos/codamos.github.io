@@ -421,6 +421,15 @@ p {
     text-transform: uppercase;
 }
 
+.page-section-title {
+    font-size: var(--title-small);
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.8em 0;
+}
+
 .page-section-subtitle {
     font-weight: 300;
     font-size: x-large;
@@ -1347,28 +1356,38 @@ p {
 
 
 /*CÓDIGO DE CONDUTA*/
-
-#code-of-conduct {
-    padding: 5em 1em;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 4em;
-}
-#code-of-conduct p {
-    padding-bottom: 2em;
-}
-#code-of-conduct h2 {
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    padding-bottom: .5em;
-    font-family: 'Roboto', Sans-Serif;
+.coc-section .page-section-title {
+    color: #3366cc;
 }
 
-#code-of-conduct a {
-    text-decoration: none;
-    color: #ffffff;
+.coc-section .page-section-text {
+    text-align: left;
 }
+
+.coc-section ul {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.coc-section li::before {
+    content: "•";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: #ff0066;
+}
+
+.coc-section-download {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #3366cc;
+}
+
+.coc-section-license {
+    margin: 4em 0;
+}
+
+/* ---------------------------- */
 
 @media (max-width: 660px) {
     #code-of-conduct h2 {
