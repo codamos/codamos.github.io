@@ -412,7 +412,7 @@ p {
     box-shadow: inset 20px 20px 20px 20px #e60050;
 }
 
-.page-section-title {
+.page-banner-title {
     font-size: var(--title-small);
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
@@ -426,7 +426,7 @@ p {
     font-size: x-large;
 }
 
-.page-section-title {
+.page-banner-title {
     margin-bottom: .5em;
 }
 
@@ -490,7 +490,7 @@ p {
     width: 80%;
     margin: 0 auto;
     }
-    .page-section-title {
+    .page-banner-title {
         font-size: var(--title-medium);
         font-size: 40px;
     }
@@ -512,7 +512,7 @@ p {
     width: 70%;
     margin: 0 auto;
     }
-    .page-section-title {
+    .page-banner-title {
         font-size: var(--title-large);
         font-size: 48px;
     }
