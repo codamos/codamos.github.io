@@ -26,7 +26,7 @@
   free: true
   category: Curso
   location: "São Paulo - SP"
-  date: "08/2017"
+  date: "09/2017"
   banner: "fab-lab-livre.png"
   tags: [venus, cc, universal-access]
   youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
@@ -38,302 +38,16 @@
 - title: "Programa de Estágio Escape Tech"
   free: true
   location: "São Paulo - SP"
-  date: "15/08 a 18/09"
+  date: "até 18/09"
   banner: "estagio-escape-tech.png"
+  tags: [venus]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
   facebook: "ciandt"
   main_url: "http://www.ciandt.com/home"
   rsvp_url: "https://estagio.ciandt.com/"
 
-- title: "NerdZão - Trilha Mobile"
-  free: true
-  location: "São Paulo - SP"
-  date: "30/08"
-  banner: "nerdezao.png"
-  tags: [cc]
-  twitter: "ONerdzao"
-  facebook: "nerdzao"
-  main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/Nerdzao/events/242632806/"
-
-- title: "React CWB #5"
-  free: true
-  location: "Curitiba - PR"
-  date: "30/08"
-  banner: "react-cw-5.png"
-  hashtag: "ReactConfBr"
-  twitter: "reactconfbr"
-  facebook: "reactconf"
-  main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
-
 # SETEMBRO
-
-- title: "Introdução ao AngularJS 1.6"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "01/09 a 02/09"
-  banner: "angularjs-novatec.png"
-  facebook: "ctnovatec"
-  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
-  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-angularjs-16----1-turma__168135"
-
-- title: "Dev Xperience"
-  location: "São Paulo - SP"
-  cfp: true
-  date: "01/09 e 02/09"
-  banner: "dev-xperience.png"
-  hashtag: "devxbr2017"
-  twitter: "DevXperienceBR"
-  facebook: "devxperience"
-  instagram: "devxperience"
-  main_url: "https://www.devxperience.com.br/"
-  rsvp_url: "https://www.devxperience.com.br/inscreva-se"
-
-- title: "PHP Community Summit by Locaweb"
-  highlight: true
-  location: "São Paulo - SP"
-  date: "01/09 e 02/09"
-  banner: "phpsm-lw.png"
-  tags: [venus, cc]
-  hashtag: "PHPcsLW"
-  twitter: "phpsp"
-  facebook: "sao.paulo.elephants"
-  main_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/"
-  rsvp_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/#inscrevase"
-
-- title: "BrazilJS - CE"
-  inclusive: true
-  location: "Fortaleza - CE"
-  date: "01/09 e 02/09"
-  banner: "brazil-js.png"
-  tags: [venus, cc, wheelchair-alt, child]
-  hashtag: "BrazilJS"
-  twitter: "braziljs"
-  facebook: "braziljs"
-  instagram: "brazil.js"
-  main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-fortaleza"
-
-- title: "JSLadies"
-  highlight: true
-  inclusive: true
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "js-ladies.jpeg"
-  tags: [venus,wheelchair-alt, ticket]
-  twitter: "JsladiesSp"
-  facebook: "jsladiesbr"
-  rsvp_url: "https://www.meetup.com/pt-BR/JsLadies-BR/events/242769863/"
-
-- title: "Hackday Technovation & Goldman Sachs"
-  free: true
-  location:  "São Paulo - SP"
-  date: "02/09"
-  banner: "hackaday-goldman.png"
-  tags: [ticket]
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScQg31cxahOKtH4_xYjXQ4cwxnaFlgtTyL4eSRL21ImYA5RvA/viewform"
-
-- title: "</> JUNTOS NA TI - 3ª EDIÇÃO"
-  free: true
-  inclusive: true
-  highlight: true
-  location:  "São Paulo - SP"
-  date: "02/09"
-  banner: "juntos-na-ti.png"
-  tags: [cc, universal-access]
-  hashtag: "JuntosnaTI"
-  facebook: "JuntosnaTI"
-  twitter: "thoughtworksbr"
-  main_url: "https://www.thoughtworks.com/pt"
-  rsvp_url: "https://docs.google.com/forms/d/1nEpljF6APDziX1-PIvCgnelHfRUPC9disIhKC7kSY54/closedform"
-
-- title: "Lab de Gamificação"
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "lab-gameficacao.png"
-  hashtag: "coletividad"
-  twitter: "coletividad"
-  facebook: "COLETIVIDAD"
-  instagram: "coletividad"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/lab-de-gamificacao-tickets-36372310560"
-
-- title: "SQL Day Bahia"
-  location: "Salvador - BA"
-  date: "02/09"
-  banner: "sql-bahia.jpg"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.sympla.com.br/sql-day-bahia-2__158128"
-
-- title: "Mercado Livre experience"
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "mercado-livre.png"
-  hashtag: "MLXP2017"
-  twitter: "MercadoLivre"
-  facebook: "MercadoLivreExperience"
-  main_url: "http://www.mercadolivreexperience.com.br/programacao"
-  rsvp_url: "http://www.mercadolivreexperience.com.br/programacao/#inscrevase"
-
-- title: "Install Fest - PHP Women RJ"
-  location: "Rio de Janeiro - RJ"
-  free: true
-  inclusive: true
-  cfp: true
-  highlight: true
-  date: "02/09"
-  banner: "installfest-phpwomen.png"
-  tags: [venus, cc]
-  hashtag: "PHPWomen"
-  twitter: "PHPWomenBR"
-  facebook: "elephants.together"
-  main_url: "https://phpwomenbr.github.io/rio/"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScloCKhia2HgMNq32nGquhgrdMIJxikwfxya1O1P50a-gT41g/viewform"
-
-- title: "Devday 2017"
-  location: "Belo Horizonte - MG"
-  date: "02/09"
-  banner: "devisland.png"
-  tags: [cc, child]
-  hashtag: "DEVDAY2017"
-  twitter: "devisland"
-  facebook: "DevIsland"
-  main_url: "http://devday.devisland.com/"
-  rsvp_url: "http://devday.devisland.com/#ticket"
-
-- title: "Red Bull Basement"
-  location: "São Paulo - SP"
-  free: true
-  date: "02/09"
-  banner: "red-bull-basement.png"
-  tags: [universal-access]
-  hashtag: "Basement"
-  twitter: "RedBullBR"
-  facebook: "RedBullStation"
-  main_url: "http://www.redbullbasement.com.br/"
-  rsvp_url: "https://www.redbull.com/br-pt/terceira-edicao-festival-red-bull-basement-2017"
-
-- title: "Roadsec 2017 | Vitória"
-  location: "Vitória - ES"
-  inclusive: true
-  date: "02/09"
-  banner: "roadsec-es.jpg"
-  tags: [sign-language]
-  hashtag: "Roadsec"
-  twitter: "roadsec"
-  facebook: "roadsec"
-  instagram: "roadsec"
-  main_url: "http://roadsec.com.br"
-  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-vitoria-registration-30532103343"
-
-- title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
-  free: true
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "xamarin-novatec.jpg"
-  facebook: "ctnovatec"
-  main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
-  rsvp_url: "https://www.sympla.com.br/conheca-o-xamarin---desenvolvimento-multiplataforma---palestra-gratuita__168244"
-
-- title: "UX DAY: User Experience na Prática"
-  free: true
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "ux-day.jpg"
-  facebook: "labreset"
-  main_url: "http://reset-lab.com.br/"
-  rsvp_url: "https://www.eventbrite.com.br/e/ux-day-user-experience-na-pratica-tickets-34016904477"
-
-- title: "SCRUM na Prática"
-  free: true
-  location: "São Paulo - SP"
-  date: "02/09"
-  banner: "scrum.jpg"
-  facebook: "DotNetCoders"
-  main_url: "https://www.facebook.com/DotNetCoders"
-  rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/241195246/"
-
-- title: "Iniciação ao Web Scraping - Puxar dados da Internet para quem não programa..."
-  free: true
-  location: "São Paulo - SP"
-  date: "04/09"
-  banner: "le-wagon.png"
-  hashtag: "lewagonBR"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242446696/"
-
-- title: "Code Club Meetup SP @caelum"
-  free: true
-  location: "São Paulo - SP"
-  date: "05/09"
-  banner: "code-club.png"
-  tags: [ticket]
-  hashtag: "codeclub"
-  twitter: "CodeClubBrasil"
-  facebook: "CodeClubBrasil"
-  main_url: "https://www.codeclubbrasil.org.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/code-club-brasil/events/242667907"
-
-- title: "Bolsa Volt Data Lab para jovens jornalistas"
-  free: true
-  location: "Online"
-  date: "05/09"
-  banner: "volt-data.png"
-  tags: [ticket]
-  twitter: "voltdatalab"
-  facebook: "voltdata"
-  main_url: "http://www.voltdata.info"
-  rsvp_url: "http://www.voltdata.info/bolsa"
-
-- title: "Esquenta Tech Cycle Challenge"
-  free: true
-  location: "São Paulo - SP"
-  date: "05/09"
-  banner: "tech-cycle-challenge.jpg"
-  tags: [ticket]
-  twitter: "brcyclefair"
-  facebook: "BrasilCycleFair"
-  main_url: "brasilcyclefair.com.br/pt"
-  rsvp_url: "https://www.eventbrite.com.br/e/tech-cycle-challenge-esquenta-e-abertura-das-inscricoes-tickets-37418428527"
-
-- title: "Investimento anjo para startups"
-  inclusive: true
-  location: "São Paulo - SP"
-  date: "05/09"
-  banner: "girls-in-tech.png"
-  tags: [venus, cc]
-  hashtag: "Girlsintechbr"
-  twitter: "Girlsintechbr"
-  facebook: "GiTSaoPaulo"
-  main_url: "http://brazil.girlsintech.org/"
-  rsvp_url: "https://www.sympla.com.br/investimento-anjo-para-startups---com-maria-rita-anjos-do-brasil__168915"
-
-- title: "PALESTRA: COMO SEGUIR CARREIRA EM UX?"
-  free: true
-  location: "São Paulo - SP"
-  date: "05/09"
-  banner: "mergo-ux.png"
-  tags: [universal-access]
-  hashtag: "UXWeekendBR"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__178973"
-
-- title: "AngularSP Dojo #1 na Lambda3"
-  free: true
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "05/09"
-  banner: "angular-dojo.jpg"
-  tags: [ticket]
-  twitter: "AngularSP"
-  facebook: "AngularSP"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/AngularJS-Sao-Paulo/events/242769329"
 
 - title: "PyLadies - 2 anos"
   location: "São Paulo - SP"
@@ -550,6 +264,7 @@
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
+  highlight: true
   category: Seminário
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
@@ -586,10 +301,11 @@
 
 - title: "Introdução a Git e GitHub"
   free: true
+  highlight: true
   location: "Rio de Janeiro - RJ"
   date: "20/09"
   banner: "git-itsrio.jpg"
-  tags: [ticket]
+  tags: []
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
@@ -666,7 +382,7 @@
   category: "Curso"
   date: "23/09"
   banner: "nerdgilz.jpg"
-  tags: [venus, ticket]
+  tags: [venus, ]
   facebook: "nerdzao"
   main_url: "https://devfest.gdgmaceio.org/"
   rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"
@@ -864,7 +580,7 @@
   location: "São Paulo - SP"
   date: "10/10"
   banner: "colloquium-ai.jpg"
-  tags: [ticket]
+  tags: []
   main_url: "http://www.brlcolloquium.com.br/"
   rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
 
@@ -921,7 +637,7 @@
   location: "Rio de Janeiro - RJ"
   date: "18/10"
   banner: "git-itsrio.jpg"
-  tags: [ticket]
+  tags: []
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
@@ -952,7 +668,7 @@
   location: "Joinville - SC"
   date: "24/10 e 25/10"
   banner: "festival-robotica.jpg"
-  tags: [ticket]
+  tags: []
   facebook: "festivalroboticajoinville"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://www.facebook.com/events/113565649365696"
@@ -1083,7 +799,7 @@
   location: "Salvador - BA"
   date: "11/11"
   banner: "encontro-sf.jpg"
-  tags: [ticket]
+  tags: []
   facebook: "inoveacaolivre"
   main_url: "inoveacaolivre.github.io/2016"
   rsvp_url: "https://www.facebook.com/events/121483665162404"

@@ -2,10 +2,11 @@
 
 # title:     texto, obrigatório. Nome do evento.
 # free:      booleano (true ou false), opcional. Evento gratuito.
+# inclusive: booleano (true ou false), opcional. Evento inclusivo.
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
-# banner:    arquivo na pasta `images/eventos`, obrigatório.
+# banner:    arquivo na pasta `images/eventos`, opcional.
 # group:     arquivo na pasta `images/grupo`, opcional.
 # tags:      lista de classes de ícones do font awesome, opcional.
 # hashtag:   texto sem espaços, opcional. Hashtag oficial do twitter.
@@ -168,7 +169,6 @@
   location: "São Paulo - SP"
   date: "05/08"
   banner: "ibm-blue-hack.png"
-  tags: []
   hashtag: "IBMBrasil"
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
@@ -178,7 +178,6 @@
   location: "Porto Alegre - RS"
   date: "05/08"
   banner: "devopsday-poa.png"
-  tags: []
   hashtag: "devopsday"
   twitter: "poadevopsday"
   facebook: "devopsdaypoa"
@@ -189,12 +188,10 @@
   location: "São Paulo - SP"
   date: "08/08"
   banner: "le-wagon.png"
-  tags: []
   hashtag: "lewagonBR"
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242090509/"
 
 - title: "INFO SESSION - LIGA AUTOTECH"
   free: true
@@ -205,7 +202,6 @@
   facebook: "ligaventures"
   linkedin: "company/liga-ventures"
   main_url: "http://liga.ventures/autotech/"
-  rsvp_url: "https://www.sympla.com.br/info-session---liga-autotech__171774"
 
 - title: "ProdutoSP #10 - Evino"
   free: true
@@ -215,19 +211,16 @@
   meetup: "produtoSP"
   twitter: "_ProdutoSP"
   main_url: "https://www.meetup.com/produtoSP/"
-  rsvp_url: "https://www.meetup.com/produtoSP/events/241597542/"
 
 - title: "PHPSP + Pub"
   free: true
   location: "São Paulo - SP"
   date: "10/08"
   banner: "phpsp.png"
-  tags: []
   hashtag: "phpsp"
   twitter: "phpsp"
   facebook: "sao.paulo.elephants"
   main_url: "http://phpsp.org.br/"
-  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "7o Meetup Facebook Developer Circle SP"
   free: true
@@ -239,7 +232,6 @@
   twitter: "facebook"
   facebook: "/groups/DevCSaoPaulo/"
   main_url: "https://developers.facebook.com/developercircles"
-  rsvp_url: "https://www.sympla.com.br/7o-meetup-facebook-developer-circle-sp__170824"
 
 - title: "Curso de Introdução ao Desenvolvimento em Java"
   free: true
@@ -251,19 +243,16 @@
   instagram: "lead.dell"
   facebook: "dell.lead"
   main_url: "http://projetolead.com.br/selecao/"
-  rsvp_url: "https://producao.projetolead.com.br/ead2pcd/app/preInscricao;jsessionid=C861744C8708FF16788F5A46BBDAB380?execution=e1s1"
 
 - title: "NodeBR #34 - Services like a boss"
   free: true
   location: "São Paulo - SP"
   date: "11/08"
   banner: "node-br.png"
-  tags: []
   hashtag: "nodebr34"
   twitter: "nodebr"
   facebook: "brnode"
   main_url: "https://www.meetup.com/nodebr/"
-  rsvp_url: "https://www.meetup.com/nodebr/events/242068584/"
 
 - title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
   free: true
@@ -274,7 +263,6 @@
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/nerdzao/events/241571883/"
 
 - title: "Design para Inovação Social"
   location: "São Paulo - SP"
@@ -286,7 +274,6 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/design-para-inovacao-social-tickets-36105011060"
 
 - title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
   free: true
@@ -298,7 +285,6 @@
   twitter: "mozillabrasil"
   facebook: "mozillabrasil"
   main_url: "https://www.mozilla.org/pt-BR/"
-  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-registration-35237171328"
 
 - title: "TEDXSÃOPAULO EDUCAÇÃO 2017"
   location: "São Paulo - SP"
@@ -309,7 +295,6 @@
   twitter: "TEDxSaoPaulo"
   facebook: "TEDxSP"
   main_url: "http://tedxsp.com/"
-  rsvp_url: "https://www.sympla.com.br/tedxsaopaulo-educacao-2017__148203"
 
 - title: "Estrelas além do Tempo - Ciência e Racismo em Debate"
   free: true
@@ -321,7 +306,6 @@
   twitter: "mis_sp"
   facebook: "museudaimagemedosom"
   main_url: "http://www.mis-sp.org.br/"
-  rsvp_url: "https://www.facebook.com/events/751231861714747/"
 
 - title: "Moonhack"
   free: true
@@ -333,7 +317,6 @@
   twitter: "CodeClubBrasil"
   facebook: "CodeClubBrasil"
   main_url: "https://www.moonhack.com/home-portuguese"
-  rsvp_url: "https://www.moonhack.com/sign-up"
 
 - title: "WagonTalk com Alexis Silva"
   free: true
@@ -344,7 +327,6 @@
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242263070/"
 
 
 - title: "React #12 – Empreendedorismo + React"
@@ -356,7 +338,6 @@
   twitter: "reactconfbr"
   facebook: "reactconf"
   main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-SP/events/242266357/"
 
 - title: "Le Wagon Coding Bootcamp Open Day"
   free: true
@@ -367,7 +348,6 @@
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242201225/"
 
 - title: "A Era dos Games"
   location: "São Paulo - SP"
@@ -376,7 +356,6 @@
   twitter: "bienalsaopaulo"
   facebook: "bienalsaopaulo"
   main_url: "http://aeradosgames.com.br/"
-  rsvp_url: "https://ingresse.com/search/name/games"
 
 - title: "Ela Líder #12"
   free: true
@@ -388,7 +367,6 @@
   twitter: "_elalider"
   facebook: "elaliderfeminina"
   main_url: "https://elalider.com/"
-  rsvp_url: "https://www.meetup.com/pt-BR/elalider/events/242299814/"
 
 - title: "AngularSP Talks #14 Pagar.me"
   free: true
@@ -400,7 +378,6 @@
   twitter: "AngularSP"
   facebook: "AngularSP"
   main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/events/242264885/"
-  rsvp_url: "https://www.eventbrite.com/e/angularsp-14-pagarme-tickets-36835706590"
 
 - title: "Startups Pitch Day"
   free: true
@@ -408,7 +385,6 @@
   date: "17/08"
   banner: "usp-inovacao.jpg"
   main_url: "http://inovacao.usp.br/"
-  rsvp_url: "https://www.sympla.com.br/startups-pitch-day__169729"
 
 - title: "Rails Girls São Paulo"
   free: true
@@ -420,7 +396,6 @@
   twitter: "railsgirlssp"
   facebook: "railsgirls.sp"
   main_url: "http://railsgirls.com/saopaulo.html"
-  rsvp_url: "https://www.meetup.com/php-sp/events/240587834/"
 
 - title: "MEAN Stack em Módulos"
   category: "Curso"
@@ -429,7 +404,6 @@
   banner: "mean-stack-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/stack-mean/"
-  rsvp_url: "https://www.sympla.com.br/curso-mean-stack-em-modulos__168267"
 
 - title: "Curso NodeJS 6.3"
   category: "Curso"
@@ -438,7 +412,6 @@
   banner: "nodejs-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-de-nodejs/"
-  rsvp_url: "https://www.sympla.com.br/curso-nodejs-63---9-turma__163670"
 
 - title: "Roadsec 2017 | Rio de Janeiro"
   inclusive: true
@@ -451,7 +424,6 @@
   facebook: "roadsec"
   instagram: "roadsec"
   main_url: "http://roadsec.com.br"
-  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-rio-de-janeiro-registration-30529943884"
 
 - title: "Café com Marialab"
   free: true
@@ -463,7 +435,6 @@
   twitter: "MarialabHackers"
   facebook: "marialab.org"
   main_url: "https://marialab.org/"
-  rsvp_url: "https://www.meetup.com/marialab/events/240257283/"
 
 - title: "6º Encontro - ReactJS Florianópolis"
   free: true
@@ -474,7 +445,6 @@
   twitter: "reactconfbr"
   facebook: "reactconf"
   main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-Floripa/events/242395044/"
 
 - title: "Chatbot4Devs"
   location: "Belo Horizonte - MG"
@@ -483,7 +453,6 @@
   twitter: "takenet"
   facebook: "take.net"
   main_url: "http://chatbot4devs.take.net"
-  rsvp_url: "https://www.sympla.com.br/chatbot4devs__145769"
 
 - title: "Construindo meu primeiro robô seguidor de linha"
   inclusive: true
@@ -496,7 +465,6 @@
   twitter: "bytegirlevento"
   facebook: "bytegirlevento"
   main_url: "http://bytegirl.com.br/"
-  rsvp_url: "https://www.sympla.com.br/construindo-meu-primeiro-robo-seguidor-de-linha__168847"
 
 - title: "Women Techmakers - Grupo de estudos Android"
   free: true
@@ -511,7 +479,6 @@
   meetup: "gdgcampinas"
   linkedin: "company-beta/15240699"
   main_url: "https://www.meetup.com/pt-BR/gdgcampinas/"
-  rsvp_url: "https://www.meetup.com/pt-BR/gdgcampinas/events/242471577/"
 
 - title: "{Reprograma} - Turma 4"
   category: Curso
@@ -523,7 +490,6 @@
   twitter: "Reprograma_Br"
   facebook: "ReprogramaBrasil"
   main_url: "http://www.reprograma.com.br/"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSeOFszrry5rcTNEANCBFJ6rBWfyPXa231pvqZgIsgJ6beZXAw/viewform"
 
 - title: "II semana da diversidade"
   free: true
@@ -535,14 +501,12 @@
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
   facebook: "semanadadiversidadeifspbra"
   main_url: "http://bra.ifsp.edu.br/diversidade/"
-  rsvp_url: "http://bra.ifsp.edu.br/diversidade/"
 
 - title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
   location: "Bambuí - MG"
   date: "21/08 a 25/08"
   banner: "setec.jpg"
   main_url: "http://computacaoifmg.com.br/"
-  rsvp_url: "http://computacaoifmg.com.br/Inscricao.html"
 
 - title: "DevTalk #2 - Comunidade e Cultura Open Source"
   free: true
@@ -556,7 +520,6 @@
   instagram: "desprograme123"
   meetup: "Desprograme123"
   main_url: "http://desprograme.com.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Desprograme123/events/242372525/"
 
 - title: "3° Meetup Cloud Girls SP"
   free: true
@@ -567,7 +530,6 @@
   tags: [venus]
   meetup: "Cloud-Girls-Sao-Paulo"
   main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/events/241324092/"
 
 - title: "Prototipação em UX"
   location: "São Paulo - SP"
@@ -578,7 +540,6 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/prototipacao-em-ux-registration-36444265780"
 
 - title: "Mini curso de Angular 4"
   free: true
@@ -589,7 +550,6 @@
   facebook: "developerssp"
   meetup: "Developers-SP"
   main_url: "https://www.meetup.com/pt-BR/Developers-SP/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Developers-SP/events/242400515/"
 
 - title: "Java @ Rio #2 - Machine Learning & Ser um Java Ninja"
   free: true
@@ -598,7 +558,6 @@
   banner: "java-rio.jpeg"
   meetup: "Java-at-Rio"
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812107/"
 
 - title: "Android Dev Conference - Imasters"
   location: "São Paulo - SP"
@@ -608,7 +567,6 @@
   twitter: "AndroidDevBrOrg"
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/android-devconference"
-  rsvp_url: "https://eventos.imasters.com.br/android-devconference"
 
 - title: "Crie a landing page da sua startup... em 2 horas!"
   free: true
@@ -619,7 +577,6 @@
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/242226755/"
 
 - title: "Desenvolvimento de Progressive Web Apps (PWA)"
   free: true
@@ -631,7 +588,6 @@
   linkedin: "grp/home?gid=4357976"
   meetup: "NetCoders"
   main_url: "http://netcoders.com.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/NetCoders/events/242380815/"
 
 - title: "Diálogos: Fortalecendo conexões entre mulheres negras"
   free: true
@@ -644,7 +600,6 @@
   facebook: "ThoughtWorksBR"
   twitter: "thoughtworksbr"
   main_url: "https://www.thoughtworks.com/pt"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSelMlG1QhVHuH0VgI47aLUD3ClYBtEtHUzo8jpXL-SjESyC6w/viewform"
 
 - title: "Virada sustentável na BRAIN"
   free: true
@@ -655,7 +610,6 @@
   linkedin: "company-beta/15081533/"
   instagram: "brain__club"
   main_url: "http://brain.club/"
-  rsvp_url: "https://www.sympla.com.br/vire-sua-empresa--virada-sustentavel-na-brain__171494"
 
 - title: "#00 - PWA"
   free: true
@@ -667,7 +621,6 @@
   twitter: "collabcodebr"
   facebook: "collabcode"
   main_url: "https://www.meetup.com/CollabCodeBR/"
-  rsvp_url: "https://www.meetup.com/CollabCodeBR/events/242479951/"
 
 - title: "BrazilJS - RS"
   inclusive: true
@@ -680,7 +633,6 @@
   facebook: "braziljs"
   instagram: "brazil.js"
   main_url: "https://braziljs.org/conf"
-  rsvp_url: "https://eventloop.com.br/braziljs-conf-2017-poa"
 
 - title: "DjangoGirls"
   inclusive: true
@@ -693,11 +645,9 @@
   facebook: "djangogirlsnh"
   github: "DjangoGirls"
   main_url: "https://djangogirls.org/novohamburgo/"
-  rsvp_url: "https://djangogirls.org/novohamburgo/"
 
 - title: "Cryptoparty"
   free: true
-  highlight: true
   location: "São Paulo - SP"
   date: "26/08"
   banner: "crypto-rave.png"
@@ -706,7 +656,6 @@
   twitter: "cryptoravebr"
   facebook: "cryptorave"
   main_url: "https://cryptorave.org/"
-  rsvp_url: "https://www.facebook.com/events/107849046551519/"
 
 - title: "Certificações Ethical Hacking Essentials"
   free: true
@@ -718,7 +667,6 @@
   facebook: "itcerts"
   linkedin: "company/itcerts"
   main_url: "http://itcerts.com.br/"
-  rsvp_url: "https://www.eventbrite.com.br/e/2608-curso-preparatorio-gratuito-para-as-certificacoes-ethical-hacking-essentials-computer-registration-36983135554"
 
 - title: "Funcionalidades CSS na prática"
   free: true
@@ -727,7 +675,6 @@
   banner: "maujor-css-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/funcionalidades-css-na-pratica/"
-  rsvp_url: "https://www.sympla.com.br/funcionalidades-css-na-pratica---palestra-gratuita__174919"
 
 - title: "COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
   inclusive: true
@@ -740,7 +687,6 @@
   twitter: "UPWIT_Workshop"
   facebook: "UPWIT"
   main_url: "http://upwit.org/"
-  rsvp_url: "https://www.sympla.com.br/lideranca-feminina-como-trabalhar-a-sua-autoconfianca-e-conquistar-o-mundo__174362"
 
 - title: "Curso Introdução ao MongoDB"
   category: "Curso"
@@ -749,7 +695,6 @@
   banner: "mongo-db-novatec.png"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-dados-banco-de-dados/curso-introducao-mongodb/"
-  rsvp_url: "https://www.sympla.com.br/curso-introducao-ao-mongodb---6-turma__163674"
 
 - title: "Nodebots Day Salvador"
   free: true
@@ -760,7 +705,6 @@
   twitter: "pyladiessa"
   facebook: "PyLadiesSalvador"
   main_url: "https://pyladiessalvador.github.io/"
-  rsvp_url: "https://www.meetup.com/Pyladies-SSA/events/240892993/"
 
 - title: "Hackeando seu eletrodoméstico usando Arduino"
   location: "São Paulo - SP"
@@ -772,7 +716,6 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hackeando-seu-eletrodomestico-usando-arduino-tickets-36122540491"
 
 - title: "NerdZão - Trilha Nerdgirlz"
   free: true
@@ -784,7 +727,6 @@
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/Nerdzao/events/242633607/"
 
 - title: "7 Masters - Firebase"
   location: "São Paulo - SP"
@@ -795,12 +737,10 @@
   facebook: "PortaliMasters"
   linkedin: "company/imasters"
   main_url: "https://setemasters.imasters.com.br/"
-  rsvp_url: "https://setemasters.imasters.com.br/edicoes/firebase/"
 
 - title: "AdaptTALKS: Mulheres na Tecnologia"
   free: true
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "29/08"
   banner: "adapt-talks.png"
@@ -809,7 +749,6 @@
   twitter: "adaptworks"
   facebook: "adaptworks"
   main_url: "http://www.adaptworks.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"
 
 - title: "NerdZão - Trilha Mobile"
   free: true
@@ -820,7 +759,6 @@
   twitter: "ONerdzao"
   facebook: "nerdzao"
   main_url: "http://www.nerdzao.com.br/"
-  rsvp_url: "https://www.meetup.com/Nerdzao/events/242632806/"
 
 - title: "React CWB #5"
   free: true
@@ -831,7 +769,6 @@
   twitter: "reactconfbr"
   facebook: "reactconf"
   main_url: "http://reactconfbr.com.br/"
-  rsvp_url: "https://www.meetup.com/ReactJS-CWB/events/242390760/"  
 
 - title: "FAB LAB LIVRE SP"
   free: true
@@ -844,5 +781,259 @@
   instagram: "fablablivresp"
   facebook: "fablablivresp"
   main_url: "http://www.fablablivresp.art.br/"
-  rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
+
+- title: "NerdZão - Trilha Mobile"
+  free: true
+  location: "São Paulo - SP"
+  date: "30/08"
+  banner: "nerdezao.png"
+  tags: [cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+
+- title: "React CWB #5"
+  free: true
+  location: "Curitiba - PR"
+  date: "30/08"
+  banner: "react-cw-5.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+
+- title: "Introdução ao AngularJS 1.6"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "01/09 a 02/09"
+  banner: "angularjs-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
+
+- title: "Dev Xperience"
+  location: "São Paulo - SP"
+  date: "01/09 e 02/09"
+  banner: "dev-xperience.png"
+  hashtag: "devxbr2017"
+  twitter: "DevXperienceBR"
+  facebook: "devxperience"
+  instagram: "devxperience"
+  main_url: "https://www.devxperience.com.br/"
+
+- title: "PHP Community Summit by Locaweb"
+  location: "São Paulo - SP"
+  date: "01/09 e 02/09"
+  banner: "phpsm-lw.png"
+  tags: [venus, cc]
+  hashtag: "PHPcsLW"
+  twitter: "phpsp"
+  facebook: "sao.paulo.elephants"
+  main_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/"
+
+- title: "BrazilJS - CE"
+  inclusive: true
+  location: "Fortaleza - CE"
+  date: "01/09 e 02/09"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt, child]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+
+- title: "JSLadies"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "js-ladies.jpeg"
+  tags: [venus,wheelchair-alt, ticket]
+  twitter: "JsladiesSp"
+  facebook: "jsladiesbr"
+
+- title: "Hackday Technovation & Goldman Sachs"
+  free: true
+  location:  "São Paulo - SP"
+  date: "02/09"
+  banner: "hackaday-goldman.png"
+  tags: [ticket]
+
+- title: "</> JUNTOS NA TI - 3ª EDIÇÃO"
+  free: true
+  inclusive: true
+  location:  "São Paulo - SP"
+  date: "02/09"
+  banner: "juntos-na-ti.png"
+  tags: [cc, universal-access]
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+
+- title: "Lab de Gamificação"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "lab-gameficacao.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "SQL Day Bahia"
+  location: "Salvador - BA"
+  date: "02/09"
+  banner: "sql-bahia.jpg"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mercado Livre experience"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "mercado-livre.png"
+  hashtag: "MLXP2017"
+  twitter: "MercadoLivre"
+  facebook: "MercadoLivreExperience"
+  main_url: "http://www.mercadolivreexperience.com.br/programacao"
+
+- title: "Install Fest - PHP Women RJ"
+  location: "Rio de Janeiro - RJ"
+  free: true
+  inclusive: true
+  date: "02/09"
+  banner: "installfest-phpwomen.png"
+  tags: [venus, cc]
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
+  main_url: "https://phpwomenbr.github.io/rio/"
+
+- title: "Devday 2017"
+  location: "Belo Horizonte - MG"
+  date: "02/09"
+  banner: "devisland.png"
+  tags: [cc, child]
+  hashtag: "DEVDAY2017"
+  twitter: "devisland"
+  facebook: "DevIsland"
+  main_url: "http://devday.devisland.com/"
+
+- title: "Red Bull Basement"
+  location: "São Paulo - SP"
+  free: true
+  date: "02/09"
+  banner: "red-bull-basement.png"
+  tags: [universal-access]
+  hashtag: "Basement"
+  twitter: "RedBullBR"
+  facebook: "RedBullStation"
+  main_url: "http://www.redbullbasement.com.br/"
+
+- title: "Roadsec 2017 | Vitória"
+  location: "Vitória - ES"
+  inclusive: true
+  date: "02/09"
+  banner: "roadsec-es.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+
+- title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "xamarin-novatec.jpg"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
+
+- title: "UX DAY: User Experience na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "ux-day.jpg"
+  facebook: "labreset"
+  main_url: "http://reset-lab.com.br/"
+
+- title: "SCRUM na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "scrum.jpg"
+  facebook: "DotNetCoders"
+  main_url: "https://www.facebook.com/DotNetCoders"
+
+- title: "Iniciação ao Web Scraping - Puxar dados da Internet para quem não programa..."
+  free: true
+  location: "São Paulo - SP"
+  date: "04/09"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "Code Club Meetup SP @caelum"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "code-club.png"
+  tags: [cc, kids]
+  hashtag: "codeclub"
+  twitter: "CodeClubBrasil"
+  facebook: "CodeClubBrasil"
+  main_url: "https://www.codeclubbrasil.org.br/"
+
+- title: "Bolsa Volt Data Lab para jovens jornalistas"
+  free: true
+  location: "Online"
+  date: "05/09"
+  banner: "volt-data.png"
+  twitter: "voltdatalab"
+  facebook: "voltdata"
+  main_url: "http://www.voltdata.info"
+
+- title: "Esquenta Tech Cycle Challenge"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "tech-cycle-challenge.jpg"
+  twitter: "brcyclefair"
+  facebook: "BrasilCycleFair"
+  main_url: "brasilcyclefair.com.br/pt"
+
+- title: "Investimento anjo para startups"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "girls-in-tech.png"
+  tags: [venus, cc]
+  hashtag: "Girlsintechbr"
+  twitter: "Girlsintechbr"
+  facebook: "GiTSaoPaulo"
+  main_url: "http://brazil.girlsintech.org/"
+
+- title: "PALESTRA: COMO SEGUIR CARREIRA EM UX?"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "AngularSP Dojo #1 na Lambda3"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "angular-dojo.jpg"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "http://www.mergo.com.br/"
 
