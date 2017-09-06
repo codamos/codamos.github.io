@@ -708,6 +708,9 @@ p {
 .banner-quem-somos {
     background-image: url("../images/bg-banner004.jpg");
 }
+.banner-coc {
+    background-image: url("../images/bg-banner002.jpg");
+}
 
 #banner .page-section-text {
     color: #ffffff;
