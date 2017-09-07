@@ -22,6 +22,19 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+- title: "CollabCode"
+  free: true
+  inclusive: false
+  category: "Palestra"
+  location: "São Paulo - SP"
+  date: "20/10"
+  banner: "collabcode.png"
+  tags: [cc, universal-access, ticket]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR/events/243039994/"
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
