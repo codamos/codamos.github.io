@@ -86,6 +86,11 @@
            target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
         {% endif %}
 
+        {% if event.medium %}
+        <a href="https://www.medium.com/{{ event.medium }}/" title="Medium"
+           target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
         {% if event.youtube %}
         <a href="https://www.youtube.com/user/{{ event.youtube }}/videos" title="Youtube"
            target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>

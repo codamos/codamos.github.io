@@ -15,6 +15,7 @@
 # instagram: texto sem espaços, opcional. Instagram handle.
 # linkedin:  texto sem espaços, opcional. LinkedIn handle.
 # meetup:    texto sem espaços, opcional. Id do grupo no Meetup.
+# medium:    texto sem espaços, opcional. User do grupo no Medium.
 # youtube:   texto sem espaços, opcional. Youtube handle.
 # main_url:  URL, obrigatório. Site do evento.
 
@@ -48,52 +49,7 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "Programa de Estágio Escape Tech"
-  free: true
-  location: "São Paulo - SP"
-  date: "até 18/09"
-  banner: "estagio-escape-tech.png"
-  tags: [venus]
-  hashtag: "ciandt"
-  twitter: "ciandt_BR"
-  facebook: "ciandt"
-  main_url: "http://www.ciandt.com/home"
-  rsvp_url: "https://estagio.ciandt.com/"
-
 # SETEMBRO
-
-- title: "PyLadies - 2 anos"
-  location: "São Paulo - SP"
-  inclusive: true
-  date: "07/09"
-  banner: "pyladies-2anos.png"
-  tags: [venus, cc, wheelchair-alt]
-  hashtag: "PyLadiesSP"
-  twitter: "PyLadiesSP"
-  facebook: "PyLadiesSP"
-  main_url: "https://www.meetup.com/PyLadiesSP/"
-  rsvp_url: "https://www.facebook.com/events/162824437599273/"
-
-- title: "1º HACKATHON POSTOS PETROBRAS"
-  location: "São Paulo - SP"
-  date: "07/09"
-  cfp: true
-  banner: "hackathon-petrobras.png"
-  hashtag: "ésócurtirocaminho"
-  twitter: "postospetrobras"
-  facebook: "postospetrobras"
-  main_url: "http://hotsitesbr.com.br/hackathon/"
-  rsvp_url: "http://hotsitesbr.com.br/hackathon/inscricoes/"
-
-- title: "HackTown 2017"
-  location: "Santa Rita do Sapucaí - MG"
-  date: "07/09 a 10/09"
-  banner: "hack-town.jpg"
-  twitter: "hacktown"
-  facebook: "hacktownfest"
-  instagram: "hacktownsrs"
-  main_url: "http://hacktown.com.br/"
-  rsvp_url: "https://app.lets.events/events/hacktown#participate"
 
 - title: "Python Sul"
   location: "Caxias do Sul - RS"
@@ -261,6 +217,18 @@
   main_url: "https://www.facebook.com/events/1904361406485528/"
   rsvp_url: "https://www.sympla.com.br/codelab-html-e-css__179881"
 
+- title: "Programa de Estágio Escape Tech"
+  free: true
+  location: "São Paulo - SP"
+  date: "até 18/09"
+  banner: "estagio-escape-tech.png"
+  tags: [venus]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
+  facebook: "ciandt"
+  main_url: "http://www.ciandt.com/home"
+  rsvp_url: "https://estagio.ciandt.com/"
+
 - title: "Impactos da exposição de crianças e adolescentes na Internet"
   free: true
   category: Workshop
@@ -318,7 +286,6 @@
   location: "Rio de Janeiro - RJ"
   date: "20/09"
   banner: "git-itsrio.jpg"
-  tags: []
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
@@ -789,6 +756,7 @@
 - title: "Women Dev Summit"
   cfp: true
   inclusive: true
+  highlight: true
   location: "São Paulo - SP"
   date: "11/11"
   banner: "wds.png"

@@ -1037,3 +1037,36 @@
   facebook: "AngularSP"
   main_url: "http://www.mergo.com.br/"
 
+- title: "PyLadies - 2 anos"
+  location: "São Paulo - SP"
+  inclusive: true
+  date: "07/09"
+  banner: "pyladies-2anos.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  facebook: "PyLadiesSP"
+  main_url: "https://www.meetup.com/PyLadiesSP/"
+  rsvp_url: "https://www.facebook.com/events/162824437599273/"
+
+- title: "1º HACKATHON POSTOS PETROBRAS"
+  location: "São Paulo - SP"
+  date: "07/09"
+  cfp: true
+  banner: "hackathon-petrobras.png"
+  hashtag: "ésócurtirocaminho"
+  twitter: "postospetrobras"
+  facebook: "postospetrobras"
+  main_url: "http://hotsitesbr.com.br/hackathon/"
+  rsvp_url: "http://hotsitesbr.com.br/hackathon/inscricoes/"
+
+- title: "HackTown 2017"
+  location: "Santa Rita do Sapucaí - MG"
+  date: "07/09 a 10/09"
+  banner: "hack-town.jpg"
+  twitter: "hacktown"
+  facebook: "hacktownfest"
+  instagram: "hacktownsrs"
+  main_url: "http://hacktown.com.br/"
+  rsvp_url: "https://app.lets.events/events/hacktown#participate"
+
