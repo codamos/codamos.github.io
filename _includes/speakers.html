@@ -1,6 +1,6 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
-  <img src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
+  <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
 
   <div class="speaker-card-labels lgbt-label">
     {% for label in speaker.labels %}
