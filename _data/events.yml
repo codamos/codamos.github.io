@@ -23,19 +23,6 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- title: "CollabCode"
-  free: true
-  inclusive: false
-  category: "Palestra"
-  location: "São Paulo - SP"
-  date: "20/10"
-  banner: "collabcode.png"
-  tags: [cc, universal-access, ticket]
-  hashtag: "collabcodetech"
-  twitter: "collabcodetech"
-  facebook: "collabcode"
-  meetup: "CollabCodeBR/events/243039994/"
-
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -266,6 +253,19 @@
   meetup: "Java-at-Rio"
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
   rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812115/"
+
+- title: "CollabCode GraphQL"
+  free: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+  rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243039994"
 
 - title: "Ela Líder #13"
   free: true
@@ -665,6 +665,19 @@
   youtube: "user/NICbrvideos/videos"
   main_url: "http://conferenciaweb.w3c.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
+
+- title: "CollabCode Spring Data"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/10"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+  rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243157354"
 
 - title: "Hackathon Ninja 2017"
   location: "São Paulo - SP"
