@@ -31,7 +31,6 @@
     </script>
 
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver|gated" defer></script>
-    <script src="js/iolazy.min.js" defer></script>
   </head>
   <body>
     <!-- CABECALHO -->
@@ -116,7 +115,7 @@
 
     <!-- PARCEIROS E APOIADORES -->
     <section id="partners-supporters" class="page-section-white">
-      <div class="partners-supporters-box">
+      <div class="partners-supporters-box" data-background="images/bg-parceiros.jpg">
         <div class="partners-supporters-form">
           <div class="partners-supporters-form-text">
               <h2>
@@ -194,10 +193,6 @@
       </div>
     </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        new IOlazy({image: 'img[data-src]', threshold: 0.25});
-      });
-    </script>
+    <script src="js/lazy-load.js" defer></script>
   </body>
 </html>
