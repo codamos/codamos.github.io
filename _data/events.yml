@@ -23,6 +23,16 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+- title: "IBM SCHOOL - O Futuro das Profissões"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "ibm-school.jpg"
+  tags: [ticket, universal-access]
+  youtube: "noP6ncCh06w"
+  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
