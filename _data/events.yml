@@ -23,19 +23,6 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- title: "CollabCode"
-  free: true
-  inclusive: false
-  category: "Palestra"
-  location: "São Paulo - SP"
-  date: "20/10"
-  banner: "collabcode.png"
-  tags: [cc, universal-access, ticket]
-  hashtag: "collabcodetech"
-  twitter: "collabcodetech"
-  facebook: "collabcode"
-  meetup: "CollabCodeBR/events/243039994/"
-
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -73,7 +60,7 @@
   category: "Curso"
   location: "Online"
   date: "13/09 a 16/10"
-  banner: "ai-itsrio.JPG"
+  banner: "ai-itsrio.jpg"
   twitter: "ITSriodejaneiro"
   facebook: "ITSriodejaneiro"
   instagram: "itsriodejaneiro"
@@ -267,6 +254,19 @@
   main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
   rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812115/"
 
+- title: "CollabCode GraphQL"
+  free: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+  rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243039994"
+
 - title: "Ela Líder #13"
   free: true
   inclusive: true
@@ -388,6 +388,24 @@
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
+
+- title: "IBM SCHOOL - O Futuro das Profissões"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "ibm-school.jpg"
+  tags: [universal-access]
+  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+
+- title: "Living with Unicorns - BlaBlaCar + Sprinklr"
+  free: true
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "livingwithunicorns.jpg"
+  tags: [universal-access]
+  main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
+  rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
 
 - title: "Customer Experience Summit 2017"
   location: "São Paulo - SP"
@@ -666,6 +684,31 @@
   main_url: "http://conferenciaweb.w3c.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
 
+- title: "CollabCode Spring Data"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/10"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+  rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243157354"
+
+- title: "Code Girl - edição 5"
+  free: true
+  location: "Natal - RN"
+  date: "27/10"
+  banner: "codegirl5.jpg"
+  hashtag: "codegirl5"
+  twitter: "codegirlbr"
+  facebook: "codegirlBR"
+  tags: [venus]
+  main_url: "https://www.sympla.com.br/code-girl-5__185364"
+  rsvp_url: "https://www.sympla.com.br/code-girl-5__185364"
+
 - title: "Hackathon Ninja 2017"
   location: "São Paulo - SP"
   date: "28/10"
@@ -826,6 +869,28 @@
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "Workshop de Design Thinking com Silvio Acher"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "02/12"
+  banner: "design-thinking-silvio-acher.jpg"
+  twitter: "pixelshow"
+  facebook: "pixelshow"
+  tags: [universal-access]
+  main_url: "http://pixelshow.com.br/portfolio/workshop-de-design-thinking-com-silvio-acher/"
+  rsvp_url: "http://eventos.zupishop.com/ZA-PS17-design-thinking-silvio-acher-sabado"
+
+- title: "Workshop de Estamparia Narrativa com Estúdio Abelha"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "03/12"
+  banner: "estamparia-estudio-abelha-turma-2.jpg"
+  twitter: "pixelshow"
+  facebook: "pixelshow"
+  tags: [universal-access]
+  main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
+  rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
