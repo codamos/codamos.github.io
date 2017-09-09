@@ -60,7 +60,7 @@
   category: "Curso"
   location: "Online"
   date: "13/09 a 16/10"
-  banner: "ai-itsrio.JPG"
+  banner: "ai-itsrio.jpg"
   twitter: "ITSriodejaneiro"
   facebook: "ITSriodejaneiro"
   instagram: "itsriodejaneiro"
@@ -397,12 +397,12 @@
   tags: [universal-access]
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
-  
+
 - title: "Living with Unicorns - BlaBlaCar + Sprinklr"
   free: true
   location: "São Paulo - SP"
   date: "27/09"
-  banner: "LivingwithUnicorns.JPG"
+  banner: "livingwithunicorns.jpg"
   tags: [universal-access]
   main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
   rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
@@ -696,12 +696,12 @@
   meetup: "CollabCodeBR"
   main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
   rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243157354"
-  
+
 - title: "Code Girl - edição 5"
   free: true
   location: "Natal - RN"
   date: "27/10"
-  banner: "codegirl5.JPG"
+  banner: "codegirl5.jpg"
   hashtag: "codegirl5"
   twitter: "codegirlbr"
   facebook: "codegirlBR"
@@ -869,7 +869,7 @@
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
-  
+
 - title: "Workshop de Design Thinking com Silvio Acher"
   category: "Workshop"
   location: "São Paulo - SP"
