@@ -794,6 +794,7 @@ p {
     border: 4px solid #99ff00;
     position: absolute;
     font-size: small;
+    font-weight: 300;
     top: 52px;
     color: #fff;
     left: 10px;
@@ -816,7 +817,7 @@ p {
     top: 96px;
     color: #FFF;
     left: 10px;
-    font-weight: 700;
+    font-weight: 300;
     width: auto;
     display: flex;
     justify-content: center;
@@ -853,6 +854,7 @@ p {
     border: 4px solid #cc66ff;
     position: absolute;
     font-size: small;
+    font-weight: 300;
     top: 52px;
     color: #fff;
     right: 10px;
@@ -872,6 +874,7 @@ p {
     /*border: 4px solid #dc7887;
     position: absolute;*/
     font-size: small;
+    font-weight: 300;
     top: 52px;
     color: #fff;
     right: 10px;
@@ -913,14 +916,14 @@ p {
     text-transform: uppercase;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 0px rgba(46, 61, 73, 0.5);
+    box-shadow: 2px 2px 2px 0px rgba(46, 61, 73, 0.5);
 }
 
 .events-card-title {
     color: #e60050;
     font-family: 'Josefin Sans', Sans-Serif;
     font-size: large;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     text-overflow: ellipsis;
