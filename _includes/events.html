@@ -3,49 +3,63 @@
   <div class="events-card-header">
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
+
+      {% if event.free %}
+      <div class="events-card-header-free">
+        <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
+      </div>
+      {% endif %}
+
+      {% if event.inclusive %}
+      <div class="events-card-header-inclusive">
+        <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
+      </div>
+      {% endif %}
+
+      {% if event.category %}
+      <div class="events-card-header-category">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
+      </div>
+      {% endif %}
+
+      {% if event.cfp %}
+      <div class="events-card-header-call4papers">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
+      </div>
+      {% endif %}
+
+      {% if event.tags %}
+      <span class="events-card-header-ico">
+        {% for tag in event.tags %}
+        <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
+        {% endfor %}
+      </span>
+      {% endif %}
     </div>
-    {% if event.free %}
-    <div class="events-card-header-free">
-      <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
-    </div>
-    {% endif %}
-    {% if event.inclusive %}
-    <div class="events-card-header-inclusive">
-      <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
-    </div>
-    {% endif %}
-    {% if event.category %}
-    <div class="events-card-header-category">
-      <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
-    </div>
-    {% endif %}
-    {% if event.cfp %}
-    <div class="events-card-header-call4papers">
-      <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
-    </div>
-    {% endif %}
-    {% if event.women %}
-    <div class="events-card-header-women">
-      <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
-    </div>
-    {% endif %}
-    <span class="events-card-header-ico">
-    {% for tag in event.tags %}
-      <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
-    {% endfor %}
-    </span>
-    <h3 class="events-card-title">{{ event.title }}</h3>
   </div>
+
+  {% if event.women %}
+  <div class="events-card-header-women">
+    <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
+  </div>
+  {% endif %}
+
+  <div class="events-card-title">
+    <h3>{{ event.title }}</h3>
+  </div>
+
   <div class="events-card-body">
     <div class="events-card-body-content">
       <div class="events-card-body-local">
         <i class="fa fa-map-marker" aria-hidden="true"></i>
         <p>{{ event.location }}</p>
       </div>
+
       <div class="events-card-body-date">
         <i class="fa fa-calendar" aria-hidden="true"></i>
         <p>{{ event.date }}</p>
       </div>
+
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
         <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
@@ -56,11 +70,13 @@
         <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
       </div>
       {% endif %}
+
       {% if event.group %}
       <div class="events-card-body-grupo">
         <img src="images/grupo/{{ event.group }}">
       </div>
       {% endif %}
+
       <div class="events-card-body-social-media">
         {% if event.twitter %}
         <a href="https://twitter.com/{{ event.twitter }}" title="Twitter"
@@ -105,11 +121,12 @@
            target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
       </div>
     </div>
-      {% if event.rsvp_url %}
-      <div class="events-card-body-button">
-        <a href="{{ event.rsvp_url }}" class="button-primary" target="_blank">Quero ir</a>
-      </div>
-      {% endif %}
+
+    {% if event.rsvp_url %}
+    <div class="events-card-body-button">
+      <a href="{{ event.rsvp_url }}" class="button-primary" target="_blank">Quero ir</a>
+    </div>
+    {% endif %}
   </div>
 </li>
 {% endfor %}
