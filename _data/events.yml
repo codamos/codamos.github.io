@@ -39,24 +39,6 @@
 
 # SETEMBRO
 
-- title: "Python Sul"
-  location: "Caxias do Sul - RS"
-  date: "08/09 a 10/09"
-  banner: "pythonsul.png"
-  hashtag: "Python"
-  twitter: "PythonSul"
-  facebook: "pythonsul"
-  main_url: "http://pythonsul.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
-
-- title: "IBMHosts: Etapa SP da Maratona de Programação"
-  location: "São Paulo - SP"
-  date: "09/09"
-  banner: "ibm-host.jpg"
-  facebook: "BlueHack-Community-Brasil"
-  main_url: "http://maratona.ime.usp.br/sedes17.html"
-  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
-
 - title: "Inteligência artificial: aplicação e novas experiências"
   category: "Curso"
   location: "Online"
@@ -72,12 +54,13 @@
   location: "Belém - PA"
   date: "13/09 a 15/09"
   banner: "agile-br.png"
-  tags: [cc]
+  women: true
+  tags: [cc, universal-access]
   hashtag: "AgileBR"
   twitter: "agilebrazil"
   facebook: "AgileBrazil"
   instagram: "agilebrazil"
-  main_url: "http://www.agilebrazil.com/2017//"
+  main_url: "http://www.agilebrazil.com/2017/"
   rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
 
 - title: "RanchoDev"
@@ -95,6 +78,8 @@
   location: "São Paulo - SP"
   date: "16/09"
   banner: "smart-city.png"
+  tags: [venus, universal-access]
+  Women: true
   hashtag: "coletividad"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -117,6 +102,7 @@
 
 - title: "Café com Marialab"
   free: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "16/09"
   banner: "maria.png"
@@ -157,6 +143,7 @@
 - title: "6º Fórum Empreendedoras"
   location: "São Paulo - SP"
   inclusive: true
+  women: true
   date: "16/09"
   banner: "forum-empreendedoras.png"
   tags: [venus, cc, wheelchair-alt]
@@ -167,8 +154,7 @@
   rsvp_url: "https://www.sympla.com.br/vi-forum-empreendedoras---empreendedorismo-e-o-empoderamento-economico-da-mulher__157250"
 
 - title: "Front in Vale"
-  cfp: true
-  highlight: true
+  women: true
   inclusive: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
@@ -184,7 +170,7 @@
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "code-in-the-dark-vp.png"
-  tags: [venus, cc,]
+  tags: [venus, cc]
   hashtag: "CITD"
   twitter: "CodeintheDarkBR"
   facebook: "codeinthedarkbr"
@@ -235,7 +221,6 @@
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
-  highlight: true
   category: Seminário
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
@@ -273,6 +258,7 @@
 - title: "Ela Líder #13"
   free: true
   inclusive: true
+  women: true
   location: "São Paulo - SP"
   date: "20/09"
   banner: "ela-lider.png"
@@ -285,7 +271,6 @@
 
 - title: "Introdução a Git e GitHub"
   free: true
-  highlight: true
   location: "Rio de Janeiro - RJ"
   date: "20/09"
   banner: "git-itsrio.jpg"
@@ -326,10 +311,11 @@
   main_url: "brasilcyclefair.com.br/pt"
   rsvp_url: "http://www.brasilcyclefair.com.br/pt/ingressos-venda"
 
-- title: "Smart City com Arduino, Design Thinking e Scrum"
+- title: "Métodos de Pesquisa de Mercado"
   location: "São Paulo - SP"
   date: "23/09"
-  banner: "pesquisa-de-mercado.png"
+  banner: "metodos-de-pesquisa.jpg"
+  women: true
   hashtag: "coletividad"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -341,6 +327,9 @@
   location: "Belo Horizonte - MG"
   date: "23/09"
   banner: "front-inbh.jpg"
+  inclusive: true
+  women: true
+  highlight: true
   tags: [venus, cc]
   hashtag: "FrontInBH2k17"
   twitter: "frontinbh"
@@ -363,9 +352,11 @@
 - title: "NerdGirlz #1 - Minicurso de MongoDB"
   location: "São Paulo - SP"
   category: "Curso"
+  inclusive: true
+  women: true
   date: "23/09"
   banner: "nerdgilz.jpg"
-  tags: [venus, ]
+  tags: [venus]
   facebook: "nerdzao"
   main_url: "https://devfest.gdgmaceio.org/"
   rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"
@@ -398,15 +389,21 @@
   date: "26/09"
   banner: "ibm-school.jpg"
   tags: [universal-access]
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
 
 - title: "Living with Unicorns - BlaBlaCar + Sprinklr"
   free: true
+  women: true
   location: "São Paulo - SP"
   date: "27/09"
   banner: "livingwithunicorns.jpg"
   tags: [universal-access]
+  hashtag: "LigaVentures"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
   main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
   rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
 
@@ -434,6 +431,7 @@
   location: "São Paulo - SP"
   date: "29/09 a 30/09"
   banner: "docker-novatec.jpg"
+  twitter: "novateceditora"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
   rsvp_url: "https://www.sympla.com.br/curso-docker-9-turma__174961"
@@ -455,11 +453,15 @@
   location: "São Paulo - SP"
   date: "30/09"
   banner: "robotica-novatec.jpg"
+  twitter: "novateceditora"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-hardware-robotica/primeiros-passos-em-robotica/"
   rsvp_url: "https://www.sympla.com.br/curso-primeiros-passos-em-robotica---3-turma__171859"
 
 - title: "ABCDev"
+  highlight: true
+  inclusive: true
+  women: true
   location: "Santo André - SP"
   date: "30/09"
   banner: "abc-dev.png"
@@ -472,7 +474,6 @@
 
 - title: "Include Day"
   free: true
-  highlight: true
   inclusive: true
   location: "Campinas - SP"
   date: "30/09"
@@ -509,6 +510,7 @@
 # OUTUBRO
 
 - title: "PHPeste"
+  women: true
   location: "Fortaleza - CE"
   date: "06/10 a 08/10"
   banner: "phpeste.png"
@@ -520,7 +522,6 @@
   rsvp_url: "https://www.sympla.com.br/phpeste-2017--fortaleza-ce__143467"
 
 - title: "13ª conferência brasileira da comunidade Python"
-  cfp: true
   location: "Belo Horizonte -MG"
   date: "06/10 a 10/10"
   banner: "python-brasil.png"
@@ -532,7 +533,8 @@
   rsvp_url: "http://2017.pythonbrasil.org.br/#tickets"
 
 - title: "React Conf"
-  cfp: true
+  women: true
+  inclusive: true
   highlight: true
   location: "São Paulo - SP"
   date: "07/10"
@@ -566,6 +568,7 @@
 - title: "Introdução à TypeScript & Features Ts 2.x"
   free: true
   inclusive: true
+  women: true
   location: "Ao vivo"
   date: "10/10"
   banner: "womakerscode.png"
@@ -582,6 +585,9 @@
   date: "10/10"
   banner: "colloquium-ai.jpg"
   tags: []
+  hashtag: "IBMBrasil"
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
   main_url: "http://www.brlcolloquium.com.br/"
   rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
 
@@ -598,6 +604,7 @@
 - title: "Byte Girl 2017"
   location: "Fortaleza - CE"
   inclusive: true
+  women: true
   date: "14/10"
   banner: "byte-girl-2017.png"
   tags: [venus, cc]
@@ -610,6 +617,7 @@
 - title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
   fre: true
   inclusive: true
+  women: true
   location: "Ao vivo"
   date: "17/10"
   banner: "womakerscode.png"
@@ -623,6 +631,7 @@
 - title: "Usando Microsoft Teams com Bots para produtividade"
   fre: true
   inclusive: true
+  women: true
   location: "Ao vivo"
   date: "17/10"
   banner: "womakerscode.png"
@@ -677,6 +686,7 @@
 - title: "WEBBR 2017"
   location: "São Paulo - SP"
   inclusive: true
+  women: true
   date: "24/10 e 25/10"
   banner: "webbr.png"
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
@@ -702,13 +712,16 @@
 
 - title: "Code Girl - edição 5"
   free: true
+  women: true
+  highlight: true
+  inclusive: true
   location: "Natal - RN"
   date: "27/10"
   banner: "codegirl5.jpg"
   hashtag: "codegirl5"
   twitter: "codegirlbr"
   facebook: "codegirlBR"
-  tags: [venus]
+  tags: [venus, cc, wheelchair-alt]
   main_url: "https://www.sympla.com.br/code-girl-5__185364"
   rsvp_url: "https://www.sympla.com.br/code-girl-5__185364"
 
@@ -725,6 +738,7 @@
 
 - title: "UX Team Summit - Mergo e SENAI"
   location: "São Paulo - SP"
+  women: true
   date: "28/10"
   banner: "uxteam2017.png"
   tags: [cc, wheelchair-alt]
@@ -787,11 +801,11 @@
   rsvp_url: "http://devopsdays.bsb.br/post/registration_open/"
 
 - title: "The Developers Conference - RS"
-  cfp: true
   location: "Porto Alegre - RS"
   date: "8/11 a 11/11"
   banner: "tdc.png"
-  tags: [venus, cc]
+  women: true
+  tags: [venus, cc, universal-access]
   hashtag: "thedeconf"
   twitter: "TheDevConf"
   facebook: "TheDevelopersConference"
@@ -803,10 +817,11 @@
   cfp: true
   inclusive: true
   highlight: true
+  women: true
   location: "São Paulo - SP"
   date: "11/11"
   banner: "wds.png"
-  tags: [venus, cc, universal-access]
+  tags: [venus, cc, wheelchair-alt,universal-access]
   hashtag: "WDS2k17"
   facebook: "womendevsummit"
   main_url: "http://womendevsummit.com/"
