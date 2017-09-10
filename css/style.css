@@ -867,6 +867,25 @@ p {
     box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
 }
 
+.events-card-header-women {
+    background: #ca253c;
+    /*border: 4px solid #dc7887;
+    position: absolute;*/
+    font-size: small;
+    top: 52px;
+    color: #fff;
+    right: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    /*border-radius: 3px;*/
+    letter-spacing: 2px;
+    /*box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);*/
+}
+
 .events-card-header-ico {
     display: flex;
     justify-content: center;
@@ -946,13 +965,6 @@ p {
     margin-right: 5px;
 }
 
-/*.events-card-body-footer {
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
-}*/
 .events-card-body-social-media {
     margin: 5px auto;
 }
@@ -1009,8 +1021,16 @@ p {
     padding-bottom: calc(1.5em + 48px);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 660px) {
+    .events-card-header-free,
+    .events-card-header-inclusive,
+    .events-card-header-category,
+    .events-card-header-call4papers {
+        font-size: 0.5em;
+    }
+}
 
+@media (min-width: 768px) {
     .events-card {
         width: calc((100% - 10px) / 2);
     }
@@ -1029,7 +1049,6 @@ p {
 }
 
 @media (min-width: 992px) {
-
     .events-card {
         width: calc((100% - 20px) / 3);
     }

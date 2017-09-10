@@ -24,6 +24,11 @@
       <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
     </div>
     {% endif %}
+    {% if event.women %}
+    <div class="events-card-header-women">
+      <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
+    </div>
+    {% endif %}
     <span class="events-card-header-ico">
     {% for tag in event.tags %}
       <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>

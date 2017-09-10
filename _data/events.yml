@@ -4,6 +4,7 @@
 # free:      booleano (true ou false), opcional. Evento gratuito.
 # inclusive: booleano (true ou false), opcional. Evento inclusivo.
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
+# women:     booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, opcional.
@@ -129,12 +130,14 @@
 
 - title: "CSSday"
   highlight: true
-  cfp: true
+  women:  true
+  inclusive: true
+  free: true
   location: "Recife - PE"
   date: "16/09"
   banner: "cssday.png"
   tags: [venus, cc]
-  hashtag: "cssdaybr"
+  hashtag: "cssdaybr17"
   twitter: "cssdaybr"
   facebook: "cssdaybr"
   youtube: "caravanaweb"
