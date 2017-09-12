@@ -24,21 +24,6 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- title: "Quero ser DEV Locaweb"
-  free: true
-  category: "Treinamento"
-  location: "São Paulo - SP"
-  date: "04/09 até 01/10"
-  banner: "queroserdevlocalweb.jpg"
-  tags: [universal-access]
-  hashtag: "QueroSerDev"
-  youtube: "locaweb/videos"
-  linkedin: "company/44826"
-  twitter: "locaweb"
-  facebook: "locaweb"
-  main_url: "http://queroserdevlocaweb.com.br/"
-  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
- 
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -51,6 +36,20 @@
   facebook: "fablablivresp"
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
+
+- title: "Quero ser DEV Locaweb"
+  free: true
+  category: "Treinamento"
+  location: "São Paulo - SP"
+  date: "04/09 até 01/10"
+  banner: "queroserdevlocalweb.jpg"
+  hashtag: "QueroSerDev"
+  youtube: "locaweb/videos"
+  linkedin: "company/44826"
+  twitter: "locaweb"
+  facebook: "locaweb"
+  main_url: "http://queroserdevlocaweb.com.br/"
+  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
 
 # SETEMBRO
 
@@ -79,8 +78,6 @@
   rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
 
 - title: "CUBO CONECTA 2017"
-  free: true
-  category: "Palestras"
   location: "São Paulo - SP"
   date: "14/09"
   banner: "cuboconecta.JPG"
@@ -538,11 +535,11 @@
 
 # OUTUBRO
 - title: "Usabilidade 2ª edição - Torne seu produto mais fácil de usar"
-  category: "Palestra"
+  women: true
   location: "São Paulo - SP"
   date: "04/10"
   banner: "usabilidade2ed.jpg"
-  tags: [universal-access]
+  tags: [cc]
   hashtag: "coletividad"
   linkedin: "company/10088050"
   twitter: "coletividad"
