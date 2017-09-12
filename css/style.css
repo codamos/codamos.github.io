@@ -758,6 +758,7 @@ p {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
 }
 
 .events-card + .events-card {
@@ -769,9 +770,8 @@ p {
 }
 
 .events-card-banner {
-    background-color: #000033;
-    background-blend-mode: darken;
     height: 140px;
+    border-radius: 4px 4px 0 0;
 }
 
 .events-card-header img {
@@ -779,6 +779,7 @@ p {
     height: 140px;
     object-fit: cover;
     opacity: 0.9;
+    border-radius: 4px 4px 0 0;
 }
 
 .events-card-header {
