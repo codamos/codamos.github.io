@@ -24,6 +24,21 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+- title: "Quero ser DEV Locaweb"
+  free: true
+  category: "Treinamento"
+  location: "São Paulo - SP"
+  date: "04/09 até 01/10"
+  banner: "queroserdevlocalweb.jpg"
+  tags: [universal-access]
+  hashtag: "QueroSerDev"
+  youtube: "locaweb/videos"
+  linkedin: "company/44826"
+  twitter: "locaweb"
+  facebook: "locaweb"
+  main_url: "http://queroserdevlocaweb.com.br/"
+  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
+ 
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -62,6 +77,20 @@
   instagram: "agilebrazil"
   main_url: "http://www.agilebrazil.com/2017/"
   rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
+
+- title: "CUBO CONECTA 2017"
+  free: true
+  category: "Palestras"
+  location: "São Paulo - SP"
+  date: "14/09"
+  banner: "cuboconecta.JPG"
+  tags: [universal-access]
+  hashtag: "cubo_network"
+  linkedin: "company/9487897"
+  twitter: "cubo_network"
+  facebook: "cubo.network"
+  main_url: "https://conecta.cubo.network"
+  rsvp_url: "https://www.sympla.com.br/cubo-conecta-2017__177388"
 
 - title: "RanchoDev"
   location: "São Paulo - SP"
@@ -508,6 +537,18 @@
 
 
 # OUTUBRO
+- title: "Usabilidade 2ª edição - Torne seu produto mais fácil de usar"
+  category: "Palestra"
+  location: "São Paulo - SP"
+  date: "04/10"
+  banner: "usabilidade2ed.jpg"
+  tags: [universal-access]
+  hashtag: "coletividad"
+  linkedin: "company/10088050"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856?aff=efbevent"
 
 - title: "PHPeste"
   women: true
