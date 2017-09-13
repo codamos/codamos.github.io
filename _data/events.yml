@@ -51,6 +51,8 @@
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
 
+
+
 # SETEMBRO
 
 - title: "Inteligência artificial: aplicação e novas experiências"
@@ -259,6 +261,19 @@
   main_url: "http://seminarioprivacidade.cgi.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
 
+- title: "THT + Netcoders: Decifrando o LinkedIn"
+  free: true
+  category: Palestra
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "thtthingshackerteam.jpg"
+  women: true
+  tags: [universal-access]
+  facebook: "ThingsHackerTeam"
+  linkedin: "company/22313130/"
+  main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team/events/243216691"
+
 - title: "Java @ Rio #3"
   free: true
   location: "Rio de Janeiro - RJ"
@@ -420,6 +435,15 @@
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
 
+- title: "Terceiro Elm SP na TW"
+  free: true
+  category: Palestra
+  location: "São Paulo - SP"
+  date: "27/09"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
+
 - title: "Living with Unicorns - BlaBlaCar + Sprinklr"
   free: true
   women: true
@@ -569,6 +593,18 @@
   facebook: "pythonbrasil"
   main_url: "http://2017.pythonbrasil.org.br"
   rsvp_url: "http://2017.pythonbrasil.org.br/#tickets"
+
+- title: "Vamos Entender UX Na prática?"
+  free: true
+  category: Palestra
+  location: "Santos - SP"
+  date: "07/10"
+  women: true
+  banner: "uxnapratica.jpg"
+  tags: [universal-access]
+  facebook: "CaicaraAgil"
+  main_url: "https://www.meetup.com/pt-BR/caicaraagil"
+  rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
 
 - title: "React Conf"
   women: true
@@ -850,6 +886,20 @@
   instagram: "thedevconf"
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
   rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
+
+- title: "Django Girls São Paulo - 2 edição"
+  free: true
+  inclusive: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "django-girls2.png"
+  tags: [venus, universal-access]
+  hashtag: "DjangoGirlsSP"
+  twitter: "DjangoGirlsSP"
+  facebook: "DjangoGirlsSP"
+  main_url: "https://djangogirls.org/saopaulo/apply/"
+  rsvp_url: "https://djangogirls.org/saopaulo/#apply"
 
 - title: "Women Dev Summit"
   cfp: true
