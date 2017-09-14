@@ -24,6 +24,7 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -101,6 +102,17 @@
   facebook: "RDCONF"
   main_url: "http://ranchodev.com.br/"
   rsvp_url: "http://ranchodev.com.br/"
+  
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+  rsvp_url: "https://www.sympla.com.br/emerge-day-sao-paulo-2017__177617"
 
 - title: "Smart City com Arduino, Design Thinking e Scrum"
   location: "São Paulo - SP"
@@ -232,6 +244,16 @@
   facebook: "ciandt"
   main_url: "http://www.ciandt.com/home"
   rsvp_url: "https://estagio.ciandt.com/"
+
+- title: "Oficina de Introdução ao Arduino"
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "18/09"
+  banner: "oficinaArduino.jpg"
+  tags: [universal-access]
+  facebook: "eletronicaparaartistas"
+  main_url: "http://eletronicaparaartistas.com.br/"
+  rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
 
 - title: "Impactos da exposição de crianças e adolescentes na Internet"
   free: true
@@ -423,6 +445,20 @@
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
+
+- title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
+  free: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "25/09"
+  banner: "hackclimate.jpg"
+  tags: [universal-access]
+  facebook: "Hack4Climate"
+  hashtag: "Hack_4_Climate"
+  twitter: "Hack_4_Climate"
+  linkedin: "company/11252035"
+  main_url: "https://www.hack4climatesp.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
 
 - title: "IBM SCHOOL - O Futuro das Profissões"
   free: true
