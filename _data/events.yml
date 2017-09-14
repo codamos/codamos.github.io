@@ -24,6 +24,7 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -50,6 +51,8 @@
   facebook: "locaweb"
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
+
+
 
 # SETEMBRO
 
@@ -100,12 +103,24 @@
   main_url: "http://ranchodev.com.br/"
   rsvp_url: "http://ranchodev.com.br/"
 
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  women: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [venus, universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+  rsvp_url: "https://www.sympla.com.br/emerge-day-sao-paulo-2017__177617"
+
 - title: "Smart City com Arduino, Design Thinking e Scrum"
   location: "São Paulo - SP"
+  women: true
   date: "16/09"
   banner: "smart-city.png"
   tags: [venus, universal-access]
-  Women: true
   hashtag: "coletividad"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -129,6 +144,7 @@
 - title: "Café com Marialab"
   free: true
   inclusive: true
+  women: true
   location: "São Paulo - SP"
   date: "16/09"
   banner: "maria.png"
@@ -193,6 +209,7 @@
   rsvp_url: "https://www.sympla.com.br/frontinvale-2017__130049"
 
 - title: "Code in the Dark"
+  women: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "code-in-the-dark-vp.png"
@@ -231,6 +248,16 @@
   main_url: "http://www.ciandt.com/home"
   rsvp_url: "https://estagio.ciandt.com/"
 
+- title: "Oficina de Introdução ao Arduino"
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "18/09"
+  banner: "oficinaArduino.jpg"
+  tags: [universal-access]
+  facebook: "eletronicaparaartistas"
+  main_url: "http://eletronicaparaartistas.com.br/"
+  rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
+
 - title: "Impactos da exposição de crianças e adolescentes na Internet"
   free: true
   category: Workshop
@@ -258,6 +285,17 @@
   youtube: "user/NICbrvideos"
   main_url: "http://seminarioprivacidade.cgi.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
+
+- title: "THT + Netcoders: Decifrando o LinkedIn"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "thtthingshackerteam.jpg"
+  facebook: "ThingsHackerTeam"
+  linkedin: "company/22313130/"
+  main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team/events/243216691"
 
 - title: "Java @ Rio #3"
   free: true
@@ -409,16 +447,40 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
 
+- title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
+  free: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "25/09"
+  banner: "hackclimate.jpg"
+  tags: [cc, wheelchair-alt, universal-access]
+  facebook: "Hack4Climate"
+  hashtag: "Hack_4_Climate"
+  twitter: "Hack_4_Climate"
+  linkedin: "company/11252035"
+  main_url: "https://www.hack4climatesp.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
+
 - title: "IBM SCHOOL - O Futuro das Profissões"
   free: true
   location: "São Paulo - SP"
   date: "26/09"
   banner: "ibm-school.jpg"
-  tags: [universal-access]
+  tags: [venus, cc, universal-access]
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+
+- title: "Terceiro Elm SP na TW"
+  free: true
+  category: Palestra
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "elm-sp.jpg"
+  tags: [venus, universal-access, wheelchair-alt]
+  main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
 
 - title: "Living with Unicorns - BlaBlaCar + Sprinklr"
   free: true
@@ -446,6 +508,7 @@
   location: "São Paulo - SP"
   date: "29/09 e 30/09"
   banner: "the-conf.png"
+  tags: [wheelchair-alt]
   hashtag: "theconf"
   twitter: "theconfbr"
   facebook: "TheConfClub"
@@ -527,6 +590,8 @@
   location: "São Paulo - SP"
   date: "30/09 a 01/10"
   banner: "ux-metrics.jpg"
+  tags: [wheelchair-alt, universal-access]
+  hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
@@ -569,6 +634,18 @@
   facebook: "pythonbrasil"
   main_url: "http://2017.pythonbrasil.org.br"
   rsvp_url: "http://2017.pythonbrasil.org.br/#tickets"
+
+- title: "Vamos Entender UX Na prática?"
+  free: true
+  category: Palestra
+  location: "Santos - SP"
+  date: "07/10"
+  women: true
+  banner: "uxnapratica.jpg"
+  tags: [venus]
+  facebook: "CaicaraAgil"
+  main_url: "https://www.meetup.com/pt-BR/caicaraagil"
+  rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
 
 - title: "React Conf"
   women: true
@@ -716,7 +793,6 @@
   location: "Joinville - SC"
   date: "24/10 e 25/10"
   banner: "festival-robotica.jpg"
-  tags: []
   facebook: "festivalroboticajoinville"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://www.facebook.com/events/113565649365696"
@@ -851,6 +927,20 @@
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
   rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
+- title: "Django Girls São Paulo - 2 edição"
+  free: true
+  inclusive: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "django-girls2.png"
+  tags: [venus, universal-access]
+  hashtag: "DjangoGirlsSP"
+  twitter: "DjangoGirlsSP"
+  facebook: "DjangoGirlsSP"
+  main_url: "https://djangogirls.org/saopaulo/apply/"
+  rsvp_url: "https://djangogirls.org/saopaulo/#apply"
+
 - title: "Women Dev Summit"
   cfp: true
   inclusive: true
@@ -915,6 +1005,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
 - title: "Mobile Summit Brazil"
+  women: true
   location: "Porto Alegre - RS"
   date: "25/11"
   banner: "mobilesummitbrazil.png"
