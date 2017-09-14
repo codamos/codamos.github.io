@@ -102,24 +102,25 @@
   facebook: "RDCONF"
   main_url: "http://ranchodev.com.br/"
   rsvp_url: "http://ranchodev.com.br/"
-  
+
 - title: "Emerge Day São Paulo 2017"
   free: true
+  women: true
   category: Oficina
   location: "São Paulo - SP"
   date: "16/09"
   banner: "emergeDay.jpg"
-  tags: [universal-access]
+  tags: [venus, universal-access]
   facebook: "iniciativaemerge"
   main_url: "https://www.iniciativaemerge.org/emergeday"
   rsvp_url: "https://www.sympla.com.br/emerge-day-sao-paulo-2017__177617"
 
 - title: "Smart City com Arduino, Design Thinking e Scrum"
   location: "São Paulo - SP"
+  women: true
   date: "16/09"
   banner: "smart-city.png"
   tags: [venus, universal-access]
-  Women: true
   hashtag: "coletividad"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -143,6 +144,7 @@
 - title: "Café com Marialab"
   free: true
   inclusive: true
+  women: true
   location: "São Paulo - SP"
   date: "16/09"
   banner: "maria.png"
@@ -207,6 +209,7 @@
   rsvp_url: "https://www.sympla.com.br/frontinvale-2017__130049"
 
 - title: "Code in the Dark"
+  women: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
   banner: "code-in-the-dark-vp.png"
@@ -285,12 +288,10 @@
 
 - title: "THT + Netcoders: Decifrando o LinkedIn"
   free: true
-  category: Palestra
+  women: true
   location: "São Paulo - SP"
   date: "20/09"
   banner: "thtthingshackerteam.jpg"
-  women: true
-  tags: [universal-access]
   facebook: "ThingsHackerTeam"
   linkedin: "company/22313130/"
   main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
@@ -452,7 +453,7 @@
   location: "São Paulo - SP"
   date: "25/09"
   banner: "hackclimate.jpg"
-  tags: [universal-access]
+  tags: [cc, wheelchair-alt, universal-access]
   facebook: "Hack4Climate"
   hashtag: "Hack_4_Climate"
   twitter: "Hack_4_Climate"
@@ -465,7 +466,7 @@
   location: "São Paulo - SP"
   date: "26/09"
   banner: "ibm-school.jpg"
-  tags: [universal-access]
+  tags: [venus, cc, universal-access]
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
@@ -476,7 +477,8 @@
   category: Palestra
   location: "São Paulo - SP"
   date: "27/09"
-  tags: [universal-access]
+  banner: "elm-sp.jpg"
+  tags: [venus, universal-access, wheelchair-alt]
   main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
   rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
 
@@ -506,6 +508,7 @@
   location: "São Paulo - SP"
   date: "29/09 e 30/09"
   banner: "the-conf.png"
+  tags: [wheelchair-alt]
   hashtag: "theconf"
   twitter: "theconfbr"
   facebook: "TheConfClub"
@@ -587,6 +590,8 @@
   location: "São Paulo - SP"
   date: "30/09 a 01/10"
   banner: "ux-metrics.jpg"
+  tags: [wheelchair-alt, universal-access]
+  hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
@@ -637,7 +642,7 @@
   date: "07/10"
   women: true
   banner: "uxnapratica.jpg"
-  tags: [universal-access]
+  tags: [venus]
   facebook: "CaicaraAgil"
   main_url: "https://www.meetup.com/pt-BR/caicaraagil"
   rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
@@ -788,7 +793,6 @@
   location: "Joinville - SC"
   date: "24/10 e 25/10"
   banner: "festival-robotica.jpg"
-  tags: []
   facebook: "festivalroboticajoinville"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://www.facebook.com/events/113565649365696"
@@ -1001,6 +1005,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
 - title: "Mobile Summit Brazil"
+  women: true
   location: "Porto Alegre - RS"
   date: "25/11"
   banner: "mobilesummitbrazil.png"
