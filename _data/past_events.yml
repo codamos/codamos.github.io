@@ -18,9 +18,9 @@
 # youtube:   texto sem espaços, opcional. Youtube handle.
 # main_url:  URL, obrigatório. Site do evento.
 
-- title: "LIVING WITH UNICORNS - SPOTIFY AND WEWORK"
+- title: "Living with Unicorns"
   location: "São Paulo - SP"
-  date: "11/07/2017"
+  date: "11/07"
   banner: "unicorn.png"
   hashtag: "LigaVentures"
   facebook: "ligaventures"
@@ -29,7 +29,7 @@
 
 - title: "HACKAFLAG - Roadsec"
   location: "São Paulo - SP"
-  date: "15/07/2017"
+  date: "15/07"
   banner: "roadsec.png"
   hashtag: "Hackaflag"
   twitter: "roadsec"
@@ -39,7 +39,7 @@
 
 - title: "Café com Marialab - Julho"
   location: "São Paulo - SP"
-  date: "15/07/2017"
+  date: "15/07"
   banner: "maria.png"
   tags: [venus, cc, wheelchair-alt]
   twitter: "MarialabHackers"
@@ -48,7 +48,7 @@
 
 - title: "7 Masters - Vue.js"
   location: "São Paulo - SP"
-  date: "19/07/2017"
+  date: "19/07"
   banner: "7masters.png"
   hashtag: "7Masters"
   twitter: "iMasters"
@@ -58,7 +58,7 @@
 
 - title: "The Developers Conference - SP"
   location: "São Paulo - SP"
-  date: "18 a 22/07/2017"
+  date: "18/07 a 22/07"
   banner: "tdc.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "TheDevConf"
@@ -69,7 +69,7 @@
 
 - title: "Design de Produto: colocando sua ideia no mercado - Coletividad"
   location: "São Paulo - SP"
-  date: "22/07/2017"
+  date: "22/07"
   banner: "coletividad-design.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -78,7 +78,7 @@
 
 - title: "Code in the dark - Recife"
   location: "Recife - PE"
-  date: "23/07/2017"
+  date: "23/07"
   banner: "code-in-the-dark.png"
   tags: [venus, cc]
   hashtag: "codeinthedarkbr"
@@ -87,7 +87,7 @@
 
 - title: "Design Debate #2: O que realmente precisamos falar sobre Design? - Coletividad"
   location: "São Paulo - SP"
-  date: "25/07/2017"
+  date: "25/07"
   banner: "coletividad-design-debate.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -96,7 +96,7 @@
 
 - title: "PWA, Web Apps e Aplicações Offline na Prática - 2ª Turma - Coletividad"
   location: "São Paulo - SP"
-  date: "27/07/2017"
+  date: "27/07"
   banner: "coletividad-workshop-pwa.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -105,7 +105,7 @@
 
 - title: "Lean UX e Agile - como projetar uma experiência incrível para o usuário - Coletividad"
   location: "São Paulo - SP"
-  date: "27/07/2017"
+  date: "27/07"
   banner: "coletividad-ux-agile.jpg"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -1084,7 +1084,7 @@
   main_url: "http://maratona.ime.usp.br/sedes17.html"
   rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
 
- - title: "Inteligência artificial: aplicação e novas experiências"
+- title: "Inteligência artificial: aplicação e novas experiências"
   category: "Curso"
   location: "Online"
   date: "13/09 a 16/10"
