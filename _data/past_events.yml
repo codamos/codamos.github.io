@@ -1155,8 +1155,6 @@
   inclusive: true
   women: true
   location: "São Paulo - SP"
-<<<<<<< HEAD
-=======
   date: "09/09"
   banner: "ibm-host.jpg"
   facebook: "BlueHack-Community-Brasil"
@@ -1252,7 +1250,6 @@
   inclusive: true
   women: true
   location: "São Paulo - SP"
->>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
   date: "16/09"
   banner: "maria.png"
   tags: [venus, cc]
@@ -1264,10 +1261,7 @@
   rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/"
 
 - title: "CSSday"
-<<<<<<< HEAD
   highlight: true
-=======
->>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
   women:  true
   inclusive: true
   free: true
@@ -1345,7 +1339,4 @@
   banner: "codelab.jpg"
   main_url: "https://www.facebook.com/events/1904361406485528/"
   rsvp_url: "https://www.sympla.com.br/codelab-html-e-css__179881"
-<<<<<<< HEAD
 
-=======
->>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813

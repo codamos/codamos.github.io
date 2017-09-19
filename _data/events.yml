@@ -53,12 +53,8 @@
 
 # SETEMBRO
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
 - title: "Programa de Estágio Escape Tech"
-  free: true
+  free: "true"
   location: "São Paulo - SP"
   date: "até 18/09"
   banner: "estagio-escape-tech.png"
@@ -674,7 +670,6 @@
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
 
-<<<<<<< HEAD
 - title: "IBMHosts: Etapa SP da Maratona de Programação"
   location: "São Paulo - SP"
   date: "09/09"
@@ -692,7 +687,7 @@
   instagram: "itsriodejaneiro"
   main_url: "https://itsrio.org/pt/home/"
   rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
-=======
+
 - title: "Campus Party - #CPWeekendPatoBranco"
   location: "Pato Branco - PR"
   date: "14/10 a 15/10"
@@ -706,7 +701,6 @@
   facebook: "campuspartybrasil"
   main_url: "http://campuse.ro"
   rsvp_url: "http://campuse.ro/events/cpweekend-pato-branco-2017/"
->>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
 
 - title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
   fre: true
