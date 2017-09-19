@@ -188,7 +188,7 @@
   banner: "react-12.png"
   hashtag: "ReactSP"
   twitter: "ReactConfBR"
-  facebook: "reactconf"  
+  facebook: "reactconf"
   tags: [universal-access]
   main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
   rsvp_url: "https://www.meetup.com/pt-BR/ReactJS-SP/events/243238941/"
@@ -433,7 +433,7 @@
   date: "30/09"
   banner: "devfestcerrado2017.jpg"
   tags: [cc, universal-access]
-  twitter: "gdggoiania" 
+  twitter: "gdggoiania"
   hashtag: "devfestcerrado"
   facebook: "gdggoiania"
   main_url: "https://devfestcerrado.com.br/"
@@ -537,7 +537,7 @@
   tags: [universal-access]
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
-  
+
 - title: "PHPeste"
   women: true
   location: "Fortaleza - CE"
@@ -563,7 +563,6 @@
 
 - title: "Vamos Entender UX Na prática?"
   free: true
-  category: "Palestra"
   location: "Santos - SP"
   date: "07/10"
   women: true
@@ -670,13 +669,6 @@
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
 
-- title: "IBMHosts: Etapa SP da Maratona de Programação"
-  location: "São Paulo - SP"
-  date: "09/09"
-  banner: "ibm-host.jpg"
-  facebook: "BlueHack-Community-Brasil"
-  main_url: "http://maratona.ime.usp.br/sedes17.html"
-  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
 - title: "Inteligência artificial: aplicação e novas experiências"
   category: "Curso"
   location: "Online"
@@ -998,7 +990,7 @@
   date: "18/11"
   banner: "devfestbh.jpg"
   tags: [cc, universal-access]
-  twitter: "gdg_bh" 
+  twitter: "gdg_bh"
   hashtag: "gdg_bh"
   facebook: "gdgbh"
   main_url: "http://www.devfestbh.com.br/"
