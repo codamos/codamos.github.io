@@ -1076,10 +1076,172 @@
   main_url: "http://pythonsul.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
 
-- title: "IBMHosts: Etapa SP da Maratona de Programação"
+
+- title: "Agile Brazil"
+  location: "Belém - PA"
+  date: "13/09 a 15/09"
+  banner: "agile-br.png"
+  women: true
+  tags: [cc, universal-access]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/2017/"
+  rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
+
+- title: "CUBO CONECTA 2017"
   location: "São Paulo - SP"
-  date: "09/09"
-  banner: "ibm-host.jpg"
-  facebook: "BlueHack-Community-Brasil"
-  main_url: "http://maratona.ime.usp.br/sedes17.html"
-  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
+  date: "14/09"
+  banner: "cuboconecta.jpg"
+  hashtag: "cubo_network"
+  linkedin: "company/9487897"
+  twitter: "cubo_network"
+  facebook: "cubo.network"
+  main_url: "https://conecta.cubo.network"
+  rsvp_url: "https://www.sympla.com.br/cubo-conecta-2017__177388"
+
+- title: "RanchoDev"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "rancho-dev.png"
+  tags: [cc]
+  hashtag: "ranchodev2017"
+  twitter: "ranchodev"
+  facebook: "RDCONF"
+  main_url: "http://ranchodev.com.br/"
+  rsvp_url: "http://ranchodev.com.br/"
+
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  women: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [venus, universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+  rsvp_url: "https://www.sympla.com.br/emerge-day-sao-paulo-2017__177617"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  women: true
+  date: "16/09"
+  banner: "smart-city.png"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/smart-city-com-arduino-design-thinking-e-scrum-tickets-36976354271"
+
+- title: "Mergulhando em Rust @TW Belo Horizonte"
+  free: true
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "16/09"
+  banner: "mozilla-rust-bh.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-2-registration-36876136517"
+
+- title: "Café com Marialab"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "maria.png"
+  tags: [venus, cc]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  meetup:  "marialab"
+  main_url: "https://marialab.org/"
+  rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/"
+
+- title: "CSSday"
+  highlight: true
+  women:  true
+  inclusive: true
+  free: true
+  location: "Recife - PE"
+  date: "16/09"
+  banner: "cssday.png"
+  tags: [venus, cc]
+  hashtag: "cssdaybr17"
+  twitter: "cssdaybr"
+  facebook: "cssdaybr"
+  youtube: "caravanaweb"
+  main_url: "https://cssday.com.br/"
+  rsvp_url: "https://cssday.com.br/"
+
+- title: "Hyper Virtual festival"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "hypervr.png"
+  hashtag: "vr"
+  twitter: "E_B_A_C"
+  facebook: "hyperimmersive"
+  main_url: "https://www.hypervrfestival.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hyper-virtual-reality-festival-2017-tickets-34610890104"
+
+- title: "6º Fórum Empreendedoras"
+  location: "São Paulo - SP"
+  inclusive: true
+  women: true
+  date: "16/09"
+  banner: "forum-empreendedoras.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womeninleadership"
+  twitter: "RMEmpreendedora"
+  facebook: "ForumEmpreendedoras"
+  main_url: "http://www.forumempreendedoras.com.br"
+  rsvp_url: "https://www.sympla.com.br/vi-forum-empreendedoras---empreendedorismo-e-o-empoderamento-economico-da-mulher__157250"
+
+- title: "Front in Vale"
+  women: true
+  inclusive: true
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "front-in-vale.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "frontinvale2017"
+  twitter: "frontinvale"
+  facebook: "frontinvale"
+  main_url: "http://frontinvale.com.br/"
+  rsvp_url: "https://www.sympla.com.br/frontinvale-2017__130049"
+
+- title: "Code in the Dark"
+  women: true
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "code-in-the-dark-vp.png"
+  tags: [venus, cc]
+  hashtag: "CITD"
+  twitter: "CodeintheDarkBR"
+  facebook: "codeinthedarkbr"
+  main_url: "http://codeinthedark.frontinvale.com.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScHuE4X-XL5Lltg_QUI_qooW76klZbU93zj5n2YmMoIR3SlrQ/viewform"
+
+- title: "Curso Arduino I - Conhecendo a plataforma"
+  category: "Curso"
+  location: "Salvador - BA"
+  date: "16/09"
+  banner: "curso-arduino-ba.jpg"
+  facebook: "fsagdg"
+  main_url: "https://developers.google.com/groups/chapter/101301229214170008465/"
+  rsvp_url: "https://www.sympla.com.br/curso-arduino-i-conhecendo-a-plataforma__166824"
+
+- title: "Codelab: HTML e CSS"
+  location: "Feira de Santana - BA"
+  date: "16/09"
+  banner: "codelab.jpg"
+  main_url: "https://www.facebook.com/events/1904361406485528/"
+  rsvp_url: "https://www.sympla.com.br/codelab-html-e-css__179881"
+
