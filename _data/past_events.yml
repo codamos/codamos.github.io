@@ -1150,10 +1150,7 @@
   main_url: "https://www.mozilla.org/pt-BR/"
   rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-2-registration-36876136517"
 
-- title: "Café com Marialab"
-  free: true
-  inclusive: true
-  women: true
+- title: "IBMHosts: Etapa SP da Maratona de Programação"
   location: "São Paulo - SP"
   date: "09/09"
   banner: "ibm-host.jpg"
