@@ -25,6 +25,8 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+# SETEMBRO
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: "Curso"
@@ -52,8 +54,6 @@
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
 
-# SETEMBRO
-
 - title: "Programa de Estágio Escape Tech"
   free: true
   location: "São Paulo - SP"
@@ -69,26 +69,12 @@
 - title: "Oficina de Introdução ao Arduino"
   category: "Oficina"
   location: "São Paulo - SP"
-  date: "18/09"
+  date: "18/09 até 09/10"
   banner: "oficinaArduino.jpg"
   tags: [universal-access]
   facebook: "eletronicaparaartistas"
   main_url: "http://eletronicaparaartistas.com.br/"
   rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
-
-- title: "Impactos da exposição de crianças e adolescentes na Internet"
-  free: true
-  category: "Workshop"
-  location: "São Paulo - SP"
-  date: "18/09"
-  banner: "workshopexposicaonainternet.png"
-  tags: [venus, cc, universal-access]
-  hashtag: "NICbr"
-  twitter: "comuNICbr"
-  facebook: "nic.br"
-  youtube: "user/NICbrvideos"
-  main_url: "http://workshopexposicaonainternet.nic.br/"
-  rsvp_url: "https://cursoseventos.nic.br/users/login"
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
@@ -193,7 +179,6 @@
   tags: [universal-access]
   main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
   rsvp_url: "https://www.meetup.com/pt-BR/ReactJS-SP/events/243238941/"
-
 
 - title: "Grupo de estudos Arduino no FabLab Galeria Olido"
   free: true

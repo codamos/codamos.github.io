@@ -1315,3 +1315,15 @@
   banner: "codelab.jpg"
   main_url: "https://www.facebook.com/events/1904361406485528/"
 
+- title: "Impactos da exposição de crianças e adolescentes na Internet"
+  free: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "18/09"
+  banner: "workshopexposicaonainternet.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "NICbr"
+  twitter: "comuNICbr"
+  facebook: "nic.br"
+  youtube: "user/NICbrvideos"
+  main_url: "http://workshopexposicaonainternet.nic.br/"
