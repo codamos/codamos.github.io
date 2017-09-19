@@ -800,6 +800,20 @@
   main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
   rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243157354"
 
+- title: "OpenCon 2017"
+  free: true
+  women: true
+  cfp: true
+  location: "Campinas - SP"
+  date: "27/10"
+  banner: "open-con.jpg"
+  hashtag: "OpenCon"
+  twitter: "open_con"
+  facebook: "OpenConGlobal"
+  tags: [wheelchair-alt, universal-access]
+  main_url: "https://www.cmp.ifsp.edu.br/opencon_2017_campinas/"
+  rsvp_url: "https://cmp.ifsp.edu.br/opencon_2017_campinas/novoopencon/"
+
 - title: "Code Girl - edição 5"
   free: true
   women: true
