@@ -27,7 +27,7 @@
 
 - title: "FAB LAB LIVRE SP"
   free: true
-  category: Curso
+  category: "Curso"
   location: "São Paulo - SP"
   date: "09/2017"
   banner: "fab-lab-livre.png"
@@ -55,7 +55,7 @@
 # SETEMBRO
 
 - title: "Programa de Estágio Escape Tech"
-  free: "true"
+  free: true
   location: "São Paulo - SP"
   date: "até 18/09"
   banner: "estagio-escape-tech.png"
@@ -528,7 +528,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856?aff=efbevent"
 
 - title: "Pagamentos Online no Brasil"
-  free: "true"
+  free: true
   location: "São Paulo - SP"
   date: "05/10"
   banner: "lewagonpgtoonline.jpg"
@@ -640,7 +640,6 @@
   location: "São Paulo - SP"
   date: "10/10"
   banner: "colloquium-ai.jpg"
-  tags: []
   hashtag: "IBMBrasil"
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
@@ -973,7 +972,6 @@
   location: "Salvador - BA"
   date: "11/11"
   banner: "encontro-sf.jpg"
-  tags: []
   facebook: "inoveacaolivre"
   main_url: "inoveacaolivre.github.io/2016"
   rsvp_url: "https://www.facebook.com/events/121483665162404"
