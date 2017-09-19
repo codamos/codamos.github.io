@@ -18,9 +18,9 @@
 # youtube:   texto sem espaços, opcional. Youtube handle.
 # main_url:  URL, obrigatório. Site do evento.
 
-- title: "LIVING WITH UNICORNS - SPOTIFY AND WEWORK"
+- title: "Living with Unicorns"
   location: "São Paulo - SP"
-  date: "11/07/2017"
+  date: "11/07"
   banner: "unicorn.png"
   hashtag: "LigaVentures"
   facebook: "ligaventures"
@@ -29,7 +29,7 @@
 
 - title: "HACKAFLAG - Roadsec"
   location: "São Paulo - SP"
-  date: "15/07/2017"
+  date: "15/07"
   banner: "roadsec.png"
   hashtag: "Hackaflag"
   twitter: "roadsec"
@@ -39,7 +39,7 @@
 
 - title: "Café com Marialab - Julho"
   location: "São Paulo - SP"
-  date: "15/07/2017"
+  date: "15/07"
   banner: "maria.png"
   tags: [venus, cc, wheelchair-alt]
   twitter: "MarialabHackers"
@@ -48,7 +48,7 @@
 
 - title: "7 Masters - Vue.js"
   location: "São Paulo - SP"
-  date: "19/07/2017"
+  date: "19/07"
   banner: "7masters.png"
   hashtag: "7Masters"
   twitter: "iMasters"
@@ -58,7 +58,7 @@
 
 - title: "The Developers Conference - SP"
   location: "São Paulo - SP"
-  date: "18 a 22/07/2017"
+  date: "18/07 a 22/07"
   banner: "tdc.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "TheDevConf"
@@ -69,7 +69,7 @@
 
 - title: "Design de Produto: colocando sua ideia no mercado - Coletividad"
   location: "São Paulo - SP"
-  date: "22/07/2017"
+  date: "22/07"
   banner: "coletividad-design.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -78,7 +78,7 @@
 
 - title: "Code in the dark - Recife"
   location: "Recife - PE"
-  date: "23/07/2017"
+  date: "23/07"
   banner: "code-in-the-dark.png"
   tags: [venus, cc]
   hashtag: "codeinthedarkbr"
@@ -87,7 +87,7 @@
 
 - title: "Design Debate #2: O que realmente precisamos falar sobre Design? - Coletividad"
   location: "São Paulo - SP"
-  date: "25/07/2017"
+  date: "25/07"
   banner: "coletividad-design-debate.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -96,7 +96,7 @@
 
 - title: "PWA, Web Apps e Aplicações Offline na Prática - 2ª Turma - Coletividad"
   location: "São Paulo - SP"
-  date: "27/07/2017"
+  date: "27/07"
   banner: "coletividad-workshop-pwa.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -105,7 +105,7 @@
 
 - title: "Lean UX e Agile - como projetar uma experiência incrível para o usuário - Coletividad"
   location: "São Paulo - SP"
-  date: "27/07/2017"
+  date: "27/07"
   banner: "coletividad-ux-agile.jpg"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
@@ -1155,6 +1155,104 @@
   inclusive: true
   women: true
   location: "São Paulo - SP"
+<<<<<<< HEAD
+=======
+  date: "09/09"
+  banner: "ibm-host.jpg"
+  facebook: "BlueHack-Community-Brasil"
+  main_url: "http://maratona.ime.usp.br/sedes17.html"
+  rsvp_url: "https://www.eventbrite.com.br/e/python-sul-2017-tickets-36543254859"
+
+- title: "Inteligência artificial: aplicação e novas experiências"
+  category: "Curso"
+  location: "Online"
+  date: "13/09 a 16/10"
+  banner: "ai-itsrio.jpg"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
+
+- title: "Agile Brazil"
+  location: "Belém - PA"
+  date: "13/09 a 15/09"
+  banner: "agile-br.png"
+  women: true
+  tags: [cc, universal-access]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/2017/"
+  rsvp_url: "http://www.agilebrazil.com/2017/inscricoes/"
+
+- title: "CUBO CONECTA 2017"
+  location: "São Paulo - SP"
+  date: "14/09"
+  banner: "cuboconecta.jpg"
+  hashtag: "cubo_network"
+  linkedin: "company/9487897"
+  twitter: "cubo_network"
+  facebook: "cubo.network"
+  main_url: "https://conecta.cubo.network"
+  rsvp_url: "https://www.sympla.com.br/cubo-conecta-2017__177388"
+
+- title: "RanchoDev"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "rancho-dev.png"
+  tags: [cc]
+  hashtag: "ranchodev2017"
+  twitter: "ranchodev"
+  facebook: "RDCONF"
+  main_url: "http://ranchodev.com.br/"
+  rsvp_url: "http://ranchodev.com.br/"
+
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  women: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [venus, universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+  rsvp_url: "https://www.sympla.com.br/emerge-day-sao-paulo-2017__177617"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  women: true
+  date: "16/09"
+  banner: "smart-city.png"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/smart-city-com-arduino-design-thinking-e-scrum-tickets-36976354271"
+
+- title: "Mergulhando em Rust @TW Belo Horizonte"
+  free: true
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "16/09"
+  banner: "mozilla-rust-bh.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+  rsvp_url: "https://www.eventbrite.com.br/e/mergulhando-em-rust-o-futuro-da-programacao-de-sistemas-2-registration-36876136517"
+
+- title: "Café com Marialab"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+>>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
   date: "16/09"
   banner: "maria.png"
   tags: [venus, cc]
@@ -1166,7 +1264,10 @@
   rsvp_url: "https://www.meetup.com/pt-BR/marialab/events/240366543/"
 
 - title: "CSSday"
+<<<<<<< HEAD
   highlight: true
+=======
+>>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
   women:  true
   inclusive: true
   free: true
@@ -1244,4 +1345,7 @@
   banner: "codelab.jpg"
   main_url: "https://www.facebook.com/events/1904361406485528/"
   rsvp_url: "https://www.sympla.com.br/codelab-html-e-css__179881"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813

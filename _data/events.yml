@@ -24,7 +24,6 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-
 - title: "FAB LAB LIVRE SP"
   free: true
   category: Curso
@@ -54,7 +53,10 @@
 
 # SETEMBRO
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
 - title: "Programa de Estágio Escape Tech"
   free: true
   location: "São Paulo - SP"
@@ -68,7 +70,7 @@
   rsvp_url: "https://estagio.ciandt.com/"
 
 - title: "Oficina de Introdução ao Arduino"
-  category: Oficina
+  category: "Oficina"
   location: "São Paulo - SP"
   date: "18/09"
   banner: "oficinaArduino.jpg"
@@ -79,7 +81,7 @@
 
 - title: "Impactos da exposição de crianças e adolescentes na Internet"
   free: true
-  category: Workshop
+  category: "Workshop"
   location: "São Paulo - SP"
   date: "18/09"
   banner: "workshopexposicaonainternet.png"
@@ -93,7 +95,7 @@
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
-  category: Seminário
+  category: "Seminário"
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
   banner: "protecao-privacidade-cgi.jpg"
@@ -104,6 +106,17 @@
   youtube: "user/NICbrvideos"
   main_url: "http://seminarioprivacidade.cgi.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
+
+- title: "Palestra: Como seguir carreira em UX?"
+  location: "São Paulo - SP"
+  date: "19/09"
+  banner: "palestra-carreira-ux.jpg"
+  tags: [universal-access]
+  hashtag: "MergoLab "
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__188305"
 
 - title: "THT + Netcoders: Decifrando o LinkedIn"
   free: true
@@ -271,7 +284,7 @@
   location: "São Paulo - SP"
   date: "23/09 a 24/09"
   banner: "mergo-ux.png"
-  tags: [wheelchair-alt, universal-access]
+  tags: [universal-access]
   hashtag: "UXWeekendBR"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
@@ -280,7 +293,7 @@
 
 - title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
   free: true
-  category: Workshop
+  category: "Workshop"
   location: "São Paulo - SP"
   date: "25/09"
   banner: "hackclimate.jpg"
@@ -290,6 +303,18 @@
   twitter: "Hack_4_Climate"
   linkedin: "company/11252035"
   main_url: "https://www.hack4climatesp.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
+
+- title: "DevStarter - Começando do zero!"
+  free: true
+  location: "Belo Horizonte - MG"
+  date: "26/09"
+  banner: "dev-started.jpg"
+  facebook: "GoVulpi"
+  hashtag: "DevStarter"
+  twitter: "GoVulpi"
+  linkedin: "company/10502590"
+  main_url: "http://www.vulpi.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
 
 - title: "IBM SCHOOL - O Futuro das Profissões"
@@ -305,7 +330,7 @@
 
 - title: "Terceiro Elm SP na TW"
   free: true
-  category: Palestra
+  category: "Palestra"
   location: "São Paulo - SP"
   date: "27/09"
   banner: "elm-sp.jpg"
@@ -326,6 +351,20 @@
   main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
   rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
 
+- title: "Conexão Kinghost"
+  free: true
+  women: true
+  location: "On-line"
+  date: "27/09 e 28/09"
+  banner: "conexao-king-host.jpg"
+  tags: [universal-access]
+  hashtag: "conexaokinghost"
+  twitter: "kinghost"
+  facebook: "KingHost.Brasil"
+  linkedin: "company/kinghost"
+  main_url: "http://conexaokinghost.com.br/"
+  rsvp_url: "http://conexaokinghost.com.br/"
+
 - title: "Customer Experience Summit 2017"
   location: "São Paulo - SP"
   date: "28/09"
@@ -334,6 +373,16 @@
   facebook: "CXSummit"
   main_url: "https://cxsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
+
+- title: "ID 360"
+  location: "Belo Horizonte - MG"
+  date: "28/09 e 29/09"
+  banner: "id360.jpg"
+  hashtag: "ID360"
+  twitter: "buscarid"
+  facebook: "somosbuscarid"
+  main_url: "http://www.buscarid.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
 
 - title: "The Conf"
   location: "São Paulo - SP"
@@ -355,6 +404,20 @@
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
   rsvp_url: "https://www.sympla.com.br/curso-docker-9-turma__174961"
+
+- title: "Montando sua Franzininho"
+  location: "São Paulo - SP"
+  women: true
+  category: "Workshop"
+  date: "30/09"
+  banner: "vila-maker-franzininho.jpg"
+  tags: [cc]
+  hashtag: "VempraVila"
+  twitter: "VilaMaker"
+  facebook: "vilamaker"
+  instagram: "vilamaker"
+  main_url: "https://www.vilamaker.com/"
+  rsvp_url: "https://www.vilamaker.com/p-gina-de-produto/montando-sua-franzininho"
 
 - title: "Roadsec 2017 | Porto Alegre"
   location: "Porto Alegre - RS"
@@ -433,15 +496,27 @@
   location: "São Paulo - SP"
   date: "30/09 a 01/10"
   banner: "ux-metrics.jpg"
-  tags: [wheelchair-alt, universal-access]
+  tags: [universal-access]
   hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/curso-ux-metrics.html"
 
-
 # OUTUBRO
+
+- title: "Formação em UX Design"
+  category: "Formação"
+  location: "São Paulo - SP"
+  date: "03/10 a 12/12"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "http://www.mergo.com.br/formacao-ux.html"
+
 - title: "Usabilidade 2ª edição - Torne seu produto mais fácil de usar"
   women: true
   location: "São Paulo - SP"
@@ -492,7 +567,7 @@
 
 - title: "Vamos Entender UX Na prática?"
   free: true
-  category: Palestra
+  category: "Palestra"
   location: "Santos - SP"
   date: "07/10"
   women: true
@@ -534,6 +609,21 @@
   facebook: "hackbahia"
   main_url: "https://hackbahia.github.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/hackbahia-2017-tickets-34769728193"
+
+- title: "Wearables na Prática"
+  inclusive: true
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "10/10"
+  banner: "wearables.jpg"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/wearables-na-pratica-tickets-37857329291"
 
 - title: "Introdução à TypeScript & Features Ts 2.x"
   free: true
@@ -584,6 +674,7 @@
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
 
+<<<<<<< HEAD
 - title: "IBMHosts: Etapa SP da Maratona de Programação"
   location: "São Paulo - SP"
   date: "09/09"
@@ -601,6 +692,21 @@
   instagram: "itsriodejaneiro"
   main_url: "https://itsrio.org/pt/home/"
   rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
+=======
+- title: "Campus Party - #CPWeekendPatoBranco"
+  location: "Pato Branco - PR"
+  date: "14/10 a 15/10"
+  banner: "cpweekend.jpg"
+  women: true
+  inclusive: true
+  highlight: true
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  hashtag: "CPWeekendPatoBranco"
+  twitter: "CampusPartyBRA"
+  facebook: "campuspartybrasil"
+  main_url: "http://campuse.ro"
+  rsvp_url: "http://campuse.ro/events/cpweekend-pato-branco-2017/"
+>>>>>>> 85eeaa63c09ff6f19caca6a0d0b62aa35c2d2813
 
 - title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
   fre: true
@@ -635,7 +741,6 @@
   location: "Rio de Janeiro - RJ"
   date: "18/10"
   banner: "git-itsrio.jpg"
-  tags: []
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
@@ -651,6 +756,18 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "Curso UI Design+Mobile"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "21/10 e 22/10"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "http://www.mergo.com.br/curso-uidesign-mobile.html"
 
 - title: "DevFest Nordeste 2017"
   location: "Salvador - BA"
@@ -763,8 +880,21 @@
   main_url: "http://ebicc.sbcc.org.br/"
   rsvp_url: "http://ebicc.sbcc.org.br/#registration"
 
-
 # NOVEMBRO
+
+- title: "Campus Party - #CPMG2"
+  location: "Belo Horizonte - MG"
+  date: "01/11"
+  banner: "cpmg2.jpg"
+  women: true
+  inclusive: true
+  highlight: true
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  hashtag: "CPMG2"
+  twitter: "CampusPartyBRA"
+  facebook: "campuspartybrasil"
+  main_url: "http://campuse.ro/"
+  rsvp_url: "http://campuse.ro/events/campus-party-minas-gerais-2017/"
 
 - title: "São Paulo Tech Week"
   location: "São Paulo - SP"
@@ -803,7 +933,7 @@
 - title: "Django Girls São Paulo - 2 edição"
   free: true
   inclusive: true
-  category: Workshop
+  category: "Workshop"
   location: "São Paulo - SP"
   date: "11/11"
   banner: "django-girls2.png"
@@ -826,7 +956,7 @@
   hashtag: "WDS2k17"
   facebook: "womendevsummit"
   main_url: "http://womendevsummit.com/"
-  rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
+  rsvp_url: "https://www.sympla.com.br/women-dev-summit__125225"
 
 - title: "LaraconfBrasil 2017"
   cfp: true
@@ -889,6 +1019,19 @@
   main_url: "https://nullbyte-con.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
+- title: "WDCD SP 2017"
+  location: "ão Paulo - SP"
+  cfp: true
+  date: "22/11 e 23/11"
+  banner: "wdcd-sp.jpg"
+  tags: [wheelchair-alt, universal-access]
+  hashtag: "TheworldneedsyourIdeas"
+  twitter: "WhatDesignCanDo"
+  facebook: "fb.whatdesigncando"
+  linkedin: "company/5087833"
+  main_url: "http://challenge.whatdesigncando.com/"
+  rsvp_url: "http://msummit.com.br/#ct-subscription"
+
 - title: "Mobile Summit Brazil"
   women: true
   location: "Porto Alegre - RS"
@@ -901,6 +1044,8 @@
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+# DEZEMBRO
 
 - title: "Workshop de Design Thinking com Silvio Acher"
   category: "Workshop"
@@ -923,6 +1068,34 @@
   tags: [universal-access]
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
+
+# 2018
+
+- title: "Curso UX Writing"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "21/10 e 22/10"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "http://www.mergo.com.br/curso-ux-writing.html"
+
+- title: "Campus Party - #CPBR11"
+  location: "São Paulo - SP"
+  date: "30/01 a 04/02"
+  banner: "cpbr11.jpg"
+  women: true
+  inclusive: true
+  highlight: true
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  hashtag: "CPBR11"
+  twitter: "CampusPartyBRA"
+  facebook: "campuspartybrasil"
+  main_url: "http://campuse.ro/"
+  rsvp_url: "http://campuse.ro/events/campus-party-brasil-2018/"
 
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
