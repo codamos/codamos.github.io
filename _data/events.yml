@@ -20,6 +20,7 @@
 # youtube:   texto sem espaços, opcional. Youtube handle.
 # main_url:  URL, obrigatório. Site do evento.
 
+#### Campos exclusivos de eventos atuais (remover quando for para `past_events`):
 # rsvp_url:  URL, obrigatório. Site para inscrição no evento.
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
