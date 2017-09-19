@@ -54,7 +54,7 @@
 # SETEMBRO
 
 - title: "Programa de Estágio Escape Tech"
-  free: true
+  free: "true"
   location: "São Paulo - SP"
   date: "até 18/09"
   banner: "estagio-escape-tech.png"
@@ -181,6 +181,18 @@
   meetup: "PHPSP-Campinas"
   main_url: "http://phpsp.org.br/"
   rsvp_url: "https://www.meetup.com/pt-BR/PHPSP-Campinas/events/237272021/"
+
+- title: "React #13 – Double Topic: Styled-components 💅 & Serveless"
+  location: "São Paulo - SP"
+  date: "21/09"
+  banner: "react-12.png"
+  hashtag: "ReactSP"
+  twitter: "ReactConfBR"
+  facebook: "reactconf"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
+  rsvp_url: "https://www.meetup.com/pt-BR/ReactJS-SP/events/243238941/"
+
 
 - title: "Grupo de estudos Arduino no FabLab Galeria Olido"
   free: true
@@ -415,6 +427,18 @@
   main_url: "http://roadsec.com.br"
   rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-porto-alegre-registration-30533541645"
 
+- title: "DevFest Cerrado 2017"
+  cfp: "true"
+  location: "Goiânia - GO"
+  date: "30/09"
+  banner: "devfestcerrado2017.jpg"
+  tags: [cc, universal-access]
+  twitter: "gdggoiania"
+  hashtag: "devfestcerrado"
+  facebook: "gdggoiania"
+  main_url: "https://devfestcerrado.com.br/"
+  rsvp_url: "https://credencial.imasters.com.br/devfestcerrado2017"
+
 - title: "Primeiros Passos em Robótica"
   category: "Curso"
   location: "São Paulo - SP"
@@ -502,6 +526,18 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856?aff=efbevent"
 
+- title: "Pagamentos Online no Brasil"
+  free: "true"
+  location: "São Paulo - SP"
+  date: "05/10"
+  banner: "lewagonpgtoonline.jpg"
+  hashtag: "lewagon"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
+
 - title: "PHPeste"
   women: true
   location: "Fortaleza - CE"
@@ -527,7 +563,6 @@
 
 - title: "Vamos Entender UX Na prática?"
   free: true
-  category: "Palestra"
   location: "Santos - SP"
   date: "07/10"
   women: true
@@ -633,6 +668,17 @@
   facebook: "bytegirlevento"
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
+
+- title: "Inteligência artificial: aplicação e novas experiências"
+  category: "Curso"
+  location: "Online"
+  date: "13/09 a 16/10"
+  banner: "ai-itsrio.jpg"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
 
 - title: "Campus Party - #CPWeekendPatoBranco"
   location: "Pato Branco - PR"
@@ -937,6 +983,18 @@
   facebook: "locaweb"
   main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
+
+- title: "DevFest BH"
+  cfp: "true"
+  location: "Belo Horizonte - MG"
+  date: "18/11"
+  banner: "devfestbh.jpg"
+  tags: [cc, universal-access]
+  twitter: "gdg_bh"
+  hashtag: "gdg_bh"
+  facebook: "gdgbh"
+  main_url: "http://www.devfestbh.com.br/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-bh-2017/"
 
 - title: "NullByte Security Conference"
   location: "Salvador - BA"
