@@ -1473,8 +1473,8 @@ p {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(74, 144, 266, 0.9);
-    background-blend-mode: multiply;
+    background-color: rgba(74, 144, 266, 0.7);
+    background-blend-mode: color-burn;
 }
 
 .partners-supporters-text {
@@ -1495,7 +1495,6 @@ p {
         flex-wrap: wrap;
     }
     .partners-supporters-links li {
-        width: 33%;
         margin-bottom: 5%;
     }
 }
@@ -1503,16 +1502,15 @@ p {
 .partners-supporters-form {
     align-items: center;
     justify-content: center;
-    width: 50%;
-    margin: 5em 0;
-    padding: 5em 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: 4em 0;
+    padding: 4em 0;
     border-radius: 3px;
     letter-spacing: 2px;
 }
 .partners-supporters-form-text {
     font-size: large;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 2em;
     font-family: 'Josefin Sans', Sans-Serif;
@@ -1525,10 +1523,9 @@ p {
     .partners-supporters-form {
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: 5em 0;
     padding: 5em 0;
-    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     letter-spacing: 2px;
 }
@@ -1544,19 +1541,26 @@ p {
 }
 }
 .partners-supporters-form-wannabe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: large;
     font-weight: 300;
     font-family: Roboto, Sans-Serif;
-    width: 70%;
+    width: 80%;
+    height: 50vh;
     margin: 0 auto;
 }
 .partners-supporters-form-wannabe h3 {
-    padding: 2em 0 1em 0;
-    font-size: large;
+    padding: 13px 10px 10px 10px;
+    font-size: x-large;
     text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .partners-supporters-form-wannabe h4 {
-    padding-bottom: 1em;
+    padding: 1em;
 }
 @media (min-width: 768px) {
     .partners-supporters-links {
