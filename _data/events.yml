@@ -55,18 +55,6 @@
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
 
-- title: "Programa de Estágio Escape Tech"
-  free: true
-  location: "São Paulo - SP"
-  date: "até 18/09"
-  banner: "estagio-escape-tech.png"
-  tags: [venus]
-  hashtag: "ciandt"
-  twitter: "ciandt_BR"
-  facebook: "ciandt"
-  main_url: "http://www.ciandt.com/home"
-  rsvp_url: "https://estagio.ciandt.com/"
-
 - title: "Oficina de Introdução ao Arduino"
   category: "Oficina"
   location: "São Paulo - SP"
@@ -76,31 +64,6 @@
   facebook: "eletronicaparaartistas"
   main_url: "http://eletronicaparaartistas.com.br/"
   rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
-
-- title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
-  free: true
-  category: "Seminário"
-  location: "São Paulo - SP"
-  date: "18/09 e 19/09"
-  banner: "protecao-privacidade-cgi.jpg"
-  tags: [cc, universal-access]
-  hashtag: "SeminárioPrivacidade"
-  twitter: "comuNICbr"
-  facebook: "nic.br"
-  youtube: "user/NICbrvideos"
-  main_url: "http://seminarioprivacidade.cgi.br/"
-  rsvp_url: "https://cursoseventos.nic.br/users/login"
-
-- title: "Palestra: Como seguir carreira em UX?"
-  location: "São Paulo - SP"
-  date: "19/09"
-  banner: "palestra-carreira-ux.jpg"
-  tags: [universal-access]
-  hashtag: "MergoLab "
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__188305"
 
 - title: "THT + Netcoders: Decifrando o LinkedIn"
   free: true
