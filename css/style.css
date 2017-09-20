@@ -425,7 +425,7 @@ p {
 .page-section-title {
     font-size: var(--title-large);
     font-size: 2.5em;
-    margin: 1.0em 0 1.0em 0;
+    margin: 1.4em 0 1.0em 0;
     color: #3366cc;
 }
 
@@ -546,6 +546,8 @@ p {
     background-color: #f4f4f4;
     box-shadow: 0 0 10px 0 #999;
     z-index: 2;
+    /*box-shadow: 0 0.5em 0 rgba(244, 244, 244,0.5);
+    transition: .2s;*/
 }
 
 #header .logotipo-codamos img {
