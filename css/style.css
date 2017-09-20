@@ -586,8 +586,9 @@ p {
     width: 100%;
     padding: 30px 0;
     margin: 0;
-    border-top: 1px solid #000000;
-    background-color: #f4f4f4;
+    border-top: 2px solid #e60050;
+    border-bottom: 2px solid #40C5F5;
+    background-color: #3366cc;
 }
 
 .header-menu-hamburger .submenu-hamburger > li + li {
@@ -595,15 +596,14 @@ p {
 }
 
 .header-menu-hamburger .submenu-hamburger a {
-    color: currentColor;
+    color: #f1f1f1;
     text-decoration: none;
     padding: 10px;
-    font-size: 15px;
     font-family: Roboto, Sans-Serif;
 }
 
 .header-menu-hamburger .submenu-hamburger a:hover {
-    color: #ba205a;
+    color: #40C5F5;
     cursor: pointer;
 }
 
@@ -687,8 +687,8 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: rgba(74, 144, 266, 0.5);
-    background-blend-mode: color-burn;
+    background-color: rgba(10, 80, 266, 0.5);
+    background-blend-mode: overlay;
 }
 .banner-content {
     display: flex;
@@ -1474,8 +1474,8 @@ p {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(74, 144, 266, 0.5);
-    background-blend-mode: color-burn;
+    background-color: rgba(10, 80, 266, 0.5);
+    background-blend-mode: overlay;
 }
 
 .partners-supporters-text {
