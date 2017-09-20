@@ -26,7 +26,6 @@
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
 # SETEMBRO
-
 - title: "FAB LAB LIVRE SP"
   free: true
   category: "Curso"
@@ -179,6 +178,15 @@
   tags: [universal-access]
   main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
   rsvp_url: "https://www.meetup.com/pt-BR/ReactJS-SP/events/243238941/"
+
+- title: "Go Meetup - ThoughtWorks"
+  location: "São Paulo - SP"
+  free: true
+  date: "21/09"
+  banner: "golang.jpeg"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/golangbr/"
+  rsvp_url: "https://www.meetup.com/pt-BR/golangbr/events/243418703/"
 
 - title: "Grupo de estudos Arduino no FabLab Galeria Olido"
   free: true
@@ -356,6 +364,19 @@
   main_url: "https://cxsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
 
+- title: "TC Talks #1"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-SP/events/242973292"
+
 - title: "ID 360"
   location: "Belo Horizonte - MG"
   date: "28/09 e 29/09"
@@ -400,6 +421,19 @@
   instagram: "vilamaker"
   main_url: "https://www.vilamaker.com/"
   rsvp_url: "https://www.vilamaker.com/p-gina-de-produto/montando-sua-franzininho"
+
+- title: "Deevas da Tecnologia - Como sua comunicação afeta sua conta bancária"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  date: "30/09"
+  banner: "upwitdeevas.jpg"
+  tags: [venus, universal-access]
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+  rsvp_url: "https://www.sympla.com.br/como-sua-comunicacao-afeta-sua-conta-bancaria__188203"
 
 - title: "Roadsec 2017 | Porto Alegre"
   location: "Porto Alegre - RS"
@@ -557,6 +591,19 @@
   facebook: "CaicaraAgil"
   main_url: "https://www.meetup.com/pt-BR/caicaraagil"
   rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
+
+- title: "Primeiro Meetup do TC em Porto Alegre"
+  free: true
+  location: "Porto Alegre - RS"
+  date: "07/10"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-RS/events/243143340/"
 
 - title: "React Conf"
   women: true
@@ -716,6 +763,14 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937378/"
+
+- title: "RD Summit 2017"
+  location: "Florianópolis - SC"
+  date: "18/10 até 20/10"
+  banner: "rdsummit2017.jpg"
+  tags: [universal-access]
+  main_url: "http://rdsummit.com.br/"
+  rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
 
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
@@ -993,6 +1048,18 @@
   facebook: "gdgbh"
   main_url: "http://www.devfestbh.com.br/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-bh-2017/"
+
+- title: "DevDayRS 2017"
+  location: "Porto Alegre - RS"
+  cfp: true
+  date: "18/11"
+  banner: "devdayrs.jpg"
+  tags: [cc, universal-access]
+  twitter: "devdayrs"
+  hashtag: "DevDayRS"
+  facebook: "devdayrs"
+  main_url: "http://devday.rs/#call4papers"
+  rsvp_url: "http://devday.rs/#register"
 
 - title: "NullByte Security Conference"
   location: "Salvador - BA"
