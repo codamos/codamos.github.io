@@ -418,14 +418,14 @@ p {
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.5);
+    text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.7);
     text-transform: uppercase;
 }
 
 .page-section-title {
     font-size: var(--title-large);
     font-size: 2.5em;
-    margin: 1.8em 0 1.0em 0;
+    margin: 1.0em 0 1.0em 0;
     color: #3366cc;
 }
 
@@ -686,8 +686,9 @@ p {
     padding: 0 5%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(74, 144, 266, 0.9);
-    background-blend-mode: multiply;
+    background-position: top center;
+    background-color: rgba(74, 144, 266, 0.5);
+    background-blend-mode: color-burn;
 }
 .banner-content {
     display: flex;
@@ -715,7 +716,7 @@ p {
 #banner .page-section-text {
     color: #ffffff;
     width: 60%;
-    text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.5);
+    text-shadow: 1px 1px 1px rgba(4, 8, 12, 0.5);
 }
 @media (max-width: 660px) {
     #banner .page-section-text {
@@ -1473,7 +1474,7 @@ p {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(74, 144, 266, 0.7);
+    background-color: rgba(74, 144, 266, 0.5);
     background-blend-mode: color-burn;
 }
 
