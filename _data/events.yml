@@ -6,6 +6,7 @@
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # women:     booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
 # lgbt:      booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# hackathon: booleano (true ou false), opcional. Evento no formato hackathon.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, opcional.
@@ -284,6 +285,7 @@
 
 - title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
   free: true
+  hackathon: true
   category: "Workshop"
   location: "São Paulo - SP"
   date: "25/09"
@@ -306,7 +308,7 @@
   twitter: "GoVulpi"
   linkedin: "company/10502590"
   main_url: "http://www.vulpi.com.br/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
+  rsvp_url: "https://www.meetup.com/DevStarter/events/242991026/"
 
 - title: "IBM SCHOOL - O Futuro das Profissões"
   free: true
@@ -632,6 +634,7 @@
 
 - title: "HackBahia - 2017"
   location: "Salvador -BA"
+  hackathon: true
   date: "07/10"
   banner: "hack-bahia.jpg"
   twitter: "hackbahia"
@@ -872,6 +875,7 @@
 
 - title: "Hackathon Ninja 2017"
   location: "São Paulo - SP"
+  hackathon: true
   date: "28/10"
   banner: "get-ninjas.png"
   tags: [cc]
