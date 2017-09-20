@@ -893,6 +893,26 @@ p {
     /*box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);*/
 }
 
+.event-card-lgbt {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-card-header-lgbt {
+    background: url("../images/lgbt.png") repeat;
+    font-size: small;
+    font-weight: 300;
+    top: 52px;
+    color: #fff;
+    right: 10px;
+    width: auto;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    letter-spacing: 2px;
+}
+
 .events-card-header-ico {
     display: flex;
     justify-content: center;

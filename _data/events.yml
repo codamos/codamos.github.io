@@ -5,6 +5,7 @@
 # inclusive: booleano (true ou false), opcional. Evento inclusivo.
 # category:  texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # women:     booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
+# lgbt:      booleano (true ou false), opcional. Evento para o público LGBTQ+.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, opcional.
