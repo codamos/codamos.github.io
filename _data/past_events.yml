@@ -330,7 +330,6 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
 
-
 - title: "React #12 – Empreendedorismo + React"
   free: true
   location: "São Paulo - SP"
@@ -1077,7 +1076,6 @@
   facebook: "pythonsul"
   main_url: "http://pythonsul.org/"
 
-
 - title: "Agile Brazil"
   location: "Belém - PA"
   date: "13/09 a 15/09"
@@ -1338,7 +1336,6 @@
   twitter: "ciandt_BR"
   facebook: "ciandt"
   main_url: "http://www.ciandt.com/home"
-  rsvp_url: "https://estagio.ciandt.com/"
 
 - title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
   free: true
@@ -1352,7 +1349,6 @@
   facebook: "nic.br"
   youtube: "user/NICbrvideos"
   main_url: "http://seminarioprivacidade.cgi.br/"
-  rsvp_url: "https://cursoseventos.nic.br/users/login"
 
 - title: "Palestra: Como seguir carreira em UX?"
   location: "São Paulo - SP"
@@ -1363,4 +1359,3 @@
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://www.sympla.com.br/palestra-como-seguir-carreira-em-ux__188305"

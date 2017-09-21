@@ -58,7 +58,8 @@ layout: default
   <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
 
   <ul class="events-cards events-cards-past">
-    {% include events.html events=site.data.past_events %}
+    {% assign past_events = site.data.past_events | reverse | slice:0,6 %}
+    {% include events.html events=past_events %}
   </ul>
 </section>
 
