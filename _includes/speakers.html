@@ -40,7 +40,7 @@
     <li>
     {% if speaker.site %}
       <a href="{{ speaker.site }}" title="Site"
-         target="_blank"><i class="fa fa-link grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fa fa-link grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-link" aria-hidden="true" title="Site"></i>
     {% endif %}
@@ -49,7 +49,7 @@
     <li>
     {% if speaker.linkedin %}
       <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
-         target="_blank"><i class="fa fa-linkedin-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fa fa-linkedin-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i>
     {% endif %}
@@ -58,7 +58,7 @@
     <li>
     {% if speaker.github %}
       <a href="https://github.com/{{ speaker.github }}" title="Github"
-         target="_blank"><i class="fa fa-github-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fa fa-github-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-github-square" aria-hidden="true" title="GitHub"></i>
     {% endif %}
@@ -67,7 +67,7 @@
     <li>
     {% if speaker.twitter %}
       <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
-         target="_blank"><i class="fa fa-twitter-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fa fa-twitter-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i>
     {% endif %}
@@ -76,7 +76,7 @@
     <li>
     {% if speaker.facebook %}
       <a href="https://twitter.com/{{ speaker.facebook }}" title="Facebook"
-         target="_blank"><i class="fa fa-facebook-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fa fa-facebook-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-facebook-square" aria-hidden="true" title="Facebook"></i>
     {% endif %}

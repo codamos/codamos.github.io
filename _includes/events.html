@@ -77,7 +77,7 @@
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
         <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
-           target="_blank" title="Hashtag">{{ event.hashtag }}</a>
+           rel="noopener" target="_blank" title="Hashtag">{{ event.hashtag }}</a>
       </div>
       {% else %}
       <div class="events-card-body-no-hashtag">
@@ -94,51 +94,51 @@
       <div class="events-card-body-social-media">
         {% if event.twitter %}
         <a href="https://twitter.com/{{ event.twitter }}" title="Twitter"
-           target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         {% else %}
         <i class="fa fa-twitter" aria-hidden="true"></i>
         {% endif %}
 
         {% if event.facebook %}
         <a href="https://www.facebook.com/{{ event.facebook }}/" title="Facebook"
-           target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         {% else %}
         <i class="fa fa-facebook" aria-hidden="true"></i>
         {% endif %}
 
         {% if event.instagram %}
         <a href="http://instagram.com/{{ event.instagram }}" title="Instagram"
-           target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.linkedin %}
         <a href="https://www.linkedin.com/{{ event.linkedin }}" title="LinkedIn"
-           target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.meetup %}
         <a href="https://www.meetup.com/{{ event.meetup }}/" title="Meetup"
-           target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.medium %}
         <a href="https://www.medium.com/{{ event.medium }}/" title="Medium"
-           target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.youtube %}
         <a href="https://www.youtube.com/user/{{ event.youtube }}/videos" title="Youtube"
-           target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
         {% endif %}
 
         <a href="{{ event.main_url }}" title="Site"
-           target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
       </div>
     </div>
 
     {% if event.rsvp_url %}
     <div class="events-card-body-button">
-      <a href="{{ event.rsvp_url }}" class="button-primary" target="_blank">Quero ir</a>
+      <a href="{{ event.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ir</a>
     </div>
     {% endif %}
   </div>
