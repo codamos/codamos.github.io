@@ -1359,3 +1359,93 @@
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
+
+- title: "THT + Netcoders: Decifrando o LinkedIn"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "thtthingshackerteam.jpg"
+  facebook: "ThingsHackerTeam"
+  linkedin: "company/22313130/"
+  main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
+
+- title: "Java @ Rio #3"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "20/09"
+  banner: "java-rio.jpeg"
+  meetup: "Java-at-Rio"
+  main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
+
+- title: "CollabCode GraphQL"
+  free: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+
+- title: "Ela Líder #13"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+
+- title: "Introdução a Git e GitHub"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "20/09"
+  banner: "git-itsrio.jpg"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
+
+- title: "PHPSP Campinas + PUB"
+  free: true
+  location: "Campinas - SP"
+  date: "21/09"
+  banner: "phpsp-campinas.jpeg"
+  twitter: "phpspcampinas"
+  facebook: "grupo.campinas"
+  meetup: "PHPSP-Campinas"
+  main_url: "http://phpsp.org.br/"
+
+- title: "React #13 – Double Topic: Styled-components 💅 & Serveless"
+  location: "São Paulo - SP"
+  date: "21/09"
+  banner: "react-12.png"
+  hashtag: "ReactSP"
+  twitter: "ReactConfBR"
+  facebook: "reactconf"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
+
+- title: "Go Meetup - ThoughtWorks"
+  location: "São Paulo - SP"
+  free: true
+  date: "21/09"
+  banner: "golang.jpeg"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/golangbr/"
+
+- title: "Grupo de estudos Arduino no FabLab Galeria Olido"
+  free: true
+  location: "São Paulo - SP"
+  date: "21/09"
+  banner: "arduino-community.jpeg"
+  facebook: "fablablivresp"
+  instagram: "frontinbh"
+  meetup: "Clube-do-Arduino"
+  main_url: "http://fablablivresp.art.br/unidades/galeria-olido"

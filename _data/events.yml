@@ -28,6 +28,7 @@
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
 # SETEMBRO
+
 - title: "FAB LAB LIVRE SP"
   free: true
   category: "Curso"
@@ -45,7 +46,7 @@
   free: true
   category: "Treinamento"
   location: "São Paulo - SP"
-  date: "04/09 até 01/10"
+  date: "até 01/10"
   banner: "queroserdev-locaweb.jpg"
   hashtag: "QueroSerDev"
   youtube: "locaweb/videos"
@@ -58,111 +59,12 @@
 - title: "Oficina de Introdução ao Arduino"
   category: "Oficina"
   location: "São Paulo - SP"
-  date: "18/09 até 09/10"
+  date: "até 09/10"
   banner: "oficinaArduino.jpg"
   tags: [universal-access]
   facebook: "eletronicaparaartistas"
   main_url: "http://eletronicaparaartistas.com.br/"
   rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
-
-- title: "THT + Netcoders: Decifrando o LinkedIn"
-  free: true
-  women: true
-  location: "São Paulo - SP"
-  date: "20/09"
-  banner: "thtthingshackerteam.jpg"
-  facebook: "ThingsHackerTeam"
-  linkedin: "company/22313130/"
-  main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
-  rsvp_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team/events/243216691"
-
-- title: "Java @ Rio #3"
-  free: true
-  location: "Rio de Janeiro - RJ"
-  date: "20/09"
-  banner: "java-rio.jpeg"
-  meetup: "Java-at-Rio"
-  main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Java-at-Rio/events/241812115/"
-
-- title: "CollabCode GraphQL"
-  free: true
-  location: "São Paulo - SP"
-  date: "20/09"
-  banner: "collabcode.png"
-  tags: [cc, universal-access]
-  hashtag: "collabcodetech"
-  twitter: "collabcodetech"
-  facebook: "collabcode"
-  meetup: "CollabCodeBR"
-  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
-  rsvp_url: "https://www.meetup.com/pt-BR/CollabCodeBR/events/243039994"
-
-- title: "Ela Líder #13"
-  free: true
-  inclusive: true
-  women: true
-  location: "São Paulo - SP"
-  date: "20/09"
-  banner: "ela-lider.png"
-  tags: [venus]
-  hashtag: "#elalider"
-  twitter: "_elalider"
-  facebook: "elaliderfeminina"
-  main_url: "https://elalider.com/"
-  rsvp_url: "https://www.meetup.com/elalider/events/242702192/"
-
-- title: "Introdução a Git e GitHub"
-  free: true
-  location: "Rio de Janeiro - RJ"
-  date: "20/09"
-  banner: "git-itsrio.jpg"
-  twitter: "lewagonbrasil"
-  facebook: "lewagonbrasil"
-  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937245"
-
-- title: "PHPSP Campinas + PUB"
-  free: true
-  location: "Campinas - SP"
-  date: "21/09"
-  banner: "phpsp-campinas.jpeg"
-  twitter: "phpspcampinas"
-  facebook: "grupo.campinas"
-  meetup: "PHPSP-Campinas"
-  main_url: "http://phpsp.org.br/"
-  rsvp_url: "https://www.meetup.com/pt-BR/PHPSP-Campinas/events/237272021/"
-
-- title: "React #13 – Double Topic: Styled-components 💅 & Serveless"
-  location: "São Paulo - SP"
-  date: "21/09"
-  banner: "react-12.png"
-  hashtag: "ReactSP"
-  twitter: "ReactConfBR"
-  facebook: "reactconf"
-  tags: [universal-access]
-  main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
-  rsvp_url: "https://www.meetup.com/pt-BR/ReactJS-SP/events/243238941/"
-
-- title: "Go Meetup - ThoughtWorks"
-  location: "São Paulo - SP"
-  free: true
-  date: "21/09"
-  banner: "golang.jpeg"
-  tags: [universal-access]
-  main_url: "https://www.meetup.com/pt-BR/golangbr/"
-  rsvp_url: "https://www.meetup.com/pt-BR/golangbr/events/243418703/"
-
-- title: "Grupo de estudos Arduino no FabLab Galeria Olido"
-  free: true
-  location: "São Paulo - SP"
-  date: "21/09"
-  banner: "arduino-community.jpeg"
-  facebook: "fablablivresp"
-  instagram: "frontinbh"
-  meetup: "Clube-do-Arduino"
-  main_url: "http://fablablivresp.art.br/unidades/galeria-olido"
-  rsvp_url: "https://www.meetup.com/pt-BR/Clube-do-Arduino/events/242222319/"
 
 - title: "Tech Cycle Challenge"
   free: true
@@ -749,6 +651,16 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "2º DEVFEST CSF"
+  location: "Vassouras - RJ"
+  date: "21/10"
+  banner: "devfest-fluminense.png"
+  hashtag: "GDG"
+  facebook: "gdgvassouras"
+  facebook: "GoogleDevelopersGroupTresRios"
+  main_url: "https://devfest.centrosulfluminense.me/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
 
 - title: "Curso UI Design+Mobile"
   category: "Curso"
