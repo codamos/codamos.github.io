@@ -761,7 +761,7 @@ p {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: flex;
     flex-direction: column;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .events-card + .events-card {
@@ -774,15 +774,17 @@ p {
 
 .events-card-banner {
     height: 140px;
-    border-radius: 4px 4px 0 0;
+    border-radius: 6px 6px 0 0;
+    background: #660092;
+    background: linear-gradient(red -30%, blue 150%);
 }
 
 .events-card-header img {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    opacity: 0.9;
-    border-radius: 4px 4px 0 0;
+    opacity: 0.8;
+    border-radius: 6px 6px 0 0;
 }
 
 .events-card-header {
@@ -812,7 +814,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 1px 0px 1px 2px rgba(135, 255, 0, 0.5);
 }
 
 .events-card-header-inclusive {
@@ -832,7 +834,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 1px 0px 1px 2px rgba(0, 187, 255, 0.5);
 }
 
 .events-card-header-call4papers {
@@ -852,7 +854,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.5);
 }
 
 .events-card-header-category {
@@ -872,11 +874,11 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);
+    box-shadow: 2px 3px 4px 0px rgba(59, 2, 87, 0.8);
 }
 
 .events-card-header-women {
-    background: #ca253c;
+    background: #e60050;
     /*border: 4px solid #dc7887;
     position: absolute;*/
     font-size: small;
@@ -958,7 +960,7 @@ p {
     text-transform: uppercase;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 2px 2px 0px rgba(46, 61, 73, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .events-card-title {
