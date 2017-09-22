@@ -175,6 +175,18 @@
   main_url: "http://www.vulpi.com.br/"
   rsvp_url: "https://www.meetup.com/DevStarter/events/242991026/"
 
+- title: "UX Strategy"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "duxuxstrategy.jpg"
+  tags: [universal-access]
+  linkedin: "company/2890074"
+  instagram: "duxcoworkers"
+  facebook: "DuxCoworkers"
+  main_url: "http://duxcoworkers.com/"
+  rsvp_url: "https://www.sympla.com.br/workshop--ux-strategy__181098"
+
 - title: "IBM SCHOOL - O Futuro das Profissões"
   free: true
   location: "São Paulo - SP"
@@ -243,6 +255,15 @@
   facebook: "CXSummit"
   main_url: "https://cxsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
+
+- title: "Pitch Gov SP 2.0"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pitchgov2.jpg"
+  tags: [universal-access]
+  main_url: "http://www.pitchgov.sp.gov.br/"
+  rsvp_url: "https://www.sympla.com.br/pitch-gov-sp-20---workshop-de-lancamento__189876"
 
 - title: "TC Talks #1"
   free: true
@@ -485,6 +506,19 @@
   main_url: "https://trainingcenter.io/"
   rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-RS/events/243143340/"
 
+- title: "UI - Construindo Style Guides"
+  category: "Curso"
+  location: "São Paulo - SP"
+  women: true
+  date: "07/10"
+  banner: "styleguidescoletividade.jpg"
+  tags: [universal-access]
+  linkedin: "company/10088050"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ui-construindo-style-guides-tickets-37844105739"
+
 - title: "React Conf"
   women: true
   inclusive: true
@@ -695,6 +729,19 @@
   facebook: "devfestne"
   main_url: "https://devfestne.com.br/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
+
+- title: "Teste de usabilidade, teoria e prática"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  date: "23/10 até 24/10"
+  banner: "testeusabilidade.jpg"
+  tags: [universal-access]
+  linkedin: "company/9367347"
+  twitter: "uxtestr"
+  facebook: "uxTESTR"
+  main_url: "http://testr.com.br/"
+  rsvp_url: "https://www.sympla.com.br/workshop-teste-de-usabilidade-teoria-e-pratica__165426"
 
 - title: "FRJ#1 Festival de Robótica de Joinville"
   location: "Joinville - SC"
@@ -987,6 +1034,18 @@
   instagram: "mobilesummitbrazil"
   main_url: "http://msummit.com.br/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "Curso de Usabilidade"
+  location: "São Paulo - SP"
+  date: "25/11 até 26/11"
+  banner: "cursousabilidade.jpg"
+  tags: [universal-access]
+  linkedin: "company/5244747"
+  twitter: "mergo_ux"
+  instagram: "mergoux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://www.sympla.com.br/curso-de-usabilidade__173152"
 
 # DEZEMBRO
 
