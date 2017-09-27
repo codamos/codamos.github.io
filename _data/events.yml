@@ -66,102 +66,6 @@
   main_url: "http://eletronicaparaartistas.com.br/"
   rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
 
-- title: "Tech Cycle Challenge"
-  free: true
-  location: "São Paulo - SP"
-  date: "23/09 e 24/09"
-  banner: "tech-cycle-challenge.jpg"
-  twitter: "brcyclefair"
-  facebook: "BrasilCycleFair"
-  main_url: "brasilcyclefair.com.br/pt"
-  rsvp_url: "http://www.brasilcyclefair.com.br/pt/ingressos-venda"
-
-- title: "Métodos de Pesquisa de Mercado"
-  location: "São Paulo - SP"
-  date: "23/09"
-  banner: "metodos-de-pesquisa.jpg"
-  women: true
-  hashtag: "coletividad"
-  twitter: "coletividad"
-  facebook: "COLETIVIDAD"
-  instagram: "coletividad"
-  main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/metodos-de-pesquisa-de-mercado-tickets-37038829135"
-
-- title: "Front in BH 2k17 - BH"
-  location: "Belo Horizonte - MG"
-  date: "23/09"
-  banner: "front-inbh.jpg"
-  inclusive: true
-  women: true
-  highlight: true
-  tags: [venus, cc]
-  hashtag: "FrontInBH2k17"
-  twitter: "frontinbh"
-  facebook: "FrontInBH"
-  instagram: "frontinbh"
-  main_url: "http://frontinbh.com.br/"
-  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
-
-- title: "Devfest Maceió"
-  location: "Maceió - AL"
-  date: "23/09"
-  banner: "gdg-maceio.png"
-  tags: [cc]
-  hashtag: "dfmcz17"
-  twitter: "gdgmaceio"
-  facebook: "gdgmaceio"
-  main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.sympla.com.br/devfest-maceio-2017__158502"
-
-- title: "NerdGirlz #1 - Minicurso de MongoDB"
-  location: "São Paulo - SP"
-  category: "Curso"
-  inclusive: true
-  women: true
-  date: "23/09"
-  banner: "nerdgilz.jpg"
-  tags: [venus]
-  facebook: "nerdzao"
-  main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"
-
-- title: "TEDx Nova Lima"
-  location: "Nova Lima - MG"
-  date: "23/09"
-  banner: "tedx-novalima.png"
-  tags: [cc]
-  twitter: "tedxnovalima"
-  facebook: "TEDxNovaLima"
-  main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.sympla.com.br/tedx-nova-lima__164853"
-
-- title: "UX Weekend São Paulo"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "23/09 a 24/09"
-  banner: "mergo-ux.png"
-  tags: [universal-access]
-  hashtag: "UXWeekendBR"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
-
-- title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
-  free: true
-  hackathon: true
-  category: "Workshop"
-  location: "São Paulo - SP"
-  date: "25/09"
-  banner: "hackclimate.jpg"
-  tags: [cc, wheelchair-alt, universal-access]
-  facebook: "Hack4Climate"
-  hashtag: "Hack_4_Climate"
-  twitter: "Hack_4_Climate"
-  linkedin: "company/11252035"
-  main_url: "https://www.hack4climatesp.com/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
 
 - title: "DevStarter - Começando do zero!"
   free: true
@@ -256,6 +160,33 @@
   main_url: "https://cxsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
 
+- title: "PyLadies na Geru"
+  free: true
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pyladiesgeru.jpg"
+  tags: [venus, universal-access]
+  facebook: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  hashtag: "geru_br"
+  meetup: "PyLadiesSP"
+  main_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
+  rsvp_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
+
+- title: "DEMO DAY - Metodologia LEGO® Serious Play ® - noturno"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "flunt7.jpg"
+  tags: [universal-access]
+  facebook: "fluunt7"
+  linkedin: "company/3836005"
+  main_url: "https://www.fluunt7.com.br/"
+  rsvp_url: "https://www.sympla.com.br/demo-day----metodologia-legor-serious-play-r---noturno__189095"
+
 - title: "Pitch Gov SP 2.0"
   free: true
   location: "São Paulo - SP"
@@ -299,6 +230,17 @@
   main_url: "http://www.theconf.club/"
   rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
 
+- title: "B2Mamy Start Powered By Google Developers Launchpad"
+  location: "São Paulo - SP"
+  date: "29/09"
+  banner: "b2mamy.jpg"
+  tags: [universal-access]
+  linkedin: "company/22312779"
+  instagram: "b2mamy"
+  facebook: "b2mamy"
+  main_url: "https://www.b2mamy.com.br/"
+  rsvp_url: "https://www.sympla.com.br/b2mamy-start-powered-by-google-developers-launchpad__177934"
+
 - title: "Curso Docker"
   category: "Curso"
   location: "São Paulo - SP"
@@ -335,6 +277,27 @@
   facebook: "UPWIT"
   main_url: "http://upwit.org/"
   rsvp_url: "https://www.sympla.com.br/como-sua-comunicacao-afeta-sua-conta-bancaria__188203"
+
+- title: "Curso Prático: Scrum - Gestão Ágil de Projetos "
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "scrumieep.jpg"
+  tags: [universal-access]
+  main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
+  rsvp_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
+
+- title: "Workshop Bitcoin e Blockchain para Iniciantes"
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "descomplicandoDireito.jpg"
+  tags: [universal-access]
+  facebook: "malgueirocamposadvocacia"
+  linkedin: "company/15213726"
+  main_url: "https://www.malgueirocampos.com.br/"
+  rsvp_url: "https://www.sympla.com.br/workshop-bitcoin-e-blockchain-para-iniciantes__186103"
 
 - title: "Roadsec 2017 | Porto Alegre"
   location: "Porto Alegre - RS"
@@ -421,6 +384,18 @@
   rsvp_url: "http://www.mergo.com.br/curso-ux-metrics.html"
 
 # OUTUBRO
+
+- title: "Grow Up Startup 2017"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "02/10"
+  banner: "growstartup.jpg"
+  tags: [universal-access]
+  facebook: "growupstartup"
+  linkedin: "company/16199893"
+  main_url: "https://www.solutte.com.br/"
+  rsvp_url: "https://www.sympla.com.br/grow-up-startup-2017__184393"
 
 - title: "Formação em UX Design"
   category: "Formação"
