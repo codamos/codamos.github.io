@@ -655,6 +655,17 @@
   main_url: "http://rdsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
 
+- title: "Agilidade Recife"
+  women: true
+  location: "Recife - PE"
+  date: "20/10"
+  banner: "agil-recife.png"
+  hashtag: "agilidaderecife2017"
+  twitter: "agilidaderecife"
+  facebook: "AgilidadeRecife"
+  main_url: "http://agilidaderecife.com.br/2017/"
+  rsvp_url: "http://agilidaderecife.com.br/2017/inscreva-se/"
+
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -745,6 +756,15 @@
   youtube: "user/NICbrvideos/videos"
   main_url: "http://conferenciaweb.w3c.br/"
   rsvp_url: "https://cursoseventos.nic.br/users/login"
+
+- title: "Tropical Conf - pocket"
+  location: "Recife - PE"
+  date: "26/10"
+  banner: "tropical-conf.png"
+  twitter: "tropicalconf"
+  facebook: "tropicalconf"
+  main_url: "https://tropicalconf.com/"
+  rsvp_url: "https://www.sympla.com.br/tropical-conf---pocket-edition__183123"
 
 - title: "CollabCode Spring Data"
   free: true
