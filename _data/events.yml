@@ -66,7 +66,6 @@
   main_url: "http://eletronicaparaartistas.com.br/"
   rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
 
-
 - title: "DevStarter - Começando do zero!"
   free: true
   location: "Belo Horizonte - MG"
@@ -118,7 +117,6 @@
   location: "São Paulo - SP"
   date: "27/09"
   banner: "livingwithunicorns.jpg"
-  tags: [universal-access]
   hashtag: "LigaVentures"
   facebook: "ligaventures"
   linkedin: "company/liga-ventures"
@@ -234,7 +232,7 @@
   location: "São Paulo - SP"
   date: "29/09"
   banner: "b2mamy.jpg"
-  tags: [universal-access]
+  tags: [universal-access, child]
   linkedin: "company/22312779"
   instagram: "b2mamy"
   facebook: "b2mamy"
@@ -283,7 +281,6 @@
   location: "São Paulo - SP"
   date: "30/09"
   banner: "scrumieep.jpg"
-  tags: [universal-access]
   main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
   rsvp_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
 
@@ -312,7 +309,7 @@
   rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-porto-alegre-registration-30533541645"
 
 - title: "DevFest Cerrado 2017"
-  cfp: "true"
+  cfp: true
   location: "Goiânia - GO"
   date: "30/09"
   banner: "devfestcerrado2017.jpg"
@@ -391,7 +388,6 @@
   location: "São Paulo - SP"
   date: "02/10"
   banner: "growstartup.jpg"
-  tags: [universal-access]
   facebook: "growupstartup"
   linkedin: "company/16199893"
   main_url: "https://www.solutte.com.br/"
@@ -402,7 +398,6 @@
   location: "São Paulo - SP"
   date: "03/10 a 12/12"
   banner: "mergo-ux.png"
-  tags: [universal-access]
   hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
@@ -430,7 +425,6 @@
   hashtag: "lewagon"
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
-  tags: [universal-access]
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
 
@@ -658,7 +652,6 @@
   location: "Florianópolis - SC"
   date: "18/10 até 20/10"
   banner: "rdsummit2017.jpg"
-  tags: [universal-access]
   main_url: "http://rdsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
 
@@ -688,14 +681,27 @@
   location: "São Paulo - SP"
   date: "21/10 e 22/10"
   banner: "mergo-ux.png"
-  tags: [universal-access]
   hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/curso-uidesign-mobile.html"
 
+- title: "Experiancejam - Serasa"
+  hackathon: true
+  cfp: true
+  location: "São Carlos - SP"
+  date: "21/10 e 22/10"
+  banner: "hackathon-serasa.png"
+  hashtag: "EJ4"
+  twitter: "experianceJAM"
+  facebook: "experiancejam"
+  main_url: "http://experiancejam.com.br/"
+  rsvp_url: "http://experiancejam.com.br/#iniciativas"
+
 - title: "DevFest Nordeste 2017"
+  women: true
+  inclusive: true
   location: "Salvador - BA"
   date: "21/10"
   banner: "devfest-nordest.png"
@@ -910,7 +916,7 @@
   hashtag: "WDS2k17"
   facebook: "womendevsummit"
   main_url: "http://womendevsummit.com/"
-  rsvp_url: "https://www.sympla.com.br/women-dev-summit__125225"
+  rsvp_url: "http://womendevsummit.com/"
 
 - title: "LaraconfBrasil 2017"
   cfp: true
@@ -952,7 +958,9 @@
   rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
 
 - title: "DevFest BH"
-  cfp: "true"
+  women: true
+  inclusive: true
+  cfp: true
   location: "Belo Horizonte - MG"
   date: "18/11"
   banner: "devfestbh.jpg"
@@ -1014,7 +1022,6 @@
   location: "São Paulo - SP"
   date: "25/11 até 26/11"
   banner: "cursousabilidade.jpg"
-  tags: [universal-access]
   linkedin: "company/5244747"
   twitter: "mergo_ux"
   instagram: "mergoux"
@@ -1031,7 +1038,6 @@
   banner: "design-thinking-silvio-acher.jpg"
   twitter: "pixelshow"
   facebook: "pixelshow"
-  tags: [universal-access]
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-design-thinking-com-silvio-acher/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-design-thinking-silvio-acher-sabado"
 
@@ -1042,7 +1048,6 @@
   banner: "estamparia-estudio-abelha-turma-2.jpg"
   twitter: "pixelshow"
   facebook: "pixelshow"
-  tags: [universal-access]
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
@@ -1051,9 +1056,8 @@
 - title: "Curso UX Writing"
   category: "Curso"
   location: "São Paulo - SP"
-  date: "21/10 e 22/10"
+  date: "21/01 e 22/01"
   banner: "mergo-ux.png"
-  tags: [universal-access]
   hashtag: "MergoLab"
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"

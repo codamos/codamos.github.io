@@ -1458,7 +1458,6 @@
   twitter: "brcyclefair"
   facebook: "BrasilCycleFair"
   main_url: "brasilcyclefair.com.br/pt"
-  rsvp_url: "http://www.brasilcyclefair.com.br/pt/ingressos-venda"
 
 - title: "Métodos de Pesquisa de Mercado"
   location: "São Paulo - SP"
@@ -1470,7 +1469,6 @@
   facebook: "COLETIVIDAD"
   instagram: "coletividad"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/metodos-de-pesquisa-de-mercado-tickets-37038829135"
 
 - title: "Front in BH 2k17 - BH"
   location: "Belo Horizonte - MG"
@@ -1478,14 +1476,12 @@
   banner: "front-inbh.jpg"
   inclusive: true
   women: true
-  highlight: true
   tags: [venus, cc]
   hashtag: "FrontInBH2k17"
   twitter: "frontinbh"
   facebook: "FrontInBH"
   instagram: "frontinbh"
   main_url: "http://frontinbh.com.br/"
-  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
 
 - title: "Devfest Maceió"
   location: "Maceió - AL"
@@ -1496,7 +1492,6 @@
   twitter: "gdgmaceio"
   facebook: "gdgmaceio"
   main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.sympla.com.br/devfest-maceio-2017__158502"
 
 - title: "NerdGirlz #1 - Minicurso de MongoDB"
   location: "São Paulo - SP"
@@ -1508,7 +1503,6 @@
   tags: [venus]
   facebook: "nerdzao"
   main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"
 
 - title: "TEDx Nova Lima"
   location: "Nova Lima - MG"
@@ -1518,7 +1512,6 @@
   twitter: "tedxnovalima"
   facebook: "TEDxNovaLima"
   main_url: "https://devfest.gdgmaceio.org/"
-  rsvp_url: "https://www.sympla.com.br/tedx-nova-lima__164853"
 
 - title: "UX Weekend São Paulo"
   category: "Curso"
@@ -1530,7 +1523,6 @@
   twitter: "mergo_ux"
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
 
 - title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
   free: true
@@ -1545,5 +1537,4 @@
   twitter: "Hack_4_Climate"
   linkedin: "company/11252035"
   main_url: "https://www.hack4climatesp.com/"
-  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
 
