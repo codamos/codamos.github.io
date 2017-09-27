@@ -1449,3 +1449,101 @@
   instagram: "frontinbh"
   meetup: "Clube-do-Arduino"
   main_url: "http://fablablivresp.art.br/unidades/galeria-olido"
+
+- title: "Tech Cycle Challenge"
+  free: true
+  location: "São Paulo - SP"
+  date: "23/09 e 24/09"
+  banner: "tech-cycle-challenge.jpg"
+  twitter: "brcyclefair"
+  facebook: "BrasilCycleFair"
+  main_url: "brasilcyclefair.com.br/pt"
+  rsvp_url: "http://www.brasilcyclefair.com.br/pt/ingressos-venda"
+
+- title: "Métodos de Pesquisa de Mercado"
+  location: "São Paulo - SP"
+  date: "23/09"
+  banner: "metodos-de-pesquisa.jpg"
+  women: true
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/metodos-de-pesquisa-de-mercado-tickets-37038829135"
+
+- title: "Front in BH 2k17 - BH"
+  location: "Belo Horizonte - MG"
+  date: "23/09"
+  banner: "front-inbh.jpg"
+  inclusive: true
+  women: true
+  highlight: true
+  tags: [venus, cc]
+  hashtag: "FrontInBH2k17"
+  twitter: "frontinbh"
+  facebook: "FrontInBH"
+  instagram: "frontinbh"
+  main_url: "http://frontinbh.com.br/"
+  rsvp_url: "https://www.sympla.com.br/conf-front-in-bh-2k17__125649"
+
+- title: "Devfest Maceió"
+  location: "Maceió - AL"
+  date: "23/09"
+  banner: "gdg-maceio.png"
+  tags: [cc]
+  hashtag: "dfmcz17"
+  twitter: "gdgmaceio"
+  facebook: "gdgmaceio"
+  main_url: "https://devfest.gdgmaceio.org/"
+  rsvp_url: "https://www.sympla.com.br/devfest-maceio-2017__158502"
+
+- title: "NerdGirlz #1 - Minicurso de MongoDB"
+  location: "São Paulo - SP"
+  category: "Curso"
+  inclusive: true
+  women: true
+  date: "23/09"
+  banner: "nerdgilz.jpg"
+  tags: [venus]
+  facebook: "nerdzao"
+  main_url: "https://devfest.gdgmaceio.org/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/242803624/"
+
+- title: "TEDx Nova Lima"
+  location: "Nova Lima - MG"
+  date: "23/09"
+  banner: "tedx-novalima.png"
+  tags: [cc]
+  twitter: "tedxnovalima"
+  facebook: "TEDxNovaLima"
+  main_url: "https://devfest.gdgmaceio.org/"
+  rsvp_url: "https://www.sympla.com.br/tedx-nova-lima__164853"
+
+- title: "UX Weekend São Paulo"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "23/09 a 24/09"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://credencial.imasters.com.br/uxweekend-setembro#registration"
+
+- title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
+  free: true
+  hackathon: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "25/09"
+  banner: "hackclimate.jpg"
+  tags: [cc, wheelchair-alt, universal-access]
+  facebook: "Hack4Climate"
+  hashtag: "Hack_4_Climate"
+  twitter: "Hack_4_Climate"
+  linkedin: "company/11252035"
+  main_url: "https://www.hack4climatesp.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hack4climatesp-tickets-37822339636"
+
