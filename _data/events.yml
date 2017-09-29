@@ -56,156 +56,7 @@
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
 
-- title: "Oficina de Introdução ao Arduino"
-  category: "Oficina"
-  location: "São Paulo - SP"
-  date: "até 09/10"
-  banner: "oficinaArduino.jpg"
-  tags: [universal-access]
-  facebook: "eletronicaparaartistas"
-  main_url: "http://eletronicaparaartistas.com.br/"
-  rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
 
-- title: "DevStarter - Começando do zero!"
-  free: true
-  location: "Belo Horizonte - MG"
-  date: "26/09"
-  banner: "dev-started.jpg"
-  facebook: "GoVulpi"
-  hashtag: "DevStarter"
-  twitter: "GoVulpi"
-  linkedin: "company/10502590"
-  main_url: "http://www.vulpi.com.br/"
-  rsvp_url: "https://www.meetup.com/DevStarter/events/242991026/"
-
-- title: "UX Strategy"
-  category: "Workshop"
-  location: "São Paulo - SP"
-  date: "26/09"
-  banner: "duxuxstrategy.jpg"
-  tags: [universal-access]
-  linkedin: "company/2890074"
-  instagram: "duxcoworkers"
-  facebook: "DuxCoworkers"
-  main_url: "http://duxcoworkers.com/"
-  rsvp_url: "https://www.sympla.com.br/workshop--ux-strategy__181098"
-
-- title: "IBM SCHOOL - O Futuro das Profissões"
-  free: true
-  location: "São Paulo - SP"
-  date: "26/09"
-  banner: "ibm-school.jpg"
-  tags: [venus, cc, universal-access]
-  twitter: "ibmbrasil"
-  facebook: "IBMBrasil"
-  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
-
-- title: "Terceiro Elm SP na TW"
-  free: true
-  category: "Palestra"
-  location: "São Paulo - SP"
-  date: "27/09"
-  banner: "elm-sp.jpg"
-  tags: [venus, universal-access, wheelchair-alt]
-  main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
-
-- title: "Living with Unicorns - BlaBlaCar + Sprinklr"
-  free: true
-  women: true
-  location: "São Paulo - SP"
-  date: "27/09"
-  banner: "livingwithunicorns.jpg"
-  hashtag: "LigaVentures"
-  facebook: "ligaventures"
-  linkedin: "company/liga-ventures"
-  main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
-  rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
-
-- title: "Conexão Kinghost"
-  free: true
-  women: true
-  location: "On-line"
-  date: "27/09 e 28/09"
-  banner: "conexao-king-host.jpg"
-  tags: [universal-access]
-  hashtag: "conexaokinghost"
-  twitter: "kinghost"
-  facebook: "KingHost.Brasil"
-  linkedin: "company/kinghost"
-  main_url: "http://conexaokinghost.com.br/"
-  rsvp_url: "http://conexaokinghost.com.br/"
-
-- title: "UX VALE - Meetup #1"
-  free: true
-  location: "São José dos Campos - SP"
-  date: "27/09"
-  banner: "ux-vale.png"
-  tags: [cc, venus, universal-access]
-  hashtag: "uxvale"
-  twitter: "designasolucoes"
-  facebook: "designa.com.br"
-  main_url: "https://www.meetup.com/IxDASJC/"
-  rsvp_url: "https://www.meetup.com/IxDASJC/events/243493554/"
-
-- title: "Customer Experience Summit 2017"
-  location: "São Paulo - SP"
-  date: "28/09"
-  banner: "cx-summit.jpg"
-  tags: [wheelchair-alt, universal-access]
-  facebook: "CXSummit"
-  main_url: "https://cxsummit.com.br/"
-  rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
-
-- title: "PyLadies na Geru"
-  free: true
-  women: true
-  inclusive: true
-  location: "São Paulo - SP"
-  date: "28/09"
-  banner: "pyladiesgeru.jpg"
-  tags: [venus, universal-access]
-  facebook: "PyLadiesSP"
-  twitter: "PyLadiesSP"
-  hashtag: "geru_br"
-  meetup: "PyLadiesSP"
-  main_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
-  rsvp_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
-
-- title: "DEMO DAY - Metodologia LEGO® Serious Play ® - noturno"
-  free: true
-  women: true
-  location: "São Paulo - SP"
-  date: "28/09"
-  banner: "flunt7.jpg"
-  tags: [universal-access]
-  facebook: "fluunt7"
-  linkedin: "company/3836005"
-  main_url: "https://www.fluunt7.com.br/"
-  rsvp_url: "https://www.sympla.com.br/demo-day----metodologia-legor-serious-play-r---noturno__189095"
-
-- title: "Pitch Gov SP 2.0"
-  free: true
-  location: "São Paulo - SP"
-  date: "28/09"
-  banner: "pitchgov2.jpg"
-  tags: [universal-access]
-  main_url: "http://www.pitchgov.sp.gov.br/"
-  rsvp_url: "https://www.sympla.com.br/pitch-gov-sp-20---workshop-de-lancamento__189876"
-
-- title: "TC Talks #1"
-  free: true
-  location: "São Paulo - SP"
-  date: "28/09"
-  banner: "trainingcenter.jpg"
-  tags: [cc, universal-access]
-  twitter: "trainingcentr"
-  linkedin: "company/22312627/"
-  facebook: "trainingcenterbr"
-  medium: "trainingcenter"
-  main_url: "https://trainingcenter.io/"
-  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-SP/events/242973292"
 
 - title: "ID 360"
   location: "Belo Horizonte - MG"
@@ -392,6 +243,17 @@
   main_url: "https://www.solutte.com.br/"
   rsvp_url: "https://www.sympla.com.br/grow-up-startup-2017__184393"
 
+- title: "Bate-papo sobre a Certificação Java 8 (OCA Java 8)"
+  free: true
+  location: "São Paulo - SP"
+  date: "03/10"
+  banner: "certificacaoJava.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/certificacao-java-8-oca/"
+  rsvp_url: "https://www.sympla.com.br/bate-papo-sobre-a-certificacao-java-8-oca-java-8__190391"
+
 - title: "Formação em UX Design"
   category: "Formação"
   location: "São Paulo - SP"
@@ -416,6 +278,29 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856?aff=efbevent"
 
+- title: "FEMALE FOUNDERS ACADEMY - OFICINA DE PITCH"
+  women: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  banner: "oficinaPitch.jpg"
+  tags: [universal-access]
+  facebook: "wayrabr"
+  twitter: "WayraBrasil"
+  main_url: "https://wayra-brasil.gupy.io"
+  rsvp_url: "https://www.sympla.com.br/female-founders-academy---oficina-de-pitch__194260"
+
+- title: "COMPETÊNCIAS ESSENCIAIS DO PROFISSIONAL DO FUTURO - TURMA 3"
+  free: true
+  location: "São Paulo - SP"
+  women: "true"
+  date: "05/10"
+  banner: "competenciaProfissional.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-desenvolvimento-pessoal/competencias-essenciais-do-profissional-do-futuro/"
+  rsvp_url: "https://www.sympla.com.br/competencias-essenciais-do-profissional-do-futuro---turma-3__185949"
+
 - title: "Pagamentos Online no Brasil"
   free: true
   location: "São Paulo - SP"
@@ -426,6 +311,15 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
+
+- title: "Conferência Scratch Brasil 2017"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/10 até 07/10"
+  banner: "scratchConferencia.jpg"
+  tags: [universal-access]
+  main_url: "https://www.scratchbrasil.org"
+  rsvp_url: "https://www.eventbrite.com.br/e/conferencia-scratch-brasil-2017-registration-37385653496"
 
 - title: "PHPeste"
   women: true
@@ -449,6 +343,19 @@
   facebook: "pythonbrasil"
   main_url: "http://2017.pythonbrasil.org.br"
   rsvp_url: "http://2017.pythonbrasil.org.br/#tickets"
+
+- title: "Seja um Autor - Venha aprender como funciona escrever e lançar um livro técnico"
+  category: "Workshop"
+  free: true
+  location: "São Paulo - SP"
+  date: "07/10"
+  women: "true"
+  banner: "sejaAutor.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-desenvolvimento-pessoal/palestra-seja-um-autor/"
+  rsvp_url: "https://www.sympla.com.br/workshop-seja-um-autor-12-turma---centro-de-treinamento-da-novatec__183509"
 
 - title: "Vamos Entender UX Na prática?"
   free: true
@@ -521,6 +428,38 @@
   main_url: "https://hackbahia.github.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/hackbahia-2017-tickets-34769728193"
 
+- title: "Oficina de Introdução ao Arduino"
+  category: "Oficina"
+  location: "São Paulo - SP"
+  date: "até 09/10"
+  banner: "oficinaArduino.jpg"
+  tags: [universal-access]
+  facebook: "eletronicaparaartistas"
+  main_url: "http://eletronicaparaartistas.com.br/"
+  rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
+
+- title: "Interaction South America"
+  location: "São Paulo - SP"
+  date: "09/10 a 11/10"
+  banner: "interactionsa.png"
+  hashtag: "IxDA"
+  twitter: "ixda"
+  facebook: "ixdasaopaulo"
+  main_url: "http://isa.ixda.org/2017/"
+  rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
+
+- title: "Bate-papo sobre React"
+  category: "Workshop"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  banner: "batePapoReact.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/bate-papo-sobre-react/"
+  rsvp_url: "https://www.sympla.com.br/bate-papo-sobre-react__191781"
+
 - title: "Wearables na Prática"
   inclusive: true
   women: true
@@ -560,16 +499,6 @@
   facebook: "IBMBrasil"
   main_url: "http://www.brlcolloquium.com.br/"
   rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
-
-- title: "Interaction South America"
-  location: "São Paulo - SP"
-  date: "09/10 a 11/10"
-  banner: "interactionsa.png"
-  hashtag: "IxDA"
-  twitter: "ixda"
-  facebook: "ixdasaopaulo"
-  main_url: "http://isa.ixda.org/2017/"
-  rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
 
 - title: "Byte Girl 2017"
   location: "Fortaleza - CE"
@@ -989,6 +918,14 @@
   facebook: "gdgbh"
   main_url: "http://www.devfestbh.com.br/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-bh-2017/"
+
+- title: "Big Data Brasil Day 2017 - Great Again"
+  location: "São Paulo - SP"
+  date: "18/11"
+  banner: "bigDataBrasilDay.jpg"
+  tags: [universal-access]
+  main_url: "http://www.bigdatabrasilday.com.br"
+  rsvp_url: "https://www.eventbrite.com.br/e/big-data-brasil-day-2017-great-again-tickets-36860014295"
 
 - title: "DevDayRS 2017"
   location: "Porto Alegre - RS"
