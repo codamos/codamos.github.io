@@ -1538,3 +1538,144 @@
   linkedin: "company/11252035"
   main_url: "https://www.hack4climatesp.com/"
 
+- title: "DevStarter - Começando do zero!"
+  free: true
+  location: "Belo Horizonte - MG"
+  date: "26/09"
+  banner: "dev-started.jpg"
+  facebook: "GoVulpi"
+  hashtag: "DevStarter"
+  twitter: "GoVulpi"
+  linkedin: "company/10502590"
+  main_url: "http://www.vulpi.com.br/"
+  rsvp_url: "https://www.meetup.com/DevStarter/events/242991026/"
+
+- title: "UX Strategy"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "duxuxstrategy.jpg"
+  tags: [universal-access]
+  linkedin: "company/2890074"
+  instagram: "duxcoworkers"
+  facebook: "DuxCoworkers"
+  main_url: "http://duxcoworkers.com/"
+  rsvp_url: "https://www.sympla.com.br/workshop--ux-strategy__181098"
+
+- title: "IBM SCHOOL - O Futuro das Profissões"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "ibm-school.jpg"
+  tags: [venus, cc, universal-access]
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
+  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+
+- title: "Terceiro Elm SP na TW"
+  free: true
+  category: "Palestra"
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "elm-sp.jpg"
+  tags: [venus, universal-access, wheelchair-alt]
+  main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
+
+- title: "Living with Unicorns - BlaBlaCar + Sprinklr"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "livingwithunicorns.jpg"
+  hashtag: "LigaVentures"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
+  rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
+
+- title: "Conexão Kinghost"
+  free: true
+  women: true
+  location: "On-line"
+  date: "27/09 e 28/09"
+  banner: "conexao-king-host.jpg"
+  tags: [universal-access]
+  hashtag: "conexaokinghost"
+  twitter: "kinghost"
+  facebook: "KingHost.Brasil"
+  linkedin: "company/kinghost"
+  main_url: "http://conexaokinghost.com.br/"
+  rsvp_url: "http://conexaokinghost.com.br/"
+
+- title: "UX VALE - Meetup #1"
+  free: true
+  location: "São José dos Campos - SP"
+  date: "27/09"
+  banner: "ux-vale.png"
+  tags: [cc, venus, universal-access]
+  hashtag: "uxvale"
+  twitter: "designasolucoes"
+  facebook: "designa.com.br"
+  main_url: "https://www.meetup.com/IxDASJC/"
+  rsvp_url: "https://www.meetup.com/IxDASJC/events/243493554/"
+
+- title: "Customer Experience Summit 2017"
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "cx-summit.jpg"
+  tags: [wheelchair-alt, universal-access]
+  facebook: "CXSummit"
+  main_url: "https://cxsummit.com.br/"
+  rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
+
+- title: "PyLadies na Geru"
+  free: true
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pyladiesgeru.jpg"
+  tags: [venus, universal-access]
+  facebook: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  hashtag: "geru_br"
+  meetup: "PyLadiesSP"
+  main_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
+  rsvp_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
+
+- title: "DEMO DAY - Metodologia LEGO® Serious Play ® - noturno"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "flunt7.jpg"
+  tags: [universal-access]
+  facebook: "fluunt7"
+  linkedin: "company/3836005"
+  main_url: "https://www.fluunt7.com.br/"
+  rsvp_url: "https://www.sympla.com.br/demo-day----metodologia-legor-serious-play-r---noturno__189095"
+
+- title: "Pitch Gov SP 2.0"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pitchgov2.jpg"
+  tags: [universal-access]
+  main_url: "http://www.pitchgov.sp.gov.br/"
+  rsvp_url: "https://www.sympla.com.br/pitch-gov-sp-20---workshop-de-lancamento__189876"
+
+- title: "TC Talks #1"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-SP/events/242973292"
+
