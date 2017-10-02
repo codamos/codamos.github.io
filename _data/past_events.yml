@@ -1548,7 +1548,6 @@
   twitter: "GoVulpi"
   linkedin: "company/10502590"
   main_url: "http://www.vulpi.com.br/"
-  rsvp_url: "https://www.meetup.com/DevStarter/events/242991026/"
 
 - title: "UX Strategy"
   category: "Workshop"
@@ -1560,7 +1559,6 @@
   instagram: "duxcoworkers"
   facebook: "DuxCoworkers"
   main_url: "http://duxcoworkers.com/"
-  rsvp_url: "https://www.sympla.com.br/workshop--ux-strategy__181098"
 
 - title: "IBM SCHOOL - O Futuro das Profissões"
   free: true
@@ -1571,7 +1569,6 @@
   twitter: "ibmbrasil"
   facebook: "IBMBrasil"
   main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
 
 - title: "Terceiro Elm SP na TW"
   free: true
@@ -1581,7 +1578,6 @@
   banner: "elm-sp.jpg"
   tags: [venus, universal-access, wheelchair-alt]
   main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
-  rsvp_url: "https://www.meetup.com/pt-BR/Elm-sp/events/242914267/"
 
 - title: "Living with Unicorns - BlaBlaCar + Sprinklr"
   free: true
@@ -1593,7 +1589,6 @@
   facebook: "ligaventures"
   linkedin: "company/liga-ventures"
   main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
-  rsvp_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
 
 - title: "Conexão Kinghost"
   free: true
@@ -1607,7 +1602,6 @@
   facebook: "KingHost.Brasil"
   linkedin: "company/kinghost"
   main_url: "http://conexaokinghost.com.br/"
-  rsvp_url: "http://conexaokinghost.com.br/"
 
 - title: "UX VALE - Meetup #1"
   free: true
@@ -1619,7 +1613,6 @@
   twitter: "designasolucoes"
   facebook: "designa.com.br"
   main_url: "https://www.meetup.com/IxDASJC/"
-  rsvp_url: "https://www.meetup.com/IxDASJC/events/243493554/"
 
 - title: "Customer Experience Summit 2017"
   location: "São Paulo - SP"
@@ -1628,7 +1621,6 @@
   tags: [wheelchair-alt, universal-access]
   facebook: "CXSummit"
   main_url: "https://cxsummit.com.br/"
-  rsvp_url: "https://www.sympla.com.br/customer-experience-summit-2017__126062"
 
 - title: "PyLadies na Geru"
   free: true
@@ -1643,7 +1635,6 @@
   hashtag: "geru_br"
   meetup: "PyLadiesSP"
   main_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
-  rsvp_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
 
 - title: "DEMO DAY - Metodologia LEGO® Serious Play ® - noturno"
   free: true
@@ -1655,7 +1646,6 @@
   facebook: "fluunt7"
   linkedin: "company/3836005"
   main_url: "https://www.fluunt7.com.br/"
-  rsvp_url: "https://www.sympla.com.br/demo-day----metodologia-legor-serious-play-r---noturno__189095"
 
 - title: "Pitch Gov SP 2.0"
   free: true
@@ -1664,7 +1654,6 @@
   banner: "pitchgov2.jpg"
   tags: [universal-access]
   main_url: "http://www.pitchgov.sp.gov.br/"
-  rsvp_url: "https://www.sympla.com.br/pitch-gov-sp-20---workshop-de-lancamento__189876"
 
 - title: "TC Talks #1"
   free: true
@@ -1677,5 +1666,139 @@
   facebook: "trainingcenterbr"
   medium: "trainingcenter"
   main_url: "https://trainingcenter.io/"
-  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-SP/events/242973292"
 
+- title: "ID 360"
+  location: "Belo Horizonte - MG"
+  date: "28/09 e 29/09"
+  banner: "id360.jpg"
+  hashtag: "ID360"
+  twitter: "buscarid"
+  facebook: "somosbuscarid"
+  main_url: "http://www.buscarid.com/"
+
+- title: "The Conf"
+  location: "São Paulo - SP"
+  date: "29/09 e 30/09"
+  banner: "the-conf.png"
+  tags: [wheelchair-alt]
+  hashtag: "theconf"
+  twitter: "theconfbr"
+  facebook: "TheConfClub"
+  main_url: "http://www.theconf.club/"
+
+- title: "B2Mamy Start Powered By Google Developers Launchpad"
+  location: "São Paulo - SP"
+  date: "29/09"
+  banner: "b2mamy.jpg"
+  tags: [universal-access, child]
+  linkedin: "company/22312779"
+  instagram: "b2mamy"
+  facebook: "b2mamy"
+  main_url: "https://www.b2mamy.com.br/"
+
+- title: "Curso Docker"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "29/09 a 30/09"
+  banner: "docker-novatec.jpg"
+  twitter: "novateceditora"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
+
+- title: "Montando sua Franzininho"
+  location: "São Paulo - SP"
+  women: true
+  category: "Workshop"
+  date: "30/09"
+  banner: "vila-maker-franzininho.jpg"
+  tags: [cc]
+  hashtag: "VempraVila"
+  twitter: "VilaMaker"
+  facebook: "vilamaker"
+  instagram: "vilamaker"
+  main_url: "https://www.vilamaker.com/"
+
+- title: "Deevas da Tecnologia - Como sua comunicação afeta sua conta bancária"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  date: "30/09"
+  banner: "upwitdeevas.jpg"
+  tags: [venus, universal-access]
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+
+- title: "Curso Prático: Scrum - Gestão Ágil de Projetos "
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "scrumieep.jpg"
+  main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
+
+- title: "Workshop Bitcoin e Blockchain para Iniciantes"
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "descomplicandoDireito.jpg"
+  tags: [universal-access]
+  facebook: "malgueirocamposadvocacia"
+  linkedin: "company/15213726"
+  main_url: "https://www.malgueirocampos.com.br/"
+
+- title: "Roadsec 2017 | Porto Alegre"
+  location: "Porto Alegre - RS"
+  date: "30/09"
+  banner: "roadsec-poa.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+
+- title: "DevFest Cerrado 2017"
+  cfp: true
+  location: "Goiânia - GO"
+  date: "30/09"
+  banner: "devfestcerrado2017.jpg"
+  tags: [cc, universal-access]
+  twitter: "gdggoiania"
+  hashtag: "devfestcerrado"
+  facebook: "gdggoiania"
+  main_url: "https://devfestcerrado.com.br/"
+
+- title: "Primeiros Passos em Robótica"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "robotica-novatec.jpg"
+  twitter: "novateceditora"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-hardware-robotica/primeiros-passos-em-robotica/"
+
+- title: "ABCDev"
+  inclusive: true
+  women: true
+  location: "Santo André - SP"
+  date: "30/09"
+  banner: "abc-dev.png"
+  tags: [venus, cc]
+  hashtag: "abcdev2017"
+  twitter: "abc_developers"
+  facebook: "abcdevelopers"
+  main_url: "http://2017.abcdevelopers.org/"
+
+- title: "Include Day"
+  free: true
+  inclusive: true
+  location: "Campinas - SP"
+  date: "30/09"
+  banner: "include-day.png"
+  tags: [cc, sign-language, universal-access]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
+  facebook: "ciandt"
+  main_url: "http://www.ciandt.com/card/include-day"
