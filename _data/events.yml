@@ -33,7 +33,7 @@
   free: true
   category: "Curso"
   location: "São Paulo - SP"
-  date: "09/2017"
+  date: "10/2017"
   banner: "fab-lab-livre.png"
   tags: [venus, cc, universal-access]
   youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
@@ -55,8 +55,6 @@
   facebook: "locaweb"
   main_url: "http://queroserdevlocaweb.com.br/"
   rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
-
-
 
 - title: "ID 360"
   location: "Belo Horizonte - MG"
