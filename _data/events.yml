@@ -42,192 +42,6 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "Quero ser DEV Locaweb"
-  free: true
-  category: "Treinamento"
-  location: "São Paulo - SP"
-  date: "até 01/10"
-  banner: "queroserdev-locaweb.jpg"
-  hashtag: "QueroSerDev"
-  youtube: "locaweb/videos"
-  linkedin: "company/44826"
-  twitter: "locaweb"
-  facebook: "locaweb"
-  main_url: "http://queroserdevlocaweb.com.br/"
-  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
-
-- title: "ID 360"
-  location: "Belo Horizonte - MG"
-  date: "28/09 e 29/09"
-  banner: "id360.jpg"
-  hashtag: "ID360"
-  twitter: "buscarid"
-  facebook: "somosbuscarid"
-  main_url: "http://www.buscarid.com/"
-  rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
-
-- title: "The Conf"
-  location: "São Paulo - SP"
-  date: "29/09 e 30/09"
-  banner: "the-conf.png"
-  tags: [wheelchair-alt]
-  hashtag: "theconf"
-  twitter: "theconfbr"
-  facebook: "TheConfClub"
-  main_url: "http://www.theconf.club/"
-  rsvp_url: "https://www.eventbrite.com.br/e/the-conf-tickets-35346257608"
-
-- title: "B2Mamy Start Powered By Google Developers Launchpad"
-  location: "São Paulo - SP"
-  date: "29/09"
-  banner: "b2mamy.jpg"
-  tags: [universal-access, child]
-  linkedin: "company/22312779"
-  instagram: "b2mamy"
-  facebook: "b2mamy"
-  main_url: "https://www.b2mamy.com.br/"
-  rsvp_url: "https://www.sympla.com.br/b2mamy-start-powered-by-google-developers-launchpad__177934"
-
-- title: "Curso Docker"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "29/09 a 30/09"
-  banner: "docker-novatec.jpg"
-  twitter: "novateceditora"
-  facebook: "ctnovatec"
-  main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
-  rsvp_url: "https://www.sympla.com.br/curso-docker-9-turma__174961"
-
-- title: "Montando sua Franzininho"
-  location: "São Paulo - SP"
-  women: true
-  category: "Workshop"
-  date: "30/09"
-  banner: "vila-maker-franzininho.jpg"
-  tags: [cc]
-  hashtag: "VempraVila"
-  twitter: "VilaMaker"
-  facebook: "vilamaker"
-  instagram: "vilamaker"
-  main_url: "https://www.vilamaker.com/"
-  rsvp_url: "https://www.vilamaker.com/p-gina-de-produto/montando-sua-franzininho"
-
-- title: "Deevas da Tecnologia - Como sua comunicação afeta sua conta bancária"
-  category: "Workshop"
-  location: "São Paulo - SP"
-  women: true
-  inclusive: true
-  date: "30/09"
-  banner: "upwitdeevas.jpg"
-  tags: [venus, universal-access]
-  twitter: "UPWIT_Workshop"
-  facebook: "UPWIT"
-  main_url: "http://upwit.org/"
-  rsvp_url: "https://www.sympla.com.br/como-sua-comunicacao-afeta-sua-conta-bancaria__188203"
-
-- title: "Curso Prático: Scrum - Gestão Ágil de Projetos "
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "30/09"
-  banner: "scrumieep.jpg"
-  main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
-  rsvp_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
-
-- title: "Workshop Bitcoin e Blockchain para Iniciantes"
-  women: true
-  category: "Workshop"
-  location: "São Paulo - SP"
-  date: "30/09"
-  banner: "descomplicandoDireito.jpg"
-  tags: [universal-access]
-  facebook: "malgueirocamposadvocacia"
-  linkedin: "company/15213726"
-  main_url: "https://www.malgueirocampos.com.br/"
-  rsvp_url: "https://www.sympla.com.br/workshop-bitcoin-e-blockchain-para-iniciantes__186103"
-
-- title: "Roadsec 2017 | Porto Alegre"
-  location: "Porto Alegre - RS"
-  date: "30/09"
-  banner: "roadsec-poa.jpg"
-  tags: [sign-language]
-  hashtag: "Roadsec"
-  twitter: "roadsec"
-  facebook: "roadsec"
-  instagram: "roadsec"
-  main_url: "http://roadsec.com.br"
-  rsvp_url: "https://www.eventbrite.com/e/roadsec-2017-porto-alegre-registration-30533541645"
-
-- title: "DevFest Cerrado 2017"
-  cfp: true
-  location: "Goiânia - GO"
-  date: "30/09"
-  banner: "devfestcerrado2017.jpg"
-  tags: [cc, universal-access]
-  twitter: "gdggoiania"
-  hashtag: "devfestcerrado"
-  facebook: "gdggoiania"
-  main_url: "https://devfestcerrado.com.br/"
-  rsvp_url: "https://credencial.imasters.com.br/devfestcerrado2017"
-
-- title: "Primeiros Passos em Robótica"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "30/09"
-  banner: "robotica-novatec.jpg"
-  twitter: "novateceditora"
-  facebook: "ctnovatec"
-  main_url: "http://ctnovatec.com.br/cursos/trilha-hardware-robotica/primeiros-passos-em-robotica/"
-  rsvp_url: "https://www.sympla.com.br/curso-primeiros-passos-em-robotica---3-turma__171859"
-
-- title: "ABCDev"
-  inclusive: true
-  women: true
-  location: "Santo André - SP"
-  date: "30/09"
-  banner: "abc-dev.png"
-  tags: [venus, cc]
-  hashtag: "abcdev2017"
-  twitter: "abc_developers"
-  facebook: "abcdevelopers"
-  main_url: "http://2017.abcdevelopers.org/"
-  rsvp_url: "https://credencial.imasters.com.br/abc-dev-2017"
-
-- title: "Include Day"
-  free: true
-  inclusive: true
-  location: "Campinas - SP"
-  date: "30/09"
-  banner: "include-day.png"
-  tags: [cc, sign-language, universal-access]
-  hashtag: "ciandt"
-  twitter: "ciandt_BR"
-  facebook: "ciandt"
-  main_url: "http://www.ciandt.com/card/include-day"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScdhcBOjb5cWTbbuoSgbIpKDd31iGBpQ6WoCckpsufNJVzooA/viewform"
-
-- title: "UX Strategy Belo Horizonte"
-  category: "Curso"
-  location: "Belo Horizonte - MG"
-  date: "30/09 a 01/10"
-  banner: "mergo-ux.png"
-  hashtag: "UXStrategy"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration"
-
-- title: "UX Metrics"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "30/09 a 01/10"
-  banner: "ux-metrics.jpg"
-  tags: [universal-access]
-  hashtag: "MergoLab"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "http://www.mergo.com.br/curso-ux-metrics.html"
-
 # OUTUBRO
 
 - title: "Grow Up Startup 2017"
@@ -446,6 +260,17 @@
   main_url: "http://isa.ixda.org/2017/"
   rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
 
+- title: "DT Conference"
+  location: "São Paulo - SP"
+  date: "09/10"
+  women: true
+  banner: "dtconference.jpg"
+  facebook: "EscolaDesignThinking"
+  instagram: "echos_innovationlab"
+  tags: [universal-access]
+  main_url: "http://dtconference.echos.cc/"
+  rsvp_url: "https://www.sympla.com.br/dt-conference__193406"
+
 - title: "Bate-papo sobre React"
   category: "Workshop"
   free: true
@@ -612,6 +437,16 @@
   facebook: "GoogleDevelopersGroupTresRios"
   main_url: "https://devfest.centrosulfluminense.me/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
+
+- title: "Tableau Day Outubro"
+  location: "São Paulo - SP"
+  date: "21/10"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
 
 - title: "Curso UI Design+Mobile"
   category: "Curso"
@@ -850,6 +685,16 @@
   main_url: "https://djangogirls.org/saopaulo/apply/"
   rsvp_url: "https://djangogirls.org/saopaulo/#apply"
 
+- title: "Tableau Day Novembro"
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-novembro-tickets-34112856472"
+
 - title: "Women Dev Summit"
   cfp: true
   inclusive: true
@@ -864,6 +709,36 @@
   main_url: "http://womendevsummit.com/"
   rsvp_url: "http://womendevsummit.com/"
 
+- title: "2° Encontro de Software livre"
+  location: "Salvador - BA"
+  date: "11/11"
+  banner: "encontro-sf.jpg"
+  facebook: "inoveacaolivre"
+  main_url: "inoveacaolivre.github.io/2016"
+  rsvp_url: "https://www.facebook.com/events/121483665162404"
+
+- title: "Linux Developer Conference Brazil"
+  location: "Campinas - SP"
+  date: "11/11"
+  banner: "linuxDeveloperConference.jpg"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://linuxdev-br.net/"
+  rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
+
+- title: "Roadsec SP 2017 | Mega Edição de Encerramento"
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "roadsecsp.jpg"
+  facebook: "roadsec"
+  twitter: "roadsec"
+  hashtag: "Roadsec"
+  instagram: "roadsec"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://roadsec.com.br/saopaulo2017/"
+  rsvp_url: "https://www.eventbrite.com/e/roadsec-sp-2017-mega-edicao-de-encerramento-registration-29671007783"
+
 - title: "LaraconfBrasil 2017"
   cfp: true
   location: "São Paulo - SP"
@@ -873,14 +748,6 @@
   facebook: "laravelconferencebrasil"
   main_url: "https://laraconfbrasil.com.br/"
   rsvp_url: "https://www.sympla.com.br/laraconfbrasil-2017__169502"
-
-- title: "2° Encontro de Software livre"
-  location: "Salvador - BA"
-  date: "11/11"
-  banner: "encontro-sf.jpg"
-  facebook: "inoveacaolivre"
-  main_url: "inoveacaolivre.github.io/2016"
-  rsvp_url: "https://www.facebook.com/events/121483665162404"
 
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
@@ -958,6 +825,15 @@
   linkedin: "company/5087833"
   main_url: "http://challenge.whatdesigncando.com/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "DrupalCamp São Paulo 2017"
+  location: "São Paulo - SP"
+  date: "24/11 até 25/11"
+  banner: "drupal.jpg"
+  facebook: "DrupalcampSaoPaulo"
+  tags: [universal-access]
+  main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
+  rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
 
 - title: "Mobile Summit Brazil"
   women: true
