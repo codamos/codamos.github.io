@@ -324,6 +324,20 @@
   main_url: "http://brasil.pyladies.com/"
   rsvp_url: "https://www.sympla.com.br/curso-basico-de-python-para-iniciantes__189480"
 
+- title: "View Source: Comunidade MVP"
+  women: true
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  banner: "view-source-um.png"
+  tags: [venus, cc]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
+
 - title: "Colloquium 2017 - Inteligência Artificial • IBM Research|Brasil"
   free: true
   location: "São Paulo - SP"
@@ -372,6 +386,20 @@
   main_url: "http://campuse.ro"
   rsvp_url: "http://campuse.ro/events/cpweekend-pato-branco-2017/"
 
+- title: "Design Sprint Weekend"
+  location: "Manaus - AM"
+  date: "14/10 e 15/10"
+  banner: "design-sprint-am.png"
+  free: true
+  women: true
+  inclusive: true
+  tags: [venus, cc, universal-access]
+  hashtag: "chicaspoderosas"
+  twitter: "poderosaschicas"
+  facebook: "chicaspoderosas.org"
+  main_url: "https://chicaspoderosas.org/"
+  rsvp_url: "https://chicaspoderosas.org/design-sprint-weekend-manaus-brazil-outubro-14-15-2017/"
+
 - title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
   fre: true
   inclusive: true
@@ -403,7 +431,7 @@
   rsvp_url: "https://www.sympla.com.br/curso-de-git-e-github__193703"
 
 - title: "Usando Microsoft Teams com Bots para produtividade"
-  fre: true
+  free: true
   inclusive: true
   women: true
   location: "Ao vivo"
@@ -416,6 +444,15 @@
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/242229678/"
 
+- title: "Usando Microsoft Teams com Bots para produtividade"
+  free: true
+  location: "Snao José dos Campos - SP"
+  date: "17/10 a 19/10"
+  banner: "feira-tec-inovacao.png"
+  facebook: "rmvaleti"
+  main_url: "http://www.rmvaleti.com.br/"
+  rsvp_url: "https://www.sympla.com.br/rm-vale-ti-2017--4-feira-de-tecnologia-e-inovacao__169890"
+
 - title: "Introdução a Ruby"
   free: true
   location: "Rio de Janeiro - RJ"
@@ -426,12 +463,37 @@
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937378/"
 
+- title: "Curso de Python para Jornalistas"
+  women: true
+  location: "Botafogo - RJ"
+  date: "18/10 a 20/10"
+  banner: "python-jornalistas.png"
+  hashtag: "datajournalism"
+  twitter: "generonumero"
+  facebook: "generonumero"
+  main_url: "http://www.generonumero.media/"
+  rsvp_url: "https://www.eventbrite.com/e/curso-de-python-para-jornalistas-tickets-37865844761"
+
 - title: "RD Summit 2017"
   location: "Florianópolis - SC"
   date: "18/10 até 20/10"
   banner: "rdsummit2017.jpg"
   main_url: "http://rdsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
+
+- title: "View Source: Comunidade MVP"
+  women: true
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "19/10"
+  banner: "view-source-um.png"
+  tags: [venus, cc]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
 
 - title: "Agilidade Recife"
   women: true
@@ -631,6 +693,20 @@
   main_url: "http://www.datamasters.com.br"
   rsvp_url: "http://www.datamasters.com.br/cursos/"
 
+- title: "Design Sprint Weekend"
+  location: "Recife - PE"
+  date: "28/10 e 29/10"
+  banner: "design-sprint-pe.png"
+  free: true
+  women: true
+  inclusive: true
+  tags: [venus, cc, universal-access]
+  hashtag: "chicaspoderosas"
+  twitter: "poderosaschicas"
+  facebook: "chicaspoderosas.org"
+  main_url: "https://chicaspoderosas.org/"
+  rsvp_url: "https://chicaspoderosas.org/design-sprint-weekend-recife-brazil-outubro-28-29-2017/"
+
 - title: "CIDI 2017"
   location: "Natal - RN"
   date: "29/10 a 01/11"
@@ -664,6 +740,20 @@
   facebook: "campuspartybrasil"
   main_url: "http://campuse.ro/"
   rsvp_url: "http://campuse.ro/events/campus-party-minas-gerais-2017/"
+
+- title: "Design Sprint Weekend"
+  location: "São Paulo - SP"
+  date: "04/11 e 05/11"
+  banner: "design-sprint-sp.png"
+  free: true
+  women: true
+  inclusive: true
+  tags: [venus, cc, universal-access]
+  hashtag: "chicaspoderosas"
+  twitter: "poderosaschicas"
+  facebook: "chicaspoderosas.org"
+  main_url: "https://chicaspoderosas.org/"
+  rsvp_url: "https://chicaspoderosas.org/design-sprint-weekend-sao-paulo-brazil-novembro-4-5-2017/"
 
 - title: "São Paulo Tech Week"
   location: "São Paulo - SP"
