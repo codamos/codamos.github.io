@@ -60,7 +60,7 @@ table {
 body {
     font-family: Roboto, Sans-Serif;
     color: #3e3e3e;
-    background: #f1f1f1;
+    background: #fafafa;
 }
 
 p {
@@ -1450,8 +1450,8 @@ p {
     width: 100%;
     padding: 5em 1em;
     margin: 6em 0;
-    border-bottom: 2em solid aqua;
-    border-top: 2em solid #d7df23;
+    border-bottom: 2em solid #fdbbc7;
+    border-top: 2em solid #fdbbc7;
 }
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
