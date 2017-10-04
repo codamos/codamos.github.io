@@ -125,14 +125,28 @@
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
   main_url: "http://www.coletividad.org/"
-  rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856?aff=efbevent"
+  rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856"
+
+- title: "Aprendendo a Programar (30 horas)"
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "04/10"
+  banner: "recode.png"
+  tags: [cc, universal-access, venus]
+  hashtag: "aprendendoaprogramar"
+  linkedin: "company/682075"
+  twitter: "rederecode"
+  facebook: "rederecode"
+  main_url: "http://recode.org.br/"
+  rsvp_url: "http://recode.org.br/cursodeprogramacaosp/"
 
 - title: "FEMALE FOUNDERS ACADEMY - OFICINA DE PITCH"
   women: true
   location: "São Paulo - SP"
   date: "05/10"
   banner: "oficinaPitch.jpg"
-  tags: [universal-access]
+  tags: [venus, cc, universal-access]
   facebook: "wayrabr"
   twitter: "WayraBrasil"
   main_url: "https://wayra-brasil.gupy.io"
@@ -140,15 +154,27 @@
 
 - title: "COMPETÊNCIAS ESSENCIAIS DO PROFISSIONAL DO FUTURO - TURMA 3"
   free: true
+  women: true
   location: "São Paulo - SP"
-  women: "true"
   date: "05/10"
   banner: "competenciaProfissional.jpg"
-  tags: [universal-access]
   twitter: "ctnovatec"
   facebook: "ctnovatec"
   main_url: "http://ctnovatec.com.br/cursos/trilha-desenvolvimento-pessoal/competencias-essenciais-do-profissional-do-futuro/"
   rsvp_url: "https://www.sympla.com.br/competencias-essenciais-do-profissional-do-futuro---turma-3__185949"
+
+- title: "Encontro mulheres no waze"
+  free: true
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  banner: "mulheres-no-waze.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "waze_br"
+  facebook: "WazeBr"
+  main_url: "https://sites.google.com/view/mulheresnowaze"
+  rsvp_url: "https://sites.google.com/view/mulheresnowaze/inscri%C3%A7%C3%A3o?authuser=0"
 
 - title: "Pagamentos Online no Brasil"
   free: true
@@ -324,6 +350,18 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/wearables-na-pratica-tickets-37857329291"
 
+- title: "8º Meetup de Node.js"
+  free: true
+  cfp: true
+  location: "Porto Alegre - RS"
+  date: "10/10"
+  banner: "node-js-poa.png"
+  tags: [cc]
+  hashtag: "NodeJS"
+  twitter: "nodejspoa"
+  main_url: "https://github.com/node-poa"
+  rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
+
 - title: "Introdução à TypeScript & Features Ts 2.x"
   free: true
   inclusive: true
@@ -337,6 +375,19 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/242021187/"
+
+- title: "CURSO BÁSICO DE PYTHON PARA INICIANTES"
+  free: true
+  inclusive: true
+  women: true
+  location: "Belo horizonte - MG"
+  date: "10/10"
+  banner: "pyladies-python-iniciantes.png"
+  tags: [venus, cc]
+  twitter: "pyladiesbh"
+  facebook: "pyladiesbh"
+  main_url: "http://brasil.pyladies.com/"
+  rsvp_url: "https://www.sympla.com.br/curso-basico-de-python-para-iniciantes__189480"
 
 - title: "Colloquium 2017 - Inteligência Artificial • IBM Research|Brasil"
   free: true
@@ -400,6 +451,21 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/242076708/"
+
+- title: "Curso de Git e Github"
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "17/10 e 19/10"
+  banner: "git-github.png"
+  tags: [venus]
+  hashtag: "JuntosSomosMelhores"
+  twitter: "Desprograme"
+  facebook: "desprograme123"
+  instagram: "desprograme123"
+  meetup: "Desprograme123"
+  main_url: "http://desprograme.com.br/"
+  rsvp_url: "https://www.sympla.com.br/curso-de-git-e-github__193703"
 
 - title: "Usando Microsoft Teams com Bots para produtividade"
   fre: true
@@ -596,6 +662,18 @@
   facebook: "GetNinjas"
   main_url: "https://www.getninjas.com.br/"
   rsvp_url: "https://www.meetup.com/Hackathon-Ninja-2017/events/242535906/"
+
+- title: "Share SSA"
+  location: "Rio Vermelho - BA"
+  women: true
+  date: "28/10"
+  banner: "ssa-talks.png"
+  tags: [venus]
+  hashtag: "share2017vix"
+  twitter: "tudodeshare"
+  facebook: "tudodeshare"
+  main_url: "http://www.tudodeshare.com.br/"
+  rsvp_url: "http://www.tudodeshare.com.br/share2017ssa/"
 
 - title: "UX Team Summit - Mergo e SENAI"
   location: "São Paulo - SP"
