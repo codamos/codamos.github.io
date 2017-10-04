@@ -42,43 +42,6 @@
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
 
-- title: "Quero ser DEV Locaweb"
-  free: true
-  category: "Treinamento"
-  location: "São Paulo - SP"
-  date: "até 01/10"
-  banner: "queroserdev-locaweb.jpg"
-  hashtag: "QueroSerDev"
-  youtube: "locaweb/videos"
-  linkedin: "company/44826"
-  twitter: "locaweb"
-  facebook: "locaweb"
-  main_url: "http://queroserdevlocaweb.com.br/"
-  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
-
-- title: "UX Strategy Belo Horizonte"
-  category: "Curso"
-  location: "Belo Horizonte - MG"
-  date: "30/09 a 01/10"
-  banner: "mergo-ux.png"
-  hashtag: "UXStrategy"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration"
-
-- title: "UX Metrics"
-  category: "Curso"
-  location: "São Paulo - SP"
-  date: "30/09 a 01/10"
-  banner: "ux-metrics.jpg"
-  tags: [universal-access]
-  hashtag: "MergoLab"
-  twitter: "mergo_ux"
-  facebook: "mergo.user.experience"
-  main_url: "http://www.mergo.com.br/"
-  rsvp_url: "http://www.mergo.com.br/curso-ux-metrics.html"
-
 # OUTUBRO
 
 - title: "Grow Up Startup 2017"
@@ -323,6 +286,17 @@
   main_url: "http://isa.ixda.org/2017/"
   rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
 
+- title: "DT Conference"
+  location: "São Paulo - SP"
+  date: "09/10"
+  women: true
+  banner: "dtconference.jpg"
+  facebook: "EscolaDesignThinking"
+  instagram: "echos_innovationlab"
+  tags: [universal-access]
+  main_url: "http://dtconference.echos.cc/"
+  rsvp_url: "https://www.sympla.com.br/dt-conference__193406"
+
 - title: "Bate-papo sobre React"
   category: "Workshop"
   free: true
@@ -529,6 +503,16 @@
   facebook: "GoogleDevelopersGroupTresRios"
   main_url: "https://devfest.centrosulfluminense.me/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
+
+- title: "Tableau Day Outubro"
+  location: "São Paulo - SP"
+  date: "21/10"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
 
 - title: "Curso UI Design+Mobile"
   category: "Curso"
@@ -779,6 +763,16 @@
   main_url: "https://djangogirls.org/saopaulo/apply/"
   rsvp_url: "https://djangogirls.org/saopaulo/#apply"
 
+- title: "Tableau Day Novembro"
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-novembro-tickets-34112856472"
+
 - title: "Women Dev Summit"
   cfp: true
   inclusive: true
@@ -793,6 +787,36 @@
   main_url: "http://womendevsummit.com/"
   rsvp_url: "http://womendevsummit.com/"
 
+- title: "2° Encontro de Software livre"
+  location: "Salvador - BA"
+  date: "11/11"
+  banner: "encontro-sf.jpg"
+  facebook: "inoveacaolivre"
+  main_url: "inoveacaolivre.github.io/2016"
+  rsvp_url: "https://www.facebook.com/events/121483665162404"
+
+- title: "Linux Developer Conference Brazil"
+  location: "Campinas - SP"
+  date: "11/11"
+  banner: "linuxDeveloperConference.jpg"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://linuxdev-br.net/"
+  rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
+
+- title: "Roadsec SP 2017 | Mega Edição de Encerramento"
+  location: "São Paulo - SP"
+  date: "11/11"
+  banner: "roadsecsp.jpg"
+  facebook: "roadsec"
+  twitter: "roadsec"
+  hashtag: "Roadsec"
+  instagram: "roadsec"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://roadsec.com.br/saopaulo2017/"
+  rsvp_url: "https://www.eventbrite.com/e/roadsec-sp-2017-mega-edicao-de-encerramento-registration-29671007783"
+
 - title: "LaraconfBrasil 2017"
   cfp: true
   location: "São Paulo - SP"
@@ -802,14 +826,6 @@
   facebook: "laravelconferencebrasil"
   main_url: "https://laraconfbrasil.com.br/"
   rsvp_url: "https://www.sympla.com.br/laraconfbrasil-2017__169502"
-
-- title: "2° Encontro de Software livre"
-  location: "Salvador - BA"
-  date: "11/11"
-  banner: "encontro-sf.jpg"
-  facebook: "inoveacaolivre"
-  main_url: "inoveacaolivre.github.io/2016"
-  rsvp_url: "https://www.facebook.com/events/121483665162404"
 
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
@@ -887,6 +903,15 @@
   linkedin: "company/5087833"
   main_url: "http://challenge.whatdesigncando.com/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "DrupalCamp São Paulo 2017"
+  location: "São Paulo - SP"
+  date: "24/11 até 25/11"
+  banner: "drupal.jpg"
+  facebook: "DrupalcampSaoPaulo"
+  tags: [universal-access]
+  main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
+  rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
 
 - title: "Mobile Summit Brazil"
   women: true
