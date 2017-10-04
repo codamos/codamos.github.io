@@ -1091,7 +1091,8 @@ p {
     .events-card-header-free,
     .events-card-header-inclusive,
     .events-card-header-category,
-    .events-card-header-call4papers {
+    .events-card-header-call4papers,
+    .events-card-header-opensource {
         font-size: 0.5em;
     }
 }

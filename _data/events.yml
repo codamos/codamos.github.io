@@ -180,6 +180,7 @@
 
 - title: "Primeiro Meetup do TC em Porto Alegre"
   free: true
+  women: true
   location: "Porto Alegre - RS"
   date: "07/10"
   banner: "trainingcenter.jpg"
@@ -877,7 +878,7 @@
   location: "Belo Horizonte - MG"
   date: "18/11"
   banner: "devfestbh.jpg"
-  tags: [cc, universal-access]
+  tags: [venus, cc, wheelchair-alt]
   twitter: "gdg_bh"
   hashtag: "gdg_bh"
   facebook: "gdgbh"
