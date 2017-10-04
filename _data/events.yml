@@ -71,6 +71,21 @@
   main_url: "http://recode.org.br/"
   rsvp_url: "http://recode.org.br/cursodeprogramacaosp/"
 
+- title: "Grace Hopper Celebration 17 Livestream"
+  women: true
+  inclusive: true
+  free: true
+  location: "on-line"
+  date: "04/10"
+  banner: "anita-borg.png"
+  tags: [cc, universal-access, venus]
+  hashtag: "GHC17"
+  linkedin: "groups/36797/profile"
+  twitter: "anitab_org"
+  facebook: "anitaborginstitute"
+  main_url: "https://ghc.anitab.org/"
+  rsvp_url: "https://ghc.anitab.org/ghc-17-livestream/"
+
 - title: "COMPETÊNCIAS ESSENCIAIS DO PROFISSIONAL DO FUTURO - TURMA 3"
   free: true
   women: true
@@ -195,7 +210,7 @@
   location: "São Paulo - SP"
   date: "07/10"
   banner: "react.png"
-  tags: [venus, cc]
+  tags: [venus, cc, universal-access]
   hashtag: "reactconf"
   twitter: "reactconfbr"
   facebook: "reactconf"
@@ -378,7 +393,7 @@
   location: "São Paulo - SP"
   date: "17/10 e 19/10"
   banner: "git-github.png"
-  tags: [venus]
+  tags: [venus, cc]
   hashtag: "JuntosSomosMelhores"
   twitter: "Desprograme"
   facebook: "desprograme123"
@@ -709,7 +724,7 @@
   hashtag: "WDS2k17"
   facebook: "womendevsummit"
   main_url: "http://womendevsummit.com/"
-  rsvp_url: "http://womendevsummit.com/"
+  rsvp_url: "https://doity.com.br/women-dev-summit-talks"
 
 - title: "LaraconfBrasil 2017"
   cfp: true
