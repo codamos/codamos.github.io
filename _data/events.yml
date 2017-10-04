@@ -178,6 +178,20 @@
   main_url: "https://www.meetup.com/pt-BR/caicaraagil"
   rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
 
+- title: "Hackeando o Estado do futuro"
+  free: true
+  hackathon: true
+  women: true
+  location: "São Paulo - SP"
+  date: "07/10"
+  banner: "hackeando-estado.png"
+  tags: [venus, cc, universal-access]
+  youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
+  instagram: "fablablivresp"
+  facebook: "fablablivresp"
+  main_url: "http://www.fablablivresp.art.br/"
+  rsvp_url: "http://www.fablablivresp.art.br/cursos/curta/hackeando-o-estado-do-futuro-tecnologias-que-irao-mudar-o-governo"
+
 - title: "Primeiro Meetup do TC em Porto Alegre"
   free: true
   women: true
@@ -363,6 +377,21 @@
   facebook: "bytegirlevento"
   main_url: "http://bytegirl.com.br/"
   rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
+
+- title: "Workshop: Mulheres que falam!"
+  location: "São Paulo - SP"
+  inclusive: true
+  lgbt: true
+  free: true
+  codamos: true
+  date: "14/10"
+  banner: "evento-codamos.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Codamos"
+  twitter: "CodamosClub"
+  facebook: "codamosclub"
+  main_url: "https://www.codamos.club/"
+  rsvp_url: "https://www.sympla.com.br/workshop-mulheres-que-falam__198197"
 
 - title: "Inteligência artificial: aplicação e novas experiências"
   category: "Curso"

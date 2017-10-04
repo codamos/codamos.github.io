@@ -814,7 +814,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 0px 1px 2px rgba(135, 255, 0, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .events-card-header-inclusive {
@@ -854,7 +854,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .events-card-header-opensource {
@@ -873,7 +873,7 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 .events-card-header-category {
     background: #660099;
@@ -892,13 +892,29 @@ p {
     padding: 7px 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 2px 3px 4px 0px rgba(59, 2, 87, 0.8);
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
-
+.events-card-header-codamos {
+    background: #fff;
+    border: 4px solid #eee;
+    position: absolute;
+    font-size: small;
+    font-weight: 300;
+    top: 52px;
+    color: #e60050;
+    right: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+}
 .events-card-header-women {
     background: #e60050;
-    /*border: 4px solid #dc7887;
-    position: absolute;*/
     font-size: small;
     font-weight: 300;
     top: 52px;
@@ -910,9 +926,7 @@ p {
     align-items: center;
     text-transform: uppercase;
     padding: 7px 5px;
-    /*border-radius: 3px;*/
     letter-spacing: 2px;
-    /*box-shadow: 2px 3px 4px 0px rgba(46, 61, 73, 0.2);*/
 }
 
 .events-card-header-hackathon {
@@ -932,22 +946,24 @@ p {
 }
 
 .event-card-lgbt {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(91, 13, 159, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    padding: 7px 5px;
+    width: 45%;
 }
 
 .events-card-header-lgbt {
     background: url("../images/lgbt.png") repeat;
     font-size: small;
-    font-weight: 300;
     top: 52px;
     color: #fff;
     right: 10px;
+    font-weight: 300;
     width: auto;
     text-transform: uppercase;
-    padding: 7px 5px;
     letter-spacing: 2px;
 }
 
