@@ -1802,3 +1802,73 @@
   twitter: "ciandt_BR"
   facebook: "ciandt"
   main_url: "http://www.ciandt.com/card/include-day"
+
+- title: "FEMALE FOUNDERS ACADEMY - OFICINA DE PITCH"
+  women: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  banner: "oficinaPitch.jpg"
+  tags: [venus, cc, universal-access]
+  facebook: "wayrabr"
+  twitter: "WayraBrasil"
+  main_url: "https://wayra-brasil.gupy.io"
+  rsvp_url: "https://www.sympla.com.br/female-founders-academy---oficina-de-pitch__194260"
+
+- title: "Quero ser DEV Locaweb"
+  free: true
+  category: "Treinamento"
+  location: "São Paulo - SP"
+  date: "até 01/10"
+  banner: "queroserdev-locaweb.jpg"
+  hashtag: "QueroSerDev"
+  youtube: "locaweb/videos"
+  linkedin: "company/44826"
+  twitter: "locaweb"
+  facebook: "locaweb"
+  main_url: "http://queroserdevlocaweb.com.br/"
+  rsvp_url: "http://queroserdevlocaweb.com.br/#lw-process"
+
+- title: "UX Strategy Belo Horizonte"
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "30/09 a 01/10"
+  banner: "mergo-ux.png"
+  hashtag: "UXStrategy"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "https://credencial.imasters.com.br/uxstrategy-bh#registration"
+
+- title: "UX Metrics"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09 a 01/10"
+  banner: "ux-metrics.jpg"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "http://www.mergo.com.br/curso-ux-metrics.html"
+
+- title: "Grow Up Startup 2017"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "02/10"
+  banner: "growstartup.jpg"
+  facebook: "growupstartup"
+  linkedin: "company/16199893"
+  main_url: "https://www.solutte.com.br/"
+  rsvp_url: "https://www.sympla.com.br/grow-up-startup-2017__184393"
+
+- title: "Bate-papo sobre a Certificação Java 8 (OCA Java 8)"
+  free: true
+  location: "São Paulo - SP"
+  date: "03/10"
+  banner: "certificacaoJava.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/certificacao-java-8-oca/"
+  rsvp_url: "https://www.sympla.com.br/bate-papo-sobre-a-certificacao-java-8-oca-java-8__190391"
