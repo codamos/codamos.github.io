@@ -7,6 +7,7 @@
 # women:     booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
 # lgbt:      booleano (true ou false), opcional. Evento para o público LGBTQ+.
 # hackathon: booleano (true ou false), opcional. Evento no formato hackathon.
+# opensource:booleano (true ou false), opcional. É um evento para a comunidade Open source.
 # location:  texto, obrigatório.
 # date:      texto, obrigatório.
 # banner:    arquivo na pasta `images/eventos`, opcional.
@@ -725,6 +726,20 @@
   facebook: "ebicc2017"
   main_url: "http://ebicc.sbcc.org.br/"
   rsvp_url: "http://ebicc.sbcc.org.br/#registration"
+
+- title: "Hackatoberfest"
+  free: true
+  hackathon: true
+  opensource: true
+  location: "on-line"
+  date: "até 31/10"
+  banner: "hacktoberfest.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "hacktoberfest"
+  twitter: "digitalocean"
+  facebook: "DigitalOceanCloudHosting"
+  main_url: "https://hacktoberfest.digitalocean.com/"
+  rsvp_url: "https://hacktoberfest.digitalocean.com/"
 
 # NOVEMBRO
 
