@@ -299,6 +299,7 @@
   free: true
   inclusive: true
   women: true
+  highlight: true
   location: "Belo horizonte - MG"
   date: "10/10"
   banner: "pyladies-python-iniciantes.png"
@@ -349,7 +350,6 @@
   banner: "cpweekend.jpg"
   women: true
   inclusive: true
-  highlight: true
   tags: [venus, cc, wheelchair-alt, universal-access]
   hashtag: "CPWeekendPatoBranco"
   twitter: "CampusPartyBRA"
@@ -374,6 +374,7 @@
 - title: "Curso de Git e Github"
   inclusive: true
   women: true
+  highlight: true
   location: "São Paulo - SP"
   date: "17/10 e 19/10"
   banner: "git-github.png"
@@ -642,7 +643,6 @@
   banner: "cpmg2.jpg"
   women: true
   inclusive: true
-  highlight: true
   tags: [venus, cc, wheelchair-alt, universal-access]
   hashtag: "CPMG2"
   twitter: "CampusPartyBRA"
