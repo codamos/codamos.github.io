@@ -26,7 +26,1846 @@
 # cfp:       booleano (true ou false), opcional. Está com Call For papers aberto.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
+- title: "Living with Unicorns"
+  location: "São Paulo - SP"
+  date: "11/07"
+  banner: "unicorn.png"
+  hashtag: "LigaVentures"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "http://liga.ventures/"
+
+- title: "HACKAFLAG - Roadsec"
+  location: "São Paulo - SP"
+  date: "15/07"
+  banner: "roadsec.png"
+  hashtag: "Hackaflag"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br/"
+
+- title: "Café com Marialab - Julho"
+  location: "São Paulo - SP"
+  date: "15/07"
+  banner: "maria.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  main_url: "https://marialab.org/"
+
+- title: "7 Masters - Vue.js"
+  location: "São Paulo - SP"
+  date: "19/07"
+  banner: "7masters.png"
+  hashtag: "7Masters"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  linkedin: "company/imasters"
+  main_url: "http://imasters.com.br/"
+
+- title: "The Developers Conference - SP"
+  location: "São Paulo - SP"
+  date: "18/07 a 22/07"
+  banner: "tdc.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "TheDevConf"
+  twitter: "TheDevConf"
+  facebook: "thedevelopersconference"
+  instagram: "thedevconf"
+  main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
+
+- title: "Design de Produto: colocando sua ideia no mercado - Coletividad"
+  location: "São Paulo - SP"
+  date: "22/07"
+  banner: "coletividad-design.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Code in the dark - Recife"
+  location: "Recife - PE"
+  date: "23/07"
+  banner: "code-in-the-dark.png"
+  tags: [venus, cc]
+  hashtag: "codeinthedarkbr"
+  facebook: "Code-in-the-Dark-Recife-1317500518368334"
+  main_url: "https://www.meetup.com/GDG-Recife/events/241098435/"
+
+- title: "Design Debate #2: O que realmente precisamos falar sobre Design? - Coletividad"
+  location: "São Paulo - SP"
+  date: "25/07"
+  banner: "coletividad-design-debate.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "PWA, Web Apps e Aplicações Offline na Prática - 2ª Turma - Coletividad"
+  location: "São Paulo - SP"
+  date: "27/07"
+  banner: "coletividad-workshop-pwa.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Lean UX e Agile - como projetar uma experiência incrível para o usuário - Coletividad"
+  location: "São Paulo - SP"
+  date: "27/07"
+  banner: "coletividad-ux-agile.jpg"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Elixir Meetup #10"
+  location: "São Paulo - SP"
+  date: "29/07"
+  banner: "elixir.png"
+  tags: [venus, cc]
+  hashtag: "myelixirstatus"
+  twitter: "elug_sp"
+  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
+
+- title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
+  location: "São Paulo - SP"
+  date: "02/08"
+  banner: "coletividad-ui-design.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Empreendedorismo Feminino - Por onde começar? #ElaQuemFaz"
+  location: "São Paulo - SP"
+  date: "02/08"
+  banner: "emprededorismo-womakers.jpg"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+
+- title: "Happy hour ELA Líder"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/08"
+  banner: "ela-lider-happyhour.jpg"
+  tags: [venus, cc]
+  hashtag: "elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  youtube: "https://www.youtube.com/channel/UC-gc9bhY5CdbPlpFz0SzRNQ"
+  main_url: "https://elalider.com/"
+
+- title: "Hackeando Dados Públicos usando Python"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/08"
+  banner: "coletividad-hacker.png"
+  tags: [venus, cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "IBM - Blue Experience - Edição Centenário"
+  location: "São Paulo - SP"
+  date: "05/08"
+  banner: "ibm-blue-hack.png"
+  hashtag: "IBMBrasil"
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
+  main_url: "https://www.ibm.com/br-pt/"
+
+- title: "DevOps Day"
+  location: "Porto Alegre - RS"
+  date: "05/08"
+  banner: "devopsday-poa.png"
+  hashtag: "devopsday"
+  twitter: "poadevopsday"
+  facebook: "devopsdaypoa"
+  main_url: "https://www.devopsdays.org/events/2017-porto-alegre/"
+
+- title: "WagonTalk com Dennis Wang"
+  free: true
+  location: "São Paulo - SP"
+  date: "08/08"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "INFO SESSION - LIGA AUTOTECH"
+  free: true
+  location: "São Paulo - SP"
+  date: "08/08"
+  banner: "liga-autotech.png"
+  hashtag: "LigaAutoTech"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "http://liga.ventures/autotech/"
+
+- title: "ProdutoSP #10 - Evino"
+  free: true
+  location: "São Paulo - SP"
+  date: "09/08"
+  banner: "produto-sp.png"
+  meetup: "produtoSP"
+  twitter: "_ProdutoSP"
+  main_url: "https://www.meetup.com/produtoSP/"
+
+- title: "PHPSP + Pub"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "phpsp.png"
+  hashtag: "phpsp"
+  twitter: "phpsp"
+  facebook: "sao.paulo.elephants"
+  main_url: "http://phpsp.org.br/"
+
+- title: "7o Meetup Facebook Developer Circle SP"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/08"
+  banner: "facebook-dev.png"
+  tags: [venus, cc]
+  hashtag: "Facebook"
+  twitter: "facebook"
+  facebook: "/groups/DevCSaoPaulo/"
+  main_url: "https://developers.facebook.com/developercircles"
+
+- title: "Curso de Introdução ao Desenvolvimento em Java"
+  free: true
+  category: Curso
+  location: "A distância"
+  date: "11/08"
+  banner: "lead.png"
+  tags: [wheelchair-alt, sign-language]
+  instagram: "lead.dell"
+  facebook: "dell.lead"
+  main_url: "http://projetolead.com.br/selecao/"
+
+- title: "NodeBR #34 - Services like a boss"
+  free: true
+  location: "São Paulo - SP"
+  date: "11/08"
+  banner: "node-br.png"
+  hashtag: "nodebr34"
+  twitter: "nodebr"
+  facebook: "brnode"
+  main_url: "https://www.meetup.com/nodebr/"
+
+- title: "NerdZão Day #1 - 6 Trilhas Tech Simultâneas"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+
+- title: "Design para Inovação Social"
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "coletividad-design-social.png"
+  tags: [cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mergulhando em Rust - Mozilla Brasil + SENAI"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "mozilla-rust.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+
+- title: "TEDXSÃOPAULO EDUCAÇÃO 2017"
+  location: "São Paulo - SP"
+  date: "12/08"
+  banner: "tedxeducacao.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "TEDxSaoPaulo"
+  twitter: "TEDxSaoPaulo"
+  facebook: "TEDxSP"
+  main_url: "http://tedxsp.com/"
+
+- title: "Estrelas além do Tempo - Ciência e Racismo em Debate"
+  free: true
+  location: "São Paulo - SP"
+  date: "13/08"
+  banner: "mis-estrelas-filme.png"
+  tags: [venus, cc, wheelchair-alt]
+  instagram: "mis_sp"
+  twitter: "mis_sp"
+  facebook: "museudaimagemedosom"
+  main_url: "http://www.mis-sp.org.br/"
+
+- title: "Moonhack"
+  free: true
+  location: "São Paulo - SP"
+  date: "15/08"
+  banner: "moonhack.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "moonhack"
+  twitter: "CodeClubBrasil"
+  facebook: "CodeClubBrasil"
+  main_url: "https://www.moonhack.com/home-portuguese"
+
+- title: "WagonTalk com Alexis Silva"
+  free: true
+  location: "São Paulo - SP"
+  date: "15/08"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "React #12 – Empreendedorismo + React"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "react-12.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+
+- title: "Le Wagon Coding Bootcamp Open Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "A Era dos Games"
+  location: "São Paulo - SP"
+  date: "16/08 a 12/11"
+  banner: "era-dos-games.png"
+  twitter: "bienalsaopaulo"
+  facebook: "bienalsaopaulo"
+  main_url: "http://aeradosgames.com.br/"
+
+- title: "Ela Líder #12"
+  free: true
+  location: "São Paulo - SP"
+  date: "16/08"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+
+- title: "AngularSP Talks #14 Pagar.me"
+  free: true
+  location: "São Paulo - SP"
+  date: "17/08"
+  banner: "angular-sp.png"
+  tags: [venus, cc]
+  hashtag: "AngularSP"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/events/242264885/"
+
+- title: "Startups Pitch Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "17/08"
+  banner: "usp-inovacao.jpg"
+  main_url: "http://inovacao.usp.br/"
+
+- title: "Rails Girls São Paulo"
+  free: true
+  location: "São Paulo - SP"
+  date: "18/08 e 19/08"
+  banner: "railsgirls.png"
+  tags: [venus, cc]
+  hashtag: "railsgirls"
+  twitter: "railsgirlssp"
+  facebook: "railsgirls.sp"
+  main_url: "http://railsgirls.com/saopaulo.html"
+
+- title: "MEAN Stack em Módulos"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "18/08 a 19/08"
+  banner: "mean-stack-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/stack-mean/"
+
+- title: "Curso NodeJS 6.3"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "18/08 a 19/08"
+  banner: "nodejs-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-de-nodejs/"
+
+- title: "Roadsec 2017 | Rio de Janeiro"
+  inclusive: true
+  location: "Rio de Janeiro - RJ"
+  date: "19/08"
+  banner: "roadsec-rj.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+
+- title: "Café com Marialab"
+  free: true
+  location: "São Paulo - SP"
+  date: "19/08"
+  banner: "maria.png"
+  tags: [venus, cc]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  main_url: "https://marialab.org/"
+
+- title: "6º Encontro - ReactJS Florianópolis"
+  free: true
+  location: "Florianópolis - SC"
+  date: "19/08"
+  banner: "react-cw-5.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+
+- title: "Chatbot4Devs"
+  location: "Belo Horizonte - MG"
+  date: "19/08"
+  banner: "chatbot-4devs.jpg"
+  twitter: "takenet"
+  facebook: "take.net"
+  main_url: "http://chatbot4devs.take.net"
+
+- title: "Construindo meu primeiro robô seguidor de linha"
+  inclusive: true
+  category: Curso
+  location: "Fortaleza - CE"
+  date: "19/08"
+  banner: "byte-girl-robo.png"
+  tags: [venus, cc]
+  hashtag: "bg17"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+
+- title: "Women Techmakers - Grupo de estudos Android"
+  free: true
+  inclusive: true
+  category: "Curso"
+  location:  "Campinas - SP"
+  date: "21/08"
+  banner: "women-techmakers.png"
+  tags: [venus, cc]
+  twitter: "gdgcampinas"
+  facebook: "gdgcampinas"
+  meetup: "gdgcampinas"
+  linkedin: "company-beta/15240699"
+  main_url: "https://www.meetup.com/pt-BR/gdgcampinas/"
+
+- title: "{Reprograma} - Turma 4"
+  category: Curso
+  location: "São Paulo - SP"
+  date: "até 21/08"
+  banner: "reprograma.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+
+- title: "II semana da diversidade"
+  free: true
+  inclusive: true
+  category: "Curso"
+  location:  "Bragança Paulista - SP"
+  date: "21/08"
+  banner: "semana-diversidade.png"
+  tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
+  facebook: "semanadadiversidadeifspbra"
+  main_url: "http://bra.ifsp.edu.br/diversidade/"
+
+- title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
+  location: "Bambuí - MG"
+  date: "21/08 a 25/08"
+  banner: "setec.jpg"
+  main_url: "http://computacaoifmg.com.br/"
+
+- title: "DevTalk #2 - Comunidade e Cultura Open Source"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "22/08"
+  banner: "devtalk2.jpg"
+  tags: [venus]
+  twitter: "Desprograme"
+  facebook: "desprograme123"
+  instagram: "desprograme123"
+  meetup: "Desprograme123"
+  main_url: "http://desprograme.com.br/"
+
+- title: "3° Meetup Cloud Girls SP"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "22/08"
+  banner: "cloud-girls.jpeg"
+  tags: [venus]
+  meetup: "Cloud-Girls-Sao-Paulo"
+  main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
+
+- title: "Prototipação em UX"
+  location: "São Paulo - SP"
+  date: "23/08"
+  banner: "prototipacao-ux.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mini curso de Angular 4"
+  free: true
+  category: "Curso"
+  location:  "São Paulo - SP"
+  date: "23/08"
+  banner: "meetup.jpg"
+  facebook: "developerssp"
+  meetup: "Developers-SP"
+  main_url: "https://www.meetup.com/pt-BR/Developers-SP/"
+
+- title: "Java @ Rio #2 - Machine Learning & Ser um Java Ninja"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "23/08"
+  banner: "java-rio.jpeg"
+  meetup: "Java-at-Rio"
+  main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
+
+- title: "Android Dev Conference - Imasters"
+  location: "São Paulo - SP"
+  date: "23/08 a 25/08"
+  banner: "android-dev-conf.png"
+  hashtag: "androiddevconf"
+  twitter: "AndroidDevBrOrg"
+  facebook: "PortaliMasters"
+  main_url: "https://eventos.imasters.com.br/android-devconference"
+
+- title: "Crie a landing page da sua startup... em 2 horas!"
+  free: true
+  location: "São Paulo - SP"
+  date: "24/08"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "Desenvolvimento de Progressive Web Apps (PWA)"
+  free: true
+  category: "Curso"
+  location:  "São Paulo - SP"
+  date: "23/08"
+  banner: "pwa-netcoders.jpeg"
+  facebook: "groups/netcoders"
+  linkedin: "grp/home?gid=4357976"
+  meetup: "NetCoders"
+  main_url: "http://netcoders.com.br/"
+
+- title: "Diálogos: Fortalecendo conexões entre mulheres negras"
+  free: true
+  inclusive: true
+  location:  "Belo Horizonte - MG"
+  date: "23/08"
+  banner: "conexoes-tw.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "thoughtworksbr"
+  facebook: "ThoughtWorksBR"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+
+- title: "Virada sustentável na BRAIN"
+  free: true
+  location:  "São Paulo - SP"
+  date: "24/08 a 26/08"
+  banner: "brain.png"
+  facebook: "Brain.b4igroup"
+  linkedin: "company-beta/15081533/"
+  instagram: "brain__club"
+  main_url: "http://brain.club/"
+
+- title: "#00 - PWA"
+  free: true
+  location:  "São Paulo - SP"
+  date: "24/08"
+  banner: "collabcode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Meetup"
+  twitter: "collabcodebr"
+  facebook: "collabcode"
+  main_url: "https://www.meetup.com/CollabCodeBR/"
+
+- title: "BrazilJS - RS"
+  inclusive: true
+  location: "Porto Alegre - RS"
+  date: "25/08 e 26/08"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt, child]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+
+- title: "DjangoGirls"
+  inclusive: true
+  location: "Novo Hamburgo - RS"
+  date: "25/08 e 26/08"
+  banner: "django-girls.png"
+  tags: [venus, cc]
+  hashtag: "DjangoGirls"
+  twitter: "djangogirls"
+  facebook: "djangogirlsnh"
+  github: "DjangoGirls"
+  main_url: "https://djangogirls.org/novohamburgo/"
+
+- title: "Cryptoparty"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "crypto-rave.png"
+  tags: [venus, cc]
+  hashtag: "Cryptoparty"
+  twitter: "cryptoravebr"
+  facebook: "cryptorave"
+  main_url: "https://cryptorave.org/"
+
+- title: "Certificações Ethical Hacking Essentials"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "it-certs.png"
+  twitter: "Itcerts_"
+  facebook: "itcerts"
+  linkedin: "company/itcerts"
+  main_url: "http://itcerts.com.br/"
+
+- title: "Funcionalidades CSS na prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "maujor-css-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/funcionalidades-css-na-pratica/"
+
+- title: "COMO TRABALHAR A SUA AUTOCONFIANÇA E CONQUISTAR O MUNDO"
+  inclusive: true
+  category: Workshop
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "deevas.png"
+  tags: [venus, cc]
+  hashtag: "MulheresLíderes"
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+
+- title: "Curso Introdução ao MongoDB"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "26/08"
+  banner: "mongo-db-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-dados-banco-de-dados/curso-introducao-mongodb/"
+
+- title: "Nodebots Day Salvador"
+  free: true
+  location: "Salvador - BA"
+  date: "27/08"
+  banner: "nodebots-day.png"
+  tags: [venus, cc]
+  twitter: "pyladiessa"
+  facebook: "PyLadiesSalvador"
+  main_url: "https://pyladiessalvador.github.io/"
+
+- title: "Hackeando seu eletrodoméstico usando Arduino"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "hackeando-eletrodomestico.png"
+  tags: [venus, cc]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "NerdZão - Trilha Nerdgirlz"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+
+- title: "7 Masters - Firebase"
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "7masters.png"
+  hashtag: "7Masters"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  linkedin: "company/imasters"
+  main_url: "https://setemasters.imasters.com.br/"
+
+- title: "AdaptTALKS: Mulheres na Tecnologia"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "29/08"
+  banner: "adapt-talks.png"
+  tags: [venus, cc]
+  hashtag: "adaptTALKS"
+  twitter: "adaptworks"
+  facebook: "adaptworks"
+  main_url: "http://www.adaptworks.com.br/"
+
+- title: "NerdZão - Trilha Mobile"
+  free: true
+  location: "São Paulo - SP"
+  date: "30/08"
+  banner: "nerdezao.png"
+  tags: [cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+
+- title: "React CWB #5"
+  free: true
+  location: "Curitiba - PR"
+  date: "30/08"
+  banner: "react-cw-5.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+
+- title: "FAB LAB LIVRE SP"
+  free: true
+  category: Curso
+  location: "São Paulo - SP"
+  date: "08/2017"
+  banner: "fab-lab-livre.png"
+  tags: [venus, cc, universal-access]
+  youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
+  instagram: "fablablivresp"
+  facebook: "fablablivresp"
+  main_url: "http://www.fablablivresp.art.br/"
+
+- title: "NerdZão - Trilha Mobile"
+  free: true
+  location: "São Paulo - SP"
+  date: "30/08"
+  banner: "nerdezao.png"
+  tags: [cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+
+- title: "React CWB #5"
+  free: true
+  location: "Curitiba - PR"
+  date: "30/08"
+  banner: "react-cw-5.png"
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "http://reactconfbr.com.br/"
+
 # SETEMBRO
+
+- title: "Introdução ao AngularJS 1.6"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "01/09 a 02/09"
+  banner: "angularjs-novatec.png"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-front-end/curso-angularjs/"
+
+- title: "Dev Xperience"
+  location: "São Paulo - SP"
+  date: "01/09 e 02/09"
+  banner: "dev-xperience.png"
+  hashtag: "devxbr2017"
+  twitter: "DevXperienceBR"
+  facebook: "devxperience"
+  instagram: "devxperience"
+  main_url: "https://www.devxperience.com.br/"
+
+- title: "PHP Community Summit by Locaweb"
+  location: "São Paulo - SP"
+  date: "01/09 e 02/09"
+  banner: "phpsm-lw.png"
+  tags: [venus, cc]
+  hashtag: "PHPcsLW"
+  twitter: "phpsp"
+  facebook: "sao.paulo.elephants"
+  main_url: "https://eventos.locaweb.com.br/proximos-eventos/php-community-summit-by-locaweb/"
+
+- title: "BrazilJS - CE"
+  inclusive: true
+  location: "Fortaleza - CE"
+  date: "01/09 e 02/09"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt, child]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+
+- title: "JSLadies"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "js-ladies.jpeg"
+  tags: [venus,wheelchair-alt, ticket]
+  twitter: "JsladiesSp"
+  facebook: "jsladiesbr"
+
+- title: "Hackday Technovation & Goldman Sachs"
+  free: true
+  location:  "São Paulo - SP"
+  date: "02/09"
+  banner: "hackaday-goldman.png"
+  tags: [ticket]
+
+- title: "</> JUNTOS NA TI - 3ª EDIÇÃO"
+  free: true
+  inclusive: true
+  location:  "São Paulo - SP"
+  date: "02/09"
+  banner: "juntos-na-ti.png"
+  tags: [cc, universal-access]
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+
+- title: "Lab de Gamificação"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "lab-gameficacao.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "SQL Day Bahia"
+  location: "Salvador - BA"
+  date: "02/09"
+  banner: "sql-bahia.jpg"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mercado Livre experience"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "mercado-livre.png"
+  hashtag: "MLXP2017"
+  twitter: "MercadoLivre"
+  facebook: "MercadoLivreExperience"
+  main_url: "http://www.mercadolivreexperience.com.br/programacao"
+
+- title: "Install Fest - PHP Women RJ"
+  location: "Rio de Janeiro - RJ"
+  free: true
+  inclusive: true
+  date: "02/09"
+  banner: "installfest-phpwomen.png"
+  tags: [venus, cc]
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
+  main_url: "https://phpwomenbr.github.io/rio/"
+
+- title: "Devday 2017"
+  location: "Belo Horizonte - MG"
+  date: "02/09"
+  banner: "devisland.png"
+  tags: [cc, child]
+  hashtag: "DEVDAY2017"
+  twitter: "devisland"
+  facebook: "DevIsland"
+  main_url: "http://devday.devisland.com/"
+
+- title: "Red Bull Basement"
+  location: "São Paulo - SP"
+  free: true
+  date: "02/09"
+  banner: "red-bull-basement.png"
+  tags: [universal-access]
+  hashtag: "Basement"
+  twitter: "RedBullBR"
+  facebook: "RedBullStation"
+  main_url: "http://www.redbullbasement.com.br/"
+
+- title: "Roadsec 2017 | Vitória"
+  location: "Vitória - ES"
+  inclusive: true
+  date: "02/09"
+  banner: "roadsec-es.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+
+- title: "Conheça o Xamarin: Desenvolvimento Multiplataforma"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "xamarin-novatec.jpg"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-tecnologia-mobile/xamarin-desenvolvimento-multiplataforma/"
+
+- title: "UX DAY: User Experience na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "ux-day.jpg"
+  facebook: "labreset"
+  main_url: "http://reset-lab.com.br/"
+
+- title: "SCRUM na Prática"
+  free: true
+  location: "São Paulo - SP"
+  date: "02/09"
+  banner: "scrum.jpg"
+  facebook: "DotNetCoders"
+  main_url: "https://www.facebook.com/DotNetCoders"
+
+- title: "Iniciação ao Web Scraping - Puxar dados da Internet para quem não programa..."
+  free: true
+  location: "São Paulo - SP"
+  date: "04/09"
+  banner: "le-wagon.png"
+  hashtag: "lewagonBR"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+
+- title: "Code Club Meetup SP @caelum"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "code-club.png"
+  tags: [cc, kids]
+  hashtag: "codeclub"
+  twitter: "CodeClubBrasil"
+  facebook: "CodeClubBrasil"
+  main_url: "https://www.codeclubbrasil.org.br/"
+
+- title: "Bolsa Volt Data Lab para jovens jornalistas"
+  free: true
+  location: "Online"
+  date: "05/09"
+  banner: "volt-data.png"
+  twitter: "voltdatalab"
+  facebook: "voltdata"
+  main_url: "http://www.voltdata.info"
+
+- title: "Esquenta Tech Cycle Challenge"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "tech-cycle-challenge.jpg"
+  twitter: "brcyclefair"
+  facebook: "BrasilCycleFair"
+  main_url: "brasilcyclefair.com.br/pt"
+
+- title: "Investimento anjo para startups"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "girls-in-tech.png"
+  tags: [venus, cc]
+  hashtag: "Girlsintechbr"
+  twitter: "Girlsintechbr"
+  facebook: "GiTSaoPaulo"
+  main_url: "http://brazil.girlsintech.org/"
+
+- title: "PALESTRA: COMO SEGUIR CARREIRA EM UX?"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "AngularSP Dojo #1 na Lambda3"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "05/09"
+  banner: "angular-dojo.jpg"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "PyLadies - 2 anos"
+  location: "São Paulo - SP"
+  inclusive: true
+  date: "07/09"
+  banner: "pyladies-2anos.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  facebook: "PyLadiesSP"
+  main_url: "https://www.meetup.com/PyLadiesSP/"
+
+- title: "1º HACKATHON POSTOS PETROBRAS"
+  location: "São Paulo - SP"
+  date: "07/09"
+  banner: "hackathon-petrobras.png"
+  hashtag: "ésócurtirocaminho"
+  twitter: "postospetrobras"
+  facebook: "postospetrobras"
+  main_url: "http://hotsitesbr.com.br/hackathon/"
+
+- title: "HackTown 2017"
+  location: "Santa Rita do Sapucaí - MG"
+  date: "07/09 a 10/09"
+  banner: "hack-town.jpg"
+  twitter: "hacktown"
+  facebook: "hacktownfest"
+  instagram: "hacktownsrs"
+  main_url: "http://hacktown.com.br/"
+
+- title: "Python Sul"
+  location: "Caxias do Sul - RS"
+  date: "08/09 a 10/09"
+  banner: "pythonsul.png"
+  hashtag: "Python"
+  twitter: "PythonSul"
+  facebook: "pythonsul"
+  main_url: "http://pythonsul.org/"
+
+- title: "Agile Brazil"
+  location: "Belém - PA"
+  date: "13/09 a 15/09"
+  banner: "agile-br.png"
+  women: true
+  tags: [cc, universal-access]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/2017/"
+
+- title: "CUBO CONECTA 2017"
+  location: "São Paulo - SP"
+  date: "14/09"
+  banner: "cuboconecta.jpg"
+  hashtag: "cubo_network"
+  linkedin: "company/9487897"
+  twitter: "cubo_network"
+  facebook: "cubo.network"
+  main_url: "https://conecta.cubo.network"
+
+- title: "RanchoDev"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "rancho-dev.png"
+  tags: [cc]
+  hashtag: "ranchodev2017"
+  twitter: "ranchodev"
+  facebook: "RDCONF"
+  main_url: "http://ranchodev.com.br/"
+
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  women: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [venus, universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  women: true
+  date: "16/09"
+  banner: "smart-city.png"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mergulhando em Rust @TW Belo Horizonte"
+  free: true
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "16/09"
+  banner: "mozilla-rust-bh.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+
+- title: "IBMHosts: Etapa SP da Maratona de Programação"
+  location: "São Paulo - SP"
+  date: "09/09"
+  banner: "ibm-host.jpg"
+  facebook: "BlueHack-Community-Brasil"
+  main_url: "http://maratona.ime.usp.br/sedes17.html"
+
+- title: "Inteligência artificial: aplicação e novas experiências"
+  category: "Curso"
+  location: "Online"
+  date: "13/09 a 16/10"
+  banner: "ai-itsrio.jpg"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+
+- title: "Agile Brazil"
+  location: "Belém - PA"
+  date: "13/09 a 15/09"
+  banner: "agile-br.png"
+  women: true
+  tags: [cc, universal-access]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/2017/"
+
+- title: "CUBO CONECTA 2017"
+  location: "São Paulo - SP"
+  date: "14/09"
+  banner: "cuboconecta.jpg"
+  hashtag: "cubo_network"
+  linkedin: "company/9487897"
+  twitter: "cubo_network"
+  facebook: "cubo.network"
+  main_url: "https://conecta.cubo.network"
+
+- title: "RanchoDev"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "rancho-dev.png"
+  tags: [cc]
+  hashtag: "ranchodev2017"
+  twitter: "ranchodev"
+  facebook: "RDCONF"
+  main_url: "http://ranchodev.com.br/"
+
+- title: "Emerge Day São Paulo 2017"
+  free: true
+  women: true
+  category: Oficina
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "emergeDay.jpg"
+  tags: [venus, universal-access]
+  facebook: "iniciativaemerge"
+  main_url: "https://www.iniciativaemerge.org/emergeday"
+
+- title: "Smart City com Arduino, Design Thinking e Scrum"
+  location: "São Paulo - SP"
+  women: true
+  date: "16/09"
+  banner: "smart-city.png"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Mergulhando em Rust @TW Belo Horizonte"
+  free: true
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "16/09"
+  banner: "mozilla-rust-bh.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "mozillabrasil"
+  twitter: "mozillabrasil"
+  facebook: "mozillabrasil"
+  main_url: "https://www.mozilla.org/pt-BR/"
+
+- title: "Café com Marialab"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "maria.png"
+  tags: [venus, cc]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  meetup:  "marialab"
+  main_url: "https://marialab.org/"
+
+- title: "CSSday"
+  women:  true
+  inclusive: true
+  free: true
+  location: "Recife - PE"
+  date: "16/09"
+  banner: "cssday.png"
+  tags: [venus, cc]
+  hashtag: "cssdaybr17"
+  twitter: "cssdaybr"
+  facebook: "cssdaybr"
+  youtube: "caravanaweb"
+  main_url: "https://cssday.com.br/"
+
+- title: "Hyper Virtual festival"
+  location: "São Paulo - SP"
+  date: "16/09"
+  banner: "hypervr.png"
+  hashtag: "vr"
+  twitter: "E_B_A_C"
+  facebook: "hyperimmersive"
+  main_url: "https://www.hypervrfestival.com/"
+
+- title: "6º Fórum Empreendedoras"
+  location: "São Paulo - SP"
+  inclusive: true
+  women: true
+  date: "16/09"
+  banner: "forum-empreendedoras.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womeninleadership"
+  twitter: "RMEmpreendedora"
+  facebook: "ForumEmpreendedoras"
+  main_url: "http://www.forumempreendedoras.com.br"
+
+- title: "Front in Vale"
+  women: true
+  inclusive: true
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "front-in-vale.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "frontinvale2017"
+  twitter: "frontinvale"
+  facebook: "frontinvale"
+  main_url: "http://frontinvale.com.br/"
+
+- title: "Code in the Dark"
+  women: true
+  location: "Vale do Paraíba - SP"
+  date: "16/09"
+  banner: "code-in-the-dark-vp.png"
+  tags: [venus, cc]
+  hashtag: "CITD"
+  twitter: "CodeintheDarkBR"
+  facebook: "codeinthedarkbr"
+  main_url: "http://codeinthedark.frontinvale.com.br/"
+
+- title: "Curso Arduino I - Conhecendo a plataforma"
+  category: "Curso"
+  location: "Salvador - BA"
+  date: "16/09"
+  banner: "curso-arduino-ba.jpg"
+  facebook: "fsagdg"
+  main_url: "https://developers.google.com/groups/chapter/101301229214170008465/"
+
+- title: "Codelab: HTML e CSS"
+  location: "Feira de Santana - BA"
+  date: "16/09"
+  banner: "codelab.jpg"
+  main_url: "https://www.facebook.com/events/1904361406485528/"
+
+- title: "Impactos da exposição de crianças e adolescentes na Internet"
+  free: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "18/09"
+  banner: "workshopexposicaonainternet.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "NICbr"
+  twitter: "comuNICbr"
+  facebook: "nic.br"
+  youtube: "user/NICbrvideos"
+  main_url: "http://workshopexposicaonainternet.nic.br/"
+
+- title: "Programa de Estágio Escape Tech"
+  free: true
+  location: "São Paulo - SP"
+  date: "até 18/09"
+  banner: "estagio-escape-tech.png"
+  tags: [venus]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
+  facebook: "ciandt"
+  main_url: "http://www.ciandt.com/home"
+
+- title: "Seminário sobre Privacidade e Proteção de Dados Pessoais"
+  free: true
+  category: "Seminário"
+  location: "São Paulo - SP"
+  date: "18/09 e 19/09"
+  banner: "protecao-privacidade-cgi.jpg"
+  tags: [cc, universal-access]
+  hashtag: "SeminárioPrivacidade"
+  twitter: "comuNICbr"
+  facebook: "nic.br"
+  youtube: "user/NICbrvideos"
+  main_url: "http://seminarioprivacidade.cgi.br/"
+
+- title: "Palestra: Como seguir carreira em UX?"
+  location: "São Paulo - SP"
+  date: "19/09"
+  banner: "palestra-carreira-ux.jpg"
+  tags: [universal-access]
+  hashtag: "MergoLab "
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "THT + Netcoders: Decifrando o LinkedIn"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "thtthingshackerteam.jpg"
+  facebook: "ThingsHackerTeam"
+  linkedin: "company/22313130/"
+  main_url: "https://www.meetup.com/pt-BR/preview/THT-Things-Hacker-Team"
+
+- title: "Java @ Rio #3"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "20/09"
+  banner: "java-rio.jpeg"
+  meetup: "Java-at-Rio"
+  main_url: "https://www.meetup.com/pt-BR/Java-at-Rio/"
+
+- title: "CollabCode GraphQL"
+  free: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "collabcode.png"
+  tags: [cc, universal-access]
+  hashtag: "collabcodetech"
+  twitter: "collabcodetech"
+  facebook: "collabcode"
+  meetup: "CollabCodeBR"
+  main_url: "https://www.meetup.com/pt-BR/CollabCodeBR"
+
+- title: "Ela Líder #13"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "20/09"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+
+- title: "Introdução a Git e GitHub"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "20/09"
+  banner: "git-itsrio.jpg"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
+
+- title: "PHPSP Campinas + PUB"
+  free: true
+  location: "Campinas - SP"
+  date: "21/09"
+  banner: "phpsp-campinas.jpeg"
+  twitter: "phpspcampinas"
+  facebook: "grupo.campinas"
+  meetup: "PHPSP-Campinas"
+  main_url: "http://phpsp.org.br/"
+
+- title: "React #13 – Double Topic: Styled-components 💅 & Serveless"
+  location: "São Paulo - SP"
+  date: "21/09"
+  banner: "react-12.png"
+  hashtag: "ReactSP"
+  twitter: "ReactConfBR"
+  facebook: "reactconf"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/ReactJS-SP/"
+
+- title: "Go Meetup - ThoughtWorks"
+  location: "São Paulo - SP"
+  free: true
+  date: "21/09"
+  banner: "golang.jpeg"
+  tags: [universal-access]
+  main_url: "https://www.meetup.com/pt-BR/golangbr/"
+
+- title: "Grupo de estudos Arduino no FabLab Galeria Olido"
+  free: true
+  location: "São Paulo - SP"
+  date: "21/09"
+  banner: "arduino-community.jpeg"
+  facebook: "fablablivresp"
+  instagram: "frontinbh"
+  meetup: "Clube-do-Arduino"
+  main_url: "http://fablablivresp.art.br/unidades/galeria-olido"
+
+- title: "Tech Cycle Challenge"
+  free: true
+  location: "São Paulo - SP"
+  date: "23/09 e 24/09"
+  banner: "tech-cycle-challenge.jpg"
+  twitter: "brcyclefair"
+  facebook: "BrasilCycleFair"
+  main_url: "brasilcyclefair.com.br/pt"
+
+- title: "Métodos de Pesquisa de Mercado"
+  location: "São Paulo - SP"
+  date: "23/09"
+  banner: "metodos-de-pesquisa.jpg"
+  women: true
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+
+- title: "Front in BH 2k17 - BH"
+  location: "Belo Horizonte - MG"
+  date: "23/09"
+  banner: "front-inbh.jpg"
+  inclusive: true
+  women: true
+  tags: [venus, cc]
+  hashtag: "FrontInBH2k17"
+  twitter: "frontinbh"
+  facebook: "FrontInBH"
+  instagram: "frontinbh"
+  main_url: "http://frontinbh.com.br/"
+
+- title: "Devfest Maceió"
+  location: "Maceió - AL"
+  date: "23/09"
+  banner: "gdg-maceio.png"
+  tags: [cc]
+  hashtag: "dfmcz17"
+  twitter: "gdgmaceio"
+  facebook: "gdgmaceio"
+  main_url: "https://devfest.gdgmaceio.org/"
+
+- title: "NerdGirlz #1 - Minicurso de MongoDB"
+  location: "São Paulo - SP"
+  category: "Curso"
+  inclusive: true
+  women: true
+  date: "23/09"
+  banner: "nerdgilz.jpg"
+  tags: [venus]
+  facebook: "nerdzao"
+  main_url: "https://devfest.gdgmaceio.org/"
+
+- title: "TEDx Nova Lima"
+  location: "Nova Lima - MG"
+  date: "23/09"
+  banner: "tedx-novalima.png"
+  tags: [cc]
+  twitter: "tedxnovalima"
+  facebook: "TEDxNovaLima"
+  main_url: "https://devfest.gdgmaceio.org/"
+
+- title: "UX Weekend São Paulo"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "23/09 a 24/09"
+  banner: "mergo-ux.png"
+  tags: [universal-access]
+  hashtag: "UXWeekendBR"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "#Hack4Climate - Blockchain no combate às mudanças climáticas"
+  free: true
+  hackathon: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "25/09"
+  banner: "hackclimate.jpg"
+  tags: [cc, wheelchair-alt, universal-access]
+  facebook: "Hack4Climate"
+  hashtag: "Hack_4_Climate"
+  twitter: "Hack_4_Climate"
+  linkedin: "company/11252035"
+  main_url: "https://www.hack4climatesp.com/"
+
+- title: "DevStarter - Começando do zero!"
+  free: true
+  location: "Belo Horizonte - MG"
+  date: "26/09"
+  banner: "dev-started.jpg"
+  facebook: "GoVulpi"
+  hashtag: "DevStarter"
+  twitter: "GoVulpi"
+  linkedin: "company/10502590"
+  main_url: "http://www.vulpi.com.br/"
+
+- title: "UX Strategy"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "duxuxstrategy.jpg"
+  tags: [universal-access]
+  linkedin: "company/2890074"
+  instagram: "duxcoworkers"
+  facebook: "DuxCoworkers"
+  main_url: "http://duxcoworkers.com/"
+
+- title: "IBM SCHOOL - O Futuro das Profissões"
+  free: true
+  location: "São Paulo - SP"
+  date: "26/09"
+  banner: "ibm-school.jpg"
+  tags: [venus, cc, universal-access]
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
+  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3vVhSbKGNQ3dfHcszm24vkLuyqfy4Ql-1YWj45y5ZbWDShA/viewform#responses"
+
+- title: "Terceiro Elm SP na TW"
+  free: true
+  category: "Palestra"
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "elm-sp.jpg"
+  tags: [venus, universal-access, wheelchair-alt]
+  main_url: "https://www.meetup.com/pt-BR/Elm-sp/"
+
+- title: "Living with Unicorns - BlaBlaCar + Sprinklr"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "27/09"
+  banner: "livingwithunicorns.jpg"
+  hashtag: "LigaVentures"
+  facebook: "ligaventures"
+  linkedin: "company/liga-ventures"
+  main_url: "https://www.sympla.com.br/living-with-unicorns---blablacar--sprinklr__182283"
+
+- title: "Conexão Kinghost"
+  free: true
+  women: true
+  location: "On-line"
+  date: "27/09 e 28/09"
+  banner: "conexao-king-host.jpg"
+  tags: [universal-access]
+  hashtag: "conexaokinghost"
+  twitter: "kinghost"
+  facebook: "KingHost.Brasil"
+  linkedin: "company/kinghost"
+  main_url: "http://conexaokinghost.com.br/"
+
+- title: "UX VALE - Meetup #1"
+  free: true
+  location: "São José dos Campos - SP"
+  date: "27/09"
+  banner: "ux-vale.png"
+  tags: [cc, venus, universal-access]
+  hashtag: "uxvale"
+  twitter: "designasolucoes"
+  facebook: "designa.com.br"
+  main_url: "https://www.meetup.com/IxDASJC/"
+
+- title: "Customer Experience Summit 2017"
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "cx-summit.jpg"
+  tags: [wheelchair-alt, universal-access]
+  facebook: "CXSummit"
+  main_url: "https://cxsummit.com.br/"
+
+- title: "PyLadies na Geru"
+  free: true
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pyladiesgeru.jpg"
+  tags: [venus, universal-access]
+  facebook: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  hashtag: "geru_br"
+  meetup: "PyLadiesSP"
+  main_url: "https://www.sympla.com.br/pyladies-na-geru__194236"
+
+- title: "DEMO DAY - Metodologia LEGO® Serious Play ® - noturno"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "flunt7.jpg"
+  tags: [universal-access]
+  facebook: "fluunt7"
+  linkedin: "company/3836005"
+  main_url: "https://www.fluunt7.com.br/"
+
+- title: "Pitch Gov SP 2.0"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "pitchgov2.jpg"
+  tags: [universal-access]
+  main_url: "http://www.pitchgov.sp.gov.br/"
+
+- title: "TC Talks #1"
+  free: true
+  location: "São Paulo - SP"
+  date: "28/09"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+
+- title: "ID 360"
+  location: "Belo Horizonte - MG"
+  date: "28/09 e 29/09"
+  banner: "id360.jpg"
+  hashtag: "ID360"
+  twitter: "buscarid"
+  facebook: "somosbuscarid"
+  main_url: "http://www.buscarid.com/"
+
+- title: "The Conf"
+  location: "São Paulo - SP"
+  date: "29/09 e 30/09"
+  banner: "the-conf.png"
+  tags: [wheelchair-alt]
+  hashtag: "theconf"
+  twitter: "theconfbr"
+  facebook: "TheConfClub"
+  main_url: "http://www.theconf.club/"
+
+- title: "B2Mamy Start Powered By Google Developers Launchpad"
+  location: "São Paulo - SP"
+  date: "29/09"
+  banner: "b2mamy.jpg"
+  tags: [universal-access, child]
+  linkedin: "company/22312779"
+  instagram: "b2mamy"
+  facebook: "b2mamy"
+  main_url: "https://www.b2mamy.com.br/"
+
+- title: "Curso Docker"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "29/09 a 30/09"
+  banner: "docker-novatec.jpg"
+  twitter: "novateceditora"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-infraestrutura-virtualizacao-e-nuvem/curso-docker/"
+
+- title: "Montando sua Franzininho"
+  location: "São Paulo - SP"
+  women: true
+  category: "Workshop"
+  date: "30/09"
+  banner: "vila-maker-franzininho.jpg"
+  tags: [cc]
+  hashtag: "VempraVila"
+  twitter: "VilaMaker"
+  facebook: "vilamaker"
+  instagram: "vilamaker"
+  main_url: "https://www.vilamaker.com/"
+
+- title: "Deevas da Tecnologia - Como sua comunicação afeta sua conta bancária"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  date: "30/09"
+  banner: "upwitdeevas.jpg"
+  tags: [venus, universal-access]
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+
+- title: "Curso Prático: Scrum - Gestão Ágil de Projetos "
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "scrumieep.jpg"
+  main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
+
+- title: "Workshop Bitcoin e Blockchain para Iniciantes"
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "descomplicandoDireito.jpg"
+  tags: [universal-access]
+  facebook: "malgueirocamposadvocacia"
+  linkedin: "company/15213726"
+  main_url: "https://www.malgueirocampos.com.br/"
+
+- title: "Roadsec 2017 | Porto Alegre"
+  location: "Porto Alegre - RS"
+  date: "30/09"
+  banner: "roadsec-poa.jpg"
+  tags: [sign-language]
+  hashtag: "Roadsec"
+  twitter: "roadsec"
+  facebook: "roadsec"
+  instagram: "roadsec"
+  main_url: "http://roadsec.com.br"
+
+- title: "DevFest Cerrado 2017"
+  cfp: true
+  location: "Goiânia - GO"
+  date: "30/09"
+  banner: "devfestcerrado2017.jpg"
+  tags: [cc, universal-access]
+  twitter: "gdggoiania"
+  hashtag: "devfestcerrado"
+  facebook: "gdggoiania"
+  main_url: "https://devfestcerrado.com.br/"
+
+- title: "Primeiros Passos em Robótica"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09"
+  banner: "robotica-novatec.jpg"
+  twitter: "novateceditora"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-hardware-robotica/primeiros-passos-em-robotica/"
+
+- title: "ABCDev"
+  inclusive: true
+  women: true
+  location: "Santo André - SP"
+  date: "30/09"
+  banner: "abc-dev.png"
+  tags: [venus, cc]
+  hashtag: "abcdev2017"
+  twitter: "abc_developers"
+  facebook: "abcdevelopers"
+  main_url: "http://2017.abcdevelopers.org/"
+
+- title: "Include Day"
+  free: true
+  inclusive: true
+  location: "Campinas - SP"
+  date: "30/09"
+  banner: "include-day.png"
+  tags: [cc, sign-language, universal-access]
+  hashtag: "ciandt"
+  twitter: "ciandt_BR"
+  facebook: "ciandt"
+  main_url: "http://www.ciandt.com/card/include-day"
+
+- title: "Quero ser DEV Locaweb"
+  free: true
+  category: "Treinamento"
+  location: "São Paulo - SP"
+  date: "até 01/10"
+  banner: "queroserdev-locaweb.jpg"
+  hashtag: "QueroSerDev"
+  youtube: "locaweb/videos"
+  linkedin: "company/44826"
+  twitter: "locaweb"
+  facebook: "locaweb"
+  main_url: "http://queroserdevlocaweb.com.br/"
+
+- title: "UX Strategy Belo Horizonte"
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "30/09 a 01/10"
+  banner: "mergo-ux.png"
+  hashtag: "UXStrategy"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "UX Metrics"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09 a 01/10"
+  banner: "ux-metrics.jpg"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+# OUTUBRO
+
+- title: "Grow Up Startup 2017"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "02/10"
+  banner: "growstartup.jpg"
+  facebook: "growupstartup"
+  linkedin: "company/16199893"
+  main_url: "https://www.solutte.com.br/"
+
+- title: "Bate-papo sobre a Certificação Java 8 (OCA Java 8)"
+  free: true
+  location: "São Paulo - SP"
+  date: "03/10"
+  banner: "certificacaoJava.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/certificacao-java-8-oca/"
 
 - title: "FAB LAB LIVRE SP"
   free: true
@@ -40,8 +1879,6 @@
   facebook: "fablablivresp"
   main_url: "http://www.fablablivresp.art.br/"
   rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
-
-# OUTUBRO
 
 - title: "Usabilidade 2ª edição - Torne seu produto mais fácil de usar"
   women: true
@@ -119,6 +1956,16 @@
   facebook: "lewagonbrasil"
   main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
   rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
+
+- title: "FEMALE FOUNDERS ACADEMY - OFICINA DE PITCH"
+  women: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  banner: "oficinaPitch.jpg"
+  tags: [venus, cc, universal-access]
+  facebook: "wayrabr"
+  twitter: "WayraBrasil"
+  main_url: "https://wayra-brasil.gupy.io"
 
 - title: "Conferência Scratch Brasil 2017"
   free: true
