@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign today = site.time | date: "%Y-%m-%d" %}
+
 <!-- BANNER -->
 <section id="banner" class="banner-eventos">
   <div class="banner-content">
@@ -38,7 +40,8 @@ layout: default
   <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
 
   <ul class="events-cards">
-    {% include events.html events=site.data.events %}
+    {% assign current_events = site.data.events | where_exp: "e", "e.until >= today" %}
+    {% include events.html events=current_events %}
   </ul>
 </section>
 
@@ -58,7 +61,7 @@ layout: default
   <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
 
   <ul class="events-cards events-cards-past">
-    {% assign past_events = site.data.past_events | reverse | slice:0,6 %}
+    {% assign past_events = site.data.events | where_exp: "e", "e.until < today" | reverse | slice:0,6 %}
     {% include events.html events=past_events rsvp=false cfp=false %}
   </ul>
 </section>
