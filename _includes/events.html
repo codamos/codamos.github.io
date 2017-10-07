@@ -34,7 +34,7 @@
       </div>
       {% endif %}
 
-      {% if event.cfp %}
+      {% if event.cfp and include.cfp != false %}
       <div class="events-card-header-call4papers">
         <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
       </div>
@@ -148,7 +148,7 @@
       </div>
     </div>
 
-    {% if event.rsvp_url %}
+    {% if event.rsvp_url and include.rsvp != false %}
     <div class="events-card-body-button">
       <a href="{{ event.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ir</a>
     </div>

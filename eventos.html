@@ -59,7 +59,7 @@ layout: default
 
   <ul class="events-cards events-cards-past">
     {% assign past_events = site.data.past_events | reverse | slice:0,6 %}
-    {% include events.html events=past_events %}
+    {% include events.html events=past_events rsvp=false cfp=false %}
   </ul>
 </section>
 
