@@ -405,21 +405,22 @@
 
 - title: "A Era dos Games"
   location: "São Paulo - SP"
-  date: "16/08 a 12/11"
+  date: "12/11"
   until: "2017-11-12"
   banner: "era-dos-games.png"
   twitter: "bienalsaopaulo"
   facebook: "bienalsaopaulo"
   main_url: "http://aeradosgames.com.br/"
+  rsvp_url: "https://ingresse.com/ingressos-era-dos-games-setembro-a-novembro-2017"
 
-- title: "Ela Líder #12"
+- title: "Ela líder #12"
   free: true
   location: "São Paulo - SP"
   date: "16/08"
   until: "2017-08-16"
   banner: "ela-lider.png"
   tags: [venus]
-  hashtag: "#elalider"
+  hashtag: "elalider"
   twitter: "_elalider"
   facebook: "elaliderfeminina"
   main_url: "https://elalider.com/"
@@ -1268,17 +1269,6 @@
   banner: "ibm-host.jpg"
   facebook: "BlueHack-Community-Brasil"
   main_url: "http://maratona.ime.usp.br/sedes17.html"
-
-- title: "Inteligência artificial: aplicação e novas experiências"
-  category: "Curso"
-  location: "Online"
-  date: "13/09 a 16/10"
-  until: "2017-10-16"
-  banner: "ai-itsrio.jpg"
-  twitter: "ITSriodejaneiro"
-  facebook: "ITSriodejaneiro"
-  instagram: "itsriodejaneiro"
-  main_url: "https://itsrio.org/pt/home/"
 
 - title: "Agile Brazil"
   location: "Belém - PA"
@@ -2273,7 +2263,6 @@
 - title: "React Conf"
   women: true
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "07/10"
   until: "2017-10-07"
@@ -2427,6 +2416,16 @@
   facebook: "IBMBrasil"
   main_url: "http://www.brlcolloquium.com.br/"
   rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
+
+- title: "Ubatech"
+  location: "Ubatuba - SP"
+  free: true
+  date: "11/10 a 13/10"
+  until: "2017-10-14"
+  banner: "ubatech.png"
+  tags: [wheelchair-alt, universal-access]
+  main_url: "http://ubalab.org/node/177"
+  rsvp_url: "http://wiki.ubatuba.cc/doku.php?id=ubatech:ubatech"
 
 - title: "Byte Girl 2017"
   location: "Fortaleza - CE"
@@ -2602,6 +2601,20 @@
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
 
+- title: "Open space: Vamos falar sobre Mobility!"
+  free: true
+  inclusive: true
+  location:  "São Paulo - SP"
+  date: "19/10"
+  until: "2017-10-19"
+  banner: "open-space-mobi.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "thoughtworksbr"
+  facebook: "ThoughtWorksBR"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+  rsvp_url: "https://www.meetup.com/preview/Sao-Paulo-Mobility-Immigration-Meetup/events/242937837"
+
 - title: "Agilidade Recife"
   women: true
   location: "Recife - PE"
@@ -2614,18 +2627,6 @@
   main_url: "http://agilidaderecife.com.br/2017/"
   rsvp_url: "http://agilidaderecife.com.br/2017/inscreva-se/"
 
-- title: "Tableau Day Outubro"
-  free: true
-  location: "São Paulo - SP"
-  date: "21/10"
-  until: "2017-10-21"
-  banner: "qsoftpartner.jpg"
-  facebook: "qsofttableaupartner"
-  linkedin: "company/9446664"
-  tags: [universal-access]
-  main_url: "http://www.qsoft.com.br/"
-  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
-
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -2637,6 +2638,18 @@
   facebook: "PortaliMasters"
   main_url: "https://eventos.imasters.com.br/intercon"
   rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "Tableau Day Outubro"
+  free: true
+  location: "São Paulo - SP"
+  date: "21/10"
+  until: "2017-10-21"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
 
 - title: "2º DEVFEST CSF"
   location: "Vassouras - RJ"
@@ -2700,6 +2713,32 @@
   facebook: "uxTESTR"
   main_url: "http://testr.com.br/"
   rsvp_url: "https://www.sympla.com.br/workshop-teste-de-usabilidade-teoria-e-pratica__165426"
+
+- title: "Cidades Inteligentes, Big Data e Regulação"
+  category: "Curso"
+  location: "on-line"
+  date: "23/10"
+  until: "2017-10-24"
+  banner: "cidadesinteligentes.png"
+  tags: [universal-access]
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/cidades-inteligentes/"
+
+- title: "Blockchain: uma perspectiva prática"
+  category: "Curso"
+  free: true
+  location: "São Paulo - SP"
+  date: "24/10 e 25/10"
+  until: "2017-10-25"
+  banner: "blockchain.png"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/blockchain-uma-perspectiva-pratica/"
 
 - title: "FRJ#1 Festival de Robótica de Joinville"
   location: "Joinville - SC"
@@ -2879,6 +2918,21 @@
   main_url: "http://campuse.ro/"
   rsvp_url: "http://campuse.ro/events/campus-party-minas-gerais-2017/"
 
+- title: "Elixir Meetup #11"
+  location: "São Paulo - SP"
+  date: "04/11"
+  until: "2017-11-04"
+  banner: "elixir.png"
+  free: true
+  lgbt: true
+  inclusive: true
+  highlight: true
+  tags: [venus, cc]
+  hashtag: "myelixirstatus"
+  twitter: "elug_sp"
+  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
+  rsvp_url: "https://www.meetup.com/elug_sp/events/243230058/"
+
 - title: "Design Sprint Weekend"
   location: "São Paulo - SP"
   date: "04/11 e 05/11"
@@ -2916,6 +2970,19 @@
   meetup: "devops-df"
   main_url: "http://devopsdays.bsb.br/"
   rsvp_url: "http://devopsdays.bsb.br/post/registration_open/"
+
+- title: "Seminário sobre inteligência artificial"
+  location: "Rio de Janeiro - RJ"
+  date: "08/11 a 10/11"
+  until: "2017-11-10"
+  banner: "ai-global-symposium.png"
+  tags: [venus, cc, universal-access]
+  women: true
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://aiandinclusionsymposium.com/"
+  rsvp_url: "https://aiandinclusionsymposium.com/"
 
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
@@ -3006,7 +3073,6 @@
   rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
 
 - title: "LaraconfBrasil 2017"
-  cfp: true
   location: "São Paulo - SP"
   date: "17/11"
   until: "2017-11-17"
@@ -3021,6 +3087,9 @@
   date: "17/11 a 19/11"
   until: "2017-11-19"
   banner: "gophercon.png"
+  tags: [venus,cc]
+  women: true
+  inclusive: true
   hashtag: "GoBr17"
   twitter: "gopherconbrasil"
   facebook: "gopherconbrasil"
@@ -3029,10 +3098,13 @@
 
 - title: "Rubyconf BR"
   location: "São Paulo - SP"
+  free: true
+  category: "Workshop"
+  women: true
   date: "17/11 e 18/11"
   until: "2017-11-18"
   banner: "rubyconf.png"
-  tags: [cc]
+  tags: [venus,cc, child, wheelchair-alt]
   hashtag: "rubyconfbr"
   twitter: "rubyconfbr"
   facebook: "locaweb"
