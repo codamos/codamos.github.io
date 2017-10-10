@@ -2614,6 +2614,18 @@
   main_url: "http://agilidaderecife.com.br/2017/"
   rsvp_url: "http://agilidaderecife.com.br/2017/inscreva-se/"
 
+- title: "Tableau Day Outubro"
+  free: true
+  location: "São Paulo - SP"
+  date: "21/10"
+  until: "2017-10-21"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
+
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
@@ -2934,6 +2946,20 @@
   main_url: "https://djangogirls.org/saopaulo/apply/"
   rsvp_url: "https://djangogirls.org/saopaulo/#apply"
 
+- title: "Roadsec SP 2017 | Mega Edição de Encerramento"
+  location: "São Paulo - SP"
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "roadsecsp.jpg"
+  facebook: "roadsec"
+  twitter: "roadsec"
+  hashtag: "Roadsec"
+  instagram: "roadsec"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://roadsec.com.br/saopaulo2017/"
+  rsvp_url: "https://www.eventbrite.com/e/roadsec-sp-2017-mega-edicao-de-encerramento-registration-29671007783"
+
 - title: "Women Dev Summit"
   inclusive: true
   highlight: true
@@ -2948,6 +2974,37 @@
   main_url: "http://womendevsummit.com/"
   rsvp_url: "https://doity.com.br/women-dev-summit-talks"
 
+- title: "2° Encontro de Software livre"
+  location: "Salvador - BA"
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "encontro-sf.jpg"
+  facebook: "inoveacaolivre"
+  main_url: "inoveacaolivre.github.io/2016"
+  rsvp_url: "https://www.facebook.com/events/121483665162404"
+
+- title: "Tableau Day Novembro"
+  location: "São Paulo - SP"
+  free: true
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-novembro-tickets-34112856472"
+
+- title: "Linux Developer Conference Brazil"
+  location: "Campinas - SP"
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "linuxDeveloperConference.jpg"
+  tags: [universal-access]
+  cfp: true
+  main_url: "http://linuxdev-br.net/"
+  rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
+
 - title: "LaraconfBrasil 2017"
   cfp: true
   location: "São Paulo - SP"
@@ -2958,15 +3015,6 @@
   facebook: "laravelconferencebrasil"
   main_url: "https://laraconfbrasil.com.br/"
   rsvp_url: "https://www.sympla.com.br/laraconfbrasil-2017__169502"
-
-- title: "2° Encontro de Software livre"
-  location: "Salvador - BA"
-  date: "11/11"
-  until: "2017-11-11"
-  banner: "encontro-sf.jpg"
-  facebook: "inoveacaolivre"
-  main_url: "inoveacaolivre.github.io/2016"
-  rsvp_url: "https://www.facebook.com/events/121483665162404"
 
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
@@ -3051,6 +3099,16 @@
   linkedin: "company/5087833"
   main_url: "http://challenge.whatdesigncando.com/"
   rsvp_url: "http://msummit.com.br/#ct-subscription"
+
+- title: "DrupalCamp São Paulo 2017"
+  location: "São Paulo - SP"
+  date: "24/11 até 25/11"
+  until: "2017-11-25"
+  banner: "drupal.jpg"
+  facebook: "DrupalcampSaoPaulo"
+  tags: [universal-access]
+  main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
+  rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
 
 - title: "Mobile Summit Brazil"
   women: true
