@@ -2379,7 +2379,6 @@
   free: true
   inclusive: true
   women: true
-  highlight: true
   location: "Belo horizonte - MG"
   date: "10/10"
   until: "2017-10-10"
@@ -3101,6 +3100,7 @@
   free: true
   category: "Workshop"
   women: true
+  highlight: true
   date: "17/11 e 18/11"
   until: "2017-11-18"
   banner: "rubyconf.png"
