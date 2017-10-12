@@ -2554,6 +2554,22 @@
   main_url: "http://www.rmvaleti.com.br/"
   rsvp_url: "https://www.sympla.com.br/rm-vale-ti-2017--4-feira-de-tecnologia-e-inovacao__169890"
 
+- title: "Ela Líder #14 - Netshoes"
+  free: true
+  inclusivo: true
+  women: true
+  location: "São Paulo - SP"
+  date: "18/10"
+  until: "2017-10-19"
+  banner: "ela-lider.png"
+  tags: [venus, cc]
+  hashtag: "elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  youtube: "https://www.youtube.com/channel/UC-gc9bhY5CdbPlpFz0SzRNQ"
+  main_url: "https://elalider.com/"
+  rsvp_url: "https://www.facebook.com/events/2088257841403170/"
+
 - title: "Introdução a Ruby"
   free: true
   location: "Rio de Janeiro - RJ"
@@ -2960,6 +2976,15 @@
   main_url: "http://www.saopaulotechweek.com/"
   rsvp_url: "http://www.saopaulotechweek.com/cadastro/"
 
+- title: "Design Sprint Bootcamp - Turma 02"
+  location: "São Paulo - SP"
+  date: "04/11"
+  until: "2017-11-04"
+  banner: "design-sprint-bootcamp.png"
+  women: true
+  tags: [wheelchair-alt,universal-access]
+  rsvp_url: "https://www.eventbrite.com.br/e/design-sprint-bootcamp-turma-02-sao-paulosp-tickets-37158983520"
+
 - title: "DevOps Day Brasília"
   location: "Brasília - DF"
   date: "07/11 e 08/11"
@@ -3207,6 +3232,17 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "https://www.sympla.com.br/curso-de-usabilidade__173152"
 
+- title: "UX + SEO: Um casamento de sucesso"
+  category: "workshop"
+  location: "São Paulo - SP"
+  date: "25/11"
+  until: "2017-11-26"
+  banner: "ux-seo.png"
+  twitter: "labreset"
+  facebook: "labreset"
+  main_url: "http://reset-lab.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ux-seo-um-casamento-de-sucesso-tickets-35023157206"
+
 - title: "Workshop de Design Thinking com Silvio Acher"
   category: "Workshop"
   location: "São Paulo - SP"
@@ -3228,6 +3264,18 @@
   facebook: "pixelshow"
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
+
+- title: "DevFest Nordeste 2017"
+  women: true
+  location: "Recife - PE"
+  date: "09/12"
+  until: "2017-12-10"
+  banner: "devfest-xp.png"
+  hashtag: "dfxp17"
+  twitter: "devfestxp"
+  facebook: "devfestxp"
+  main_url: "https://devfestxp.com/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-xp-2017/"
 
 - title: "Intensivo em UX Design"
   category: "Curso"
