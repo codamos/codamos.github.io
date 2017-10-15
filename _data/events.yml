@@ -2431,7 +2431,7 @@
   inclusive: true
   women: true
   date: "14/10"
-  until: "2017-10-15"
+  until: "2017-10-14"
   banner: "byte-girl-2017.png"
   tags: [venus, cc]
   hashtag: "bg2017"
@@ -2447,7 +2447,7 @@
   free: true
   codamos: true
   date: "14/10"
-  until: "2017-10-15"
+  until: "2017-10-14"
   banner: "evento-codamos.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "Codamos"
@@ -2460,7 +2460,7 @@
   category: "Curso"
   location: "Online"
   date: "13/09 a 16/10"
-  until: "2017-10-17"
+  until: "2017-10-16"
   banner: "ai-itsrio.jpg"
   twitter: "ITSriodejaneiro"
   facebook: "ITSriodejaneiro"
@@ -2471,7 +2471,7 @@
 - title: "Campus Party - #CPWeekendPatoBranco"
   location: "Pato Branco - PR"
   date: "14/10 a 15/10"
-  until: "2017-10-16"
+  until: "2017-10-15"
   banner: "cpweekend.jpg"
   women: true
   inclusive: true
@@ -2485,7 +2485,7 @@
 - title: "Design Sprint Weekend"
   location: "Manaus - AM"
   date: "14/10 e 15/10"
-  until: "2017-10-16"
+  until: "2017-10-15"
   banner: "design-sprint-am.png"
   free: true
   women: true
@@ -2503,7 +2503,7 @@
   women: true
   location: "Ao vivo"
   date: "17/10"
-  until: "2017-10-18"
+  until: "2017-10-17"
   banner: "womakerscode.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "womakerscode"
@@ -2518,7 +2518,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "17/10 e 19/10"
-  until: "2017-10-20"
+  until: "2017-10-19"
   banner: "git-github.png"
   tags: [venus, cc]
   hashtag: "JuntosSomosMelhores"
@@ -2535,7 +2535,7 @@
   women: true
   location: "Ao vivo"
   date: "17/10"
-  until: "2017-10-18"
+  until: "2017-10-17"
   banner: "womakerscode.png"
   tags: [venus, cc, wheelchair-alt]
   hashtag: "womakerscode"
@@ -2548,7 +2548,7 @@
   free: true
   location: "Snao José dos Campos - SP"
   date: "17/10 a 19/10"
-  until: "2017-10-20"
+  until: "2017-10-19"
   banner: "feira-tec-inovacao.png"
   facebook: "rmvaleti"
   main_url: "http://www.rmvaleti.com.br/"
@@ -2574,7 +2574,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "18/10"
-  until: "2017-10-19"
+  until: "2017-10-18"
   banner: "git-itsrio.jpg"
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
@@ -2585,7 +2585,7 @@
   women: true
   location: "Botafogo - RJ"
   date: "18/10 a 20/10"
-  until: "2017-10-21"
+  until: "2017-10-20"
   banner: "python-jornalistas.png"
   hashtag: "datajournalism"
   twitter: "generonumero"
@@ -2596,7 +2596,7 @@
 - title: "RD Summit 2017"
   location: "Florianópolis - SC"
   date: "18/10 a 20/10"
-  until: "2017-10-21"
+  until: "2017-10-20"
   banner: "rdsummit2017.jpg"
   main_url: "http://rdsummit.com.br/"
   rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
@@ -2607,7 +2607,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "19/10"
-  until: "2017-10-20"
+  until: "2017-10-19"
   banner: "view-source-um.png"
   tags: [venus, cc]
   hashtag: "womakerscode"
@@ -2621,7 +2621,7 @@
   inclusive: true
   location:  "São Paulo - SP"
   date: "19/10"
-  until: "2017-10-20"
+  until: "2017-10-19"
   banner: "open-space-mobi.png"
   tags: [venus, cc, universal-access]
   hashtag: "thoughtworksbr"
@@ -2634,7 +2634,7 @@
   women: true
   location: "Recife - PE"
   date: "20/10"
-  until: "2017-10-21"
+  until: "2017-10-20"
   banner: "agil-recife.png"
   hashtag: "agilidaderecife2017"
   twitter: "agilidaderecife"
@@ -2645,7 +2645,7 @@
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
-  until: "2017-10-22"
+  until: "2017-10-21"
   banner: "intercon2017.png"
   tags: [cc]
   hashtag: "Intercon2017"
@@ -2658,7 +2658,7 @@
   free: true
   location: "São Paulo - SP"
   date: "21/10"
-  until: "2017-10-22"
+  until: "2017-10-21"
   banner: "qsoftpartner.jpg"
   facebook: "qsofttableaupartner"
   linkedin: "company/9446664"
@@ -2669,7 +2669,7 @@
 - title: "2º DEVFEST CSF"
   location: "Vassouras - RJ"
   date: "21/10"
-  until: "2017-10-22"
+  until: "2017-10-21"
   banner: "devfest-fluminense.png"
   hashtag: "GDG"
   facebook: "gdgvassouras"
@@ -2681,7 +2681,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "21/10 e 22/10"
-  until: "2017-10-23"
+  until: "2017-10-22"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
   twitter: "mergo_ux"
@@ -2694,7 +2694,7 @@
   cfp: true
   location: "São Carlos - SP"
   date: "21/10 e 22/10"
-  until: "2017-10-23"
+  until: "2017-10-22"
   banner: "hackathon-serasa.png"
   hashtag: "EJ4"
   twitter: "experianceJAM"
@@ -2707,7 +2707,7 @@
   inclusive: true
   location: "Salvador - BA"
   date: "21/10"
-  until: "2017-10-22"
+  until: "2017-10-21"
   banner: "devfest-nordest.png"
   hashtag: "dfne2k17"
   twitter: "DevfestNE"
@@ -2720,7 +2720,7 @@
   location: "São Paulo - SP"
   women: true
   date: "23/10 e 24/10"
-  until: "2017-10-25"
+  until: "2017-10-24"
   banner: "testeusabilidade.jpg"
   tags: [universal-access]
   linkedin: "company/9367347"
@@ -2747,7 +2747,7 @@
   free: true
   location: "São Paulo - SP"
   date: "24/10 e 25/10"
-  until: "2017-10-26"
+  until: "2017-10-25"
   banner: "blockchain.png"
   twitter: "ITSriodejaneiro"
   facebook: "ITSriodejaneiro"
@@ -2758,7 +2758,7 @@
 - title: "FRJ#1 Festival de Robótica de Joinville"
   location: "Joinville - SC"
   date: "24/10 e 25/10"
-  until: "2017-10-26"
+  until: "2017-10-25"
   banner: "festival-robotica.jpg"
   facebook: "festivalroboticajoinville"
   main_url: "https://eventos.imasters.com.br/intercon"
@@ -2769,7 +2769,7 @@
   inclusive: true
   women: true
   date: "24/10 e 25/10"
-  until: "2017-10-26"
+  until: "2017-10-25"
   banner: "webbr.png"
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
   hashtag: "Webbr2017"
@@ -2783,7 +2783,7 @@
   location: "Recife - PE"
   women: true
   date: "26/10"
-  until: "2017-10-27"
+  until: "2017-10-26"
   banner: "tropical-conf.png"
   tags: [cc]
   twitter: "tropicalconf"
@@ -2795,7 +2795,7 @@
   free: true
   location: "São Paulo - SP"
   date: "26/10"
-  until: "2017-10-27"
+  until: "2017-10-26"
   banner: "collabcode.png"
   tags: [cc, universal-access]
   hashtag: "collabcodetech"
@@ -2810,7 +2810,7 @@
   women: true
   location: "Campinas - SP"
   date: "27/10"
-  until: "2017-10-28"
+  until: "2017-10-27"
   banner: "open-con.jpg"
   hashtag: "OpenCon"
   twitter: "open_con"
@@ -2826,7 +2826,7 @@
   inclusive: true
   location: "Natal - RN"
   date: "27/10"
-  until: "2017-10-28"
+  until: "2017-10-27"
   banner: "codegirl5.jpg"
   hashtag: "codegirl5"
   twitter: "codegirlbr"
@@ -2839,7 +2839,7 @@
   location: "São Paulo - SP"
   hackathon: true
   date: "28/10"
-  until: "2017-10-29"
+  until: "2017-10-28"
   banner: "get-ninjas.png"
   tags: [cc]
   hashtag: "HackathonNinja"
@@ -2852,7 +2852,7 @@
   location: "Rio Vermelho - BA"
   women: true
   date: "28/10"
-  until: "2017-10-29"
+  until: "2017-10-28"
   banner: "ssa-talks.png"
   tags: [venus]
   hashtag: "share2017vix"
@@ -2865,7 +2865,7 @@
   location: "São Paulo - SP"
   women: true
   date: "28/10"
-  until: "2017-10-29"
+  until: "2017-10-28"
   banner: "uxteam2017.png"
   tags: [cc, wheelchair-alt]
   hashtag: "UXTeamSummit"
@@ -2878,7 +2878,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "28/10"
-  until: "2017-10-29"
+  until: "2017-10-28"
   banner: "intro-datascience.jpg"
   facebook: "datamastersbr"
   main_url: "http://www.datamasters.com.br"
@@ -2887,7 +2887,7 @@
 - title: "Design Sprint Weekend"
   location: "Recife - PE"
   date: "28/10 e 29/10"
-  until: "2017-10-30"
+  until: "2017-10-29"
   banner: "design-sprint-pe.png"
   free: true
   women: true
@@ -2902,7 +2902,7 @@
 - title: "CIDI 2017"
   location: "Natal - RN"
   date: "29/10 a 01/11"
-  until: "2017-11-02"
+  until: "2017-11-01"
   banner: "cidi.png"
   tags: [cc, wheelchair-alt]
   facebook: "CIDI2017"
@@ -2912,7 +2912,7 @@
 - title: "Introdução ao Data Science"
   location: "São Paulo - SP"
   date: "30/10"
-  until: "2017-11-01"
+  until: "2017-10-30"
   banner: "ebicc.png"
   tags: [cc, wheelchair-alt]
   twitter: "ebicc2017"
@@ -2923,7 +2923,7 @@
 - title: "Campus Party - #CPMG2"
   location: "Belo Horizonte - MG"
   date: "01/11"
-  until: "2017-11-02"
+  until: "2017-11-01"
   banner: "cpmg2.jpg"
   women: true
   inclusive: true
@@ -2937,7 +2937,7 @@
 - title: "Elixir Meetup #11"
   location: "São Paulo - SP"
   date: "04/11"
-  until: "2017-11-05"
+  until: "2017-11-04"
   banner: "elixir.png"
   free: true
   lgbt: true
@@ -2952,7 +2952,7 @@
 - title: "Design Sprint Weekend"
   location: "São Paulo - SP"
   date: "04/11 e 05/11"
-  until: "2017-11-06"
+  until: "2017-11-05"
   banner: "design-sprint-sp.png"
   free: true
   women: true
@@ -2967,7 +2967,7 @@
 - title: "São Paulo Tech Week"
   location: "São Paulo - SP"
   date: "05/11 a 12/11"
-  until: "2017-11-13"
+  until: "2017-11-12"
   banner: "sptw.png"
   hashtag: "saopaulotechweek"
   twitter: "sptw16"
@@ -2988,7 +2988,7 @@
 - title: "DevOps Day Brasília"
   location: "Brasília - DF"
   date: "07/11 e 08/11"
-  until: "2017-11-09"
+  until: "2017-11-08"
   banner: "devopsDF.png"
   hashtag: "DevOpsDaysBrasilia"
   twitter: "devopsdaysbsb"
@@ -2999,7 +2999,7 @@
 - title: "Seminário sobre inteligência artificial"
   location: "Rio de Janeiro - RJ"
   date: "08/11 a 10/11"
-  until: "2017-11-11"
+  until: "2017-11-10"
   banner: "ai-global-symposium.png"
   tags: [venus, cc, universal-access]
   women: true
@@ -3012,7 +3012,7 @@
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
   date: "08/11 a 11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "tdc.png"
   women: true
   tags: [venus, cc, universal-access]
@@ -3029,7 +3029,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "django-girls2.png"
   tags: [venus, cc, universal-access]
   hashtag: "DjangoGirlsSP"
@@ -3041,7 +3041,7 @@
 - title: "Roadsec SP 2017 | Mega Edição de Encerramento"
   location: "São Paulo - SP"
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "roadsecsp.jpg"
   facebook: "roadsec"
   twitter: "roadsec"
@@ -3058,7 +3058,7 @@
   women: true
   location: "São Paulo - SP"
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "wds.png"
   tags: [venus, cc, wheelchair-alt,universal-access]
   hashtag: "WDS2k17"
@@ -3069,7 +3069,7 @@
 - title: "2° Encontro de Software livre"
   location: "Salvador - BA"
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "encontro-sf.jpg"
   facebook: "inoveacaolivre"
   main_url: "inoveacaolivre.github.io/2016"
@@ -3079,7 +3079,7 @@
   location: "São Paulo - SP"
   free: true
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "qsoftpartner.jpg"
   facebook: "qsofttableaupartner"
   linkedin: "company/9446664"
@@ -3090,7 +3090,7 @@
 - title: "Linux Developer Conference Brazil"
   location: "Campinas - SP"
   date: "11/11"
-  until: "2017-11-12"
+  until: "2017-11-11"
   banner: "linuxDeveloperConference.jpg"
   tags: [universal-access]
   cfp: true
@@ -3100,7 +3100,7 @@
 - title: "LaraconfBrasil 2017"
   location: "São Paulo - SP"
   date: "17/11"
-  until: "2017-11-18"
+  until: "2017-11-17"
   banner: "lara-conf.png"
   hashtag: "LaraconfBrasil2017"
   facebook: "laravelconferencebrasil"
@@ -3110,7 +3110,7 @@
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
   date: "17/11 a 19/11"
-  until: "2017-11-20"
+  until: "2017-11-19"
   banner: "gophercon.png"
   tags: [venus,cc]
   women: true
@@ -3128,7 +3128,7 @@
   women: true
   highlight: true
   date: "17/11 e 18/11"
-  until: "2017-11-19"
+  until: "2017-11-18"
   banner: "rubyconf.png"
   tags: [venus,cc, child, wheelchair-alt]
   hashtag: "rubyconfbr"
@@ -3142,7 +3142,7 @@
   inclusive: true
   location: "Belo Horizonte - MG"
   date: "18/11"
-  until: "2017-11-19"
+  until: "2017-11-18"
   banner: "devfestbh.jpg"
   tags: [venus, cc, wheelchair-alt]
   twitter: "gdg_bh"
@@ -3154,7 +3154,7 @@
 - title: "Big Data Brasil Day 2017 - Great Again"
   location: "São Paulo - SP"
   date: "18/11"
-  until: "2017-11-19"
+  until: "2017-11-18"
   banner: "bigDataBrasilDay.jpg"
   main_url: "http://www.bigdatabrasilday.com.br"
   rsvp_url: "https://www.eventbrite.com.br/e/big-data-brasil-day-2017-great-again-tickets-36860014295"
@@ -3163,7 +3163,7 @@
   location: "Porto Alegre - RS"
   cfp: true
   date: "18/11"
-  until: "2017-11-19"
+  until: "2017-11-18"
   banner: "devdayrs.jpg"
   tags: [cc]
   twitter: "devdayrs"
@@ -3186,7 +3186,7 @@
   location: "ão Paulo - SP"
   cfp: true
   date: "22/11 e 23/11"
-  until: "2017-11-24"
+  until: "2017-11-23"
   banner: "wdcd-sp.jpg"
   tags: [wheelchair-alt, universal-access]
   hashtag: "TheworldneedsyourIdeas"
@@ -3199,7 +3199,7 @@
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
   date: "24/11 até 25/11"
-  until: "2017-11-26"
+  until: "2017-11-25"
   banner: "drupal.jpg"
   facebook: "DrupalcampSaoPaulo"
   main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
@@ -3209,7 +3209,7 @@
   women: true
   location: "Porto Alegre - RS"
   date: "25/11"
-  until: "2017-11-26"
+  until: "2017-11-25"
   banner: "mobilesummitbrazil.png"
   tags: [venus, cc]
   hashtag: "MSBR17"
@@ -3223,7 +3223,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "25/11 e 26/11"
-  until: "2017-11-27"
+  until: "2017-11-26"
   banner: "cursousabilidade.jpg"
   linkedin: "company/5244747"
   twitter: "mergo_ux"
@@ -3247,7 +3247,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "02/12"
-  until: "2017-12-03"
+  until: "2017-12-02"
   banner: "design-thinking-silvio-acher.jpg"
   twitter: "pixelshow"
   facebook: "pixelshow"
@@ -3258,7 +3258,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "03/12"
-  until: "2017-12-04"
+  until: "2017-12-03"
   banner: "estamparia-estudio-abelha-turma-2.jpg"
   twitter: "pixelshow"
   facebook: "pixelshow"
@@ -3281,7 +3281,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "08/01 a 19/01"
-  until: "2018-01-20"
+  until: "2018-01-19"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
   twitter: "mergo_ux"
@@ -3293,7 +3293,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "21/01 e 22/01"
-  until: "2018-01-23"
+  until: "2018-01-22"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
   twitter: "mergo_ux"
@@ -3304,7 +3304,7 @@
 - title: "Campus Party - #CPBR11"
   location: "São Paulo - SP"
   date: "30/01 a 04/02"
-  until: "2018-02-05"
+  until: "2018-02-04"
   banner: "cpbr11.jpg"
   women: true
   inclusive: true
@@ -3330,7 +3330,7 @@
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
   date: "19/05"
-  until: "2018-05-20"
+  until: "2018-05-19"
   banner: "ux-confbr.png"
   tags: [cc]
   hashtag: "UXConfBR"
