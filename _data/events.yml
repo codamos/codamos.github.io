@@ -1280,8 +1280,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
 - title: "WDCD SP 2017"
-  location: "ão Paulo - SP"
-  cfp: true
+  location: "São Paulo - SP"
   date: "22/11 e 23/11"
   until: "2017-11-23"
   banner: "wdcd-sp.jpg"
@@ -1291,7 +1290,7 @@
   facebook: "fb.whatdesigncando"
   linkedin: "company/5087833"
   main_url: "http://challenge.whatdesigncando.com/"
-  rsvp_url: "http://msummit.com.br/#ct-subscription"
+  rsvp_url: "http://www.whatdesigncando.com/brazil-2017/tickets/"
 
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
