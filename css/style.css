@@ -484,18 +484,19 @@ p {
 
 @media (max-width: 660px) {
     .page-section {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
 @media (min-width: 768px) {
     .page-section {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
+
     .page-banner-title {
         font-size: var(--title-medium);
         font-size: 40px;
@@ -514,9 +515,9 @@ p {
 
 @media (min-width: 992px) {
     .page-section {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
     }
     .page-banner-title {
         font-size: var(--title-large);
@@ -726,8 +727,8 @@ p {
 
 @media (max-width: 660px) {
     #banner .page-section-text {
-    color: #ffffff;
-    width: 80%;
+        color: #ffffff;
+        width: 80%;
     }
 }
 
@@ -1473,7 +1474,7 @@ p {
 
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 2em;
     font-weight: 300;
     color: #ffffff;
     padding-bottom: .5em;
@@ -1486,25 +1487,6 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-
-@media (max-width: 660px) {
-    #code-of-conduct h2 {
-        font-size: xx-large;
-    }
-}
-
-@media (min-width: 768px) {
-    #code-of-conduct h2 {
-        font-size: 32px;
-    }
-}
-
-@media (min-width: 992px) {
-    #code-of-conduct h2 {
-        font-size: 36px;
-    }
-}
-
 
 /*PARCEIROS E APOIADORES*/
 #partners-supporters {
