@@ -511,7 +511,7 @@
   facebook: "codamosclub"
   main_url: "https://www.codamos.club/"
   rsvp_url: "https://www.sympla.com.br/workshop-mulheres-que-falam__198197"
-
+  
 - title: "Inteligência artificial: aplicação e novas experiências"
   category: "Curso"
   location: "Online"
@@ -671,6 +671,19 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
   rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
+
+- title: "Gump"
+  location: "São Paulo - SP"
+  women: true
+  date: "19/10"
+  until: "2017-10-19"
+  banner: "gump.jpg"
+  facebook: "tudodeshare"
+  twitter: "tudodeshare"
+  hashtag: "Gump"
+  instagram: "tudodeshare"
+  main_url: "http://www.tudodeshare.com.br/gump/"
+  rsvp_url: "http://www.tudodeshare.com.br/gump/"
 
 - title: "Open space: Vamos falar sobre Mobility!"
   free: true
@@ -976,6 +989,18 @@
   main_url: "http://ebicc.sbcc.org.br/"
   rsvp_url: "http://ebicc.sbcc.org.br/#registration"
 
+- title: "Cibersegurança: o que empresas e startups fazem para proteger seus dados"
+  free: true
+  location: "São Paulo - SP"
+  date: "31/10"
+  until: "2017-10-31"
+  banner: "telefoneOpenFuture.jpg"
+  twitter: "OpenFuture_"
+  facebook: "TelefonicaOpenFuture"
+  linkedin: "company/5216563/"
+  main_url: "https://www.openfuture.org/pt/event/ciberseguranca-o-que-empresas-e-startups-fazem-para-proteger-seus-dados"
+  rsvp_url: "https://www.sympla.com.br/ciberseguranca-o-que-empresas-e-startups-fazem-para-proteger-seus-dados__199159"
+
 # NOVEMBRO
 
 - title: "Campus Party - #CPMG2"
@@ -1095,6 +1120,20 @@
   facebook: "DjangoGirlsSP"
   main_url: "https://djangogirls.org/saopaulo/apply/"
   rsvp_url: "https://djangogirls.org/saopaulo/#apply"
+
+- title: "TOTVS Tech Day"
+  free: true
+  location: "São Paulo - SP"
+  date: "11/11"
+  until: "2017-11-11"
+  tags: [universal-access , cc]
+  banner: "totvstechday.jpg"
+  twitter: "TOTVS"
+  facebook: "totvs"
+  linkedin: "company/228296"
+  meetup: "dev_talk"
+  main_url: "http://www.totvstechday.io/"
+  rsvp_url: "https://www.meetup.com/pt-BR/dev_talk/events/244062465/"
 
 - title: "Roadsec SP 2017 | Mega Edição de Encerramento"
   location: "São Paulo - SP"
@@ -1313,6 +1352,27 @@
   facebook: "pixelshow"
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-design-thinking-com-silvio-acher/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-design-thinking-silvio-acher-sabado"
+
+- title: "Front in Floripa 2017"
+  location: "Florianópolis - SC"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "frontInFloripa.png"
+  facebook: "frontinfloripa"
+  twitter: "frontinfloripa"
+  hashtag: "frontinfloripa"
+  cfp: true
+  main_url: "http://frontinfloripa.com.br/"
+  rsvp_url: "https://www.sympla.com.br/front-in-floripa-2017__200654"
+
+- title: "INSITER"
+  location: "Porto Alegre - RS"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "insiter.jpg"
+  facebook: "InsiterConf"
+  main_url: "http://insiter.io/"
+  rsvp_url: "https://www.eventbrite.com.br/e/insiter-porto-alegre-tickets-38661656054?ref=elink"
 
 - title: "Workshop de Estamparia Narrativa com Estúdio Abelha"
   category: "Workshop"
