@@ -486,6 +486,7 @@ p {
     background-color: var(--white-four);
     background-color: #f9f9f9;
 }
+
 @media (max-width: 660px) {
     .page-section {
     text-align: center;
@@ -493,6 +494,7 @@ p {
     margin: 0 auto;
     }
 }
+
 @media (min-width: 768px) {
     .page-section {
     text-align: center;
@@ -692,6 +694,7 @@ p {
     background-color: rgba(10, 80, 266, 0.8);
     background-blend-mode: overlay;
 }
+
 .banner-content {
     display: flex;
     align-items: center;
@@ -699,18 +702,23 @@ p {
     flex-direction: column;
     padding-top: 10%;
 }
+
 .banner-index {
     background-image: url("../images/bg-banner001.jpg");
 }
+
 .banner-eventos {
     background-image: url("../images/bg-banner011.jpg");
 }
+
 .banner-palestrantes {
     background-image: url("../images/bg-banner009.jpg");
 }
+
 .banner-quem-somos {
     background-image: url("../images/bg-banner004.jpg");
 }
+
 .banner-coc {
     background-image: url("../images/bg-banner002.jpg");
 }
@@ -720,6 +728,7 @@ p {
     width: 60%;
     text-shadow: 1px 1px 1px rgba(4, 8, 12, 0.5);
 }
+
 @media (max-width: 660px) {
     #banner .page-section-text {
     color: #ffffff;
@@ -733,11 +742,6 @@ p {
     color: #fff;
     border: 2px solid #ff99cc;
     background: #e60050;
-}
-
-#events-top {
-    position: relative;
-    padding: 4em 2% 0 2%;
 }
 
 .events-cards {
@@ -790,11 +794,6 @@ p {
 .events-card-header {
     position: relative;
     background: #f1f1f1;
-}
-
-.events-card-header-overlay {
-    background-color: rgba(25, 128, 162, 0.9);
-    width: 100%;
 }
 
 .events-card-header-free {
@@ -875,6 +874,7 @@ p {
     letter-spacing: 2px;
     box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
+
 .events-card-header-category {
     background: #660099;
     border: 4px solid #cc66ff;
@@ -894,6 +894,7 @@ p {
     letter-spacing: 2px;
     box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
+
 .events-card-header-codamos {
     background: #fff;
     border: 4px solid #eee;
@@ -913,6 +914,7 @@ p {
     letter-spacing: 2px;
     box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
+
 .events-card-header-women {
     background: #e60050;
     font-size: small;
@@ -1050,6 +1052,7 @@ p {
 .events-card-body-social-media {
     margin: 5px auto;
 }
+
 .events-card-body .events-card-body-social-media  i {
     color: #cccccc;
     font-size: 20px;
@@ -1096,11 +1099,9 @@ p {
     color: #e60050;
     text-transform: uppercase;
 }
+
 .events-card-body-button {
     flex-grow: 1;
-}
-.events-cards-load-more {
-    padding-bottom: calc(1.5em + 48px);
 }
 
 @media (max-width: 660px) {
@@ -1220,19 +1221,10 @@ p {
     font-family: Josefin Sans, Sans-Serif;
 }
 
-.speaker-card-adress {
-    font-family: Roboto, Sans-Serif;
-    font-size: small;
-    font-weight: 300;
-    text-align: center;
-    color: #666666;
-    margin: 10px 0;
-    text-transform: uppercase;
-}
-
 .speaker-card-skills {
     margin: 10px 0;
 }
+
 .speaker-card-skills span {
     color: #fff;
     background: #ff7700;
@@ -1415,10 +1407,6 @@ p {
     text-decoration: none;
 }
 
-.team-collaborators-talk-to-us {
-    padding: 4em 10px;
-}
-
 @media (min-width: 768px) {
     .team-collaborators-cards {
         max-width: 90%;
@@ -1488,6 +1476,7 @@ p {
     border-bottom: 2em solid #fdbbc7;
     border-top: 2em solid #fdbbc7;
 }
+
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
@@ -1495,6 +1484,7 @@ p {
     color: #ffffff;
     padding-bottom: .5em;
 }
+
 .code-of-conduct-call {
     padding-bottom: 2em;
     color: #ffffff;
@@ -1502,6 +1492,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+
 @media (max-width: 660px) {
     #code-of-conduct h2 {
         font-size: xx-large;
@@ -1580,28 +1571,19 @@ p {
     font-size: 2.0em;
     font-family: 'Josefin Sans', Sans-Serif;
 }
+
 .partners-supporters-form-wannabe h4 {
     margin-bottom: 2em;
-}
-.partners-supporters-form-text {
-    font-size: large;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 2em;
-    font-family: 'Josefin Sans', Sans-Serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-bottom: 2px dotted #f3f3f3;
 }
 
 @media (max-width: 660px) {
     .partners-supporters-links li {
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
-    margin: 1px;
-    width: 150px;
-    height: 150px;
+        list-style: none;
+        text-decoration: none;
+        padding: 0;
+        margin: 1px;
+        width: 150px;
+        height: 150px;
     }
 }
 
