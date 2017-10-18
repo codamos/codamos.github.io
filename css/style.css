@@ -944,13 +944,14 @@ p {
 }
 
 .event-card-lgbt {
-    background-color: rgba(91, 13, 159, 0.8);
+    background-color: rgba(175,102,217, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding: 7px 5px;
-    width: 90%;
+    width: 100%;
+    mix-blend-mode: overlay;
 }
 
 .events-card-header-lgbt {
@@ -1246,7 +1247,7 @@ p {
 .lgbt-label img {
     border: none;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 0;
     object-fit: cover;
     margin-right: 2px;
 }
