@@ -1458,7 +1458,7 @@ p {
 }
 
 .team-collaborators-card:nth-last-child(2n+3) {
-    margin-bottom: 40px;
+    margin-bottom: 1em;
 }
 
 .team-collaborators-card li + li {
@@ -1485,7 +1485,7 @@ p {
 
 @media (min-width: 768px) {
     .team-collaborators-cards {
-        max-width: 90%;
+        max-width: 50%;
     }
 
     .team-collaborators-card {
@@ -1498,15 +1498,11 @@ p {
         font-size: 16px;
     }
 
-    .team-collaborators-card img {
-        width: 118px;
-        height: 118px;
-    }
 }
 
 @media (min-width: 992px) {
     .team-collaborators-cards {
-        max-width: 80%;
+        max-width: 50%;
     }
 }
 
