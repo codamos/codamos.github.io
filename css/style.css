@@ -439,11 +439,11 @@ p {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
     margin: 2em 0 1.8em 0;
-    color: #666666;
+    color: #3e3e3e;
 }
 
 .page-section-text {
-    color: #666666;
+    color: #3e3e3e;
     font-size: var(--text-medium);
     font-size: 16px;
     font-weight: 300;
