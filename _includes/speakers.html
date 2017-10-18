@@ -13,7 +13,7 @@
 
   <h3>{{ speaker.full_name | default: speaker.name }}</h3>
 
-  <p class="speaker-card-address">{{ speaker.location }}</p>
+  <p class="speaker-card-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ speaker.location }}</p>
 
   <h4 class="speaker-card-skills">
     {% for skill in speaker.skills %}

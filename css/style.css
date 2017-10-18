@@ -1205,7 +1205,7 @@ p {
 .speaker-card img {
     display: block;
     margin: 10px auto 0px auto;
-    border: solid 6px #f1f1f1;
+    border: solid 6px #e3e3e3;
     border-radius: 50%;
     object-fit: cover;
     flex: 0 0 118px;
