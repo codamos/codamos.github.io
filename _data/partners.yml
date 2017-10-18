@@ -4,31 +4,18 @@
 # logo:      arquivo na pasta `images/parceiros`, obrigatório.
 # name:      texto com nome do parceiro, obrigatório.
 
-- main_url: "https://informatica.sp.senai.br/"
-  logo: "senai.png"
-  name: "Escola de informática SENAI"
-
-- main_url: "http://frontinvale.com.br/"
-  logo: "frontinvale.png"
-  name: "Front in Vale"
-
 - main_url: "https://braziljs.org/"
   logo: "brasiljs.png"
   name: "BrazilJS"
+
+- main_url: "https://www.totvs.com/"
+  logo: "totvs.png"
+  name: "Totvs"
 
 - main_url: "http://railsgirls.com/saopaulo.html"
   logo: "rails.png"
   name: "Rail Girls"
 
-- main_url: "http://www.codeclubbrasil.org.br/"
-  logo: "codeclub.png"
-  name: "Code Club Brasil"
-
-- main_url: "http://www.frontinsampa.com.br/"
-  logo: "frontinsampa.png"
-  name: "Front in Sampa"
-
-- main_url: "http://reactconfbr.com.br/"
-  logo: "reactconf.png"
-  name: "React Conf Brasil"
-
+- main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
+  logo: "rubyconf.png"
+  name: "Rubyconf Brasil"
