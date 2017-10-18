@@ -7,15 +7,6 @@
 # linkedin:  texto sem espaços, opcional.
 # instagram: texto sem espaços, opcional.
 
-- name: "Vanessa Nonato"
-  avatar: "vanessa-nonato.jpg"
-  twitter: "vanNonato"
-  facebook: "vgaldinov"
-
-- name: "Miguel Soares"
-  avatar: "miguel-soares.jpg"
-  twitter: "oieusouamiguell"
-  facebook: "oieusouamiguel"
 
 - name: "Tirzah Lima"
   avatar: "erica-tirzah.jpg"
@@ -31,15 +22,6 @@
   avatar: "barbara-santiago.jpg"
   twitter: "babisantiago"
   facebook: "barbara.santiagou"
-
-- name: "Cybelle Oliveira"
-  avatar: "cybelle-oliveira.jpg"
-  twitter: "cyb3113"
-  facebook: "cybelle.oliveira"
-
-- name: "Camila Belo"
-  avatar: "camila-belo.jpg"
-  facebook: "camilaibs"
 
 - name: "Mayra Oliveira"
   avatar: "mayra-oliveira.jpg"
@@ -60,12 +42,3 @@
   twitter: "philipsampaio"
   facebook: "philipsampaio"
 
-- name: "João Britto"
-  avatar: "joao-britto.png"
-  twitter: "noteu"
-
-- name: "Alda Rocha"
-  avatar: "alda-rocha.jpg"
-  twitter: "mjcoffeeholick"
-  facebook: "mjcoffeholick"
-  linkedin: "mjcoffeeholick"

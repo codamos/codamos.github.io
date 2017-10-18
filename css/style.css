@@ -1397,6 +1397,24 @@ p {
     position: relative;
 }
 
+.team-collaborators-tag {
+    background: #FFF;
+    border: 4px solid #eee;
+    position: absolute;
+    font-size: small;
+    font-weight: 400;
+    color: #e60050;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+}
+
 .team-collaborators-cards {
     display: flex;
     align-items: stretch;
