@@ -377,7 +377,7 @@ p {
     font-family: Roboto, Sans-Serif;
     font-weight: 300;
     display: flex;
-    font-size: large;
+    font-size: medium;
     align-items: center;
     justify-content: space-between;
 }
@@ -742,9 +742,9 @@ p {
 /*EVENTOS*/
 
 .events-section-label {
-    color: #fff;
-    border: 2px solid #ff99cc;
-    background: #e60050;
+    color: #e60050;
+    border: 2px solid #e60050;
+    background: #fff;
 }
 
 .events-cards {
@@ -1167,9 +1167,9 @@ p {
 }
 
 .speakers-section-label {
-    color: #fff;
-    border: 2px solid #ff7700;
-    background: #ff9900;
+    color: #e60050;
+    border: 2px solid #e60050;
+    background: #fff;
 }
 
 .speakers-cards {
