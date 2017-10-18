@@ -1,6 +1,23 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
   <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
+    {% if speaker.speaker %}
+    <div class="speaker-card-tag-speaker">
+      <i class="fa fa-microphone" aria-hidden="true"></i><h4>Palestrar</h4>
+    </div>
+    {% endif %}
+
+    {% if speaker.mentor %}
+    <div class="speaker-card-tag-mentor">
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i><h4>Mentoria</h4>
+    </div>
+    {% endif %}
+
+    {% if speaker.voluntary %}
+    <div class="speaker-card-tag-voluntary">
+      <i class="fa fa-handshake-o" aria-hidden="true"></i><h4>Voluntáriado</h4>
+    </div>
+    {% endif %}
 
   <div class="speaker-card-labels lgbt-label">
     {% for label in speaker.labels %}
