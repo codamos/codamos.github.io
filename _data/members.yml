@@ -38,20 +38,6 @@
   instagram: "mjcoffeeholick"
   github: "mjcoffeeholick"
 
-- name: "João Britto"
-  codamos: true
-  full_name: "João Britto"
-  avatar: "joao-britto.png"
-  location: "São Paulo - SP"
-  labels: [mars]
-  skills: [Elixir, Rails, Git, Back-end, Performance]
-  bio: >
-    B+, T1D e tipicamente INTP. Programador por ofício e tesão.
-    Lava, passa e cozinha com devoção. Segregado por falta de noção.
-    Canhoto do pé e destro da mão.
-  twitter: "noteu"
-  github: "britto"
-
 - name: "Camila Belo"
   codamos: true
   full_name: "Camila Belo"
@@ -71,32 +57,32 @@
 - name: "Cybelle O."
   codamos: true
   full_name: "Cybelle O."
-  email: "cybelle.a.oliveira@gmail.com"
+  email: "cyb3ll3@protonmail.com"
   avatar: "cybelle-oliveira.jpg"
   location: "São Paulo - SP"
   labels: [venus, child]
-  skills: [Front-end, Criptografia, Privacidade, Segurança, CDC, Eventos,]
+  skills: [Front-end, Privacidade e Segurança, CDC, Eventos, Produção]
   bio: >
+    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac.
     Produtora de eventos e consultora no Codamos Club, contribuidora da Mozilla, co-fundadora do JSLadies.
-    WebDev iniciante,  entusiasta de privacidade e segurança, historiadora, produtora, feminista, tatuada e vegetariana
+    WebDev iniciante, entusiasta de privacidade e segurança, curiosa sobre história da tecnologia, feminista, tatuada e vegetariana.
   twitter: "cyb3113"
   linkedin: "cybelleoliveira"
   github: "cyb3113"
 
-- name: "Vanessa Nonato"
+- name: "João Britto"
   codamos: true
-  full_name: "Vanessa Nonato"
-  email: "nonatovg@outlook.com"
-  avatar: "vanessa-nonato.jpg"
+  full_name: "João Britto"
+  avatar: "joao-britto.png"
   location: "São Paulo - SP"
-  labels: [venus]
-  skills: [UXD, Design, CNV,]
+  labels: [mars]
+  skills: [Elixir, Rails, Git, Back-end, Performance]
   bio: >
-    Bacharel em Design pela UFPE, atualmente estudo Experiência do Usuário (UXD).
-    Entusiasta em Neurociência e CNV (Comunicação não violenta).
-  twitter: "vanNonato"
-  linkedin: "vanessa-nonato"
-  facebook: "vgaldinov"
+    B+, T1D e tipicamente INTP. Programador por ofício e tesão.
+    Lava, passa e cozinha com devoção. Segregado por falta de noção.
+    Canhoto do pé e destro da mão.
+  twitter: "noteu"
+  github: "britto"
 
 - name: "Miguel Soares"
   codamos: true
@@ -115,6 +101,21 @@
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
   github: "oieusouamiguel"
+
+- name: "Vanessa Nonato"
+  codamos: true
+  full_name: "Vanessa Nonato"
+  email: "nonatovg@outlook.com"
+  avatar: "vanessa-nonato.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [UXD, Design, CNV,]
+  bio: >
+    Bacharel em Design pela UFPE, atualmente estudo Experiência do Usuário (UXD).
+    Entusiasta em Neurociência e CNV (Comunicação não violenta).
+  twitter: "vanNonato"
+  linkedin: "vanessa-nonato"
+  facebook: "vgaldinov"
 
 - name: "Ingrid Marion Caparroz Mazoni"
   codamos: true
