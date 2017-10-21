@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% assign today = site.time | date: "%Y-%m-%d" %}
+
+<!-- BANNER -->
+<section id="banner" class="banner-eventos">
+  <div class="banner-content">
+    <h2 class="page-banner-title">Falando Sobre diversidade</h2>
+
+    <p class="page-section-text">
+      Participamos do podcast da Lambda3 abordando a importância deste tema.
+    </p>
+
+    <a class="button-banner" href="https://chicaspoderosas.org/" rel="noopener" target="_blank">Saiba mais</a>
+  </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="page-section">
+  <h1 class="page-section-title">Sobre Podcast</h1>
+
+  <p class="page-section-text">
+    Listamos os podcast que abordam tecnologia e alguns deles são bem inclusivos e abordam o tema diversidade e inclusão em TI. Criamos rótulos para facilitar a busca por eventos que têm ícones representados
+    pelas legendas abaixo:
+  </p>
+
+  <ul class="icon-labels">
+    {% for icon in site.data.event_icons %}
+    <li class="events-section-label">
+      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- EVENTOS -->
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
+
+  <ul class="events-cards">
+    {% assign current_events = site.data.events | where_exp: "e", "e.until >= today" %}
+    {% include events.html events=current_events %}
+  </ul>
+</section>
+
+<!-- INCLUIR EVENTO -->
+<section id="include-event" class="page-section-purple">
+  <h2 class="include-event-title">Inclua um Evento!</h2>
+
+  <p class="include-event-call">
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um evento com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+  </p>
+
+  <a class="button-default-outline" href="/meu-evento" target="_blank">Incluir Evento</a>
+</section>
+
+<!-- EVENTOS PASSADOS -->
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
+
+  <ul class="events-cards events-cards-past">
+    {% assign past_events = site.data.events | where_exp: "e", "e.until < today" | reverse | slice:0,6 %}
+    {% include events.html events=past_events rsvp=false cfp=false %}
+  </ul>
+</section>
+
+{% include code_of_conduct.html %}
