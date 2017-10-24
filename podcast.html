@@ -4,15 +4,15 @@ layout: default
 {% assign today = site.time | date: "%Y-%m-%d" %}
 
 <!-- BANNER -->
-<section id="banner" class="banner-eventos">
+<section id="banner" class="banner-podcast">
   <div class="banner-content">
-    <h2 class="page-banner-title">Falando Sobre diversidade</h2>
+    <h2 class="page-banner-title">O manifesto e como apoiar</h2>
 
     <p class="page-section-text">
-      Participamos do podcast da Lambda3 abordando a importância deste tema.
+      Participamos do podcast da Lambda3 abordando a importância da diversidade e divulgando o manifesto sobre o tema.
     </p>
 
-    <a class="button-banner" href="https://chicaspoderosas.org/" rel="noopener" target="_blank">Saiba mais</a>
+    <a class="button-banner" href="https://www.lambda3.com.br/2017/10/lambda3-podcast-65-manifesto-pela-diversidade-na-tecnologia/" rel="noopener" target="_blank">Ouça o ep.</a>
   </div>
 </section>
 
@@ -21,12 +21,12 @@ layout: default
   <h1 class="page-section-title">Sobre Podcast</h1>
 
   <p class="page-section-text">
-    Listamos os podcast que abordam tecnologia e alguns deles são bem inclusivos e abordam o tema diversidade e inclusão em TI. Criamos rótulos para facilitar a busca por eventos que têm ícones representados
-    pelas legendas abaixo:
+    Listamos os podcasts que abordam tecnologia e alguns deles são bem inclusivos e citando o tema diversidade ou acessibilidade em TI. Criamos rótulos para facilitar a busca pelos que têm ícones representados
+    nas legendas abaixo:
   </p>
 
   <ul class="icon-labels">
-    {% for icon in site.data.event_icons %}
+    {% for icon in site.data.podcast_icons %}
     <li class="events-section-label">
       <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
     </li>
@@ -36,33 +36,22 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
+  <h1 class="page-section-subtitle-alt">Podcast que indicamos</h1>
 
   <ul class="events-cards">
-    {% assign current_events = site.data.events | where_exp: "e", "e.until >= today" %}
-    {% include events.html events=current_events %}
+    {% assign current_podcasts = site.data.podcasts | where_exp: "e", "e.until >= today" %}
+    {% include podcasts.html podcasts=current_podcasts %}
   </ul>
 </section>
 
-<!-- INCLUIR EVENTO -->
+<!-- INCLUIR PODCAST -->
 <section id="include-event" class="page-section-purple">
-  <h2 class="include-event-title">Inclua um Evento!</h2>
+  <h2 class="include-event-title">Inclua um Podcast!</h2>
 
   <p class="include-event-call">
-    Quer divulgar <span class="text-uppercase">gratuitamente</span> um evento com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um podcast que fale de tecnologia, diversidade, acessibilidade e/ou inclusão?
   </p>
 
-  <a class="button-default-outline" href="/meu-evento" target="_blank">Incluir Evento</a>
+  <a class="button-default-outline" href="https://twitter.com/CodamosClub" target="_blank">Mande um tuite com o podcast</a>
 </section>
 
-<!-- EVENTOS PASSADOS -->
-<section class="page-section">
-  <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
-
-  <ul class="events-cards events-cards-past">
-    {% assign past_events = site.data.events | where_exp: "e", "e.until < today" | reverse | slice:0,6 %}
-    {% include events.html events=past_events rsvp=false cfp=false %}
-  </ul>
-</section>
-
-{% include code_of_conduct.html %}

@@ -1,0 +1,181 @@
+{% for podcast in include.podcasts %}
+<li class="events-card">
+  <div class="events-card-header">
+    <div class="events-card-banner">
+      <img data-src="images/podcast/{{ podcast.banner | default:'codamos.png' }}" alt="{{ podcast.title }}">
+
+      {% if podcast.free %}
+      <div class="events-card-header-free">
+        <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.inclusive %}
+      <div class="events-card-header-inclusive">
+        <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.category %}
+      <div class="events-card-header-category">
+        <i class="fa fa-clock-o" aria-hidden="true"></i><h3>{{ podcast.category }}</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.opensource %}
+      <div class="events-card-header-opensource">
+        <i class="fa fa-code-fork" aria-hidden="true"></i><h3>open source</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.codamos %}
+      <div class="events-card-header-codamos">
+        <i class="fa fa-diamond" aria-hidden="true"></i><h3>da casa</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.convidados and include.convidados != false %}
+      <div class="events-card-header-call4papers">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Convidados</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.tags %}
+      <span class="events-card-header-ico">
+        {% for tag in podcast.tags %}
+        <i class="fa fa-{{ tag }}" title="{{ site.data.podcast_icons[tag] }}"></i>
+        {% endfor %}
+      </span>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if podcast.women %}
+  <div class="events-card-header-women">
+    <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no audio</h3>
+  </div>
+  {% endif %}
+
+  {% if podcast.tech %}
+  <div class="events-card-header-hackathon">
+    <i class="fa fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
+  </div>
+  {% endif %}
+
+  {% if podcast.lgbt %}
+  <div class="events-card-header-lgbt">
+    <div class="event-card-lgbt">
+      <i class="fa fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="events-card-title">
+    <h3>{{ podcast.title }}</h3>
+  </div>
+
+  <div class="events-card-body">
+    <div class="events-card-body-content">
+      <div class="events-card-body-local">
+        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <p>{{ podcast.date }}</p>
+      </div>
+
+      <div class="events-card-body-date">
+        <i class="fa fa-podcast" aria-hidden="true"></i>
+        <p>Podcast</p>
+      </div>
+
+      {% if podcast.hashtag %}
+      <div class="events-card-body-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ podcast.hashtag }}?src=hash"
+           rel="noopener" target="_blank" title="Hashtag">{{ podcast.hashtag }}</a>
+      </div>
+      {% else %}
+      <div class="events-card-body-no-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+      </div>
+      {% endif %}
+
+      {% if podcast.group %}
+      <div class="events-card-body-grupo">
+        <img src="images/grupo/{{ podcast.group }}">
+      </div>
+      {% endif %}
+
+      <div class="events-card-body-social-media">
+        {% if podcast.twitter %}
+        <a href="https://twitter.com/{{ podcast.twitter }}" title="Twitter"
+           rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if podcast.facebook %}
+        <a href="https://www.facebook.com/{{ podcast.facebook }}/" title="Facebook"
+           rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if podcast.instagram %}
+        <a href="http://instagram.com/{{ podcast.instagram }}" title="Instagram"
+           rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.linkedin %}
+        <a href="https://www.linkedin.com/{{ podcast.linkedin }}" title="LinkedIn"
+           rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.meetup %}
+        <a href="https://www.meetup.com/{{ podcast.meetup }}/" title="Meetup"
+           rel="noopener" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.medium %}
+        <a href="https://www.medium.com/{{ podcast.medium }}/" title="Medium"
+           rel="noopener" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.youtube %}
+        <a href="https://www.youtube.com/user/{{ podcast.youtube }}/videos" title="Youtube"
+           rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        {% endif %}
+
+        <a href="{{ podcast.main_url }}" title="Site"
+           rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="events-card-body-social-media">
+        {% if podcast.itunes %}
+        <a href="https://itunes.apple.com/{{ podcast.itunes }}" title="iTunes"
+           rel="noopener" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.soundcloud %}
+        <a href="https://soundcloud.com/{{ podcast.soundcloud }}" title="Soundcloud"
+           rel="noopener" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.rss %}
+        <a href="{{ podcast.rss }}" title="RSS"
+           rel="noopener" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.android %}
+        <a href="{{ podcast.android }}" title="Android"
+           rel="noopener" target="_blank"><i class="fa fa-android" aria-hidden="true"></i></a>
+        {% endif %}
+
+      </div>
+    </div>
+
+    {% if event.rsvp_url and include.rsvp != false %}
+    <div class="events-card-body-button">
+      <a href="{{ podcast.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ouvir</a>
+    </div>
+    {% endif %}
+  </div>
+</li>
+{% endfor %}
