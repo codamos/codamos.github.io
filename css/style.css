@@ -400,6 +400,7 @@ p {
     cursor: pointer;
     font-weight: 300;
     padding: 5px;
+    border-bottom: 1px dotted #e60050;
 }
 
 .page-section p a:hover {
@@ -1101,6 +1102,7 @@ p {
     text-decoration: none;
     font-size: small;
     letter-spacing: 1px;
+    border-bottom: 1px dotted #3366cc;
 }
 
 .events-card-body-hashtag a:hover {
