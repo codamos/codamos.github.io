@@ -1102,7 +1102,6 @@ p {
     text-decoration: none;
     font-size: small;
     letter-spacing: 1px;
-    border-bottom: 1px dotted #3366cc;
 }
 
 .events-card-body-hashtag a:hover {
