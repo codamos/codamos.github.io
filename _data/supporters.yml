@@ -1,0 +1,37 @@
+# Apoiadores atuais.
+
+# main_url:  URL, obrigatório.
+# logo:      arquivo na pasta `images/apoiadores`, obrigatório.
+# name:      texto com nome do apoiador, obrigatório.
+
+- main_url: "https://frontinbh.com.br/"
+  logo: "frontinbh.png"
+  name: "Front in BH"
+
+- main_url: "http://frontinvale.com.br/"
+  logo: "frontinvale.png"
+  name: "Front in Vale"
+
+- main_url: "http://reactconfbr.com.br/"
+  logo: "reactconf.png"
+  name: "React Conf Brasil"
+
+- main_url: "http://www.codeclubbrasil.org.br/"
+  logo: "codeclub.png"
+  name: "Code Club Brasil"
+
+- main_url: "https://informatica.sp.senai.br/"
+  logo: "senai.png"
+  name: "Escola de informática SENAI"
+
+- main_url: "https://github.com/training-center"
+  logo: "trainingcenter.png"
+  name: "Training Center"
+
+- main_url: "https://pormaismulheres.com/"
+  logo: "pormaismulheres.png"
+  name: "Por mais mulheres"
+
+- main_url: "http://www.frontinsampa.com.br/"
+  logo: "frontinsampa.png"
+  name: "Front in Sampa"

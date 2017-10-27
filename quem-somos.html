@@ -19,26 +19,19 @@ layout: default
   <h1 class="page-section-title">Sobre o Codamos</h1>
 
   <p class="page-section-text">
-    Nossa equipe é formada por pessoas de diversos backgrounds,
-    formação e profissões ligadas à tecnologia.
-  </p>
-
-  <p class="page-section-text">
-    Somos uma plataforma sem fins lucrativos que recebe contribuições de todos que compartilham
-    nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso
-    ecossistema tecnológico.
-  </p>
-
-  <p class="page-section-text">
+    O Codamos é como uma vitrine de <a href="/eventos">eventos</a>, meetups, cursos, workshops,
+    palestras e <a href="/palestrantes">palestrantes</a>. Nosso propósito é descomplicar a
+    comunicação entre quem organiza e quem quer participar. Aqui, você pode achar eventos inclusivos.
     As pessoas são nossa essência, estão em primeiro lugar e fazemos o nosso melhor para reconhecer,
     valorizar e respeitar a pluralidade.
   </p>
 
   <p class="page-section-text">
-    O Codamos é como uma vitrine de <a href="/eventos">eventos</a>, meetups, cursos, workshops,
-    palestras e <a href="/palestrantes">palestrantes</a>. Nosso propósito é descomplicar a
-    comunicação entre quem organiza e quem quer participar. Aqui, você pode cadastrar seu evento
-    e/ou se cadastrar como palestrante.
+    Nossa equipe é formada por pessoas de diversos backgrounds,
+    formação e profissões ligadas à tecnologia.
+    Somos uma plataforma sem fins lucrativos que recebe contribuições de todos que compartilham
+    nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso
+    ecossistema tecnológico.
   </p>
 
   <img src="images/logo.png" alt="Logotipo Codamos">
@@ -46,8 +39,18 @@ layout: default
 
 <!-- EQUIPE E COLABORADORES -->
 <section id="team-collaborators" class="page-section">
-  <h1 class="page-section-subtitle-alt">Nossa Equipe e Colaboradores</h1>
+  <h1 class="page-section-subtitle-alt">Nossa Equipe</h1>
 
+    <ul class="speakers-cards">
+      {% include members.html members=site.data.members %}
+    </ul>
+
+  <a class="button-primary-outline" href="mailto:contato@codamos.club">Fale conosco</a>
+  <h4 class="page-section-text">
+    Trabalhamos voluntariamente para fazer do Codamos.club um ponto de encontro do fantástico mundo tecnológico.
+  </h4>
+
+  <h1 class="page-section-subtitle-alt">Colaboradores</h1>
   <ul class="team-collaborators-cards">
     {% for collaborator in site.data.collaborators %}
     <li class="team-collaborators-card">
@@ -83,12 +86,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <div>
-    <h4 class="page-section-text">
-      Trabalhamos voluntariamente para fazer do Codamos um ponto de encontro do fantástico mundo tecnológico.
-    </h4>
-    <a class="button-primary-outline" href="mailto:contato@codamos.club">Fale conosco</a>
-  </div>
 </section>
 
 {% include code_of_conduct.html %}

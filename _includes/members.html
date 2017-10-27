@@ -1,53 +1,41 @@
-{% for speaker in include.speakers %}
+{% for member in include.members %}
 <li class="speaker-card">
-  <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
-    {% if speaker.speaker %}
-    <div class="speaker-card-tag-speaker">
-      <i class="fa fa-microphone" aria-hidden="true"></i><h4>Palestrar</h4>
-    </div>
-    {% endif %}
-
-    {% if speaker.mentor %}
-    <div class="speaker-card-tag-mentor">
-      <i class="fa fa-graduation-cap" aria-hidden="true"></i><h4>Mentoria</h4>
-    </div>
-    {% endif %}
-
-    {% if speaker.voluntary %}
-    <div class="speaker-card-tag-voluntary">
-      <i class="fa fa-handshake-o" aria-hidden="true"></i><h4>Voluntáriado</h4>
+  <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
+    {% if member.codamos %}
+    <div class="team-collaborators-tag">
+      <i class="fa fa-diamond" aria-hidden="true"></i><h4>da casa</h4>
     </div>
     {% endif %}
 
   <div class="speaker-card-labels lgbt-label">
-    {% for label in speaker.labels %}
-    <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.speaker_icons[label] }}"></i>
+    {% for label in member.labels %}
+    <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.member_icons[label] }}"></i>
     {% endfor %}
-    {% if speaker.lgbt %}
+    {% if member.lgbt %}
     <img src="images/lgbt.png" alt="LGBTQI+">
     {% endif %}
   </div>
 
-  <h3>{{ speaker.full_name | default: speaker.name }}</h3>
+  <h3>{{ member.full_name | default: member.name }}</h3>
 
-  <p class="speaker-card-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ speaker.location }}</p>
+  <p class="speaker-card-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ member.location }}</p>
 
   <h4 class="speaker-card-skills">
-    {% for skill in speaker.skills %}
+    {% for skill in member.skills %}
     <span>{{ skill }}</span>
     {% endfor %}
   </h4>
 
   <p class="speaker-card-bio">
-    {{ speaker.bio }}
+    {{ member.bio }}
   </p>
 
   <div class="speaker-card-social-media">
   <h4>Entre em contato</h4>
   <ul>
     <li>
-    {% if speaker.email %}
-      <a href="mailto:{{ speaker.email }}" title="E-mail"
+    {% if member.email %}
+      <a href="mailto:{{ member.email }}" title="E-mail"
          target="_blank"><i class="fa fa-envelope-o grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-envelope-o" aria-hidden="true" title="E-mail"></i>
@@ -55,8 +43,8 @@
     </li>
 
     <li>
-    {% if speaker.site %}
-      <a href="{{ speaker.site }}" title="Site"
+    {% if member.site %}
+      <a href="{{ member.site }}" title="Site"
          rel="noopener" target="_blank"><i class="fa fa-link grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-link" aria-hidden="true" title="Site"></i>
@@ -64,8 +52,8 @@
     </li>
 
     <li>
-    {% if speaker.linkedin %}
-      <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
+    {% if member.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" title="Linkedin"
          rel="noopener" target="_blank"><i class="fa fa-linkedin-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i>
@@ -73,8 +61,8 @@
     </li>
 
     <li>
-    {% if speaker.github %}
-      <a href="https://github.com/{{ speaker.github }}" title="Github"
+    {% if member.github %}
+      <a href="https://github.com/{{ member.github }}" title="Github"
          rel="noopener" target="_blank"><i class="fa fa-github-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-github-square" aria-hidden="true" title="GitHub"></i>
@@ -82,8 +70,8 @@
     </li>
 
     <li>
-    {% if speaker.twitter %}
-      <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
+    {% if member.twitter %}
+      <a href="https://twitter.com/{{ member.twitter }}" title="Twitter"
          rel="noopener" target="_blank"><i class="fa fa-twitter-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i>
@@ -91,8 +79,8 @@
     </li>
 
     <li>
-    {% if speaker.facebook %}
-      <a href="https://facebook.com/{{ speaker.facebook }}" title="Facebook"
+    {% if member.facebook %}
+      <a href="https://facebook.com/{{ member.facebook }}" title="Facebook"
          rel="noopener" target="_blank"><i class="fa fa-facebook-square grey" aria-hidden="true"></i></a>
     {% else %}
       <i class="fa fa-facebook-square" aria-hidden="true" title="Facebook"></i>
