@@ -1943,3 +1943,772 @@
   twitter: "ciandt_BR"
   facebook: "ciandt"
   main_url: "http://www.ciandt.com/card/include-day"
+
+- title: "Quero ser DEV Locaweb"
+  free: true
+  category: "Treinamento"
+  location: "São Paulo - SP"
+  date: "até 01/10"
+  until: "2017-10-01"
+  banner: "queroserdev-locaweb.jpg"
+  hashtag: "QueroSerDev"
+  youtube: "locaweb/videos"
+  linkedin: "company/44826"
+  twitter: "locaweb"
+  facebook: "locaweb"
+  main_url: "http://queroserdevlocaweb.com.br/"
+
+- title: "UX Strategy Belo Horizonte"
+  category: "Curso"
+  location: "Belo Horizonte - MG"
+  date: "30/09 a 01/10"
+  until: "2017-10-01"
+  banner: "mergo-ux.png"
+  hashtag: "UXStrategy"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "UX Metrics"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "30/09 a 01/10"
+  until: "2017-10-01"
+  banner: "ux-metrics.jpg"
+  tags: [universal-access]
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+
+- title: "Hackatoberfest"
+  free: true
+  hackathon: true
+  opensource: true
+  location: "on-line"
+  date: "até 31/10"
+  until: "2017-10-31"
+  banner: "hacktoberfest.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "hacktoberfest"
+  twitter: "digitalocean"
+  facebook: "DigitalOceanCloudHosting"
+  main_url: "https://hacktoberfest.digitalocean.com/"
+  rsvp_url: "https://hacktoberfest.digitalocean.com/"
+
+- title: "FAB LAB LIVRE SP"
+  free: true
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "10/2017"
+  until: "2017-10-31"
+  banner: "fab-lab-livre.png"
+  tags: [venus, cc, universal-access]
+  youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
+  instagram: "fablablivresp"
+  facebook: "fablablivresp"
+  main_url: "http://www.fablablivresp.art.br/"
+  rsvp_url: "http://www.fablablivresp.art.br/calendario/mes"
+
+- title: "Grow Up Startup 2017"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "02/10"
+  until: "2017-10-02"
+  banner: "growstartup.jpg"
+  facebook: "growupstartup"
+  linkedin: "company/16199893"
+  main_url: "https://www.solutte.com.br/"
+
+- title: "Bate-papo sobre a Certificação Java 8 (OCA Java 8)"
+  free: true
+  location: "São Paulo - SP"
+  date: "03/10"
+  until: "2017-10-03"
+  banner: "certificacaoJava.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/certificacao-java-8-oca/"
+
+- title: "Usabilidade 2ª edição - Torne seu produto mais fácil de usar"
+  women: true
+  location: "São Paulo - SP"
+  date: "04/10"
+  until: "2017-10-04"
+  banner: "usabilidade-coletividad.jpg"
+  tags: [cc]
+  hashtag: "coletividad"
+  linkedin: "company/10088050"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/usabilidade-2a-edicao-torne-seu-produto-mais-facil-de-usar-tickets-37348662856"
+
+- title: "Aprendendo a Programar (30 horas)"
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "04/10"
+  until: "2017-10-04"
+  banner: "recode.png"
+  tags: [cc, universal-access, venus]
+  hashtag: "aprendendoaprogramar"
+  linkedin: "company/682075"
+  twitter: "rederecode"
+  facebook: "rederecode"
+  main_url: "http://recode.org.br/"
+  rsvp_url: "http://recode.org.br/cursodeprogramacaosp/"
+
+- title: "Grace Hopper Celebration 17 Livestream"
+  women: true
+  inclusive: true
+  free: true
+  location: "on-line"
+  date: "04/10"
+  until: "2017-10-04"
+  banner: "anita-borg.png"
+  tags: [cc, universal-access, venus]
+  hashtag: "GHC17"
+  linkedin: "groups/36797/profile"
+  twitter: "anitab_org"
+  facebook: "anitaborginstitute"
+  main_url: "https://ghc.anitab.org/"
+  rsvp_url: "https://ghc.anitab.org/ghc-17-livestream/"
+
+- title: "COMPETÊNCIAS ESSENCIAIS DO PROFISSIONAL DO FUTURO - TURMA 3"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  until: "2017-10-05"
+  banner: "competenciaProfissional.jpg"
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-desenvolvimento-pessoal/competencias-essenciais-do-profissional-do-futuro/"
+  rsvp_url: "https://www.sympla.com.br/competencias-essenciais-do-profissional-do-futuro---turma-3__185949"
+
+- title: "Encontro mulheres no waze"
+  free: true
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  until: "2017-10-05"
+  banner: "mulheres-no-waze.png"
+  tags: [venus, cc, wheelchair-alt]
+  twitter: "waze_br"
+  facebook: "WazeBr"
+  main_url: "https://sites.google.com/view/mulheresnowaze"
+  rsvp_url: "https://sites.google.com/view/mulheresnowaze/inscri%C3%A7%C3%A3o?authuser=0"
+
+- title: "Pagamentos Online no Brasil"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  until: "2017-10-05"
+  banner: "lewagonpgtoonline.jpg"
+  hashtag: "lewagon"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Sao-Paulo-Coding-Station/events/243319636"
+
+- title: "FEMALE FOUNDERS ACADEMY - OFICINA DE PITCH"
+  women: true
+  location: "São Paulo - SP"
+  date: "05/10"
+  until: "2017-10-05"
+  banner: "oficinaPitch.jpg"
+  tags: [venus, cc, universal-access]
+  facebook: "wayrabr"
+  twitter: "WayraBrasil"
+  main_url: "https://wayra-brasil.gupy.io"
+
+- title: "Conferência Scratch Brasil 2017"
+  free: true
+  location: "São Paulo - SP"
+  date: "05/10 a 07/10"
+  until: "2017-10-07"
+  banner: "scratchConferencia.jpg"
+  tags: [universal-access]
+  main_url: "https://www.scratchbrasil.org"
+  rsvp_url: "https://www.eventbrite.com.br/e/conferencia-scratch-brasil-2017-registration-37385653496"
+
+- title: "PHPeste"
+  women: true
+  location: "Fortaleza - CE"
+  date: "06/10 a 08/10"
+  until: "2017-10-08"
+  banner: "phpeste.png"
+  tags: [venus, cc]
+  hashtag: "PHPeste"
+  twitter: "phpestene"
+  facebook: "PHPeste-998428916863351"
+  main_url: "http://phpeste.net/"
+  rsvp_url: "https://www.sympla.com.br/phpeste-2017--fortaleza-ce__143467"
+
+- title: "13ª conferência brasileira da comunidade Python"
+  location: "Belo Horizonte -MG"
+  date: "06/10 a 10/10"
+  until: "2017-10-10"
+  banner: "python-brasil.png"
+  tags: [cc]
+  hashtag: "PYBR13"
+  twitter: "pythonbrasil"
+  facebook: "pythonbrasil"
+  main_url: "http://2017.pythonbrasil.org.br"
+  rsvp_url: "http://2017.pythonbrasil.org.br/#tickets"
+
+- title: "Seja um Autor - Venha aprender como funciona escrever e lançar um livro técnico"
+  category: "Workshop"
+  free: true
+  location: "São Paulo - SP"
+  date: "07/10"
+  until: "2017-10-07"
+  women: "true"
+  banner: "sejaAutor.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/cursos/trilha-desenvolvimento-pessoal/palestra-seja-um-autor/"
+  rsvp_url: "https://www.sympla.com.br/workshop-seja-um-autor-12-turma---centro-de-treinamento-da-novatec__183509"
+
+- title: "Vamos Entender UX Na prática?"
+  free: true
+  location: "Santos - SP"
+  date: "07/10"
+  until: "2017-10-07"
+  women: true
+  banner: "uxnapratica.jpg"
+  tags: [venus]
+  facebook: "CaicaraAgil"
+  main_url: "https://www.meetup.com/pt-BR/caicaraagil"
+  rsvp_url: "https://www.meetup.com/pt-BR/caicaraagil/events/243083438"
+
+- title: "Hackeando o Estado do futuro"
+  free: true
+  hackathon: true
+  women: true
+  location: "São Paulo - SP"
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "hackeando-estado.png"
+  tags: [venus, cc, universal-access]
+  youtube: "channel/UCDh0ZfRtRhXbdOOq_Th3hPA"
+  instagram: "fablablivresp"
+  facebook: "fablablivresp"
+  main_url: "http://www.fablablivresp.art.br/"
+  rsvp_url: "http://www.fablablivresp.art.br/cursos/curta/hackeando-o-estado-do-futuro-tecnologias-que-irao-mudar-o-governo"
+
+- title: "Primeiro Meetup do TC em Porto Alegre"
+  free: true
+  women: true
+  location: "Porto Alegre - RS"
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/pt-BR/preview/Training-Center-RS/events/243143340/"
+
+- title: "UI - Construindo Style Guides"
+  category: "Curso"
+  location: "São Paulo - SP"
+  women: true
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "styleguidescoletividade.jpg"
+  tags: [universal-access]
+  linkedin: "company/10088050"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ui-construindo-style-guides-tickets-37844105739"
+
+- title: "React Conf"
+  women: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "react.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "reactconf"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "reactconf"
+  rsvp_url: "https://www.sympla.com.br/react-conf-brasil-2017__161239"
+
+- title: "Bots Brasil Conf"
+  location: "São Paulo - SP"
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "bots-brasil-conf.png"
+  hashtag: "BotsBrasilConf"
+  twitter: "botsbrasil"
+  facebook: "groups/1043955085659560"
+  main_url: "http://www.botsbrasil.com.br/"
+  rsvp_url: "https://www.sympla.com.br/bots-brasil-conf__162267"
+
+- title: "HackBahia - 2017"
+  location: "Salvador -BA"
+  hackathon: true
+  date: "07/10"
+  until: "2017-10-07"
+  banner: "hack-bahia.jpg"
+  twitter: "hackbahia"
+  facebook: "hackbahia"
+  main_url: "https://hackbahia.github.io/"
+  rsvp_url: "https://www.eventbrite.com.br/e/hackbahia-2017-tickets-34769728193"
+
+- title: "Oficina de Introdução ao Arduino"
+  category: "Oficina"
+  location: "São Paulo - SP"
+  date: "até 09/10"
+  until: "2017-10-09"
+  banner: "oficinaArduino.jpg"
+  tags: [universal-access]
+  facebook: "eletronicaparaartistas"
+  main_url: "http://eletronicaparaartistas.com.br/"
+  rsvp_url: "http://eletronicaparaartistas.com.br/proximas-oficinas/"
+
+- title: "Interaction South America"
+  location: "São Paulo - SP"
+  date: "09/10 a 11/10"
+  until: "2017-10-11"
+  banner: "interactionsa.png"
+  hashtag: "IxDA"
+  twitter: "ixda"
+  facebook: "ixdasaopaulo"
+  main_url: "http://isa.ixda.org/2017/"
+  rsvp_url: "https://www.sympla.com.br/interaction-south-america-floripa-2017__108278"
+
+- title: "Bate-papo sobre React"
+  category: "Workshop"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "batePapoReact.jpg"
+  tags: [universal-access]
+  twitter: "ctnovatec"
+  facebook: "ctnovatec"
+  main_url: "http://ctnovatec.com.br/bate-papo-sobre-react/"
+  rsvp_url: "https://www.sympla.com.br/bate-papo-sobre-react__191781"
+
+- title: "Wearables na Prática"
+  inclusive: true
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "wearables.jpg"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/wearables-na-pratica-tickets-37857329291"
+
+- title: "8º Meetup de Node.js"
+  free: true
+  cfp: true
+  location: "Porto Alegre - RS"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "node-js-poa.png"
+  tags: [cc]
+  hashtag: "NodeJS"
+  twitter: "nodejspoa"
+  main_url: "https://github.com/node-poa"
+  rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
+
+- title: "Introdução à TypeScript & Features Ts 2.x"
+  free: true
+  inclusive: true
+  women: true
+  location: "Ao vivo"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242021187/"
+
+- title: "CURSO BÁSICO DE PYTHON PARA INICIANTES"
+  free: true
+  inclusive: true
+  women: true
+  location: "Belo horizonte - MG"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "pyladies-python-iniciantes.png"
+  tags: [venus, cc]
+  twitter: "pyladiesbh"
+  facebook: "pyladiesbh"
+  main_url: "http://brasil.pyladies.com/"
+  rsvp_url: "https://www.sympla.com.br/curso-basico-de-python-para-iniciantes__189480"
+
+- title: "View Source: Comunidade MVP"
+  women: true
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "view-source-um.png"
+  tags: [venus, cc]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
+
+- title: "Colloquium 2017 - Inteligência Artificial • IBM Research|Brasil"
+  free: true
+  location: "São Paulo - SP"
+  date: "10/10"
+  until: "2017-10-10"
+  banner: "colloquium-ai.jpg"
+  hashtag: "IBMBrasil"
+  twitter: "ibmbrasil"
+  facebook: "IBMBrasil"
+  main_url: "http://www.brlcolloquium.com.br/"
+  rsvp_url: "https://febdemo.mybluemix.net/forms/anon/org/app/493babe7-347e-4270-8096-97133a2455e6/launch/index.html?form=F_Form1"
+
+- title: "Ubatech"
+  location: "Ubatuba - SP"
+  free: true
+  date: "11/10 a 13/10"
+  until: "2017-10-14"
+  banner: "ubatech.png"
+  tags: [wheelchair-alt, universal-access]
+  main_url: "http://ubalab.org/node/177"
+  rsvp_url: "http://wiki.ubatuba.cc/doku.php?id=ubatech:ubatech"
+
+- title: "Byte Girl 2017"
+  location: "Fortaleza - CE"
+  inclusive: true
+  women: true
+  date: "14/10"
+  until: "2017-10-14"
+  banner: "byte-girl-2017.png"
+  tags: [venus, cc]
+  hashtag: "bg2017"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+  rsvp_url: "https://www.sympla.com.br/byte-girl---bg2017__145027"
+
+- title: "Workshop: Mulheres que falam!"
+  location: "São Paulo - SP"
+  inclusive: true
+  lgbt: true
+  free: true
+  codamos: true
+  date: "14/10"
+  until: "2017-10-14"
+  banner: "evento-codamos.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Codamos"
+  twitter: "CodamosClub"
+  facebook: "codamosclub"
+  main_url: "https://www.codamos.club/"
+  rsvp_url: "https://www.sympla.com.br/workshop-mulheres-que-falam__198197"
+
+- title: "Inteligência artificial: aplicação e novas experiências"
+  category: "Curso"
+  location: "Online"
+  date: "13/09 a 16/10"
+  until: "2017-10-16"
+  banner: "ai-itsrio.jpg"
+  twitter: "ITSriodejaneiro"
+  facebook: "ITSriodejaneiro"
+  instagram: "itsriodejaneiro"
+  main_url: "https://itsrio.org/pt/home/"
+  rsvp_url: "https://itsrio.org/pt/cursos/inteligencia-artificial/"
+
+- title: "Campus Party - #CPWeekendPatoBranco"
+  location: "Pato Branco - PR"
+  date: "14/10 a 15/10"
+  until: "2017-10-15"
+  banner: "cpweekend.jpg"
+  women: true
+  inclusive: true
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  hashtag: "CPWeekendPatoBranco"
+  twitter: "CampusPartyBRA"
+  facebook: "campuspartybrasil"
+  main_url: "http://campuse.ro"
+  rsvp_url: "http://campuse.ro/events/cpweekend-pato-branco-2017/"
+
+- title: "Design Sprint Weekend"
+  location: "Manaus - AM"
+  date: "14/10 e 15/10"
+  until: "2017-10-15"
+  banner: "design-sprint-am.png"
+  free: true
+  women: true
+  inclusive: true
+  tags: [venus, cc, universal-access]
+  hashtag: "chicaspoderosas"
+  twitter: "poderosaschicas"
+  facebook: "chicaspoderosas.org"
+  main_url: "https://chicaspoderosas.org/"
+  rsvp_url: "https://chicaspoderosas.org/design-sprint-weekend-manaus-brazil-outubro-14-15-2017/"
+
+- title: "Tratamento, Modelagem e Análise de Dados com Excel, Power Pivot e Power Query"
+  fre: true
+  inclusive: true
+  women: true
+  location: "Ao vivo"
+  date: "17/10"
+  until: "2017-10-17"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242076708/"
+
+- title: "Curso de Git e Github"
+  inclusive: true
+  women: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "17/10 e 19/10"
+  until: "2017-10-19"
+  banner: "git-github.png"
+  tags: [venus, cc]
+  hashtag: "JuntosSomosMelhores"
+  twitter: "Desprograme"
+  facebook: "desprograme123"
+  instagram: "desprograme123"
+  meetup: "Desprograme123"
+  main_url: "http://desprograme.com.br/"
+  rsvp_url: "https://www.sympla.com.br/curso-de-git-e-github__193703"
+
+- title: "Usando Microsoft Teams com Bots para produtividade"
+  free: true
+  inclusive: true
+  women: true
+  location: "Ao vivo"
+  date: "17/10"
+  until: "2017-10-17"
+  banner: "womakerscode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/242229678/"
+
+- title: "RM VALE TI 2017 | 4ª Feira de Tecnologia e Inovação"
+  free: true
+  location: "São José dos Campos - SP"
+  date: "17/10 a 19/10"
+  until: "2017-10-19"
+  banner: "feira-tec-inovacao.png"
+  facebook: "rmvaleti"
+  main_url: "http://www.rmvaleti.com.br/"
+  rsvp_url: "https://www.sympla.com.br/rm-vale-ti-2017--4-feira-de-tecnologia-e-inovacao__169890"
+
+- title: "Ela Líder #14 - Netshoes"
+  free: true
+  inclusivo: true
+  women: true
+  location: "São Paulo - SP"
+  date: "18/10"
+  until: "2017-10-19"
+  banner: "ela-lider.png"
+  tags: [venus, cc]
+  hashtag: "elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  youtube: "https://www.youtube.com/channel/UC-gc9bhY5CdbPlpFz0SzRNQ"
+  main_url: "https://elalider.com/"
+  rsvp_url: "https://www.facebook.com/events/2088257841403170/"
+
+- title: "Introdução a Ruby"
+  free: true
+  location: "Rio de Janeiro - RJ"
+  date: "18/10"
+  until: "2017-10-18"
+  banner: "git-itsrio.jpg"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Le-Wagon-Rio-de-Janeiro-Coding-Station/events/237937378/"
+
+- title: "Curso de Python para Jornalistas"
+  women: true
+  location: "Botafogo - RJ"
+  date: "18/10 a 20/10"
+  until: "2017-10-20"
+  banner: "python-jornalistas.png"
+  hashtag: "datajournalism"
+  twitter: "generonumero"
+  facebook: "generonumero"
+  main_url: "http://www.generonumero.media/"
+  rsvp_url: "https://www.eventbrite.com/e/curso-de-python-para-jornalistas-tickets-37865844761"
+
+- title: "RD Summit 2017"
+  location: "Florianópolis - SC"
+  date: "18/10 a 20/10"
+  until: "2017-10-20"
+  banner: "rdsummit2017.jpg"
+  main_url: "http://rdsummit.com.br/"
+  rsvp_url: "https://www.sympla.com.br/rd-summit-2017__130303"
+
+- title: "View Source: Comunidade MVP"
+  women: true
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "19/10"
+  until: "2017-10-19"
+  banner: "view-source-um.png"
+  tags: [venus, cc]
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+  rsvp_url: "https://www.eventbrite.com/e/view-source-comunidade-mvp-registration-38526601101"
+
+- title: "Gump"
+  location: "São Paulo - SP"
+  women: true
+  date: "19/10"
+  until: "2017-10-19"
+  banner: "gump.jpg"
+  facebook: "tudodeshare"
+  twitter: "tudodeshare"
+  hashtag: "Gump"
+  instagram: "tudodeshare"
+  main_url: "http://www.tudodeshare.com.br/gump/"
+  rsvp_url: "http://www.tudodeshare.com.br/gump/"
+
+- title: "Open space: Vamos falar sobre Mobility!"
+  free: true
+  inclusive: true
+  location:  "São Paulo - SP"
+  date: "19/10"
+  until: "2017-10-19"
+  banner: "open-space-mobi.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "thoughtworksbr"
+  facebook: "ThoughtWorksBR"
+  twitter: "thoughtworksbr"
+  main_url: "https://www.thoughtworks.com/pt"
+  rsvp_url: "https://www.meetup.com/preview/Sao-Paulo-Mobility-Immigration-Meetup/events/242937837"
+
+- title: "Agilidade Recife"
+  women: true
+  location: "Recife - PE"
+  date: "20/10"
+  until: "2017-10-20"
+  banner: "agil-recife.png"
+  hashtag: "agilidaderecife2017"
+  twitter: "agilidaderecife"
+  facebook: "AgilidadeRecife"
+  main_url: "http://agilidaderecife.com.br/2017/"
+  rsvp_url: "http://agilidaderecife.com.br/2017/inscreva-se/"
+
+- title: "Intercon 2017 - Imasters"
+  location: "São Paulo - SP"
+  date: "20/10 e 21/10"
+  until: "2017-10-21"
+  banner: "intercon2017.png"
+  tags: [cc]
+  hashtag: "Intercon2017"
+  twitter: "iMasters"
+  facebook: "PortaliMasters"
+  main_url: "https://eventos.imasters.com.br/intercon"
+  rsvp_url: "https://eventos.imasters.com.br/intercon"
+
+- title: "Tableau Day Outubro"
+  free: true
+  location: "São Paulo - SP"
+  date: "21/10"
+  until: "2017-10-21"
+  banner: "qsoftpartner.jpg"
+  facebook: "qsofttableaupartner"
+  linkedin: "company/9446664"
+  tags: [universal-access]
+  main_url: "http://www.qsoft.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-outubro-tickets-34112710034"
+
+- title: "2º DEVFEST CSF"
+  location: "Vassouras - RJ"
+  date: "21/10"
+  until: "2017-10-21"
+  banner: "devfest-fluminense.png"
+  hashtag: "GDG"
+  facebook: "gdgvassouras"
+  facebook: "GoogleDevelopersGroupTresRios"
+  main_url: "https://devfest.centrosulfluminense.me/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
+
+- title: "Curso UI Design+Mobile"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "21/10 e 22/10"
+  until: "2017-10-22"
+  banner: "mergo-ux.png"
+  hashtag: "MergoLab"
+  twitter: "mergo_ux"
+  facebook: "mergo.user.experience"
+  main_url: "http://www.mergo.com.br/"
+  rsvp_url: "http://www.mergo.com.br/curso-uidesign-mobile.html"
+
+- title: "Experiancejam - Serasa"
+  hackathon: true
+  cfp: true
+  location: "São Carlos - SP"
+  date: "21/10 e 22/10"
+  until: "2017-10-22"
+  banner: "hackathon-serasa.png"
+  hashtag: "EJ4"
+  twitter: "experianceJAM"
+  facebook: "experiancejam"
+  main_url: "http://experiancejam.com.br/"
+  rsvp_url: "http://experiancejam.com.br/#iniciativas"
+
+- title: "DevFest Nordeste 2017"
+  women: true
+  inclusive: true
+  location: "Salvador - BA"
+  date: "21/10"
+  until: "2017-10-21"
+  banner: "devfest-nordest.png"
+  hashtag: "dfne2k17"
+  twitter: "DevfestNE"
+  facebook: "devfestne"
+  main_url: "https://devfestne.com.br/"
+  rsvp_url: "https://loja.tampa.works/produto/devfest-nordeste-2017/"
+
+- title: "Teste de usabilidade, teoria e prática"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  date: "23/10 e 24/10"
+  until: "2017-10-24"
+  banner: "testeusabilidade.jpg"
+  tags: [universal-access]
+  linkedin: "company/9367347"
+  twitter: "uxtestr"
+  facebook: "uxTESTR"
+  main_url: "http://testr.com.br/"
+  rsvp_url: "https://www.sympla.com.br/workshop-teste-de-usabilidade-teoria-e-pratica__165426"
