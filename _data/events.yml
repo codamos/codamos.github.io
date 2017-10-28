@@ -291,7 +291,7 @@
   location: "São Paulo - SP"
   date: "05/11"
   until: "2017-11-05"
-  banner: "campusmobile.JPG"
+  banner: "campusmobile.jpg"
   facebook: "institutonetclaroembratel"
   twitter: "instnetclaroebt"
   youtube: "embed/yH5rSiXy9w8"
@@ -394,7 +394,7 @@
   free: true
   date: "11/11"
   until: "2017-11-11"
-  banner: "arenablackrocks.JPG"
+  banner: "arenablackrocks.jpg"
   facebook: "blackrocksstartup"
   tags: [universal-access, child, hand-rock-o]
   main_url: "www.arenablackrocks.com.br"
@@ -404,7 +404,7 @@
   location: "Jundiaí - SP"
   date: "11/11"
   until: "2017-11-11"
-  banner: "jundevelopersday.JPG"
+  banner: "jundevelopersday.jpg"
   main_url: "http://www.jundevelopers.com.br/openday/"
   rsvp_url: "http://www.jundevelopers.com.br/openday/#registration"
 
@@ -617,7 +617,7 @@
   location: "Rio de Janeiro - RJ"
   date: "25/11"
   until: "2017-11-25"
-  banner: "gdgdevfestrio.JPG"
+  banner: "gdgdevfestrio.jpg"
   hashtag: "devfestrj"
   facebook: "GDGRio"
   twitter: "GDGRio"
