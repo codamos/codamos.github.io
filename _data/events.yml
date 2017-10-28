@@ -396,7 +396,7 @@
   until: "2017-11-11"
   banner: "arenablackrocks.JPG"
   facebook: "blackrocksstartup"
-  tags: [universal-access , child]
+  tags: [universal-access, child, hand-rock-o]
   main_url: "www.arenablackrocks.com.br"
   rsvp_url: "https://www.sympla.com.br/arena-blackrocks__201585"
 
@@ -405,7 +405,6 @@
   date: "11/11"
   until: "2017-11-11"
   banner: "jundevelopersday.JPG"
-  tags: [universal-access]
   main_url: "http://www.jundevelopers.com.br/openday/"
   rsvp_url: "http://www.jundevelopers.com.br/openday/#registration"
 
@@ -444,7 +443,7 @@
   banner: "gdgparana.jpg"
   twitter: "gdgpr"
   facebook: "gdgparana"
-  tags: [universal-access, cc]
+  tags: [cc]
   main_url: "https://devfestpr.org/"
   rsvp_url: "https://www.sympla.com.br/gdg-devfest-parana-2017__185534"
 
@@ -465,7 +464,6 @@
   banner: "qsoftpartner.jpg"
   facebook: "qsofttableaupartner"
   linkedin: "company/9446664"
-  tags: [universal-access]
   main_url: "http://www.qsoft.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/tableau-day-novembro-tickets-34112856472"
 
@@ -474,7 +472,7 @@
   date: "11/11"
   until: "2017-11-11"
   banner: "linuxDeveloperConference.jpg"
-  tags: [universal-access]
+  hashtag: "linuxdev"
   cfp: true
   main_url: "http://linuxdev-br.net/"
   rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
@@ -538,6 +536,7 @@
   date: "18/11"
   until: "2017-11-18"
   banner: "bigDataBrasilDay.jpg"
+  hashtag: "bigdatabrasilday"
   main_url: "http://www.bigdatabrasilday.com.br"
   rsvp_url: "https://www.eventbrite.com.br/e/big-data-brasil-day-2017-great-again-tickets-36860014295"
 
@@ -559,6 +558,7 @@
   date: "18/11"
   until: "2017-11-18"
   banner: "null-byte.jpg"
+  hashtag: "nullbyte"
   twitter: "nullbytecon"
   facebook: "nullbytecon"
   main_url: "https://nullbyte-con.org/"
@@ -582,6 +582,8 @@
   date: "24/11 até 25/11"
   until: "2017-11-25"
   banner: "drupal.jpg"
+  hashtag: "drupal"
+  twitter: "drupalcamp_sp"
   facebook: "DrupalcampSaoPaulo"
   main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
   rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
@@ -607,19 +609,18 @@
   banner: "riosulvalley.jpg"
   hashtag: "RioSulValley"
   facebook: "riosulvalley"
-  tags: [universal-access]
   main_url: "http://riosulvalley.com.br/devsummit/"
   rsvp_url: "https://www.sympla.com.br/rsv-dev-conf__188065"
 
 - title: "Devfest Rio de Janeiro 2017"
+  cfp: true
   location: "Rio de Janeiro - RJ"
   date: "25/11"
   until: "2017-11-25"
   banner: "gdgdevfestrio.JPG"
+  hashtag: "devfestrj"
   facebook: "GDGRio"
   twitter: "GDGRio"
-  tags: [universal-access]
-  cfp: true
   main_url: "https://gdgrio.github.io/devfest/"
   rsvp_url: "https://www.sympla.com.br/devfest-rio-de-janeiro-2017__204453"
 
@@ -673,10 +674,14 @@
   rsvp_url: "https://www.sympla.com.br/front-in-floripa-2017__200654"
 
 - title: "INSITER"
+  women: true
   location: "Porto Alegre - RS"
   date: "02/12"
   until: "2017-12-02"
   banner: "insiter.jpg"
+  tags: [venus, cc]
+  hashtag: "insiterconf"
+  twitter: "insiterConf"
   facebook: "InsiterConf"
   main_url: "http://insiter.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/insiter-porto-alegre-tickets-38661656054?ref=elink"
@@ -692,12 +697,14 @@
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
-- title: "DevFest Nordeste 2017"
+- title: "DevFest XP 2017"
   women: true
+  highlight: true
   location: "Recife - PE"
   date: "09/12"
   until: "2017-12-10"
   banner: "devfest-xp.png"
+  tags: [venus, cc]
   hashtag: "dfxp17"
   twitter: "devfestxp"
   facebook: "devfestxp"
