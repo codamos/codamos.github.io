@@ -122,7 +122,6 @@
 - title: "Code Girl - edição 5"
   free: true
   women: true
-  highlight: true
   inclusive: true
   location: "Natal - RN"
   date: "27/10"
@@ -272,6 +271,18 @@
   tags: [wheelchair-alt,universal-access]
   rsvp_url: "https://www.eventbrite.com.br/e/design-sprint-bootcamp-turma-02-sao-paulosp-tickets-37158983520"
 
+- title: "BRL MeetUp - NerdZão Day #3"
+  free: true
+  location: "São Paulo - SP"
+  date: "04/11"
+  until: "2017-11-04"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/Nerdzao/events/242381283/"
+
 - title: "Design Sprint Weekend"
   location: "São Paulo - SP"
   date: "04/11 e 05/11"
@@ -310,6 +321,18 @@
   facebook: "SaoPauloTechWeek"
   main_url: "http://www.saopaulotechweek.com/"
   rsvp_url: "http://www.saopaulotechweek.com/cadastro/"
+
+- title: "TEDxSãoPaulo"
+  location: "São Paulo - SP"
+  date: "06/11"
+  until: "2017-11-06"
+  banner: "ted-sp-nov.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "TEDxSaoPaulo"
+  twitter: "TEDxSaoPaulo"
+  facebook: "TEDxSP"
+  main_url: "http://tedxsp.com/"
+  rsvp_url: "https://www.ingressorapido.com.br/compra/?id=59833#!/tickets"
 
 - title: "DevOps Day Brasília"
   location: "Brasília - DF"
@@ -588,6 +611,17 @@
   main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
   rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
 
+- title: "Legal Hack"
+  hackathon: true
+  location: "São Paulo - SP"
+  date: "25/11 e 26/11"
+  until: "2017-11-26"
+  banner: "legal-hack.png"
+  twitter: "aasp_online"
+  facebook: "LegalHackAASP"
+  main_url: "https://app.shawee.io/hackathon/legal-hack"
+  rsvp_url: "https://app.shawee.io/hackathon/legal-hack"
+
 - title: "Mobile Summit Brazil"
   women: true
   location: "Porto Alegre - RS"
@@ -697,6 +731,21 @@
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
+- title: "Ladies that UX Talks"
+  women: true
+  highlight: true
+  inclusive: true
+  free: true
+  location: "São Paulo - SP"
+  date: "08/12"
+  until: "2017-12-08"
+  banner: "ladies-ux-empreendedorismo.png"
+  tags: [venus, cc]
+  twitter: "ladiesthatuxSPO"
+  facebook: "ladiesthatuxsp"
+  main_url: "http://ladiesthatux.com/sao-paulo/"
+  rsvp_url: "https://www.facebook.com/events/1710878575897208/"
+
 - title: "DevFest XP 2017"
   women: true
   highlight: true
@@ -774,3 +823,14 @@
   facebook: "uxconferencebr"
   main_url: "http://www.uxconf.com.br/"
   rsvp_url: "http://www.uxconf.com.br/ingressos/"
+
+- title: "Superlógica Xperience 2018"
+  location: "São Paulo - SP"
+  date: "07/06 e 08/06"
+  until: "2018-06-08"
+  banner: "superlogica-2018.png"
+  hashtag: "SuperlogicaXp"
+  twitter: "superlogica"
+  facebook: "superlogica"
+  main_url: "http://superlogica.com/"
+  rsvp_url: "https://www.eventbrite.com.br/e/superlogica-xperience-2018-tickets-36611389652"
