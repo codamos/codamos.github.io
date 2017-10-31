@@ -11,7 +11,6 @@
 # opensource:  booleano (true ou false), opcional. É um evento para a comunidade Open source.
 # location:    texto, obrigatório.
 # date:        texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
-# until:       texto, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
 # banner:      arquivo na pasta `images/eventos`, opcional.
 # group:       arquivo na pasta `images/grupo`, opcional.
 # tags:        lista de classes de ícones do font awesome, opcional.
@@ -38,7 +37,6 @@
   convidados: true
   location: "São Paulo - SP"
   date: "Semanal"
-  until: "2018-12-02"
   banner: "lambda3.png"
   tags: [venus, cc]
   category: "+ 60 minutos"
@@ -58,7 +56,6 @@
   inclusive: true
   location: "Belo Horizonte - MG"
   date: "Quinzenal"
-  until: "2018-12-02"
   banner: "podprogramar.png"
   tags: [venus, cc]
   category: "- 40 minutos"
@@ -75,7 +72,6 @@
   convidados: true
   location: "São Paulo - SP"
   date: "Semanal"
-  until: "2018-12-02"
   banner: "dev-na-estrada.png"
   tags: [venus, cc]
   category: "+ 60 minutos"
@@ -86,5 +82,3 @@
   itunes: "br/podcast/devnaestrada/"
   main_url: "http://devnaestrada.com.br/"
   rsvp_url: "http://devnaestrada.com.br/"
-
-

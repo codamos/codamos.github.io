@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-{% assign today = site.time | date: "%Y-%m-%d" %}
 
-<!-- BANNER -->
 <section id="banner" class="banner-podcast">
   <div class="banner-content">
     <h2 class="page-banner-title">O manifesto e como apoiar</h2>
@@ -16,7 +14,6 @@ layout: default
   </div>
 </section>
 
-<!-- EVENTOS -->
 <section class="page-section">
   <h1 class="page-section-title">Sobre Podcast</h1>
 
@@ -34,17 +31,14 @@ layout: default
   </ul>
 </section>
 
-<!-- EVENTOS -->
 <section class="page-section">
   <h1 class="page-section-subtitle-alt">Podcast que indicamos</h1>
 
   <ul class="events-cards">
-    {% assign current_podcasts = site.data.podcasts | where_exp: "e", "e.until >= today" %}
-    {% include podcasts.html podcasts=current_podcasts %}
+    {% include podcasts.html podcasts=site.data.podcasts %}
   </ul>
 </section>
 
-<!-- INCLUIR PODCAST -->
 <section id="include-event" class="page-section-purple">
   <h2 class="include-event-title">Inclua um Podcast!</h2>
 
@@ -54,4 +48,3 @@ layout: default
 
   <a class="button-default-outline" href="https://twitter.com/CodamosClub" target="_blank">Mande um tuite com o podcast</a>
 </section>
-

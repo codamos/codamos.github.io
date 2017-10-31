@@ -34,7 +34,7 @@
       </div>
       {% endif %}
 
-      {% if podcast.convidados and include.convidados != false %}
+      {% if podcast.convidados %}
       <div class="events-card-header-call4papers">
         <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Convidados</h3>
       </div>
@@ -171,7 +171,7 @@
       </div>
     </div>
 
-    {% if event.rsvp_url and include.rsvp != false %}
+    {% if podcast.rsvp_url %}
     <div class="events-card-body-button">
       <a href="{{ podcast.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ouvir</a>
     </div>
