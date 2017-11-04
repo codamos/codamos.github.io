@@ -255,7 +255,6 @@
   free: true
   lgbt: true
   inclusive: true
-  highlight: true
   tags: [venus, cc]
   hashtag: "myelixirstatus"
   twitter: "elug_sp"
@@ -311,16 +310,21 @@
   rsvp_url: "https://www.institutoclaro.org.br/campusmobile/index.php"
 
 - title: "São Paulo Tech Week"
+  free: true
+  inclusive: true
+  women: true
+  highlight: true
   location: "São Paulo - SP"
   date: "05/11 a 12/11"
   until: "2017-11-12"
   banner: "sptw.png"
+  tags: [cc]
   hashtag: "saopaulotechweek"
   twitter: "sptw16"
   instagram: "saopaulotechweek"
   facebook: "SaoPauloTechWeek"
   main_url: "http://www.saopaulotechweek.com/"
-  rsvp_url: "http://www.saopaulotechweek.com/cadastro/"
+  rsvp_url: "http://www.saopaulotechweek.com/techlovers/"
 
 - title: "TEDxSãoPaulo"
   location: "São Paulo - SP"
@@ -500,6 +504,19 @@
   main_url: "http://linuxdev-br.net/"
   rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
 
+- title: "Blue|Hack SP"
+  hackathon: true
+  location: "São Paulo - SP"
+  date: "11/11 e 12/11"
+  until: "2017-11-12"
+  banner: "blue-hack.png"
+  hashtag: "bluehack"
+  twitter: "BlueHack11"
+  meetup: "thinkup"
+  facebook: "BlueHack-Community-Brasil-1999275460358960"
+  main_url: "https://www.blueopen.org/bluehacksp"
+  rsvp_url: "https://www.blueopen.org/bluehacksp"
+
 - title: "LaraconfBrasil 2017"
   location: "São Paulo - SP"
   date: "17/11"
@@ -539,6 +556,22 @@
   facebook: "locaweb"
   main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/#inscrevase"
+
+- title: "Rails Girls POA"
+  location: "Porto Alegre - RS"
+  free: true
+  category: "Workshop"
+  women: true
+  highlight: true
+  date: "17/11 e 18/11"
+  until: "2017-11-18"
+  banner: "rails-girls-poa.png"
+  tags: [venus,cc, child, wheelchair-alt]
+  hashtag: "railsgirlspoa"
+  twitter: "railsgirls"
+  facebook: "railsgirlspoa"
+  main_url: "http://railsgirls.com/portoalegre"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSdjprOtzPgoa9b9yMvKcd3bDnnBE5YPBOXbygmhSW2UvnqMvA/viewform"
 
 - title: "DevFest BH"
   women: true
@@ -600,6 +633,18 @@
   main_url: "http://challenge.whatdesigncando.com/"
   rsvp_url: "http://www.whatdesigncando.com/brazil-2017/tickets/"
 
+- title: "Semcomp 2017"
+  women: true
+  location: "Salvador - BA"
+  date: "22/11 a 25/11"
+  until: "2017-11-25"
+  banner: "semcomp.png"
+  hashtag: "SEMCOMP2017"
+  twitter: "Semcompufba"
+  facebook: "semanacomp"
+  main_url: "http://semcomp.com.br/"
+  rsvp_url: "https://credencial.imasters.com.br/semcomp-ufba"
+
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
   date: "24/11 até 25/11"
@@ -611,6 +656,18 @@
   main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
   rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
 
+- title: "Programaria Summit"
+  location: "São Paulo - SP"
+  date: "25/11"
+  until: "2017-11-25"
+  banner: "programaria-summit.png"
+  tags: [venus,cc]
+  hashtag: "programariaSummit"
+  twitter: "programaria"
+  facebook: "programaria"
+  main_url: "https://www.programaria.org/"
+  rsvp_url: "http://summit.programaria.org/"
+
 - title: "Legal Hack"
   hackathon: true
   location: "São Paulo - SP"
@@ -621,6 +678,19 @@
   facebook: "LegalHackAASP"
   main_url: "https://app.shawee.io/hackathon/legal-hack"
   rsvp_url: "https://app.shawee.io/hackathon/legal-hack"
+
+- title: "Afro Python 2017"
+  inclusive: true
+  free: true
+  location: "Porto Alegre - RS"
+  date: "25/11"
+  until: "2017-11-25"
+  banner: "afro-python.png"
+  tags: [cc, hand-rock-o]
+  hashtag: "AfroPython"
+  facebook: "AfroPython"
+  main_url: "http://afropython.org/"
+  rsvp_url: "http://afropython.org/"
 
 - title: "Mobile Summit Brazil"
   women: true
@@ -707,6 +777,19 @@
   main_url: "http://frontinfloripa.com.br/"
   rsvp_url: "https://www.sympla.com.br/front-in-floripa-2017__200654"
 
+- title: "Wordcamp SP"
+  cfp: true
+  location: "São Paulo - SP"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "wcsp.png"
+  tags: [cc]
+  facebook: "WordCampSaoPaulo"
+  twitter: "WPsampa"
+  hashtag: "WordCampSP"
+  main_url: "https://2017.saopaulo.wordcamp.org/"
+  rsvp_url: "https://2017.saopaulo.wordcamp.org/ingressos/"
+
 - title: "INSITER"
   women: true
   location: "Porto Alegre - RS"
@@ -731,6 +814,15 @@
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
+- title: "1º Meetup React Joinville"
+  location: "Joinville - SC"
+  date: "05/12"
+  until: "2017-12-05"
+  banner: "react-joinville.png"
+  facebook: "reactjoinville"
+  main_url: "https://www.meetup.com/preview/React-Joinville"
+  rsvp_url: "https://www.meetup.com/preview/React-Joinville/events/244258962"
+
 - title: "Ladies that UX Talks"
   women: true
   highlight: true
@@ -746,9 +838,25 @@
   main_url: "http://ladiesthatux.com/sao-paulo/"
   rsvp_url: "https://www.facebook.com/events/1710878575897208/"
 
-- title: "DevFest XP 2017"
+- title: "Clojure Bridge SP"
   women: true
   highlight: true
+  inclusive: true
+  free: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "08/12 e 09/12"
+  until: "2017-12-09"
+  banner: "clojure-bridge.png"
+  tags: [venus, cc]
+  hashtag: "ClojureBridge"
+  twitter: "clojurebridge"
+  github: "clojurebridge"
+  main_url: "http://www.clojurebridge.org/"
+  rsvp_url: "http://www.clojurebridge.org/events/2017-12-08-sao-paulo"
+
+- title: "DevFest XP 2017"
+  women: true
   location: "Recife - PE"
   date: "09/12"
   until: "2017-12-10"
