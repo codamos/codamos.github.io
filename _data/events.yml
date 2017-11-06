@@ -376,6 +376,19 @@
   main_url: "http://www.thedevelopersconference.com.br/tdc/2017/index.html"
   rsvp_url: "http://www.thedevelopersconference.com.br/tdc/2017/inscricoes"
 
+- title: "React #15 - Edição especial São Paulo Tech Week: MobX e Flexbox no React Native"
+  free: true
+  location: "São Paulo - SP"
+  date: "09/11"
+  until: "2017-11-09"
+  banner: "react-12.png"
+  tags: [venus, cc]
+  hashtag: "ReactConfBr"
+  twitter: "reactconfbr"
+  facebook: "reactconf"
+  main_url: "https://www.meetup.com/ReactJS-SP"
+  rsvp_url: "https://www.meetup.com/ReactJS-SP/events/244724543/"
+
 - title: "Startup Weekend São Paulo Travel Tech"
   location: "São Paulo - SP"
   date: "10/11 até 12/11"
