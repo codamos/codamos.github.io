@@ -803,6 +803,20 @@
   main_url: "http://insiter.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/insiter-porto-alegre-tickets-38661656054?ref=elink"
 
+- title: "CODEPEN MEETUP BRASIL #2"
+  women: true
+  free: true
+  location: "São Paulo - SP"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "codapen-meetup-brasil2.png"
+  tags: [venus, cc]
+  hashtag: "CodePenMeetupBrasil"
+  twitter: "CodePen"
+  facebook: "sorocabacss"
+  main_url: "https://nvite.com/CodePenMeetupBrasil/3vw2pl"
+  rsvp_url: "https://nvite.com/CodePenMeetupBrasil/3vw2pl"
+
 - title: "Workshop de Estamparia Narrativa com Estúdio Abelha"
   category: "Workshop"
   location: "São Paulo - SP"
