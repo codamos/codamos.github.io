@@ -415,6 +415,30 @@
   main_url: "https://djangogirls.org/saopaulo/apply/"
   rsvp_url: "https://djangogirls.org/saopaulo/#apply"
 
+- title: "Ethereum na Prática"
+  location: "Belo Horizonte - MG"
+  free: true
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "ethereum-bw.png"
+  tags: [universal-access,cc]
+  meetup: "Ethereum-BH"
+  main_url: "https://www.meetup.com/pt-BR/Ethereum-BH"
+  rsvp_url: "https://www.meetup.com/pt-BR/Ethereum-BH/events/244750357"
+
+- title: "PHP TestFest São Paulo"
+  location: "São Paulo - SP"
+  free: true
+  date: "11/11"
+  until: "2017-11-11"
+  banner: "phpsp.png"
+  tags: [universal-access,cc]
+  facebook: "sao.paulo.elephants"
+  twitter: "phpsp"
+  meetup: "php-sp"
+  main_url: "http://phpsp.org.br/"
+  rsvp_url: "https://www.meetup.com/php-sp/events/244578790"
+
 - title: "TOTVS Tech Day"
   free: true
   location: "São Paulo - SP"
@@ -516,6 +540,19 @@
   cfp: true
   main_url: "http://linuxdev-br.net/"
   rsvp_url: "https://www.eventbrite.com.br/e/linux-developer-conference-brazil-tickets-37326603877"
+
+- title: "Introdução a lógica de programação para mulheres"
+  location: "São Paulo - SP"
+  free: true
+  date: "14/11"
+  until: "2017-11-14"
+  banner: "infopreta.png"
+  tags: [venus]
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+  rsvp_url: "https://www.facebook.com/events/1431788973606076/"
 
 - title: "Blue|Hack SP"
   hackathon: true
@@ -632,6 +669,19 @@
   main_url: "https://nullbyte-con.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
+- title: "O Mundo Mágido do Firebase"
+  location: "Porto Alegre - RS"
+  free: true
+  women: true
+  date: "22/11"
+  until: "2017-11-22"
+  banner: "firebase.jpg"
+  tags: [universal-access,cc]
+  twitter: "firebasebrasil"
+  meetup: "FirebaseBrasil"
+  main_url: "https://firebasebrasil.com/"
+  rsvp_url: "https://www.meetup.com/pt-BR/FirebaseBrasil/events/244797556"
+
 - title: "WDCD SP 2017"
   location: "São Paulo - SP"
   date: "22/11 e 23/11"
@@ -679,6 +729,19 @@
   facebook: "programaria"
   main_url: "https://www.programaria.org/"
   rsvp_url: "http://summit.programaria.org/"
+
+- title: "Coda.Br"
+  location: "São Paulo - SP"
+  women: true
+  date: "25/11 até 26/11"
+  until: "2017-11-26"
+  banner: "codabr.jpg"
+  tags: [cc,universal-access]
+  hashtag: "CodaBR"
+  twitter: "escoladedados"
+  facebook: "escoladedados"
+  main_url: "http://coda.escoladedados.org/"
+  rsvp_url: "http://coda.escoladedados.org/eventos/coda-br/"
 
 - title: "Legal Hack"
   hackathon: true
@@ -881,6 +944,18 @@
   main_url: "http://www.clojurebridge.org/"
   rsvp_url: "http://www.clojurebridge.org/events/2017-12-08-sao-paulo"
 
+- title: "Raspagem de Dados com Python"
+  category: "Workshop"
+  inclusive: true
+  location: "Curitiba - PR"
+  free: true
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "raspagemDadosPython.jpg"
+  tags: [venus]
+  main_url: "http://python.mulheres.eti.br"
+  rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
+
 - title: "DevFest XP 2017"
   women: true
   location: "Recife - PE"
@@ -893,6 +968,19 @@
   facebook: "devfestxp"
   main_url: "https://devfestxp.com/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-xp-2017/"
+
+- title: "Lab reparo"
+  location: "São Paulo - SP"
+  free: true
+  date: "19/12"
+  until: "2017-12-19"
+  banner: "infopreta.png"
+  tags: [venus]
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+  rsvp_url: "https://www.facebook.com/events/136638613654011"
 
 # 2018
 
