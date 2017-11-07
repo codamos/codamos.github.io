@@ -544,10 +544,14 @@
 - title: "Introdução a lógica de programação para mulheres"
   location: "São Paulo - SP"
   free: true
+  inclusive: true
+  women: true
   date: "14/11"
   until: "2017-11-14"
   banner: "infopreta.png"
-  tags: [venus]
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "infopreta"
+  twitter: "infopreta"
   facebook: "InfoPreta"
   youtube: "infopreta"
   instagram: "infopreta"
@@ -707,6 +711,19 @@
   main_url: "http://semcomp.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/semcomp-ufba"
 
+- title: "Bate-papo com Fernando Fernandes e Marcos Roberto, do MeViro"
+  location: "São Paulo - SP"
+  free: true
+  date: "22/11"
+  until: "2017-11-22"
+  banner: "maker-mobilidade-inclusao.jpg"
+  tags: [universal-access, wheelchair-alt]
+  hashtag: "Basement"
+  twitter: "RedBullBR"
+  facebook: "RedBullStation"
+  main_url: "http://www.redbullbasement.com.br/"
+  rsvp_url: "https://tickets.redbull.com/landingpage/H1D8VV7Fsi0zpJh"
+
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
   date: "24/11 até 25/11"
@@ -735,8 +752,8 @@
   women: true
   date: "25/11 até 26/11"
   until: "2017-11-26"
-  banner: "codabr.jpg"
-  tags: [cc,universal-access]
+  banner: "codarbr.jpg"
+  tags: [cc, wheelchair-alt]
   hashtag: "CodaBR"
   twitter: "escoladedados"
   facebook: "escoladedados"
@@ -827,6 +844,23 @@
   main_url: "http://reset-lab.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/ux-seo-um-casamento-de-sucesso-tickets-35023157206"
 
+- title: "Introdução a lógica de programação para mulheres"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  women: true
+  date: "28/11"
+  until: "2017-11-28"
+  banner: "infopreta.png"
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "infopreta"
+  twitter: "infopreta"
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+  rsvp_url: "https://www.facebook.com/events/753342564872799/"
+
 # DEZEMBRO
 
 - title: "Workshop de Design Thinking com Silvio Acher"
@@ -912,6 +946,23 @@
   main_url: "https://www.meetup.com/preview/React-Joinville"
   rsvp_url: "https://www.meetup.com/preview/React-Joinville/events/244258962"
 
+- title: "Lab Reparo"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  women: true
+  date: "05/12"
+  until: "2017-12-05"
+  banner: "infopreta-labreparo.png"
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "infopreta"
+  twitter: "infopreta"
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+  rsvp_url: "https://www.facebook.com/events/295621144268440/"
+
 - title: "Ladies that UX Talks"
   women: true
   highlight: true
@@ -969,18 +1020,39 @@
   main_url: "https://devfestxp.com/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-xp-2017/"
 
-- title: "Lab reparo"
+- title: "Lab Reparo"
   location: "São Paulo - SP"
   free: true
-  date: "19/12"
-  until: "2017-12-19"
+  inclusive: true
+  women: true
+  date: "12/12"
+  until: "2017-12-12"
   banner: "infopreta.png"
-  tags: [venus]
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "infopreta"
+  twitter: "infopreta"
   facebook: "InfoPreta"
   youtube: "infopreta"
   instagram: "infopreta"
   main_url: "http://infopreta.com.br"
-  rsvp_url: "https://www.facebook.com/events/136638613654011"
+  rsvp_url: "https://www.facebook.com/events/184496425445836/"
+
+- title: "Lab Reparo"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  women: true
+  date: "19/12"
+  until: "2017-12-19"
+  banner: "infopreta.png"
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "infopreta"
+  twitter: "infopreta"
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+  rsvp_url: "https://www.facebook.com/events/136638613654011/"
 
 # 2018
 
