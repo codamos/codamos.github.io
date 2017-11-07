@@ -396,7 +396,6 @@
   banner: "startupweekend.jpg"
   twitter: "techstars"
   facebook: "techstars"
-  tags: [universal-access]
   main_url: "http://communities.techstars.com/brazil/sao-paulo/startup-weekend/11736"
   rsvp_url: "https://www.sympla.com.br/startup-weekend-sao-paulo-travel-tech__191214"
 
@@ -421,7 +420,7 @@
   date: "11/11"
   until: "2017-11-11"
   banner: "ethereum-bw.png"
-  tags: [universal-access,cc]
+  tags: [cc]
   meetup: "Ethereum-BH"
   main_url: "https://www.meetup.com/pt-BR/Ethereum-BH"
   rsvp_url: "https://www.meetup.com/pt-BR/Ethereum-BH/events/244750357"
@@ -432,7 +431,7 @@
   date: "11/11"
   until: "2017-11-11"
   banner: "phpsp.png"
-  tags: [universal-access,cc]
+  tags: [cc]
   facebook: "sao.paulo.elephants"
   twitter: "phpsp"
   meetup: "php-sp"
@@ -441,10 +440,11 @@
 
 - title: "TOTVS Tech Day"
   free: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "11/11"
   until: "2017-11-11"
-  tags: [universal-access , cc]
+  tags: [venus,cc]
   banner: "totvstechday.jpg"
   twitter: "TOTVS"
   facebook: "totvs"
@@ -456,11 +456,12 @@
 - title: "Arena BlackRocks"
   location: "São Paulo - SP"
   free: true
+  inclusive: true
   date: "11/11"
   until: "2017-11-11"
   banner: "arenablackrocks.jpg"
   facebook: "blackrocksstartup"
-  tags: [universal-access, child, hand-rock-o]
+  tags: [cc, child, hand-rock-o]
   main_url: "www.arenablackrocks.com.br"
   rsvp_url: "https://www.sympla.com.br/arena-blackrocks__201585"
 
@@ -680,7 +681,7 @@
   date: "22/11"
   until: "2017-11-22"
   banner: "firebase.jpg"
-  tags: [universal-access,cc]
+  tags: [cc]
   twitter: "firebasebrasil"
   meetup: "FirebaseBrasil"
   main_url: "https://firebasebrasil.com/"
@@ -863,6 +864,19 @@
 
 # DEZEMBRO
 
+- title: "Bate-papo sobre CSS Grid Layout com o Maujor – Just4Girls!"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "novatec.jpg"
+  tags: [venus, cc,]
+  twitter: "novateceditora"
+  facebook: "ctnovatec"
+  main_url: "http://www.novatec.com.br/"
+  rsvp_url: "http://ctnovatec.com.br/bate-papo-css-grid-layout-maujor/"
+
 - title: "Workshop de Design Thinking com Silvio Acher"
   category: "Workshop"
   location: "São Paulo - SP"
@@ -882,7 +896,6 @@
   facebook: "frontinfloripa"
   twitter: "frontinfloripa"
   hashtag: "frontinfloripa"
-  cfp: true
   main_url: "http://frontinfloripa.com.br/"
   rsvp_url: "https://www.sympla.com.br/front-in-floripa-2017__200654"
 
