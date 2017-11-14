@@ -613,7 +613,6 @@
 - title: "Rubyconf BR"
   location: "São Paulo - SP"
   free: true
-  category: "Workshop"
   women: true
   date: "17/11 e 18/11"
   until: "2017-11-18"
@@ -666,7 +665,6 @@
 
 - title: "DevDayRS 2017"
   location: "Porto Alegre - RS"
-  cfp: true
   date: "18/11"
   until: "2017-11-18"
   banner: "devdayrs.jpg"
@@ -688,10 +686,39 @@
   main_url: "https://nullbyte-con.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/nullbyte-security-conference-tickets-32847916001"
 
+- title: "Oficina PHPWomen"
+  location: "Brasília - DF"
+  women: true
+  inclusive: true
+  date: "18/11"
+  until: "2017-11-18"
+  banner: "vem-codar-php-women.png"
+  tags: [venus, cc]
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
+  main_url: "http://phpwomen.org.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScpijQhH0MhDDqYV77tW02UBW4Fn7VMbH1QcgfPJvYsT5gEeg/viewform"
+
+- title: "She's tech"
+  location: "Belo Horizonte - MG"
+  women: true
+  inclusive: true
+  date: "20/11 a 24/11"
+  until: "2017-11-24"
+  banner: "she-is-tech.png"
+  tags: [venus, cc]
+  hashtag: "ShesTechWeek"
+  facebook: "shestech"
+  instagram: "shes_tech"
+  main_url: "https://shestech.org/"
+  rsvp_url: "https://shestech.org/shestech-week/"
+
 - title: "O Mundo Mágido do Firebase"
   location: "Porto Alegre - RS"
   free: true
   women: true
+  inclusive: true
   date: "22/11"
   until: "2017-11-22"
   banner: "firebase.jpg"
@@ -739,6 +766,21 @@
   main_url: "http://www.redbullbasement.com.br/"
   rsvp_url: "https://tickets.redbull.com/landingpage/H1D8VV7Fsi0zpJh"
 
+- title: "Hackathon Cidades Seguras | ColaborAmerica 2017"
+  location: "Rio de Janeiro - RJ"
+  hackathon: true
+  inclusive: true
+  date: "23/11 a 25/11"
+  until: "2017-11-25"
+  banner: "cidades-seguras.png"
+  tags: [venus,cc, hand-rock-o]
+  hashtag: "CidadesSeguras"
+  twitter: "igarape_org"
+  facebook: "InstitutoIgarape"
+  youtube: "InstitutoIgarape"
+  main_url: "https://igarape.org.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScJVjd7ZZMzcYyyoJJIP-rB1c_VI-Q0oBCvBbbxsGkpYbKLzw/viewform"
+
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
   date: "24/11 até 25/11"
@@ -749,6 +791,20 @@
   facebook: "DrupalcampSaoPaulo"
   main_url: "http://www.drupal.org.br/eventos/drupal-camp-2017"
   rsvp_url: "https://www.eventbrite.com.br/e/drupalcamp-sao-paulo-2017-registration-37826502086"
+
+- title: "Deevas da Tecnologia - FEEDBACKS EFICIENTES"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  date: "25/11"
+  until: "2017-11-25"
+  banner: "upwitdeevas.jpg"
+  tags: [venus, universal-access]
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+  rsvp_url: "https://www.sympla.com.br/feedbacks-eficientes-comunicacao-assertiva-e-nao-violenta-para-o-crescimento-profissional-de-todas__212857"
 
 - title: "Programaria Summit"
   location: "São Paulo - SP"
@@ -878,18 +934,34 @@
 
 # DEZEMBRO
 
-- title: "Bate-papo sobre CSS Grid Layout com o Maujor – Just4Girls!"
+- title: "Just4Girls! - Bate-papo sobre CSS Grid Layout com o Maujor"
   location: "São Paulo - SP"
   free: true
   inclusive: true
   date: "02/12"
   until: "2017-12-02"
   banner: "novatec.jpg"
-  tags: [venus, cc,]
+  tags: [venus, cc]
   twitter: "novateceditora"
   facebook: "ctnovatec"
   main_url: "http://www.novatec.com.br/"
   rsvp_url: "http://ctnovatec.com.br/bate-papo-css-grid-layout-maujor/"
+
+- title: "Oficina das amigas"
+  location: "São Paulo - SP"
+  free: true
+  women: true
+  inclusive: true
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "minas-programam.png"
+  tags: [venus,cc]
+  hashtag: "minasprogramam"
+  twitter: "minasprogramam"
+  facebook: "minasprogramam"
+  instagram: "minasprogramam"
+  main_url: "http://minasprogramam.com/"
+  rsvp_url: "http://arianecor.net/oficinadasamigas/"
 
 - title: "Workshop de Design Thinking com Silvio Acher"
   category: "Workshop"
