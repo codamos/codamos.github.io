@@ -714,6 +714,22 @@
   main_url: "https://shestech.org/"
   rsvp_url: "https://shestech.org/shestech-week/"
 
+- title: "#NATALNERD"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  free: true
+  date: "21/11"
+  until: "2017-11-21"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  facebook: "natalnerdbrasil"
+  meetup: "nerdzao"
+  twitter: "onerdzao"
+  instagram: "_nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Nerdzao/events/244949451/"
+
 - title: "Azure Open Dev"
   location: "São Paulo - SP"
   free: true
