@@ -1011,6 +1011,17 @@
   main_url: "http://insiter.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/insiter-porto-alegre-tickets-38661656054?ref=elink"
 
+- title: "Pixel show"
+  location: "São Paulo - SP"
+  category: "Workshop"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "codamos.png"
+  twitter: "pixelshow"
+  facebook: "pixelshow"
+  main_url: "http://pixelshow.com.br/"
+  rsvp_url: "http://pixelshow.com.br/portfolio/workshop-de-arte-x-design-com-fernando-degrossi/"
+
 - title: "CODEPEN MEETUP BRASIL #2"
   women: true
   free: true
