@@ -1080,6 +1080,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   women: true
+  free: true
   tags: [venus]
   date: "03/12"
   until: "2017-12-03"
