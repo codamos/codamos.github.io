@@ -1282,6 +1282,22 @@
   main_url: "http://campuse.ro/"
   rsvp_url: "http://campuse.ro/events/campus-party-brasil-2018/"
 
+- title: "Programa ELAS"
+  location: "São Paulo - SP"
+  category: "workshop"
+  women: true
+  tags: [venus]
+  date: "24/02"
+  until: "2018-02-25"
+  banner: "codamos.png"
+  twitter: "upwit_workshop"
+  facebook: "UPWIT"
+  instagram: "upwit_workshop"
+  youtube: "channel/UCGvpKVpCWg00ZU3I6ZOp4kg"
+  medium: "@upwit"
+  main_url: "http://programaelas.com.br/"
+  rsvp_url: "http://programaelas.com.br/"
+
 - title: "APICON 2018"
   location: "São Paulo - SP"
   date: "23/03"
@@ -1292,6 +1308,39 @@
   facebook: "apicnt"
   main_url: "http://www.apiconnect.com.br/apicon/"
   rsvp_url: "https://www.eventbrite.com.br/e/apicon-2018-tickets-35768511581"
+
+- title: "Programa ELAS"
+  location: "São Paulo - SP"
+  category: "workshop"
+  women: true
+  tags: [venus]
+  date: "24/03"
+  until: "2018-03-25"
+  banner: "codamos.png"
+  twitter: "upwit_workshop"
+  facebook: "UPWIT"
+  instagram: "upwit_workshop"
+  youtube: "channel/UCGvpKVpCWg00ZU3I6ZOp4kg"
+  medium: "@upwit"
+  main_url: "http://programaelas.com.br/"
+  rsvp_url: "http://programaelas.com.br/"
+
+- title: "Programa ELAS"
+  location: "São Paulo - SP"
+  category: "workshop"
+  women: true
+  tags: [venus]
+  date: "14/04"
+  until: "2018-04-15"
+  banner: "codamos.png"
+  twitter: "upwit_workshop"
+  facebook: "UPWIT"
+  instagram: "upwit_workshop"
+  youtube: "channel/UCGvpKVpCWg00ZU3I6ZOp4kg"
+  medium: "@upwit"
+  main_url: "http://programaelas.com.br/"
+  rsvp_url: "http://programaelas.com.br/"
+
 
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
