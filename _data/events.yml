@@ -1136,6 +1136,21 @@
   main_url: "http://infopreta.com.br"
   rsvp_url: "https://www.facebook.com/events/184496425445836/"
 
+- title: "Happy Hour do TC"
+  free: true
+  inclusive: true
+  location: "Porto Alegre - RS"
+  date: "15/12"
+  until: "2017-12-15"
+  banner: "trainingcenter.jpg"
+  tags: [venus, cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/Training-Center-RS/events/245116390/?a=socialmedia"
+
 - title: "Lab Reparo"
   location: "São Paulo - SP"
   free: true
