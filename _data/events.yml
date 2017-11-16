@@ -714,6 +714,22 @@
   main_url: "https://shestech.org/"
   rsvp_url: "https://shestech.org/shestech-week/"
 
+- title: "Azure Open Dev"
+  location: "São Paulo - SP"
+  free: true
+  women: true
+  date: "21/11"
+  until: "2017-11-21"
+  banner: "codamos.png"
+  tags: [venus, cc]
+  twitter: "microsoftbr"
+  facebook: "MSFTBrasil"
+  instagram: "microsoftbr/"
+  linkedin: "company/1035/"
+  youtube: "MicrosoftBrasil"
+  main_url: "https://www.microsoft.com/pt-br/"
+  rsvp_url: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2804287abcd&"
+
 - title: "O Mundo Mágido do Firebase"
   location: "Porto Alegre - RS"
   free: true
