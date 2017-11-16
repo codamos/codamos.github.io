@@ -1106,6 +1106,22 @@
   main_url: "http://python.mulheres.eti.br"
   rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
 
+  - title: "Oficina Construindo Sites"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  inclusive: true
+  free: true
+  lgbt: true
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "programaria-summit.png"
+  tags: [venus,cc]
+  hashtag: "programariaSummit"
+  twitter: "programaria"
+  facebook: "programaria"
+  main_url: "https://www.programaria.org/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScQTC962SSxPHG3J0o_OfZvJrBIVIhDgxHYycMzHp59b5WzLQ/viewform"
+
 - title: "DevFest XP 2017"
   women: true
   location: "Recife - PE"
