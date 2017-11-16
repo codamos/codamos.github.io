@@ -1,0 +1,169 @@
+# Palestrantes.
+
+# name:      texto, obrigatório.
+# full_name: texto, opcional.
+# email:     texto, opcional.
+# location:  texto, obrigatório.
+# lgbt:      texto, opcional.
+# codamos:   texto, obrigatório.
+# avatar:    arquivo na pasta `images/fotos`, obrigatório.
+# labels:    lista de classes de ícones do font awesome, opcional.
+# skills:    lista de textos sem espaços, opcional.
+# email:     email, opcional.
+# site:      URL, opcional.
+# linkedin:  texto sem espaços, opcional. LinkedIn handle.
+# github:    texto sem espaços, opcional. Github handle.
+# twitter:   texto sem espaços, opcional. Twitter handle.
+# facebook:  texto sem espaços, opcional. Facebook handle.
+# instagram: texto sem espaços, opcional. Instagram handle.
+# highlight: booleano (true ou false), opcional. Destaque na home.
+
+- name: "Alda Rocha"
+  codamos: true
+  full_name: "Alda Rocha"
+  email: "mj.coffeeholick@gmail.com"
+  avatar: "alda-rocha.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, child]
+  skills: [UXD, UX Research, Métricas, Teste A/B, Flexbox e CSS Grid, Front-end, Diversidade e Inclusão]
+  bio: >
+    Consultora sênior UX/UX Researcher e instrutora de UXD, HTML e CSS atualmente trabalhando no SENAI.
+    Web desenvolvedora, front-end, formada em arquitetura da informação, engajada nas causas femininas,
+    tecnológicas e Já palestrou em vários eventos de tecnologia. Astrônoma amadora pela USP.
+    Faz parte do comitê do manifesto #DiversidadeTech.
+  site: "https://mjcoffeeholick.github.io/"
+  twitter: "mjcoffeeholick"
+  linkedin: "mjcoffeeholick"
+  facebook: "mjcoffeholick"
+  instagram: "mjcoffeeholick"
+  github: "mjcoffeeholick"
+
+- name: "Camila Belo"
+  codamos: true
+  full_name: "Camila Belo"
+  email: "camilaibs@gmail.com"
+  avatar: "camila-belo.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [Front-end, Back-end, Vue.js, Git,]
+  bio: >
+    Desenvolvedora Front-end na Lendico Brasil, graduada em Análise e Desenvolvimento de Sistema pela Fatec ZL
+    e está iniciando mestrado em sistemas aplicado para Medicina na FMUSP. Instrutora de web desenvolvimento no SENAI no projeto #CODExp.
+  twitter: "camilaibs"
+  linkedin: "camila-inácio-belo-da-silva-13486316"
+  facebook: "camilaibs"
+  github: "camilaibs"
+
+- name: "Cybelle O."
+  codamos: true
+  full_name: "Cybelle O."
+  email: "cyb3ll3@protonmail.com"
+  avatar: "cybelle-oliveira.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, child]
+  skills: [Front-end, Privacidade e Segurança, CDC, Eventos, Produção]
+  bio: >
+    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac.
+    Produtora de eventos e consultora no Codamos Club, contribuidora da Mozilla, co-fundadora do JSLadies.
+    WebDev iniciante, entusiasta de privacidade e segurança, curiosa sobre história da tecnologia, feminista, tatuada e vegetariana.
+  twitter: "cyb3113"
+  linkedin: "cybelleoliveira"
+  github: "cyb3113"
+
+- name: "João Britto"
+  codamos: true
+  full_name: "João Britto"
+  avatar: "joao-britto.png"
+  location: "São Paulo - SP"
+  labels: [mars]
+  skills: [Elixir, Rails, Git, Back-end, Performance]
+  bio: >
+    B+, T1D e tipicamente INTP. Programador por ofício e tesão.
+    Lava, passa e cozinha com devoção. Segregado por falta de noção.
+    Canhoto do pé e destro da mão.
+  twitter: "noteu"
+  github: "britto"
+
+- name: "Miguel Soares"
+  codamos: true
+  full_name: "Miguel Soares"
+  email: "oieusouamiguel@gmail.com"
+  avatar: "miguel-soares.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, transgender-alt]
+  skills: [Desenvolvimento, Front-end, Games]
+  bio: >
+    Sou Dev Front-end e estou me especializando em desenvolvimento de Games.
+    Tenho 18 anos e sou uma pessoa trans não-binária.
+    Trabalho atualmente dando aula para as instituições parceiras da ONG #Recode.
+    Sou voluntária como monitora no #minasprogramam e mentora no #TrainingCenter.
+  twitter: "oieusouamiguel"
+  linkedin: "migueldenegocios"
+  facebook: "oieusouamiguel"
+  github: "oieusouamiguel"
+
+- name: "Vanessa Nonato"
+  codamos: true
+  full_name: "Vanessa Nonato"
+  email: "nonatovg@outlook.com"
+  avatar: "vanessa-nonato.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [UXD, Design, CNV,]
+  bio: >
+    Bacharel em Design pela UFPE, atualmente estudo Experiência do Usuário (UXD).
+    Entusiasta em Neurociência e CNV (Comunicação não violenta).
+  twitter: "vanNonato"
+  linkedin: "vanessa-nonato"
+  facebook: "vgaldinov"
+
+- name: "Ingrid Marion Caparroz Mazoni"
+  codamos: true
+  full_name: "Ingrid Mazoni"
+  email: "ingridmazoni@outlook.com"
+  avatar: "ingrid.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [Desenvolvimento, Back-end, Java]
+  bio: >
+    Técnico em informática na Etec e superior de Análise e
+    Desenvolvimento de Sistemas na Fatec. Desenvolvi um projeto
+    de um sistema web em java para auxiliar os estudos de candidatos que querem prestar o vestibular da Fatec.
+    Esse projeto teve muito sucesso e será adaptado para outros tipos de provas como o Enade.
+  twitter: "ingridmazoni"
+  facebook: "ingridmazoni"
+  github: "ingridmazoni"
+  linkedin: "ingridmazoni"
+
+- name: "Cynthia Pereira"
+  codamos: true
+  full_name: "Cynthia Pereira"
+  email: "cynthiacpereira@gmail.com"
+  avatar: "cynthia.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, hand-rock-o]
+  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
+  bio: >
+    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
+    #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
+  linkedin: "cynthiacpereira"
+  twitter: "cynthiapereira_"
+  facebook: "cybelle.oliveira"
+  github: "cynthiapereira"
+
+- name: "Cleo Rocha Castanho "
+  codamos: true
+  full_name: "Cleo Rocha Castanho "
+  email: "cleo.rochacastanho@gmail.com"
+  avatar: "cleo-rocha.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [Desenvolvimento, Games, HTML, CSS, Javascript, C#, Mobile]
+  bio: >
+    Tenho 19 anos e estou no primeiro ano da faculdade de desenvolvimento de Jogos Digitas na FIAP.
+    Sou muito interessada nas áreas de programação, matemática, séries e video-game.
+    Meu jogo, Focus, Archer!, recebeu o prêmio #Next avaliado pela #Split.
+  instagram: "cleo_castanho"
+  facebook: "cleo.rochacastanho"
+  linkedin: "cleo-rocha-castanho-92890a145"
+  github: "cleorocha"

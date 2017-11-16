@@ -2,20 +2,22 @@
 layout: default
 ---
 <!-- BANNER -->
-<section id="banner" class="banner-palestrantes">
-  <h2 class="page-section-title">ReactConf busca palestrantes!</h2>
 
-  <p class="page-section-text">
-    Mais um Call4papers aberto que busca por diversidade e mais espaço para mulheres. Vamos perder
-    o medo do palco? ReactConf acontecerá 17 de outubro em São Paulo.
-  </p>
+<section id="banner" class="banner-eventos">
+  <div class="banner-content">
+    <h2 class="page-banner-title">Arena BlackRocks</h2>
 
-  <a class="button-banner" href="http://reactconfbr.com.br/" target="_blank">Saiba mais</a>
+    <p class="page-section-text">
+      10 horas de conteúdo mais representativa que você já participou!
+    </p>
+
+    <a class="button-banner" href="http://www.arenablackrocks.com.br/" rel="noopener" target="_blank">Saiba mais</a>
+  </div>
 </section>
 
 <!-- PALESTRANTES -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">Sobre palestrantes</h1>
+<section class="page-section">
+  <h1 class="page-section-title">Sobre palestrantes</h1>
 
   <p class="page-section-text">
     Nossa plataforma está em constante crescimento para que cada vez mais possamos ter diversidade,
@@ -30,16 +32,14 @@ layout: default
     </li>
     {% endfor %}
     <li class="speakers-section-label lgbt-label">
-      <img src="images/lgbt.png" alt="LGBTQI+"> LGBTQI+
+      <img src="images/lgbt-ico.png" alt="LGBTQI+"> LGBTQI+
     </li>
   </ul>
 </section>
 
-{% include add_speaker.html %}
-
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% include speakers.html speakers=site.data.speakers %}
@@ -47,4 +47,13 @@ layout: default
   </div>
 </section>
 
-{% include code_of_conduct.html %}
+<!-- INCLUIR PALESTRANTE -->
+<section id="include-speaker" class="page-section-blue">
+  <h2 class="include-speaker-title">Inclua um Palestrante!</h2>
+
+  <p class="include-speaker-call">
+    Seja você também um palestrante!
+  </p>
+
+  <a class="button-default-outline" href="/sou-palestrante" target="_blank">Cadastro</a>
+</section>

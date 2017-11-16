@@ -1,0 +1,128 @@
+# Podcast atuais.
+
+# title:       texto, obrigatório. Nome do evento.
+# free:        booleano (true ou false), opcional. Evento gratuito.
+# inclusive:   booleano (true ou false), opcional. Evento inclusivo.
+# category:    texto sem espaços, opcional. ex. Tempo em média de duraçnao dos eps.
+# women:       booleano (true ou false), opcional. Tem mulheres no comando dos eps.
+# lgbt:        booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# convidados:  booleano (true ou false), opcional. Tem pessoas convidadas nos ep.
+# tech:        booleano (true ou false), opcional. Evento no formato hackathon.
+# opensource:  booleano (true ou false), opcional. É um evento para a comunidade Open source.
+# location:    texto, obrigatório.
+# date:        texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
+# banner:      arquivo na pasta `images/eventos`, opcional.
+# group:       arquivo na pasta `images/grupo`, opcional.
+# tags:        lista de classes de ícones do font awesome, opcional.
+# hashtag:     texto sem espaços, opcional. Hashtag oficial do twitter.
+# twitter:     texto sem espaços, opcional. Twitter handle.
+# facebook:    texto sem espaços, opcional. Facebook handle.
+# instagram:   texto sem espaços, opcional. Instagram handle.
+# linkedin:    texto sem espaços, opcional. LinkedIn handle.
+# meetup:      texto sem espaços, opcional. Id do grupo no Meetup.
+# medium:      texto sem espaços, opcional. User do grupo no Medium.
+# youtube:     texto sem espaços, opcional. Youtube handle.
+# itunes:      texto sem espaços, opcional. itunes handle.
+# soundcloud:  texto sem espaços, opcional. Soundcloud handle.
+# rss:         texto sem espaços, opcional. RSS url.
+# android:     texto sem espaços, opcional. Android handle.
+# main_url:    URL, obrigatório. Site do evento.
+# rsvp_url:    URL, obrigatório. Site para inscrição no evento.
+# highlight:   booleano (true ou false), opcional. Destaque na home.
+
+# DEZEMBRO
+
+- title: "Lambda3"
+  inclusive: true
+  convidados: true
+  location: "São Paulo - SP"
+  date: "Semanal"
+  banner: "lambda3.png"
+  tags: [venus, cc]
+  category: "+ 60 minutos"
+  hashtag: "PodcastFriday"
+  twitter: "lambdatres"
+  facebook: "Lambda3BR"
+  linkedin: "lambda3"
+  soundcloud: "lambdatres"
+  android: "https://subscribeonandroid.com/www.lambda3.com.br/feed/podcast/"
+  rss: "https://www.lambda3.com.br/feed/podcast/"
+  main_url: "https://www.lambda3.com.br/"
+  rsvp_url: "https://www.lambda3.com.br/lambda3-podcast/"
+
+- title: "Pod Programar"
+  women: true
+  convidados: true
+  inclusive: true
+  location: "Belo Horizonte - MG"
+  date: "Quinzenal"
+  banner: "podprogramar.png"
+  tags: [venus, cc]
+  category: "- 40 minutos"
+  hashtag: "PodProgramar"
+  twitter: "PodProgramar"
+  facebook: "PodProgramar"
+  itunes: "br/podcast/mundo-podcast/"
+  android: "https://subscribeonandroid.com/mundopodcast.com.br/feed/podcast/"
+  rss: "https://mundopodcast.com.br/feed/"
+  main_url: "https://mundopodcast.com.br/podprogramar/"
+  rsvp_url: "https://mundopodcast.com.br/podprogramar/"
+
+- title: "Dev na estrada"
+  convidados: true
+  location: "São Paulo - SP"
+  date: "Semanal"
+  banner: "dev-na-estrada.png"
+  tags: [venus, cc]
+  category: "+ 60 minutos"
+  hashtag: "DNE"
+  twitter: "devnaestrada"
+  facebook: "devnaestrada"
+  rss: "http://devnaestrada.com.br/feed.xml"
+  itunes: "br/podcast/devnaestrada/"
+  main_url: "http://devnaestrada.com.br/"
+  rsvp_url: "http://devnaestrada.com.br/"
+
+- title: "Hipsters.Tech"
+  convidados: true
+  location: "São Paulo - SP"
+  date: "Semanal"
+  banner: "hipsterstech.jpg"
+  tags: [cc]
+  category: "60 minutos"
+  hashtag: "hipsterspontotech"
+  twitter: "AluraOnline"
+  facebook: "groups/hipsterspontotech"
+  itunes: "bhttps://hipsters.tech/assinando-o-podcast-no-ios/"
+  android: "https://hipsters.tech/assinando-o-podcast-no-android/"
+  rss: "http://hipsters.tech/feed/podcast/"
+  main_url: "https://hipsters.tech/"
+  rsvp_url: "https://hipsters.tech/"
+
+- title: "Tecnocast"
+  location: "São Paulo - SP"
+  date: "Semanal"
+  banner: "tecnocast.png"
+  category: "60 minutos"
+  hashtag: "Tecnocast"
+  twitter: "tecnoblog"
+  facebook: "Tecnoblog"
+  soundcloud: "https://soundcloud.com/tecnoblog"
+  itunes: "itpc://tecnoblog.net/feed/podcast/"
+  rss: "https://tecnoblog.net/feed/podcast/"
+  main_url: "https://tecnoblog.net/"
+  rsvp_url: "https://tecnoblog.net/categoria/podcast/"
+
+
+- title: "FIAP Café"
+  location: "São Paulo - SP"
+  date: "Histórico"
+  banner: "fiap.png"
+  tags: [cc]
+  category: "- 10 minutos"
+  hashtag: "fiapcafe"
+  twitter: "fiap"
+  facebook: "fiap"
+  itunes: "https://itunes.apple.com/br/podcast/fiap-cafe/id466766842?l=en&mt=2"
+  main_url: "https://www.fiap.com.br/"
+  rsvp_url: "https://www.fiap.com.br/FIAPx/podcast"

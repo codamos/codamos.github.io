@@ -6,20 +6,24 @@
     <title>Codamos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="O Codamos une eventos com inclusão, diversidade, palestrantes, informações de workshops, cursos e oportunidades de networking em TI para todos em todo o Brasil.">
+    <meta name="twitter:site" content="@CodamosClub">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="fb:app_id" content="153860871889386">
+    <meta property="og:image" content="http://www.codamos.club/images/imagem-redes-codamos.png">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="css/font-awesome.css" rel="stylesheet">
 
-    <!-- ANALYTICS -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto:300,400,700">
 
-      ga('create', 'UA-101942144-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <script src="https://use.fontawesome.com/3e3109a2ea.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="https://use.fontawesome.com/3e3109a2ea.css" media="all">
+    </noscript>
+
+    {% include analytics.html %}
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver|gated" defer></script>
   </head>
   <body>
     <!-- CABECALHO -->
@@ -30,30 +34,31 @@
         <nav class="header-navbar-menu">
           <ul>
             <li><a href="/eventos">Eventos</a></li>
+            <li><a href="/podcast">Podcast</a></li>
             <li><a href="/palestrantes">Palestrantes</a></li>
             <li><a href="/quem-somos">Quem somos</a></li>
-            <li><a href="/codigo-de-conduta-codamos.pdf" target="_blank">Código de Conduta</a></li>
+            <li><a href="/codigo-de-conduta">Código de Conduta</a></li>
           </ul>
         </nav>
 
         <ul class="header-social-media">
           <li>
-            <a href="https://twitter.com/CodamosClub" target="_blank" title="Twitter">
+            <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank" title="Twitter">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/codamosclub" target="_blank" title="Facebook">
+            <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank" title="Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank" title="Meetup">
+            <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank" title="Meetup">
               <i class="fa fa-meetup" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://medium.com/codamos" target="_blank" title="Medium">
+            <a href="https://medium.com/codamos" rel="noopener" target="_blank" title="Medium">
               <i class="fa fa-medium" aria-hidden="true"></i>
             </a>
           </li>
@@ -67,29 +72,30 @@
 
           <ul class="submenu-hamburger">
             <li><a href="/eventos">Eventos</a></li>
+            <li><a href="/podcast">Podcast</a></li>
             <li><a href="/palestrantes">Palestrantes</a></li>
             <li><a href="/quem-somos">Quem somos</a></li>
-            <li><a href="/codigo-de-conduta-codamos.pdf" target="_blank">Código de conduta</a></li>
+            <li><a href="/codigo-de-conduta">Código de conduta</a></li>
             <li><a href="/parceiros">Parceiros</a></li>
             <li>
               <ul class="submenu-hamburger-social-media">
                 <li>
-                  <a href="https://twitter.com/CodamosClub" target="_blank">
+                  <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/codamosclub" target="_blank">
+                  <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank">
+                  <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank">
                     <i class="fa fa-meetup" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://medium.com/codamos" target="_blank">
+                  <a href="https://medium.com/codamos" rel="noopener" target="_blank">
                     <i class="fa fa-medium" aria-hidden="true"></i>
                   </a>
                 </li>
@@ -104,82 +110,105 @@
 
     <!-- PARCEIROS E APOIADORES -->
     <section id="partners-supporters" class="page-section-white">
-      <div class="partners-supporters-box">
-        <div class="partners-supporters-form">
-          <div class="partners-supporters-form-text">
-              <h2>
-              "
-              A inclusão precisa acontecer.
-              A tecnologia não tem sexo, nem cor, nem idade ou é exclusiva de um grupo.
-              A tecnologia é para TODOS!
-              "
-            </h2>
-          </div>
 
-          <div class="partners-supporters-form-wannabe">
+      <div class="partners-supporters-box" data-background="images/bg-parceiros.jpg">
+        <div class="partners-supporters-wannabe">
             <h3>Seja um parceiro e apoie a diversidade</h3>
             <h4>Preencha o formulário que entramos em contato:</h4>
             <a class="button-partners" href="/parceiros" target="_blank">Seja nosso parceiro</a>
-          </div>
         </div>
       </div>
 
-      <h2 class="page-section-subtitle">Parceiros e Apoiadores</h2>
+      <div>
+        <h2 class="page-section-subtitle-alt">Apoiadores</h2>
 
-      <ul class="partners-supporters-links">
-        {% for partner in site.data.partners %}
-          <li>
-            <a href="{{ partner.main_url }}" target="_blank">
-              <img src="images/parceiros/{{ partner.logo }}" alt="{{ partner.name }}"/>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+        <ul class="partners-supporters-links">
+          {% for supporter in site.data.supporters %}
+            <li>
+              <a href="{{ supporter.main_url }}" rel="noopener" target="_blank">
+                <img data-src="images/apoiadores/{{ supporter.logo }}" alt="{{ supporter.name }}"/>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <h2 class="page-section-subtitle-alt">Parceiros</h2>
+
+        <ul class="partners-supporters-links">
+          {% for partner in site.data.partners %}
+            <li>
+              <a href="{{ partner.main_url }}" rel="noopener" target="_blank">
+                <img data-src="images/parceiros/{{ partner.logo }}" alt="{{ partner.name }}"/>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        {% if site.data.sponsors %}
+        <h2 class="page-section-subtitle-alt">Patrocinadores</h2>
+
+        <ul class="partners-supporters-links">
+          {% for sponsor in site.data.sponsors %}
+            <li>
+              <a href="{{ sponsor.main_url }}" rel="noopener" target="_blank">
+                <img data-src="images/patrocinadores/{{ sponsor.logo }}" alt="{{ sponsor.name }}"/>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+      </div>
+
     </section>
 
     <!-- FOOTER -->
     <footer id="footer" class="page-section-black-four">
-      <div class="footer-first">
-        <nav class="footer-second">
-          <ul class="footer-menu">
-            <li><img class="footer-logo" src="images/footer.png" alt="Icone Codamos"/></li>
-            <li><a href="/eventos">Eventos</a></li>
-            <li><a href="/palestrantes">Palestrantes</a></li>
-            <li><a href="/quem-somos">Quem somos</a></li>
-            <li><a href="/codigo-de-conduta-codamos.pdf" target="_blank">Código de conduta</a></li>
-            <li><a href="/parceiros">Parceiros</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer-third">
-        <nav class="footer-social-nav">
-          <div class="footer-social-links">
-            <p>Codamos <span class="copyleft">&copy;</span> 2017</p>
-          </div>
-          <ul class="footer-social-media">
-            <li>
-              <a href="https://twitter.com/CodamosClub" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/codamosclub" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://www.meetup.com/pt-BR/Codamos-Club/" target="_blank" title="Meetup"><i class="fa fa-meetup" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://medium.com/codamos" target="_blank" title="Medium"><i class="fa fa-medium" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer-fourth">
-        <p class="footer-text">
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.
+      <nav class="footer-box footer-menu">
+        <a href="/eventos">Eventos</a>
+        <a href="/podcast">Podcast</a>
+        <a href="/palestrantes">Palestrantes</a>
+        <a href="/quem-somos">Quem somos</a>
+        <a href="/parceiros">Parceiros</a>
+        <a href="/codigo-de-conduta">Código de conduta</a>
+      </nav>
+
+      <nav class="footer-box footer-social">
+        <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank" title="Twitter">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank" title="Facebook">
+          <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="footer-logo">
+          <img src="images/footer.png" alt="Ícone Codamos"/>
+        </a>
+        <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank" title="Meetup">
+          <i class="fa fa-meetup fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://medium.com/codamos" rel="noopener" target="_blank" title="Medium">
+          <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
+        </a>
+      </nav>
+
+      <div class="footer-box footer-creativecommons">
+        <p class="footer-creativecommons-text">
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <img alt="Licença Creative Commons" src="//licensebuttons.net/l/by/4.0/88x31.png" />
+          </a>
         </p>
-        <p class="footer-text">
-          O Codamos é uma iniciativa sem fins lucrativos para fomentar a inclusão e a diversidade na tecnologia, ciência e educação.
+
+        <p class="footer-creativecommons-text">
+          Esta obra está licenciada com uma Licença
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional</a>.
+        </p>
+
+        <p class="footer-creativecommons-text">
+          Codamos <span class="copyleft">&copy;</span> 2017 - O Codamos é uma iniciativa sem fins lucrativos para fomentar a inclusão e a diversidade na tecnologia, ciência e educação.
         </p>
       </div>
     </footer>
+
+    <script src="js/lazy-load.js" defer></script>
   </body>
 </html>

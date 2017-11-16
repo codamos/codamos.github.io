@@ -3,19 +3,20 @@ layout: default
 ---
 <!-- BANNER -->
 <section id="banner" class="banner-index">
-  <h2 class="page-section-title">Conferência WebBr 2017: inclusão e acessibilidade.</h2>
+  <div class="banner-content">
+    <h2 class="page-banner-title">Rubyconf 2017</h2>
 
-  <p class="page-section-text">
-    A Conferência WebBr 2017 acontecerá dias 24 e 25 de outubro em São Paulo.
-    Este é um evento da W3C com foco em inclusão e acessibilidade.
-  </p>
+    <p class="page-section-text">
+      A Rubyconf vai ter uma área gratuita de workshop aberta pra todo o público. Use o codigo PRC_CODAMOS e tenha 30% de desconto para as outras áreas do evento.
+    </p>
 
-  <a class="button-banner" href="http://conferenciaweb.w3c.br/" target="_blank">Faça sua inscrição</a>
+    <a class="button-banner" href="http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/" rel="noopener" target="_blank">Faça sua inscrição</a>
+  </div>
 </section>
 
 <!-- EVENTOS TOPO -->
-<section id="events-top" class="page-section">
-  <h1 class="page-section-subtitle">Onde estão os eventos de tecnologia?</h1>
+<section class="page-section">
+  <h1 class="page-section-title">Onde estão os eventos de tecnologia?</h1>
 
   <p class="page-section-text">
     Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde
@@ -26,7 +27,7 @@ layout: default
   </p>
 
   <p class="page-section-text">
-    Essa é a razão pela qual criamos o Codamos.
+    <a href="/quem-somos">Essa é a razão pela qual criamos o Codamos.</a>
   </p>
 
   <p class="page-section-text">
@@ -42,8 +43,8 @@ layout: default
 </section>
 
 <!-- EVENTOS -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">Eventos em destaque</h1>
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.data.events | where:"highlight",true %}
@@ -53,12 +54,10 @@ layout: default
   <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
 </section>
 
-{% include code_of_conduct.html %}
-
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}
@@ -68,3 +67,5 @@ layout: default
     <a class="button-primary-outline" href="/palestrantes">Veja todos os palestrantes</a>
   </div>
 </section>
+
+{% include code_of_conduct.html %}

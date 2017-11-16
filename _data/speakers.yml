@@ -5,6 +5,7 @@
 # email:     texto, opcional.
 # location:  texto, obrigatório.
 # lgbt:      texto, opcional.
+# speaker:   texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
 # labels:    lista de classes de ícones do font awesome, opcional.
 # skills:    lista de textos sem espaços, opcional.
@@ -18,6 +19,7 @@
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
 - name: "Jeliel Mendes"
+  speaker: true
   highlight: true
   full_name: "Evelyn Jeliel Mendes"
   email: "jelielmendes@gmail.com"
@@ -33,6 +35,7 @@
   twitter: "jelielmendes"
 
 - name: "Geisy Domiciano"
+  speaker: true
   highlight: true
   email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
@@ -48,6 +51,7 @@
   github: "gdomiciano"
 
 - name: "Thaís Freitas"
+  speaker: true
   email: "thaisfreitas31@gmail.com"
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
@@ -62,6 +66,7 @@
   twitter: "tha_ta"
 
 - name: "Tatiana Barros"
+  speaker: true
   email: "sagapolen@gmail.com"
   avatar: "tatiana-barros.jpg"
   location: "São Paulo - SP"
@@ -75,6 +80,7 @@
   twitter: "umataldetatiana"
 
 - name: "Ivanise Gomes"
+  speaker: true
   full_name: "Ivanise Maravalhas Gomes"
   email: "ivanise@gmail.com"
   avatar: "ivanise-gomes.jpg"
@@ -88,6 +94,7 @@
   linkedin: "ivanise"
 
 - name: "Paullo Norato"
+  speaker: true
   email: "norato.ux@gmail.com"
   avatar: "paullo-norato.jpg"
   location: "São Paulo - SP"
@@ -99,6 +106,7 @@
   facebook: "paullonorato23"
 
 - name: "Cleber Santos"
+  speaker: true
   full_name: "Cleber J. Santos"
   email: "cleber@cleberjsantos.com.br"
   avatar: "cleber-santos.jpg"
@@ -112,6 +120,7 @@
   github: "cleberjsantos"
 
 - name: "Felipe de Morais"
+  speaker: true
   email: "felipejpa15@gmail.com"
   avatar: "felipe-morais.jpg"
   location: "Porto Alegre - RS"
@@ -123,6 +132,7 @@
   facebook: "felipedemorais"
 
 - name: "Lucas Macedo"
+  speaker: true
   email: "lucas.hmacedo@hotmail.com"
   avatar: "lucas-macedo.jpg"
   location: "São Paulo - SP"
@@ -133,6 +143,7 @@
   linkedin: "lucashmacedo"
 
 - name: "Rogério Rodrigues"
+  speaker: true
   highlight: true
   email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
@@ -145,6 +156,7 @@
   twitter: "rogerrrodrigues"
 
 - name: "Dan Jesus"
+  speaker: true
   email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
   location: "Salvador - BA"
@@ -157,6 +169,7 @@
   facebook: "danper.jesus"
 
 - name: "Keyla Peixoto"
+  speaker: true
   email: "keyla.caroline@gmail.com"
   avatar: "keyla-peixoto.jpg"
   location: "Rio de Janeiro - RJ"
@@ -168,6 +181,7 @@
   facebook: "caroline.peixoto.319"
 
 - name: "Lucas Coelho"
+  speaker: true
   email: "lucas@flama.is"
   avatar: "lucas-coelho.jpg"
   location: "Brasília - DF"

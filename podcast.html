@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<section id="banner" class="banner-podcast">
+  <div class="banner-content">
+    <h2 class="page-banner-title">O manifesto e como apoiar</h2>
+
+    <p class="page-section-text">
+      Participamos do podcast da Lambda3 abordando a importância da diversidade e divulgando o manifesto sobre o tema.
+    </p>
+
+    <a class="button-banner" href="https://www.lambda3.com.br/2017/10/lambda3-podcast-65-manifesto-pela-diversidade-na-tecnologia/" rel="noopener" target="_blank">Ouça o ep.</a>
+  </div>
+</section>
+
+<section class="page-section">
+  <h1 class="page-section-title">Sobre Podcast</h1>
+
+  <p class="page-section-text">
+    Listamos os podcasts que abordam tecnologia e alguns deles são bem inclusivos e citando o tema diversidade ou acessibilidade em TI. Criamos rótulos para facilitar a busca pelos que têm ícones representados
+    nas legendas abaixo:
+  </p>
+
+  <ul class="icon-labels">
+    {% for icon in site.data.podcast_icons %}
+    <li class="events-section-label">
+      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">Podcast que indicamos</h1>
+
+  <ul class="events-cards">
+    {% include podcasts.html podcasts=site.data.podcasts %}
+  </ul>
+</section>
+
+<section id="include-event" class="page-section-purple">
+  <h2 class="include-event-title">Inclua um Podcast!</h2>
+
+  <p class="include-event-call">
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um podcast que fale de tecnologia, diversidade, acessibilidade e/ou inclusão?
+  </p>
+
+  <a class="button-default-outline" href="https://twitter.com/CodamosClub" target="_blank">Mande um tuite com o podcast</a>
+</section>

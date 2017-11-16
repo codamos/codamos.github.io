@@ -1,21 +1,24 @@
 ---
 layout: default
 ---
+{% assign today = site.time | date: "%Y-%m-%d" %}
+
 <!-- BANNER -->
-<section id="banner" class="banner-eventos">
-  <h2 class="page-section-title">Front in Vale busca palestrantes!</h2>
+<section id="banner" class="banner-palestrantes">
+  <div class="banner-content">
+    <h2 class="page-banner-title">Techday na TOTVS</h2>
 
-  <p class="page-section-text">
-    O Front in Vale, que acontecerá 16 de outubro, está com Call4papers aberto e busca preencher o
-    slot de lightning talks com palestrantes femininas/trans, diversidade e acessibilidade.
-  </p>
+    <p class="page-section-text">
+      O evento vai ter uma trilha de diversidade e mais outros temas dentro da São Paulo Tech Week.
+    </p>
 
-  <a class="button-banner" href="http://frontinvale.com.br/" target="_blank">Saiba mais</a>
+    <a class="button-banner" href="http://www.totvstechday.io/" rel="noopener" target="_blank">Saiba mais</a>
+  </div>
 </section>
 
 <!-- EVENTOS -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">Sobre os eventos</h1>
+<section class="page-section">
+  <h1 class="page-section-title">Sobre os eventos</h1>
 
   <p class="page-section-text">
     O Codamos está comprometido a dar destaque a eventos que prezem pela inclusão, diversidade e
@@ -32,23 +35,34 @@ layout: default
   </ul>
 </section>
 
-{% include add_event.html %}
-
 <!-- EVENTOS -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">O que vem pela frente</h1>
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
 
-  <ul class="events-cards events-cards-load-more">
-    {% include events.html events=site.data.events %}
+  <ul class="events-cards">
+    {% assign current_events = site.data.events | where_exp: "e", "e.until >= today" %}
+    {% include events.html events=current_events %}
   </ul>
 </section>
 
-<!-- EVENTOS PASSADOS -->
-<section class="page-section events-section">
-  <h1 class="page-section-subtitle">O que já aconteceu</h1>
+<!-- INCLUIR EVENTO -->
+<section id="include-event" class="page-section-purple">
+  <h2 class="include-event-title">Inclua um Evento!</h2>
 
-  <ul class="events-cards events-cards-load-more events-cards-past">
-    {% include events.html events=site.data.past_events %}
+  <p class="include-event-call">
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um evento com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+  </p>
+
+  <a class="button-default-outline" href="/meu-evento" target="_blank">Incluir Evento</a>
+</section>
+
+<!-- EVENTOS PASSADOS -->
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
+
+  <ul class="events-cards events-cards-past">
+    {% assign past_events = site.data.events | where_exp: "e", "e.until < today" | reverse | slice:0,6 %}
+    {% include events.html events=past_events rsvp=false cfp=false %}
   </ul>
 </section>
 
