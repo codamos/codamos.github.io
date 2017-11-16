@@ -947,6 +947,19 @@
   main_url: "http://reset-lab.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/ux-seo-um-casamento-de-sucesso-tickets-35023157206"
 
+- title: "Primeiros Passos com NodeMCU"
+  category: "workshop"
+  tags: [venus]
+  location: "São Paulo - SP"
+  date: "25/11"
+  until: "2017-11-25"
+  banner: "codamos.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  medium: "nossa-coletividad/latest"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/primeiros-passos-com-nodemcu-tickets-38854951205?aff=efbevent"
+
 - title: "Introdução a lógica de programação para mulheres"
   location: "São Paulo - SP"
   free: true
