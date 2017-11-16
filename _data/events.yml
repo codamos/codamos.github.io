@@ -1076,6 +1076,22 @@
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
   rsvp_url: "http://eventos.zupishop.com/ZA-PS17-estamparia-narrativa-estudio-abelha-turma2-domingo"
 
+- title: "Terceiro encontro UPWIT - Design for All"
+  category: "Workshop"
+  location: "São Paulo - SP"
+  women: true
+  tags: [venus]
+  date: "03/12"
+  until: "2017-12-03"
+  banner: "codamos.png"
+  twitter: "upwit_workshop"
+  facebook: "UPWIT"
+  instagram: "upwit_workshop"
+  youtube: "channel/UCGvpKVpCWg00ZU3I6ZOp4kg"
+  medium: "@upwit"
+  main_url: "http://upwit.org/"
+  rsvp_url: "https://www.facebook.com/events/1617891821849460/"
+
 - title: "1º Meetup React Joinville"
   location: "Joinville - SC"
   date: "05/12"
