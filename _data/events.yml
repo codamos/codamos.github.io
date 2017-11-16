@@ -948,6 +948,19 @@
   main_url: "http://infopreta.com.br"
   rsvp_url: "https://www.facebook.com/events/753342564872799/"
 
+- title: "Mulheres e Java: Introdução, conceito e prática"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  women: true
+  date: "30/11"
+  until: "2017-11-30"
+  banner: "codamos.png"
+  tags: [venus, cc]
+  facebook: "cculturalartemis"
+  main_url: "http://www.artemis.org.br/institucional-1"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSefqZD-RG0FjJgHyEi2bI6p7r7nqfIhVOMJXofKb94CFRzeAg/viewform" 
+
 # DEZEMBRO
 
 - title: "Just4Girls! - Bate-papo sobre CSS Grid Layout com o Maujor"
