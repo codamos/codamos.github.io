@@ -1106,7 +1106,7 @@
   main_url: "http://python.mulheres.eti.br"
   rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
 
-  - title: "Oficina Construindo Sites"
+- title: "Oficina Construindo Sites"
   category: "Workshop"
   location: "São Paulo - SP"
   inclusive: true
