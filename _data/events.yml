@@ -988,7 +988,7 @@
   tags: [venus, cc]
   facebook: "cculturalartemis"
   main_url: "http://www.artemis.org.br/institucional-1"
-  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSefqZD-RG0FjJgHyEi2bI6p7r7nqfIhVOMJXofKb94CFRzeAg/viewform" 
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSefqZD-RG0FjJgHyEi2bI6p7r7nqfIhVOMJXofKb94CFRzeAg/viewform"
 
 # DEZEMBRO
 
@@ -1044,7 +1044,6 @@
   rsvp_url: "https://www.sympla.com.br/front-in-floripa-2017__200654"
 
 - title: "Wordcamp SP"
-  cfp: true
   location: "São Paulo - SP"
   date: "02/12"
   until: "2017-12-02"
@@ -1147,6 +1146,19 @@
   instagram: "infopreta"
   main_url: "http://infopreta.com.br"
   rsvp_url: "https://www.facebook.com/events/295621144268440/"
+
+- title: "Javascript: Design Patterns - 3ª edição"
+  location: "São Paulo - SP"
+  date: "07/12"
+  until: "2017-12-07"
+  banner: "java-script-coletividad.png"
+  tags: [venus, universal-access]
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  instagram: "coletividad"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/javascript-design-patterns-3a-edicao-tickets-39728107840"
 
 - title: "Ladies that UX Talks"
   women: true
@@ -1253,6 +1265,21 @@
   main_url: "https://trainingcenter.io/"
   rsvp_url: "https://www.meetup.com/Training-Center-RS/events/245116390/?a=socialmedia"
 
+- title: "front in poa"
+  free: true
+  inclusive: true
+  women: true
+  location: "Porto Alegre - RS"
+  date: "16/12"
+  until: "2017-12-16"
+  banner: "front-in-poa.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "frontinpoa2017"
+  twitter: "frontinpoa"
+  facebook: "frontinpoa"
+  main_url: "https://frontin.poa.br/2017/"
+  rsvp_url: "https://eventloop.com.br/frontinpoa-2017"
+
 - title: "Lab Reparo"
   location: "São Paulo - SP"
   free: true
@@ -1318,7 +1345,7 @@
   tags: [venus]
   date: "24/02"
   until: "2018-02-25"
-  banner: "codamos.png"
+  banner: "elas.png"
   twitter: "upwit_workshop"
   facebook: "UPWIT"
   instagram: "upwit_workshop"
@@ -1345,7 +1372,7 @@
   tags: [venus]
   date: "24/03"
   until: "2018-03-25"
-  banner: "codamos.png"
+  banner: "elas.png"
   twitter: "upwit_workshop"
   facebook: "UPWIT"
   instagram: "upwit_workshop"
@@ -1361,7 +1388,7 @@
   tags: [venus]
   date: "14/04"
   until: "2018-04-15"
-  banner: "codamos.png"
+  banner: "elas.png"
   twitter: "upwit_workshop"
   facebook: "UPWIT"
   instagram: "upwit_workshop"

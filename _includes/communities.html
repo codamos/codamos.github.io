@@ -1,0 +1,65 @@
+{% for community in include.communities %}
+<li class="communities-card">
+  <div class="communities-card-header">
+
+    <div class="communities-card-banner">
+
+      {% if community.hashtag %}
+      <div class="communities-card-body-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ community.hashtag }}?src=hash"
+           rel="noopener" target="_blank" title="Hashtag">{{ community.hashtag }}</a>
+      </div>
+      {% endif %}
+
+      <div class="communities-card-body-social-media">
+        {% if community.twitter %}
+        <a href="https://twitter.com/{{ community.twitter }}" title="Twitter"
+           rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if community.facebook %}
+        <a href="https://www.facebook.com/{{ community.facebook }}/" title="Facebook"
+           rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if community.instagram %}
+        <a href="http://instagram.com/{{ community.instagram }}" title="Instagram"
+           rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.linkedin %}
+        <a href="https://www.linkedin.com/{{ community.linkedin }}" title="LinkedIn"
+           rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.meetup %}
+        <a href="https://www.meetup.com/{{ community.meetup }}/" title="Meetup"
+           rel="noopener" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.medium %}
+        <a href="https://www.medium.com/{{ community.medium }}/" title="Medium"
+           rel="noopener" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.youtube %}
+        <a href="https://www.youtube.com/{{ community.youtube }}" title="Youtube"
+           rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        {% endif %}
+
+        <a href="{{ community.main_url }}" title="Site"
+           rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+      </div>
+      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
+    </div>
+    <div class="communities-card-title">
+      <h3>{{ community.title }}</h3>
+    </div>
+  </div>
+
+</li>
+{% endfor %}

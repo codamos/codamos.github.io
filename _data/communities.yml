@@ -1,0 +1,157 @@
+# Comunidades.
+
+# title:      texto, obrigatório. Nome do evento.
+# free:       booleano (true ou false), opcional. Evento gratuito.
+# inclusive:  booleano (true ou false), opcional. Evento inclusivo.
+# category:   texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
+# women:      booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
+# lgbt:       booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# hackathon:  booleano (true ou false), opcional. Evento no formato hackathon.
+# opensource: booleano (true ou false), opcional. É um evento para a comunidade Open source.
+# location:   texto, obrigatório.
+# date:       texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
+# until:      texto, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
+# banner:     arquivo na pasta `images/eventos`, opcional.
+# group:      arquivo na pasta `images/grupo`, opcional.
+# tags:       lista de classes de ícones do font awesome, opcional.
+# hashtag:    texto sem espaços, opcional. Hashtag oficial do twitter.
+# twitter:    texto sem espaços, opcional. Twitter handle.
+# facebook:   texto sem espaços, opcional. Facebook handle.
+# instagram:  texto sem espaços, opcional. Instagram handle.
+# linkedin:   texto sem espaços, opcional. LinkedIn handle.
+# meetup:     texto sem espaços, opcional. Id do grupo no Meetup.
+# medium:     texto sem espaços, opcional. User do grupo no Medium.
+# youtube:    texto sem espaços, opcional. Youtube handle.
+# main_url:   URL, obrigatório. Site do evento.
+# rsvp_url:   URL, obrigatório. Site para inscrição no evento.
+# cfp:        booleano (true ou false), opcional. Está com Call For papers aberto.
+# highlight:  booleano (true ou false), opcional. Destaque na home.
+
+# COMUNIDADES
+
+- title: "bytegirl"
+  banner: "byte-girl-2017.png"
+  hashtag: "bg17"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "http://bytegirl.com.br/"
+
+- title: "Rails Girls SP"
+  banner: "railsgirls.png"
+  hashtag: "railsgirls"
+  twitter: "railsgirlssp"
+  facebook: "railsgirls.sp"
+  main_url: "http://railsgirls.com/saopaulo.html"
+
+- title: "Marialab"
+  banner: "maria.png"
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  main_url: "https://marialab.org/"
+
+- title: "Elug"
+  banner: "elixir.png"
+  hashtag: "myelixirstatus"
+  twitter: "elug_sp"
+  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
+
+- title: "Programaria"
+  banner: "programaria-summit.png"
+  hashtag: "programariaSummit"
+  twitter: "programaria"
+  facebook: "programaria"
+  main_url: "https://www.programaria.org/"
+  rsvp_url: "http://summit.programaria.org/"
+
+- title: "Ela Líder"
+  banner: "ela-lider.png"
+  hashtag: "elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+
+- title: "InfoPreta"
+  banner: "infopreta.png"
+  hashtag: "infopreta"
+  twitter: "infopreta"
+  facebook: "InfoPreta"
+  youtube: "infopreta"
+  instagram: "infopreta"
+  main_url: "http://infopreta.com.br"
+
+- title: "{Reprograma}"
+  banner: "reprograma.png"
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+
+- title: "Blackrocks"
+  banner: "blackrocks.png"
+  hashtag: "blackrocks"
+  facebook: "blackrocksstartup"
+  main_url: "www.arenablackrocks.com.br"
+
+- title: "womakerscoded"
+  banner: "womakerscode.png"
+  hashtag: "womakerscode"
+  twitter: "womakerscode"
+  facebook: "womakerscode"
+  main_url: "http://womakerscode.org/"
+
+- title: "PHPWomen"
+  banner: "php-women.png"
+  hashtag: "PHPWomen"
+  twitter: "PHPWomenBR"
+  facebook: "elephants.together"
+  main_url: "http://phpwomen.org.br/"
+
+- title: "Desprograme"
+  banner: "desprograme.png"
+  twitter: "Desprograme"
+  facebook: "desprograme123"
+  instagram: "desprograme123"
+  meetup: "Desprograme123"
+  main_url: "http://desprograme.com.br/"
+
+- title: "Rails Girls POA"
+  banner: "rails-girls-poa.png"
+  hashtag: "railsgirlspoa"
+  twitter: "railsgirls"
+  facebook: "railsgirlspoa"
+  main_url: "http://railsgirls.com/portoalegre"
+
+- title: "Afro Python"
+  banner: "afropythonbr.png"
+  hashtag: "AfroPython"
+  facebook: "AfroPython"
+  main_url: "http://afropython.org/"
+  rsvp_url: "http://afropython.org/"
+
+- title: "minas programam"
+  banner: "minas-programam.png"
+  hashtag: "minasprogramam"
+  twitter: "minasprogramam"
+  facebook: "minasprogramam"
+  instagram: "minasprogramam"
+  main_url: "http://minasprogramam.com/"
+
+- title: "</> JUNTOS NA TI"
+  banner: "juntos-na-ti.png"
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+
+- title: "Projeto Devas"
+  banner: "devas.png"
+  twitter: "projetodevas"
+  facebook: "projetodevas"
+  meetup: "projetodevas"
+  main_url: "http://www.projetodevas.org/"
+
+- title: "PyLadies"
+  banner: "pyladies-sp.png"
+  hashtag: "PyLadiesSP"
+  twitter: "PyLadiesSP"
+  facebook: "PyLadiesSP"
+  main_url: "https://www.meetup.com/PyLadiesSP/"

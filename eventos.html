@@ -6,13 +6,13 @@ layout: default
 <!-- BANNER -->
 <section id="banner" class="banner-palestrantes">
   <div class="banner-content">
-    <h2 class="page-banner-title">Techday na TOTVS</h2>
+    <h2 class="page-banner-title">Front in POA 2017</h2>
 
     <p class="page-section-text">
-      O evento vai ter uma trilha de diversidade e mais outros temas dentro da São Paulo Tech Week.
+      Front in POA vem com uma grade +50% Feminina e muito conteúdo!
     </p>
 
-    <a class="button-banner" href="http://www.totvstechday.io/" rel="noopener" target="_blank">Saiba mais</a>
+    <a class="button-banner" href="https://frontin.poa.br/2017/" rel="noopener" target="_blank">Saiba mais</a>
   </div>
 </section>
 
@@ -67,3 +67,11 @@ layout: default
 </section>
 
 {% include code_of_conduct.html %}
+
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">Comunidades</h1>
+
+  <ul class="communities-cards">
+    {% include communities.html communities=site.data.communities %}
+  </ul>
+</section>

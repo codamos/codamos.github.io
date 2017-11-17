@@ -446,8 +446,8 @@ p {
 .page-section-text {
     color: #3e3e3e;
     font-size: var(--text-medium);
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 1.5;
     margin: 1.8em 0;
 }
@@ -1113,6 +1113,147 @@ p {
     flex-grow: 1;
 }
 
+.communities-cards {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0;
+    margin: 0 0 6em 0;
+}
+
+.communities-card {
+    width: 33%;
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 3em;
+}
+
+.communities-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.communities-card-banner {
+    height: 120px;
+    border-radius: 6px;
+    background: #660092;
+    background: linear-gradient(red -30%, blue 150%);
+}
+
+.communities-card-header img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    opacity: 0.9;
+    border-radius: 6px 6px 0 0;
+}
+
+.communities-card-header {
+    position: relative;
+}
+
+.communities-card-title {
+    color: #e60050;
+    font-family: 'Josefin Sans', Sans-Serif;
+    text-transform: uppercase;
+    padding: 0.5em;
+    margin: 0;
+    z-index: 1;
+}
+
+.communities-card-body-social-media {
+    color: #40c5f5;
+    margin: 5px auto;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 72px;
+    background: #3366cc;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+}
+
+.communitiess-card-body-social-media i {
+    color: #40c5f5;
+    font-size: 20px;
+}
+
+.communities-card-body-social-media a i {
+    color: #40c5f5;
+    font-size: 20px;
+}
+
+.communities-card-body-social-media a:hover i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.communities-card-body-no-hashtag {
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+    margin: 10px auto;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+    right: 10px;
+    background: #eee;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+}
+
+.communities-card-body-no-hashtag i {
+    color: #eee;
+}
+
+.communities-card-body-hashtag {
+    color: #fdbbc7;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+    margin: 10px auto;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    background: #e60050;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+}
+
+.communities-card-body-hashtag i {
+    color: #fdbbc7;
+}
+
+.communities-card-body-hashtag a {
+    color: #fdbbc7;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.communities-card-body-hashtag a:hover {
+    color: #fff;
+    text-transform: uppercase;
+}
+
 @media (max-width: 660px) {
     .events-card-header-free,
     .events-card-header-inclusive,
@@ -1120,6 +1261,16 @@ p {
     .events-card-header-call4papers,
     .events-card-header-opensource {
         font-size: 0.5em;
+    }
+    .communities-card {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 0.5em;
     }
 }
 

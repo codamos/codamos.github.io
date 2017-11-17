@@ -1,0 +1,161 @@
+{% for community in include.communities %}
+<li>
+  <div>
+    <h1>Comunidade</h1>
+  </div>
+</li>
+
+
+
+<!--<li class="events-card">
+  <div class="events-card-header">
+    <div class="events-card-banner">
+      <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
+
+      {% if event.free %}
+      <div class="events-card-header-free">
+        <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
+      </div>
+      {% endif %}
+
+      {% if event.inclusive %}
+      <div class="events-card-header-inclusive">
+        <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
+      </div>
+      {% endif %}
+
+      {% if event.category %}
+      <div class="events-card-header-category">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
+      </div>
+      {% endif %}
+
+      {% if event.opensource %}
+      <div class="events-card-header-opensource">
+        <i class="fa fa-code-fork" aria-hidden="true"></i><h3>open source</h3>
+      </div>
+      {% endif %}
+
+      {% if event.codamos %}
+      <div class="events-card-header-codamos">
+        <i class="fa fa-diamond" aria-hidden="true"></i><h3>da casa</h3>
+      </div>
+      {% endif %}
+
+      {% if event.cfp and include.cfp != false %}
+      <div class="events-card-header-call4papers">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
+      </div>
+      {% endif %}
+
+      {% if event.tags %}
+      <span class="events-card-header-ico">
+        {% for tag in event.tags %}
+        <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
+        {% endfor %}
+      </span>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if event.women %}
+  <div class="events-card-header-women">
+    <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
+  </div>
+  {% endif %}
+
+  {% if event.hackathon %}
+  <div class="events-card-header-hackathon">
+    <i class="fa fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
+  </div>
+  {% endif %}
+
+  {% if event.lgbt %}
+  <div class="events-card-header-lgbt">
+    <div class="event-card-lgbt">
+      <i class="fa fa-flag" aria-hidden="true"></i><h3>Evento LGBTQ+</h3>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="events-card-title">
+    <h3>{{ event.title }}</h3>
+  </div>
+
+  <div class="events-card-body">
+    <div class="events-card-body-content">
+      <div class="events-card-body-local">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>{{ event.location }}</p>
+      </div>
+
+      {% if event.hashtag %}
+      <div class="events-card-body-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+           rel="noopener" target="_blank" title="Hashtag">{{ event.hashtag }}</a>
+      </div>
+      {% else %}
+      <div class="events-card-body-no-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+      </div>
+      {% endif %}
+
+      {% if event.group %}
+      <div class="events-card-body-grupo">
+        <img src="images/grupo/{{ event.group }}">
+      </div>
+      {% endif %}
+
+      <div class="events-card-body-social-media">
+        {% if event.twitter %}
+        <a href="https://twitter.com/{{ event.twitter }}" title="Twitter"
+           rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if event.facebook %}
+        <a href="https://www.facebook.com/{{ event.facebook }}/" title="Facebook"
+           rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if event.instagram %}
+        <a href="http://instagram.com/{{ event.instagram }}" title="Instagram"
+           rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.linkedin %}
+        <a href="https://www.linkedin.com/{{ event.linkedin }}" title="LinkedIn"
+           rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.meetup %}
+        <a href="https://www.meetup.com/{{ event.meetup }}/" title="Meetup"
+           rel="noopener" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.medium %}
+        <a href="https://www.medium.com/{{ event.medium }}/" title="Medium"
+           rel="noopener" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.youtube %}
+        <a href="https://www.youtube.com/{{ event.youtube }}" title="Youtube"
+           rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        {% endif %}
+
+        <a href="{{ event.main_url }}" title="Site"
+           rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    {% if event.rsvp_url and include.rsvp != false %}
+    <div class="events-card-body-button">
+      <a href="{{ event.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ir</a>
+    </div>
+    {% endif %}
+  </div>
+</li>-->
+{% endfor %}
