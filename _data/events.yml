@@ -313,7 +313,6 @@
   free: true
   inclusive: true
   women: true
-  highlight: true
   location: "São Paulo - SP"
   date: "05/11 a 12/11"
   until: "2017-11-12"
@@ -489,7 +488,6 @@
 
 - title: "Women Dev Summit"
   inclusive: true
-  highlight: true
   women: true
   location: "São Paulo - SP"
   date: "11/11"
@@ -629,7 +627,6 @@
   free: true
   category: "Workshop"
   women: true
-  highlight: true
   date: "17/11 e 18/11"
   until: "2017-11-18"
   banner: "rails-girls-poa.png"
@@ -1162,7 +1159,6 @@
 
 - title: "Ladies that UX Talks"
   women: true
-  highlight: true
   inclusive: true
   free: true
   location: "São Paulo - SP"
@@ -1210,6 +1206,7 @@
   inclusive: true
   free: true
   lgbt: true
+  highlight: true
   date: "09/12"
   until: "2017-12-09"
   banner: "programaria-summit.png"
@@ -1222,6 +1219,7 @@
 
 - title: "DevFest XP 2017"
   women: true
+  highlight: true
   location: "Recife - PE"
   date: "09/12"
   until: "2017-12-10"
@@ -1238,6 +1236,7 @@
   free: true
   inclusive: true
   women: true
+  highlight: true
   date: "12/12"
   until: "2017-12-12"
   banner: "infopreta.png"
@@ -1268,6 +1267,7 @@
 - title: "Front in POA"
   inclusive: true
   women: true
+  highlight: true
   location: "Porto Alegre - RS"
   date: "16/12"
   until: "2017-12-16"
