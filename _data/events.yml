@@ -733,7 +733,7 @@
   women: true
   date: "21/11"
   until: "2017-11-21"
-  banner: "codamos.png"
+  banner: "azure-open-dev.png"
   tags: [venus, cc]
   twitter: "microsoftbr"
   facebook: "MSFTBrasil"
@@ -837,6 +837,8 @@
 
 - title: "Programaria Summit"
   location: "São Paulo - SP"
+  women: true
+  inclusive: true
   date: "25/11"
   until: "2017-11-25"
   banner: "programaria-summit.png"
@@ -944,13 +946,13 @@
   main_url: "http://reset-lab.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/ux-seo-um-casamento-de-sucesso-tickets-35023157206"
 
-- title: "Primeiros Passos com NodeMCU"
+- title: "Primeiros Passos com Node MCU"
   category: "Curso"
-  tags: [venus]
+  tags: [venus, cc]
   location: "São Paulo - SP"
   date: "25/11"
   until: "2017-11-25"
-  banner: "codamos.png"
+  banner: "node-mcu.png"
   twitter: "coletividad"
   facebook: "COLETIVIDAD"
   medium: "nossa-coletividad/latest"
@@ -981,7 +983,7 @@
   women: true
   date: "30/11"
   until: "2017-11-30"
-  banner: "codamos.png"
+  banner: "mulheres-java.png"
   tags: [venus, cc]
   facebook: "cculturalartemis"
   main_url: "http://www.artemis.org.br/institucional-1"
@@ -1018,12 +1020,12 @@
   main_url: "http://minasprogramam.com/"
   rsvp_url: "http://arianecor.net/oficinadasamigas/"
 
-- title: "Workshop de Design Thinking com Silvio Acher"
+- title: "Pixel Show - Design Thinking com Silvio Acher"
   category: "Workshop"
   location: "São Paulo - SP"
   date: "02/12"
   until: "2017-12-02"
-  banner: "design-thinking-silvio-acher.jpg"
+  banner: "pixel-show.png"
   twitter: "pixelshow"
   facebook: "pixelshow"
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-design-thinking-com-silvio-acher/"
@@ -1065,12 +1067,12 @@
   main_url: "http://insiter.io/"
   rsvp_url: "https://www.eventbrite.com.br/e/insiter-porto-alegre-tickets-38661656054?ref=elink"
 
-- title: "Pixel show"
+- title: "Pixel Show - Arte & Design com Fernando Degrossi"
   location: "São Paulo - SP"
   category: "Workshop"
   date: "02/12"
   until: "2017-12-02"
-  banner: "codamos.png"
+  banner: "pixel-show.png"
   twitter: "pixelshow"
   facebook: "pixelshow"
   main_url: "http://pixelshow.com.br/"
@@ -1090,12 +1092,12 @@
   main_url: "https://nvite.com/CodePenMeetupBrasil/3vw2pl"
   rsvp_url: "https://nvite.com/CodePenMeetupBrasil/3vw2pl"
 
-- title: "Workshop de Estamparia Narrativa com Estúdio Abelha"
+- title: "Pixel Show - Estamparia Narrativa com Estúdio Abelha"
   category: "Workshop"
   location: "São Paulo - SP"
   date: "03/12"
   until: "2017-12-03"
-  banner: "estamparia-estudio-abelha-turma-2.jpg"
+  banner: "pixel-show.png"
   twitter: "pixelshow"
   facebook: "pixelshow"
   main_url: "http://pixelshow.com.br/portfolio/workshop-de-estamparia-narrativa-com-estudio-abelha-turma-2/"
@@ -1109,7 +1111,7 @@
   tags: [venus]
   date: "03/12"
   until: "2017-12-03"
-  banner: "codamos.png"
+  banner: "design-for-all-upwit.png"
   twitter: "upwit_workshop"
   facebook: "UPWIT"
   instagram: "upwit_workshop"
@@ -1162,8 +1164,8 @@
   inclusive: true
   free: true
   location: "São Paulo - SP"
-  date: "08/12"
-  until: "2017-12-08"
+  date: "08/11"
+  until: "2017-11-08"
   banner: "ladies-ux-empreendedorismo.png"
   tags: [venus, cc]
   twitter: "ladiesthatuxSPO"
