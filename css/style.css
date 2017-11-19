@@ -956,14 +956,15 @@ p {
 }
 
 .event-card-lgbt {
-    background-color: rgba(175,102,217, 0.7);
+    background-color: #fff;
+    color: #7d2eaa;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding: 7px 5px;
-    width: 100%;
-    mix-blend-mode: overlay;
+    width: 50%;
 }
 
 .events-card-header-lgbt {
