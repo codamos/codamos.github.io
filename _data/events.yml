@@ -996,8 +996,8 @@
   location: "São Paulo - SP"
   free: true
   inclusive: true
-  date: "02/12"
-  until: "2017-12-02"
+  date: "01/12"
+  until: "2017-12-01"
   banner: "novatec.jpg"
   tags: [venus, cc]
   twitter: "novateceditora"
@@ -1265,8 +1265,7 @@
   main_url: "https://trainingcenter.io/"
   rsvp_url: "https://www.meetup.com/Training-Center-RS/events/245116390/?a=socialmedia"
 
-- title: "front in poa"
-  free: true
+- title: "Front in POA"
   inclusive: true
   women: true
   location: "Porto Alegre - RS"
