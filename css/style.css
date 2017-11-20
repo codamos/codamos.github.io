@@ -549,8 +549,6 @@ p {
     background-color: #f4f4f4;
     box-shadow: 0 0 10px 0 #999;
     z-index: 2;
-    /*box-shadow: 0 0.5em 0 rgba(244, 244, 244,0.5);
-    transition: .2s;*/
 }
 
 #header .logotipo-codamos img {
@@ -562,6 +560,27 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-navbar-menu a {
+    font-size: small;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    color: currentColor;
+}
+
+.header-navbar-menu .active {
+    color: #e60050;
+    border-top: 3px solid #e60050;
+}
+
+.header-navbar-menu a:hover,
+.header-navbar-menu a:active {
+    color: #ffffff;
+    background-color: #e60050;
 }
 
 .header-navbar-menu {
@@ -644,32 +663,6 @@ p {
 
     .header-navbar-menu {
         display: block;
-    }
-
-    .header-navbar-menu ul li {
-        display: inline;
-    }
-
-    .header-navbar-menu ul li a {
-        color: currentColor;
-        font-family: Roboto, Sans-Serif;
-        font-size: small;
-        font-weight: 400;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 0 5px;
-        margin: 0 10px;
-        cursor: pointer;
-        letter-spacing: 1px;
-    }
-
-    .header-navbar-menu ul li a:hover,
-    .header-navbar-menu ul li a:active {
-        color: #ffffff;
-        cursor: pointer;
-        padding: 5px;
-        font-weight: 400;
-        box-shadow: inset 30px 20px 30px 20px #e60050;
     }
 
     .header-social-media {
