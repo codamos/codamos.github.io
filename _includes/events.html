@@ -5,37 +5,37 @@
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
       {% if event.free %}
-      <div class="events-card-header-free">
+      <div class="events-card-header-label free">
         <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
       </div>
       {% endif %}
 
       {% if event.inclusive %}
-      <div class="events-card-header-inclusive">
+      <div class="events-card-header-label inclusive">
         <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
       </div>
       {% endif %}
 
       {% if event.category %}
-      <div class="events-card-header-category">
+      <div class="events-card-header-label category">
         <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
       </div>
       {% endif %}
 
       {% if event.opensource %}
-      <div class="events-card-header-opensource">
+      <div class="events-card-header-label opensource">
         <i class="fa fa-code-fork" aria-hidden="true"></i><h3>open source</h3>
       </div>
       {% endif %}
 
       {% if event.codamos %}
-      <div class="events-card-header-codamos">
+      <div class="events-card-header-label codamos">
         <i class="fa fa-diamond" aria-hidden="true"></i><h3>da casa</h3>
       </div>
       {% endif %}
 
       {% if event.cfp and include.cfp != false %}
-      <div class="events-card-header-call4papers">
+      <div class="events-card-header-label call4papers">
         <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
       </div>
       {% endif %}
