@@ -5,37 +5,37 @@
       <img data-src="images/podcast/{{ podcast.banner | default:'codamos.png' }}" alt="{{ podcast.title }}">
 
       {% if podcast.free %}
-      <div class="events-card-header-free">
+      <div class="events-card-header-label free">
         <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
       </div>
       {% endif %}
 
       {% if podcast.inclusive %}
-      <div class="events-card-header-inclusive">
+      <div class="events-card-header-label inclusive">
         <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
       </div>
       {% endif %}
 
       {% if podcast.category %}
-      <div class="events-card-header-category">
+      <div class="events-card-header-label category">
         <i class="fa fa-clock-o" aria-hidden="true"></i><h3>{{ podcast.category }}</h3>
       </div>
       {% endif %}
 
       {% if podcast.opensource %}
-      <div class="events-card-header-opensource">
+      <div class="events-card-header-label opensource">
         <i class="fa fa-code-fork" aria-hidden="true"></i><h3>open source</h3>
       </div>
       {% endif %}
 
       {% if podcast.codamos %}
-      <div class="events-card-header-codamos">
+      <div class="events-card-header-label codamos">
         <i class="fa fa-diamond" aria-hidden="true"></i><h3>da casa</h3>
       </div>
       {% endif %}
 
       {% if podcast.convidados %}
-      <div class="events-card-header-call4papers">
+      <div class="events-card-header-label call4papers">
         <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Convidados</h3>
       </div>
       {% endif %}
@@ -51,22 +51,20 @@
   </div>
 
   {% if podcast.women %}
-  <div class="events-card-header-women">
+  <div class="events-card-header-tag women">
     <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no audio</h3>
   </div>
   {% endif %}
 
   {% if podcast.tech %}
-  <div class="events-card-header-hackathon">
+  <div class="events-card-header-tag hackathon">
     <i class="fa fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
   </div>
   {% endif %}
 
   {% if podcast.lgbt %}
-  <div class="events-card-header-lgbt">
-    <div class="event-card-lgbt">
-      <i class="fa fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
-    </div>
+  <div class="events-card-header-tag lgbt">
+    <i class="fa fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
   </div>
   {% endif %}
 

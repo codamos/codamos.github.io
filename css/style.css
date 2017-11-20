@@ -823,9 +823,9 @@ p {
 
 .inclusive {
     background: #3366cc;
-    border-color: #40C5F5;
+    border-color: #40c5f5;
     top: 45px;
-    color: #FFF;
+    color: #fff;
     left: 5px;
 }
 
@@ -838,11 +838,11 @@ p {
 }
 
 .call4papers {
-    background: #FFFF66;
-    border-color: #F6A623;
+    background: #ffff66;
+    border-color: #f6a623;
     top: 105px;
     color: #660000;
-    left: 5px;
+    right: 5px;
     font-weight: 700;
 }
 
@@ -873,9 +873,6 @@ p {
 .events-card-header-tag {
     font-size: small;
     font-weight: 300;
-    top: 52px;
-    right: 10px;
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
