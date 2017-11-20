@@ -920,60 +920,37 @@ p {
     box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
-.events-card-header-women {
+.events-card-header-tag {
+    font-size: small;
+    font-weight: 300;
+    top: 52px;
+    right: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px;
+    letter-spacing: 2px;
+}
+
+.events-card-header-tag h3 {
+    margin-left: 5px;
+}
+
+.women {
     background: #e60050;
-    font-size: small;
-    font-weight: 300;
-    top: 52px;
     color: #fff;
-    right: 10px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    padding: 7px 5px;
-    letter-spacing: 2px;
 }
 
-.events-card-header-hackathon {
+.hackathon {
     background: #F6A623;
-    font-size: small;
-    font-weight: 300;
-    top: 52px;
     color: #fff;
-    right: 10px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    padding: 7px 5px;
-    letter-spacing: 2px;
 }
 
-.event-card-lgbt {
-    background-color: #fff;
-    color: #7d2eaa;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 7px 5px;
-    width: 50%;
-}
-
-.events-card-header-lgbt {
-    background: url("../images/lgbt.png") repeat;
-    font-size: small;
-    top: 52px;
+.lgbt {
+    background: #7d2eaa;
     color: #fff;
-    right: 10px;
-    font-weight: 300;
-    width: auto;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 .events-card-header-ico {
