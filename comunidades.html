@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<!-- BANNER -->
+<section id="banner" class="banner-palestrantes">
+  <div class="banner-content">
+    <h2 class="page-banner-title">Front in POA 2017</h2>
+
+    <p class="page-section-text">
+      Front in POA vem com uma grade +50% Feminina e muito conteúdo!
+    </p>
+
+    <a class="button-banner" href="https://frontin.poa.br/2017/" rel="noopener" target="_blank">Saiba mais</a>
+  </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="page-section">
+  <h1 class="page-section-title">Sobre comunidades</h1>
+
+  <p class="page-section-text">
+    O Codamos está comprometido a dar destaque aos grupos e comunidades que prezem pela inclusão, diversidade e
+    acessibilidade. Listamos as comunidades inclusivas com seus canais e redes abaixo:
+  </p>
+
+  <ul class="icon-labels">
+    {% for icon in site.data.community_icons %}
+    <li class="events-section-label">
+      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
+    </li>
+    {% endfor %}
+    <li class="speakers-section-label lgbt-label">
+      <img src="images/lgbt-ico.png" alt="LGBTQI+"> LGBTQI+
+    </li>
+  </ul>
+</section>
+
+<!-- COMUNIDADES -->
+<section class="page-section">
+  <h1 class="page-section-subtitle-alt">Comunidades</h1>
+
+  <ul class="communities-cards">
+    {% include communities.html communities=site.data.communities %}
+  </ul>
+</section>
+
+<!-- INCLUIR EVENTO -->
+<section id="include-event" class="page-section-purple">
+  <h2 class="include-event-title">Inclua um grupo!</h2>
+
+  <p class="include-event-call">
+    Quer divulgar <span class="text-uppercase">gratuitamente</span> um grupo com foco em diversidade, acessibilidade e/ou inclusão? Vem para o Codamos!
+  </p>
+
+  <a class="button-default-outline" href="/meu-evento" target="_blank">Incluir</a>
+</section>

@@ -1084,6 +1084,7 @@ p {
     font-family: 'Josefin Sans', Sans-Serif;
     text-transform: uppercase;
     padding: 0.5em;
+    border-top: 1px dotted #cccccc;
     margin: 0;
     z-index: 1;
 }
@@ -1093,8 +1094,8 @@ p {
     margin: 5px auto;
     position: absolute;
     z-index: 1;
-    left: 10px;
-    top: 72px;
+    left: 5px;
+    top: 78px;
     background: #3366cc;
     border-radius: 4px;
     padding: 5px;
@@ -1118,39 +1119,16 @@ p {
     font-size: 20px;
 }
 
-.communities-card-body-no-hashtag {
-    color: #333;
+.communities-card-header-ico {
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: small;
-    margin: 10px auto;
+    font-size: large;
+    margin: 5px auto;
     letter-spacing: 1px;
     position: absolute;
     z-index: 1;
-    opacity: 0.3;
-    right: 10px;
-    background: #eee;
-    border-radius: 4px;
-    padding: 5px;
-    border-radius: 3px;
-    letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
-}
-
-.communities-card-body-no-hashtag i {
-    color: #eee;
-}
-
-.communities-card-body-hashtag {
-    color: #fdbbc7;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: small;
-    margin: 10px auto;
-    letter-spacing: 1px;
-    position: absolute;
-    z-index: 1;
-    right: 10px;
+    left: 5px;
     background: #e60050;
     border-radius: 4px;
     padding: 5px;
@@ -1159,21 +1137,10 @@ p {
     box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
-.communities-card-body-hashtag i {
-    color: #fdbbc7;
-}
-
-.communities-card-body-hashtag a {
-    color: #fdbbc7;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: small;
-    letter-spacing: 1px;
-}
-
-.communities-card-body-hashtag a:hover {
-    color: #fff;
-    text-transform: uppercase;
+.communities-card-header-ico img {
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
 }
 
 @media (max-width: 660px) {

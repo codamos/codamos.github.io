@@ -31,6 +31,8 @@
 
 - title: "bytegirl"
   banner: "byte-girl-2017.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "bg17"
   twitter: "bytegirlevento"
   facebook: "bytegirlevento"
@@ -38,6 +40,8 @@
 
 - title: "Rails Girls SP"
   banner: "railsgirls.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "railsgirls"
   twitter: "railsgirlssp"
   facebook: "railsgirls.sp"
@@ -45,6 +49,8 @@
 
 - title: "Marialab"
   banner: "maria.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "Marialab"
   twitter: "MarialabHackers"
   facebook: "marialab.org"
@@ -52,12 +58,16 @@
 
 - title: "Elug"
   banner: "elixir.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "myelixirstatus"
   twitter: "elug_sp"
   main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
 
 - title: "Programaria"
   banner: "programaria-summit.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "programariaSummit"
   twitter: "programaria"
   facebook: "programaria"
@@ -66,6 +76,7 @@
 
 - title: "Ela Líder"
   banner: "ela-lider.png"
+  tags: [venus,cc]
   hashtag: "elalider"
   twitter: "_elalider"
   facebook: "elaliderfeminina"
@@ -73,6 +84,8 @@
 
 - title: "InfoPreta"
   banner: "infopreta.png"
+  tags: [venus,hand-rock-o,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "infopreta"
   twitter: "infopreta"
   facebook: "InfoPreta"
@@ -82,6 +95,8 @@
 
 - title: "{Reprograma}"
   banner: "reprograma.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "vamosreprogramaromundo"
   twitter: "Reprograma_Br"
   facebook: "ReprogramaBrasil"
@@ -89,12 +104,16 @@
 
 - title: "Blackrocks"
   banner: "blackrocks.png"
+  tags: [venus,hand-rock-o,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "blackrocks"
   facebook: "blackrocksstartup"
   main_url: "www.arenablackrocks.com.br"
 
 - title: "womakerscoded"
   banner: "womakerscode.png"
+  tags: [venus,cc]
+  lgbt: "lgbt"
   hashtag: "womakerscode"
   twitter: "womakerscode"
   facebook: "womakerscode"
@@ -102,6 +121,7 @@
 
 - title: "PHPWomen"
   banner: "php-women.png"
+  tags: [venus,cc]
   hashtag: "PHPWomen"
   twitter: "PHPWomenBR"
   facebook: "elephants.together"
@@ -109,6 +129,8 @@
 
 - title: "Desprograme"
   banner: "desprograme.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   twitter: "Desprograme"
   facebook: "desprograme123"
   instagram: "desprograme123"
@@ -117,6 +139,8 @@
 
 - title: "Rails Girls POA"
   banner: "rails-girls-poa.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "railsgirlspoa"
   twitter: "railsgirls"
   facebook: "railsgirlspoa"
@@ -124,6 +148,7 @@
 
 - title: "Afro Python"
   banner: "afropythonbr.png"
+  tags: [venus,hand-rock-o,cc,transgender-alt]
   hashtag: "AfroPython"
   facebook: "AfroPython"
   main_url: "http://afropython.org/"
@@ -131,6 +156,8 @@
 
 - title: "minas programam"
   banner: "minas-programam.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "minasprogramam"
   twitter: "minasprogramam"
   facebook: "minasprogramam"
@@ -139,11 +166,15 @@
 
 - title: "</> JUNTOS NA TI"
   banner: "juntos-na-ti.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   hashtag: "JuntosnaTI"
   facebook: "JuntosnaTI"
 
 - title: "Projeto Devas"
   banner: "devas.png"
+  tags: [venus,cc,transgender-alt]
+  lgbt: "lgbt"
   twitter: "projetodevas"
   facebook: "projetodevas"
   meetup: "projetodevas"
@@ -151,6 +182,7 @@
 
 - title: "PyLadies"
   banner: "pyladies-sp.png"
+  tags: [venus,cc]
   hashtag: "PyLadiesSP"
   twitter: "PyLadiesSP"
   facebook: "PyLadiesSP"

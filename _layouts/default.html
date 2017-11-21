@@ -34,7 +34,10 @@
         <nav class="header-navbar-menu">
           <a href="/eventos"
              {% if page.url == "/eventos.html" %}class="active"{% endif %}>
-            Eventos e Comunidades</a>
+            Eventos</a>
+          <a href="/comunidades"
+             {% if page.url == "/comunidades.html" %}class="active"{% endif %}>
+            Comunidades</a>
           <a href="/podcast"
              {% if page.url == "/podcast.html" %}class="active"{% endif %}>
             Para ouvir</a>
@@ -72,7 +75,8 @@
           </label>
 
           <ul class="submenu-hamburger">
-            <li><a href="/eventos">Eventos e Comunidades</a></li>
+            <li><a href="/eventos">Eventos</a></li>
+            <li><a href="/comunidades">Comunidades</a></li>
             <li><a href="/podcast">Para ouvir</a></li>
             <li><a href="/palestrantes">Palestrantes</a></li>
             <li><a href="/quem-somos">Sobre o Codamos</a></li>
@@ -167,7 +171,8 @@
     <footer id="footer" class="page-section-black-four">
       <nav class="footer-box footer-menu">
         <a href="/eventos">Eventos</a>
-        <a href="/podcast">Podcast</a>
+        <a href="/comunidades">Comunidades</a>
+        <a href="/podcast">Para ouvir</a>
         <a href="/palestrantes">Palestrantes</a>
         <a href="/quem-somos">Quem somos</a>
         <a href="/parceiros">Parceiros</a>
