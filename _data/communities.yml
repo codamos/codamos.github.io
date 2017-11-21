@@ -190,3 +190,11 @@
   twitter: "PyLadiesSP"
   facebook: "PyLadiesSP"
   main_url: "https://www.meetup.com/PyLadiesSP/"
+
+- title: "NodeGirls POA"
+  banner: "node-girls-poa.png"
+  tags: [venus,cc]
+  hashtag: "NodeGirls"
+  twitter: "nodejspoa"
+  meetup: "Node-js-Porto-Alegre-Meetup"
+  main_url: "https://github.com/node-poa"
