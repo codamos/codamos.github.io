@@ -711,7 +711,9 @@ p {
 .banner-eventos {
     background-image: url("../images/bg-banner011.jpg");
 }
-
+.banner-comunidades {
+    background-image: url("../images/bg-banner003.jpg");
+}
 .banner-podcast {
     background-image: url("../images/bg-banner012.jpg");
 }
@@ -1120,7 +1122,7 @@ p {
 }
 
 .communities-card-header-ico {
-    color: #fff;
+    color: #e60050;
     text-transform: uppercase;
     text-decoration: none;
     font-size: large;
@@ -1129,7 +1131,7 @@ p {
     position: absolute;
     z-index: 1;
     left: 5px;
-    background: #e60050;
+    background: #fff;
     border-radius: 4px;
     padding: 5px;
     border-radius: 3px;

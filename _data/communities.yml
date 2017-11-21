@@ -54,6 +54,7 @@
   hashtag: "Marialab"
   twitter: "MarialabHackers"
   facebook: "marialab.org"
+  meetup: "marialab"
   main_url: "https://marialab.org/"
 
 - title: "Elug"
@@ -65,7 +66,7 @@
   main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
 
 - title: "Programaria"
-  banner: "programaria-summit.png"
+  banner: "programaria.png"
   tags: [venus,cc,transgender-alt]
   lgbt: "lgbt"
   hashtag: "programariaSummit"
@@ -80,6 +81,8 @@
   hashtag: "elalider"
   twitter: "_elalider"
   facebook: "elaliderfeminina"
+  meetup: "elalider"
+  instagram: "_elalider"
   main_url: "https://elalider.com/"
 
 - title: "InfoPreta"

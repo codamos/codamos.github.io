@@ -846,8 +846,8 @@
   hashtag: "programariaSummit"
   twitter: "programaria"
   facebook: "programaria"
-  main_url: "https://www.programaria.org/"
-  rsvp_url: "http://summit.programaria.org/"
+  main_url: "http://summit.programaria.org/"
+  rsvp_url: "https://www.sympla.com.br/programaria-summit-2017__214663"
 
 - title: "Coda.Br"
   location: "São Paulo - SP"
@@ -1211,8 +1211,8 @@
   highlight: true
   date: "09/12"
   until: "2017-12-09"
-  banner: "programaria-summit.png"
-  tags: [venus,cc]
+  banner: "programaria-oficina-trans.png"
+  tags: [venus,cc,transgender-alt]
   hashtag: "programariaSummit"
   twitter: "programaria"
   facebook: "programaria"
