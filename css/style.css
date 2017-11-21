@@ -1125,7 +1125,7 @@ p {
     color: #e60050;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: large;
+    font-size: 1em;
     margin: 5px auto;
     letter-spacing: 1px;
     position: absolute;
