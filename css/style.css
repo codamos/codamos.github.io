@@ -490,7 +490,7 @@ p {
 @media (max-width: 660px) {
     .page-section {
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 }
