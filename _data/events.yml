@@ -959,6 +959,19 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/primeiros-passos-com-nodemcu-tickets-38854951205?aff=efbevent"
 
+- title: "HTML SP #9 - Elo7"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  date: "27/11"
+  until: "2017-11-27"
+  banner: "html-sp.png"
+  tags: [venus, cc,]
+  hashtag: "HTMLSP"
+  twitter: "html_sp"
+  main_url: "https://www.meetup.com/html-sp"
+  rsvp_url: "https://www.meetup.com/html-sp/events/244905181/"
+
 - title: "Introdução a lógica de programação para mulheres"
   location: "São Paulo - SP"
   free: true
