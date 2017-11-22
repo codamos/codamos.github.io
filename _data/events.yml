@@ -1173,6 +1173,17 @@
   main_url: "https://github.com/node-poa"
   rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
 
+- title: "Infochain meetups #2"
+  location: "São Paulo - SP"
+  date: "06/12"
+  until: "2017-12-06"
+  banner: "infochain-meetup2.png"
+  hashtag: "Blockchain"
+  twitter: "infochainbr"
+  facebook: "infochainbr"
+  main_url: "http://www.infochain.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/infochain-meetups-2-blockchain-e-o-futuro-do-mercado-financeiro-tickets-40104563830"
+
 - title: "Javascript: Design Patterns - 3ª edição"
   location: "São Paulo - SP"
   date: "07/12"
@@ -1443,7 +1454,7 @@
 
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
-  date: "19/05"
+  date: "18/05 e 19/05"
   until: "2018-05-19"
   banner: "ux-confbr.png"
   tags: [cc]
