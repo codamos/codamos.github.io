@@ -1025,9 +1025,7 @@
   main_url: "http://www.artemis.org.br/institucional-1"
   rsvp_url: "https://whiz-bionexo.typeform.com/to/hhEpso"
 
-# DEZEMBRO
-
-- title: "DemoDay Batch #106"
+  - title: "DemoDay Batch #106"
   free: true
   location: "São Paulo - SP"
   date: "29/11"
@@ -1037,6 +1035,8 @@
   facebook: "lewagonbrasil"
   main_url: "http://www.lewagon.com/"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244441201/"
+
+# DEZEMBRO
 
 - title: "Just4Girls! - Bate-papo sobre CSS Grid Layout com o Maujor"
   location: "São Paulo - SP"
@@ -1351,6 +1351,19 @@
   main_url: "https://github.com/node-poa"
   rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/245280017/"
 
+- title: "Women Dev Summit bootcamp"
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "13/12"
+  until: "2017-12-13"
+  banner: "women-dev-summit2.png"
+  tags: [venus, cc, wheelchair-alt,universal-access]
+  hashtag: "WDS2k17"
+  facebook: "womendevsummit"
+  main_url: "http://womendevsummit.com/"
+  rsvp_url: "https://www.meetup.com/WoMakersCode/events/245173987/"
+
 - title: "Happy Hour do TC"
   free: true
   inclusive: true
@@ -1498,6 +1511,16 @@
   main_url: "http://programaelas.com.br/"
   rsvp_url: "http://programaelas.com.br/"
 
+- title: "cryptorave"
+  location: "Porto Alegre - RS"
+  date: "04/05 e 05/05"
+  until: "2018-05-05"
+  banner: "cryptorave.png"
+  tags: [venus, cc]
+  hashtag: "cryptorave"
+  twitter: "cryptoravebr"
+  facebook: "cryptorave"
+  main_url: "https://cryptorave.org/"
 
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
