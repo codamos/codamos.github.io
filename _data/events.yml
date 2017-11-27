@@ -660,18 +660,6 @@
   main_url: "http://www.bigdatabrasilday.com.br"
   rsvp_url: "https://www.eventbrite.com.br/e/big-data-brasil-day-2017-great-again-tickets-36860014295"
 
-- title: "DevDayRS 2017"
-  location: "Porto Alegre - RS"
-  date: "18/11"
-  until: "2017-11-18"
-  banner: "devdayrs.jpg"
-  tags: [cc]
-  twitter: "devdayrs"
-  hashtag: "DevDayRS"
-  facebook: "devdayrs"
-  main_url: "http://devday.rs/#call4papers"
-  rsvp_url: "http://devday.rs/#register"
-
 - title: "NullByte Security Conference"
   location: "Salvador - BA"
   date: "18/11"
@@ -1297,19 +1285,20 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/javascript-design-patterns-3a-edicao-tickets-39728107840"
 
-- title: "Ladies that UX Talks"
+- title: "WomenWill - Programa Google Inspirando Mulheres"
   women: true
   inclusive: true
   free: true
   location: "São Paulo - SP"
-  date: "08/11"
-  until: "2017-11-08"
-  banner: "ladies-ux-empreendedorismo.png"
+  date: "07/12"
+  until: "2017-12-07"
+  banner: "women-will.png"
   tags: [venus, cc]
-  twitter: "ladiesthatuxSPO"
-  facebook: "ladiesthatuxsp"
-  main_url: "http://ladiesthatux.com/sao-paulo/"
-  rsvp_url: "https://www.facebook.com/events/1710878575897208/"
+  hashtag: "gbgcuritiba"
+  twitter: "gbgcuritiba"
+  facebook: "gbgcuritiba"
+  main_url: "http://www.gbgcuritiba.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/womenwill-programa-google-inspirando-mulheres-tickets-40083454692"
 
 - title: "Clojure Bridge SP"
   women: true
@@ -1604,6 +1593,19 @@
   main_url: "http://gama.academy/"
   rsvp_url: "http://gama.academy/formacoes/03-curso-product-manager"
 
+- title: "DevDayRS 2018"
+  cfp: true
+  location: "Porto Alegre - RS"
+  date: "17/03"
+  until: "2018-03-17"
+  banner: "devdayrs.jpg"
+  tags: [cc]
+  twitter: "devdayrs"
+  hashtag: "DevDayRS"
+  facebook: "devdayrs"
+  main_url: "http://devday.rs/"
+  rsvp_url: "http://devday.rs/"
+
 - title: "#14 GamaExperience"
   category: "curso"
   location: "Belo Horizonte - MG"
@@ -1706,6 +1708,18 @@
   facebook: "superlogica"
   main_url: "http://superlogica.com/"
   rsvp_url: "https://www.eventbrite.com.br/e/superlogica-xperience-2018-tickets-36611389652"
+
+- title: "FISL 2018"
+  location: "Porto Alegre - RS"
+  date: "11/07 a 14/07"
+  until: "2018-11-14"
+  banner: "fisl18.png"
+  tags: [venus,cc, hand-rock-o, wheelchair-alt, universal-access]
+  twitter: "FISL18"
+  hashtag: "fisl_oficial"
+  facebook: "fisl.oficial"
+  main_url: "http://softwarelivre.org/fisl18"
+  rsvp_url: "http://softwarelivre.org/fisl18"
 
 - title: "BrazilJS - RS"
   inclusive: true
