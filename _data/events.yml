@@ -1309,7 +1309,7 @@
   highlight: true
   location: "Recife - PE"
   date: "09/12"
-  until: "2017-12-10"
+  until: "2017-12-09"
   banner: "devfest-xp.png"
   tags: [venus, cc]
   hashtag: "dfxp17"
@@ -1317,6 +1317,21 @@
   facebook: "devfestxp"
   main_url: "https://devfestxp.com/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-xp-2017/"
+
+- title: "Ladies to ladies"
+  women: true
+  free: true
+  inclusive: true
+  location: "Curitiba - PR"
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "ladies-to-ladies.png"
+  tags: [venus, cc]
+  hashtag: "techladiesbr"
+  twitter: "techladiesbr"
+  facebook: "techladiesbr"
+  main_url: "http://www.techladies.com.br/"
+  rsvp_url: "https://www.sympla.com.br/from-ladies-to-ladies---2-edicao__215661"
 
 - title: "Lab Reparo"
   location: "São Paulo - SP"
