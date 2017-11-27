@@ -1409,6 +1409,22 @@
   main_url: "https://frontin.poa.br/2017/"
   rsvp_url: "https://eventloop.com.br/frontinpoa-2017"
 
+- title: "Café com Marialab"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "16/12"
+  until: "2017-12-16"
+  banner: "maria.png"
+  tags: [venus, cc]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  meetup:  "marialab"
+  main_url: "https://marialab.org/"
+  rsvp_url: "https://www.meetup.com/marialab/events/244320792/"
+
 - title: "Lab Reparo"
   location: "São Paulo - SP"
   free: true
@@ -1559,3 +1575,39 @@
   facebook: "superlogica"
   main_url: "http://superlogica.com/"
   rsvp_url: "https://www.eventbrite.com.br/e/superlogica-xperience-2018-tickets-36611389652"
+
+- title: "BrazilJS - RS"
+  inclusive: true
+  location: "Porto Alegre - RS"
+  date: "Definir"
+  until: "2018-08-26"
+  banner: "brazil-js.png"
+  tags: [venus, cc, wheelchair-alt, child]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  main_url: "https://braziljs.org/conf"
+
+- title: "Rubyconf BR"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "Definir"
+  until: "2018-12-20"
+  banner: "rubyconf.png"
+  tags: [venus,cc, wheelchair-alt]
+  hashtag: "rubyconfbr"
+  twitter: "rubyconfbr"
+  facebook: "locaweb"
+  main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
+
+- title: "The Conf"
+  location: "São Paulo - SP"
+  date: "21/09 e 22/09"
+  until: "2018-09-22"
+  banner: "the-conf.png"
+  tags: [wheelchair-alt]
+  hashtag: "theconf"
+  twitter: "theconfbr"
+  facebook: "TheConfClub"
+  main_url: "http://www.theconf.club/"

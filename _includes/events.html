@@ -150,6 +150,10 @@
     <div class="events-card-body-button">
       <a href="{{ event.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ir</a>
     </div>
+    {% else %}
+    <div class="events-card-body-button">
+      <p class="button-stand-by" rel="noopener" target="_blank">Aguarde</p>
+    </div>
     {% endif %}
   </div>
 </li>
