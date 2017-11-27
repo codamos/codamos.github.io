@@ -960,6 +960,19 @@
   main_url: "https://www.meetup.com/html-sp"
   rsvp_url: "https://www.meetup.com/html-sp/events/244905181/"
 
+- title: "#NerdGirlz - Campus Community Night"
+  free: true
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "28/11"
+  until: "2017-11-28"
+  banner: "nerdezao.png"
+  tags: [venus, cc]
+  twitter: "ONerdzao"
+  facebook: "nerdzao"
+  main_url: "http://www.nerdzao.com.br/"
+  rsvp_url: "https://www.meetup.com/Nerdzao/events/245385049/"
+
 - title: "Introdução a lógica de programação para mulheres"
   location: "São Paulo - SP"
   free: true
@@ -1750,6 +1763,16 @@
   facebook: "superlogica"
   main_url: "http://superlogica.com/"
   rsvp_url: "https://www.eventbrite.com.br/e/superlogica-xperience-2018-tickets-36611389652"
+
+- title: "Openstacks days"
+  location: "São Paulo - SP"
+  date: "14/07"
+  until: "2018-11-14"
+  banner: "open-stack-day-sp.png"
+  twitter: "Openstackbr"
+  facebook: "OpenStackBR"
+  main_url: "http://openstackbr.com.br/events/2018/"
+  rsvp_url: "https://www.eventbrite.com.br/e/openstack-days-sao-paulo-2018-tickets-36463524383"
 
 - title: "FISL 2018"
   location: "Porto Alegre - RS"
