@@ -1360,6 +1360,17 @@
   main_url: "https://devfestxp.com/"
   rsvp_url: "https://loja.tampa.works/produto/devfest-xp-2017/"
 
+- title: "Docker Fall Workshop: Orquestração Híbrida"
+  location: "Goiânia - GO"
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "docker-goiania.png"
+  hashtag: "Docker"
+  twitter: "Docker"
+  facebook: "groups/806364762728291/about/"
+  main_url: "https://www.meetup.com/Docker-Goiania/"
+  rsvp_url: "https://www.meetup.com/Docker-Goiania/events/245267864/"
+
 - title: "Ladies to ladies"
   women: true
   free: true
