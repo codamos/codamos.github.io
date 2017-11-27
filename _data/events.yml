@@ -1152,6 +1152,17 @@
   main_url: "http://uxpasp.com/"
   rsvp_url: "https://www.eventbrite.com.br/e/world-usability-day-sao-paulo-2017-tickets-39851278246"
 
+- title: "7º SWP Summit"
+  location: "Pelotas - RS"
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "souweb-summit.png"
+  hashtag: "7swpsummit"
+  twitter: "souwebpel"
+  facebook: "souwebpel"
+  main_url: "http://souwebpel.com.br/"
+  rsvp_url: "https://www.sympla.com.br/7-swp--summit__188130"
+
 - title: "Pixel Show - Estamparia Narrativa com Estúdio Abelha"
   category: "Workshop"
   location: "São Paulo - SP"
