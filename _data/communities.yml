@@ -198,3 +198,138 @@
   twitter: "nodejspoa"
   meetup: "Node-js-Porto-Alegre-Meetup"
   main_url: "https://github.com/node-poa"
+
+- title: "Code Club Brasil"
+  banner: "code-club-brasil.png"
+  tags: [cc, kids]
+  hashtag: "codeclub"
+  twitter: "CodeClubBrasil"
+  facebook: "CodeClubBrasil"
+  main_url: "http://www.codeclubbrasil.org.br/"
+
+- title: "AngularSP"
+  banner: "angular-sp.png"
+  tags: [venus, cc]
+  hashtag: "AngularSP"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/"
+
+- title: "Women Techmakers"
+  banner: "women-techmakers.png"
+  tag: [venus, cc]
+  hashtag: "wtm"
+  twitter: "wtmsaopaulo"
+  facebook: "wtmsaopaulo"
+  main_url: "http://wtmsp.org/"
+
+- title: "Cloud Girls SP"
+  banner: "cloud-girls.jpeg"
+  tags: [venus]
+  meetup: "Cloud-Girls-Sao-Paulo"
+  main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
+
+- title: "Collabcode"
+  banner: "collabcode.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Meetup"
+  twitter: "collabcodebr"
+  facebook: "collabcode"
+  main_url: "https://www.meetup.com/CollabCodeBR/"
+
+- title: "DjangoGirls"
+  banner: "django-girls.png"
+  tags: [venus, cc]
+  hashtag: "DjangoGirls"
+  twitter: "djangogirls"
+  facebook: "djangogirls"
+  github: "DjangoGirls"
+  main_url: "https://djangogirls.org/"
+
+- title: "UPWIT"
+  banner: "upwit.png"
+  tags: [venus, cc]
+  hashtag: "MulheresLíderes"
+  twitter: "UPWIT_Workshop"
+  facebook: "UPWIT"
+  main_url: "http://upwit.org/"
+
+- title: "Pyladies Salvador"
+  banner: "pyladies-salvador.png"
+  tags: [venus, cc]
+  twitter: "pyladiessa"
+  facebook: "PyLadiesSalvador"
+  main_url: "https://pyladiessalvador.github.io/"
+
+- title: "JSLadies"
+  banner: "js-ladies.jpeg"
+  tags: [venus,wheelchair-alt, ticket]
+  twitter: "JsladiesSp"
+  facebook: "jsladiesbr"
+  main_url: ""
+
+- title: "Girls in tech br"
+  banner: "girls-in-tech.png"
+  tags: [venus, cc]
+  hashtag: "Girlsintechbr"
+  twitter: "Girlsintechbr"
+  facebook: "GiTSaoPaulo"
+  main_url: "http://brazil.girlsintech.org/"
+
+- title: "Rede Empreendedoras"
+  banner: "rede-empreendedora.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "womeninleadership"
+  twitter: "RMEmpreendedora"
+  facebook: "RedeMulherEmpreendedora"
+  main_url: "http://redemulherempreendedora.com.br/"
+
+- title: "Female Founders meetup"
+  banner: "female-founders.png"
+  tags: [venus]
+  facebook: "groups/386948878364972"
+
+- title: "Training Center"
+  banner: "trainingcenter.jpg"
+  tags: [cc, universal-access]
+  twitter: "trainingcentr"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+
+- title: "Pyladies BH"
+  banner: "pyladies-bh.png"
+  tags: [venus, cc]
+  twitter: "pyladiesbh"
+  facebook: "pyladiesbh"
+  main_url: "http://brasil.pyladies.com/"
+
+- title: "Chicas Poderosas"
+  banner: "chicas-poderosas.png"
+  tags: [venus, cc, universal-access]
+  hashtag: "chicaspoderosas"
+  twitter: "poderosaschicas"
+  facebook: "chicaspoderosas.org"
+  main_url: "https://chicaspoderosas.org/"
+
+- title: "Code Girl"
+  tags: [venus, cc, wheelchair-alt]
+  banner: "codegirl5.jpg"
+  hashtag: "codegirl5"
+  twitter: "codegirlbr"
+  facebook: "codegirlBR"
+  main_url: "http://www.codegirl.com.br/"
+
+- title: "She's tech"
+  banner: "she-is-tech.png"
+  tags: [venus, cc]
+  hashtag: "ShesTechWeek"
+  facebook: "shestech"
+  instagram: "shes_tech"
+  main_url: "https://shestech.org/"
+
+
+
+
+
