@@ -1300,6 +1300,18 @@
   main_url: "https://github.com/node-poa"
   rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
 
+- title: "Storytelling & Transmidia"
+  category: "Curso"
+  location: "São Paulo - SP"
+  date: "05/12"
+  until: "2017-12-05"
+  banner: "story-transmidia.png"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  medium: "nossa-coletividad/latest"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/storytelling-transmidia-crie-a-historia-e-o-posicionamento-da-marca-tickets-39774594884"
+
 - title: "php conference br"
   location: "São Paulo - SP"
   date: "06/12"
@@ -1870,3 +1882,4 @@
   twitter: "theconfbr"
   facebook: "TheConfClub"
   main_url: "http://www.theconf.club/"
+
