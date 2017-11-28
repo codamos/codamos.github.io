@@ -1001,7 +1001,7 @@
   main_url: "http://www.lewagon.com/"
   rsvp_url: "https://www.facebook.com/events/700255503508774/"
 
-- title: "DemoDay Batch #106"
+- title: "Le Wagon - Open Day"
   free: true
   location: "São Paulo - SP"
   date: "29/11"
@@ -1010,7 +1010,7 @@
   twitter: "lewagonbrasil"
   facebook: "lewagonbrasil"
   main_url: "http://www.lewagon.com/"
-  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244441201/"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244578283/"
 
 - title: "Digital Health Talk"
   location: "São Paulo - SP"
@@ -1049,6 +1049,17 @@
 
 
 # DEZEMBRO
+
+- title: "DemoDay Batch #106"
+  free: true
+  location: "São Paulo - SP"
+  date: "01/12"
+  until: "2017-12-01"
+  banner: "le-wagon.png"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "http://www.lewagon.com/"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244441201/"
 
 - title: "Just4Girls! - Bate-papo sobre CSS Grid Layout com o Maujor"
   location: "São Paulo - SP"
@@ -1367,6 +1378,17 @@
   main_url: "http://www.infochain.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/infochain-meetups-2-blockchain-e-o-futuro-do-mercado-financeiro-tickets-40104563830"
 
+- title: "Product Specs 101 - Defina seu produto na lingua do seu CTO"
+  free: true
+  location: "São Paulo - SP"
+  date: "07/12"
+  until: "2017-12-07"
+  banner: "le-wagon.png"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "http://www.lewagon.com/"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/243494818/"
+
 - title: "Javascript: Design Patterns - 3ª edição"
   location: "São Paulo - SP"
   date: "07/12"
@@ -1498,6 +1520,17 @@
   instagram: "infopreta"
   main_url: "http://infopreta.com.br"
   rsvp_url: "https://www.facebook.com/events/184496425445836/"
+
+- title: "Crie sua landing page em 2 horas - Iniciação a HTML e CSS"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/12"
+  until: "2017-12-12"
+  banner: "le-wagon.png"
+  twitter: "lewagonbrasil"
+  facebook: "lewagonbrasil"
+  main_url: "http://www.lewagon.com/"
+  rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244654923/"
 
 - title: "1º Meetup do NodeGirls POA"
   free: true
