@@ -1791,6 +1791,19 @@
   main_url: "http://www.uxconf.com.br/"
   rsvp_url: "http://www.uxconf.com.br/ingressos/"
 
+- title: "Qcon"
+  location: "São Paulo - SP"
+  date: "09/05 a 11/05"
+  until: "2018-05-11"
+  banner: "qcon.png"
+  tags: [cc]
+  hashtag: "QConSP"
+  twitter: "QConSP"
+  facebook: "qconsp"
+  linkedin: "company/qcon-são-paulo/"
+  main_url: "https://qconsp.com/"
+  rsvp_url: "https://qconsp.com/#inscricoes"
+
 - title: "Superlógica Xperience 2018"
   location: "São Paulo - SP"
   date: "07/06 e 08/06"
