@@ -1502,12 +1502,26 @@
   until: "2017-12-15"
   banner: "trainingcenter.jpg"
   tags: [venus, cc, universal-access]
-  twitter: "trainingcentr"
+  twitter: "trainingcenter"
   linkedin: "company/22312627/"
   facebook: "trainingcenterbr"
   medium: "trainingcenter"
   main_url: "https://trainingcenter.io/"
-  rsvp_url: "https://www.meetup.com/Training-Center-RS/events/245116390/?a=socialmedia"
+  rsvp_url: "https://www.meetup.com/Training-Center-RS/events/245116390/"
+
+- title: "Space Girls #2"
+  free: true
+  inclusive: true
+  location: "Sorocaba - SP"
+  date: "15/12"
+  until: "2017-12-15"
+  banner: "spacegirls.png"
+  tags: [venus, cc]
+  hashtag: "GRLPWR"
+  twitter: "spacesorocaba"
+  facebook: "spacesorocaba"
+  main_url: "http://www.spacesorocaba.com.br/"
+  rsvp_url: "https://www.sympla.com.br/space-girls-2__217653"
 
 - title: "Front in POA"
   inclusive: true
