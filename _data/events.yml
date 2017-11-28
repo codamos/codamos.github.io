@@ -1910,3 +1910,13 @@
   facebook: "TheConfClub"
   main_url: "http://www.theconf.club/"
 
+- title: "14ª conferência brasileira da comunidade Python"
+  location: "Natal - RN"
+  date: "17/10 a 22/10"
+  until: "2018-10-17"
+  banner: "python-brasil.png"
+  tags: [cc]
+  hashtag: "PYBR14"
+  twitter: "pythonbrasil"
+  facebook: "pythonbrasil"
+  main_url: "http://2018.pythonbrasil.org.br/"
