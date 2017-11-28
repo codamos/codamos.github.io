@@ -1245,6 +1245,21 @@
   main_url: "http://upwit.org/"
   rsvp_url: "https://www.facebook.com/events/1617891821849460/"
 
+- title: "Hour of Code 2017"
+  category: "Workshop"
+  location: "Global"
+  free: true
+  inclusive: true
+  tags: [child, universal-access]
+  date: "04/12 a 10/12"
+  until: "2017-12-10"
+  banner: "hour-of-code.png"
+  hashtag: "HourOfCode"
+  twitter: "hourofcode"
+  facebook: "Code.org"
+  main_url: "https://hourofcode.com/br"
+  rsvp_url: "https://hourofcode.com/br"
+
 - title: "1º Meetup React Joinville"
   location: "Joinville - SC"
   date: "05/12"
