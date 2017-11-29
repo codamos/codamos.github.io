@@ -249,6 +249,22 @@
   main_url: "https://uxpmbrasil.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/certificacao-ux-pm-nivel-1-20160909152418-20170302192049-20170309122436-20170309180250-2017070315142"
 
+- title: "Workshop: Mulheres que falam!"
+  location: "São Paulo - SP"
+  inclusive: true
+  lgbt: true
+  free: true
+  codamos: true
+  date: "02/12"
+  until: "2017-12-02"
+  banner: "mulheres-que-falam.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "Codamos"
+  twitter: "CodamosClub"
+  facebook: "codamosclub"
+  main_url: "https://www.codamos.club/"
+  rsvp_url: "https://www.meetup.com/Codamos-Club/events/245471460/"
+
 - title: "Oficina das amigas"
   location: "São Paulo - SP"
   free: true
