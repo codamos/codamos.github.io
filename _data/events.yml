@@ -554,6 +554,16 @@
   main_url: "http://www.lewagon.com/"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/243494818/"
 
+- title: "#4 - Especial Processos de Desenvolvimento SP + São Paulo Agile"
+  free: true
+  location: "São Paulo - SP"
+  date: "07/12"
+  until: "2017-12-07"
+  banner: "agile-processos-desenvolvimentos.png"
+  meetup: "Processos"
+  main_url: "https://www.meetup.com/Processos"
+  rsvp_url: "https://www.meetup.com/Processos/events/245342101/"
+
 - title: "Javascript: Design Patterns - 3ª edição"
   location: "São Paulo - SP"
   date: "07/12"
