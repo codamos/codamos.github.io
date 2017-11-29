@@ -187,6 +187,17 @@
   main_url: "https://trello.com/"
   rsvp_url: "https://www.sympla.com.br/conexao-trello--ao-vivo-online__209558"
 
+- title: "34º CocoaHeads SP @ CUBO"
+  location: "São Paulo - SP"
+  free: true
+  date: "30/11"
+  until: "2017-11-30"
+  banner: "apsterdam-brasil.png"
+  twitter: "AppsterdamBR"
+  facebook: "appsterdambr"
+  main_url: "http://brasil.appsterdam.rs/"
+  rsvp_url: "https://whiz-bionexo.typeform.com/to/hhEpso"
+
 - title: "Mulheres e Java: Introdução, conceito e prática"
   location: "São Paulo - SP"
   free: true
