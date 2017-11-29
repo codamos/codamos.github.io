@@ -163,6 +163,30 @@
   main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
   rsvp_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/events/244715301/"
 
+- title: "Conexão Trello | São Paulo"
+  location: "São Paulo - SP"
+  free: true
+  date: "30/11"
+  until: "2017-11-30"
+  banner: "conexao-trello.png"
+  tags: [universal-access]
+  twitter: "trello"
+  facebook: "TrelloBrasil"
+  main_url: "https://trello.com/"
+  rsvp_url: "https://www.sympla.com.br/conexao-trello--sao-paulo__216567"
+
+- title: "Conexão Trello live | São Paulo"
+  location: "On-line"
+  free: true
+  date: "30/11"
+  until: "2017-11-30"
+  banner: "conexao-trello.png"
+  tags: [universal-access]
+  twitter: "trello"
+  facebook: "TrelloBrasil"
+  main_url: "https://trello.com/"
+  rsvp_url: "https://www.sympla.com.br/conexao-trello--ao-vivo-online__209558"
+
 - title: "Mulheres e Java: Introdução, conceito e prática"
   location: "São Paulo - SP"
   free: true
@@ -406,6 +430,18 @@
   medium: "@upwit"
   main_url: "http://upwit.org/"
   rsvp_url: "https://www.facebook.com/events/1617891821849460/"
+
+- title: "Conexão Trello | Rio"
+  location: "Rio de Janeiro - RJ"
+  free: true
+  date: "04/12"
+  until: "2017-12-04"
+  banner: "conexao-trello-rio.png"
+  tags: [universal-access]
+  twitter: "trello"
+  facebook: "TrelloBrasil"
+  main_url: "https://trello.com/"
+  rsvp_url: "https://www.sympla.com.br/conexao-trello--rio-de-janeiro__216563"
 
 - title: "Hour of Code 2017"
   category: "Workshop"
