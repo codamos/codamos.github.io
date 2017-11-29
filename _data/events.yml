@@ -636,6 +636,21 @@
   main_url: "http://www.clojurebridge.org/"
   rsvp_url: "http://www.clojurebridge.org/events/2017-12-08-sao-paulo"
 
+- title: "HACKATHON WEAR + C&A"
+  inclusive: true
+  hackathon: true
+  free: true
+  location: "Rio de janeiro - RJ"
+  date: "09/12 e 10/12"
+  until: "2017-12-10"
+  banner: "hackathon-cea.png"
+  tags: [venus]
+  facebook: "wearbrasil"
+  instagram: "wearbrasil"
+  youtube: "user/FilmeFashion"
+  main_url: "http://python.mulheres.eti.br"
+  rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
+
 - title: "Raspagem de Dados com Python"
   category: "Workshop"
   inclusive: true
