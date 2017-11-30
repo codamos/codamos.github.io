@@ -525,6 +525,17 @@
   main_url: "https://github.com/node-poa"
   rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
 
+- title: "Let´s Talk About UX"
+  women: true
+  location: "São Paulo - SP"
+  date: "05/12"
+  until: "2017-12-05"
+  banner: "lets-talk-about-ux.png"
+  twitter: "vindibr"
+  facebook: "VindiBR"
+  main_url: "https://vindi.com.br/"
+  rsvp_url: "https://www.eventbrite.com.br/e/let-s-talk-about-ux-tickets-40873187805"
+
 - title: "Storytelling & Transmidia"
   category: "Curso"
   location: "São Paulo - SP"
