@@ -485,6 +485,19 @@
   main_url: "https://hourofcode.com/br"
   rsvp_url: "https://hourofcode.com/br"
 
+- title: "Mulheres na Tecnologia e na Inovação"
+  location: "São Paulo - SP"
+  free: true
+  inclusive: true
+  women: true
+  tags: [venus, universal-access]
+  date: "04/12"
+  until: "2017-12-10"
+  banner: "mulheres-na-tecnologia.png"
+  facebook: "SMIT.inovacaotec"
+  main_url: "http://www.prefeitura.sp.gov.br/cidade/secretarias/inovacao/"
+  rsvp_url: "https://www.facebook.com/events/1832585563442805/"
+
 - title: "1º Meetup React Joinville"
   location: "Joinville - SC"
   date: "05/12"
