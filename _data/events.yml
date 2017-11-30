@@ -651,6 +651,19 @@
   main_url: "http://python.mulheres.eti.br"
   rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
 
+- title: "Edição 3 - Como construir produtos digitais de alta performance"
+  location: "São Paulo - SP"
+  category: "workshop"
+  date: "09/12 e 10/12"
+  until: "2017-12-10"
+  banner: "ux-workshop-trampos.png"
+  twitter: "tramposACADEMY"
+  facebook: "tramposACADEMY"
+  instagram: "tramposco"
+  linkedin: "showcase/trampos-academy/"
+  main_url: "http://trampos.academy/"
+  rsvp_url: "http://trampos.academy/ux/"
+
 - title: "Raspagem de Dados com Python"
   category: "Workshop"
   inclusive: true
