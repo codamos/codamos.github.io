@@ -643,6 +643,19 @@
   main_url: "http://www.gbgcuritiba.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/womenwill-programa-google-inspirando-mulheres-tickets-40083454692"
 
+- title: "Hackultura - Nós Livres Hackatona"
+  hackathon: true
+  free: true
+  location: "São Paulo - SP"
+  date: "08/12 e 09/12"
+  until: "2017-12-09"
+  banner: "hackcultura.png"
+  tags: [cc,universal-access]
+  twitter: "noslivres_org"
+  facebook: "noslivres.org.br"
+  main_url: "http://www.clojurebridge.org/"
+  rsvp_url: "http://noslivres.org.br/hackatona/"
+
 - title: "Clojure Bridge SP"
   women: true
   highlight: true
