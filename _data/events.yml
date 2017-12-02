@@ -485,6 +485,17 @@
   main_url: "https://hourofcode.com/br"
   rsvp_url: "https://hourofcode.com/br"
 
+- title: "Intervenção de arte e tecnologia | OCUPE LABxS"
+  location: "Santos - SP"
+  free: true
+  date: "04/12"
+  until: "2017-12-04"
+  banner: "Intervencao-arte-tecnologia.png"
+  facebook: "institutoprocomum"
+  instagram: "procomum"
+  main_url: "http://www.procomum.org/"
+  rsvp_url: "http://labsantista.procomum.org/intervencao-de-arte-e-tecnologia-ocupe-labxs/"
+
 - title: "Mulheres na Tecnologia e na Inovação"
   location: "São Paulo - SP"
   free: true
