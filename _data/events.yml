@@ -549,6 +549,18 @@
   main_url: "https://vindi.com.br/"
   rsvp_url: "https://www.eventbrite.com.br/e/let-s-talk-about-ux-tickets-40873187805"
 
+- title: "SP Legal Hackers"
+  hackathon: true
+  location: "São Paulo - SP"
+  date: "05/12"
+  until: "2017-12-05"
+  banner: "sp-legal-hackers.png"
+  twitter: "aasp_online"
+  facebook: "aasponline"
+  instagram: "aasponline"
+  main_url: "https://www.aasp.org.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScz7ZyZdsWe7kmp_5NimPgQYNe0MWJbH318cbtEGlx0bmwz6w/viewform"
+
 - title: "Storytelling & Transmidia"
   category: "Curso"
   location: "São Paulo - SP"
@@ -647,8 +659,8 @@
   hackathon: true
   free: true
   location: "São Paulo - SP"
-  date: "08/12 e 09/12"
-  until: "2017-12-09"
+  date: "08/12"
+  until: "2017-12-08"
   banner: "hackcultura.png"
   tags: [cc,universal-access]
   twitter: "noslivres_org"
