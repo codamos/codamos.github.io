@@ -1351,6 +1351,18 @@
   facebook: "frontinsampa"
   main_url: "http://www.frontinsampa.com.br/"
 
+- title: "PGConf Brasil 2018"
+  cfp: true
+  location: "São Paulo - SP"
+  date: "03/08 e 04/08"
+  until: "2018-08-04"
+  banner: "pgconf.png"
+  hashtag: "pgconfbr"
+  twitter: "pgconfbr"
+  facebook: "pgconf"
+  main_url: "http://www.pgconf.com.br/"
+  rsvp_url: "https://pgconfbrasil2018.eventize.com.br/"
+
 - title: "BrazilJS - RS"
   inclusive: true
   location: "Porto Alegre - RS"
