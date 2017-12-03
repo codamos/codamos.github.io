@@ -595,6 +595,19 @@
   main_url: "https://stefanini.com/pt/"
   rsvp_url: "https://inevent.us/pt/3MeetupStefaniniAgileExperts/formulario.php"
 
+- title: "UX em Debate"
+  free: true
+  location: "São Paulo - SP"
+  date: "06/12"
+  until: "2017-12-06"
+  banner: "ux-em-debate.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  medium: "nossa-coletividad/latest"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ux-em-debate-tickets-39879780497"
+
 - title: "php conference br"
   location: "São Paulo - SP"
   date: "06/12"
@@ -722,6 +735,18 @@
   youtube: "user/FilmeFashion"
   main_url: "http://python.mulheres.eti.br"
   rsvp_url: "http://pesquisa.softwarelivre.org/index.php/125566"
+
+- title: "Primeiros Passos com IoT"
+  location: "São Paulo - SP"
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "começando-com-iot.png"
+  hashtag: "coletividad"
+  twitter: "coletividad"
+  facebook: "COLETIVIDAD"
+  medium: "nossa-coletividad/latest"
+  main_url: "http://www.coletividad.org/"
+  rsvp_url: "https://www.eventbrite.com.br/e/ux-em-debate-tickets-39879780497"
 
 - title: "Edição 3 - Como construir produtos digitais de alta performance"
   location: "São Paulo - SP"
