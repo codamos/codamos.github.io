@@ -890,6 +890,20 @@
   main_url: "http://www.mis-sp.org.br/"
   rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScFdesZBc0LalL-PXimAOMfrLwA_80kBXK-iPLx4yPWs3Xy6g/viewform"
 
+- title: "Meetup > Fabricação de Circuitos Impressos"
+  free: true
+  location: "São Paulo - SP"
+  date: "12/12"
+  until: "2017-12-12"
+  banner: "circuitos-impressos.png"
+  tags: [wheelchair-alt]
+  hashtag: "wefab"
+  twitter: "yes_wefab"
+  facebook: "yes.wefab"
+  linkedin: "company/we-fab/"
+  main_url: "http://wefab.cc/"
+  rsvp_url: "https://www.eventbrite.com.br/e/meetup-fabricacao-de-circuitos-impressos-tickets-40844924268"
+
 - title: "1º Meetup do NodeGirls POA"
   free: true
   women: true
@@ -921,7 +935,7 @@
   date: "13/12"
   until: "2017-12-13"
   banner: "women-dev-summit2.png"
-  tags: [venus, cc, wheelchair-alt,universal-access]
+  tags: [venus, cc, wheelchair-alt]
   hashtag: "WDS2k17"
   facebook: "womendevsummit"
   main_url: "http://womendevsummit.com/"
@@ -929,7 +943,6 @@
 
 - title: "Talks GBG SP"
   inclusive: true
-  women: true
   location: "São Paulo - SP"
   date: "14/12"
   until: "2017-12-14"
