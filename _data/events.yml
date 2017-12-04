@@ -927,6 +927,21 @@
   main_url: "http://womendevsummit.com/"
   rsvp_url: "https://www.meetup.com/WoMakersCode/events/245173987/"
 
+- title: "TC Talks #fimdeano"
+  free: true
+  inclusive: true
+  location: "Porto Alegre - RS"
+  date: "15/12"
+  until: "2017-12-15"
+  banner: "trainingcenter.jpg"
+  tags: [venus, cc, universal-access]
+  twitter: "trainingcenter"
+  linkedin: "company/22312627/"
+  facebook: "trainingcenterbr"
+  medium: "trainingcenter"
+  main_url: "https://trainingcenter.io/"
+  rsvp_url: "https://www.meetup.com/Training-Center-SP/events/245235869/"
+
 - title: "Happy Hour do TC"
   free: true
   inclusive: true
