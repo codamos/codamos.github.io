@@ -820,6 +820,18 @@
   main_url: "https://www.meetup.com/PyLadiesSP/"
   rsvp_url: "https://www.sympla.com.br/curso-basico-1-iniciante-e-basico-2-antigo-intermediario-de-python__221762"
 
+- title: "</> JUNTOS NA TI - 5ª EDIÇÃO"
+  free: true
+  inclusive: true
+  location:  "São Paulo - SP"
+  date: "09/12"
+  until: "2017-12-09"
+  banner: "juntos-na-ti-5.png"
+  tags: [cc, universal-access]
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+  main_url: "https://docs.google.com/forms/d/e/1FAIpQLSccBVtc5RUBzWMQJ5W801A0VL-pdQnQY__ehQbBV8ffT5Hdwg/viewform"
+
 - title: "Ladies to ladies"
   women: true
   free: true
