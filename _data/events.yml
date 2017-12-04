@@ -864,6 +864,20 @@
   main_url: "http://www.lewagon.com/"
   rsvp_url: "https://www.meetup.com/Le-Wagon-Sao-Paulo-Coding-Station/events/244654923/"
 
+- title: "POW3R - Mulheres na tecnologia, nos negócios e na política"
+  free: true
+  women: true
+  location: "São Paulo - SP"
+  date: "12/12"
+  until: "2017-12-12"
+  banner: "pow3r-mis.png"
+  tags: [venus, cc, wheelchair-alt]
+  instagram: "mis_sp"
+  twitter: "mis_sp"
+  facebook: "museudaimagemedosom"
+  main_url: "http://www.mis-sp.org.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScFdesZBc0LalL-PXimAOMfrLwA_80kBXK-iPLx4yPWs3Xy6g/viewform"
+
 - title: "1º Meetup do NodeGirls POA"
   free: true
   women: true
