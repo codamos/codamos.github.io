@@ -1574,6 +1574,19 @@
   facebook: "TheConfClub"
   main_url: "http://www.theconf.club/"
 
+- title: "Agile Brazil"
+  location: "Campinas - SP"
+  date: "03/10 a 05/10"
+  until: "2018-10-05"
+  banner: "agile-br.png"
+  women: true
+  tags: [cc, universal-access]
+  hashtag: "AgileBR"
+  twitter: "agilebrazil"
+  facebook: "AgileBrazil"
+  instagram: "agilebrazil"
+  main_url: "http://www.agilebrazil.com/"
+
 - title: "latinoware 2018"
   location: "Foz do Iguaçu - PR"
   date: "17/10 a 22/10"
