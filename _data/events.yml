@@ -509,15 +509,6 @@
   main_url: "http://www.prefeitura.sp.gov.br/cidade/secretarias/inovacao/"
   rsvp_url: "https://www.facebook.com/events/1832585563442805/"
 
-- title: "1º Meetup React Joinville"
-  location: "Joinville - SC"
-  date: "05/12"
-  until: "2017-12-05"
-  banner: "react-joinville.png"
-  facebook: "reactjoinville"
-  main_url: "https://www.meetup.com/preview/React-Joinville"
-  rsvp_url: "https://www.meetup.com/preview/React-Joinville/events/244258962"
-
 - title: "Lab Reparo"
   location: "São Paulo - SP"
   free: true
@@ -547,7 +538,7 @@
   twitter: "nodejspoa"
   meetup: "Node-js-Porto-Alegre-Meetup"
   main_url: "https://github.com/node-poa"
-  rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/242959416/"
+  rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/245166069/"
 
 - title: "Let´s Talk About UX"
   women: true
@@ -873,6 +864,15 @@
   meetup: "Node-js-Porto-Alegre-Meetup"
   main_url: "https://github.com/node-poa"
   rsvp_url: "https://www.meetup.com/Node-js-Porto-Alegre-Meetup/events/245280017/"
+
+- title: "2º Meetup React Joinville"
+  location: "Joinville - SC"
+  date: "13/12"
+  until: "2017-12-13"
+  banner: "react-joinville.png"
+  facebook: "reactjoinville"
+  main_url: "https://www.meetup.com/preview/React-Joinville"
+  rsvp_url: "https://www.meetup.com/preview/React-Joinville/events/245310890/"
 
 - title: "Women Dev Summit bootcamp"
   inclusive: true
