@@ -1575,6 +1575,18 @@
   facebook: "groups/grupolatinoware"
   main_url: "http://latinoware.org/"
 
+- title: "Futurecom 2018 | 20 Anos"
+  location: "São Paulo - SP"
+  date: "15/10 a 18/10"
+  until: "2018-10-18"
+  banner: "futurecom-2018.png"
+  hashtag: "Futurecom2018"
+  twitter: "FuturecomEvent"
+  facebook: "futurecom"
+  linkedin: "showcase/futurecomevent"
+  main_url: "https://www.futurecom.com.br"
+  rsvp_url: "https://www.futurecom.com.br"
+
 - title: "14ª conferência brasileira da comunidade Python"
   location: "Natal - RN"
   date: "17/10 a 22/10"
