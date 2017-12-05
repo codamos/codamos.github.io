@@ -664,6 +664,22 @@
   main_url: "http://www.coletividad.org/"
   rsvp_url: "https://www.eventbrite.com.br/e/javascript-design-patterns-3a-edicao-tickets-39728107840"
 
+- title: "Workshop de negociação - Ela Líder #16"
+  free: true
+  inclusive: true
+  women: true
+  category: "Workshop"
+  location: "São Paulo - SP"
+  date: "07/12"
+  until: "2017-12-07"
+  banner: "ela-lider.png"
+  tags: [venus]
+  hashtag: "#elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  main_url: "https://elalider.com/"
+  rsvp_url: "https://www.meetup.com/elalider/events/245359421/"
+
 - title: "WomenWill - Programa Google Inspirando Mulheres"
   women: true
   inclusive: true
