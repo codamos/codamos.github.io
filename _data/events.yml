@@ -988,6 +988,18 @@
   main_url: "http://gbgsaopaulo.com.br/2017/12/04/talks-gbg-sp/"
   rsvp_url: "https://www.meetup.com/Google-Business-Group-Sao-Paulo/events/245644202/"
 
+- title: "Café DevOps - CloudBees + Instruct"
+  free: true
+  location: "São Paulo - SP"
+  date: "14/12"
+  until: "2017-12-14"
+  banner: "cafe-dev-ops.png"
+  hashtag: "DevOps"
+  twitter: "instructbr"
+  facebook: "InstructBR"
+  main_url: "http://instruct.com.br/"
+  rsvp_url: "https://www.eventbrite.com/e/cafe-devops-cloudbees-instruct-tickets-40163230303"
+
 - title: "TC Talks #fimdeano"
   free: true
   inclusive: true
@@ -1031,6 +1043,17 @@
   facebook: "spacesorocaba"
   main_url: "http://www.spacesorocaba.com.br/"
   rsvp_url: "https://www.sympla.com.br/space-girls-2__217653"
+
+- title: "Devfest SP"
+  women: true
+  location: "São Paulo - SP"
+  date: "16/12"
+  until: "2017-12-16"
+  banner: "devfest-sp.png"
+  hashtag: "devfestsp17"
+  twitter: "gdgsaopaulo"
+  main_url: "https://sp.devfest.com.br/"
+  rsvp_url: "https://www.sympla.com.br/devfest-sp-2017__215542"
 
 - title: "Front in POA"
   inclusive: true
@@ -1116,6 +1139,16 @@
   rsvp_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/events/245350750/"
 
 # 2018
+
+- title: "Workshop de Angular4 (para 100% iniciantes)"
+  location: "São Paulo - SP"
+  free: true
+  date: "18/01"
+  until: "2018-01-18"
+  banner: "frontend-sp-meetup.png"
+  twitter: "frontendsp"
+  main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
+  rsvp_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/events/245640177/"
 
 - title: "Certificação UX-PM 1 - Adotando UX"
   category: "Curso"
