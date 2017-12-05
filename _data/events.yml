@@ -704,6 +704,17 @@
   main_url: "http://noslivres.org.br/hackatona/"
   rsvp_url: "http://noslivres.org.br/hackatona/"
 
+- title: "4º meetup fCC | Tema: React"
+  free: true
+  location: "São Paulo - SP"
+  date: "08/12"
+  until: "2017-12-08"
+  banner: "freecodecamp.png"
+  tags: [cc,universal-access]
+  facebook: "groups/free.code.camp.sao.paulo/permalink/490685861266063/"
+  main_url: "https://www.facebook.com/events/389305954836907/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSdBISjXUf5ijLBxNnHvPc3spZfKzxNogZZBSja_4ASyXZN3WA/closedform"
+
 - title: "Clojure Bridge SP"
   women: true
   highlight: true
@@ -873,6 +884,21 @@
   instagram: "infopreta"
   main_url: "http://infopreta.com.br"
   rsvp_url: "https://www.facebook.com/events/184496425445836/"
+
+- title: "{Reprograma} - Estacão HACK"
+  free: true
+  inclusive: true
+  women: true
+  location: "São Paulo - SP"
+  date: "12/12"
+  until: "2017-12-12"
+  banner: "reprograma-estacao-hack.png"
+  tags: [venus, cc, wheelchair-alt]
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLSfkT0FYFUypJMW34BvdD6355hsaTEOOZyDot0VtRm08ux32Vw/viewform"
 
 - title: "Crie sua landing page em 2 horas - Iniciação a HTML e CSS"
   free: true
