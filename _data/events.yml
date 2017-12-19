@@ -1238,6 +1238,15 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/curso-ux-writing.html"
 
+- title: "Worksec"
+  location: "On-line"
+  date: "27/01 a 28/01"
+  until: "2018-01-28"
+  banner: "work-sec.png"
+  hashtag: "beapirate"
+  main_url: "http://worksec.congressodeti.com.br/"
+  rsvp_url: "http://worksec.congressodeti.com.br/"
+
 - title: "Campus Party - #CPBR11"
   location: "São Paulo - SP"
   date: "30/01 a 04/02"
