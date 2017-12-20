@@ -504,6 +504,7 @@
   rsvp_url: "https://www.eventbrite.com.br/e/openstack-days-sao-paulo-2018-tickets-36463524383"
 
 - title: "FISL 2018"
+  highlight: true
   location: "Porto Alegre - RS"
   date: "11/07 a 14/07"
   until: "2018-11-14"
@@ -516,6 +517,7 @@
   rsvp_url: "http://softwarelivre.org/fisl18"
 
 - title: "Front in Sampa"
+  highlight: true
   location: "São Paulo - SP"
   date: "14/07"
   until: "2018-07-14"
@@ -542,6 +544,7 @@
 
 - title: "BrazilJS - RS"
   inclusive: true
+  highlight: true
   location: "Porto Alegre - RS"
   date: "Definir"
   until: "2018-08-26"
@@ -555,6 +558,7 @@
 
 - title: "React Conf"
   inclusive: true
+  highlight: true
   location: "São Paulo - SP"
   date: "Definir"
   until: "2018-12-07"
@@ -567,6 +571,7 @@
 
 - title: "Rubyconf BR"
   inclusive: true
+  highlight: true
   location: "São Paulo - SP"
   date: "Definir"
   until: "2018-12-20"
