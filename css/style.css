@@ -430,11 +430,11 @@ p {
 }
 
 .page-banner-title {
-    font-size: var(--title-small);
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px rgba(4, 8, 12, 0.7);
     text-transform: uppercase;
+    background: #d91a5b;
+    padding: 10px 10px 0 10px;
 }
 
 .page-section-title {
@@ -460,10 +460,10 @@ p {
 
 .page-section-text {
     color: #3e3e3e;
-    font-size: var(--text-medium);
-    font-size: 20px;
-    font-weight: 400;
+    font-size: large;
+    font-weight: 300;
     line-height: 1.5;
+    letter-spacing: 1px;
     margin: 1.8em 0;
 }
 
@@ -518,8 +518,7 @@ p {
     }
 
     .page-banner-title {
-        font-size: var(--title-medium);
-        font-size: 40px;
+        font-size: 2em;
     }
 
     .page-section-subtitle {
@@ -540,8 +539,7 @@ p {
         margin: 0 auto;
     }
     .page-banner-title {
-        font-size: var(--title-large);
-        font-size: 48px;
+        font-size: 2em;
     }
 
     .page-section-subtitle {
@@ -569,6 +567,7 @@ p {
 #header .logotipo-codamos img {
     width: 50%;
     float: left;
+    padding: 4px 0 4px 0;
 }
 
 .header-navbar {
@@ -672,7 +671,7 @@ p {
 
 @media (min-width: 992px) {
     #header .logotipo-codamos img {
-        width: 100%;
+        width: 80%;
     }
 
     .header-navbar-menu {
@@ -716,7 +715,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10%;
 }
 
 .banner-index {
@@ -748,7 +746,6 @@ p {
 #banner .page-section-text {
     color: #ffffff;
     width: 60%;
-    text-shadow: 1px 1px 1px rgba(4, 8, 12, 0.5);
 }
 
 @media (max-width: 660px) {
@@ -1663,7 +1660,7 @@ p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 500px;
+    height: 80vh;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -1681,7 +1678,7 @@ p {
 }
 
 .partners-supporters-wannabe h3 {
-    font-size: 2.0em;
+    font-size: 2.5em;
     font-family: 'Josefin Sans', Sans-Serif;
 }
 
