@@ -58,6 +58,17 @@
 
 # JANEIRO
 
+- title: "Neuro Shock - WorkShock em Neuromarketing"
+  location: "Fortaleza - CE"
+  free: false
+  women: true
+  date: "13/01"
+  until: "2018-01-13"
+  banner: "desencaixaorg.jpg"
+  facebook: "desencaixaorg"
+  main_url: "https://www.facebook.com/events/1962037264039166/"
+  rsvp_url: "https://www.desencaixa.org/events/neuro-shock-workshock-em-neuromarketing"
+
 - title: "Workshop de Angular4 (para 100% iniciantes)"
   location: "São Paulo - SP"
   free: true
