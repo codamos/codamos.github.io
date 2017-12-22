@@ -94,6 +94,17 @@
   main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
   rsvp_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/events/245640177/"
 
+- title: "Dev Weekend 2018"
+  women: true
+  location: "Diamantina - MG"
+  date: "19/01, 20/01 e 21/01"
+  until: "2018-01-21"
+  banner: "devweekend2018.jpg"
+  instagram: "devweekenddiamantina"
+  facebook: "devweekenddiamantina"
+  main_url: "http://devweekend.com.br/"
+  rsvp_url: "https://www.sympla.com.br/dev-weekend__200890"
+
 - title: "Certificação UX-PM 1 - Adotando UX"
   category: "Curso"
   location: "São Paulo - SP"
