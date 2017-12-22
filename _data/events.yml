@@ -100,7 +100,6 @@
   date: "19/01, 20/01 e 21/01"
   until: "2018-01-21"
   banner: "devweekend2018.jpg"
-  instagram: "devweekenddiamantina"
   facebook: "devweekenddiamantina"
   main_url: "http://devweekend.com.br/"
   rsvp_url: "https://www.sympla.com.br/dev-weekend__200890"
@@ -142,7 +141,7 @@
   free: true
   inclusive: true
   women: true
-  tags: [venus, wheelchair-alt]
+  tags: [venus, wheelchair-alt, transgender-alt]
   location: "São Paulo - SP"
   date: "20/01"
   until: "2018-01-20"
