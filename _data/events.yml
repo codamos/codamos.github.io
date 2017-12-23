@@ -58,6 +58,32 @@
 
 # JANEIRO
 
+- title: "ngGirls Rio"
+  tags: [venus]
+  location: "Rio de Janeiro - RJ"
+  free: true
+  women: true
+  date: "13/01"
+  until: "2018-01-13"
+  banner: "nggirlsrio.png"
+  facebook: "nggirlsrio"
+  twitter: nggirlsrio
+  hashtag: "nggirls"
+  main_url: "http://ng-girls.org/rio/"
+  rsvp_url: "https://docs.google.com/forms/d/e/1FAIpQLScGzZX7kVZToZSflQisYaQmTjjDfLzRMxFNW17zgOjvEbHrtg/viewform"
+
+- title: "Neuro Shock - WorkShock em Neuromarketing"
+  category: "Curso"
+  location: "Fortaleza - CE"
+  free: false
+  women: true
+  date: "13/01"
+  until: "2018-01-13"
+  banner: "desencaixaorg.jpg"
+  facebook: "desencaixaorg"
+  main_url: "https://www.facebook.com/events/1962037264039166/"
+  rsvp_url: "https://www.desencaixa.org/events/neuro-shock-workshock-em-neuromarketing"
+
 - title: "Workshop de Angular4 (para 100% iniciantes)"
   location: "São Paulo - SP"
   free: true
@@ -67,6 +93,16 @@
   twitter: "frontendsp"
   main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
   rsvp_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/events/245640177/"
+
+- title: "Dev Weekend 2018"
+  women: true
+  location: "Diamantina - MG"
+  date: "19/01, 20/01 e 21/01"
+  until: "2018-01-21"
+  banner: "devweekend2018.jpg"
+  facebook: "devweekenddiamantina"
+  main_url: "http://devweekend.com.br/"
+  rsvp_url: "https://www.sympla.com.br/dev-weekend__200890"
 
 - title: "Certificação UX-PM 1 - Adotando UX"
   category: "Curso"
@@ -100,6 +136,21 @@
   facebook: "mergo.user.experience"
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/formacao-ux.html"
+
+- title: "I Encontro Incluser: Mulheres e suas diversidades"
+  free: true
+  inclusive: true
+  women: true
+  tags: [venus, wheelchair-alt, transgender-alt]
+  location: "São Paulo - SP"
+  date: "20/01"
+  until: "2018-01-20"
+  banner: "encontroincluser.jpg"
+  twitter: "inclusers"
+  facebook: "inclusers"
+  instagram: "incluser"
+  main_url: "https://www.facebook.com/events/1751417718222970/"
+  rsvp_url: "https://incluser.typeform.com/to/AGVQvf"
 
 - title: "DIRETO AO PONTO - INCEPTION ENXUTA"
   category: "workshop"
