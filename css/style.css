@@ -448,14 +448,21 @@ p {
 .page-section-subtitle {
     font-weight: 300;
     font-size: 1.5em;
-    margin: 2em 0 1.8em 0;
+    margin: 1.8em 0;
 }
 
 .page-section-subtitle-alt {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 2em 0 1.8em 0;
+    margin: 1.8em 0;
     color: #3e3e3e;
+}
+
+.page-section-subtitle-patners {
+    font-size: 2.0em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 1.8em 0;
+    color: #eee;
 }
 
 .page-section-text {
@@ -464,7 +471,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin: 1.8em 0;
+    margin: 1.0em 0;
 }
 
 .page-section-white {
@@ -492,9 +499,14 @@ p {
     background-color: #e60050;
 }
 
-.page-section-black-four {
-    background-color: var(--black-four);
-    background-color: #2f2f2f;
+.page-section-dark {
+    background-color: var(--dark);
+    background-color: darkblue;
+}
+
+.page-section-black {
+    background-color: var(--black);
+    background-color: #020000;
 }
 
 .page-section-white-four {
@@ -694,6 +706,7 @@ p {
 
 
 /*BANNER*/
+
 #banner {
     display: flex;
     align-items: center;
@@ -701,13 +714,15 @@ p {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    height: 80vh;
-    padding: 0 5%;
+    height: 100vh;
+    padding: 5% 0 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: rgba(10, 80, 266, 0.8);
-    background-blend-mode: overlay;
+    position: relative;
+    background-color: darkblue;
+    background-blend-mode: multiply, color-burn;
+    border-bottom: 6px solid #e60050;
 }
 
 .banner-content {
@@ -724,9 +739,11 @@ p {
 .banner-eventos {
     background-image: url("../images/bg-banner011.jpg");
 }
+
 .banner-comunidades {
     background-image: url("../images/bg-banner003.jpg");
 }
+
 .banner-podcast {
     background-image: url("../images/bg-banner012.jpg");
 }
@@ -1643,8 +1660,9 @@ p {
 }
 
 .partners-supporters-links img {
-    opacity: 0.8;
+    opacity: 0.9;
     width: 100%;
+    mix-blend-mode: lighten;
 }
 
 .partners-supporters-links li {
@@ -1660,12 +1678,13 @@ p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(10, 80, 266, 0.8);
-    background-blend-mode: overlay;
+    background-color: darkmagenta;
+    background-blend-mode: multiply, color-burn;
+    border-top: 6px solid #e60050;
 }
 
 .partners-supporters-wannabe {
@@ -1800,6 +1819,7 @@ p {
     margin: 0 auto;
     text-align: center;
     padding: 2%;
+    border-top: 6px solid #e60050;
 }
 
 #footer a {
@@ -1824,7 +1844,7 @@ p {
 
 .footer-menu a {
     list-style: none;
-    font-size: small;
+    font-size: x-small;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -1850,7 +1870,7 @@ p {
 }
 
 .footer-social .footer-logo {
-    background: #2f2f2f;
+    background: darkblue;
 }
 
 .footer-creativecommons-text {
