@@ -306,7 +306,7 @@ p {
     border: 2px solid #e60050;
     padding: 14px 44px;
     border-radius: 14px;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 .button-primary-outline:active, .button-primary-outline:hover {
@@ -406,7 +406,7 @@ p {
 .page-section {
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 6em auto;
 }
 
 .page-section p a {
@@ -435,33 +435,37 @@ p {
     text-transform: uppercase;
     background: #d91a5b;
     padding: 10px 10px 0 10px;
+    margin-bottom: 0.5em;
 }
 
 .page-section-title {
     font-size: var(--title-large);
     font-size: 2.0em;
-    margin: 1.4em 0 1.0em 0;
     color: #3366cc;
     font-weight: 300;
 }
 
+.distance-top {
+    margin: 2.5em 0;
+}
+.distance-bottom {
+    margin: 0 0 2.5em 0;
+}
 .page-section-subtitle {
     font-weight: 300;
     font-size: 1.5em;
-    margin: 1.8em 0;
 }
 
 .page-section-subtitle-alt {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 1.8em 0;
     color: #3e3e3e;
 }
 
 .page-section-subtitle-patners {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 1.8em 0;
+    margin: 1.5em 0;
     color: #eee;
 }
 
@@ -471,7 +475,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin: 1.0em 0;
+    margin: 0 0 1.5em 0;
 }
 
 .page-section-white {
@@ -522,7 +526,6 @@ p {
     .page-section {
         text-align: center;
         width: 90%;
-        margin: 0 auto;
     }
 }
 
@@ -530,7 +533,6 @@ p {
     .page-section {
         text-align: center;
         width: 80%;
-        margin: 0 auto;
     }
 
     .page-banner-title {
@@ -552,7 +554,6 @@ p {
     .page-section {
         text-align: center;
         width: 70%;
-        margin: 0 auto;
     }
     .page-banner-title {
         font-size: 2em;
@@ -718,7 +719,7 @@ p {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    height: 100vh;
+    height: 70vh;
     padding: 5% 0 0 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -726,7 +727,7 @@ p {
     position: relative;
     background-color: darkblue;
     background-blend-mode: multiply, color-burn;
-    border-bottom: 6px solid #ffb400;
+    border-bottom: 6px solid #d1e500;
 }
 
 .banner-content {
@@ -1619,16 +1620,15 @@ p {
 }
 
 .coc-section-license {
-    margin: 4em 0;
+    margin: 6em 0;
 }
 
 #code-of-conduct {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    margin: 6em 0;
-    border-bottom: 2em solid #fdbbc7;
-    border-top: 2em solid #fdbbc7;
+    border-bottom: 1.5em solid #fdbbc7;
+    border-top: 1.5em solid #fdbbc7;
 }
 
 .code-of-conduct-title {
@@ -1636,7 +1636,7 @@ p {
     font-size: 2em;
     font-weight: 300;
     color: #ffffff;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
 }
 
 .code-of-conduct-call {
@@ -1652,6 +1652,7 @@ p {
     text-align: center;
     width: 100%;
     padding-bottom: 6em;
+    margin-top: 6em;
 }
 
 .partners-supporters-links {
@@ -1688,7 +1689,7 @@ p {
     background-repeat: no-repeat;
     background-color: darkmagenta;
     background-blend-mode: multiply, color-burn;
-    border-top: 6px solid #d1e500;
+    border-top: 6px solid #8edbdf;
 }
 
 .partners-supporters-wannabe {
@@ -1725,9 +1726,8 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    margin: 6em 0;
-    border-bottom: 2em solid #9fd8dd;
-    border-top: 2em solid #9fd8dd;
+    border-bottom: 1.5em solid #9fd8dd;
+    border-top: 1.5em solid #9fd8dd;
 }
 
 .include-speaker-title {
@@ -1736,7 +1736,7 @@ p {
     font-weight: 300;
     text-align: center;
     color: #ffffff;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
 }
 
 .include-speaker-call {
@@ -1744,7 +1744,7 @@ p {
     font-size: 16px;
     text-align: center;
     color: #ffffff;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
 }
 
 @media (min-width: 768px) {
@@ -1773,9 +1773,8 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    margin: 6em 0;
-    border-bottom: 2em solid #c2a6f0;
-    border-top: 2em solid #c2a6f0;
+    border-bottom: 1.5em solid #c2a6f0;
+    border-top: 1.5em solid #c2a6f0;
 }
 
 .include-event-title {
@@ -1784,7 +1783,7 @@ p {
     font-weight: 300;
     text-align: center;
     color: #ffffff;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
 }
 
 .include-event-call {
@@ -1792,7 +1791,7 @@ p {
     font-size: 15px;
     text-align: center;
     color: #ffffff;
-    padding-bottom: 2em;
+    padding-bottom: 0.5em;
 }
 
 @media (min-width: 768px) {
@@ -1822,8 +1821,8 @@ p {
     color: #a7afb2;
     margin: 0 auto;
     text-align: center;
-    padding: 2%;
-    border-top: 6px solid #8edbdf;
+    padding: 6em 2em 2em 2em;
+    border-top: 6px solid #ffb400;
 }
 
 #footer a {
@@ -1861,8 +1860,8 @@ p {
 .footer-social a {
     color: #999;
     border-radius: 100%;
-    width: 4em;
-    height: 4em;
+    width: 6em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1870,10 +1869,11 @@ p {
 
 .footer-social a:hover {
     color: #f3f3f3;
-    background: darkblue;
+    background: #ffb400;
 }
 
-.footer-social .footer-logo {
+.footer-social .footer-logo,
+.footer-logo a:hover {
     background: #3366cc;
 }
 

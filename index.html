@@ -15,9 +15,34 @@ layout: default
   </div>
 </section>
 
-<!-- EVENTOS TOPO -->
+<!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-title">Onde estão os eventos de tecnologia?</h1>
+  <h1 class="page-section-title distance-bottom">Onde estão os eventos de tecnologia?</h1>
+
+    <p class="page-section-text">
+    Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os que querem ter
+    ou já tem inclusão e diversidade. O objetivo do Codamos é promover <a href="/eventos">eventos</a>
+    com esse foco.
+    <br>
+    Aqui você encontra informações relevantes sobre eventos cadastrados e pode facilmente escolher o
+    mais adequado ao seu perfil. Faça parte do Codamos e nos ajude a mudar a vida das pessoas.
+  </p>
+
+  <img src="images/logo.png" alt="Logotipo Codamos">
+
+  <h1 class="page-section-subtitle-alt distance-top">Eventos em destaque</h1>
+
+  <ul class="events-cards">
+    {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
+    {% for event in highlights %}
+      {% include event.html event=event %}
+    {% endfor %}
+  </ul>
+
+  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
+</section>
+
+<section class="page-section">
 
   <p class="page-section-text">
     Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde
@@ -31,36 +56,14 @@ layout: default
     <a href="/quem-somos">Essa é a razão pela qual criamos o Codamos.</a>
   </p>
 
-  <p class="page-section-text">
-    Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os que querem ter
-    ou já tem inclusão e diversidade. O objetivo do Codamos é promover <a href="/eventos">eventos</a>
-    com esse foco.
-    <br>
-    Aqui você encontra informações relevantes sobre eventos cadastrados e pode facilmente escolher o
-    mais adequado ao seu perfil. Faça parte do Codamos e nos ajude a mudar a vida das pessoas.
-  </p>
-
-  <img src="images/logo.png" alt="Logotipo Codamos">
 </section>
 
-<!-- EVENTOS -->
-<section class="page-section">
-  <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
-
-  <ul class="events-cards">
-    {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
-    {% for event in highlights %}
-      {% include event.html event=event %}
-    {% endfor %}
-  </ul>
-
-  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
-</section>
+{% include code_of_conduct.html %}
 
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt distance-bottom">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}
@@ -71,4 +74,3 @@ layout: default
   </div>
 </section>
 
-{% include code_of_conduct.html %}
