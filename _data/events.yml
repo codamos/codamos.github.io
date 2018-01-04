@@ -137,6 +137,18 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/formacao-ux.html"
 
+  - title: "UX Sorocaba #4 - 2018 Issue 01: Personas"
+  location: "Sorocaba - SP"
+  free: true
+  inclusive: true
+  date: "20/01"
+  until: "2017-01-20"
+  banner: "ux-sorocaba.png"
+  tags: [venus, hand-rock-o]
+  facebook: "uxsorocaba"
+  main_url: "https://www.facebook.com/uxsorocaba/"
+  rsvp_url: "https://www.facebook.com/events/1683076245085483/"
+
 - title: "I Encontro Incluser: Mulheres e suas diversidades"
   free: true
   inclusive: true
