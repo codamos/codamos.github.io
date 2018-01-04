@@ -425,6 +425,16 @@
   main_url: "http://www.apiconnect.com.br/apicon/"
   rsvp_url: "https://www.eventbrite.com.br/e/apicon-2018-tickets-35768511581"
 
+- title: "Cloud Native São Paulo - Meetup#3 - Tema: Monitoração de Aplicações Cloud Native"
+  location: "São Paulo - SP"
+  category: "workshop"
+  tags: [venus]
+  date: "22/03"
+  until: "2018-03-22"
+  banner: "cloud-native.png"
+  main_url: "https://www.meetup.com/pt-BR/Cloud-Native-Sao-Paulo/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Native-Sao-Paulo/events/244455840/
+
 - title: "Programa ELAS"
   location: "São Paulo - SP"
   category: "workshop"
