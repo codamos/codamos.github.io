@@ -245,6 +245,16 @@
 
 # FEVEREIRO
 
+- title: "Workshop de React Native (para 100% iniciantes)"
+  location: "São Paulo - SP"
+  free: true
+  date: "01/02"
+  until: "2018-02-01"
+  banner: "frontend-sp-meetup.png"
+  twitter: "frontendsp"
+  main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/246295953/"
+
 - title: "Rust Roadshow"
   free: true
   cfp: true
