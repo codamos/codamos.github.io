@@ -203,7 +203,7 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/curso-ux-writing.html"
 
-  - title: "NodeGirls POA: #DragonDreaming"
+- title: "NodeGirls POA: #DragonDreaming"
   location: "Porto Alegre - RS"
   free: true
   inclusive: true
