@@ -137,6 +137,18 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/formacao-ux.html"
 
+- title: "UX Sorocaba #4 - 2018 Issue 01: Personas"
+  location: "Sorocaba - SP"
+  free: true
+  inclusive: true
+  date: "20/01"
+  until: "2018-01-20"
+  banner: "ux-sorocaba.png"
+  tags: [venus, hand-rock-o]
+  facebook: "uxsorocaba"
+  main_url: "https://www.facebook.com/uxsorocaba/"
+  rsvp_url: "https://www.facebook.com/events/1683076245085483/"
+
 - title: "I Encontro Incluser: Mulheres e suas diversidades"
   free: true
   inclusive: true
@@ -191,6 +203,22 @@
   main_url: "http://www.mergo.com.br/"
   rsvp_url: "http://www.mergo.com.br/curso-ux-writing.html"
 
+- title: "NodeGirls POA: #DragonDreaming"
+  location: "Porto Alegre - RS"
+  free: true
+  inclusive: true
+  women: true
+  date: "23/01"
+  until: "2018-01-23"
+  banner: "node-girls-poa.png"
+  tags: [venus, cc, hand-rock-o]
+  hashtag: "nodegirlsbr"
+  twitter: "nodejspoa"
+  facebook: "nodejspoa"
+  youtube: "channel/UCwR1Dr3fjGAdoG5xS3Qslmg"
+  main_url: "https://github.com/node-poa"
+  rsvp_url: "https://www.meetup.com/pt-BR/Node-js-Porto-Alegre-Meetup/events/245937764/"
+
 - title: "Worksec"
   location: "On-line"
   date: "27/01 a 28/01"
@@ -216,6 +244,16 @@
   rsvp_url: "http://campuse.ro/events/campus-party-brasil-2018/"
 
 # FEVEREIRO
+
+- title: "Workshop de React Native (para 100% iniciantes)"
+  location: "São Paulo - SP"
+  free: true
+  date: "01/02"
+  until: "2018-02-01"
+  banner: "frontend-sp-meetup.png"
+  twitter: "frontendsp"
+  main_url: "https://www.meetup.com/Frontend-Dev-SP-Meetup/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/246295953/"
 
 - title: "Rust Roadshow"
   free: true
@@ -386,6 +424,15 @@
   facebook: "apicnt"
   main_url: "http://www.apiconnect.com.br/apicon/"
   rsvp_url: "https://www.eventbrite.com.br/e/apicon-2018-tickets-35768511581"
+
+- title: "Cloud Native São Paulo - Meetup#3 - Tema: Monitoração de Aplicações Cloud Native"
+  location: "São Paulo - SP"
+  category: "workshop"
+  tags: [venus]
+  date: "22/03"
+  until: "2018-03-22"
+  main_url: "https://www.meetup.com/pt-BR/Cloud-Native-Sao-Paulo/"
+  rsvp_url: "https://www.meetup.com/pt-BR/Cloud-Native-Sao-Paulo/events/244455840/"
 
 - title: "Programa ELAS"
   location: "São Paulo - SP"
