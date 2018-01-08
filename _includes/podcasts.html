@@ -1,6 +1,7 @@
 {% for podcast in include.podcasts %}
 <li class="events-card">
   <div class="events-card-header">
+
     <div class="events-card-banner">
       <img data-src="images/podcast/{{ podcast.banner | default:'codamos.png' }}" alt="{{ podcast.title }}">
 
@@ -40,33 +41,39 @@
       </div>
       {% endif %}
 
-      {% if podcast.tags %}
+      {% if podcast.women %}
+        <div class="events-card-header-tag women">
+          <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no audio</h3>
+        </div>
+      {% endif %}
+
+      {% if podcast.tech %}
+        <div class="events-card-header-tag hackathon">
+          <i class="fa fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
+        </div>
+      {% endif %}
+
+      {% if podcast.lgbt %}
+        <div class="events-card-header-tag lgbt">
+          <i class="fa fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
+        </div>
+      {% endif %}
+
+    </div>
+
+    {% if event.tags %}
       <span class="events-card-header-ico">
-        {% for tag in podcast.tags %}
-        <i class="fa fa-{{ tag }}" title="{{ site.data.podcast_icons[tag] }}"></i>
+        {% for tag in event.tags %}
+        <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
         {% endfor %}
       </span>
+        {% else %}
+      <span class="events-card-header-ico-no-info">
+        <h4>sem informações inclusivas</h4>
+      </span>
       {% endif %}
-    </div>
-  </div>
 
-  {% if podcast.women %}
-  <div class="events-card-header-tag women">
-    <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no audio</h3>
   </div>
-  {% endif %}
-
-  {% if podcast.tech %}
-  <div class="events-card-header-tag hackathon">
-    <i class="fa fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
-  </div>
-  {% endif %}
-
-  {% if podcast.lgbt %}
-  <div class="events-card-header-tag lgbt">
-    <i class="fa fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
-  </div>
-  {% endif %}
 
   <div class="events-card-title">
     <h3>{{ podcast.title }}</h3>
@@ -74,15 +81,6 @@
 
   <div class="events-card-body">
     <div class="events-card-body-content">
-      <div class="events-card-body-local">
-        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-        <p>{{ podcast.date }}</p>
-      </div>
-
-      <div class="events-card-body-date">
-        <i class="fa fa-podcast" aria-hidden="true"></i>
-        <p>Podcast</p>
-      </div>
 
       {% if podcast.hashtag %}
       <div class="events-card-body-hashtag">
@@ -167,6 +165,17 @@
         {% endif %}
 
       </div>
+
+      <div class="events-card-body-local">
+        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <p>{{ podcast.date }}</p>
+      </div>
+
+      <div class="events-card-body-date">
+        <i class="fa fa-podcast" aria-hidden="true"></i>
+        <p>Podcast</p>
+      </div>
+
     </div>
 
     {% if podcast.rsvp_url %}

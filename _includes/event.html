@@ -1,5 +1,6 @@
 <li class="events-card">
   <div class="events-card-header">
+
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
@@ -39,49 +40,47 @@
       </div>
       {% endif %}
 
-      {% if event.tags %}
+      {% if event.women %}
+      <div class="events-card-header-tag women">
+        <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
+      </div>
+      {% endif %}
+
+      {% if event.hackathon %}
+      <div class="events-card-header-tag hackathon">
+        <i class="fa fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
+      </div>
+      {% endif %}
+
+      {% if event.lgbt %}
+      <div class="events-card-header-tag lgbt">
+        <i class="fa fa-flag" aria-hidden="true"></i><h3>Evento LGBTQ+</h3>
+      </div>
+      {% endif %}
+
+    </div>
+
+    {% if event.tags %}
       <span class="events-card-header-ico">
         {% for tag in event.tags %}
         <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
         {% endfor %}
       </span>
+        {% else %}
+      <span class="events-card-header-ico-no-info">
+        <h4>sem informações inclusivas</h4>
+      </span>
       {% endif %}
-    </div>
-  </div>
 
-  {% if event.women %}
-  <div class="events-card-header-tag women">
-    <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
   </div>
-  {% endif %}
-
-  {% if event.hackathon %}
-  <div class="events-card-header-tag hackathon">
-    <i class="fa fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
-  </div>
-  {% endif %}
-
-  {% if event.lgbt %}
-  <div class="events-card-header-tag lgbt">
-    <i class="fa fa-flag" aria-hidden="true"></i><h3>Evento LGBTQ+</h3>
-  </div>
-  {% endif %}
 
   <div class="events-card-title">
     <h3>{{ event.title }}</h3>
   </div>
 
   <div class="events-card-body">
-    <div class="events-card-body-content">
-      <div class="events-card-body-local">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>{{ event.location }}</p>
-      </div>
 
-      <div class="events-card-body-date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        <p>{{ event.date }}</p>
-      </div>
+    <div class="events-card-body-content">
 
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
@@ -91,12 +90,6 @@
       {% else %}
       <div class="events-card-body-no-hashtag">
         <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
-      </div>
-      {% endif %}
-
-      {% if event.group %}
-      <div class="events-card-body-grupo">
-        <img src="images/grupo/{{ event.group }}">
       </div>
       {% endif %}
 
@@ -143,6 +136,23 @@
         <a href="{{ event.main_url }}" title="Site"
            rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
       </div>
+
+      <div class="events-card-body-local">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>{{ event.location }}</p>
+      </div>
+
+      <div class="events-card-body-date">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <p>{{ event.date }}</p>
+      </div>
+
+      {% if event.group %}
+      <div class="events-card-body-grupo">
+        <img src="images/grupo/{{ event.group }}">
+      </div>
+      {% endif %}
+
     </div>
 
     {% if event.rsvp_url and include.rsvp != false %}

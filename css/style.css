@@ -801,11 +801,11 @@ p {
 .events-card {
     width: 100%;
     background-color: #ffffff;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    /*box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .events-card + .events-card {
@@ -818,17 +818,16 @@ p {
 
 .events-card-banner {
     height: 140px;
-    border-radius: 6px 6px 0 0;
-    background: #660092;
-    background: linear-gradient(red -30%, blue 150%);
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(blue -30%, black 150%);
 }
 
 .events-card-header img {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    opacity: 0.9;
-    border-radius: 6px 6px 0 0;
+    opacity: 0.7;
+    border-radius: 10px 10px 0 0;
 }
 
 .events-card-header {
@@ -845,9 +844,9 @@ p {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 0.4em 0.5em;
+    padding: 0.6em 0.8em;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
+    /*box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);*/
 }
 
 .events-card-header-label h3 {
@@ -858,80 +857,73 @@ p {
     background: #3366cc;
     top: 45px;
     color: #fff;
-    left: 0;
-    border-top: 3px solid #40c5f5;
-    border-right: 3px solid #40c5f5;
-    border-bottom: 3px solid #40c5f5;
-    border-radius: 0 3px 3px 0;
+    left: 10px;
+    border: 2px solid #40c5f5;
+    border-radius: 4px;
 }
 
 .free {
     background: #336600;
-    top: 75px;
+    top: 78px;
     color: #fff;
-    left: 0;
-    border-top: 3px solid #99ff00;
-    border-right: 3px solid #99ff00;
-    border-bottom: 3px solid #99ff00;
-    border-radius: 0 3px 3px 0;
+    left: 10px;
+    border: 2px solid #99ff00;
+    border-radius: 4px;
 }
 
 .call4papers {
     background: #ffff66;
-    top: 75px;
+    top: 45px;
     color: #660000;
-    right: 0;
+    right: 10px;
     font-weight: 700;
-    border-top: 3px solid #f6a623;
-    border-left: 3px solid #f6a623;
-    border-bottom: 3px solid #f6a623;
-    border-radius: 3px 0 0 3px;
+    border: 2px solid #f6a623;
+    border-radius: 4px;
 }
 
 .opensource {
     background: #000;
     top: 105px;
     color: #eee;
-    left: 0;
-    border-top: 3px solid #eee;
-    border-right: 3px solid #eee;
-    border-bottom: 3px solid #eee;
-    border-radius: 0 3px 3px 0;
+    left: 10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
 }
 
 .category {
     background: #660099;
-    top: 105px;
+    top: 78px;
     color: #fff;
-    right: 0;
+    right: 10px;
     font-weight: 300;
-    border-top: 3px solid #cc66ff;
-    border-left: 3px solid #cc66ff;
-    border-bottom: 3px solid #cc66ff;
-    border-radius: 3px 0 0 3px;
+    border: 2px solid #cc66ff;
+    border-radius: 4px;
 }
 
 .codamos {
     background: #fff;
     top: 105px;
     color: #e60050;
-    right: 0;
+    right: 10px;
     font-weight: 700;
-    border-top: 3px solid #eee;
-    border-left: 3px solid #eee;
-    border-bottom: 3px solid #eee;
-    border-radius: 3px 0 0 3px;
+    border: 2px solid #eee;
+    border-radius: 4px;
 }
 
 .events-card-header-tag {
     font-size: small;
+    top: 10px;
     font-weight: 300;
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 7px 5px;
+    padding: 0.6em 1.0em 0.4em 1.0em;
+    border-radius: 0px 3px 3px 0px;
     letter-spacing: 2px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgba(100, 0, 100, 0.4);
 }
 
 .events-card-header-tag h3 {
@@ -958,41 +950,56 @@ p {
     justify-content: center;
     align-content: center;
     height: 36px;
+    background: #e60050;
+    color: #fff;
+}
+
+.events-card-header-ico-no-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 36px;
+    background: #eee;
+    color: #fff;
+}
+
+.events-card-header-ico-no-info h4 {
+    color: #999;
+    font-size: x-small;
+    letter-spacing: 1px;
+    opacity: 0.7;
 }
 
 .events-card-header-ico i {
-    padding: 3px;
+    padding: 0.5em;
     margin: 3px;
     color: #ffffff;
 }
 
 .events-card-header span {
-    background: #e60050;
-    position: absolute;
+    position: relative;
     font-size: 1.2em;
-    top: 5px;
-    color: #fff;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    border-radius: 0 3px 3px 0;
-    letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .events-card-title {
-    color: #e60050;
-    font-family: 'Josefin Sans', Sans-Serif;
-    text-transform: uppercase;
-    padding: 0.5em;
-    border-top: 1px dotted #cccccc;
+    padding: 1.5em 0.5em 0.5em 0.5em;
     margin: 0;
     flex: 1 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.events-card-title h3 {
+    color: #e60050;
+    font-family: 'Josefin Sans', Sans-Serif;
+    text-transform: uppercase;
+    font-size: medium;
 }
 
 .events-card-body {
@@ -1003,7 +1010,7 @@ p {
 }
 
 .events-card-body > * {
-    margin: 8px 0px;
+    margin: 0.5em 0px;
 }
 
 .events-card-body-content {
@@ -1021,7 +1028,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px auto;
+    margin: 0.5em auto;
 }
 
 .events-card-body i {
@@ -1031,7 +1038,7 @@ p {
 }
 
 .events-card-body-social-media {
-    margin: 5px auto;
+    margin: 1.0em auto;
 }
 
 .events-card-body .events-card-body-social-media  i {
@@ -1040,7 +1047,7 @@ p {
 }
 
 .events-card-body .events-card-body-social-media a i {
-    color: #6d6d6d;
+    color: #3366cc;
     font-size: 20px;
 }
 
@@ -1054,7 +1061,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     font-size: small;
-    margin: 10px auto;
+    margin: 1.0em auto;
     letter-spacing: 1px;
 }
 
@@ -1063,7 +1070,7 @@ p {
 }
 
 .events-card-body-hashtag {
-    margin: 10px auto;
+    margin: 1.0em auto;
 }
 
 .events-card-body-hashtag i {
