@@ -390,6 +390,18 @@
   main_url: "http://gama.academy/"
   rsvp_url: "http://gama.academy/formacoes/03-curso-product-manager"
 
+- title: "PHP Experience 2018"
+  women: true
+  inclusive: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "05/03 e 06/03"
+  until: "2018-03-06"
+  banner: "php-experience2018.png"
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  main_url: "https://eventos.imasters.com.br/phpexperience/"
+  rsvp_url: "https://eventos.imasters.com.br/phpexperience/"
+
 - title: "DevDayRS 2018"
   cfp: true
   location: "Porto Alegre - RS"
