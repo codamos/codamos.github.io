@@ -269,7 +269,7 @@
   main_url: "https://www.mozilla.org/pt-BR/"
   rsvp_url: "https://github.com/rust-br/2018-roadshow"
 
-  - title: "Elixir Brasil"
+- title: "Elixir Brasil"
   location: "São Paulo - SP"
   date: "30/01 a 04/02"
   until: "2018-02-03"
