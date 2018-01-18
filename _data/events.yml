@@ -115,16 +115,6 @@
   main_url: "https://uxpmbrasil.com.br/"
   rsvp_url: "https://credencial.imasters.com.br/certificacao-ux-pm-nivel-1-20180119e20"
 
-- title: "ReactAJU"
-  cfp: true
-  location: "Aracaju - SE"
-  date: "27/01"
-  until: "2018-01-27"
-  banner: "reactaju.png"
-  facebook: "reactaju"
-  main_url: "https://www.meetup.com/ReactAJU/"
-  rsvp_url: "https://www.meetup.com/ReactAJU/events/245305670/"
-
 - title: "Intensivo em UX Design"
   category: "Curso"
   location: "São Paulo - SP"
@@ -228,6 +218,16 @@
   main_url: "http://worksec.congressodeti.com.br/"
   rsvp_url: "http://worksec.congressodeti.com.br/"
 
+- title: "ReactAJU"
+  cfp: true
+  location: "Aracaju - SE"
+  date: "27/01"
+  until: "2018-01-27"
+  banner: "reactaju.png"
+  facebook: "reactaju"
+  main_url: "https://www.meetup.com/ReactAJU/"
+  rsvp_url: "https://www.meetup.com/ReactAJU/events/245305670/"
+
 - title: "Campus Party - #CPBR11"
   location: "São Paulo - SP"
   date: "30/01 a 04/02"
@@ -269,9 +269,24 @@
   main_url: "https://www.mozilla.org/pt-BR/"
   rsvp_url: "https://github.com/rust-br/2018-roadshow"
 
+- title: "Elixir Brasil"
+  location: "São Paulo - SP"
+  date: "03/02"
+  until: "2018-02-03"
+  banner: "elixir-brasil.jpg"
+  women: true
+  inclusive: true
+  highlight: true
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  main_url: "http://eventos.locaweb.com.br/proximos-eventos/elixirbrasil/"
+  rsvp_url: "http://eventos.locaweb.com.br/proximos-eventos/elixirbrasil/"
+
 - title: "global diversity cfp day"
   category: "Workshop"
   free: true
+  women: true
+  inclusive: true
+  highlight: true
   location: "São Paulo - SP"
   date: "03/02"
   until: "2018-02-03"
@@ -374,6 +389,18 @@
   linkedin: "school/10517723/"
   main_url: "http://gama.academy/"
   rsvp_url: "http://gama.academy/formacoes/03-curso-product-manager"
+
+- title: "PHP Experience 2018"
+  women: true
+  inclusive: true
+  highlight: true
+  location: "São Paulo - SP"
+  date: "05/03 e 06/03"
+  until: "2018-03-06"
+  banner: "php-experience2018.png"
+  tags: [venus, cc, wheelchair-alt, universal-access]
+  main_url: "https://eventos.imasters.com.br/phpexperience/"
+  rsvp_url: "https://eventos.imasters.com.br/phpexperience/"
 
 - title: "DevDayRS 2018"
   cfp: true
@@ -592,12 +619,12 @@
 
 # JULHO
 
-- title: "Openstacks days"
+- title: "OpenStack Day"
   location: "São Paulo - SP"
   date: "14/07"
   until: "2018-11-14"
   banner: "open-stack-day-sp.png"
-  twitter: "Openstackbr"
+  twitter: "OpenStackbr"
   facebook: "OpenStackBR"
   main_url: "http://openstackbr.com.br/events/2018/"
   rsvp_url: "https://www.eventbrite.com.br/e/openstack-days-sao-paulo-2018-tickets-36463524383"
