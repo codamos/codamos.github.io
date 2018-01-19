@@ -1,0 +1,49 @@
+---
+---
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Codamos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <style>
+      form {
+        width: 600px;
+        margin: auto;
+      }
+    </style>
+
+    {% include analytics.html %}
+  </head>
+  <body>
+    <form method="POST" action="https://api.staticman.net/v2/entry/codamos/codamos.github.io/master/events">
+      <input name="options[redirect]" type="hidden" value="{{site.url}}">
+      <ul>
+        <li>
+          <label><input name="fields[title]" type="text">Title</label>
+        </li>
+        <li>
+          <label><input name="fields[location]" type="text">Location</label>
+        </li>
+        <li>
+          <label><input name="fields[date]" type="text">Date</label>
+        </li>
+        <li>
+          <label><input name="fields[from]" type="text">From</label>
+        </li>
+        <li>
+          <label><input name="fields[until]" type="text">Until</label>
+        </li>
+        <li>
+          <label><input name="fields[main_url]" type="text">Main Url</label>
+        </li>
+        <li>
+          <label><input name="fields[rsvp_url]" type="text">Rsvp Url</label>
+        </li>
+      </ul>
+
+      <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>
