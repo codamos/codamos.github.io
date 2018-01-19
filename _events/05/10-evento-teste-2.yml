@@ -1,0 +1,29 @@
+_id: 47b5b740-fcde-11e7-9719-478aeadb115f
+title: Evento Teste 2
+location: Lugar Teste
+date: 05/10
+from: 05/10
+until: 05/10
+main_url: 'http://localhost/main2'
+rsvp_url: 'http://localhost/rsvp2'
+free: 'true'
+inclusive: ''
+category: Workshop
+women: ''
+lgbt: ''
+hackathon: ''
+opensource: ''
+banner: ''
+group: ''
+tags: '[venus, cc]'
+hashtag: hashteste
+twitter: ''
+facebook: ''
+instagram: instateste
+linkedin: ''
+meetup: ''
+medium: ''
+youtube: ''
+cfp: 'true'
+highlight: 'false'
+slug: evento-teste-2
