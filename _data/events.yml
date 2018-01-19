@@ -33,6 +33,7 @@
   inclusive: true
   women: true
   date: "19/12"
+  from: "2017-12-19"
   until: "2017-12-19"
   banner: "infopreta.png"
   tags: [venus, cc, hand-rock-o]
@@ -48,6 +49,7 @@
   location: "São Paulo - SP"
   free: true
   date: "19/12"
+  from: "2017-12-19"
   until: "2017-12-19"
   banner: "frontend-sp-meetup.png"
   twitter: "frontendsp"
@@ -64,6 +66,7 @@
   free: true
   women: true
   date: "13/01"
+  from: "2018-01-13"
   until: "2018-01-13"
   banner: "nggirlsrio.png"
   facebook: "nggirlsrio"
@@ -78,6 +81,7 @@
   free: false
   women: true
   date: "13/01"
+  from: "2018-01-13"
   until: "2018-01-13"
   banner: "desencaixaorg.jpg"
   facebook: "desencaixaorg"
@@ -88,6 +92,7 @@
   location: "São Paulo - SP"
   free: true
   date: "18/01"
+  from: "2018-01-18"
   until: "2018-01-18"
   banner: "frontend-sp-meetup.png"
   twitter: "frontendsp"
@@ -98,6 +103,7 @@
   women: true
   location: "Diamantina - MG"
   date: "19/01, 20/01 e 21/01"
+  from: "2018-01-19"
   until: "2018-01-21"
   banner: "devweekend2018.jpg"
   facebook: "devweekenddiamantina"
@@ -108,6 +114,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "19/01 e 20/01"
+  from: "2018-01-19"
   until: "2018-01-20"
   banner: "UX-PM-1.png"
   twitter: "mercedessanchez"
@@ -119,6 +126,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "08/01 a 19/01"
+  from: "2018-01-08"
   until: "2018-01-19"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
@@ -132,6 +140,7 @@
   free: true
   inclusive: true
   date: "20/01"
+  from: "2018-01-20"
   until: "2018-01-20"
   banner: "ux-sorocaba.png"
   tags: [venus, hand-rock-o]
@@ -146,6 +155,7 @@
   tags: [venus, wheelchair-alt, transgender-alt]
   location: "São Paulo - SP"
   date: "20/01"
+  from: "2018-01-20"
   until: "2018-01-20"
   banner: "encontroincluser.jpg"
   twitter: "inclusers"
@@ -158,6 +168,7 @@
   category: "workshop"
   location: "Belo Horizonte - MG"
   date: "20/01"
+  from: "2018-01-20"
   until: "2018-01-20"
   banner: "direto-ao-ponto.png"
   twitter: "paulocaroli"
@@ -171,6 +182,7 @@
   women: true
   location: "São Paulo - SP"
   date: "20/01"
+  from: "2018-01-20"
   until: "2018-01-20"
   banner: "maria.png"
   tags: [venus, cc]
@@ -185,6 +197,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "21/01 e 22/01"
+  from: "2018-01-21"
   until: "2018-01-22"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
@@ -199,6 +212,7 @@
   inclusive: true
   women: true
   date: "23/01"
+  from: "2018-01-23"
   until: "2018-01-23"
   banner: "node-girls-poa.png"
   tags: [venus, cc, hand-rock-o]
@@ -212,6 +226,7 @@
 - title: "Worksec"
   location: "On-line"
   date: "27/01 a 28/01"
+  from: "2018-01-27"
   until: "2018-01-28"
   banner: "work-sec.png"
   hashtag: "beapirate"
@@ -222,6 +237,7 @@
   cfp: true
   location: "Aracaju - SE"
   date: "27/01"
+  from: "2018-01-27"
   until: "2018-01-27"
   banner: "reactaju.png"
   facebook: "reactaju"
@@ -231,6 +247,7 @@
 - title: "Campus Party - #CPBR11"
   location: "São Paulo - SP"
   date: "30/01 a 04/02"
+  from: "2018-01-30"
   until: "2018-02-04"
   banner: "cpbr11.jpg"
   women: true
@@ -249,6 +266,7 @@
   location: "São Paulo - SP"
   free: true
   date: "01/02"
+  from: "2018-02-01"
   until: "2018-02-01"
   banner: "frontend-sp-meetup.png"
   twitter: "frontendsp"
@@ -260,6 +278,7 @@
   cfp: true
   location: "São Paulo - SP"
   date: "02/02 a 04/02"
+  from: "2018-02-02"
   until: "2018-02-04"
   banner: "mozilla-rust-roadshow.png"
   tags: [venus, cc, wheelchair-alt]
@@ -272,6 +291,7 @@
 - title: "Elixir Brasil"
   location: "São Paulo - SP"
   date: "03/02"
+  from: "2018-02-03"
   until: "2018-02-03"
   banner: "elixir-brasil.jpg"
   women: true
@@ -289,6 +309,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "03/02"
+  from: "2018-02-03"
   until: "2018-02-03"
   banner: "global-diversity-cfp-day.png"
   hashtag: "gdcfpday"
@@ -300,6 +321,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "23/02 e 24/02"
+  from: "2018-02-23"
   until: "2018-02-24"
   banner: "UX-PM-2.png"
   twitter: "mercedessanchez"
@@ -313,6 +335,7 @@
   women: true
   tags: [venus]
   date: "24/02"
+  from: "2018-02-24"
   until: "2018-02-24"
   banner: "elas.png"
   twitter: "upwit_workshop"
@@ -327,6 +350,7 @@
   category: "curso"
   location: "São Paulo - SP"
   date: "22/02 a 23/03"
+  from: "2018-02-22"
   until: "2018-03-23"
   banner: "13-gama-experience-sp.png"
   hashtag: "GamaExperience"
@@ -340,6 +364,7 @@
   category: "Formação"
   location: "São Paulo - SP"
   date: "23/02 a 17/03"
+  from: "2018-02-23"
   until: "2018-03-17"
   banner: "04-cs-gama.png"
   hashtag: "GamaExperience"
@@ -353,6 +378,7 @@
   category: "Formação"
   location: "São Paulo - SP"
   date: "23/02 a 17/03"
+  from: "2018-02-23"
   until: "2018-03-17"
   banner: "startup-sales-gama.png"
   hashtag: "GamaExperience"
@@ -368,6 +394,7 @@
   category: "curso"
   location: "Florianópolis - SC"
   date: "01/03 a 30/03"
+  from: "2018-03-01"
   until: "2018-03-30"
   banner: "13-gama-experience-sc.png"
   hashtag: "GamaExperience"
@@ -381,6 +408,7 @@
   category: "Formação"
   location: "São Paulo - SP"
   date: "02/03 a 24/03"
+  from: "2018-03-02"
   until: "2018-03-24"
   banner: "03-pm-gama.png"
   hashtag: "GamaExperience"
@@ -396,6 +424,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "05/03 e 06/03"
+  from: "2018-03-05"
   until: "2018-03-06"
   banner: "php-experience2018.png"
   tags: [venus, cc, wheelchair-alt, universal-access]
@@ -406,6 +435,7 @@
   cfp: true
   location: "Porto Alegre - RS"
   date: "17/03"
+  from: "2018-03-17"
   until: "2018-03-17"
   banner: "devdayrs.jpg"
   tags: [cc]
@@ -419,6 +449,7 @@
   category: "curso"
   location: "Belo Horizonte - MG"
   date: "08/03 a 06/04"
+  from: "2018-03-08"
   until: "2018-04-06"
   banner: "13-gama-experience-bh.png"
   hashtag: "GamaExperience"
@@ -432,6 +463,7 @@
   category: "Formação"
   location: "São Paulo - SP"
   date: "06/04 a 05/05"
+  from: "2018-04-06"
   until: "2018-05-05"
   banner: "gama-cto.png"
   hashtag: "GamaExperience"
@@ -444,6 +476,7 @@
 - title: "APICON 2018"
   location: "São Paulo - SP"
   date: "23/03"
+  from: "2018-03-23"
   until: "2018-03-23"
   banner: "apicon.png"
   hashtag: "APICON"
@@ -457,6 +490,7 @@
   category: "workshop"
   tags: [venus]
   date: "22/03"
+  from: "2018-03-22"
   until: "2018-03-22"
   banner: "cloud-native-sp.jpg"
   main_url: "https://www.meetup.com/pt-BR/Cloud-Native-Sao-Paulo/"
@@ -468,6 +502,7 @@
   women: true
   tags: [venus]
   date: "24/03"
+  from: "2018-03-24"
   until: "2018-03-24"
   banner: "elas.png"
   twitter: "upwit_workshop"
@@ -484,6 +519,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "06/04 e 07/04"
+  from: "2018-04-06"
   until: "2018-04-07"
   banner: "UX-PM-1.png"
   twitter: "mercedessanchez"
@@ -497,6 +533,7 @@
   women: true
   tags: [venus]
   date: "14/04"
+  from: "2018-04-14"
   until: "2018-04-14"
   banner: "elas.png"
   twitter: "upwit_workshop"
@@ -510,6 +547,7 @@
 - title: "The Developers Conference"
   location: "Florianópolis - SC"
   date: "18/04 a 21/04"
+  from: "2018-04-18"
   until: "2018-04-21"
   banner: "tdc.png"
   women: true
@@ -524,6 +562,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "20/04 e 21/04"
+  from: "2018-04-20"
   until: "2018-04-21"
   banner: "UX-PM-3.png"
   twitter: "mercedessanchez"
@@ -535,6 +574,7 @@
   category: "Formação"
   location: "São Paulo - SP"
   date: "27/04 a 23/05"
+  from: "2018-04-27"
   until: "2018-05-23"
   banner: "03-gh-gama.png"
   hashtag: "GamaExperience"
@@ -549,6 +589,7 @@
 - title: "cryptorave"
   location: "Porto Alegre - RS"
   date: "04/05 e 05/05"
+  from: "2018-05-04"
   until: "2018-05-05"
   banner: "cryptorave.png"
   tags: [venus, cc]
@@ -560,6 +601,7 @@
 - title: "UXconfBR"
   location: "Porto Alegre - RS"
   date: "18/05 e 19/05"
+  from: "2018-05-18"
   until: "2018-05-19"
   banner: "ux-confbr.png"
   tags: [cc]
@@ -573,6 +615,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "18/05 e 19/05"
+  from: "2018-05-18"
   until: "2018-05-19"
   banner: "UX-PM-1.png"
   twitter: "mercedessanchez"
@@ -583,6 +626,7 @@
 - title: "Qcon"
   location: "São Paulo - SP"
   date: "09/05 a 11/05"
+  from: "2018-05-09"
   until: "2018-05-11"
   banner: "qcon.png"
   tags: [cc]
@@ -598,6 +642,7 @@
 - title: "Superlógica Xperience 2018"
   location: "São Paulo - SP"
   date: "07/06 e 08/06"
+  from: "2018-06-07"
   until: "2018-06-08"
   banner: "superlogica-2018.png"
   hashtag: "SuperlogicaXp"
@@ -610,6 +655,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "22/06 e 22/06"
+  from: "2018-06-22"
   until: "2018-06-22"
   banner: "UX-PM-2.png"
   twitter: "mercedessanchez"
@@ -622,6 +668,7 @@
 - title: "OpenStack Day"
   location: "São Paulo - SP"
   date: "14/07"
+  from: "2018-07-14"
   until: "2018-07-14"
   banner: "open-stack-day-sp.png"
   twitter: "OpenStackbr"
@@ -633,6 +680,7 @@
   highlight: true
   location: "Porto Alegre - RS"
   date: "11/07 a 14/07"
+  from: "2018-07-11"
   until: "2018-07-14"
   banner: "fisl18.png"
   tags: [venus,cc, hand-rock-o, wheelchair-alt, universal-access]
@@ -646,6 +694,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "14/07"
+  from: "2018-07-14"
   until: "2018-07-14"
   banner: "front-in-sp.png"
   tags: [venus, cc, wheelchair-alt]
@@ -660,6 +709,7 @@
   cfp: true
   location: "São Paulo - SP"
   date: "03/08 e 04/08"
+  from: "2018-08-03"
   until: "2018-08-04"
   banner: "pgconf.png"
   hashtag: "pgconfbr"
@@ -673,6 +723,7 @@
   highlight: true
   location: "Porto Alegre - RS"
   date: "Definir"
+  from: "2018-08-26"
   until: "2018-08-26"
   banner: "brazil-js.png"
   tags: [venus, cc, wheelchair-alt, child]
@@ -687,6 +738,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "Definir"
+  from: "2018-12-07"
   until: "2018-12-07"
   banner: "react.png"
   tags: [venus, cc, universal-access]
@@ -700,6 +752,7 @@
   highlight: true
   location: "São Paulo - SP"
   date: "Definir"
+  from: "2018-12-20"
   until: "2018-12-20"
   banner: "rubyconf.png"
   tags: [venus,cc, wheelchair-alt]
@@ -713,6 +766,7 @@
 - title: "The Conf"
   location: "São Paulo - SP"
   date: "21/09 e 22/09"
+  from: "2018-09-21"
   until: "2018-09-22"
   banner: "the-conf.png"
   tags: [wheelchair-alt]
@@ -726,6 +780,7 @@
 - title: "Agile Brazil"
   location: "Campinas - SP"
   date: "03/10 a 05/10"
+  from: "2018-10-03"
   until: "2018-10-05"
   banner: "agile-br.png"
   women: true
@@ -739,6 +794,7 @@
 - title: "latinoware 2018"
   location: "Foz do Iguaçu - PR"
   date: "17/10 a 22/10"
+  from: "2018-10-17"
   until: "2018-10-22"
   banner: "latinoware-2018.png"
   hashtag: "latinoware"
@@ -749,6 +805,7 @@
 - title: "Futurecom 2018 | 20 Anos"
   location: "São Paulo - SP"
   date: "15/10 a 18/10"
+  from: "2018-10-15"
   until: "2018-10-18"
   banner: "futurecom-2018.png"
   hashtag: "Futurecom2018"
@@ -761,6 +818,7 @@
 - title: "14ª conferência brasileira da comunidade Python"
   location: "Natal - RN"
   date: "17/10 a 22/10"
+  from: "2018-10-17"
   until: "2018-10-22"
   banner: "python-brasil.png"
   tags: [cc]

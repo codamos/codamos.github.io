@@ -1,6 +1,7 @@
 - title: "Living with Unicorns"
   location: "São Paulo - SP"
   date: "11/07"
+  from: "2017-07-11"
   until: "2017-07-11"
   banner: "unicorn.png"
   hashtag: "LigaVentures"
@@ -11,6 +12,7 @@
 - title: "HACKAFLAG - Roadsec"
   location: "São Paulo - SP"
   date: "15/07"
+  from: "2017-07-15"
   until: "2017-07-15"
   banner: "roadsec.png"
   hashtag: "Hackaflag"
@@ -22,6 +24,7 @@
 - title: "Café com Marialab - Julho"
   location: "São Paulo - SP"
   date: "15/07"
+  from: "2017-07-15"
   until: "2017-07-15"
   banner: "maria.png"
   tags: [venus, cc, wheelchair-alt]
@@ -32,6 +35,7 @@
 - title: "7 Masters - Vue.js"
   location: "São Paulo - SP"
   date: "19/07"
+  from: "2017-07-19"
   until: "2017-07-19"
   banner: "7masters.png"
   hashtag: "7Masters"
@@ -43,6 +47,7 @@
 - title: "The Developers Conference - SP"
   location: "São Paulo - SP"
   date: "18/07 a 22/07"
+  from: "2017-07-18"
   until: "2017-07-22"
   banner: "tdc.png"
   tags: [venus, cc, wheelchair-alt]
@@ -55,6 +60,7 @@
 - title: "Design de Produto: colocando sua ideia no mercado - Coletividad"
   location: "São Paulo - SP"
   date: "22/07"
+  from: "2017-07-22"
   until: "2017-07-22"
   banner: "coletividad-design.png"
   twitter: "coletividad"
@@ -65,6 +71,7 @@
 - title: "Code in the dark - Recife"
   location: "Recife - PE"
   date: "23/07"
+  from: "2017-07-23"
   until: "2017-07-23"
   banner: "code-in-the-dark.png"
   tags: [venus, cc]
@@ -75,6 +82,7 @@
 - title: "Design Debate #2: O que realmente precisamos falar sobre Design? - Coletividad"
   location: "São Paulo - SP"
   date: "25/07"
+  from: "2017-07-25"
   until: "2017-07-25"
   banner: "coletividad-design-debate.png"
   twitter: "coletividad"
@@ -85,6 +93,7 @@
 - title: "PWA, Web Apps e Aplicações Offline na Prática - 2ª Turma - Coletividad"
   location: "São Paulo - SP"
   date: "27/07"
+  from: "2017-07-27"
   until: "2017-07-27"
   banner: "coletividad-workshop-pwa.png"
   twitter: "coletividad"
@@ -95,6 +104,7 @@
 - title: "Lean UX e Agile - como projetar uma experiência incrível para o usuário - Coletividad"
   location: "São Paulo - SP"
   date: "27/07"
+  from: "2017-07-27"
   until: "2017-07-27"
   banner: "coletividad-ux-agile.jpg"
   twitter: "coletividad"
@@ -105,6 +115,7 @@
 - title: "Elixir Meetup #10"
   location: "São Paulo - SP"
   date: "29/07"
+  from: "2017-07-29"
   until: "2017-07-29"
   banner: "elixir.png"
   tags: [venus, cc]
@@ -117,6 +128,7 @@
   category: Curso
   location: "São Paulo - SP"
   date: "08/2017"
+  from: "2017-20-08"
   until: "2017-08-31"
   banner: "fab-lab-livre.png"
   tags: [venus, cc, universal-access]
@@ -128,6 +140,7 @@
 - title: "UI - Construindo Interfaces Centradas no Usuário - Coletividad"
   location: "São Paulo - SP"
   date: "02/08"
+  from: "2017-08-02"
   until: "2017-08-02"
   banner: "coletividad-ui-design.png"
   hashtag: "coletividad"
@@ -139,6 +152,7 @@
 - title: "Empreendedorismo Feminino - Por onde começar? #ElaQuemFaz"
   location: "São Paulo - SP"
   date: "02/08"
+  from: "2017-08-02"
   until: "2017-08-02"
   banner: "emprededorismo-womakers.jpg"
   tags: [venus, cc, wheelchair-alt]
@@ -151,6 +165,7 @@
   free: true
   location: "São Paulo - SP"
   date: "02/08"
+  from: "2017-08-02"
   until: "2017-08-02"
   banner: "ela-lider-happyhour.jpg"
   tags: [venus, cc]
@@ -164,6 +179,7 @@
   free: true
   location: "São Paulo - SP"
   date: "05/08"
+  from: "2017-08-05"
   until: "2017-08-05"
   banner: "coletividad-hacker.png"
   tags: [venus, cc]
@@ -176,6 +192,7 @@
 - title: "IBM - Blue Experience - Edição Centenário"
   location: "São Paulo - SP"
   date: "05/08"
+  from: "2017-08-05"
   until: "2017-08-05"
   banner: "ibm-blue-hack.png"
   hashtag: "IBMBrasil"
@@ -186,6 +203,7 @@
 - title: "DevOps Day"
   location: "Porto Alegre - RS"
   date: "05/08"
+  from: "2017-08-05"
   until: "2017-08-05"
   banner: "devopsday-poa.png"
   hashtag: "devopsday"
@@ -197,6 +215,7 @@
   free: true
   location: "São Paulo - SP"
   date: "08/08"
+  from: "2017-08-08"
   until: "2017-08-08"
   banner: "le-wagon.png"
   hashtag: "lewagonBR"
@@ -208,6 +227,7 @@
   free: true
   location: "São Paulo - SP"
   date: "08/08"
+  from: "2017-08-08"
   until: "2017-08-08"
   banner: "liga-autotech.png"
   hashtag: "LigaAutoTech"
@@ -219,6 +239,7 @@
   free: true
   location: "São Paulo - SP"
   date: "09/08"
+  from: "2017-08-09"
   until: "2017-08-09"
   banner: "produto-sp.png"
   meetup: "produtoSP"
@@ -229,6 +250,7 @@
   free: true
   location: "São Paulo - SP"
   date: "10/08"
+  from: "2017-08-10"
   until: "2017-08-10"
   banner: "phpsp.png"
   hashtag: "phpsp"
@@ -240,6 +262,7 @@
   free: true
   location: "São Paulo - SP"
   date: "10/08"
+  from: "2017-08-10"
   until: "2017-08-10"
   banner: "facebook-dev.png"
   tags: [venus, cc]
@@ -253,6 +276,7 @@
   category: Curso
   location: "A distância"
   date: "11/08"
+  from: "2017-08-11"
   until: "2017-08-11"
   banner: "lead.png"
   tags: [wheelchair-alt, sign-language]
@@ -264,6 +288,7 @@
   free: true
   location: "São Paulo - SP"
   date: "11/08"
+  from: "2017-08-11"
   until: "2017-08-11"
   banner: "node-br.png"
   hashtag: "nodebr34"
@@ -275,6 +300,7 @@
   free: true
   location: "São Paulo - SP"
   date: "12/08"
+  from: "2017-08-12"
   until: "2017-08-12"
   banner: "nerdezao.png"
   tags: [venus, cc, wheelchair-alt]
@@ -285,6 +311,7 @@
 - title: "Design para Inovação Social"
   location: "São Paulo - SP"
   date: "12/08"
+  from: "2017-08-12"
   until: "2017-08-12"
   banner: "coletividad-design-social.png"
   tags: [cc]
@@ -298,6 +325,7 @@
   free: true
   location: "São Paulo - SP"
   date: "12/08"
+  from: "2017-08-12"
   until: "2017-08-12"
   banner: "mozilla-rust.png"
   tags: [venus, cc, wheelchair-alt]
@@ -309,6 +337,7 @@
 - title: "TEDXSÃOPAULO EDUCAÇÃO 2017"
   location: "São Paulo - SP"
   date: "12/08"
+  from: "2017-08-12"
   until: "2017-08-12"
   banner: "tedxeducacao.png"
   tags: [venus, cc, wheelchair-alt]
@@ -321,6 +350,7 @@
   free: true
   location: "São Paulo - SP"
   date: "13/08"
+  from: "2017-08-13"
   until: "2017-08-13"
   banner: "mis-estrelas-filme.png"
   tags: [venus, cc, wheelchair-alt]
@@ -333,6 +363,7 @@
   free: true
   location: "São Paulo - SP"
   date: "15/08"
+  from: "2017-08-15"
   until: "2017-08-15"
   banner: "moonhack.png"
   tags: [venus, cc, wheelchair-alt]
@@ -345,6 +376,7 @@
   free: true
   location: "São Paulo - SP"
   date: "15/08"
+  from: "2017-08-15"
   until: "2017-08-15"
   banner: "le-wagon.png"
   hashtag: "lewagonBR"
@@ -356,6 +388,7 @@
   free: true
   location: "São Paulo - SP"
   date: "16/08"
+  from: "2017-08-16"
   until: "2017-08-16"
   banner: "react-12.png"
   hashtag: "ReactConfBr"
@@ -367,6 +400,7 @@
   free: true
   location: "São Paulo - SP"
   date: "16/08"
+  from: "2017-08-16"
   until: "2017-08-16"
   banner: "le-wagon.png"
   hashtag: "lewagonBR"
@@ -377,6 +411,7 @@
 - title: "A Era dos Games"
   location: "São Paulo - SP"
   date: "12/11"
+  from: "2017-11-12"
   until: "2017-11-12"
   banner: "era-dos-games.png"
   twitter: "bienalsaopaulo"
@@ -388,6 +423,7 @@
   free: true
   location: "São Paulo - SP"
   date: "16/08"
+  from: "2017-08-16"
   until: "2017-08-16"
   banner: "ela-lider.png"
   tags: [venus]
@@ -400,6 +436,7 @@
   free: true
   location: "São Paulo - SP"
   date: "17/08"
+  from: "2017-08-17"
   until: "2017-08-17"
   banner: "angular-sp.png"
   tags: [venus, cc]
@@ -412,6 +449,7 @@
   free: true
   location: "São Paulo - SP"
   date: "17/08"
+  from: "2017-08-17"
   until: "2017-08-17"
   banner: "usp-inovacao.jpg"
   main_url: "http://inovacao.usp.br/"
@@ -420,6 +458,7 @@
   free: true
   location: "São Paulo - SP"
   date: "18/08 e 19/08"
+  from: "2017-08-18"
   until: "2017-08-19"
   banner: "railsgirls.png"
   tags: [venus, cc]
@@ -432,6 +471,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "18/08 a 19/08"
+  from: "2017-08-18"
   until: "2017-08-19"
   banner: "mean-stack-novatec.png"
   facebook: "ctnovatec"
@@ -441,6 +481,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "18/08 a 19/08"
+  from: "2017-08-18"
   until: "2017-08-19"
   banner: "nodejs-novatec.png"
   facebook: "ctnovatec"
@@ -450,6 +491,7 @@
   inclusive: true
   location: "Rio de Janeiro - RJ"
   date: "19/08"
+  from: "2017-08-19"
   until: "2017-08-19"
   banner: "roadsec-rj.jpg"
   tags: [sign-language]
@@ -463,6 +505,7 @@
   free: true
   location: "São Paulo - SP"
   date: "19/08"
+  from: "2017-08-19"
   until: "2017-08-19"
   banner: "maria.png"
   tags: [venus, cc]
@@ -475,6 +518,7 @@
   free: true
   location: "Florianópolis - SC"
   date: "19/08"
+  from: "2017-08-19"
   until: "2017-08-19"
   banner: "react-cw-5.png"
   hashtag: "ReactConfBr"
@@ -485,6 +529,7 @@
 - title: "Chatbot4Devs"
   location: "Belo Horizonte - MG"
   date: "19/08"
+  from: "2017-08-19"
   until: "2017-08-19"
   banner: "chatbot-4devs.jpg"
   twitter: "takenet"
@@ -496,6 +541,7 @@
   category: Curso
   location: "Fortaleza - CE"
   date: "19/08"
+  from: "2017-08-19"
   until: "2017-08-19"
   banner: "byte-girl-robo.png"
   tags: [venus, cc]
@@ -510,6 +556,7 @@
   category: "Curso"
   location:  "Campinas - SP"
   date: "21/08"
+  from: "2017-08-21"
   until: "2017-08-21"
   banner: "women-techmakers.png"
   tags: [venus, cc]
@@ -523,6 +570,7 @@
   category: Curso
   location: "São Paulo - SP"
   date: "até 21/08"
+  from: "2017-08-21"
   until: "2017-08-21"
   banner: "reprograma.png"
   tags: [venus, cc, wheelchair-alt]
@@ -537,6 +585,7 @@
   category: "Curso"
   location:  "Bragança Paulista - SP"
   date: "21/08"
+  from: "2017-08-21"
   until: "2017-08-21"
   banner: "semana-diversidade.png"
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
@@ -546,6 +595,7 @@
 - title: "SETEC - Semana de Engenharia, Tecnologia e Computação"
   location: "Bambuí - MG"
   date: "21/08 a 25/08"
+  from: "2017-08-21"
   until: "2017-08-25"
   banner: "setec.jpg"
   main_url: "http://computacaoifmg.com.br/"
@@ -555,6 +605,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "22/08"
+  from: "2017-08-22"
   until: "2017-08-22"
   banner: "devtalk2.jpg"
   tags: [venus]
@@ -569,6 +620,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "22/08"
+  from: "2017-08-22"
   until: "2017-08-22"
   banner: "cloud-girls.jpeg"
   tags: [venus]
@@ -578,6 +630,7 @@
 - title: "Prototipação em UX"
   location: "São Paulo - SP"
   date: "23/08"
+  from: "2017-08-23"
   until: "2017-08-23"
   banner: "prototipacao-ux.png"
   hashtag: "coletividad"
@@ -591,6 +644,7 @@
   category: "Curso"
   location:  "São Paulo - SP"
   date: "23/08"
+  from: "2017-08-23"
   until: "2017-08-23"
   banner: "meetup.jpg"
   facebook: "developerssp"
@@ -601,6 +655,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "23/08"
+  from: "2017-08-23"
   until: "2017-08-23"
   banner: "java-rio.jpeg"
   meetup: "Java-at-Rio"
@@ -609,6 +664,7 @@
 - title: "Android Dev Conference - Imasters"
   location: "São Paulo - SP"
   date: "23/08 a 25/08"
+  from: "2017-08-23"
   until: "2017-08-25"
   banner: "android-dev-conf.png"
   hashtag: "androiddevconf"
@@ -620,6 +676,7 @@
   free: true
   location: "São Paulo - SP"
   date: "24/08"
+  from: "2017-08-24"
   until: "2017-08-24"
   banner: "le-wagon.png"
   hashtag: "lewagonBR"
@@ -632,6 +689,7 @@
   category: "Curso"
   location:  "São Paulo - SP"
   date: "23/08"
+  from: "2017-08-23"
   until: "2017-08-23"
   banner: "pwa-netcoders.jpeg"
   facebook: "groups/netcoders"
@@ -644,6 +702,7 @@
   inclusive: true
   location:  "Belo Horizonte - MG"
   date: "23/08"
+  from: "2017-08-23"
   until: "2017-08-23"
   banner: "conexoes-tw.png"
   tags: [venus, cc, universal-access]
@@ -656,6 +715,7 @@
   free: true
   location:  "São Paulo - SP"
   date: "24/08 a 26/08"
+  from: "2017-08-24"
   until: "2017-08-26"
   banner: "brain.png"
   facebook: "Brain.b4igroup"
@@ -667,6 +727,7 @@
   free: true
   location:  "São Paulo - SP"
   date: "24/08"
+  from: "2017-08-24"
   until: "2017-08-24"
   banner: "collabcode.png"
   tags: [venus, cc, wheelchair-alt]
@@ -679,6 +740,7 @@
   inclusive: true
   location: "Porto Alegre - RS"
   date: "25/08 e 26/08"
+  from: "2017-08-25"
   until: "2017-08-26"
   banner: "brazil-js.png"
   tags: [venus, cc, wheelchair-alt, child]
@@ -692,6 +754,7 @@
   inclusive: true
   location: "Novo Hamburgo - RS"
   date: "25/08 e 26/08"
+  from: "2017-08-25"
   until: "2017-08-26"
   banner: "django-girls.png"
   tags: [venus, cc]
@@ -705,6 +768,7 @@
   free: true
   location: "São Paulo - SP"
   date: "26/08"
+  from: "2017-08-26"
   until: "2017-08-26"
   banner: "crypto-rave.png"
   tags: [venus, cc]
@@ -718,6 +782,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "26/08"
+  from: "2017-08-26"
   until: "2017-08-26"
   banner: "it-certs.png"
   twitter: "Itcerts_"
@@ -729,6 +794,7 @@
   free: true
   location: "São Paulo - SP"
   date: "26/08"
+  from: "2017-08-26"
   until: "2017-08-26"
   banner: "maujor-css-novatec.png"
   facebook: "ctnovatec"
@@ -739,6 +805,7 @@
   category: Workshop
   location: "São Paulo - SP"
   date: "26/08"
+  from: "2017-08-26"
   until: "2017-08-26"
   banner: "deevas.png"
   tags: [venus, cc]
@@ -751,6 +818,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "26/08"
+  from: "2017-08-26"
   until: "2017-08-26"
   banner: "mongo-db-novatec.png"
   facebook: "ctnovatec"
@@ -760,6 +828,7 @@
   free: true
   location: "Salvador - BA"
   date: "27/08"
+  from: "2017-08-27"
   until: "2017-08-27"
   banner: "nodebots-day.png"
   tags: [venus, cc]
@@ -770,6 +839,7 @@
 - title: "Hackeando seu eletrodoméstico usando Arduino"
   location: "São Paulo - SP"
   date: "29/08"
+  from: "2017-08-29"
   until: "2017-08-29"
   banner: "hackeando-eletrodomestico.png"
   tags: [venus, cc]
@@ -784,6 +854,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "29/08"
+  from: "2017-08-29"
   until: "2017-08-29"
   banner: "nerdezao.png"
   tags: [venus, cc]
@@ -794,6 +865,7 @@
 - title: "7 Masters - Firebase"
   location: "São Paulo - SP"
   date: "29/08"
+  from: "2017-08-29"
   until: "2017-08-29"
   banner: "7masters.png"
   hashtag: "7Masters"
@@ -807,6 +879,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "29/08"
+  from: "2017-08-29"
   until: "2017-08-29"
   banner: "adapt-talks.png"
   tags: [venus, cc]
@@ -819,6 +892,7 @@
   free: true
   location: "São Paulo - SP"
   date: "30/08"
+  from: "2017-08-30"
   until: "2017-08-30"
   banner: "nerdezao.png"
   tags: [cc]
@@ -830,6 +904,7 @@
   free: true
   location: "Curitiba - PR"
   date: "30/08"
+  from: "2017-08-30"
   until: "2017-08-30"
   banner: "react-cw-5.png"
   hashtag: "ReactConfBr"
@@ -841,6 +916,7 @@
   free: true
   location: "São Paulo - SP"
   date: "30/08"
+  from: "2017-08-30"
   until: "2017-08-30"
   banner: "nerdezao.png"
   tags: [cc]
@@ -852,6 +928,7 @@
   free: true
   location: "Curitiba - PR"
   date: "30/08"
+  from: "2017-08-30"
   until: "2017-08-30"
   banner: "react-cw-5.png"
   hashtag: "ReactConfBr"
@@ -863,6 +940,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "01/09 a 02/09"
+  from: "2017-09-01"
   until: "2017-09-02"
   banner: "angularjs-novatec.png"
   facebook: "ctnovatec"
@@ -871,6 +949,7 @@
 - title: "Dev Xperience"
   location: "São Paulo - SP"
   date: "01/09 e 02/09"
+  from: "2017-09-01"
   until: "2017-09-02"
   banner: "dev-xperience.png"
   hashtag: "devxbr2017"
@@ -882,6 +961,7 @@
 - title: "PHP Community Summit by Locaweb"
   location: "São Paulo - SP"
   date: "01/09 e 02/09"
+  from: "2017-09-01"
   until: "2017-09-02"
   banner: "phpsm-lw.png"
   tags: [venus, cc]
@@ -894,6 +974,7 @@
   inclusive: true
   location: "Fortaleza - CE"
   date: "01/09 e 02/09"
+  from: "2017-09-01"
   until: "2017-09-02"
   banner: "brazil-js.png"
   tags: [venus, cc, wheelchair-alt, child]
@@ -907,6 +988,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "js-ladies.jpeg"
   tags: [venus,wheelchair-alt, ticket]
@@ -917,6 +999,7 @@
   free: true
   location:  "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "hackaday-goldman.png"
   tags: [ticket]
@@ -926,6 +1009,7 @@
   inclusive: true
   location:  "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "juntos-na-ti.png"
   tags: [cc, universal-access]
@@ -937,6 +1021,7 @@
 - title: "Lab de Gamificação"
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "lab-gameficacao.png"
   hashtag: "coletividad"
@@ -948,6 +1033,7 @@
 - title: "SQL Day Bahia"
   location: "Salvador - BA"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "sql-bahia.jpg"
   main_url: "http://www.coletividad.org/"
@@ -955,6 +1041,7 @@
 - title: "Mercado Livre experience"
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "mercado-livre.png"
   hashtag: "MLXP2017"
@@ -967,6 +1054,7 @@
   free: true
   inclusive: true
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "installfest-phpwomen.png"
   tags: [venus, cc]
@@ -978,6 +1066,7 @@
 - title: "Devday 2017"
   location: "Belo Horizonte - MG"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "devisland.png"
   tags: [cc, child]
@@ -990,6 +1079,7 @@
   location: "São Paulo - SP"
   free: true
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "red-bull-basement.png"
   tags: [universal-access]
@@ -1002,6 +1092,7 @@
   location: "Vitória - ES"
   inclusive: true
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "roadsec-es.jpg"
   tags: [sign-language]
@@ -1016,6 +1107,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "xamarin-novatec.jpg"
   facebook: "ctnovatec"
@@ -1025,6 +1117,7 @@
   free: true
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "ux-day.jpg"
   facebook: "labreset"
@@ -1034,6 +1127,7 @@
   free: true
   location: "São Paulo - SP"
   date: "02/09"
+  from: "2017-09-02"
   until: "2017-09-02"
   banner: "scrum.jpg"
   facebook: "DotNetCoders"
@@ -1043,6 +1137,7 @@
   free: true
   location: "São Paulo - SP"
   date: "04/09"
+  from: "2017-09-04"
   until: "2017-09-04"
   banner: "le-wagon.png"
   hashtag: "lewagonBR"
@@ -1055,6 +1150,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "code-club.png"
   tags: [cc, kids]
@@ -1067,6 +1163,7 @@
   free: true
   location: "Online"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "volt-data.png"
   twitter: "voltdatalab"
@@ -1077,6 +1174,7 @@
   free: true
   location: "São Paulo - SP"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "tech-cycle-challenge.jpg"
   twitter: "brcyclefair"
@@ -1087,6 +1185,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "girls-in-tech.png"
   tags: [venus, cc]
@@ -1099,6 +1198,7 @@
   free: true
   location: "São Paulo - SP"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "mergo-ux.png"
   tags: [universal-access]
@@ -1112,6 +1212,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "05/09"
+  from: "2017-09-05"
   until: "2017-09-05"
   banner: "angular-dojo.jpg"
   twitter: "AngularSP"
@@ -1122,6 +1223,7 @@
   location: "São Paulo - SP"
   inclusive: true
   date: "07/09"
+  from: "2017-09-07"
   until: "2017-09-07"
   banner: "pyladies-2anos.png"
   tags: [venus, cc, wheelchair-alt]
@@ -1133,6 +1235,7 @@
 - title: "1º HACKATHON POSTOS PETROBRAS"
   location: "São Paulo - SP"
   date: "07/09"
+  from: "2017-09-07"
   until: "2017-09-07"
   banner: "hackathon-petrobras.png"
   hashtag: "ésócurtirocaminho"
@@ -1143,6 +1246,7 @@
 - title: "HackTown 2017"
   location: "Santa Rita do Sapucaí - MG"
   date: "07/09 a 10/09"
+  from: "2017-09-07"
   until: "2017-09-10"
   banner: "hack-town.jpg"
   twitter: "hacktown"
@@ -1153,6 +1257,7 @@
 - title: "Python Sul"
   location: "Caxias do Sul - RS"
   date: "08/09 a 10/09"
+  from: "2017-09-08"
   until: "2017-09-10"
   banner: "pythonsul.png"
   hashtag: "Python"
@@ -1163,6 +1268,7 @@
 - title: "Agile Brazil"
   location: "Belém - PA"
   date: "13/09 a 15/09"
+  from: "2017-09-13"
   until: "2017-09-15"
   banner: "agile-br.png"
   women: true
@@ -1176,6 +1282,7 @@
 - title: "CUBO CONECTA 2017"
   location: "São Paulo - SP"
   date: "14/09"
+  from: "2017-09-14"
   until: "2017-09-14"
   banner: "cuboconecta.jpg"
   hashtag: "cubo_network"
@@ -1187,6 +1294,7 @@
 - title: "RanchoDev"
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "rancho-dev.png"
   tags: [cc]
@@ -1201,6 +1309,7 @@
   category: Oficina
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "emergeDay.jpg"
   tags: [venus, universal-access]
@@ -1211,6 +1320,7 @@
   location: "São Paulo - SP"
   women: true
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "smart-city.png"
   tags: [venus, universal-access]
@@ -1225,6 +1335,7 @@
   category: "Curso"
   location: "Belo Horizonte - MG"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "mozilla-rust-bh.png"
   tags: [venus, cc, wheelchair-alt]
@@ -1236,6 +1347,7 @@
 - title: "IBMHosts: Etapa SP da Maratona de Programação"
   location: "São Paulo - SP"
   date: "09/09"
+  from: "2017-09-09"
   until: "2017-09-09"
   banner: "ibm-host.jpg"
   facebook: "BlueHack-Community-Brasil"
@@ -1244,6 +1356,7 @@
 - title: "Agile Brazil"
   location: "Belém - PA"
   date: "13/09 a 15/09"
+  from: "2017-09-13"
   until: "2017-09-15"
   banner: "agile-br.png"
   women: true
@@ -1257,6 +1370,7 @@
 - title: "CUBO CONECTA 2017"
   location: "São Paulo - SP"
   date: "14/09"
+  from: "2017-09-14"
   until: "2017-09-14"
   banner: "cuboconecta.jpg"
   hashtag: "cubo_network"
@@ -1268,6 +1382,7 @@
 - title: "RanchoDev"
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "rancho-dev.png"
   tags: [cc]
@@ -1282,6 +1397,7 @@
   category: Oficina
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "emergeDay.jpg"
   tags: [venus, universal-access]
@@ -1292,6 +1408,7 @@
   location: "São Paulo - SP"
   women: true
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "smart-city.png"
   tags: [venus, universal-access]
@@ -1306,6 +1423,7 @@
   category: "Curso"
   location: "Belo Horizonte - MG"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "mozilla-rust-bh.png"
   tags: [venus, cc, wheelchair-alt]
@@ -1320,6 +1438,7 @@
   women: true
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "maria.png"
   tags: [venus, cc]
@@ -1335,6 +1454,7 @@
   free: true
   location: "Recife - PE"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "cssday.png"
   tags: [venus, cc]
@@ -1347,6 +1467,7 @@
 - title: "Hyper Virtual festival"
   location: "São Paulo - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "hypervr.png"
   hashtag: "vr"
@@ -1359,6 +1480,7 @@
   inclusive: true
   women: true
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "forum-empreendedoras.png"
   tags: [venus, cc, wheelchair-alt]
@@ -1372,6 +1494,7 @@
   inclusive: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "front-in-vale.png"
   tags: [venus, cc, wheelchair-alt]
@@ -1384,6 +1507,7 @@
   women: true
   location: "Vale do Paraíba - SP"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "code-in-the-dark-vp.png"
   tags: [venus, cc]
@@ -1396,6 +1520,7 @@
   category: "Curso"
   location: "Salvador - BA"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "curso-arduino-ba.jpg"
   facebook: "fsagdg"
@@ -1404,6 +1529,7 @@
 - title: "Codelab: HTML e CSS"
   location: "Feira de Santana - BA"
   date: "16/09"
+  from: "2017-09-16"
   until: "2017-09-16"
   banner: "codelab.jpg"
   main_url: "https://www.facebook.com/events/1904361406485528/"
@@ -1413,6 +1539,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "18/09"
+  from: "2017-09-18"
   until: "2017-09-18"
   banner: "workshopexposicaonainternet.png"
   tags: [venus, cc, universal-access]
@@ -1426,6 +1553,7 @@
   free: true
   location: "São Paulo - SP"
   date: "até 18/09"
+  from: "2017-09-18"
   until: "2017-09-18"
   banner: "estagio-escape-tech.png"
   tags: [venus]
@@ -1439,6 +1567,7 @@
   category: "Seminário"
   location: "São Paulo - SP"
   date: "18/09 e 19/09"
+  from: "2017-09-18"
   until: "2017-09-19"
   banner: "protecao-privacidade-cgi.jpg"
   tags: [cc, universal-access]
@@ -1451,6 +1580,7 @@
 - title: "Palestra: Como seguir carreira em UX?"
   location: "São Paulo - SP"
   date: "19/09"
+  from: "2017-09-19"
   until: "2017-09-19"
   banner: "palestra-carreira-ux.jpg"
   tags: [universal-access]
@@ -1464,6 +1594,7 @@
   women: true
   location: "São Paulo - SP"
   date: "20/09"
+  from: "2017-09-20"
   until: "2017-09-20"
   banner: "thtthingshackerteam.jpg"
   facebook: "ThingsHackerTeam"
@@ -1474,6 +1605,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "20/09"
+  from: "2017-09-20"
   until: "2017-09-20"
   banner: "java-rio.jpeg"
   meetup: "Java-at-Rio"
@@ -1483,6 +1615,7 @@
   free: true
   location: "São Paulo - SP"
   date: "20/09"
+  from: "2017-09-20"
   until: "2017-09-20"
   banner: "collabcode.png"
   tags: [cc, universal-access]
@@ -1498,6 +1631,7 @@
   women: true
   location: "São Paulo - SP"
   date: "20/09"
+  from: "2017-09-20"
   until: "2017-09-20"
   banner: "ela-lider.png"
   tags: [venus]
@@ -1510,6 +1644,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "20/09"
+  from: "2017-09-20"
   until: "2017-09-20"
   banner: "git-itsrio.jpg"
   twitter: "lewagonbrasil"
@@ -1520,6 +1655,7 @@
   free: true
   location: "Campinas - SP"
   date: "21/09"
+  from: "2017-09-21"
   until: "2017-09-21"
   banner: "phpsp-campinas.jpeg"
   twitter: "phpspcampinas"
@@ -1530,6 +1666,7 @@
 - title: "React #13 – Double Topic: Styled-components 💅 & Serveless"
   location: "São Paulo - SP"
   date: "21/09"
+  from: "2017-09-21"
   until: "2017-09-21"
   banner: "react-12.png"
   hashtag: "ReactSP"
@@ -1542,6 +1679,7 @@
   location: "São Paulo - SP"
   free: true
   date: "21/09"
+  from: "2017-09-21"
   until: "2017-09-21"
   banner: "golang.jpeg"
   tags: [universal-access]
@@ -1551,6 +1689,7 @@
   free: true
   location: "São Paulo - SP"
   date: "21/09"
+  from: "2017-09-21"
   until: "2017-09-21"
   banner: "arduino-community.jpeg"
   facebook: "fablablivresp"
@@ -1562,6 +1701,7 @@
   free: true
   location: "São Paulo - SP"
   date: "23/09 e 24/09"
+  from: "2017-09-23"
   until: "2017-09-24"
   banner: "tech-cycle-challenge.jpg"
   twitter: "brcyclefair"
@@ -1571,6 +1711,7 @@
 - title: "Métodos de Pesquisa de Mercado"
   location: "São Paulo - SP"
   date: "23/09"
+  from: "2017-09-23"
   until: "2017-09-23"
   banner: "metodos-de-pesquisa.jpg"
   women: true
@@ -1583,6 +1724,7 @@
 - title: "Front in BH 2k17 - BH"
   location: "Belo Horizonte - MG"
   date: "23/09"
+  from: "2017-09-23"
   until: "2017-09-23"
   banner: "front-inbh.jpg"
   inclusive: true
@@ -1597,6 +1739,7 @@
 - title: "Devfest Maceió"
   location: "Maceió - AL"
   date: "23/09"
+  from: "2017-09-23"
   until: "2017-09-23"
   banner: "gdg-maceio.png"
   tags: [cc]
@@ -1611,6 +1754,7 @@
   inclusive: true
   women: true
   date: "23/09"
+  from: "2017-09-23"
   until: "2017-09-23"
   banner: "nerdgilz.jpg"
   tags: [venus]
@@ -1620,6 +1764,7 @@
 - title: "TEDx Nova Lima"
   location: "Nova Lima - MG"
   date: "23/09"
+  from: "2017-09-23"
   until: "2017-09-23"
   banner: "tedx-novalima.png"
   tags: [cc]
@@ -1631,6 +1776,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "23/09 a 24/09"
+  from: "2017-09-23"
   until: "2017-09-24"
   banner: "mergo-ux.png"
   tags: [universal-access]
@@ -1645,6 +1791,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "25/09"
+  from: "2017-09-25"
   until: "2017-09-25"
   banner: "hackclimate.jpg"
   tags: [cc, wheelchair-alt, universal-access]
@@ -1658,6 +1805,7 @@
   free: true
   location: "Belo Horizonte - MG"
   date: "26/09"
+  from: "2017-09-26"
   until: "2017-09-26"
   banner: "dev-started.jpg"
   facebook: "GoVulpi"
@@ -1670,6 +1818,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "26/09"
+  from: "2017-09-26"
   until: "2017-09-26"
   banner: "duxuxstrategy.jpg"
   tags: [universal-access]
@@ -1682,6 +1831,7 @@
   free: true
   location: "São Paulo - SP"
   date: "26/09"
+  from: "2017-09-26"
   until: "2017-09-26"
   banner: "ibm-school.jpg"
   tags: [venus, cc, universal-access]
@@ -1694,6 +1844,7 @@
   category: "Palestra"
   location: "São Paulo - SP"
   date: "27/09"
+  from: "2017-09-27"
   until: "2017-09-27"
   banner: "elm-sp.jpg"
   tags: [venus, universal-access, wheelchair-alt]
@@ -1704,6 +1855,7 @@
   women: true
   location: "São Paulo - SP"
   date: "27/09"
+  from: "2017-09-27"
   until: "2017-09-27"
   banner: "livingwithunicorns.jpg"
   hashtag: "LigaVentures"
@@ -1716,6 +1868,7 @@
   women: true
   location: "On-line"
   date: "27/09 e 28/09"
+  from: "2017-09-27"
   until: "2017-09-28"
   banner: "conexao-king-host.jpg"
   tags: [universal-access]
@@ -1729,6 +1882,7 @@
   free: true
   location: "São José dos Campos - SP"
   date: "27/09"
+  from: "2017-09-27"
   until: "2017-09-27"
   banner: "ux-vale.png"
   tags: [cc, venus, universal-access]
@@ -1740,6 +1894,7 @@
 - title: "Customer Experience Summit 2017"
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "cx-summit.jpg"
   tags: [wheelchair-alt, universal-access]
@@ -1752,6 +1907,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "pyladiesgeru.jpg"
   tags: [venus, universal-access]
@@ -1766,6 +1922,7 @@
   women: true
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "flunt7.jpg"
   tags: [universal-access]
@@ -1777,6 +1934,7 @@
   free: true
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "pitchgov2.jpg"
   tags: [universal-access]
@@ -1786,6 +1944,7 @@
   free: true
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "trainingcenter.jpg"
   tags: [cc, universal-access]
@@ -1798,6 +1957,7 @@
 - title: "ID 360"
   location: "Belo Horizonte - MG"
   date: "28/09 e 29/09"
+  from: "2017-09-28"
   until: "2017-09-29"
   banner: "id360.jpg"
   hashtag: "ID360"
@@ -1808,6 +1968,7 @@
 - title: "The Conf"
   location: "São Paulo - SP"
   date: "29/09 e 30/09"
+  from: "2017-09-29"
   until: "2017-09-30"
   banner: "the-conf.png"
   tags: [wheelchair-alt]
@@ -1819,6 +1980,7 @@
 - title: "B2Mamy Start Powered By Google Developers Launchpad"
   location: "São Paulo - SP"
   date: "29/09"
+  from: "2017-09-29"
   until: "2017-09-29"
   banner: "b2mamy.jpg"
   tags: [universal-access, child]
@@ -1831,6 +1993,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "29/09 a 30/09"
+  from: "2017-09-29"
   until: "2017-09-30"
   banner: "docker-novatec.jpg"
   twitter: "novateceditora"
@@ -1842,6 +2005,7 @@
   women: true
   category: "Workshop"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "vila-maker-franzininho.jpg"
   tags: [cc]
@@ -1857,6 +2021,7 @@
   women: true
   inclusive: true
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "upwitdeevas.jpg"
   tags: [venus, universal-access]
@@ -1868,6 +2033,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "scrumieep.jpg"
   main_url: "https://www.sympla.com.br/curso-pratico-scrum---gestao-agil-de-projetos-sao-paulo__186139"
@@ -1877,6 +2043,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "descomplicandoDireito.jpg"
   tags: [universal-access]
@@ -1887,6 +2054,7 @@
 - title: "Roadsec 2017 | Porto Alegre"
   location: "Porto Alegre - RS"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "roadsec-poa.jpg"
   tags: [sign-language]
@@ -1900,6 +2068,7 @@
   cfp: true
   location: "Goiânia - GO"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "devfestcerrado2017.jpg"
   tags: [cc, universal-access]
@@ -1912,6 +2081,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "robotica-novatec.jpg"
   twitter: "novateceditora"
@@ -1923,6 +2093,7 @@
   women: true
   location: "Santo André - SP"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "abc-dev.png"
   tags: [venus, cc]
@@ -1936,6 +2107,7 @@
   inclusive: true
   location: "Campinas - SP"
   date: "30/09"
+  from: "2017-09-30"
   until: "2017-09-30"
   banner: "include-day.png"
   tags: [cc, sign-language, universal-access]
@@ -1949,6 +2121,7 @@
   category: "Treinamento"
   location: "São Paulo - SP"
   date: "até 01/10"
+  from: "2017-10-01"
   until: "2017-10-01"
   banner: "queroserdev-locaweb.jpg"
   hashtag: "QueroSerDev"
@@ -1962,6 +2135,7 @@
   category: "Curso"
   location: "Belo Horizonte - MG"
   date: "30/09 a 01/10"
+  from: "2017-09-30"
   until: "2017-10-01"
   banner: "mergo-ux.png"
   hashtag: "UXStrategy"
@@ -1973,6 +2147,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "30/09 a 01/10"
+  from: "2017-09-30"
   until: "2017-10-01"
   banner: "ux-metrics.jpg"
   tags: [universal-access]
@@ -1987,6 +2162,7 @@
   opensource: true
   location: "on-line"
   date: "até 31/10"
+  from: "2017-10-31"
   until: "2017-10-31"
   banner: "hacktoberfest.png"
   tags: [venus, cc, universal-access]
@@ -2001,6 +2177,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "10/2017"
+  from: "2017-20-10"
   until: "2017-10-31"
   banner: "fab-lab-livre.png"
   tags: [venus, cc, universal-access]
@@ -2015,6 +2192,7 @@
   women: true
   location: "São Paulo - SP"
   date: "02/10"
+  from: "2017-10-02"
   until: "2017-10-02"
   banner: "growstartup.jpg"
   facebook: "growupstartup"
@@ -2025,6 +2203,7 @@
   free: true
   location: "São Paulo - SP"
   date: "03/10"
+  from: "2017-10-03"
   until: "2017-10-03"
   banner: "certificacaoJava.jpg"
   tags: [universal-access]
@@ -2036,6 +2215,7 @@
   women: true
   location: "São Paulo - SP"
   date: "04/10"
+  from: "2017-10-04"
   until: "2017-10-04"
   banner: "usabilidade-coletividad.jpg"
   tags: [cc]
@@ -2051,6 +2231,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "04/10"
+  from: "2017-10-04"
   until: "2017-10-04"
   banner: "recode.png"
   tags: [cc, universal-access, venus]
@@ -2067,6 +2248,7 @@
   free: true
   location: "on-line"
   date: "04/10"
+  from: "2017-10-04"
   until: "2017-10-04"
   banner: "anita-borg.png"
   tags: [cc, universal-access, venus]
@@ -2082,6 +2264,7 @@
   women: true
   location: "São Paulo - SP"
   date: "05/10"
+  from: "2017-10-05"
   until: "2017-10-05"
   banner: "competenciaProfissional.jpg"
   twitter: "ctnovatec"
@@ -2095,6 +2278,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "05/10"
+  from: "2017-10-05"
   until: "2017-10-05"
   banner: "mulheres-no-waze.png"
   tags: [venus, cc, wheelchair-alt]
@@ -2107,6 +2291,7 @@
   free: true
   location: "São Paulo - SP"
   date: "05/10"
+  from: "2017-10-05"
   until: "2017-10-05"
   banner: "lewagonpgtoonline.jpg"
   hashtag: "lewagon"
@@ -2119,6 +2304,7 @@
   women: true
   location: "São Paulo - SP"
   date: "05/10"
+  from: "2017-10-05"
   until: "2017-10-05"
   banner: "oficinaPitch.jpg"
   tags: [venus, cc, universal-access]
@@ -2130,6 +2316,7 @@
   free: true
   location: "São Paulo - SP"
   date: "05/10 a 07/10"
+  from: "2017-10-05"
   until: "2017-10-07"
   banner: "scratchConferencia.jpg"
   tags: [universal-access]
@@ -2140,6 +2327,7 @@
   women: true
   location: "Fortaleza - CE"
   date: "06/10 a 08/10"
+  from: "2017-10-06"
   until: "2017-10-08"
   banner: "phpeste.png"
   tags: [venus, cc]
@@ -2152,6 +2340,7 @@
 - title: "13ª conferência brasileira da comunidade Python"
   location: "Belo Horizonte -MG"
   date: "06/10 a 10/10"
+  from: "2017-10-06"
   until: "2017-10-10"
   banner: "python-brasil.png"
   tags: [cc]
@@ -2166,6 +2355,7 @@
   free: true
   location: "São Paulo - SP"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   women: "true"
   banner: "sejaAutor.jpg"
@@ -2179,6 +2369,7 @@
   free: true
   location: "Santos - SP"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   women: true
   banner: "uxnapratica.jpg"
@@ -2193,6 +2384,7 @@
   women: true
   location: "São Paulo - SP"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "hackeando-estado.png"
   tags: [venus, cc, universal-access]
@@ -2207,6 +2399,7 @@
   women: true
   location: "Porto Alegre - RS"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "trainingcenter.jpg"
   tags: [cc, universal-access]
@@ -2222,6 +2415,7 @@
   location: "São Paulo - SP"
   women: true
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "styleguidescoletividade.jpg"
   tags: [universal-access]
@@ -2236,6 +2430,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "react.png"
   tags: [venus, cc, universal-access]
@@ -2248,6 +2443,7 @@
 - title: "Bots Brasil Conf"
   location: "São Paulo - SP"
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "bots-brasil-conf.png"
   hashtag: "BotsBrasilConf"
@@ -2260,6 +2456,7 @@
   location: "Salvador -BA"
   hackathon: true
   date: "07/10"
+  from: "2017-10-07"
   until: "2017-10-07"
   banner: "hack-bahia.jpg"
   twitter: "hackbahia"
@@ -2271,6 +2468,7 @@
   category: "Oficina"
   location: "São Paulo - SP"
   date: "até 09/10"
+  from: "2017-10-09"
   until: "2017-10-09"
   banner: "oficinaArduino.jpg"
   tags: [universal-access]
@@ -2281,6 +2479,7 @@
 - title: "Interaction South America"
   location: "São Paulo - SP"
   date: "09/10 a 11/10"
+  from: "2017-10-09"
   until: "2017-10-11"
   banner: "interactionsa.png"
   hashtag: "IxDA"
@@ -2294,6 +2493,7 @@
   free: true
   location: "São Paulo - SP"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "batePapoReact.jpg"
   tags: [universal-access]
@@ -2308,6 +2508,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "wearables.jpg"
   tags: [venus, universal-access]
@@ -2323,6 +2524,7 @@
   cfp: true
   location: "Porto Alegre - RS"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "node-js-poa.png"
   tags: [cc]
@@ -2337,6 +2539,7 @@
   women: true
   location: "Ao vivo"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "womakerscode.png"
   tags: [venus, cc, wheelchair-alt]
@@ -2352,6 +2555,7 @@
   women: true
   location: "Belo horizonte - MG"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "pyladies-python-iniciantes.png"
   tags: [venus, cc]
@@ -2366,6 +2570,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "view-source-um.png"
   tags: [venus, cc]
@@ -2379,6 +2584,7 @@
   free: true
   location: "São Paulo - SP"
   date: "10/10"
+  from: "2017-10-10"
   until: "2017-10-10"
   banner: "colloquium-ai.jpg"
   hashtag: "IBMBrasil"
@@ -2391,6 +2597,7 @@
   location: "Ubatuba - SP"
   free: true
   date: "11/10 a 13/10"
+  from: "2017-10-11"
   until: "2017-10-14"
   banner: "ubatech.png"
   tags: [wheelchair-alt, universal-access]
@@ -2402,6 +2609,7 @@
   inclusive: true
   women: true
   date: "14/10"
+  from: "2017-10-14"
   until: "2017-10-14"
   banner: "byte-girl-2017.png"
   tags: [venus, cc]
@@ -2418,6 +2626,7 @@
   free: true
   codamos: true
   date: "14/10"
+  from: "2017-10-14"
   until: "2017-10-14"
   banner: "evento-codamos.png"
   tags: [venus, cc, wheelchair-alt]
@@ -2431,6 +2640,7 @@
   category: "Curso"
   location: "Online"
   date: "13/09 a 16/10"
+  from: "2017-09-13"
   until: "2017-10-16"
   banner: "ai-itsrio.jpg"
   twitter: "ITSriodejaneiro"
@@ -2442,6 +2652,7 @@
 - title: "Campus Party - #CPWeekendPatoBranco"
   location: "Pato Branco - PR"
   date: "14/10 a 15/10"
+  from: "2017-10-14"
   until: "2017-10-15"
   banner: "cpweekend.jpg"
   women: true
@@ -2456,6 +2667,7 @@
 - title: "Design Sprint Weekend"
   location: "Manaus - AM"
   date: "14/10 e 15/10"
+  from: "2017-10-14"
   until: "2017-10-15"
   banner: "design-sprint-am.png"
   free: true
@@ -2474,6 +2686,7 @@
   women: true
   location: "Ao vivo"
   date: "17/10"
+  from: "2017-10-17"
   until: "2017-10-17"
   banner: "womakerscode.png"
   tags: [venus, cc, wheelchair-alt]
@@ -2488,6 +2701,7 @@
   women: true
   location: "São Paulo - SP"
   date: "17/10 e 19/10"
+  from: "2017-10-17"
   until: "2017-10-19"
   banner: "git-github.png"
   tags: [venus, cc]
@@ -2505,6 +2719,7 @@
   women: true
   location: "Ao vivo"
   date: "17/10"
+  from: "2017-10-17"
   until: "2017-10-17"
   banner: "womakerscode.png"
   tags: [venus, cc, wheelchair-alt]
@@ -2518,6 +2733,7 @@
   free: true
   location: "São José dos Campos - SP"
   date: "17/10 a 19/10"
+  from: "2017-10-17"
   until: "2017-10-19"
   banner: "feira-tec-inovacao.png"
   facebook: "rmvaleti"
@@ -2530,6 +2746,7 @@
   women: true
   location: "São Paulo - SP"
   date: "18/10"
+  from: "2017-10-18"
   until: "2017-10-19"
   banner: "ela-lider.png"
   tags: [venus, cc]
@@ -2544,6 +2761,7 @@
   free: true
   location: "Rio de Janeiro - RJ"
   date: "18/10"
+  from: "2017-10-18"
   until: "2017-10-18"
   banner: "git-itsrio.jpg"
   twitter: "lewagonbrasil"
@@ -2555,6 +2773,7 @@
   women: true
   location: "Botafogo - RJ"
   date: "18/10 a 20/10"
+  from: "2017-10-18"
   until: "2017-10-20"
   banner: "python-jornalistas.png"
   hashtag: "datajournalism"
@@ -2566,6 +2785,7 @@
 - title: "RD Summit 2017"
   location: "Florianópolis - SC"
   date: "18/10 a 20/10"
+  from: "2017-10-18"
   until: "2017-10-20"
   banner: "rdsummit2017.jpg"
   main_url: "http://rdsummit.com.br/"
@@ -2577,6 +2797,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "19/10"
+  from: "2017-10-19"
   until: "2017-10-19"
   banner: "view-source-um.png"
   tags: [venus, cc]
@@ -2590,6 +2811,7 @@
   location: "São Paulo - SP"
   women: true
   date: "19/10"
+  from: "2017-10-19"
   until: "2017-10-19"
   banner: "gump.jpg"
   facebook: "tudodeshare"
@@ -2604,6 +2826,7 @@
   inclusive: true
   location:  "São Paulo - SP"
   date: "19/10"
+  from: "2017-10-19"
   until: "2017-10-19"
   banner: "open-space-mobi.png"
   tags: [venus, cc, universal-access]
@@ -2617,6 +2840,7 @@
   women: true
   location: "Recife - PE"
   date: "20/10"
+  from: "2017-10-20"
   until: "2017-10-20"
   banner: "agil-recife.png"
   hashtag: "agilidaderecife2017"
@@ -2628,6 +2852,7 @@
 - title: "Intercon 2017 - Imasters"
   location: "São Paulo - SP"
   date: "20/10 e 21/10"
+  from: "2017-10-20"
   until: "2017-10-21"
   banner: "intercon2017.png"
   tags: [cc]
@@ -2641,6 +2866,7 @@
   free: true
   location: "São Paulo - SP"
   date: "21/10"
+  from: "2017-10-21"
   until: "2017-10-21"
   banner: "qsoftpartner.jpg"
   facebook: "qsofttableaupartner"
@@ -2652,6 +2878,7 @@
 - title: "2º DEVFEST CSF"
   location: "Vassouras - RJ"
   date: "21/10"
+  from: "2017-10-21"
   until: "2017-10-21"
   banner: "devfest-fluminense.png"
   hashtag: "GDG"
@@ -2664,6 +2891,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "21/10 e 22/10"
+  from: "2017-10-21"
   until: "2017-10-22"
   banner: "mergo-ux.png"
   hashtag: "MergoLab"
@@ -2677,6 +2905,7 @@
   cfp: true
   location: "São Carlos - SP"
   date: "21/10 e 22/10"
+  from: "2017-10-21"
   until: "2017-10-22"
   banner: "hackathon-serasa.png"
   hashtag: "EJ4"
@@ -2690,6 +2919,7 @@
   inclusive: true
   location: "Salvador - BA"
   date: "21/10"
+  from: "2017-10-21"
   until: "2017-10-21"
   banner: "devfest-nordest.png"
   hashtag: "dfne2k17"
@@ -2703,6 +2933,7 @@
   location: "São Paulo - SP"
   women: true
   date: "23/10 e 24/10"
+  from: "2017-10-23"
   until: "2017-10-24"
   banner: "testeusabilidade.jpg"
   tags: [universal-access]
@@ -2718,6 +2949,7 @@
   category: "Curso"
   location: "on-line"
   date: "23/10"
+  from: "2017-10-23"
   until: "2017-10-24"
   banner: "cidadesinteligentes.png"
   tags: [universal-access]
@@ -2732,6 +2964,7 @@
   free: true
   location: "São Paulo - SP"
   date: "24/10 e 25/10"
+  from: "2017-10-24"
   until: "2017-10-25"
   banner: "blockchain.png"
   twitter: "ITSriodejaneiro"
@@ -2743,6 +2976,7 @@
 - title: "FRJ#1 Festival de Robótica de Joinville"
   location: "Joinville - SC"
   date: "24/10 e 25/10"
+  from: "2017-10-24"
   until: "2017-10-25"
   banner: "festival-robotica.jpg"
   facebook: "festivalroboticajoinville"
@@ -2754,6 +2988,7 @@
   inclusive: true
   women: true
   date: "24/10 e 25/10"
+  from: "2017-10-24"
   until: "2017-10-25"
   banner: "webbr.png"
   tags: [venus, cc, wheelchair-alt, sign-language, universal-access]
@@ -2768,6 +3003,7 @@
   location: "Recife - PE"
   women: true
   date: "26/10"
+  from: "2017-10-26"
   until: "2017-10-26"
   banner: "tropical-conf.png"
   tags: [cc]
@@ -2780,6 +3016,7 @@
   free: true
   location: "São Paulo - SP"
   date: "26/10"
+  from: "2017-10-26"
   until: "2017-10-26"
   banner: "collabcode.png"
   tags: [cc, universal-access]
@@ -2795,6 +3032,7 @@
   women: true
   location: "Campinas - SP"
   date: "27/10"
+  from: "2017-10-27"
   until: "2017-10-27"
   banner: "open-con.jpg"
   hashtag: "OpenCon"
@@ -2810,6 +3048,7 @@
   inclusive: true
   location: "Natal - RN"
   date: "27/10"
+  from: "2017-10-27"
   until: "2017-10-27"
   banner: "codegirl5.jpg"
   hashtag: "codegirl5"
@@ -2823,6 +3062,7 @@
   location: "São Paulo - SP"
   hackathon: true
   date: "28/10"
+  from: "2017-10-28"
   until: "2017-10-28"
   banner: "get-ninjas.png"
   tags: [cc]
@@ -2836,6 +3076,7 @@
   location: "Rio Vermelho - BA"
   women: true
   date: "28/10"
+  from: "2017-10-28"
   until: "2017-10-28"
   banner: "ssa-talks.png"
   tags: [venus]
@@ -2849,6 +3090,7 @@
   location: "São Paulo - SP"
   women: true
   date: "28/10"
+  from: "2017-10-28"
   until: "2017-10-28"
   banner: "uxteam2017.png"
   tags: [cc, wheelchair-alt]
@@ -2862,6 +3104,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "28/10"
+  from: "2017-10-28"
   until: "2017-10-28"
   banner: "intro-datascience.jpg"
   facebook: "datamastersbr"
@@ -2871,6 +3114,7 @@
 - title: "Design Sprint Weekend"
   location: "Recife - PE"
   date: "28/10 e 29/10"
+  from: "2017-10-28"
   until: "2017-10-29"
   banner: "design-sprint-pe.png"
   free: true
@@ -2886,6 +3130,7 @@
 - title: "CIDI 2017"
   location: "Natal - RN"
   date: "29/10 a 01/11"
+  from: "2017-10-29"
   until: "2017-11-01"
   banner: "cidi.png"
   tags: [cc, wheelchair-alt]
@@ -2896,6 +3141,7 @@
 - title: "Introdução ao Data Science"
   location: "São Paulo - SP"
   date: "30/10"
+  from: "2017-10-30"
   until: "2017-10-30"
   banner: "ebicc.png"
   tags: [cc, wheelchair-alt]
@@ -2908,6 +3154,7 @@
   free: true
   location: "São Paulo - SP"
   date: "31/10"
+  from: "2017-10-31"
   until: "2017-10-31"
   banner: "telefoneOpenFuture.jpg"
   twitter: "OpenFuture_"
@@ -2921,6 +3168,7 @@
 - title: "Campus Party - #CPMG2"
   location: "Belo Horizonte - MG"
   date: "01/11"
+  from: "2017-11-01"
   until: "2017-11-01"
   banner: "cpmg2.jpg"
   women: true
@@ -2935,6 +3183,7 @@
 - title: "Elixir Meetup #11"
   location: "São Paulo - SP"
   date: "04/11"
+  from: "2017-11-04"
   until: "2017-11-04"
   banner: "elixir.png"
   free: true
@@ -2949,6 +3198,7 @@
 - title: "Design Sprint Bootcamp - Turma 02"
   location: "São Paulo - SP"
   date: "04/11"
+  from: "2017-11-04"
   until: "2017-11-04"
   banner: "design-sprint-bootcamp.png"
   women: true
@@ -2959,6 +3209,7 @@
   free: true
   location: "São Paulo - SP"
   date: "04/11"
+  from: "2017-11-04"
   until: "2017-11-04"
   banner: "nerdezao.png"
   tags: [venus, cc]
@@ -2970,6 +3221,7 @@
 - title: "Design Sprint Weekend"
   location: "São Paulo - SP"
   date: "04/11 e 05/11"
+  from: "2017-11-04"
   until: "2017-11-05"
   banner: "design-sprint-sp.png"
   free: true
@@ -2985,6 +3237,7 @@
 - title: "Campus Mobile"
   location: "São Paulo - SP"
   date: "05/11"
+  from: "2017-11-05"
   until: "2017-11-05"
   banner: "campusmobile.jpg"
   facebook: "institutonetclaroembratel"
@@ -3000,6 +3253,7 @@
   women: true
   location: "São Paulo - SP"
   date: "05/11 a 12/11"
+  from: "2017-11-05"
   until: "2017-11-12"
   banner: "sptw.png"
   tags: [cc]
@@ -3013,6 +3267,7 @@
 - title: "TEDxSãoPaulo"
   location: "São Paulo - SP"
   date: "06/11"
+  from: "2017-11-06"
   until: "2017-11-06"
   banner: "ted-sp-nov.png"
   tags: [venus, cc, wheelchair-alt]
@@ -3025,6 +3280,7 @@
 - title: "DevOps Day Brasília"
   location: "Brasília - DF"
   date: "07/11 e 08/11"
+  from: "2017-11-07"
   until: "2017-11-08"
   banner: "devopsDF.png"
   hashtag: "DevOpsDaysBrasilia"
@@ -3036,6 +3292,7 @@
 - title: "Seminário sobre inteligência artificial"
   location: "Rio de Janeiro - RJ"
   date: "08/11 a 10/11"
+  from: "2017-11-08"
   until: "2017-11-10"
   banner: "ai-global-symposium.png"
   tags: [venus, cc, universal-access]
@@ -3049,6 +3306,7 @@
 - title: "The Developers Conference - RS"
   location: "Porto Alegre - RS"
   date: "08/11 a 11/11"
+  from: "2017-11-08"
   until: "2017-11-11"
   banner: "tdc.png"
   women: true
@@ -3064,6 +3322,7 @@
   free: true
   location: "São Paulo - SP"
   date: "09/11"
+  from: "2017-11-09"
   until: "2017-11-09"
   banner: "react-12.png"
   tags: [venus, cc]
@@ -3076,6 +3335,7 @@
 - title: "Startup Weekend São Paulo Travel Tech"
   location: "São Paulo - SP"
   date: "10/11 até 12/11"
+  from: "2017-11-10"
   until: "2017-11-12"
   banner: "startupweekend.jpg"
   twitter: "techstars"
@@ -3089,6 +3349,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "django-girls2.png"
   tags: [venus, cc, universal-access]
@@ -3102,6 +3363,7 @@
   location: "Belo Horizonte - MG"
   free: true
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "ethereum-bw.png"
   tags: [cc]
@@ -3113,6 +3375,7 @@
   location: "São Paulo - SP"
   free: true
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "phpsp.png"
   tags: [cc]
@@ -3127,6 +3390,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   tags: [venus,cc]
   banner: "totvstechday.jpg"
@@ -3142,6 +3406,7 @@
   free: true
   inclusive: true
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "arenablackrocks.jpg"
   facebook: "blackrocksstartup"
@@ -3152,6 +3417,7 @@
 - title: "JunDevelopers Open Day 2017"
   location: "Jundiaí - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "jundevelopersday.jpg"
   main_url: "http://www.jundevelopers.com.br/openday/"
@@ -3160,6 +3426,7 @@
 - title: "Roadsec SP 2017 | Mega Edição de Encerramento"
   location: "São Paulo - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "roadsecsp.jpg"
   facebook: "roadsec"
@@ -3176,6 +3443,7 @@
   women: true
   location: "São Paulo - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "wds.png"
   tags: [venus, cc, wheelchair-alt,universal-access]
@@ -3187,6 +3455,7 @@
 - title: "GDG DevFest Paraná 2017"
   location: "Maringá- PR"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "gdgparana.jpg"
   twitter: "gdgpr"
@@ -3198,6 +3467,7 @@
 - title: "2° Encontro de Software livre"
   location: "Salvador - BA"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "encontro-sf.jpg"
   facebook: "inoveacaolivre"
@@ -3208,6 +3478,7 @@
   location: "São Paulo - SP"
   free: true
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "qsoftpartner.jpg"
   facebook: "qsofttableaupartner"
@@ -3218,6 +3489,7 @@
 - title: "Linux Developer Conference Brazil"
   location: "Campinas - SP"
   date: "11/11"
+  from: "2017-11-11"
   until: "2017-11-11"
   banner: "linuxDeveloperConference.jpg"
   hashtag: "linuxdev"
@@ -3231,6 +3503,7 @@
   inclusive: true
   women: true
   date: "14/11"
+  from: "2017-11-14"
   until: "2017-11-14"
   banner: "infopreta.png"
   tags: [venus, cc, hand-rock-o]
@@ -3246,6 +3519,7 @@
   hackathon: true
   location: "São Paulo - SP"
   date: "11/11 e 12/11"
+  from: "2017-11-11"
   until: "2017-11-12"
   banner: "blue-hack.png"
   hashtag: "bluehack"
@@ -3259,6 +3533,7 @@
   free: true
   location: "São Paulo - SP"
   date: "28/09"
+  from: "2017-09-28"
   until: "2017-09-28"
   banner: "trainingcenter.jpg"
   tags: [cc, universal-access]
@@ -3272,6 +3547,7 @@
 - title: "LaraconfBrasil 2017"
   location: "São Paulo - SP"
   date: "17/11"
+  from: "2017-11-17"
   until: "2017-11-17"
   banner: "lara-conf.png"
   hashtag: "LaraconfBrasil2017"
@@ -3282,6 +3558,7 @@
 - title: "Gophercon Brasil"
   location: "Florianópolis - SC"
   date: "17/11 a 19/11"
+  from: "2017-11-17"
   until: "2017-11-19"
   banner: "gophercon.png"
   tags: [venus,cc]
@@ -3298,6 +3575,7 @@
   free: true
   women: true
   date: "17/11 e 18/11"
+  from: "2017-11-17"
   until: "2017-11-18"
   banner: "rubyconf.png"
   tags: [venus,cc, child, wheelchair-alt]
@@ -3313,6 +3591,7 @@
   category: "Workshop"
   women: true
   date: "17/11 e 18/11"
+  from: "2017-11-17"
   until: "2017-11-18"
   banner: "rails-girls-poa.png"
   tags: [venus,cc, child, wheelchair-alt]
@@ -3327,6 +3606,7 @@
   inclusive: true
   location: "Belo Horizonte - MG"
   date: "18/11"
+  from: "2017-11-18"
   until: "2017-11-18"
   banner: "devfestbh.jpg"
   tags: [venus, cc, wheelchair-alt]
@@ -3339,6 +3619,7 @@
 - title: "Big Data Brasil Day 2017 - Great Again"
   location: "São Paulo - SP"
   date: "18/11"
+  from: "2017-11-18"
   until: "2017-11-18"
   banner: "bigDataBrasilDay.jpg"
   hashtag: "bigdatabrasilday"
@@ -3348,6 +3629,7 @@
 - title: "NullByte Security Conference"
   location: "Salvador - BA"
   date: "18/11"
+  from: "2017-11-18"
   until: "2017-11-18"
   banner: "null-byte.jpg"
   hashtag: "nullbyte"
@@ -3361,6 +3643,7 @@
   women: true
   inclusive: true
   date: "18/11"
+  from: "2017-11-18"
   until: "2017-11-18"
   banner: "vem-codar-php-women.png"
   tags: [venus, cc]
@@ -3375,6 +3658,7 @@
   women: true
   inclusive: true
   date: "20/11 a 24/11"
+  from: "2017-11-20"
   until: "2017-11-24"
   banner: "she-is-tech.png"
   tags: [venus, cc]
@@ -3390,6 +3674,7 @@
   inclusive: true
   free: true
   date: "21/11"
+  from: "2017-11-21"
   until: "2017-11-21"
   banner: "nerdezao.png"
   tags: [venus, cc]
@@ -3405,6 +3690,7 @@
   free: true
   women: true
   date: "21/11"
+  from: "2017-11-21"
   until: "2017-11-21"
   banner: "azure-open-dev.png"
   tags: [venus, cc]
@@ -3422,6 +3708,7 @@
   women: true
   inclusive: true
   date: "22/11"
+  from: "2017-11-22"
   until: "2017-11-22"
   banner: "firebase.jpg"
   tags: [cc]
@@ -3433,6 +3720,7 @@
 - title: "WDCD SP 2017"
   location: "São Paulo - SP"
   date: "22/11 e 23/11"
+  from: "2017-11-22"
   until: "2017-11-23"
   banner: "wdcd-sp.jpg"
   tags: [wheelchair-alt, universal-access]
@@ -3447,6 +3735,7 @@
   women: true
   location: "Salvador - BA"
   date: "22/11 a 25/11"
+  from: "2017-11-22"
   until: "2017-11-25"
   banner: "semcomp.png"
   hashtag: "SEMCOMP2017"
@@ -3459,6 +3748,7 @@
   location: "São Paulo - SP"
   free: true
   date: "22/11"
+  from: "2017-11-22"
   until: "2017-11-22"
   banner: "maker-mobilidade-inclusao.jpg"
   tags: [universal-access, wheelchair-alt]
@@ -3473,6 +3763,7 @@
   hackathon: true
   inclusive: true
   date: "23/11 a 25/11"
+  from: "2017-11-23"
   until: "2017-11-25"
   banner: "cidades-seguras.png"
   tags: [venus,cc, hand-rock-o]
@@ -3486,6 +3777,7 @@
 - title: "DrupalCamp São Paulo 2017"
   location: "São Paulo - SP"
   date: "24/11 até 25/11"
+  from: "2017-11-24"
   until: "2017-11-25"
   banner: "drupal.jpg"
   hashtag: "drupal"
@@ -3500,6 +3792,7 @@
   women: true
   inclusive: true
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "upwitdeevas.jpg"
   tags: [venus, universal-access]
@@ -3513,6 +3806,7 @@
   women: true
   inclusive: true
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "programaria-summit.png"
   tags: [venus,cc]
@@ -3526,6 +3820,7 @@
   location: "São Paulo - SP"
   women: true
   date: "25/11 até 26/11"
+  from: "2017-11-25"
   until: "2017-11-26"
   banner: "codarbr.jpg"
   tags: [cc, wheelchair-alt]
@@ -3539,6 +3834,7 @@
   hackathon: true
   location: "São Paulo - SP"
   date: "25/11 e 26/11"
+  from: "2017-11-25"
   until: "2017-11-26"
   banner: "legal-hack.png"
   twitter: "aasp_online"
@@ -3551,6 +3847,7 @@
   free: true
   location: "Porto Alegre - RS"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "afro-python.png"
   tags: [cc, hand-rock-o]
@@ -3563,6 +3860,7 @@
   women: true
   location: "Porto Alegre - RS"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "mobilesummitbrazil.png"
   tags: [venus, cc]
@@ -3576,6 +3874,7 @@
 - title: "Rio Sul Valley Dev Summit"
   location: "Volta Redonda - RJ"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "riosulvalley.jpg"
   hashtag: "RioSulValley"
@@ -3587,6 +3886,7 @@
   cfp: true
   location: "Rio de Janeiro - RJ"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "gdgdevfestrio.jpg"
   hashtag: "devfestrj"
@@ -3599,6 +3899,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "25/11 e 26/11"
+  from: "2017-11-25"
   until: "2017-11-26"
   banner: "cursousabilidade.jpg"
   linkedin: "company/5244747"
@@ -3612,6 +3913,7 @@
   category: "workshop"
   location: "São Paulo - SP"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-26"
   banner: "ux-seo.png"
   twitter: "labreset"
@@ -3624,6 +3926,7 @@
   tags: [venus, cc]
   location: "São Paulo - SP"
   date: "25/11"
+  from: "2017-11-25"
   until: "2017-11-25"
   banner: "node-mcu.png"
   twitter: "coletividad"
@@ -3637,6 +3940,7 @@
   free: true
   inclusive: true
   date: "27/11"
+  from: "2017-11-27"
   until: "2017-11-27"
   banner: "html-sp.png"
   tags: [venus, cc,]
@@ -3650,6 +3954,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "28/11"
+  from: "2017-11-28"
   until: "2017-11-28"
   banner: "nerdezao.png"
   tags: [venus, cc]
@@ -3664,6 +3969,7 @@
   inclusive: true
   women: true
   date: "28/11"
+  from: "2017-11-28"
   until: "2017-11-28"
   banner: "infopreta.png"
   tags: [venus, cc, hand-rock-o]
@@ -3679,6 +3985,7 @@
   free: true
   location: "São Paulo - SP"
   date: "29/11"
+  from: "2017-11-29"
   until: "2017-11-29"
   banner: "le-wagon.png"
   twitter: "lewagonbrasil"
@@ -3690,6 +3997,7 @@
   free: true
   location: "São Paulo - SP"
   date: "29/11"
+  from: "2017-11-29"
   until: "2017-11-29"
   banner: "le-wagon.png"
   twitter: "lewagonbrasil"
@@ -3702,6 +4010,7 @@
   free: true
   inclusive: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "digital-tech-talks-health.png"
   twitter: "whizhealth"
@@ -3713,6 +4022,7 @@
   location: "São Paulo - SP"
   free: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "frontend-sp-meetup.png"
   twitter: "frontendsp"
@@ -3723,6 +4033,7 @@
   location: "São Paulo - SP"
   free: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "conexao-trello.png"
   tags: [universal-access]
@@ -3735,6 +4046,7 @@
   location: "On-line"
   free: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "conexao-trello.png"
   tags: [universal-access]
@@ -3747,6 +4059,7 @@
   location: "São Paulo - SP"
   free: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "apsterdam-brasil.png"
   twitter: "AppsterdamBR"
@@ -3760,6 +4073,7 @@
   inclusive: true
   women: true
   date: "30/11"
+  from: "2017-11-30"
   until: "2017-11-30"
   banner: "mulheres-java.png"
   tags: [venus, cc]
@@ -3773,6 +4087,7 @@
   free: true
   location: "São Paulo - SP"
   date: "01/12"
+  from: "2017-12-01"
   until: "2017-12-01"
   banner: "le-wagon.png"
   twitter: "lewagonbrasil"
@@ -3785,6 +4100,7 @@
   free: true
   inclusive: true
   date: "01/12"
+  from: "2017-12-01"
   until: "2017-12-01"
   banner: "novatec.jpg"
   tags: [venus, cc]
@@ -3797,6 +4113,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "01/12 e 02/12"
+  from: "2017-12-01"
   until: "2017-12-02"
   banner: "UX-PM-3.png"
   twitter: "mercedessanchez"
@@ -3811,6 +4128,7 @@
   free: true
   codamos: true
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "mulheres-que-falam.png"
   tags: [venus, cc, wheelchair-alt]
@@ -3826,6 +4144,7 @@
   women: true
   inclusive: true
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "minas-programam.png"
   tags: [venus,cc]
@@ -3840,6 +4159,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "pixel-show.png"
   twitter: "pixelshow"
@@ -3850,6 +4170,7 @@
 - title: "Front in Floripa 2017"
   location: "Florianópolis - SC"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "frontInFloripa.png"
   facebook: "frontinfloripa"
@@ -3861,6 +4182,7 @@
 - title: "Wordcamp SP"
   location: "São Paulo - SP"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "wcsp.png"
   tags: [cc]
@@ -3874,6 +4196,7 @@
   women: true
   location: "Porto Alegre - RS"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "insiter.jpg"
   tags: [venus, cc]
@@ -3887,6 +4210,7 @@
   location: "São Paulo - SP"
   category: "Workshop"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "pixel-show.png"
   twitter: "pixelshow"
@@ -3899,6 +4223,7 @@
   free: true
   location: "São Paulo - SP"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "codapen-meetup-brasil2.png"
   tags: [venus, cc]
@@ -3912,6 +4237,7 @@
   free: true
   location: "São Paulo - SP"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "world-usabilityday.png"
   tags: [wheelchair-alt]
@@ -3926,6 +4252,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "lean-rh.png"
   hashtag: "GamaExperience"
@@ -3940,6 +4267,7 @@
   category: "Workshop"
   location: "Belo Horizonte - MG"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "workshop-cs-bh.png"
   hashtag: "GamaExperience"
@@ -3954,6 +4282,7 @@
   category: "Workshop"
   location: "Florianópolis - SC"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "workshop-cs-sc.png"
   hashtag: "GamaExperience"
@@ -3967,6 +4296,7 @@
   category: "workshop"
   location: "Florianópolis - SC"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "direto-ao-ponto.png"
   twitter: "paulocaroli"
@@ -3977,6 +4307,7 @@
 - title: "7º SWP Summit"
   location: "Pelotas - RS"
   date: "02/12"
+  from: "2017-12-02"
   until: "2017-12-02"
   banner: "souweb-summit.png"
   hashtag: "7swpsummit"
@@ -3989,6 +4320,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "03/12"
+  from: "2017-12-03"
   until: "2017-12-03"
   banner: "pixel-show.png"
   twitter: "pixelshow"
@@ -4003,6 +4335,7 @@
   free: true
   tags: [venus]
   date: "03/12"
+  from: "2017-12-03"
   until: "2017-12-03"
   banner: "design-for-all-upwit.png"
   twitter: "upwit_workshop"
@@ -4017,6 +4350,7 @@
   location: "Rio de Janeiro - RJ"
   free: true
   date: "04/12"
+  from: "2017-12-04"
   until: "2017-12-04"
   banner: "conexao-trello-rio.png"
   tags: [universal-access]
@@ -4032,6 +4366,7 @@
   inclusive: true
   tags: [child, universal-access]
   date: "04/12 a 10/12"
+  from: "2017-12-04"
   until: "2017-12-10"
   banner: "hour-of-code.png"
   hashtag: "HourOfCode"
@@ -4044,6 +4379,7 @@
   location: "Santos - SP"
   free: true
   date: "04/12"
+  from: "2017-12-04"
   until: "2017-12-04"
   banner: "Intervencao-arte-tecnologia.png"
   facebook: "institutoprocomum"
@@ -4058,6 +4394,7 @@
   women: true
   tags: [venus, universal-access]
   date: "04/12"
+  from: "2017-12-04"
   until: "2017-12-04"
   banner: "mulheres-na-tecnologia.png"
   facebook: "SMIT.inovacaotec"
@@ -4070,6 +4407,7 @@
   inclusive: true
   women: true
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "infopreta-labreparo.png"
   tags: [venus, cc, hand-rock-o]
@@ -4086,6 +4424,7 @@
   cfp: true
   location: "Porto Alegre - RS"
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "node-js-poa.png"
   tags: [cc]
@@ -4099,6 +4438,7 @@
   women: true
   location: "São Paulo - SP"
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "lets-talk-about-ux.png"
   twitter: "vindibr"
@@ -4110,6 +4450,7 @@
   hackathon: true
   location: "São Paulo - SP"
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "sp-legal-hackers.png"
   twitter: "aasp_online"
@@ -4122,6 +4463,7 @@
   category: "Curso"
   location: "São Paulo - SP"
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "story-transmidia.png"
   twitter: "coletividad"
@@ -4133,6 +4475,7 @@
 - title: "3º Meetup Stefanini Agile Experts"
   location: "Porto Alegre - RS"
   date: "05/12"
+  from: "2017-12-05"
   until: "2017-12-05"
   banner: "agile-experts-stefanini.png"
   twitter: "StefaniniGlobal"
@@ -4145,6 +4488,7 @@
   free: true
   location: "São Paulo - SP"
   date: "06/12"
+  from: "2017-12-06"
   until: "2017-12-06"
   banner: "ux-em-debate.png"
   hashtag: "coletividad"
@@ -4157,6 +4501,7 @@
 - title: "php conference br"
   location: "São Paulo - SP"
   date: "06/12"
+  from: "2017-12-06"
   until: "2017-12-06"
   banner: "phpconf.png"
   hashtag: "phpconferencebr"
@@ -4168,6 +4513,7 @@
 - title: "Chatbot Brasil — Meetup #11"
   location: "São Paulo - SP"
   date: "06/12"
+  from: "2017-12-06"
   until: "2017-12-06"
   banner: "chatbot-brasil-meetup11.png"
   facebook: "botsbrasil"
@@ -4177,6 +4523,7 @@
 - title: "Infochain meetups #2"
   location: "São Paulo - SP"
   date: "06/12"
+  from: "2017-12-06"
   until: "2017-12-06"
   banner: "infochain-meetup2.png"
   hashtag: "Blockchain"
@@ -4189,6 +4536,7 @@
   free: true
   location: "São Paulo - SP"
   date: "07/12"
+  from: "2017-12-07"
   until: "2017-12-07"
   banner: "le-wagon.png"
   twitter: "lewagonbrasil"
@@ -4200,6 +4548,7 @@
   free: true
   location: "São Paulo - SP"
   date: "07/12"
+  from: "2017-12-07"
   until: "2017-12-07"
   banner: "agile-processos-desenvolvimentos.png"
   meetup: "Processos"
@@ -4209,6 +4558,7 @@
 - title: "Javascript: Design Patterns - 3ª edição"
   location: "São Paulo - SP"
   date: "07/12"
+  from: "2017-12-07"
   until: "2017-12-07"
   banner: "java-script-coletividad.png"
   tags: [venus, universal-access]
@@ -4226,6 +4576,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "07/12"
+  from: "2017-12-07"
   until: "2017-12-07"
   banner: "ela-lider.png"
   tags: [venus]
@@ -4241,6 +4592,7 @@
   free: true
   location: "São Paulo - SP"
   date: "07/12"
+  from: "2017-12-07"
   until: "2017-12-07"
   banner: "women-will.png"
   tags: [venus, cc]
@@ -4255,6 +4607,7 @@
   free: true
   location: "São Paulo - SP"
   date: "08/12"
+  from: "2017-12-08"
   until: "2017-12-08"
   banner: "hackathon-deep-learning.png"
   twitter: "CotidianoSocial"
@@ -4267,6 +4620,7 @@
   free: true
   location: "São Paulo - SP"
   date: "08/12"
+  from: "2017-12-08"
   until: "2017-12-08"
   banner: "hackcultura.png"
   tags: [cc,universal-access]
@@ -4279,6 +4633,7 @@
   free: true
   location: "São Paulo - SP"
   date: "08/12"
+  from: "2017-12-08"
   until: "2017-12-08"
   banner: "freecodecamp.png"
   tags: [cc,universal-access]
@@ -4293,6 +4648,7 @@
   category: "Workshop"
   location: "São Paulo - SP"
   date: "08/12 e 09/12"
+  from: "2017-12-08"
   until: "2017-12-09"
   banner: "clojure-bridge.png"
   tags: [venus, cc]
@@ -4308,6 +4664,7 @@
   free: true
   location: "Rio de janeiro - RJ"
   date: "09/12 e 10/12"
+  from: "2017-12-09"
   until: "2017-12-10"
   banner: "hackathon-cea.png"
   tags: [venus]
@@ -4320,6 +4677,7 @@
 - title: "Primeiros Passos com IoT"
   location: "São Paulo - SP"
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "começando-com-iot.png"
   hashtag: "coletividad"
@@ -4333,6 +4691,7 @@
   location: "São Paulo - SP"
   category: "workshop"
   date: "09/12 e 10/12"
+  from: "2017-12-09"
   until: "2017-12-10"
   banner: "ux-workshop-trampos.png"
   twitter: "tramposACADEMY"
@@ -4348,6 +4707,7 @@
   location: "Curitiba - PR"
   free: true
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "raspagemDadosPython.jpg"
   tags: [venus]
@@ -4361,6 +4721,7 @@
   free: true
   lgbt: true
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "programaria-oficina-trans.png"
   tags: [venus,cc,transgender-alt]
@@ -4374,6 +4735,7 @@
   women: true
   location: "Recife - PE"
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "devfest-xp.png"
   tags: [venus, cc]
@@ -4386,6 +4748,7 @@
 - title: "Docker Fall Workshop: Orquestração Híbrida"
   location: "Goiânia - GO"
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "docker-goiania.png"
   hashtag: "Docker"
@@ -4399,6 +4762,7 @@
   inclusive: true
   free: true
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "pyladies-simultaneo-sp.png"
   tags: [venus, cc, wheelchair-alt]
@@ -4413,6 +4777,7 @@
   inclusive: true
   location:  "São Paulo - SP"
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "juntos-na-ti-5.png"
   tags: [cc, universal-access]
@@ -4426,6 +4791,7 @@
   inclusive: true
   location: "Curitiba - PR"
   date: "09/12"
+  from: "2017-12-09"
   until: "2017-12-09"
   banner: "ladies-to-ladies.png"
   tags: [venus, cc]
@@ -4441,6 +4807,7 @@
   inclusive: true
   women: true
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "infopreta.png"
   tags: [venus, cc, hand-rock-o]
@@ -4458,6 +4825,7 @@
   women: true
   location: "São Paulo - SP"
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "reprograma-estacao-hack.png"
   tags: [venus, cc, wheelchair-alt]
@@ -4471,6 +4839,7 @@
   free: true
   location: "São Paulo - SP"
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "le-wagon.png"
   twitter: "lewagonbrasil"
@@ -4483,6 +4852,7 @@
   women: true
   location: "São Paulo - SP"
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "pow3r-mis.png"
   tags: [venus, cc, wheelchair-alt]
@@ -4496,6 +4866,7 @@
   free: true
   location: "São Paulo - SP"
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "circuitos-impressos.png"
   tags: [wheelchair-alt]
@@ -4512,6 +4883,7 @@
   inclusive: true
   location: "Porto Alegre - RS"
   date: "12/12"
+  from: "2017-12-12"
   until: "2017-12-12"
   banner: "node-girls-poa.png"
   tags: [venus,cc]
@@ -4524,6 +4896,7 @@
 - title: "2º Meetup React Joinville"
   location: "Joinville - SC"
   date: "13/12"
+  from: "2017-12-13"
   until: "2017-12-13"
   banner: "react-joinville.png"
   facebook: "reactjoinville"
@@ -4535,6 +4908,7 @@
   women: true
   location: "São Paulo - SP"
   date: "13/12"
+  from: "2017-12-13"
   until: "2017-12-13"
   banner: "women-dev-summit2.png"
   tags: [venus, cc, wheelchair-alt]
@@ -4547,6 +4921,7 @@
   inclusive: true
   location: "São Paulo - SP"
   date: "14/12"
+  from: "2017-12-14"
   until: "2017-12-14"
   banner: "gbg-sp.png"
   tags: [venus, cc, wheelchair-alt,universal-access]
@@ -4559,6 +4934,7 @@
   free: true
   location: "São Paulo - SP"
   date: "14/12"
+  from: "2017-12-14"
   until: "2017-12-14"
   banner: "cafe-dev-ops.png"
   hashtag: "DevOps"
@@ -4572,6 +4948,7 @@
   inclusive: true
   location: "Porto Alegre - RS"
   date: "15/12"
+  from: "2017-12-15"
   until: "2017-12-15"
   banner: "trainingcenter.jpg"
   tags: [venus, cc, universal-access]
@@ -4587,6 +4964,7 @@
   inclusive: true
   location: "Porto Alegre - RS"
   date: "15/12"
+  from: "2017-12-15"
   until: "2017-12-15"
   banner: "trainingcenter.jpg"
   tags: [venus, cc, universal-access]
@@ -4602,6 +4980,7 @@
   inclusive: true
   location: "Sorocaba - SP"
   date: "15/12"
+  from: "2017-12-15"
   until: "2017-12-15"
   banner: "spacegirls.png"
   tags: [venus, cc]
@@ -4615,6 +4994,7 @@
   women: true
   location: "São Paulo - SP"
   date: "16/12"
+  from: "2017-12-16"
   until: "2017-12-16"
   banner: "devfest-sp.png"
   hashtag: "devfestsp17"
@@ -4627,6 +5007,7 @@
   women: true
   location: "Porto Alegre - RS"
   date: "16/12"
+  from: "2017-12-16"
   until: "2017-12-16"
   banner: "front-in-poa.png"
   tags: [venus, cc, universal-access]
@@ -4642,6 +5023,7 @@
   women: true
   location: "Campinas - SP"
   date: "16/12"
+  from: "2017-12-16"
   until: "2017-12-16"
   banner: "campinas-frontend.png"
   tags: [venus, cc]
@@ -4657,6 +5039,7 @@
   women: true
   location: "São Paulo - SP"
   date: "16/12"
+  from: "2017-12-16"
   until: "2017-12-16"
   banner: "maria.png"
   tags: [venus, cc]
@@ -4671,6 +5054,7 @@
   free: true
   location: "São Paulo - SP"
   date: "17/12"
+  from: "2017-12-17"
   until: "2017-12-17"
   banner: "expo-maker.png"
   facebook: "oficinalab"
