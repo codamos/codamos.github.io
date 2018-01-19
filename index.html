@@ -47,8 +47,10 @@ layout: default
   <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
 
   <ul class="events-cards">
-    {% assign highlights = site.data.events | where:"highlight",true %}
-    {% include events.html events=highlights %}
+    {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
+    {% for event in highlights %}
+      {% include event.html event=event %}
+    {% endfor %}
   </ul>
 
   <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>

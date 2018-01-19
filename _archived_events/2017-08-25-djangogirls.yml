@@ -1,0 +1,16 @@
+---
+title: DjangoGirls
+inclusive: true
+location: Novo Hamburgo - RS
+date: 25/08 e 26/08
+from: '2017-08-25'
+until: '2017-08-26'
+banner: django-girls.png
+tags:
+- venus
+- cc
+hashtag: DjangoGirls
+twitter: djangogirls
+facebook: djangogirlsnh
+github: DjangoGirls
+main_url: https://djangogirls.org/novohamburgo/

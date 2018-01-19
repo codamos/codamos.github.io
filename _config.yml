@@ -1,1 +1,4 @@
 timezone: "America/Sao_Paulo"
+
+collections:
+  - events
