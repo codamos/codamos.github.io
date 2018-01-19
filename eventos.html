@@ -40,8 +40,10 @@ layout: default
   <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
 
   <ul class="events-cards">
-    {% assign current_events = site.data.events | where_exp: "e", "e.until >= today" %}
-    {% include events.html events=current_events %}
+    {% assign current = site.events | where_exp: "e", "e.until >= today" | sort: "from" %}
+    {% for event in current %}
+      {% include event.html event=event %}
+    {% endfor %}
   </ul>
 </section>
 
@@ -61,8 +63,10 @@ layout: default
   <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
 
   <ul class="events-cards events-cards-past">
-    {% assign past_events = site.data.events | where_exp: "e", "e.until < today" | reverse | slice:0,6 %}
-    {% include events.html events=past_events rsvp=false cfp=false %}
+    {% assign past = site.events | where_exp: "e", "e.until < today" | sort: "from" | reverse | slice:0,6 %}
+    {% for event in past %}
+      {% include event.html event=event rsvp=false cfp=false %}
+    {% endfor %}
   </ul>
 </section>
 
