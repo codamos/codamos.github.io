@@ -7,7 +7,14 @@ events:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["title", "location", "date", "from", "until", "main_url", "rsvp_url"]
+  allowedFields: [
+    # Required
+    "title", "location", "date", "from", "until", "main_url", "rsvp_url",
+    # Optional
+    "free", "inclusive", "category", "women", "lgbt", "hackathon", "opensource",
+    "banner", "group", "tags", "hashtag", "twitter", "facebook", "instagram",
+    "linkedin", "meetup", "medium", "youtube", "cfp", "highlight"
+  ]
 
   # (*) REQUIRED
   #
@@ -18,12 +25,12 @@ events:
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "Evento: {fields.title}"
 
-  pullRequestBody: "Olá,\n\nGostaria de adicionar este evento ao Codamos.\n\n:heart:"
+  pullRequestBody: "Olá,\n\nGostaria de adicionar este evento ao Codamos.\n\n:heart:\n\n---\n"
 
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "{fields.from}-{fields.slug}.yml"
+  filename: "{fields.from}-{fields.slug}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
