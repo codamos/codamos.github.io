@@ -1,0 +1,9 @@
+_id: 713f0690-fcdc-11e7-9719-478aeadb115f
+title: Evento Teste
+location: Algum Lugar
+date: 20/03 e 21/03
+from: '2018-03-20'
+until: '2018-03-21'
+main_url: 'http://localhost/main'
+rsvp_url: 'http://localhost/rsvp'
+slug: evento-teste
