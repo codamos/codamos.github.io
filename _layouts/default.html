@@ -114,7 +114,7 @@
     {{ content }}
 
     <!-- PARCEIROS E APOIADORES -->
-    <section id="partners-supporters" class="page-section-white">
+    <section id="partners-supporters" class="page-section-black">
 
       <div class="partners-supporters-box" data-background="images/bg-parceiros.jpg">
         <div class="partners-supporters-wannabe">
@@ -125,7 +125,7 @@
       </div>
 
       <div>
-        <h2 class="page-section-subtitle-alt">Apoiadores</h2>
+        <h2 class="page-section-subtitle-patners">Apoiadores</h2>
 
         <ul class="partners-supporters-links">
           {% for supporter in site.data.supporters %}
@@ -137,7 +137,7 @@
           {% endfor %}
         </ul>
 
-        <h2 class="page-section-subtitle-alt">Parceiros</h2>
+        <h2 class="page-section-subtitle-patners">Parceiros</h2>
 
         <ul class="partners-supporters-links">
           {% for partner in site.data.partners %}
@@ -150,7 +150,7 @@
         </ul>
 
         {% if site.data.sponsors %}
-        <h2 class="page-section-subtitle-alt">Patrocinadores</h2>
+        <h2 class="page-section-subtitle-patners">Patrocinadores</h2>
 
         <ul class="partners-supporters-links">
           {% for sponsor in site.data.sponsors %}
@@ -168,14 +168,21 @@
     </section>
 
     <!-- FOOTER -->
-    <footer id="footer" class="page-section-black-four">
+    <footer id="footer" class="page-section-blue">
+
       <nav class="footer-box footer-menu">
         <a href="/eventos">Eventos</a>
+        <span class="divider"></span>
         <a href="/comunidades">Comunidades</a>
+        <span class="divider"></span>
         <a href="/podcast">Para ouvir</a>
+        <span class="divider"></span>
         <a href="/palestrantes">Palestrantes</a>
+        <span class="divider"></span>
         <a href="/quem-somos">Quem somos</a>
+        <span class="divider"></span>
         <a href="/parceiros">Parceiros</a>
+        <span class="divider"></span>
         <a href="/codigo-de-conduta">Código de conduta</a>
       </nav>
 

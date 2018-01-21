@@ -18,7 +18,7 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-title">Sobre os eventos</h1>
+  <h1 class="page-section-title distance-bottom">Sobre os eventos</h1>
 
   <p class="page-section-text">
     O Codamos está comprometido a dar destaque a eventos que prezem pela inclusão, diversidade e
@@ -37,7 +37,7 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-subtitle-alt">O que vem pela frente</h1>
+  <h1 class="page-section-subtitle-alt distance-top">O que vem pela frente</h1>
 
   <ul class="events-cards">
     {% assign current = site.events | where_exp: "e", "e.until >= today" | sort: "from" %}
@@ -60,7 +60,7 @@ layout: default
 
 <!-- EVENTOS PASSADOS -->
 <section class="page-section">
-  <h1 class="page-section-subtitle-alt">O que já aconteceu</h1>
+  <h1 class="page-section-subtitle-alt distance-top">O que já aconteceu</h1>
 
   <ul class="events-cards events-cards-past">
     {% assign past = site.events | where_exp: "e", "e.until < today" | sort: "from" | reverse | slice:0,6 %}
