@@ -1106,24 +1106,9 @@ p {
 
 .communities-card {
     width: 33%;
-    background-color: #ffffff;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
-    margin-bottom: 3em;
-}
-
-.communities-card:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.communities-card-banner {
-    height: 120px;
-    border-radius: 6px;
-    background: #660092;
-    background: linear-gradient(red -30%, blue 150%);
+    margin: 0 0 3em 0;
 }
 
 .communities-card-header img {
@@ -1131,7 +1116,11 @@ p {
     height: 120px;
     object-fit: cover;
     opacity: 0.9;
-    border-radius: 6px 6px 0 0;
+    border-radius: 8px;
+}
+
+.communities-card-header img:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .communities-card-header {
@@ -1143,38 +1132,30 @@ p {
     font-family: 'Josefin Sans', Sans-Serif;
     text-transform: uppercase;
     padding: 0.5em;
-    border-top: 1px dotted #cccccc;
     margin: 0;
     z-index: 1;
 }
 
 .communities-card-body-social-media {
-    color: #40c5f5;
+    color: #cccccc;
     margin: 5px auto;
-    position: absolute;
-    z-index: 1;
-    left: 5px;
-    top: 78px;
-    background: #3366cc;
-    border-radius: 4px;
     padding: 5px;
     border-radius: 3px;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .communitiess-card-body-social-media i {
-    color: #40c5f5;
+    color: #cccccc;
     font-size: 20px;
 }
 
 .communities-card-body-social-media a i {
-    color: #40c5f5;
+    color: #3366cc;
     font-size: 20px;
 }
 
 .communities-card-body-social-media a:hover i {
-    color: #fff;
+    color: #e60050;
     font-size: 20px;
 }
 
@@ -1208,13 +1189,6 @@ p {
 @media (max-width: 660px) {
     .communities-card {
     width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    margin-bottom: 0.5em;
     }
 }
 
@@ -1286,7 +1260,6 @@ p {
 .speaker-card {
     width: 100%;
     padding: 2%;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     background-color: #fefefe;
     display: flex;
@@ -1328,15 +1301,14 @@ p {
 .speaker-card-tag-label {
     position: absolute;
     font-size: 0.625em;
-    font-weight: 400;
+    font-weight: 300;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 0.4em 0.5em;
+    padding: 0.6em 0.8em;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
 }
 
 .speaker-card-tag-label h4{
@@ -1344,24 +1316,29 @@ p {
 }
 
 .speaker {
-    background: #FFFF66;
+    background: #ffff66;
     color: #660000;
-    border: 3px solid #F6A623;
-    border-radius: 3px;
+    font-weight: 700;
+    border: 2px solid #f6a623;
+    border-radius: 4px;
 }
 
 .mentor {
     background: #660099;
+    top: 45px;
     color: #660000;
-    border: 3px solid #cc66ff;
-    border-radius: 3px;
+    left: 10px;
+    border: 2px solid #cc66ff;
+    border-radius: 4px;
 }
 
 .voluntary {
     background: #000;
+    top: 45px;
     color: #660000;
-    border: 3px solid #eee;
-    border-radius: 3px;
+    left: 10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
 }
 
 .speaker-card-skills {
@@ -1407,7 +1384,6 @@ p {
     padding: 0;
     margin: 10px 0;
     color: #cccccc;
-    border-top: 1px dotted #ccc;
 }
 
 .speaker-card-social-media h4 {
@@ -1485,15 +1461,14 @@ p {
 .team-collaborators-tag {
     position: absolute;
     font-size: 0.625em;
-    font-weight: 400;
+    font-weight: 300;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 0.4em 0.5em;
+    padding: 0.6em 0.8em;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);
     background: #FFF;
     border: 3px solid #eee;
     border-radius: 3px;

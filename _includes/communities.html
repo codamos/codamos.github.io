@@ -1,9 +1,9 @@
 {% for community in include.communities %}
 <li class="communities-card">
-  <div class="communities-card-header">
+
+<div class="communities-card-header">
 
     <div class="communities-card-banner">
-
       {% if community.tags %}
       <span class="communities-card-header-ico">
         {% for tag in community.tags %}
@@ -13,6 +13,23 @@
         <img src="images/lgbt.png" alt="LGBTQI+">
         {% endif %}
       </span>
+      {% endif %}
+
+      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
+
+    </div>
+    <div class="communities-card-title">
+      <h3>{{ community.title }}</h3>
+
+      {% if community.hashtag %}
+      <div class="events-card-body-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i> <a href="https://twitter.com/hashtag/{{ community.hashtag }}?src=hash"
+           rel="noopener" target="_blank" title="Hashtag">{{ community.hashtag }}</a>
+      </div>
+      {% else %}
+      <div class="events-card-body-no-hashtag">
+        <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+      </div>
       {% endif %}
 
       <div class="communities-card-body-social-media">
@@ -58,21 +75,6 @@
         <a href="{{ community.main_url }}" title="Site"
            rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
       </div>
-      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
-    </div>
-    <div class="communities-card-title">
-      <h3>{{ community.title }}</h3>
-
-      {% if community.hashtag %}
-      <div class="events-card-body-hashtag">
-        <i class="fa fa-hashtag" aria-hidden="true"></i> <a href="https://twitter.com/hashtag/{{ community.hashtag }}?src=hash"
-           rel="noopener" target="_blank" title="Hashtag">{{ community.hashtag }}</a>
-      </div>
-      {% else %}
-      <div class="events-card-body-no-hashtag">
-        <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
-      </div>
-      {% endif %}
     </div>
   </div>
 
