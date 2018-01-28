@@ -1,10 +1,9 @@
 ---
-title: Rust Roadshow
+title: Rust Roadshow Rio - Segundo round
 free: true
-cfp: true
-location: São Paulo - SP
-date: 02/02 a 04/02
-from: '2018-02-02'
+location: Rio de janeiro - RJ
+date: 04/02
+from: '2018-02-04'
 until: '2018-02-04'
 banner: mozilla-rust.png
 tags:
@@ -15,4 +14,4 @@ hashtag: mozillabrasil
 twitter: mozillabrasil
 facebook: mozillabrasil
 main_url: https://www.mozilla.org/pt-BR/
-rsvp_url: https://github.com/rust-br/2018-roadshow
+rsvp_url: https://www.sympla.com.br/rust-roadshow-brasil-2018---rj__236003
