@@ -191,3 +191,142 @@
     Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design, educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
   site: "http://lucascoelho.me"
   twitter: "coelholucas"
+
+- name: "Kirmayr Roberto Tomaz Costa"
+  speaker: true
+  email: "tomaz.kirmayr@gmail.com"
+  avatar: "kirmayr-costa.jpg"
+  location: "São Paulo - SP"
+  labels: [mars]
+  skills: [JavaScript, Nodejs, Back-end]
+  bio: >
+    Apaixonado por JavaScript, open-source e comunidade. Organizador do Femug-AM e mentor do Training Center.
+  site: "https://kirmayrtomaz.github.io"
+  linkedin: "kirmayrtomaz"
+  github: "Kirmayrtomaz"
+  twitter: "kirmayrtomaz"
+  facebook: "kirmayr.tomaz"
+
+- name: "Isabelle Galvão"
+  speaker: true
+  email: "belle.galvao@yahoo.com.br"
+  avatar: "isabelle-galvao.jpg"
+  location: "Santos - SP"
+  labels: [venus]
+  skills: [Front-End, Design de Interfaces, UX Design]
+  bio: >
+    Desenvolvedora front-end na UP e-commerce solutions e analista de sistemas por formação, atuou como designer de UX/UI na Prefeitura Municipal de São Paulo. Professora e monitora na {reprograma}, iniciativa de empoderamento feminino na tecnologia.
+  github: "isabellegalvao"
+  linkedin: "galvaoisabelle"
+  twitter: "galvaoiisabelle"
+  facebook: "galvaoiisabelle"
+
+- name: "William Oliveira"
+  speaker: true
+  email: "williamozsouza@gmail.com"
+  avatar: "william-oliveira.jpg"
+  location: "São Paulo - SP"
+  labels: [mars]
+  skills: [Comunidades, Front End, Mentoria, Open Source, JavaScript]
+  bio: >
+    Desenvolvedor de Software, viciado em comunidades, compartilhar conhecimento e código (open source de preferência)
+  site: "http://woliveiras.com.br"
+  github: "woliveiras"
+  linkedin: "william-oliveira"
+  twitter: "w_oliveiras"
+  facebook: "woliveiras"
+
+- name: "Beatriz Gomes"
+  speaker: true
+  email: "playmobia71@gmail.com"
+  avatar: "beatriz-gomes.jpg"
+  location: "São Paulo - SP"
+  labels: [venus]
+  skills: [Design, UX Design, Interface, Web]
+  bio: >
+    Savage player. Curious pathfinder, Queen of Corgis. Talibiker and roller derby lover.
+  github: "playmobia"
+  linkedin: "beatriz-gomes-36883722/"
+  twitter: "playmobia"
+  facebook: "playmobia"
+
+- name: "Livia Gabos"
+  speaker: true
+  email: "liviagabos@gmail.com"
+  avatar: "livia-gabos.jpg"
+  location: "São José dos Campos - SP"
+  labels: [venus]
+  skills: [Testes, UX Design, IHC, Usabilidade, Acessibilidade]
+  bio: >
+    Formada e Mestre pela Unesp em Ciências da Computação, sempre trabalhei com usabilidade e acessibilidade. Hoje em dia quero ampliar esses assuntos para tudo.
+  site: "http://www.liviagabos.com"
+  github: "liviagabos"
+  linkedin: "liviagabos"
+  twitter: "liviagabos"
+  facebook: "livia.gabos"
+
+- name: "João S. O. Bueno"
+  speaker: true
+  email: "gwidion@gmail.com"
+  avatar: "joao-bueno.jpeg"
+  location: "Campinas - SP"
+  labels: [mars]
+  skills: [Python, Games, Python para Web, Blockchain, Cripto-moedas]
+  bio: >
+    João S. O. Bueno é desenvolvedor Python desde 2001, e colaborador do  - GIMP (GNU Image Manipulation Program), desde 2004. Trabalhou em dezenas de projetos na linguagem, e participou de vários eventos de Software Livre como palestrante ou tutor de oficinas. Atualmente trabalha como desenvolvedor backend na Tokenmarket.net, empresa de consultoria em cripto-moedas.
+  site: "https://pt.stackoverflow.com/users/500/jsbueno?tab=answers"
+  github: "jsbueno"
+  linkedin: "jo%C3%A3o-sebasti%C3%A3o-de-oliveira-bueno-8312733"
+  twitter: "gwidion"
+  facebook: "jsbueno"
+
+- name: "Mariana Elisa Moisés"
+  speaker: true
+  email: "marielisa.moises@gmail.com"
+  avatar: "mariana-moises.jpg"
+  location: "Sorocaba - SP"
+  labels: [venus]
+  skills: [QA Engineer, Python, Ruby, Qualidade de Software, Gerente de Projetos]
+  bio: >
+    QA Engineer, Pós Graduada em Gerenciamento de Projetos, Graduada em Redes de Computadores, Técnica em Eletrônica e entusiasta de mulheres na tecnologia! ❤️
+  github: "marielisamoises"
+  linkedin: "mariana-elisa-moises"
+  facebook: "mel.mariielisa"
+
+- name: "Tathiana"
+  speaker: true
+  email: "tathianadesigner@gmail.com"
+  avatar: "tathiana.jpg"
+  location: "Rio de Janeiro - RJ"
+  labels: [venus]
+  lgbt: "lgbt"
+  skills: [Empreendedorismo social, UX Design, Game Design, Representavidade em jogos]
+  bio: >
+    Tathiana Sanches é agênero, formada em design de mídia digital e empreendedorismo pela PUC-Rio. Faz MBA em management e especialização em jogos digitais. Empreendedora social, game designer e ux designer, desenvolve jogos digitais e experiências gamificadas de impacto social que também abordem representatividade, diversidade e inclusão de minorias. Foi mediadora da mesa "Representatividade interseccional nos jogos digitais : Além da representatividade normativa" no Simpósio brasileiro de games de 2017.
+  site: "https://tathianadesigner.carbonmade.com"
+  linkedin: "tathiana-sanches-6b884138"
+  facebook: "AtemZerokun"
+
+- name: "Inaray"
+  speaker: true
+  email: "inaray8@hotmail.com"
+  avatar: "inaray.jpg"
+  location: "Taboão da Serra - SP"
+  labels: [venus]
+  skills: [Comunidades, Representatividade, Motivacional, Gerenciamento de Serviços]
+  bio: >
+    Graduada em Administração, com pós graduação em Arquitetura e Gestão de Infraestrutura de Tecnologia, certificada ITIL Expert e mentora da página ITSM na Prática. Trabalho de Governança de TI a mais de 18 anos, atuando em empresas do setor financeiro e de tecnologia. Apaixonada por ITSM e por pessoas sou engajada em diversos trabalhos sociais voltados a carreira na tecnologia. Mãe de dois meninos e filha de uma costureira, meu sonho é que outras meninas da periferia tenham acesso a estudos e oportunidades na área de tecnologia como eu.
+  linkedin: "inaray-santos"
+
+- name: "Natalia Manha"
+  speaker: true
+  email: "natalia.manha@outlook.com"
+  avatar: "natalia-manha.jpg"
+  location: "Campinas - SP"
+  labels: [venus]
+  skills: [Kanban, Scrum, Lean, Green Belt, Design Thinking, Equipes remotas, Alta performance]
+  bio: >
+    Atualmente, focada em disseminar valores, princípios e práticas ágeis na área de serviços de infraestrutura da IBM com o uso de Lean, Kanban, SCRUM e Design Thinking. Mestre em Gestão de Sistemas Produtivos pelo Centro Paula Souza, na linha de pesquisa de Gestão de Equipes Virtuais Globais.
+  site: "https://www.virtualteamsmanagement.com"
+  linkedin: "nataliamanha"
+  twitter: "nataliamanha"
