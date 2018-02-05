@@ -7,7 +7,6 @@ until: '2018-02-03'
 banner: elixir-brasil.jpg
 women: true
 inclusive: true
-highlight: true
 hashtag: 'myelixirstatus'
 tags:
 - venus
