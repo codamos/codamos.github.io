@@ -9,7 +9,7 @@
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
 # labels:    lista de classes de ícones do font awesome, opcional.
 # skills:    lista de textos sem espaços, opcional.
-# email:     email, opcional.
+# email:     email, opcional;
 # site:      URL, opcional.
 # linkedin:  texto sem espaços, opcional. LinkedIn handle.
 # github:    texto sem espaços, opcional. Github handle.
