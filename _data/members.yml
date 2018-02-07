@@ -73,7 +73,7 @@
 - name: "João Britto"
   codamos: true
   full_name: "João Britto"
-  avatar: "joao-britto.png"
+  avatar: "joao-britto.jpg"
   location: "São Paulo - SP"
   labels: [mars]
   skills: [Elixir, Rails, Git, Back-end, Performance]

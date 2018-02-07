@@ -38,7 +38,7 @@
   speaker: true
   highlight: true
   email: "geisydomiciano@gmail.com"
-  avatar: "geisy-domiciano.jpg"
+  avatar: "geisy-domiciano.png"
   location: "Diadema - SP"
   labels: [venus, hand-rock-o]
   lgbt: "lgbt"
@@ -268,7 +268,7 @@
 - name: "João S. O. Bueno"
   speaker: true
   email: "gwidion@gmail.com"
-  avatar: "joao-bueno.jpeg"
+  avatar: "joao-bueno.jpg"
   location: "Campinas - SP"
   labels: [mars]
   skills: [Python, Games, Python para Web, Blockchain, Cripto-moedas]
@@ -375,7 +375,7 @@
 - name: "Gileno Alves Santa Cruz Filho"
   speaker: true
   email: "contato@gilenofilho.com.br"
-  avatar: "gileno-filho.jpeg"
+  avatar: "gileno-filho.jpg"
   location: "Recife - PE"
   labels: [mars, child]
   skills: [Desenvolvimento Web, Machine Learning, Data Science, Python, Django, Pandas]
@@ -444,7 +444,7 @@
 - name: "Fernanda Bernardo"
   speaker: true
   email: "fernandabernardo94@gmail.com"
-  avatar: "fernanda-bernardo.jpeg"
+  avatar: "fernanda-bernardo.jpg"
   location: "São Paulo - SP"
   labels: [venus]
   skills: [Front-End, CSS, JavaScript]
@@ -488,7 +488,7 @@
 - name: "Luiz Felipe de Oliva Limeira"
   speaker: true
   email: "lflimeira02@gmail.com"
-  avatar: "luiz-felipe-limeira.jpeg"
+  avatar: "luiz-felipe-limeira.jpg"
   location: "São Paulo - SP"
   labels: [mars]
   skills: [PHP, Git, JS, Node JS, MySQL, HTML, CSS, TDD]
@@ -515,7 +515,7 @@
 - name: "Lucas Santos"
   speaker: true
   email: "lhs.santoss@gmail.com"
-  avatar: "lucas-santos.jpeg"
+  avatar: "lucas-santos.jpg"
   location: "Santo André - SP"
   labels: [mars]
   skills: [Javascript, Testes, Performance, Infraestrutura, Kubernetes, Docker, MongoDB, Redis, NodeJS, PHP]
@@ -581,7 +581,7 @@
 - name: "Juliene Alves"
   speaker: true
   email: "juliene.alves@live.com"
-  avatar: "juliane-alves.jpg"
+  avatar: "juliene-alves.jpg"
   location: "Recife - PE"
   labels: [venus]
   skills: [Segurança da Informação, Desenvolvimento, Empreendedorismo, UX Design, Mulheres na TI]
@@ -593,7 +593,7 @@
 - name: "Bárbara Cabral"
   speaker: true
   email: "barbaracabral@gmail.com"
-  avatar: "barbara-cabral.jpeg"
+  avatar: "barbara-cabral.jpg"
   location: "Florianópolis - SC"
   labels: [venus]
   skills: [Agile Testing, Qualidade de Sotware, Métricas de Qualidade, Automação de Testes end-to-end, Testes de API/REST]
