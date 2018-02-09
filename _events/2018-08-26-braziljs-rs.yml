@@ -3,9 +3,9 @@ title: BrazilJS - RS
 inclusive: true
 highlight: true
 location: Porto Alegre - RS
-date: Definir
-from: '2018-08-26'
-until: '2018-08-26'
+date: 24 e 25/08
+from: '2018-08-24'
+until: '2018-08-25'
 banner: brazil-js.png
 tags:
 - venus
@@ -17,3 +17,4 @@ twitter: braziljs
 facebook: braziljs
 instagram: brazil.js
 main_url: https://braziljs.org/conf
+rsvp_uel: https://braziljs.org/conf
