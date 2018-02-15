@@ -70,7 +70,7 @@ p {
     --black-two: #030303;
     --black-three: #000000;
     --black-four: #2f2f2f;
-    --blue: #9fd7de;
+    --blue: #3366cc;
     --dusty-lavender: #cac8c9;
     --green: #d7df23;
     --grey: #434343;
@@ -107,7 +107,7 @@ p {
 }
 
 .blue {
-    color: #9fd7de;
+    color: #3366cc;
     color: var(--blue);
 }
 
@@ -412,8 +412,8 @@ p {
     text-decoration: none;
     cursor: pointer;
     font-weight: 300;
-    padding: 5px;
-    border-bottom: 1px dotted #e60050;
+    padding: 5px 5px 0 5px;
+    border-bottom: 2px dotted #e60050;
 }
 
 .page-section p a:hover {
@@ -421,7 +421,7 @@ p {
     text-decoration: none;
     cursor: pointer;
     font-weight: 300;
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
     -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
     box-shadow: inset 20px 20px 20px 20px #e60050;
@@ -441,23 +441,20 @@ p {
     font-size: 2.0em;
     color: #3366cc;
     font-weight: 300;
-}
-
-.distance-top {
     margin: 2.5em 0;
 }
-.distance-bottom {
-    margin: 0 0 2.5em 0;
-}
+
 .page-section-subtitle {
     font-weight: 300;
     font-size: 1.5em;
+    margin: 2em 0;
 }
 
 .page-section-subtitle-alt {
-    font-size: 2.0em;
+    font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
     color: #3e3e3e;
+    margin: 2.5em 0;
 }
 
 .page-section-subtitle-patners {
@@ -473,7 +470,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin: 0 0 1.5em 0;
+    margin: 1.5em 0;
 }
 
 .page-section-white {
@@ -1800,7 +1797,10 @@ p {
         font-size: 20px;
     }
 }
-
+/*QUEM SOMOS*/
+.img-content-highlight {
+    width: 100%
+}
 
 /*FOOTER*/
 #footer {

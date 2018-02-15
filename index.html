@@ -17,7 +17,7 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-title distance-bottom">Onde estão os eventos de tecnologia?</h1>
+  <h1 class="page-section-title">Onde estão os eventos de tecnologia?</h1>
 
     <p class="page-section-text">
     Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os que querem ter
@@ -30,7 +30,7 @@ layout: default
 
   <img src="images/logo.png" alt="Logotipo Codamos">
 
-  <h1 class="page-section-subtitle-alt distance-top">Eventos em destaque</h1>
+  <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
@@ -63,7 +63,7 @@ layout: default
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle-alt distance-bottom">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}

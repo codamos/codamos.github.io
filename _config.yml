@@ -4,6 +4,7 @@ timezone: "America/Sao_Paulo"
 
 collections:
   - events
+  - archived_events
 
 webrick:
   headers:

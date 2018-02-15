@@ -38,21 +38,22 @@
   instagram: "mjcoffeeholick"
   github: "mjcoffeeholick"
 
-- name: "Camila Belo"
+- name: "Cleo Rocha Castanho "
   codamos: true
-  full_name: "Camila Belo"
-  email: "camilaibs@gmail.com"
-  avatar: "camila-belo.jpg"
+  full_name: "Cleo Rocha Castanho "
+  email: "cleo.rochacastanho@gmail.com"
+  avatar: "cleo-rocha.jpg"
   location: "São Paulo - SP"
   labels: [venus]
-  skills: [Front-end, Back-end, Vue.js, Git,]
+  skills: [Desenvolvimento, Games, HTML, CSS, Javascript, C#, Mobile]
   bio: >
-    Desenvolvedora Front-end na Lendico Brasil, graduada em Análise e Desenvolvimento de Sistema pela Fatec ZL
-    e está iniciando mestrado em sistemas aplicado para Medicina na FMUSP. Instrutora de web desenvolvimento no SENAI no projeto #CODExp.
-  twitter: "camilaibs"
-  linkedin: "camila-inácio-belo-da-silva-13486316"
-  facebook: "camilaibs"
-  github: "camilaibs"
+    Tenho 19 anos e estou no primeiro ano da faculdade de desenvolvimento de Jogos Digitas na FIAP.
+    Sou muito interessada nas áreas de programação, matemática, séries e video-game.
+    Meu jogo, Focus, Archer!, recebeu o prêmio #Next avaliado pela #Split.
+  instagram: "cleo_castanho"
+  facebook: "cleo.rochacastanho"
+  linkedin: "cleo-rocha-castanho-92890a145"
+  github: "cleorocha"
 
 - name: "Cybelle O."
   codamos: true
@@ -69,6 +70,22 @@
   twitter: "cyb3113"
   linkedin: "cybelleoliveira"
   github: "cyb3113"
+
+- name: "Cynthia Pereira"
+  codamos: true
+  full_name: "Cynthia Pereira"
+  email: "cynthiacpereira@gmail.com"
+  avatar: "cynthia.jpg"
+  location: "São Paulo - SP"
+  labels: [venus, hand-rock-o]
+  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
+  bio: >
+    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
+    #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
+  linkedin: "cynthiacpereira"
+  twitter: "cynthiapereira_"
+  facebook: "cybelle.oliveira"
+  github: "cynthiapereira"
 
 - name: "João Britto"
   codamos: true
@@ -102,21 +119,6 @@
   facebook: "oieusouamiguel"
   github: "oieusouamiguel"
 
-- name: "Vanessa Nonato"
-  codamos: true
-  full_name: "Vanessa Nonato"
-  email: "nonatovg@outlook.com"
-  avatar: "vanessa-nonato.jpg"
-  location: "São Paulo - SP"
-  labels: [venus]
-  skills: [UXD, Design, CNV,]
-  bio: >
-    Bacharel em Design pela UFPE, atualmente estudo Experiência do Usuário (UXD).
-    Entusiasta em Neurociência e CNV (Comunicação não violenta).
-  twitter: "vanNonato"
-  linkedin: "vanessa-nonato"
-  facebook: "vgaldinov"
-
 - name: "Ingrid Marion Caparroz Mazoni"
   codamos: true
   full_name: "Ingrid Mazoni"
@@ -135,35 +137,3 @@
   github: "ingridmazoni"
   linkedin: "ingridmazoni"
 
-- name: "Cynthia Pereira"
-  codamos: true
-  full_name: "Cynthia Pereira"
-  email: "cynthiacpereira@gmail.com"
-  avatar: "cynthia.jpg"
-  location: "São Paulo - SP"
-  labels: [venus, hand-rock-o]
-  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
-  bio: >
-    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
-    #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
-  linkedin: "cynthiacpereira"
-  twitter: "cynthiapereira_"
-  facebook: "cybelle.oliveira"
-  github: "cynthiapereira"
-
-- name: "Cleo Rocha Castanho "
-  codamos: true
-  full_name: "Cleo Rocha Castanho "
-  email: "cleo.rochacastanho@gmail.com"
-  avatar: "cleo-rocha.jpg"
-  location: "São Paulo - SP"
-  labels: [venus]
-  skills: [Desenvolvimento, Games, HTML, CSS, Javascript, C#, Mobile]
-  bio: >
-    Tenho 19 anos e estou no primeiro ano da faculdade de desenvolvimento de Jogos Digitas na FIAP.
-    Sou muito interessada nas áreas de programação, matemática, séries e video-game.
-    Meu jogo, Focus, Archer!, recebeu o prêmio #Next avaliado pela #Split.
-  instagram: "cleo_castanho"
-  facebook: "cleo.rochacastanho"
-  linkedin: "cleo-rocha-castanho-92890a145"
-  github: "cleorocha"
