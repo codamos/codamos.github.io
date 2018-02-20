@@ -1,6 +1,7 @@
 ---
 title: cryptorave
-location: Porto Alegre - RS
+women: true
+location: São Paulo - SP
 date: 04/05 e 05/05
 from: '2018-05-04'
 until: '2018-05-05'
@@ -12,3 +13,4 @@ hashtag: cryptorave
 twitter: cryptoravebr
 facebook: cryptorave
 main_url: https://cryptorave.org/
+rsvp_url: https://lists.riseup.net/www/subscribe/cryptorave-boletim
