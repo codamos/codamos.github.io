@@ -57,7 +57,7 @@ table {
 body {
     font-family: Roboto, Sans-Serif;
     color: #3e3e3e;
-    background: #fafafa;
+    background: #eee;
 }
 
 p {
@@ -715,7 +715,7 @@ p {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    height: 70vh;
+    height: 80vh;
     padding: 5% 0 0 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -798,7 +798,7 @@ p {
 .events-card {
     width: 100%;
     background-color: #ffffff;
-    /*box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: flex;
     flex-direction: column;
