@@ -811,6 +811,7 @@ p {
 
 .events-card:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #FFE6E4;
 }
 
 .events-card-banner {
@@ -962,6 +963,7 @@ p {
 
 .events-card-header-ico-no-info h4 {
     color: #999;
+    mix-blend-mode: multiply;
     font-size: x-small;
     letter-spacing: 1px;
     opacity: 0.7;
@@ -1039,8 +1041,9 @@ p {
 }
 
 .events-card-body .events-card-body-social-media  i {
-    color: #cccccc;
+    color: #eee;
     font-size: 20px;
+    mix-blend-mode: multiply;
 }
 
 .events-card-body .events-card-body-social-media a i {
@@ -1056,6 +1059,7 @@ p {
 .events-card-body-no-hashtag {
     color: #ccc;
     text-transform: uppercase;
+    mix-blend-mode: multiply;
     text-decoration: none;
     font-size: small;
     margin: 1.0em auto;
