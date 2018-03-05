@@ -1,6 +1,5 @@
-<li class="events-card">
+<li class="events-card" data-event-card data-event-tags="{{ event.tags | join: ' ' }}">
   <div class="events-card-header">
-
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
@@ -70,8 +69,7 @@
       <span class="events-card-header-ico-no-info">
         <h4>sem informações inclusivas</h4>
       </span>
-      {% endif %}
-
+    {% endif %}
   </div>
 
   <div class="events-card-title">
@@ -79,9 +77,7 @@
   </div>
 
   <div class="events-card-body">
-
     <div class="events-card-body-content">
-
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
         <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
@@ -152,7 +148,6 @@
         <img src="images/grupo/{{ event.group }}">
       </div>
       {% endif %}
-
     </div>
 
     {% if event.rsvp_url and include.rsvp != false %}
