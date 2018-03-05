@@ -25,6 +25,9 @@
 
     <script defer src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver|gated"></script>
     <script defer src="js/lazy-load.js"></script>
+    {% for script in page.scripts %}
+      <script defer src="js/{{script}}.js"></script>
+    {% endfor %}
   </head>
   <body>
     <!-- CABECALHO -->

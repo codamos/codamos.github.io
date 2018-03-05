@@ -1,5 +1,6 @@
 ---
 layout: default
+scripts: [event-filters]
 ---
 {% assign today = site.time | date: "%Y-%m-%d" %}
 
@@ -28,7 +29,7 @@ layout: default
 
   <ul class="icon-labels">
     {% for icon in site.data.event_icons %}
-    <li class="events-section-label">
+    <li class="events-section-label" data-event-filter="{{ icon[0] }}">
       <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
     </li>
     {% endfor %}
@@ -71,4 +72,3 @@ layout: default
 </section>
 
 {% include code_of_conduct.html %}
-
