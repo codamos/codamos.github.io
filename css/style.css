@@ -836,6 +836,7 @@ p {
 .events-card-header {
     position: relative;
     background: #f1f1f1;
+    border-radius: 10px 10px 0 0;
 }
 
 .events-card-header-label {
@@ -849,7 +850,6 @@ p {
     text-transform: uppercase;
     padding: 0.6em 0.8em;
     letter-spacing: 2px;
-    /*box-shadow: 1px 1px 1px 1px rgba(64, 1, 23, 0.2);*/
 }
 
 .events-card-header-label h3 {
@@ -922,7 +922,7 @@ p {
 
 .events-card-body-grupo {
     background: #fff;
-    border: 2px solid #8ceaf2;
+    border: 2px solid #e5b9b5;
     border-radius: 100px;
     width: 30px;
     height: 30px;
@@ -930,7 +930,7 @@ p {
     z-index: 1;
     left: 10px;
     bottom: 3px;
-    box-shadow: 2px 2px 1px 1px rgba(91,46,80, 0.4);
+    box-shadow: 1px 1px 1px 1px rgba(91,46,80, 0.4);
 }
 
 .events-card-header-tag {

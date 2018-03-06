@@ -4,10 +4,12 @@ location: São Paulo - SP
 date: 10/03
 from: '2018-03-10'
 until: '2018-03-10'
+group: chicas-poderosas.png
+group_name: Chicas Poderosas
 hackathon: true
-banner: inclusao-cidania-genero.png
 free: true
 inclusive: true
+banner: inclusao-cidania-genero.png
 tags:
 - venus
 - cc

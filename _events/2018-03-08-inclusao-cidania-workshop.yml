@@ -4,12 +4,14 @@ location: São Paulo - SP
 date: 08/03 e 09/03
 from: '2018-03-08'
 until: '2018-03-09'
-category: 'workshop'
-banner: inclusao-cidania-genero.png
+group: chicas-poderosas.png
+group_name: Chicas Poderosas
 free: true
 women: true
 inclusive: true
 highlight: true
+category: 'workshop'
+banner: inclusao-cidania-genero.png
 tags:
 - venus
 - cc
