@@ -1,6 +1,12 @@
 <li class="events-card">
   <div class="events-card-header">
 
+    {% if event.group %}
+        <div class="events-card-body-grupo">
+          <img src="images/grupo/{{ event.group }}" title="Evento do grupo {{ event.group_name }}" >
+        </div>
+        {% endif %}
+
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
@@ -65,12 +71,13 @@
         {% for tag in event.tags %}
         <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
         {% endfor %}
+
       </span>
         {% else %}
       <span class="events-card-header-ico-no-info">
         <h4>sem informações inclusivas</h4>
       </span>
-      {% endif %}
+    {% endif %}
 
   </div>
 
@@ -146,12 +153,6 @@
         <i class="fa fa-calendar" aria-hidden="true"></i>
         <p>{{ event.date }}</p>
       </div>
-
-      {% if event.group %}
-      <div class="events-card-body-grupo">
-        <img src="images/grupo/{{ event.group }}">
-      </div>
-      {% endif %}
 
     </div>
 
