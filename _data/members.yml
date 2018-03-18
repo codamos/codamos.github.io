@@ -55,18 +55,18 @@
   linkedin: "cleo-rocha-castanho-92890a145"
   github: "cleorocha"
 
-- name: "Cybelle O."
+- name: "Cybelle"
   codamos: true
-  full_name: "Cybelle O."
+  full_name: "Cybelle"
   email: "cyb3ll3@protonmail.com"
   avatar: "cybelle-oliveira.jpg"
   location: "São Paulo - SP"
   labels: [venus, child]
-  skills: [Front-end, Privacidade e Segurança, CDC, Eventos, Produção]
+  skills: [Privacidade, Código de Conduta, Eventos, Produção, Gestão de Comunidades]
   bio: >
-    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac.
-    Produtora de eventos e consultora no Codamos Club, contribuidora da Mozilla, co-fundadora do JSLadies.
-    WebDev iniciante, entusiasta de privacidade e segurança, curiosa sobre história da tecnologia, feminista, tatuada e vegetariana.
+    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac. Atualmente no programa Mozilla Open Leaders.
+    Produtora de eventos, contribuidora da Mozilla, co-fundadora do JSLadies.
+    Entusiasta de privacidade e segurança, feminista e vegetariana.
   twitter: "cyb3113"
   linkedin: "cybelleoliveira"
   github: "cyb3113"
@@ -84,7 +84,6 @@
     #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
   linkedin: "cynthiacpereira"
   twitter: "cynthiapereira_"
-  facebook: "cybelle.oliveira"
   github: "cynthiapereira"
 
 - name: "João Britto"
