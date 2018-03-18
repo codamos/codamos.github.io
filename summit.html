@@ -1,0 +1,106 @@
+---
+layout: default
+---
+<!-- BANNER -->
+<section id="banner" class="banner-index">
+  <div class="banner-content">
+
+    <h2 class="page-banner-title">Codamos Summit</h2>
+
+    <p class="page-section-text">
+      Edição #1 vai acontecer em São Paulo dia 14/04 na NUbank
+    </p>
+
+  </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="page-section">
+  <h1 class="page-section-title">Codamos Summit SP</h1>
+
+    <p class="page-section-text">
+    Nossa primeira edição de um evento feito 100% do Codamos e com a intenção de dar palco e espaço pra falarmos sobre tecnologia, inclusão e diversidade.
+    </p>
+
+  <img src="images/logo.png" alt="Logotipo Codamos">
+
+  <h1 class="page-section-subtitle-alt">Grade do evento</h1>
+
+  <section id="team-collaborators" class="page-section">
+
+  <h4 class="page-section-text">
+    Trabalhamos voluntariamente para fazer do <span class="pink">Codamos</span> um ponto de encontro do fantástico mundo tecnológico.
+  </h4>
+
+  <h1 class="page-section-subtitle-alt">Colaboradores</h1>
+  <ul class="team-collaborators-cards">
+    {% for collaborator in site.data.collaborators %}
+    <li class="team-collaborators-card">
+      <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
+      <h3>{{ collaborator.name }}</h3>
+      <ul>
+        <li>
+          {% if collaborator.twitter %}
+          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
+             rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.facebook %}
+          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
+             rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.linkedin %}
+          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
+             rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+
+</section>
+
+  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
+</section>
+
+<section class="page-section">
+
+  <p class="page-section-text">
+    Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde
+    concentrar todas as informações de eventos, workshops, palestras, cursos e oportunidades de
+    networking em todo Brasil reunidas um lugar só. Além disso, são poucos os que preocupam em
+    divulgar e incentivar a inclusão, diversidade e a acessibilidade nos eventos de tecnologia.
+    Nosso objetivo é promover <a href="/eventos">eventos</a> com esse foco.
+  </p>
+
+  <p class="page-section-text">
+    <a href="/quem-somos">Essa é a razão pela qual criamos o Codamos.</a>
+  </p>
+
+</section>
+
+{% include code_of_conduct.html %}
+
+<!-- PALESTRANTES -->
+<section id="speakers">
+  <div class="page-section">
+    <h1 class="page-section-subtitle-alt">Detalhes sobre palestrantes</h1>
+
+    <ul class="speakers-cards">
+      {% assign speakers = site.data.speakers | where:"highlight",true %}
+      {% include speakers.html speakers=speakers %}
+    </ul>
+
+  </div>
+</section>
+

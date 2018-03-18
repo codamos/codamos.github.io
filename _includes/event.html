@@ -1,14 +1,12 @@
 <li class="events-card" data-event-card data-event-tags="{{ event.tags | join: ' ' }}">
   <div class="events-card-header">
-<<<<<<< HEAD
-=======
+
     {% if event.group %}
     <div class="events-card-body-grupo">
       <img src="images/grupo/{{ event.group }}" title="Evento do grupo {{ event.group_name }}" >
     </div>
     {% endif %}
 
->>>>>>> origin/filtros-nos-eventos
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
@@ -152,15 +150,7 @@
         <i class="fa fa-calendar" aria-hidden="true"></i>
         <p>{{ event.date }}</p>
       </div>
-<<<<<<< HEAD
 
-      {% if event.group %}
-      <div class="events-card-body-grupo">
-        <img src="images/grupo/{{ event.group }}">
-      </div>
-      {% endif %}
-=======
->>>>>>> origin/filtros-nos-eventos
     </div>
 
     {% if event.rsvp_url and include.rsvp != false %}
