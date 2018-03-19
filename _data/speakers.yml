@@ -20,7 +20,6 @@
 
 - name: "Jeliel Mendes"
   speaker: true
-  highlight: true
   full_name: "Evelyn Jeliel Mendes"
   email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
@@ -36,7 +35,6 @@
 
 - name: "Geisy Domiciano"
   speaker: true
-  highlight: true
   email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
@@ -142,7 +140,6 @@
 
 - name: "Rogério Rodrigues"
   speaker: true
-  highlight: true
   email: "rogerio@connecthealth.com.br"
   avatar: "rogerio-rodrigues.jpg"
   location: "Salvador - BA"
@@ -155,6 +152,7 @@
 
 - name: "Dan Jesus"
   speaker: true
+  highlight: true
   email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
   location: "Salvador - BA"
@@ -498,6 +496,7 @@
 
 - name: "Anna e Só"
   speaker: true
+  highlight: true
   email: "contraexemplo@protonmail.ch"
   avatar: "anna-e-so.jpg"
   location: "Goiânia - GO"
@@ -525,6 +524,7 @@
 
 - name: "Charlotte Lorelei Oliveira"
   speaker: true
+  highlight: true
   email: "charlotte.elixir@gmail.com"
   avatar: "charlotte-lorelei.jpg"
   location: "São Paulo - SP"
