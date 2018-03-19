@@ -40,8 +40,7 @@
   email: "geisydomiciano@gmail.com"
   avatar: "geisy-domiciano.jpg"
   location: "Diadema - SP"
-  labels: [venus, hand-rock-o]
-  lgbt: "lgbt"
+  labels: [venus, hand-rock-o, flag]
   skills: [Desenvolvimento JS, Vue.js, CSS, HTML, Git Flow, CI/CD]
   bio: >
     Apaixonada por desenvolvimento front-end, interessada em DevOps e
@@ -55,8 +54,7 @@
   email: "thaisfreitas31@gmail.com"
   avatar: "thais-moura.jpg"
   location: "Recife - PE"
-  labels: [venus]
-  lgbt: "lgbt"
+  labels: [venus, flag]
   skills: [Mulher em TI, Qualidade de Software, Testes, Team Ágil]
   bio: >
     Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
@@ -226,7 +224,7 @@
   email: "williamozsouza@gmail.com"
   avatar: "william-oliveira.jpg"
   location: "São Paulo - SP"
-  labels: [mars]
+  labels: [mars, hand-rock-o]
   skills: [Comunidades, Front End, Mentoria, Open Source, JavaScript]
   bio: >
     Desenvolvedor de Software, viciado em comunidades, compartilhar conhecimento e código (open source de preferência)
@@ -298,8 +296,7 @@
   email: "tathianadesigner@gmail.com"
   avatar: "tathiana.jpg"
   location: "Rio de Janeiro - RJ"
-  labels: [venus]
-  lgbt: "lgbt"
+  labels: [venus, flag]
   skills: [Empreendedorismo social, UX Design, Game Design, Representavidade em jogos]
   bio: >
     Tathiana Sanches é agênero, formada em design de mídia digital e empreendedorismo pela PUC-Rio. Faz MBA em management e especialização em jogos digitais. Empreendedora social, game designer e ux designer, desenvolve jogos digitais e experiências gamificadas de impacto social que também abordem representatividade, diversidade e inclusão de minorias. Foi mediadora da mesa "Representatividade interseccional nos jogos digitais : Além da representatividade normativa" no Simpósio brasileiro de games de 2017.
@@ -531,7 +528,7 @@
   email: "charlotte.elixir@gmail.com"
   avatar: "charlotte-lorelei.jpg"
   location: "São Paulo - SP"
-  labels: [trans, venus]
+  labels: [transgender-alt, venus]
   skills: [Elixir, Erlang, PostgreSQL]
   bio: >
     Desenvolvedora de software evangelista de Erlang, entusiasta de programação funcional e desenvolvimento web, apaixonada por gatos e por cheesecake.
@@ -652,7 +649,7 @@
   email: "emylleandressa2811@gmail.com "
   avatar: "emylle-borges.jpg"
   location: "Feira de Santana - BA"
-  labels: [venus]
+  labels: [venus, hand-rock-o]
   skills: [Conhecimento e programação em C, Phyton, JavaScript, PHP, HTML, CSS, Bootstrap, Arduíno]
   bio: >
     Sou técnica em Informática e Redes de Computadores e graduanda em Engenharia de Computação pela UEFS. Sou programadora tanto na área de software quanto de hardware e amo repassar meus conhecimentos e aprender com as experiências.
