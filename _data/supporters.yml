@@ -20,10 +20,6 @@
   logo: "codeclub.png"
   name: "Code Club Brasil"
 
-- main_url: "https://informatica.sp.senai.br/"
-  logo: "senai.png"
-  name: "Escola de informática SENAI"
-
 - main_url: "https://github.com/training-center"
   logo: "trainingcenter.png"
   name: "Training Center"

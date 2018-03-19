@@ -8,10 +8,6 @@
   logo: "brasiljs.png"
   name: "BrazilJS"
 
-- main_url: "https://www.totvs.com/"
-  logo: "totvs.png"
-  name: "Totvs"
-
 - main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   logo: "rubyconf.png"
   name: "Rubyconf Brasil"
