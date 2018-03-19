@@ -7,6 +7,7 @@ until: '2018-03-24'
 banner: elixir.png
 free: true
 inclusive: true
+meetup_event: true
 tags:
 - venus
 - cc

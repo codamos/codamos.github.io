@@ -367,7 +367,7 @@ p {
 .icon-labels li {
     border-radius: 5px;
     padding: 5px 8px;
-    margin: 0.2em;
+    margin: 0.1em;
     opacity: 0.9;
     font-family: Roboto, Sans-Serif;
     font-weight: 300;
@@ -730,8 +730,22 @@ p {
 
 .events-section-label {
     color: #fff;
-    border: 2px solid #ccc;
+    border: 2px solid #e5b9b5;
     background: #e60050;
+    transition: all 0.6s ease-out;
+}
+
+.events-section-label:hover {
+    color: #e60050;
+    border: 2px solid #e60050;
+    background: #fff;
+}
+
+.events-section-label:active {
+    color: #e60050;
+    border: 2px solid #e60050;
+    background: #fff;
+    opacity: 0.7;
 }
 
 .events-cards {
@@ -835,13 +849,13 @@ p {
     border-radius: 4px;
 }
 
-.category {
-    background: #660099;
+.women {
+    background: #e60050;
     top: 78px;
     color: #fff;
     right: 10px;
     font-weight: 300;
-    border: 2px solid #cc66ff;
+    border: 2px solid #ff9999;
     border-radius: 4px;
 }
 
@@ -864,7 +878,7 @@ p {
 
 .events-card-body-grupo {
     background: #fff;
-    border: 2px solid #e5b9b5;
+    border: 2px solid #f1f1f1;
     border-radius: 100px;
     width: 30px;
     height: 30px;
@@ -895,14 +909,38 @@ p {
     margin-left: 5px;
 }
 
-.women {
-    background: #e60050;
-    color: #fff;
+.category {
+    background: #35186a;
+    color: #ddc7ed;
+}
+
+.coffee {
+    background: #190d03;
+    color: #fec99d;
+}
+
+.partners {
+    background: #fff;
+    color: #e60050;
+}
+.happyhour {
+    background: #ff6655;;
+    color: #ffeb04;
 }
 
 .hackathon {
-    background: #F6A623;
+    background: #F0A000;
     color: #fff;
+}
+
+.meetup_event {
+    background: #ff2140;
+    color: #fff;
+}
+
+.on_line {
+    background: #000;
+    color: #eee;
 }
 
 .lgbt {
@@ -1158,10 +1196,10 @@ p {
     margin: 0 auto;
 }
 
-.speakers-section-label {
-    color: #fff;
-    border: 2px solid #ccc;
-    background: #e60050;
+.speakers-section-label, .communities-section-label, .podcast-section-label {
+    color: #333;
+    border: 2px solid #999;
+    background: #eee;
 }
 
 .speakers-cards {
@@ -1280,12 +1318,14 @@ p {
     padding: 5px 0;
 }
 
-.lgbt-label img {
-    border: none;
-    display: inline-block;
-    border-radius: 0;
-    object-fit: cover;
-    margin-right: 2px;
+.lgbt-label {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .speaker-card-labels i {

@@ -1,30 +1,70 @@
-<li class="events-card">
+<!--
+# Flags
+
+# group:         arquivo na pasta `images/grupo`, opcional.
+# group_name:    texto sem espaços, opcional. ex. Programaria, Marialab, Training Center.
+# free:          booleano (true ou false), opcional. Evento gratuito.
+# inclusive:     booleano (true ou false), opcional. Evento inclusivo.
+# category:      texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
+# women:         booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
+# lgbt:          booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# hackathon:     booleano (true ou false), opcional. Evento no formato hackathon.
+# opensource:    booleano (true ou false), opcional. É um evento para a comunidade Open source.
+# cfp:           booleano (true ou false), opcional. Está com Call For papers aberto.
+# highlight:     booleano (true ou false), opcional. Destaque na home.
+# happyhour:     booleano (true ou false), opcional. Evento no bar.
+# coffee:        booleano (true ou false), opcional. Evento em café.
+# meetup_event:  booleano (true ou false), opcional. Evento que é um meetup.
+# partners:      booleano (true ou false), opcional. Evento em café.
+# on_line:       booleano (true ou false), opcional. Evento que são on-line.
+
+# Infomations
+
+# title:      texto, obrigatório. Nome do evento.
+# location:   texto, obrigatório.
+# date:       texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
+# until:      texto, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
+# banner:     arquivo na pasta `images/eventos`, opcional.
+# tags:       lista de classes de ícones do font awesome, opcional.
+# hashtag:    texto sem espaços, opcional. Hashtag oficial do twitter.
+# twitter:    texto sem espaços, opcional. Twitter handle.
+# facebook:   texto sem espaços, opcional. Facebook handle.
+# instagram:  texto sem espaços, opcional. Instagram handle.
+# linkedin:   texto sem espaços, opcional. LinkedIn handle.
+# meetup:     texto sem espaços, opcional. Id do grupo no Meetup.
+# medium:     texto sem espaços, opcional. User do grupo no Medium.
+# youtube:    texto sem espaços, opcional. Youtube handle.
+# main_url:   URL, obrigatório. Site do evento.
+# rsvp_url:   URL, obrigatório. Site para inscrição no evento.
+-->
+
+<li class="events-card" data-event-card data-event-tags="{{ event.tags | join: ' ' }}">
   <div class="events-card-header">
 
     {% if event.group %}
-        <div class="events-card-body-grupo">
-          <img src="images/grupo/{{ event.group }}" title="Evento do grupo {{ event.group_name }}" >
-        </div>
-        {% endif %}
+    <div class="events-card-body-grupo">
+      <img src="images/grupo/{{ event.group }}" title="Evento do grupo {{ event.group_name }}" >
+    </div>
+    {% endif %}
 
     <div class="events-card-banner">
       <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
 
       {% if event.free %}
       <div class="events-card-header-label free">
-        <i class="fa fa-ticket" aria-hidden="true"></i><h3>Gratuito</h3>
+        <i class="fa fa-ticket" aria-hidden="true"></i><h3>gratuito</h3>
       </div>
       {% endif %}
 
       {% if event.inclusive %}
       <div class="events-card-header-label inclusive">
-        <i class="fa fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
+        <i class="fa fa-heart" aria-hidden="true"></i><h3>inclusivo</h3>
       </div>
       {% endif %}
 
-      {% if event.category %}
-      <div class="events-card-header-label category">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
+      {% if event.women %}
+      <div class="events-card-header-label women">
+        <i class="fa fa-microphone" aria-hidden="true"></i><h3>mulheres no palco</h3>
       </div>
       {% endif %}
 
@@ -42,19 +82,49 @@
 
       {% if event.cfp and include.cfp != false %}
       <div class="events-card-header-label call4papers">
-        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>Call4papers</h3>
+        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>call4papers</h3>
       </div>
       {% endif %}
 
-      {% if event.women %}
-      <div class="events-card-header-tag women">
-        <i class="fa fa-microphone" aria-hidden="true"></i><h3>Mulheres no palco</h3>
+      {% if event.category %}
+      <div class="events-card-header-tag category">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
+      </div>
+      {% endif %}
+
+      {% if event.partners %}
+      <div class="events-card-header-tag partners">
+        <i class="fa fa-diamond" aria-hidden="true"></i><h3>parceiro</h3>
+      </div>
+      {% endif %}
+
+      {% if event.meetup_event %}
+      <div class="events-card-header-tag meetup_event">
+        <i class="fa fa-meetup" aria-hidden="true"></i><h3>Meetup</h3>
+      </div>
+      {% endif %}
+
+      {% if event.on_line %}
+      <div class="events-card-header-tag on_line">
+        <i class="fa fa-power-off" aria-hidden="true"></i><h3>on-line</h3>
       </div>
       {% endif %}
 
       {% if event.hackathon %}
       <div class="events-card-header-tag hackathon">
         <i class="fa fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
+      </div>
+      {% endif %}
+
+      {% if event.happyhour %}
+      <div class="events-card-header-tag happyhour">
+        <i class="fa fa-beer" aria-hidden="true"></i><h3>happy hour</h3>
+      </div>
+      {% endif %}
+
+      {% if event.coffee %}
+      <div class="events-card-header-tag coffee">
+        <i class="fa fa-coffee" aria-hidden="true"></i><h3>café</h3>
       </div>
       {% endif %}
 
@@ -78,7 +148,6 @@
         <h4>sem informações inclusivas</h4>
       </span>
     {% endif %}
-
   </div>
 
   <div class="events-card-title">
@@ -86,9 +155,7 @@
   </div>
 
   <div class="events-card-body">
-
     <div class="events-card-body-content">
-
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
         <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"

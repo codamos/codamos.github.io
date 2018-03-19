@@ -3,6 +3,7 @@ title: Grace Hopper Celebration 18 Livestream
 women: true
 inclusive: true
 free: true
+on_line: true
 location: on-line
 date: 14/11 a 16/11
 from: '2018-11-14'
@@ -10,8 +11,8 @@ until: '2018-11-16'
 banner: anita-borg.png
 tags:
 - cc
-- universal-access
 - venus
+- power-off
 hashtag: GHC18
 linkedin: groups/36797/profile
 twitter: anitab_org

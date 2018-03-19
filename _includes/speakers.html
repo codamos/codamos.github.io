@@ -19,14 +19,12 @@
     </div>
     {% endif %}
 
-  <div class="speaker-card-labels lgbt-label">
+  <div class="speaker-card-labels">
     {% for label in speaker.labels %}
     <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.speaker_icons[label] }}"></i>
     {% endfor %}
-    {% if speaker.lgbt %}
-    <img src="images/lgbt.png" alt="LGBTQI+">
-    {% endif %}
   </div>
+
 
   <h3>{{ speaker.full_name | default: speaker.name }}</h3>
 

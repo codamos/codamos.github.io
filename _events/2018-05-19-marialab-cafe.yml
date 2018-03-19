@@ -7,6 +7,7 @@ until: '2018-05-19'
 banner: cafe-maria-lab.png
 inclusive: true
 free: true
+coffee: true
 group: marialab.png
 group_name: Marialab
 tags:
