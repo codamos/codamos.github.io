@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- BANNER -->
-<section id="banner" class="banner-index">
+<section id="summit" class="banner-summit">
   <div class="banner-content">
 
     <h2 class="page-banner-title">Codamos Summit</h2>
@@ -15,62 +15,140 @@ layout: default
 </section>
 
 <!-- EVENTOS -->
-<section class="page-section">
-  <h1 class="page-section-title">Codamos Summit SP</h1>
+<section class="page-section-summit">
+   <h1 class="page-section-title">Codamos Summit SP</h1>
 
     <p class="page-section-text">
     Nossa primeira edição de um evento feito 100% do Codamos e com a intenção de dar palco e espaço pra falarmos sobre tecnologia, inclusão e diversidade.
     </p>
 
-  <img src="images/logo.png" alt="Logotipo Codamos">
-
   <h1 class="page-section-subtitle-alt">Grade do evento</h1>
+
+  <div class="wrapper">
+  <div class="box credenciamento">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 09:00</h2>
+    <h3>Credenciamento</h3>
+  </div>
+
+  <div class="box welcome_coffee">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 09:30</h2>
+    <h3>Welcome coffee</h3>
+  </div>
+
+  <div class="box a">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00</h2>
+  </div>
+  <div class="box b">
+    <h2>Abertura do evento</h2>
+  </div>
+
+  <div class="box hora1">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 10:30</h2>
+    <h3>CSS Grid</h3>
+  </div>
+  <div class="box perfil1">
+    <img src="../images/fotos/carol_soares.jpg">
+    <h2>Carol Soares</h2>
+  </div>
+  <div class="box palestra1">
+    <h3>Layout na web - um guia de CSS Grid</h3>
+  </div>
+
+  <div class="box hora2">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00</h2>
+  </div>
+  <div class="box perfil2"></div>
+  <div class="box palestra2"></div>
+
+  <div class="box hora3">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 11:30</h2>
+  </div>
+  <div class="box perfil3"></div>
+  <div class="box palestra3"></div>
+
+  <div class="box hora4">12:00 - 12:30</div>
+  <div class="box perfil4"></div>
+  <div class="box palestra4"></div>
+
+  <div class="box almoco"><h2>12:30 - 13:30</h2> <h3>Almoço</h3></div>
+
+  <div class="box hora5">13:30 - 14:00</div>
+  <div class="box perfil5"></div>
+  <div class="box palestra5"></div>
+
+  <div class="box hora6">14:00 - 14:30</div>
+  <div class="box perfil6"></div>
+  <div class="box palestra6"></div>
+
+  <div class="box hora7">14:30 - 15:00</div>
+  <div class="box perfil7"></div>
+  <div class="box palestra7"></div>
+
+  <div class="box coffee1"><h2>15:00 - 15:30</h2> <h3>Coffee</h3></div>
+
+  <div class="box hora8">15:30 - 16:00</div>
+  <div class="box perfil8"></div>
+  <div class="box palestra8"></div>
+
+  <div class="box hora9">16:00 - 16:30</div>
+  <div class="box perfil9"></div>
+  <div class="box palestra9"></div>
+
+  <div class="box hora10">16:30 - 17:00</div>
+  <div class="box perfil10"></div>
+  <div class="box palestra10"></div>
+
+  <div class="box hora11">17:00 - 17:30</div>
+  <div class="box perfil11"></div>
+  <div class="box palestra11"></div>
+
+  <div class="box coffee2"><h2>17:30 - 18:00</h2> <h3>Coffee</h3></div>
+
+  <div class="box hora12">
+    <h2><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00</h2>
+    <h3>Firebase</h3>
+  </div>
+  <div class="box perfil12">
+    <img src="../images/fotos/jeliel-mendes.jpg">
+    <h2>Evelyn Mendes</h2>
+  </div>
+  <div class="box palestra12">
+    <h3>Desnormalização - Melhorando a exposição de pesquisa no Firebase</h3>
+  </div>
+
+  <div class="box c"><h2>18:30 - 19:30</h2><h3>Comunidades</h3></div>
+  <div class="box d"><h3>Painel sobre diversidade e inclusão</h3></div>
+
+  <div class="box f"></div>
+  <div class="box g"></div>
+  <div class="box h"></div>
+  <div class="box i"></div>
+  <div class="box j"></div>
+
+  <div class="box k"></div>
+  <div class="box l"></div>
+  <div class="box m"></div>
+  <div class="box n"></div>
+  <div class="box o"></div>
+
+  <div class="box encerramento">19:30 - 20:00 <h3>Encerramento</div>
+
+  </div>
 
   <section id="team-collaborators" class="page-section">
 
-  <h4 class="page-section-text">
-    Trabalhamos voluntariamente para fazer do <span class="pink">Codamos</span> um ponto de encontro do fantástico mundo tecnológico.
-  </h4>
+    <h4 class="page-section-text">
+      Trabalhamos voluntariamente para fazer do <span class="pink">Codamos</span> um ponto de encontro do fantástico mundo tecnológico.
+    </h4>
 
-  <h1 class="page-section-subtitle-alt">Colaboradores</h1>
-  <ul class="team-collaborators-cards">
-    {% for collaborator in site.data.collaborators %}
-    <li class="team-collaborators-card">
-      <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
-      <h3>{{ collaborator.name }}</h3>
-      <ul>
-        <li>
-          {% if collaborator.twitter %}
-          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
-             rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.facebook %}
-          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
-             rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.linkedin %}
-          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
-             rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+    <h1 class="page-section-subtitle-alt">Realização</h1>
+    <img src="images/logo.png" alt="Logotipo Codamos">
 
-</section>
+    <h1 class="page-section-subtitle-alt">Patrocínio</h1>
+    <img src="images/summit/Nubank_Logo.png" alt="Logotipo Nubank">
 
-  <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
+  </section>
+
 </section>
 
 <section class="page-section">
