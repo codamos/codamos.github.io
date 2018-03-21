@@ -794,7 +794,7 @@ p {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    transition: all 0.6s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .events-card:hover {
@@ -859,7 +859,7 @@ p {
 
 .call4papers {
     background: #ffff66;
-    top: 45px;
+    top: 7px;
     color: #660000;
     right: 10px;
     font-weight: 700;
@@ -878,12 +878,16 @@ p {
 
 .women {
     background: #e60050;
-    top: 78px;
+    top: 68px;
     color: #fff;
     right: 10px;
     font-weight: 300;
     border: 2px solid #ff9999;
     border-radius: 4px;
+}
+
+.women i {
+    font-size: 1.4em;
 }
 
 .codamos {
