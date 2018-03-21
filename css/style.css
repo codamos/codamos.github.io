@@ -1607,7 +1607,7 @@ p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 60vh;
+    height: 100vh;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -1642,6 +1642,9 @@ p {
         margin: 2px;
         width: 150px;
         height: 150px;
+    }
+    .partners-supporters-box {
+    height: 60vh;
     }
 }
 
