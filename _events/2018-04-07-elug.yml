@@ -1,17 +1,18 @@
 ---
-title: 'Elixir Meetup #12'
+title: 'Elug #13'
 location: São Paulo - SP
-date: 24/03
-from: '2017-03-24'
-until: '2017-03-24'
-banner: elixir.png
+date: 07/04
+from: '2018-04-07'
+until: '2018-04-07'
+banner: elug.png
 free: true
-inclusive: true
 meetup_event: true
+inclusive: true
 tags:
 - venus
 - cc
+- flag
 hashtag: myelixirstatus
 twitter: elug_sp
 main_url: https://groups.google.com/forum/?hl=pt#!forum/elug-sp
-rsvp_url: https://www.meetup.com/elug_sp/events/248271679/
+rsvp_url: https://www.meetup.com/elug_sp/events/248898962/
