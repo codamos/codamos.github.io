@@ -32,13 +32,69 @@
 
 # DEZEMBRO
 
+- title: "Pod Programar"
+  women: true
+  convidados: true
+  inclusive: true
+  location: "Belo Horizonte - MG"
+  date: "Quinzenal"
+  banner: "podprogramar.png"
+  category: "- 40 minutos"
+  hashtag: "PodProgramar"
+  twitter: "PodProgramar"
+  facebook: "PodProgramar"
+  itunes: "https://itunes.apple.com/br/podcast/podprogramar-mundo-podcast/id1129404763?mt=2"
+  android: "https://subscribeonandroid.com/mundopodcast.com.br/feed/podcast/"
+  rss: "https://mundopodcast.com.br/feed/"
+  main_url: "https://mundopodcast.com.br/podprogramar/"
+  rsvp_url: "https://mundopodcast.com.br/podprogramar/"
+
+- title: "lovelace"
+  location: "On-line"
+  women: true
+  inclusive: true
+  date: "indefinido"
+  banner: "lovelace.png"
+  category: "+ 60 minutos"
+  soundcloud: "https://soundcloud.com/user-363783809"
+  twitter: "LovelacePodcast"
+  main_url: "https://soundcloud.com/user-363783809"
+  rsvp_url: "https://soundcloud.com/user-363783809"
+
+- title: "Geekout"
+  location: "On-line"
+  inclusive: true
+  women: true
+  date: "encerrado"
+  banner: "geekout.png"
+  category: "- 60 minutos"
+  itunes: "https://itunes.apple.com/us/podcast/geek-out/id956387481?mt=2"
+  rss: "https://geekout.fm/feed.xml"
+  twitter: "GeekOutFM"
+  facebook: "geekoutfm"
+  main_url: "https://geekout.fm/"
+  rsvp_url: "https://geekout.fm/"
+
+- title: "pizzadedados"
+  location: "São Paulo - SP"
+  women: true
+  inclusive: true
+  date: "indefinido"
+  banner: "pizza-dados.png"
+  category: "+ 60 minutos"
+  hashtag: "podosfera"
+  twitter: "pizzadedados"
+  itunes: "https://itunes.apple.com/us/podcast/pizza-de-dados/id1323137071?mt=2"
+  rss: "http://feeds.feedburner.com/PizzaDeDados"
+  main_url: "http://podcast.datascience.pizza/"
+  rsvp_url: "http://podcast.datascience.pizza/"
+
 - title: "Lambda3"
   inclusive: true
   convidados: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "lambda3.png"
-  tags: [venus, cc]
   category: "+ 60 minutos"
   hashtag: "PodcastFriday"
   twitter: "lambdatres"
@@ -50,54 +106,185 @@
   main_url: "https://www.lambda3.com.br/"
   rsvp_url: "https://www.lambda3.com.br/lambda3-podcast/"
 
-- title: "Pod Programar"
-  women: true
-  convidados: true
-  inclusive: true
-  location: "Belo Horizonte - MG"
-  date: "Quinzenal"
-  banner: "podprogramar.png"
-  tags: [venus, cc]
-  category: "- 40 minutos"
-  hashtag: "PodProgramar"
-  twitter: "PodProgramar"
-  facebook: "PodProgramar"
-  itunes: "br/podcast/mundo-podcast/"
-  android: "https://subscribeonandroid.com/mundopodcast.com.br/feed/podcast/"
-  rss: "https://mundopodcast.com.br/feed/"
-  main_url: "https://mundopodcast.com.br/podprogramar/"
-  rsvp_url: "https://mundopodcast.com.br/podprogramar/"
-
 - title: "Dev na estrada"
   convidados: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "dev-na-estrada.png"
-  tags: [venus, cc]
   category: "+ 60 minutos"
   hashtag: "DNE"
   twitter: "devnaestrada"
   facebook: "devnaestrada"
   rss: "http://devnaestrada.com.br/feed.xml"
-  itunes: "br/podcast/devnaestrada/"
+  itunes: "https://itunes.apple.com/br/podcast/devnaestrada/id997779431?mt=2"
   main_url: "http://devnaestrada.com.br/"
   rsvp_url: "http://devnaestrada.com.br/"
 
+- title: "umblercast"
+  location: "On-line"
+  convidados: true
+  inclusive: true
+  date: "indefinido"
+  banner: "umblercast.png"
+  category: "+ 60 minutos"
+  soundcloud: "https://soundcloud.com/umblercast"
+  itunes: "https://itunes.apple.com/br/podcast/umblercast/id1199010134?mt=2"
+  rss: "http://zofe.com.br/feed/posts.xml"
+  twitter: "umbler"
+  facebook: "umbler/"
+  main_url: "https://soundcloud.com/umblercast"
+  rsvp_url: "https://soundcloud.com/umblercast"
+
 - title: "Hipsters.Tech"
   convidados: true
+  inclusive: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "hipsterstech.jpg"
-  tags: [cc]
   category: "60 minutos"
   hashtag: "hipsterspontotech"
   twitter: "AluraOnline"
   facebook: "groups/hipsterspontotech"
-  itunes: "bhttps://hipsters.tech/assinando-o-podcast-no-ios/"
+  itunes: "https://itunes.apple.com/br/podcast/hipsters-ponto-tech/id1133325943?mt=2"
   android: "https://hipsters.tech/assinando-o-podcast-no-android/"
   rss: "http://hipsters.tech/feed/podcast/"
   main_url: "https://hipsters.tech/"
   rsvp_url: "https://hipsters.tech/"
+
+- title: "Castálio"
+  location: "On-line"
+  convidados: true
+  inclusive: true
+  date: "indefinido"
+  banner: "castalio.png"
+  category: "+ 60 minutos"
+  youtube: "castaliopodcast"
+  spotify: "https://open.spotify.com/user/elyezermr/playlist/0PDXXZRXbJNTPVSnopiMXg"
+  twitter: "castaliopod"
+  facebook: "castaliopod"
+  main_url: "http://castalio.info/"
+  rsvp_url: "http://castalio.info/archives.html"
+
+- title: "Jogabilidade"
+  location: "On-line"
+  inclusive: true
+  convidados: true
+  date: "encerrado"
+  banner: "jogabilidade.png"
+  category: "- 60 minutos"
+  youtube: "jogabilidade"
+  rss: "http://games.jogabilida.de/"
+  twitter: "jogabilidade"
+  facebook: "Jogabilidade/"
+  main_url: "http://jogabilida.de/"
+  rsvp_url: "http://jogabilida.de/category/podcasts/podcast-games/construindo-mundo/"
+
+- title: "Cafedebug"
+  location: "São Paulo - SP"
+  convidados: true
+  date: "indefinido"
+  banner: "cafedebug.png"
+  category: "- 60 minutos"
+  hashtag: "tecnologia"
+  twitter: "cafedebug"
+  facebook: "cafedebug"
+  soundcloud: "https://soundcloud.com/cafe-de-bug"
+  main_url: "http://cafedebug.com/"
+  rsvp_url: "http://cafedebug.com/category/podcast/"
+
+- title: "Like a boss"
+  location: "On-line"
+  convidados: true
+  date: "indefinido"
+  banner: "likeaboss.png"
+  category: "- 40 minutos"
+  android: "https://subscribeonandroid.com/www.likeaboss.com.br/episodios/feed/like-a-boss/"
+  rss: "https://www.likeaboss.com.br/episodios/feed/like-a-boss/"
+  itunes: "https://itunes.apple.com/br/podcast/like-a-boss/id1294402561?mt=2"
+  linkedin: "company/podcast-like-a-boss/"
+  facebook: "podcastlikeaboss"
+  main_url: "https://www.likeaboss.com.br"
+  rsvp_url: "https://www.likeaboss.com.br/episodios/"
+
+- title: "CocoaHeads"
+  location: "On-line"
+  convidados: true
+  date: "indefinido"
+  banner: "cocoaheads.png"
+  category: "+ 60 minutos"
+  youtube: "cocoaheadsbr"
+  soundcloud: "https://soundcloud.com/cocoaheadsbr"
+  itunes: "https://itunes.apple.com/br/podcast/cocoaheads-brasil/id1044808957?mt=2"
+  twitter: "CocoaHeadsBr"
+  hashtag: "podcast"
+  facebook: "CocoaHeadsBrasil"
+  main_url: "http://www.cocoaheads.com.br/"
+  rsvp_url: "http://www.cocoaheads.com.br/podcasts"
+
+- title: "ZOFE"
+  location: "On-line"
+  convidados: true
+  date: "encerrado"
+  banner: "zo-fe.png"
+  category: "- 30 minutos"
+  itunes: "https://itunes.apple.com/br/podcast/zone-of-front-enders-podcast/id580335548?mt=2"
+  rss: "http://zofe.com.br/feed/posts.xml"
+  twitter: "zofepod"
+  facebook: "zofepod"
+  main_url: "http://zofe.com.br/"
+  rsvp_url: "http://zofe.com.br/"
+
+- title: "Segurança legal"
+  location: "On-line"
+  date: "indefinido"
+  banner: "seguranca-legal.png"
+  category: "+ 60 minutos"
+  twitter: "segurancalegal"
+  facebook: "segurancalegal"
+  itunes: "https://itunes.apple.com/br/podcast/seguran%C3%A7a-legal/id572087377?mt=2"
+  android: "http://subscribeonandroid.com/www.segurancalegal.com/feed/podcast/"
+  rss: "http://www.segurancalegal.com/feed/podcast/"
+  main_url: "http://www.segurancalegal.com/"
+  rsvp_url: "http://www.segurancalegal.com/lista-de-episodios/"
+
+- title: "Cocatech"
+  location: "On-line"
+  date: "indefinido"
+  banner: "cocatech.png"
+  category: "+ 60 minutos"
+  youtube: "cocatechpodcast"
+  rss: "http://feeds.cocatech.com.br/cocatech"
+  itunes: "https://itunes.apple.com/br/podcast/cocatech/id437224054?mt=2"
+  twitter: "cocatech"
+  facebook: "cocatech"
+  main_url: "http://www.cocoaheads.com.br/"
+  rsvp_url: "https://cocatech.com.br/cast"
+
+- title: "aparelho elétrico"
+  location: "On-line"
+  date: "indefinido"
+  banner: "aparelho.png"
+  category: "+ 60 minutos"
+  soundcloud: "https://soundcloud.com/aparelhoeletrico"
+  rss: "http://aparelhoeletrico.com/feed/"
+  itunes: "https://itunes.apple.com/br/podcast/aparelho-el%C3%A9trico/id1013996979?mt=2"
+  twitter: "ligaoaparelho"
+  facebook: "aparelhoeletrico"
+  main_url: "http://aparelhoeletrico.com/"
+  rsvp_url: "http://aparelhoeletrico.com/podcast/"
+
+- title: "loopmatinal"
+  location: "On-line"
+  date: "indefinido"
+  banner: "looping-matinal.png"
+  category: "- 10 minutos"
+  youtube: "oloopinfinito"
+  rss: "http://loopmatinal.libsyn.com/rss"
+  itunes: "https://itunes.apple.com/br/podcast/loop-matinal/id1053245743?mt=2"
+  twitter: "LoopMatinal"
+  main_url: "http://www.loopmatinal.com/"
+  rsvp_url: "https://cocatech.com.br/cast"
 
 - title: "Tecnocast"
   location: "São Paulo - SP"
@@ -108,91 +295,49 @@
   twitter: "tecnoblog"
   facebook: "Tecnoblog"
   soundcloud: "https://soundcloud.com/tecnoblog"
-  itunes: "itpc://tecnoblog.net/feed/podcast/"
+  itunes: "https://itunes.apple.com/br/podcast/tecnocast/id505204037?mt=2"
   rss: "https://tecnoblog.net/feed/podcast/"
   main_url: "https://tecnoblog.net/"
   rsvp_url: "https://tecnoblog.net/categoria/podcast/"
 
+- title: "Nerdcast"
+  location: "On-line"
+  date: "Semanal"
+  banner: "nerdcast.png"
+  category: "+ 80 minutos"
+  hashtag: "nerdcast"
+  twitter: "JovemNerd"
+  facebook: "jovemnerd"
+  soundcloud: "https://soundcloud.com/tecnoblog"
+  itunes: "https://itunes.apple.com/br/podcast/nerdcast/id381816509?mt=2"
+  rss: "https://tecnoblog.net/feed/podcast/"
+  main_url: "https://jovemnerd.com.br/"
+  rsvp_url: "https://jovemnerd.com.br/nerdcast/"
+
+- title: "Braincast"
+  location: "On-line"
+  date: "Semanal"
+  banner: "braincast.png"
+  category: "+ 80 minutos"
+  hashtag: "Braincast"
+  youtube: "b9"
+  facebook: "brainstorm9"
+  twitter: "brains9"
+  soundcloud: "http://soundcloud.com/brains9"
+  itunes: "http://itunes.apple.com/us/podcast/brains9/id504897783"
+  android: "http://subscribeonandroid.com/feeds.feedburner.com/braincastmp3"
+  rss: "http://feeds.feedburner.com/braincastmp3"
+  main_url: "http://www.b9.com.br/"
+  rsvp_url: "http://www.b9.com.br/podcasts/braincast/"
 
 - title: "FIAP Café"
   location: "São Paulo - SP"
   date: "Histórico"
   banner: "fiap.png"
-  tags: [cc]
   category: "- 10 minutos"
   hashtag: "fiapcafe"
   twitter: "fiap"
   facebook: "fiap"
-  itunes: "https://itunes.apple.com/br/podcast/fiap-cafe/id466766842?l=en&mt=2"
+  itunes: "https://itunes.apple.com/br/podcast/fiap-caf%C3%A9/id466766842?mt=2"
   main_url: "https://www.fiap.com.br/"
   rsvp_url: "https://www.fiap.com.br/FIAPx/podcast"
-
-- title: "Cafedebug"
-  location: "São Paulo - SP"
-  convidados: true
-  date: "indefinido"
-  banner: "cafedebug.png"
-  tags:
-  - cc
-  - venus
-  - neuter
-  category: "- 60 minutos"
-  hashtag: "tecnologia"
-  twitter: "cafedebug"
-  facebook: "cafedebug"
-  soundcloud: "https://soundcloud.com/cafe-de-bug"
-  main_url: "http://cafedebug.com/"
-  rsvp_url: "http://cafedebug.com/category/podcast/"
-
-- title: "pizzadedados"
-  location: "São Paulo - SP"
-  women: true
-  date: "indefinido"
-  banner: "pizza-dados.png"
-  tags:
-  - cc
-  - venus
-  - neuter
-  category: "+ 60 minutos"
-  hashtag: "podosfera"
-  twitter: "pizzadedados"
-  itunes: "https://itunes.apple.com/us/podcast/pizza-de-dados/id1323137071"
-  rss: "http://feeds.feedburner.com/PizzaDeDados"
-  main_url: "http://podcast.datascience.pizza/"
-  rsvp_url: "http://podcast.datascience.pizza/"
-
-- title: "Segurança legal"
-  location: "On-line"
-  date: "indefinido"
-  banner: "seguranca-legal.png"
-  tags:
-  - cc
-  - venus
-  - neuter
-  category: "+ 60 minutos"
-  twitter: "segurancalegal"
-  facebook: "segurancalegal"
-  android: "http://subscribeonandroid.com/www.segurancalegal.com/feed/podcast/"
-  rss: "http://www.segurancalegal.com/feed/podcast/"
-  main_url: "http://www.segurancalegal.com/"
-  rsvp_url: "http://www.segurancalegal.com/lista-de-episodios/"
-
-- title: "Castálio"
-  location: "On-line"
-  convidados: true
-  date: "indefinido"
-  banner: "castalio.png"
-  tags:
-  - cc
-  - venus
-  - neuter
-  category: "+ 60 minutos"
-  youtube: "castaliopodcast"
-  spotify: "https://open.spotify.com/user/elyezermr/playlist/0PDXXZRXbJNTPVSnopiMXg"
-  twitter: "castaliopod"
-  facebook: "castaliopod"
-  main_url: "http://castalio.info/"
-  rsvp_url: "http://castalio.info/archives.html"
-
-
-
