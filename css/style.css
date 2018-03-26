@@ -1705,6 +1705,7 @@ p {
     padding: 5em 1em;
     border-bottom: 1.5em solid #c2a6f0;
     border-top: 1.5em solid #c2a6f0;
+    background: #35186a;
 }
 
 .include-event-title {
