@@ -126,3 +126,73 @@
   itunes: "https://itunes.apple.com/br/podcast/fiap-cafe/id466766842?l=en&mt=2"
   main_url: "https://www.fiap.com.br/"
   rsvp_url: "https://www.fiap.com.br/FIAPx/podcast"
+
+- title: "Cafedebug"
+  location: "São Paulo - SP"
+  convidados: true
+  date: "indefinido"
+  banner: "cafedebug.png"
+  tags:
+  - cc
+  - venus
+  - neuter
+  category: "- 60 minutos"
+  hashtag: "tecnologia"
+  twitter: "cafedebug"
+  facebook: "cafedebug"
+  soundcloud: "https://soundcloud.com/cafe-de-bug"
+  main_url: "http://cafedebug.com/"
+  rsvp_url: "http://cafedebug.com/category/podcast/"
+
+- title: "pizzadedados"
+  location: "São Paulo - SP"
+  women: true
+  date: "indefinido"
+  banner: "pizza-dados.png"
+  tags:
+  - cc
+  - venus
+  - neuter
+  category: "+ 60 minutos"
+  hashtag: "podosfera"
+  twitter: "pizzadedados"
+  itunes: "https://itunes.apple.com/us/podcast/pizza-de-dados/id1323137071"
+  rss: "http://feeds.feedburner.com/PizzaDeDados"
+  main_url: "http://podcast.datascience.pizza/"
+  rsvp_url: "http://podcast.datascience.pizza/"
+
+- title: "Segurança legal"
+  location: "On-line"
+  date: "indefinido"
+  banner: "seguranca-legal.png"
+  tags:
+  - cc
+  - venus
+  - neuter
+  category: "+ 60 minutos"
+  twitter: "segurancalegal"
+  facebook: "segurancalegal"
+  android: "http://subscribeonandroid.com/www.segurancalegal.com/feed/podcast/"
+  rss: "http://www.segurancalegal.com/feed/podcast/"
+  main_url: "http://www.segurancalegal.com/"
+  rsvp_url: "http://www.segurancalegal.com/lista-de-episodios/"
+
+- title: "Castálio"
+  location: "On-line"
+  convidados: true
+  date: "indefinido"
+  banner: "castalio.png"
+  tags:
+  - cc
+  - venus
+  - neuter
+  category: "+ 60 minutos"
+  youtube: "castaliopodcast"
+  spotify: "https://open.spotify.com/user/elyezermr/playlist/0PDXXZRXbJNTPVSnopiMXg"
+  twitter: "castaliopod"
+  facebook: "castaliopod"
+  main_url: "http://castalio.info/"
+  rsvp_url: "http://castalio.info/archives.html"
+
+
+
