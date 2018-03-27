@@ -1764,6 +1764,7 @@ p {
 
     .box img {
         border-radius: 100%;
+        width: 50%;
     }
 
     .stage {
@@ -1784,7 +1785,7 @@ p {
         grid-column: date ;
         background-color: rgba(31,58,147, 0.9);
     }
-    .speaker {
+    .speak {
         grid-column: speaker ;
         background-color: rgba(58,83,155, 0.9);
     }
