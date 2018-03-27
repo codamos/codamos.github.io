@@ -484,12 +484,10 @@ p {
 }
 
 .page-section-summit {
-    background-image: url("../images/summit/summit-bg.png");
     mix-blend-mode: soft-light;
     object-fit: cover;
     object-position: center;
-    padding: 4em;
-    width: 100%;
+    width: 85%;
     text-align: center;
     margin: 0 auto;
 }
@@ -1751,281 +1749,51 @@ p {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(5, [col] auto ) ;
-    grid-template-rows: repeat(22, [row] auto  );
+    grid-template-columns: [date] 1fr [speaker] 1fr [talk] 1fr 1fr 1fr;
+    grid-auto-rows: min-content;
     color: #fff;
     align-content: space-evenly;
     font-size: small;
     font-weight: 300;
-    text-align: left;
     }
 
     .box {
-        background-color: #444;
-        color: #fff;
         border-radius: 5px;
         padding: 20px;
-        font-size: 150%;
-        z-index:10;
-        justify-content: center;
     }
 
     .box img {
         border-radius: 100%;
     }
 
-    .credenciamento {
-        grid-column: col / span  6;
-        grid-row: row;
-    }
-
-    .welcome_coffee {
-        grid-column: col / span  6;
-        grid-row: row 2;
+    .stage {
+        background-color: #444;
+        grid-column: date / span 5;
     }
 
     .a {
-        grid-column: col / span  2;
-        grid-row: row 3;
+        grid-column: date / span  2;
         background-color: rgba(146,0,135, 0.9);
     }
     .b {
-        grid-column: col 2 / span  5 ;
-        grid-row: row 3;
+        grid-column: talk / span 3;
         background-color: rgba(137,53,159, 0.5);
-        z-index: 20;
     }
 
-    .hora1 {
-        grid-column: col ;
-        grid-row: row 4;
+    .date {
+        grid-column: date ;
         background-color: rgba(31,58,147, 0.9);
     }
-    .perfil1 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 4;
+    .speaker {
+        grid-column: speaker ;
         background-color: rgba(58,83,155, 0.9);
     }
-    .palestra1 {
-        grid-column: col 3 / span 4;
-        grid-row: row 4;
+    .talk {
+        grid-column: talk / span 3 ;
         background-color: rgba(58,83,155, 0.8);
-        z-index: 20;
     }
 
-    .hora2 {
-        grid-column: col ;
-        grid-row: row 5;
-        opacity: 0.2;
-    }
-    .perfil2 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 5;
-        opacity: 0.2;
-    }
-    .palestra2 {
-        grid-column: col 4 / span 3;
-        grid-row: row 5;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora3 {
-        grid-column: col ;
-        grid-row: row 6;
-        opacity: 0.2;
-    }
-    .perfil3 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 6;
-        opacity: 0.2;
-    }
-    .palestra3 {
-        grid-column: col 4 / span 3;
-        grid-row: row 6;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora4 {
-        grid-column: col ;
-        grid-row: row 7;
-        opacity: 0.2;
-    }
-    .perfil4 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 7;
-        opacity: 0.2;
-    }
-    .palestra4 {
-        grid-column: col 4 / span 3;
-        grid-row: row 7;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .almoco {
-        grid-column: col / span  6;
-        grid-row: row 8;
-    }
-
-    .hora5 {
-        grid-column: col ;
-        grid-row: row 9;
-        opacity: 0.2;
-    }
-    .perfil5 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 9;
-        opacity: 0.2;
-    }
-    .palestra5 {
-        grid-column: col 4 / span 3;
-        grid-row: row 9;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora6 {
-        grid-column: col ;
-        grid-row: row 10;
-        opacity: 0.2;
-    }
-    .perfil6 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 10;
-        opacity: 0.2;
-    }
-    .palestra6 {
-        grid-column: col 4 / span 3;
-        grid-row: row 10;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora7 {
-        grid-column: col ;
-        grid-row: row 11;
-        opacity: 0.2;
-    }
-    .perfil7 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 11;
-        opacity: 0.2;
-    }
-    .palestra7 {
-        grid-column: col 4 / span 3;
-        grid-row: row 11;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .coffee1 {
-        grid-column: col / span  6;
-        grid-row: row 12;
-    }
-
-    .hora8 {
-        grid-column: col ;
-        grid-row: row 13;
-        opacity: 0.2;
-    }
-    .perfil8 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 13;
-        opacity: 0.2;
-    }
-    .palestra8 {
-        grid-column: col 4 / span 3;
-        grid-row: row 13;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora9 {
-        grid-column: col ;
-        grid-row: row 14;
-        opacity: 0.2;
-    }
-    .perfil9 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 14;
-        opacity: 0.2;
-    }
-    .palestra9 {
-        grid-column: col 4 / span 3;
-        grid-row: row 14;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora10 {
-        grid-column: col ;
-        grid-row: row 15;
-        opacity: 0.2;
-    }
-    .perfil10 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 15;
-        opacity: 0.2;
-    }
-    .palestra10 {
-        grid-column: col 4 / span 3;
-        grid-row: row 15;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .hora11 {
-        grid-column: col ;
-        grid-row: row 16;
-        opacity: 0.2;
-    }
-    .perfil11 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 16;
-        opacity: 0.2;
-    }
-    .palestra11 {
-        grid-column: col 4 / span 3;
-        grid-row: row 16;
-        background-color: rgba(49,121,207, 0.5);
-        z-index: 20;
-        opacity: 0.2;
-    }
-
-    .coffee2 {
-        grid-column: col / span  6;
-        grid-row: row 17;
-    }
-
-    .hora12 {
-        grid-column: col ;
-        grid-row: row 18;
-        background-color: rgba(31,58,147, 0.9);
-    }
-    .perfil12 {
-        grid-column: col 2 / span  3 ;
-        grid-row: row 18;
-        background-color: rgba(58,83,155, 0.9);
-    }
-    .palestra12 {
-        grid-column: col 4 / span 3;
-        grid-row: row 18;
-        background-color: rgba(58,83,155, 0.8);
-        z-index: 20;
-    }
-
-    .c {
+    /*.c {
         grid-column: col / span  2;
         grid-row: row 19;
         background-color: rgba(146,0,135, 0.8);
@@ -2096,12 +1864,7 @@ p {
         grid-column: col 5 / span  2;
         grid-row: row 21;
         opacity: 0.2;
-    }
-
-    .encerramento {
-        grid-column: col / span  6;
-        grid-row: row 22;
-    }
+    }*/
 
 /*QUEM SOMOS*/
 .img-content-highlight {
