@@ -1755,6 +1755,13 @@ p {
     align-content: space-evenly;
     font-size: small;
     font-weight: 300;
+    font-size: medium;
+    }
+
+    .wrapper a{
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 2px dotted #e60050;
     }
 
     .box {
@@ -1765,8 +1772,57 @@ p {
     .box img {
         border-radius: 100%;
         width: 50%;
+        border: 2px solid #ddc7ed;
     }
 
+    .destaque {
+        color: #ddc7ed;
+        font-family: 'Josefin Sans', Sans-Serif;
+        text-transform: uppercase;
+    }
+
+    .talk-txt {
+        font-family: 'Josefin Sans', Sans-Serif;
+        text-transform: uppercase;
+    }
+
+    .bio {
+        font-size: small;
+        font-style: italic;
+        margin: 1em 0;
+        letter-spacing: 1px;
+    }
+
+    .speaker-txt-name {
+        font-family: 'Josefin Sans', Sans-Serif;
+        font-size: large;
+    }
+    .social-speaker a {
+        margin: 0 1em;
+    }
+    .roxo {
+        color: #920087;
+    }
+
+    .interface {
+        background: #ffff66;
+        color: #660000;
+        font-weight: 700;
+        border: 2px solid #f6a623;
+        border-radius: 4px;
+    }
+    .seguranca {
+        background: #3366cc;
+        color: #fff;
+        border: 2px solid #40c5f5;
+        border-radius: 4px;
+    }
+    .desenvolvimento {
+        background: #336600;
+        color: #fff;
+        border: 2px solid #99ff00;
+        border-radius: 4px;
+    }
     .stage {
         background-color: #444;
         grid-column: date / span 5;
@@ -1785,13 +1841,14 @@ p {
         grid-column: date ;
         background-color: rgba(31,58,147, 0.9);
     }
+
     .speak {
         grid-column: speaker ;
-        background-color: rgba(58,83,155, 0.9);
+        background-color: rgba(58,83,155, 0.8);
     }
     .talk {
         grid-column: talk / span 3 ;
-        background-color: rgba(58,83,155, 0.8);
+        background-color: rgba(58,83,155, 0.9);
     }
 
     /*.c {
