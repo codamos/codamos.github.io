@@ -445,6 +445,10 @@ p {
     margin: 2.5em 0;
 }
 
+.alt-summit img {
+    width: 60%;
+}
+
 .page-section-subtitle-patners {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
@@ -487,9 +491,9 @@ p {
     mix-blend-mode: soft-light;
     object-fit: cover;
     object-position: center;
-    width: 85%;
     text-align: center;
     margin: 0 auto;
+    width: 90%;
 }
 
 .page-section-yellow {
@@ -1749,7 +1753,7 @@ p {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: [date] 1fr [speaker] 1fr [talk] 1fr 1fr 1fr;
+    grid-template-columns: [date] 1fr [speaker] 1fr [talk] 1fr 1fr;
     grid-auto-rows: min-content;
     color: #fff;
     align-content: space-evenly;
@@ -1823,9 +1827,15 @@ p {
         border: 2px solid #99ff00;
         border-radius: 4px;
     }
+    .carreira {
+        background: #920087;
+        color: #fff;
+        border: 2px solid #a686d4;
+        border-radius: 4px;
+    }
     .stage {
         background-color: #444;
-        grid-column: date / span 5;
+        grid-column: date / span 4;
     }
 
     .a {
@@ -1833,7 +1843,7 @@ p {
         background-color: rgba(146,0,135, 0.9);
     }
     .b {
-        grid-column: talk / span 3;
+        grid-column: talk / span 2;
         background-color: rgba(137,53,159, 0.5);
     }
 
@@ -1847,10 +1857,22 @@ p {
         background-color: rgba(58,83,155, 0.8);
     }
     .talk {
-        grid-column: talk / span 3 ;
+        grid-column: talk / span 2 ;
         background-color: rgba(58,83,155, 0.9);
     }
 
+    @media (max-width: 660px) {
+
+        .page-section-summit {
+        mix-blend-mode: soft-light;
+        object-fit: cover;
+        object-position: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        }
+
+    }
     /*.c {
         grid-column: col / span  2;
         grid-row: row 19;
