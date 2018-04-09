@@ -488,10 +488,6 @@ p {
 }
 
 .page-section-summit {
-    mix-blend-mode: soft-light;
-    object-fit: cover;
-    object-position: center;
-    text-align: center;
     margin: 0 auto;
     width: 90%;
 }
@@ -1864,10 +1860,6 @@ p {
     @media (max-width: 660px) {
 
         .page-section-summit {
-        mix-blend-mode: soft-light;
-        object-fit: cover;
-        object-position: center;
-        text-align: center;
         margin: 0 auto;
         width: 100%;
         }
