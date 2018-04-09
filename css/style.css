@@ -1871,6 +1871,9 @@ p {
         }
 
     }
+    .f , .g, .i, .j, .k, .l, .m, .n, .o {
+        text-align: center;
+    }
     /*.c {
         grid-column: col / span  2;
         grid-row: row 19;
