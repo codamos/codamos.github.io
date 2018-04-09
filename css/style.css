@@ -1810,28 +1810,33 @@ p {
         font-weight: 700;
         border: 2px solid #f6a623;
         border-radius: 4px;
+        text-align: center;
     }
     .seguranca {
         background: #3366cc;
         color: #fff;
         border: 2px solid #40c5f5;
         border-radius: 4px;
+        text-align: center;
     }
     .desenvolvimento {
         background: #336600;
         color: #fff;
         border: 2px solid #99ff00;
         border-radius: 4px;
+        text-align: center;
     }
     .carreira {
         background: #920087;
         color: #fff;
         border: 2px solid #a686d4;
         border-radius: 4px;
+        text-align: center;
     }
     .stage {
         background-color: #444;
         grid-column: date / span 4;
+        text-align: left;
     }
 
     .a {
@@ -1851,6 +1856,7 @@ p {
     .speak {
         grid-column: speaker ;
         background-color: rgba(58,83,155, 0.8);
+        text-align: center;
     }
     .talk {
         grid-column: talk / span 2 ;
