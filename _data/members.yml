@@ -107,13 +107,14 @@
   avatar: "miguel-soares.jpg"
   location: "São Paulo - SP"
   labels: [venus, transgender-alt]
-  skills: [Desenvolvimento, Front-end, Games]
+  skills: [Front-end, Back-end, Django, React, Diversidade e Inclusão, Games]
   bio: >
-    Sou Dev Front-end e estou me especializando em desenvolvimento de Games.
-    Tenho 18 anos e sou uma pessoa trans não-binária.
-    Trabalho atualmente dando aula para as instituições parceiras da ONG #Recode.
-    Sou voluntária como monitora no #minasprogramam e mentora no #TrainingCenter.
-  twitter: "oieusouamiguel"
+    Desenvolvedora Web, atualmente como Dev Back-end na Vert Capital. 
+    Contribuo para projetos open-source com foco em dados abertos do Governo e
+    em democratização de informações sobre política e feminismo.
+    Fui instrutora de programação pela ONG Recode. Game dev amadora.
+  site: "http://oieusouamiguel.github.io" 
+  twitter: "oieusouamiguell"
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
   github: "oieusouamiguel"
