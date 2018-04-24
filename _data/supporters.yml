@@ -24,10 +24,10 @@
   logo: "trainingcenter.png"
   name: "Training Center"
 
-- main_url: "https://pormaismulheres.com/"
-  logo: "pormaismulheres.png"
-  name: "Por mais mulheres"
-
 - main_url: "http://www.frontinsampa.com.br/"
   logo: "frontinsampa.png"
   name: "Front in Sampa"
+
+- main_url: "http://help4papers.com.br/"
+  logo: "help4papers.png"
+  name: "Help4papers"

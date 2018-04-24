@@ -8,11 +8,15 @@
   logo: "brasiljs.png"
   name: "BrazilJS"
 
-- main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
-  logo: "rubyconf.png"
-  name: "Rubyconf Brasil"
+- main_url: "https://devas.io/"
+  logo: "devas-io.png"
+  name: "Devas.io"
 
 - main_url: "http://railsgirls.com/saopaulo.html"
   logo: "rails.png"
   name: "Rail Girls"
+
+- main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
+  logo: "rubyconf.png"
+  name: "Rubyconf Brasil"
 
