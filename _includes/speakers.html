@@ -3,19 +3,19 @@
   <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
     {% if speaker.speaker %}
     <div class="speaker-card-tag-label speaker">
-      <i class="fa fa-microphone" aria-hidden="true"></i><h4>Palestrar</h4>
+      <i class="fas fa-microphone-alt" aria-hidden="true"></i><h4>Palestrar</h4>
     </div>
     {% endif %}
 
     {% if speaker.mentor %}
     <div class="speaker-card-tag-label mentor">
-      <i class="fa fa-graduation-cap" aria-hidden="true"></i><h4>Mentoria</h4>
+      <i class="fas fa-graduation-cap" aria-hidden="true"></i><h4>Mentoria</h4>
     </div>
     {% endif %}
 
     {% if speaker.voluntary %}
     <div class="speaker-card-tag-label voluntary">
-      <i class="fa fa-handshake-o" aria-hidden="true"></i><h4>Voluntáriado</h4>
+      <i class="far fa-handshake" aria-hidden="true"></i><h4>Voluntariado</h4>
     </div>
     {% endif %}
 
@@ -28,7 +28,7 @@
 
   <h3>{{ speaker.full_name | default: speaker.name }}</h3>
 
-  <p class="speaker-card-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ speaker.location }}</p>
+  <p class="speaker-card-address"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ speaker.location }}</p>
 
   <h4 class="speaker-card-skills">
     {% for skill in speaker.skills %}
@@ -46,54 +46,54 @@
     <li>
     {% if speaker.email %}
       <a href="mailto:{{ speaker.email }}" title="E-mail"
-         target="_blank"><i class="fa fa-envelope-o grey" aria-hidden="true"></i></a>
+         target="_blank"><i class="far fa-envelope grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-envelope-o" aria-hidden="true" title="E-mail"></i>
+      <i class="far fa-envelope" aria-hidden="true" title="E-mail"></i>
     {% endif %}
     </li>
 
     <li>
     {% if speaker.site %}
       <a href="{{ speaker.site }}" title="Site"
-         rel="noopener" target="_blank"><i class="fa fa-link grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fas fa-link grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-link" aria-hidden="true" title="Site"></i>
+      <i class="fas fa-link" aria-hidden="true" title="Site"></i>
     {% endif %}
     </li>
 
     <li>
     {% if speaker.linkedin %}
       <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
-         rel="noopener" target="_blank"><i class="fa fa-linkedin-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-linkedin grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i>
+      <i class="fab fa-linkedin" aria-hidden="true" title="Linkedin"></i>
     {% endif %}
     </li>
 
     <li>
     {% if speaker.github %}
       <a href="https://github.com/{{ speaker.github }}" title="Github"
-         rel="noopener" target="_blank"><i class="fa fa-github-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-github-square grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-github-square" aria-hidden="true" title="GitHub"></i>
+      <i class="fab fa-github-square" aria-hidden="true" title="GitHub"></i>
     {% endif %}
     </li>
 
     <li>
     {% if speaker.twitter %}
       <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
-         rel="noopener" target="_blank"><i class="fa fa-twitter-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-twitter grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i>
+      <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
     {% endif %}
     </li>
 
     <li>
     {% if speaker.facebook %}
       <a href="https://facebook.com/{{ speaker.facebook }}" title="Facebook"
-         rel="noopener" target="_blank"><i class="fa fa-facebook-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-facebook grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-facebook-square" aria-hidden="true" title="Facebook"></i>
+      <i class="fab fa-facebook" aria-hidden="true" title="Facebook"></i>
     {% endif %}
     </li>
   </ul>

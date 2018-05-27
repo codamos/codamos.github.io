@@ -3,13 +3,13 @@
   <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
     {% if member.codamos %}
     <div class="team-collaborators-tag">
-      <i class="fa fa-diamond" aria-hidden="true"></i><h4>da casa</h4>
+      <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>
     </div>
     {% endif %}
 
   <div class="speaker-card-labels lgbt-label">
     {% for label in member.labels %}
-    <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.member_icons[label] }}"></i>
+      <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.member_icons[label] }}"></i>
     {% endfor %}
     {% if member.lgbt %}
     <img src="images/lgbt.png" alt="LGBTQI+">
@@ -18,7 +18,7 @@
 
   <h3>{{ member.full_name | default: member.name }}</h3>
 
-  <p class="speaker-card-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ member.location }}</p>
+  <p class="speaker-card-address"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ member.location }}</p>
 
   <h4 class="speaker-card-skills">
     {% for skill in member.skills %}
@@ -36,54 +36,54 @@
     <li>
     {% if member.email %}
       <a href="mailto:{{ member.email }}" title="E-mail"
-         target="_blank"><i class="fa fa-envelope-o grey" aria-hidden="true"></i></a>
+         target="_blank"><i class="far fa-envelope grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-envelope-o" aria-hidden="true" title="E-mail"></i>
+      <i class="far fa-envelope" aria-hidden="true" title="E-mail"></i>
     {% endif %}
     </li>
 
     <li>
     {% if member.site %}
       <a href="{{ member.site }}" title="Site"
-         rel="noopener" target="_blank"><i class="fa fa-link grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fas fa-link grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-link" aria-hidden="true" title="Site"></i>
+      <i class="fas fa-link" aria-hidden="true" title="Site"></i>
     {% endif %}
     </li>
 
     <li>
     {% if member.linkedin %}
       <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" title="Linkedin"
-         rel="noopener" target="_blank"><i class="fa fa-linkedin-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-linkedin grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i>
+      <i class="fab fa-linkedin" aria-hidden="true" title="Linkedin"></i>
     {% endif %}
     </li>
 
     <li>
     {% if member.github %}
       <a href="https://github.com/{{ member.github }}" title="Github"
-         rel="noopener" target="_blank"><i class="fa fa-github-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-github-square grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-github-square" aria-hidden="true" title="GitHub"></i>
+      <i class="fab fa-github-square" aria-hidden="true" title="GitHub"></i>
     {% endif %}
     </li>
 
     <li>
     {% if member.twitter %}
       <a href="https://twitter.com/{{ member.twitter }}" title="Twitter"
-         rel="noopener" target="_blank"><i class="fa fa-twitter-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-twitter grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i>
+      <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
     {% endif %}
     </li>
 
     <li>
     {% if member.facebook %}
       <a href="https://facebook.com/{{ member.facebook }}" title="Facebook"
-         rel="noopener" target="_blank"><i class="fa fa-facebook-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-facebook grey" aria-hidden="true"></i></a>
     {% else %}
-      <i class="fa fa-facebook-square" aria-hidden="true" title="Facebook"></i>
+      <i class="fab fa-facebook" aria-hidden="true" title="Facebook"></i>
     {% endif %}
     </li>
   </ul>

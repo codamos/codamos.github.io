@@ -53,91 +53,91 @@
 
       {% if event.free %}
       <div class="events-card-header-label free">
-        <i class="fa fa-ticket" aria-hidden="true"></i><h3>gratuito</h3>
+        <i class="fas fa-ticket-alt" aria-hidden="true"></i><h3>gratuito</h3>
       </div>
       {% endif %}
 
       {% if event.inclusive %}
       <div class="events-card-header-label inclusive">
-        <i class="fa fa-heart" aria-hidden="true"></i><h3>inclusivo</h3>
+        <i class="fas fa-heart" aria-hidden="true"></i><h3>inclusivo</h3>
       </div>
       {% endif %}
 
       {% if event.women %}
       <div class="events-card-header-label women">
-        <i class="fa fa-venus" aria-hidden="true"></i><h3>no palco</h3>
+        <i class="fas fa-venus" aria-hidden="true"></i><h3>no palco</h3>
       </div>
       {% endif %}
 
       {% if event.opensource %}
       <div class="events-card-header-label opensource">
-        <i class="fa fa-code-fork" aria-hidden="true"></i><h3>open source</h3>
+        <i class="fas fa-code-branch" aria-hidden="true"></i><h3>open source</h3>
       </div>
       {% endif %}
 
       {% if event.codamos %}
       <div class="events-card-header-label codamos">
-        <i class="fa fa-diamond" aria-hidden="true"></i><h3>da casa</h3>
+        <i class="far fa-gem" aria-hidden="true"></i><h3>da casa</h3>
       </div>
       {% endif %}
 
       {% if event.cfp and include.cfp != false %}
       <div class="events-card-header-label call4papers">
-        <i class="fa fa-bullhorn" aria-hidden="true"></i><h3>call4papers</h3>
+        <i class="fas fa-bullhorn" aria-hidden="true"></i><h3>call4papers</h3>
       </div>
       {% endif %}
 
-      {% if event.frontendweek and include.frontendweek != false %}
+      {% if event.frontendweek %}
       <div class="events-card-header-label frontendweek">
-        <i class="fa fa-code-fork" aria-hidden="true"></i><h3>Frontend Week</h3>
+        <i class="fas fa-code-branch" aria-hidden="true"></i><h3>Frontend Week</h3>
       </div>
       {% endif %}
 
       {% if event.category %}
       <div class="events-card-header-tag category">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
       </div>
       {% endif %}
 
       {% if event.partners %}
       <div class="events-card-header-tag partners">
-        <i class="fa fa-diamond" aria-hidden="true"></i><h3>parceiro</h3>
+        <i class="far fa-gem" aria-hidden="true"></i><h3>parceiro</h3>
       </div>
       {% endif %}
 
       {% if event.meetup_event %}
       <div class="events-card-header-tag meetup_event">
-        <i class="fa fa-meetup" aria-hidden="true"></i><h3>Meetup</h3>
+        <i class="fab fa-meetup" aria-hidden="true"></i><h3>Meetup</h3>
       </div>
       {% endif %}
 
       {% if event.on_line %}
       <div class="events-card-header-tag on_line">
-        <i class="fa fa-power-off" aria-hidden="true"></i><h3>on-line</h3>
+        <i class="fas fa-power-off" aria-hidden="true"></i><h3>on-line</h3>
       </div>
       {% endif %}
 
       {% if event.hackathon %}
       <div class="events-card-header-tag hackathon">
-        <i class="fa fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
+        <i class="fas fa-laptop" aria-hidden="true"></i><h3>Hackathon</h3>
       </div>
       {% endif %}
 
       {% if event.happyhour %}
       <div class="events-card-header-tag happyhour">
-        <i class="fa fa-beer" aria-hidden="true"></i><h3>happy hour</h3>
+        <i class="fas fa-beer" aria-hidden="true"></i><h3>happy hour</h3>
       </div>
       {% endif %}
 
       {% if event.coffee %}
       <div class="events-card-header-tag coffee">
-        <i class="fa fa-coffee" aria-hidden="true"></i><h3>café</h3>
+        <i class="fas fa-coffee" aria-hidden="true"></i><h3>café</h3>
       </div>
       {% endif %}
 
       {% if event.lgbt %}
       <div class="events-card-header-tag lgbt">
-        <i class="fa fa-flag" aria-hidden="true"></i><h3>Evento LGBT</h3>
+        <i class="fas fa-flag" aria-hidden="true"></i><h3>Evento LGBT</h3>
       </div>
       {% endif %}
 
@@ -165,66 +165,66 @@
     <div class="events-card-body-content">
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
-        <i class="fa fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+        <i class="fas fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
            rel="noopener" target="_blank" title="Hashtag">{{ event.hashtag }}</a>
       </div>
       {% else %}
       <div class="events-card-body-no-hashtag">
-        <i class="fa fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+        <i class="fas fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
       </div>
       {% endif %}
 
       <div class="events-card-body-social-media">
         {% if event.twitter %}
         <a href="https://twitter.com/{{ event.twitter }}" title="Twitter"
-           rel="noopener" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
         {% else %}
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fab fa-twitter" aria-hidden="true"></i>
         {% endif %}
 
         {% if event.facebook %}
         <a href="https://www.facebook.com/{{ event.facebook }}/" title="Facebook"
-           rel="noopener" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
         {% else %}
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
         {% endif %}
 
         {% if event.instagram %}
         <a href="http://instagram.com/{{ event.instagram }}" title="Instagram"
-           rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.linkedin %}
         <a href="https://www.linkedin.com/{{ event.linkedin }}" title="LinkedIn"
-           rel="noopener" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.meetup %}
         <a href="https://www.meetup.com/{{ event.meetup }}/" title="Meetup"
-           rel="noopener" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-meetup" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.medium %}
         <a href="https://www.medium.com/{{ event.medium }}/" title="Medium"
-           rel="noopener" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if event.youtube %}
         <a href="https://www.youtube.com/{{ event.youtube }}" title="Youtube"
-           rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
         {% endif %}
 
         <a href="{{ event.main_url }}" title="Site"
-           rel="noopener" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+           rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
       </div>
 
       <div class="events-card-body-local">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
         <p>{{ event.location }}</p>
       </div>
 
       <div class="events-card-body-date">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         <p>{{ event.date }}</p>
       </div>
 
