@@ -8,7 +8,7 @@ from: '2017-09-30'
 until: '2017-09-30'
 banner: include-day.png
 tags:
-- cc
+- coc
 - sign-language
 - universal-access
 hashtag: ciandt

@@ -7,8 +7,8 @@ from: '2018-03-10'
 until: '2018-03-10'
 banner: debian-women.png
 tags:
-- venus
-- cc
+- women
+- coc
 hashtag: debianwomen
 twitter: debianwomen
 facebook: debianwoman

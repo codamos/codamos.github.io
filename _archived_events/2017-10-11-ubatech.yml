@@ -7,7 +7,7 @@ from: '2017-10-11'
 until: '2017-10-14'
 banner: ubatech.png
 tags:
-- wheelchair-alt
+- mobility
 - universal-access
 main_url: http://ubalab.org/node/177
 rsvp_url: http://wiki.ubatuba.cc/doku.php?id=ubatech:ubatech

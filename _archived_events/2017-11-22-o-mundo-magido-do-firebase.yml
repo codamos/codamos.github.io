@@ -9,7 +9,7 @@ from: '2017-11-22'
 until: '2017-11-22'
 banner: firebase.jpg
 tags:
-- cc
+- coc
 twitter: firebasebrasil
 meetup: FirebaseBrasil
 main_url: https://firebasebrasil.com/

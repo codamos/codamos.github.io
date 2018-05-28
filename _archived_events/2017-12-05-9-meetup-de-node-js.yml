@@ -8,7 +8,7 @@ from: '2017-12-05'
 until: '2017-12-05'
 banner: node-js-poa.png
 tags:
-- cc
+- coc
 hashtag: NodeJS
 twitter: nodejspoa
 meetup: Node-js-Porto-Alegre-Meetup

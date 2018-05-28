@@ -10,9 +10,9 @@ from: '2017-12-02'
 until: '2017-12-02'
 banner: mulheres-que-falam.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 hashtag: Codamos
 twitter: CodamosClub
 facebook: codamosclub

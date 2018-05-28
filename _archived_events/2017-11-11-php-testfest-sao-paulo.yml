@@ -7,7 +7,7 @@ from: '2017-11-11'
 until: '2017-11-11'
 banner: phpsp.png
 tags:
-- cc
+- coc
 facebook: sao.paulo.elephants
 twitter: phpsp
 meetup: php-sp

@@ -4,9 +4,9 @@ free: true
 inclusive: true
 women: true
 tags:
-- venus
-- wheelchair-alt
-- transgender-alt
+- women
+- mobility
+- trans
 location: São Paulo - SP
 date: 20/01
 from: '2018-01-20'

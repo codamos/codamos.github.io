@@ -58,21 +58,7 @@
           <i class="fas fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
         </div>
       {% endif %}
-
     </div>
-
-    {% if event.tags %}
-      <span class="events-card-header-ico">
-        {% for tag in event.tags %}
-        <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
-        {% endfor %}
-      </span>
-        {% else %}
-      <span class="events-card-header-ico-no-info">
-        <h4>sem informações inclusivas</h4>
-      </span>
-      {% endif %}
-
   </div>
 
   <div class="events-card-title">

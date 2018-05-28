@@ -9,9 +9,9 @@ from: '2018-12-20'
 until: '2018-12-20'
 banner: rubyconf.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 hashtag: rubyconfbr
 twitter: rubyconfbr
 facebook: locaweb

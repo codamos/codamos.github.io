@@ -10,12 +10,12 @@ from: '2018-04-14'
 until: '2018-04-14'
 banner: codamos-summit.png
 tags:
-- venus
-- cc
-- wheelchair-alt
-- flag
-- transgender-alt
-- hand-rock-o
+- women
+- coc
+- mobility
+- lgbt
+- trans
+- poc
 hashtag: Codamos
 twitter: CodamosClub
 facebook: codamosclub

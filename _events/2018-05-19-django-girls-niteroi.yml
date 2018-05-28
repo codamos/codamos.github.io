@@ -10,8 +10,8 @@ free: true
 inclusive: true
 women: true
 tags:
-- venus
-- cc
+- women
+- coc
 - universal-access
 hashtag: DjangoGirlsNiteroi
 main_url: https://djangogirls.org/niteroi/

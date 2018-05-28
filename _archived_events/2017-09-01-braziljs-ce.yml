@@ -7,9 +7,9 @@ from: '2017-09-01'
 until: '2017-09-02'
 banner: brazil-js.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 - child
 hashtag: BrazilJS
 twitter: braziljs

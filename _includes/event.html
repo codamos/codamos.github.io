@@ -1,4 +1,4 @@
-<!--
+{% comment %}
 # Flags
 
 # group:         arquivo na pasta `images/grupo`, opcional.
@@ -26,7 +26,7 @@
 # date:       texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
 # until:      texto, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
 # banner:     arquivo na pasta `images/eventos`, opcional.
-# tags:       lista de classes de ícones do font awesome, opcional.
+# tags:       lista de tags para ícones e filtros, opcional. Vide `event_icons.yml`.
 # hashtag:    texto sem espaços, opcional. Hashtag oficial do twitter.
 # twitter:    texto sem espaços, opcional. Twitter handle.
 # facebook:   texto sem espaços, opcional. Facebook handle.
@@ -37,7 +37,7 @@
 # youtube:    texto sem espaços, opcional. Youtube handle.
 # main_url:   URL, obrigatório. Site do evento.
 # rsvp_url:   URL, obrigatório. Site para inscrição no evento.
--->
+{% endcomment %}
 
 <li class="events-card" data-event-card data-event-tags="{{ event.tags | join: ' ' }}">
   <div class="events-card-header">
@@ -146,11 +146,11 @@
     {% if event.tags %}
       <span class="events-card-header-ico">
         {% for tag in event.tags %}
-        <i class="fa fa-{{ tag }}" title="{{ site.data.event_icons[tag] }}"></i>
+          {% assign icon = site.data.event_icons[tag] %}
+          <i class="{{ icon.class }}" title="{{ icon.label }}"></i>
         {% endfor %}
-
       </span>
-        {% else %}
+    {% else %}
       <span class="events-card-header-ico-no-info">
         <h4>sem informações inclusivas</h4>
       </span>

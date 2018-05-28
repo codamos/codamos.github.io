@@ -28,10 +28,12 @@ scripts: [event-filters]
   </p>
 
   <ul class="icon-labels">
-    {% for icon in site.data.event_icons %}
-    <li class="events-section-label" data-event-filter="{{ icon[0] }}">
-      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
-    </li>
+    {% for icon_data in site.data.event_icons %}
+      {% assign icon_name = icon_data[0] %}
+      {% assign icon = icon_data[1] %}
+      <li class="events-section-label" data-event-filter="{{ icon_name }}">
+        <i class="{{ icon.class }}" aria-hidden="true"></i> = {{ icon.label }}
+      </li>
     {% endfor %}
   </ul>
 </section>

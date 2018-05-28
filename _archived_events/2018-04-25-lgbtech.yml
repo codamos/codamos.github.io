@@ -11,9 +11,9 @@ inclusive: true
 highlight: true
 lgbt: true
 tags:
-- cc
-- transgender-alt
-- flag
+- coc
+- trans
+- lgbt
 hashtag: LGBT
 main_url: https://www.meetup.com/LGBTech-SP/
 rsvp_url: https://www.meetup.com/LGBTech-SP/events/248806657/

@@ -6,7 +6,7 @@ from: '2018-05-09'
 until: '2018-05-11'
 banner: qcon.png
 tags:
-- cc
+- coc
 hashtag: QConSP
 twitter: QConSP
 facebook: qconsp

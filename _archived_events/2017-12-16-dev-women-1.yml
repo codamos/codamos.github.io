@@ -9,8 +9,8 @@ from: '2017-12-16'
 until: '2017-12-16'
 banner: campinas-frontend.png
 tags:
-- venus
-- cc
+- women
+- coc
 hashtag: CampinasFrontend
 github: campinas-front-end
 meetup: campinas-frontend

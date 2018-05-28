@@ -6,7 +6,7 @@ from: '2018-03-17'
 until: '2018-03-17'
 banner: devdayrs.jpg
 tags:
-- cc
+- coc
 twitter: devdayrs
 hashtag: DevDayRS
 facebook: devdayrs

@@ -9,8 +9,8 @@ from: '2017-11-11'
 until: '2017-11-11'
 banner: django-girls2.png
 tags:
-- venus
-- cc
+- women
+- coc
 - universal-access
 hashtag: DjangoGirlsSP
 twitter: DjangoGirlsSP

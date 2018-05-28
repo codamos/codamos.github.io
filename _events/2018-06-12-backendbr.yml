@@ -9,9 +9,9 @@ from: '2018-06-12'
 until: '2018-06-12'
 banner: backendbrasil.png
 tags:
-- venus
-- cc
-- hand-rock-o
+- women
+- coc
+- poc
 hashtag: BackendBr
 twitter: BackendBrasil
 github: backend-br

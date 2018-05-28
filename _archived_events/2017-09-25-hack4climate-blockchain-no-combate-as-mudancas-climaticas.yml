@@ -9,8 +9,8 @@ from: '2017-09-25'
 until: '2017-09-25'
 banner: hackclimate.jpg
 tags:
-- cc
-- wheelchair-alt
+- coc
+- mobility
 - universal-access
 facebook: Hack4Climate
 hashtag: Hack_4_Climate

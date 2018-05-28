@@ -6,8 +6,8 @@ from: '2017-10-30'
 until: '2017-10-30'
 banner: ebicc.png
 tags:
-- cc
-- wheelchair-alt
+- coc
+- mobility
 twitter: ebicc2017
 facebook: ebicc2017
 main_url: http://ebicc.sbcc.org.br/

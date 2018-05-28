@@ -8,7 +8,7 @@ from: '2017-09-18'
 until: '2017-09-19'
 banner: protecao-privacidade-cgi.jpg
 tags:
-- cc
+- coc
 - universal-access
 hashtag: SeminárioPrivacidade
 twitter: comuNICbr

@@ -9,8 +9,8 @@ from: '2017-10-10'
 until: '2017-10-10'
 banner: pyladies-python-iniciantes.png
 tags:
-- venus
-- cc
+- women
+- coc
 twitter: pyladiesbh
 facebook: pyladiesbh
 main_url: http://brasil.pyladies.com/

@@ -6,7 +6,7 @@ from: '2017-10-06'
 until: '2017-10-10'
 banner: python-brasil.png
 tags:
-- cc
+- coc
 hashtag: PYBR13
 twitter: pythonbrasil
 facebook: pythonbrasil

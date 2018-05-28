@@ -7,9 +7,9 @@ from: '2018-02-03'
 until: '2018-02-03'
 banner: mozilla-rust.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 hashtag: mozillabrasil
 twitter: mozillabrasil
 facebook: mozillabrasil

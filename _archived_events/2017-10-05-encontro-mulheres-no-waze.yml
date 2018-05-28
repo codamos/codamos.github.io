@@ -9,9 +9,9 @@ from: '2017-10-05'
 until: '2017-10-05'
 banner: mulheres-no-waze.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 twitter: waze_br
 facebook: WazeBr
 main_url: https://sites.google.com/view/mulheresnowaze

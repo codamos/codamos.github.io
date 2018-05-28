@@ -9,9 +9,9 @@ from: '2018-03-08'
 until: '2018-03-08'
 banner: women-dev-summit2.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 hashtag: WDS2k18
 facebook: womendevsummit
 main_url: http://womendevsummit.com/

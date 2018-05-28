@@ -9,8 +9,8 @@ from: '2017-10-31'
 until: '2017-10-31'
 banner: hacktoberfest.png
 tags:
-- venus
-- cc
+- women
+- coc
 - universal-access
 hashtag: hacktoberfest
 twitter: digitalocean

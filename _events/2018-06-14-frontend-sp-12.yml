@@ -8,8 +8,8 @@ from: '2018-06-14'
 until: '2018-06-14'
 banner: frontend-sp-meetup.png
 tags:
-    - venus
-    - cc
+- women
+- coc
 twitter: frontendsp
 main_url: https://www.meetup.com/Frontend-Dev-SP-Meetup/
 rsvp_url: https://www.meetup.com/Frontend-Dev-SP-Meetup/events/250976608/

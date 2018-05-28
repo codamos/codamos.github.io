@@ -8,8 +8,8 @@ from: '2017-09-05'
 until: '2017-09-05'
 banner: code-club.png
 tags:
-- cc
-- kids
+- coc
+- child
 hashtag: codeclub
 twitter: CodeClubBrasil
 facebook: CodeClubBrasil

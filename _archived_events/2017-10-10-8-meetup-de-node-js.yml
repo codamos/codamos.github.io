@@ -8,7 +8,7 @@ from: '2017-10-10'
 until: '2017-10-10'
 banner: node-js-poa.png
 tags:
-- cc
+- coc
 hashtag: NodeJS
 twitter: nodejspoa
 main_url: https://github.com/node-poa

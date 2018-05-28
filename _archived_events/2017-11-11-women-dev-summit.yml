@@ -8,9 +8,9 @@ from: '2017-11-11'
 until: '2017-11-11'
 banner: wds.png
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 - universal-access
 hashtag: WDS2k17
 facebook: womendevsummit

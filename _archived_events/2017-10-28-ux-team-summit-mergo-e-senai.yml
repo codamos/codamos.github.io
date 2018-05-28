@@ -7,8 +7,8 @@ from: '2017-10-28'
 until: '2017-10-28'
 banner: uxteam2017.png
 tags:
-- cc
-- wheelchair-alt
+- coc
+- mobility
 hashtag: UXTeamSummit
 twitter: mergo_ux
 facebook: mergo.user.experience

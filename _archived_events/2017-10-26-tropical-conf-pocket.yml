@@ -7,7 +7,7 @@ from: '2017-10-26'
 until: '2017-10-26'
 banner: tropical-conf.png
 tags:
-- cc
+- coc
 twitter: tropicalconf
 facebook: tropicalconf
 main_url: https://tropicalconf.com/

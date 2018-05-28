@@ -9,9 +9,9 @@ free: true
 meetup_event: true
 inclusive: true
 tags:
-- venus
-- cc
-- flag
+- women
+- coc
+- lgbt
 hashtag: myelixirstatus
 twitter: elug_sp
 main_url: https://groups.google.com/forum/?hl=pt#!forum/elug-sp

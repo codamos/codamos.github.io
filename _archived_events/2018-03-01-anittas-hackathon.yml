@@ -10,9 +10,9 @@ from: '2018-03-01'
 until: '2018-03-01'
 banner: systers-hackathon.png
 tags:
-- cc
+- coc
 - universal-access
-- venus
+- women
 hashtag: GHC17
 linkedin: groups/36797/profile
 twitter: anitab_org

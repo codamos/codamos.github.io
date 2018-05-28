@@ -8,7 +8,7 @@ from: '2017-12-08'
 until: '2017-12-08'
 banner: hackcultura.png
 tags:
-- cc
+- coc
 - universal-access
 twitter: noslivres_org
 facebook: noslivres.org.br

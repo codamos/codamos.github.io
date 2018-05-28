@@ -6,7 +6,7 @@ from: '2017-09-16'
 until: '2017-09-16'
 banner: rancho-dev.png
 tags:
-- cc
+- coc
 hashtag: ranchodev2017
 twitter: ranchodev
 facebook: RDCONF

@@ -8,8 +8,8 @@ from: '2017-09-02'
 until: '2017-09-02'
 banner: installfest-phpwomen.png
 tags:
-- venus
-- cc
+- women
+- coc
 hashtag: PHPWomen
 twitter: PHPWomenBR
 facebook: elephants.together

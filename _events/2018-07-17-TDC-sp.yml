@@ -9,9 +9,9 @@ women: true
 highlight: true
 inclusive: true
 tags:
-- venus
-- cc
-- wheelchair-alt
+- women
+- coc
+- mobility
 - sign-language
 hashtag: TheDevConf
 twitter: TheDevConf

@@ -6,8 +6,8 @@ from: '2017-10-29'
 until: '2017-11-01'
 banner: cidi.png
 tags:
-- cc
-- wheelchair-alt
+- coc
+- mobility
 facebook: CIDI2017
 main_url: http://sbdi.org.br/cidi2017/index.html
 rsvp_url: http://sbdi.org.br/cidi2017/inscricao.html

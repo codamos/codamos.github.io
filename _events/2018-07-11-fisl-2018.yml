@@ -9,10 +9,10 @@ from: '2018-07-11'
 until: '2018-07-14'
 banner: fisl18.png
 tags:
-- venus
-- cc
-- hand-rock-o
-- wheelchair-alt
+- women
+- coc
+- poc
+- mobility
 - universal-access
 twitter: FISL18
 hashtag: fisl_oficial
