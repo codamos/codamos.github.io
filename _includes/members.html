@@ -1,18 +1,20 @@
 {% for member in include.members %}
 <li class="speaker-card">
   <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
-    {% if member.codamos %}
+  {% if member.codamos %}
     <div class="team-collaborators-tag">
       <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>
     </div>
-    {% endif %}
+  {% endif %}
 
   <div class="speaker-card-labels lgbt-label">
     {% for label in member.labels %}
-      <i class="fa fa-{{ label }} fa-2x" title="{{ site.data.member_icons[label] }}"></i>
+      {% assign icon = site.data.speaker_icons[label] %}
+      <i class="{{ icon.class }} fa-2x" title="{{ icon.label }}"></i>
     {% endfor %}
+
     {% if member.lgbt %}
-    <img src="images/lgbt.png" alt="LGBTQI+">
+      <img src="images/lgbt.png" alt="LGBTQI+">
     {% endif %}
   </div>
 

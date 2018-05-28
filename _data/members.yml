@@ -24,7 +24,7 @@
   email: "mj.coffeeholick@gmail.com"
   avatar: "alda-rocha.jpg"
   location: "São Paulo - SP"
-  labels: [venus, child]
+  labels: [women, parent]
   skills: [UXD, UX Research, Métricas, Teste A/B, Flexbox e CSS Grid, Front-end, Diversidade e Inclusão]
   bio: >
     Consultora sênior UX/UX Researcher e instrutora de UXD, HTML e CSS atualmente trabalhando no SENAI.
@@ -44,7 +44,7 @@
   email: "cleo.rochacastanho@gmail.com"
   avatar: "cleo-rocha.jpg"
   location: "São Paulo - SP"
-  labels: [venus]
+  labels: [women]
   skills: [Desenvolvimento, Games, HTML, CSS, Javascript, C#, Mobile]
   bio: >
     Tenho 19 anos e estou no primeiro ano da faculdade de desenvolvimento de Jogos Digitas na FIAP.
@@ -61,7 +61,7 @@
   email: "cyb3ll3@protonmail.com"
   avatar: "cybelle-oliveira.jpg"
   location: "São Paulo - SP"
-  labels: [venus, child]
+  labels: [women, parent]
   skills: [Privacidade, Código de Conduta, Eventos, Produção, Gestão de Comunidades]
   bio: >
     Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac. Atualmente no programa Mozilla Open Leaders.
@@ -77,7 +77,7 @@
   email: "cynthiacpereira@gmail.com"
   avatar: "cynthia.jpg"
   location: "São Paulo - SP"
-  labels: [venus, hand-rock-o]
+  labels: [women, poc]
   skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
   bio: >
     Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
@@ -91,7 +91,7 @@
   full_name: "João Britto"
   avatar: "joao-britto.jpg"
   location: "São Paulo - SP"
-  labels: [mars]
+  labels: [men]
   skills: [Elixir, Rails, Git, Back-end, Performance]
   bio: >
     B+, T1D e tipicamente INTP. Programador por ofício e tesão.
@@ -106,14 +106,14 @@
   email: "oieusouamiguel@riseup.net"
   avatar: "miguel-soares.jpg"
   location: "São Paulo - SP"
-  labels: [venus, transgender-alt]
+  labels: [women, trans]
   skills: [Front-end, Back-end, Django, React, Diversidade e Inclusão, Games]
   bio: >
-    Desenvolvedora Web, atualmente como Dev Back-end na Vert Capital. 
+    Desenvolvedora Web, atualmente como Dev Back-end na Vert Capital.
     Contribuo para projetos open-source com foco em dados abertos do Governo e
     em democratização de informações sobre política e feminismo.
     Fui instrutora de programação pela ONG Recode. Game dev amadora.
-  site: "http://oieusouamiguel.github.io" 
+  site: "http://oieusouamiguel.github.io"
   twitter: "oieusouamiguell"
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
@@ -125,7 +125,7 @@
   email: "ingridmazoni@outlook.com"
   avatar: "ingrid.jpg"
   location: "São Paulo - SP"
-  labels: [venus]
+  labels: [women]
   skills: [Desenvolvimento, Back-end, Java]
   bio: >
     Técnico em informática na Etec e superior de Análise e
