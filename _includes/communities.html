@@ -21,12 +21,13 @@
 
       {% if community.hashtag %}
       <div class="events-card-body-hashtag">
-        <i class="fas fa-hashtag" aria-hidden="true"></i> <a href="https://twitter.com/hashtag/{{ community.hashtag }}?src=hash"
+        <i class="fas fa-hashtag" aria-hidden="true"></i>
+        <a href="https://twitter.com/hashtag/{{ community.hashtag }}?src=hash"
            rel="noopener" target="_blank" title="Hashtag">{{ community.hashtag }}</a>
       </div>
       {% else %}
       <div class="events-card-body-no-hashtag">
-        <i class="fas fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+        <i class="fas fa-hashtag" aria-hidden="true"></i> SemHashtag
       </div>
       {% endif %}
 

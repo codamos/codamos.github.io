@@ -165,12 +165,13 @@
     <div class="events-card-body-content">
       {% if event.hashtag %}
       <div class="events-card-body-hashtag">
-        <i class="fas fa-hashtag" aria-hidden="true"></i><a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
+        <i class="fas fa-hashtag" aria-hidden="true"></i>
+        <a href="https://twitter.com/hashtag/{{ event.hashtag }}?src=hash"
            rel="noopener" target="_blank" title="Hashtag">{{ event.hashtag }}</a>
       </div>
       {% else %}
       <div class="events-card-body-no-hashtag">
-        <i class="fas fa-hashtag" aria-hidden="true"></i>SemHashtag</a>
+        <i class="fas fa-hashtag" aria-hidden="true"></i> SemHashtag
       </div>
       {% endif %}
 

@@ -371,14 +371,7 @@ p {
     opacity: 0.9;
     font-family: Roboto, Sans-Serif;
     font-weight: 300;
-    display: flex;
     font-size: medium;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.icon-labels li i {
-    margin-right: 5px;
 }
 
 
@@ -447,15 +440,12 @@ p {
     text-align: center;
 }
 
-.page-section-social-twitter i,
+.page-section-social-twitter svg,
 .page-section-social-twitter a {
     color: #9DC8FA;
 }
 
-.page-section-social-facebook i {
-    color: #BACDFB;
-}
-
+.page-section-social-facebook svg,
 .page-section-social-facebook a {
     color: #BACDFB;
 }
@@ -662,7 +652,7 @@ p {
     text-decoration: none;
     padding: 10px;
     font-family: Roboto, Sans-Serif;
-    font-size: small;
+    font-size: 0.75em;
     text-transform: uppercase;
 }
 
@@ -686,14 +676,12 @@ p {
 }
 
 .header-menu-hamburger .submenu-hamburger-social-media {
-    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.header-menu-hamburger .submenu-hamburger-social-media i {
-    font-size: 22px
+.header-menu-hamburger .submenu-hamburger-social-media svg {
+    font-size: 1.5em;
 }
 
 @media (min-width: 992px) {
@@ -883,7 +871,6 @@ p {
     font-weight: 300;
     width: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     padding: 0.6em 0.8em;
@@ -951,7 +938,7 @@ p {
     border-radius: 4px;
 }
 
-.women i {
+.women svg {
     font-size: 1.4em;
 }
 
@@ -1070,10 +1057,8 @@ p {
     opacity: 0.7;
 }
 
-.events-card-header-ico i {
-    padding: 0.5em;
-    margin: 3px;
-    color: #ffffff;
+.events-card-header-ico svg {
+    margin: 0 0.5em;
 }
 
 .events-card-header span {
@@ -1119,11 +1104,7 @@ p {
     margin: 0;
 }
 
-.events-card-body-local p {
-    margin: 0;
-}
-
-.events-card-body .events-card-body-local,
+.events-card-body-local,
 .events-card-body-date {
     display: flex;
     justify-content: center;
@@ -1131,68 +1112,51 @@ p {
     margin: 0.5em auto;
 }
 
-.events-card-body i {
-    color: #6d6d6d;
-    font-size: small;
+.events-card-body-date svg,
+.events-card-body-local svg {
     margin-right: 5px;
+    color: #6d6d6d;
 }
 
 .events-card-body-social-media {
-    margin: 1.0em auto;
-}
-
-.events-card-body .events-card-body-social-media  i {
+    margin: 1em auto;
     color: #eee;
-    font-size: 20px;
-    mix-blend-mode: multiply;
 }
 
-.events-card-body .events-card-body-social-media a i {
-    color: #3366cc;
-    font-size: 20px;
+.events-card-body-social-media > * {
+    margin: 0 3px;
 }
 
-.events-card-body .events-card-body-social-media a:hover i {
+.events-card-body-social-media a {
+    color: #36c;
+}
+
+.events-card-body-social-media a:hover {
     color: #e60050;
-    font-size: 20px;
+}
+
+.events-card-body-hashtag,
+.events-card-body-no-hashtag {
+    margin: 1.0em auto;
+    font-size: x-small;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .events-card-body-no-hashtag {
     color: #ccc;
-    text-transform: uppercase;
-    mix-blend-mode: multiply;
-    text-decoration: none;
-    font-size: x-small;
-    margin: 1.0em auto;
-    letter-spacing: 1px;
 }
 
-.events-card-body-no-hashtag i {
-    color: #ccc;
-    font-size: x-small;
-}
-
-.events-card-body-hashtag {
-    margin: 1.0em auto;
-    font-size: x-small;
-}
-
-.events-card-body-hashtag i {
-    color: #3366cc;
-    font-size: x-small;
+.events-card-body-hashtag > * {
+    color: #36c;
 }
 
 .events-card-body-hashtag a {
-    color: #3366cc;
-    text-transform: uppercase;
     text-decoration: none;
-    font-size: x-small;
-    letter-spacing: 1px;
 }
 
 .events-card-body-hashtag a:hover {
     color: #e60050;
-    text-transform: uppercase;
 }
 
 .events-card-body-button {
@@ -1235,26 +1199,20 @@ p {
 }
 
 .communities-card-body-social-media {
-    color: #cccccc;
-    margin: 5px auto;
-    padding: 5px;
-    border-radius: 3px;
-    letter-spacing: 2px;
+    margin: 1em auto;
+    color: #ccc;
 }
 
-.communitiess-card-body-social-media i {
-    color: #cccccc;
-    font-size: 20px;
+.communities-card-body-social-media > * {
+    margin: 0 3px;
 }
 
-.communities-card-body-social-media a i {
-    color: #3366cc;
-    font-size: 20px;
+.communities-card-body-social-media a {
+    color: #36c;
 }
 
-.communities-card-body-social-media a:hover i {
+.communities-card-body-social-media a:hover {
     color: #e60050;
-    font-size: 20px;
 }
 
 .communities-card-header-ico {
@@ -1272,10 +1230,8 @@ p {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
-.communities-card-header-ico i {
-    padding: 1px;
-    margin: 2px;
-    color: #ffffff;
+.communities-card-header-ico svg {
+    margin: 0 5px;
 }
 
 .communities-card-header-ico img {
@@ -1424,7 +1380,7 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
-.speaker-card-labels i {
+.speaker-card-labels svg {
     color:  #F8B518;
 }
 
