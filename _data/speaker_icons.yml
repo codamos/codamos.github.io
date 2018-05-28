@@ -1,13 +1,51 @@
-venus: "= mulher em T.I."
-hand-rock-o: "= comunidade negra"
-transgender-alt: "= pessoa trans"
-child: "= mãe/pai em T.I."
-wheelchair-alt: "= pessoa com mobilidade reduzida."
-mars: "= homem que apoia diversidade"
-deaf: "= pessoa com deficiência auditiva"
-blind: "= pessoa com deficiência visual"
-flag: "= LGBT"
-genderless: "= pessoa não binária"
-low-vision: "= pessoa com baixa visão"
-eye: "= pessoa com daltonismo"
-map-pin: = "pessoa da comunidade periférica"
+women:
+  class: "fas fa-venus"
+  label: "mulher em T.I."
+
+poc:
+  class: "far fa-hand-rock"
+  label: "comunidade negra"
+
+trans:
+  class: "fas fa-transgender-alt"
+  label: "pessoa trans"
+
+parent:
+  class: "fas fa-child"
+  label: "mãe/pai em T.I."
+
+mobility:
+  class: "fab fa-accessible-icon"
+  label: "pessoa com mobilidade reduzida."
+
+men:
+  class: "fas fa-mars"
+  label: "homem que apoia diversidade"
+
+deaf:
+  class: "fas fa-deaf"
+  label: "pessoa com deficiência auditiva"
+
+blind:
+  class: "fas fa-blind"
+  label: "pessoa com deficiência visual"
+
+lgbt:
+  class: "fas fa-flag"
+  label: "LGBT"
+
+genderless:
+  class: "fas fa-genderless"
+  label: "pessoa não binária"
+
+low-vision:
+  class: "fas fa-low-vision"
+  label: "pessoa com baixa visão"
+
+color-blind:
+  class: "far fa-eye"
+  label: "pessoa com daltonismo"
+
+perifa:
+  class: "fas fa-map-pin"
+  label: "pessoa da comunidade periférica"
