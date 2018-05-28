@@ -23,10 +23,11 @@ layout: default
   </p>
 
   <ul class="icon-labels">
-    {% for icon in site.data.podcast_icons %}
-    <li class="podcast-section-label">
-      <i class="fa fa-{{ icon[0] }}" aria-hidden="true"></i> {{ icon[1] }}
-    </li>
+    {% for icon_data in site.data.podcast_icons %}
+      {% assign icon = icon_data[1] %}
+      <li class="podcast-section-label">
+        <i class="{{ icon.class }}" aria-hidden="true"></i> = {{ icon.label }}
+      </li>
     {% endfor %}
   </ul>
 </section>

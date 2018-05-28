@@ -12,6 +12,7 @@
 # location:    texto, obrigatório.
 # date:        texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
 # banner:      arquivo na pasta `images/eventos`, opcional.
+# tags:        lista de tags para ícones e filtros, opcional. Vide `podcast_icons.yml`.
 # group:       arquivo na pasta `images/grupo`, opcional.
 # tags:        lista de classes de ícones do font awesome, opcional.
 # hashtag:     texto sem espaços, opcional. Hashtag oficial do twitter.

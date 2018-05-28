@@ -59,6 +59,19 @@
         </div>
       {% endif %}
     </div>
+
+    {% if podcast.tags %}
+      <span class="events-card-header-ico">
+        {% for tag in podcast.tags %}
+          {% assign icon = site.data.podcast_icons[tag] %}
+          <i class="{{ icon.class }}" title="{{ icon.label }}"></i>
+        {% endfor %}
+      </span>
+    {% else %}
+      <span class="events-card-header-ico-no-info">
+        <h4>sem informações inclusivas</h4>
+      </span>
+    {% endif %}
   </div>
 
   <div class="events-card-title">

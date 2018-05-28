@@ -1,12 +1,43 @@
-cc: "= tem código de conduta/manifesto"
-venus: "= liderado por mulheres"
-neuter: "= tem diversidade de gênero"
-audio-description: "= cegos podem ouvir"
-universal-access: "= tem acessibilidade"
-deaf: "= tem transcrição do audio"
-hand-rock-o: "= incentivo a comunidade negra"
-child: "= para crianças"
-heart: "= inclusivo ou apoia diversidade"
-flag: "= incentivo para comunidade LGBT"
-map-pin: "= incentivo comunidade periférica"
+coc:
+  class: "far fa-closed-captioning"
+  label: "tem código de conduta/manifesto"
 
+women:
+  class: "fas fa-venus"
+  label: "liderado por mulheres"
+
+neuter:
+  class: "fas fa-neuter"
+  label: "tem diversidade de gênero"
+
+audio-description:
+  class: "fas fa-audio-description"
+  label: "cegos podem ouvir"
+
+universal-access:
+  class: "fas fa-universal-access"
+  label: "tem acessibilidade"
+
+deaf:
+  class: "fas fa-deaf"
+  label: "tem transcrição do audio"
+
+poc:
+  class: "far fa-hand-rock"
+  label: "incentivo a comunidade negra"
+
+child:
+  class: "fas fa-child"
+  label: "para crianças"
+
+inclusive:
+  class: "fas fa-heart"
+  label: "inclusivo ou apoia diversidade"
+
+lgbt:
+  class: "fas fa-flag"
+  label: "incentivo para comunidade LGBT"
+
+perifa:
+  class: "fas fa-map-pin"
+  label: "incentivo comunidade periférica"
