@@ -7,7 +7,8 @@
       {% if community.tags %}
       <span class="communities-card-header-ico">
         {% for tag in community.tags %}
-        <i class="fa fa-{{ tag }}" title="{{ site.data.community_icons[tag] }}"></i>
+          {% assign icon = site.data.community_icons[tag] %}
+          <i class="{{ icon.class }}" title="{{ icon.label }}"></i>
         {% endfor %}
       </span>
       {% endif %}

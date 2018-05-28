@@ -1,15 +1,55 @@
-venus: "= liderado e tem incentivo para mulheres"
-cc: "= tem código de conduta/manifesto"
-transgender-alt: "= incentivo pessoas trans"
-wheelchair-alt: "= incentivo pessoas com mobilidade reduzida."
-sign-language: "= tem tradução para libras"
-blind: "= apoio para pessoas com deficiência visual"
-power-off: "= tem streaming de eventos"
-child: "= tem espaço ou atividades para crianças"
-hand-rock-o: "= incentivo comunidade negra"
-flag: "= incentivo para comunidade LGBT"
-neuter: "= tem diversidade de gênero"
-universal-access: "= tem acessibilidade"
-heart: "= inclusivo ou apoia diversidade"
-map-pin: = "incentivo comunidade periférica"
+women:
+  class: "fas fa-venus"
+  label: "liderado e tem incentivo para mulheres"
 
+coc:
+  class: "far fa-closed-captioning"
+  label: "tem código de conduta/manifesto"
+
+trans:
+  class: "fas fa-transgender-alt"
+  label: "incentivo pessoas trans"
+
+mobility:
+  class: "fab fa-accessible-icon"
+  label: "incentivo pessoas com mobilidade reduzida."
+
+sign-language:
+  class: "fas fa-sign-language"
+  label: "tem tradução para libras"
+
+blind:
+  class: "fas fa-blind"
+  label: "apoio para pessoas com deficiência visual"
+
+streaming:
+  class: "fas fa-broadcast-tower"
+  label: "tem streaming de eventos"
+
+child:
+  class: "fas fa-child"
+  label: "tem espaço ou atividades para crianças"
+
+poc:
+  class: "far fa-hand-rock"
+  label: "incentivo comunidade negra"
+
+lgbt:
+  class: "fas fa-flag"
+  label: "incentivo para comunidade LGBT"
+
+neuter:
+  class: "fas fa-neuter"
+  label: "tem diversidade de gênero"
+
+universal-access:
+  class: "fas fa-universal-access"
+  label: "tem acessibilidade"
+
+inclusive:
+  class: "fas fa-heart"
+  label: "inclusivo ou apoia diversidade"
+
+perifa:
+  class: "fas fa-map-pin"
+  label: "incentivo comunidade periférica"

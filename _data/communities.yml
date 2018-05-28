@@ -1,19 +1,8 @@
 # Comunidades.
 
 # title:      texto, obrigatório. Nome do evento.
-# free:       booleano (true ou false), opcional. Evento gratuito.
-# inclusive:  booleano (true ou false), opcional. Evento inclusivo.
-# category:   texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
-# women:      booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
-# lgbt:       booleano (true ou false), opcional. Evento para o público LGBTQ+.
-# hackathon:  booleano (true ou false), opcional. Evento no formato hackathon.
-# opensource: booleano (true ou false), opcional. É um evento para a comunidade Open source.
-# location:   texto, obrigatório.
-# date:       texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
-# until:      texto, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
 # banner:     arquivo na pasta `images/eventos`, opcional.
-# group:      arquivo na pasta `images/grupo`, opcional.
-# tags:       lista de classes de ícones do font awesome, opcional.
+# tags:       lista de tags para ícones, opcional. Vide `community_icons.yml`.
 # hashtag:    texto sem espaços, opcional. Hashtag oficial do twitter.
 # twitter:    texto sem espaços, opcional. Twitter handle.
 # facebook:   texto sem espaços, opcional. Facebook handle.
@@ -23,15 +12,12 @@
 # medium:     texto sem espaços, opcional. User do grupo no Medium.
 # youtube:    texto sem espaços, opcional. Youtube handle.
 # main_url:   URL, obrigatório. Site do evento.
-# rsvp_url:   URL, obrigatório. Site para inscrição no evento.
-# cfp:        booleano (true ou false), opcional. Está com Call For papers aberto.
-# highlight:  booleano (true ou false), opcional. Destaque na home.
 
 # COMUNIDADES
 
 - title: "bytegirl"
   banner: "byte-girl-2017.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "bg17"
   twitter: "bytegirlevento"
   facebook: "bytegirlevento"
@@ -39,7 +25,7 @@
 
 - title: "Rails Girls SP"
   banner: "railsgirls.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "railsgirls"
   twitter: "railsgirlssp"
   facebook: "railsgirls.sp"
@@ -47,7 +33,7 @@
 
 - title: "Marialab"
   banner: "maria.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "Marialab"
   twitter: "MarialabHackers"
   facebook: "marialab.org"
@@ -56,14 +42,14 @@
 
 - title: "Elug"
   banner: "elixir.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "myelixirstatus"
   twitter: "elug_sp"
   main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
 
 - title: "Programaria"
   banner: "programaria.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "programariaSummit"
   twitter: "programaria"
   facebook: "programaria"
@@ -72,7 +58,7 @@
 
 - title: "Ela Líder"
   banner: "ela-lider.png"
-  tags: [venus,cc]
+  tags: [women, coc]
   hashtag: "elalider"
   twitter: "_elalider"
   facebook: "elaliderfeminina"
@@ -82,7 +68,7 @@
 
 - title: "InfoPreta"
   banner: "infopreta.png"
-  tags: [venus,hand-rock-o,cc,transgender-alt,flag]
+  tags: [women, poc, coc, trans, lgbt]
   hashtag: "infopreta"
   twitter: "infopreta"
   facebook: "InfoPreta"
@@ -92,7 +78,7 @@
 
 - title: "{Reprograma}"
   banner: "reprograma.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "vamosreprogramaromundo"
   twitter: "Reprograma_Br"
   facebook: "ReprogramaBrasil"
@@ -100,14 +86,14 @@
 
 - title: "Blackrocks"
   banner: "blackrocks.png"
-  tags: [venus,hand-rock-o,cc,transgender-alt,flag]
+  tags: [women, poc, coc, trans, lgbt]
   hashtag: "blackrocks"
   facebook: "blackrocksstartup"
   main_url: "http://www.arenablackrocks.com.br"
 
 - title: "womakerscoded"
   banner: "womakerscode.png"
-  tags: [venus,cc,flag]
+  tags: [women, coc, lgbt]
   hashtag: "womakerscode"
   twitter: "womakerscode"
   facebook: "womakerscode"
@@ -115,7 +101,7 @@
 
 - title: "PHPWomen"
   banner: "php-women.png"
-  tags: [venus,cc]
+  tags: [women, coc]
   hashtag: "PHPWomen"
   twitter: "PHPWomenBR"
   facebook: "elephants.together"
@@ -123,7 +109,7 @@
 
 - title: "Desprograme"
   banner: "desprograme.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   twitter: "Desprograme"
   facebook: "desprograme123"
   instagram: "desprograme123"
@@ -132,7 +118,7 @@
 
 - title: "Rails Girls POA"
   banner: "rails-girls-poa.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "railsgirlspoa"
   twitter: "railsgirls"
   facebook: "railsgirlspoa"
@@ -140,7 +126,7 @@
 
 - title: "Afro Python"
   banner: "afropythonbr.png"
-  tags: [venus,hand-rock-o,cc,transgender-alt]
+  tags: [women, poc, coc, trans]
   hashtag: "AfroPython"
   facebook: "AfroPython"
   main_url: "http://afropython.org/"
@@ -148,7 +134,7 @@
 
 - title: "minas programam"
   banner: "minas-programam.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "minasprogramam"
   twitter: "minasprogramam"
   facebook: "minasprogramam"
@@ -157,13 +143,13 @@
 
 - title: "</> JUNTOS NA TI"
   banner: "juntos-na-ti.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   hashtag: "JuntosnaTI"
   facebook: "JuntosnaTI"
 
 - title: "Projeto Devas"
   banner: "devas.png"
-  tags: [venus,cc,transgender-alt,flag]
+  tags: [women, coc, trans, lgbt]
   twitter: "projetodevas"
   facebook: "projetodevas"
   meetup: "projetodevas"
@@ -171,7 +157,7 @@
 
 - title: "PyLadies"
   banner: "pyladies-sp.png"
-  tags: [venus,cc]
+  tags: [women, coc]
   hashtag: "PyLadiesSP"
   twitter: "PyLadiesSP"
   facebook: "PyLadiesSP"
@@ -179,7 +165,7 @@
 
 - title: "NodeGirls POA"
   banner: "node-girls-poa.png"
-  tags: [venus,cc]
+  tags: [women, coc]
   hashtag: "NodeGirls"
   twitter: "nodejspoa"
   meetup: "Node-js-Porto-Alegre-Meetup"
@@ -187,7 +173,7 @@
 
 - title: "Code Club Brasil"
   banner: "code-club-brasil.png"
-  tags: [cc, kids]
+  tags: [coc, kids]
   hashtag: "codeclub"
   twitter: "CodeClubBrasil"
   facebook: "CodeClubBrasil"
@@ -195,7 +181,7 @@
 
 - title: "AngularSP"
   banner: "angular-sp.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "AngularSP"
   twitter: "AngularSP"
   facebook: "AngularSP"
@@ -203,7 +189,7 @@
 
 - title: "Women Techmakers"
   banner: "women-techmakers.png"
-  tag: [venus, cc]
+  tag: [women, coc]
   hashtag: "wtm"
   twitter: "wtmsaopaulo"
   facebook: "wtmsaopaulo"
@@ -211,13 +197,13 @@
 
 - title: "Cloud Girls SP"
   banner: "cloud-girls.jpeg"
-  tags: [venus]
+  tags: [women]
   meetup: "Cloud-Girls-Sao-Paulo"
   main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
 
 - title: "Collabcode"
   banner: "collabcode.png"
-  tags: [venus, cc, wheelchair-alt]
+  tags: [women, coc, mobility]
   hashtag: "Meetup"
   twitter: "collabcodebr"
   facebook: "collabcode"
@@ -225,7 +211,7 @@
 
 - title: "DjangoGirls"
   banner: "django-girls.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "DjangoGirls"
   twitter: "djangogirls"
   facebook: "djangogirls"
@@ -234,7 +220,7 @@
 
 - title: "UPWIT"
   banner: "upwit.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "MulheresLíderes"
   twitter: "UPWIT_Workshop"
   facebook: "UPWIT"
@@ -242,21 +228,21 @@
 
 - title: "Pyladies Salvador"
   banner: "pyladies-salvador.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   twitter: "pyladiessa"
   facebook: "PyLadiesSalvador"
   main_url: "https://pyladiessalvador.github.io/"
 
 - title: "JSLadies"
   banner: "js-ladies.jpeg"
-  tags: [venus,wheelchair-alt, ticket]
+  tags: [women, mobility, ticket]
   twitter: "JsladiesSp"
   facebook: "jsladiesbr"
   main_url: ""
 
 - title: "Girls in tech br"
   banner: "girls-in-tech.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "Girlsintechbr"
   twitter: "Girlsintechbr"
   facebook: "GiTSaoPaulo"
@@ -264,7 +250,7 @@
 
 - title: "Rede Empreendedoras"
   banner: "rede-empreendedora.png"
-  tags: [venus, cc, wheelchair-alt]
+  tags: [women, coc, mobility]
   hashtag: "womeninleadership"
   twitter: "RMEmpreendedora"
   facebook: "RedeMulherEmpreendedora"
@@ -272,12 +258,12 @@
 
 - title: "Female Founders meetup"
   banner: "female-founders.png"
-  tags: [venus]
+  tags: [women]
   facebook: "groups/386948878364972"
 
 - title: "Training Center"
   banner: "trainingcenter.jpg"
-  tags: [cc, universal-access]
+  tags: [coc, universal-access]
   twitter: "trainingcentr"
   linkedin: "company/22312627/"
   facebook: "trainingcenterbr"
@@ -286,21 +272,21 @@
 
 - title: "Pyladies BH"
   banner: "pyladies-bh.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   twitter: "pyladiesbh"
   facebook: "pyladiesbh"
   main_url: "http://brasil.pyladies.com/"
 
 - title: "Chicas Poderosas"
   banner: "chicas-poderosas.png"
-  tags: [venus, cc, universal-access]
+  tags: [women, coc, universal-access]
   hashtag: "chicaspoderosas"
   twitter: "poderosaschicas"
   facebook: "chicaspoderosas.org"
   main_url: "https://chicaspoderosas.org/"
 
 - title: "Code Girl"
-  tags: [venus, cc, wheelchair-alt]
+  tags: [women, coc, mobility]
   banner: "codegirl5.jpg"
   hashtag: "codegirl5"
   twitter: "codegirlbr"
@@ -309,7 +295,7 @@
 
 - title: "She's tech"
   banner: "she-is-tech.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "ShesTechWeek"
   facebook: "shestech"
   instagram: "shes_tech"
@@ -317,7 +303,7 @@
 
 - title: "Tech Ladies"
   banner: "tech-ladies.png"
-  tags: [venus, cc]
+  tags: [women, coc]
   hashtag: "techladiesbr"
   twitter: "techladiesbr"
   facebook: "techladiesbr"
@@ -325,7 +311,7 @@
 
 - title: "Ladies that UX São Paulo"
   banner: ""
-  tags: [venus, cc]
+  tags: [women, coc]
   twitter: "ladiesthatuxSPO"
   facebook: "ladiesthatuxsp"
   main_url: "http://ladiesthatux.com/"
