@@ -6,7 +6,6 @@ from: '2018-06-08'
 until: '2018-06-08'
 banner: drink-about-pride.png
 free: true
-meetup: true
 inclusive: true
 highlight: true
 lgbt: true
