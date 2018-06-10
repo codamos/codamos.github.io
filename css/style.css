@@ -415,7 +415,7 @@ p {
     box-shadow: inset 20px 20px 20px 20px #e60050;
 }
 
-.page-section-social {
+.page-section-social-twitter {
     color: #fff;
     background: #4990E2;
     padding: 0.5em;
@@ -431,8 +431,33 @@ p {
     text-align: center;
 }
 
-.page-section-social i {
+.page-section-social-facebook {
+    color: #fff;
+    background: #3c60b7;
+    padding: 0.5em;
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 4px solid #BACDFB;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.page-section-social-twitter i,
+.page-section-social-twitter a {
     color: #9DC8FA;
+}
+
+.page-section-social-facebook i {
+    color: #BACDFB;
+}
+
+.page-section-social-facebook a {
+    color: #BACDFB;
 }
 
 .page-banner-title {
