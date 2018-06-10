@@ -425,19 +425,16 @@ p {
     border-bottom: 4px solid #9DC8FA;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 10px 10px 10px 10px;
+    text-align: center;
 }
 
-.page-section-social-ico {
-    width: 33.33333%;
-    font-size: 3em;
+.page-section-social i {
+    color: #9DC8FA;
 }
 
-.page-section-social-content {
-    width: 66.66667%;
-}
 .page-banner-title {
     font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
