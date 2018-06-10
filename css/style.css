@@ -1712,9 +1712,13 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    border-bottom: 1.5em solid #c2a6f0;
-    border-top: 1.5em solid #c2a6f0;
-    background: #35186a;
+    border-bottom: 1.5em solid #E7001E;
+    border-top: 1.5em solid #E7001E;
+    background: #900415;
+}
+
+#include-event img {
+    width: 70%;
 }
 
 .include-event-title {
@@ -1744,6 +1748,10 @@ p {
     .include-event-call {
         font-size: 18px;
     }
+
+    #include-event img {
+    width: 30%;
+}
 }
 
 @media (min-width: 992px) {
@@ -1754,6 +1762,10 @@ p {
     .include-event-call {
         font-size: 20px;
     }
+
+    #include-event img {
+    width: 30%;
+}
 }
 
 /*SUMMIT*/
