@@ -20,3 +20,10 @@
   logo: "rubyconf.png"
   name: "Rubyconf Brasil"
 
+- main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
+  logo: "lewagon.png"
+  name: "lewagon Brasil"
+
+- main_url: "https://serenata.ai/"
+  logo: "serenata.png"
+  name: "Operação Serenata de amor"
