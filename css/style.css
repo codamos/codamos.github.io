@@ -415,6 +415,29 @@ p {
     box-shadow: inset 20px 20px 20px 20px #e60050;
 }
 
+.page-section-social {
+    color: #fff;
+    background: #4990E2;
+    padding: 0.5em;
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 4px solid #9DC8FA;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.page-section-social-ico {
+    width: 33.33333%;
+    font-size: 3em;
+}
+
+.page-section-social-content {
+    width: 66.66667%;
+}
 .page-banner-title {
     font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
@@ -476,6 +499,17 @@ p {
     .page-section-text {
         font-size: 20px;
     }
+}
+
+.page-section-red {
+    border-bottom: 1.5em solid #E7001E;
+    border-top: 1.5em solid #E7001E;
+    background: #900415;
+}
+.page-section-purple {
+    border-bottom: 1.5em solid #c2a6f0;
+    border-top: 1.5em solid #c2a6f0;
+    background: #35186a;
 }
 
 .page-section-white {
@@ -1712,13 +1746,6 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    border-bottom: 1.5em solid #E7001E;
-    border-top: 1.5em solid #E7001E;
-    background: #900415;
-}
-
-#include-event img {
-    width: 70%;
 }
 
 .include-event-title {
@@ -1983,7 +2010,7 @@ p {
     margin: 0 auto;
     text-align: center;
     padding: 2em;
-    border-top: 6px solid #ffb400;
+    border-top: 6px solid #e60050;
 }
 
 #footer a {
