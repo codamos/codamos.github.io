@@ -7,7 +7,6 @@ until: '2018-06-08'
 banner: drink-about-pride.png
 free: true
 inclusive: true
-highlight: true
 lgbt: true
 tags:
 - cc

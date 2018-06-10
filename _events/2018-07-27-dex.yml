@@ -3,11 +3,15 @@ title: DEX 2018
 location: São Paulo - SP
 date: 27 e 28/07
 women: true
+highlight: true
 from: '2018-07-27'
 until: '2018-07-28'
 group: mergo.png
 group_name: Mergo UX
 banner: dex-2018.png
+tags:
+- venus
+- cc
 hashtag: MergoLab
 twitter: mergo_ux
 facebook: mergo.user.experience
