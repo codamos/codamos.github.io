@@ -12,13 +12,13 @@
   logo: "devas-io.png"
   name: "Devas.io"
 
-- main_url: "http://railsgirls.com/saopaulo.html"
-  logo: "rails.png"
-  name: "Rail Girls"
-
 - main_url: "http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/"
   logo: "rubyconf.png"
   name: "Rubyconf Brasil"
+
+- main_url: "http://railsgirls.com/saopaulo.html"
+  logo: "rails.png"
+  name: "Rail Girls"
 
 - main_url: "https://www.lewagon.com/pt-BR/sao-paulo"
   logo: "lewagon.png"
