@@ -1263,7 +1263,7 @@ p {
 }
 
 .speaker-card {
-    padding: 2%;
+    padding: 1em 1.5em;
     background-color: #fefefe;
     display: flex;
     flex-direction: column;
@@ -1280,7 +1280,7 @@ p {
 .speaker-card img {
     display: block;
     margin: 10px auto 0px auto;
-    border: solid 4px #f1f1f1;
+    border: solid 4px #f6a623;
     border-radius: 50%;
     object-fit: cover;
     flex: 0 0 118px;
@@ -1292,6 +1292,7 @@ p {
     font-weight: 300;
     text-align: center;
     color: #333333;
+    position: relative;
 }
 
 .speaker-card h3 {
@@ -1301,16 +1302,20 @@ p {
 }
 
 .speaker-card-tag-label {
-    position: absolute;
-    font-size: 0.625em;
+    font-size: small;
     font-weight: 300;
-    width: auto;
     display: flex;
+    position: absolute;
+    top: 10px;
+    left: 0;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    padding: 0.6em 0.8em;
+    padding: 0.6em 1.0em 0.4em 1.0em;
+    border-radius: 0px 3px 3px 0px;
     letter-spacing: 2px;
+    z-index: 1;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .speaker-card-tag-label h4{
@@ -1320,9 +1325,7 @@ p {
 .speaker {
     background: #ffff66;
     color: #660000;
-    font-weight: 700;
-    border: 2px solid #f6a623;
-    border-radius: 4px;
+    font-weight: 400;
 }
 
 .mentor {
