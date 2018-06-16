@@ -489,7 +489,7 @@ p {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
     margin: 1.5em 0;
-    color: #eee;
+    color: #e60050;
 }
 
 .page-section-text {
@@ -652,7 +652,9 @@ p {
     text-decoration: none;
     padding: 10px;
     font-family: Roboto, Sans-Serif;
-    font-size: 0.75em;
+    font-size: small;
+    font-weight: 300;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -1638,7 +1640,7 @@ p {
     background-repeat: no-repeat;
     background-color: darkmagenta;
     background-blend-mode: multiply, color-burn;
-    border-top: 6px solid #8edbdf;
+    border-top: 6px solid #e60050;
 }
 
 .partners-supporters-wannabe {
@@ -1657,6 +1659,7 @@ p {
 
 .partners-supporters-wannabe h4 {
     margin-bottom: 2em;
+    font-weight: 300;
 }
 
 @media (max-width: 660px) {
@@ -1988,15 +1991,15 @@ p {
 /*FOOTER*/
 #footer {
     font-family: 'Roboto', sans-serif;
-    color: #a7afb2;
+    color: #eee;
     margin: 0 auto;
     text-align: center;
     padding: 2em;
-    border-top: 6px solid #e60050;
+    border-top: 6px solid  #8edbdf;
 }
 
 #footer a {
-    color: #d4d4d4;
+    color: #eee;
     text-decoration: none;
 }
 
@@ -2005,7 +2008,7 @@ p {
 }
 
 .footer-box {
-    margin: 4em auto 2em auto;
+    margin: 2em auto;
 }
 
 .footer-menu {
@@ -2018,12 +2021,12 @@ p {
 .footer-menu a {
     list-style: none;
     font-size: x-small;
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .divider {
-    background-color: #d9dadc;
+    background-color: #8edbdf;
     height: 5px;
     width: 5px;
     border-radius: 100%;
@@ -2055,12 +2058,12 @@ p {
 
 .footer-social .footer-logo,
 .footer-logo a:hover {
-    background: #f4f4f4;
+    background: #fff;
 }
 
 .footer-creativecommons-text {
     font-family: 'Roboto', sans-serif;
-    font-size: x-small;
+    font-size: small;
     font-weight: 300;
 }
 
