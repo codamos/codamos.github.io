@@ -1370,6 +1370,10 @@ p {
     padding: 5px 0;
 }
 
+.speaker-card-labels > * {
+    margin: 0 0.125em;
+}
+
 .lgbt-label {
     background: red;
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
