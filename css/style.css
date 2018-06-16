@@ -424,6 +424,22 @@ p {
     text-align: center;
 }
 
+.page-section-social-tc {
+    color: #fff;
+    background: #660099;
+    padding: 0.5em;
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 4px solid #ddc7ed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
 .page-section-social-facebook {
     color: #fff;
     background: #3c60b7;
