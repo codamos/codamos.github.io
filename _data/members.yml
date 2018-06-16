@@ -7,7 +7,7 @@
 # lgbt:      texto, opcional.
 # codamos:   texto, obrigatório.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
-# labels:    lista de classes de ícones do font awesome, opcional.
+# labels:    lista de labels para ícones, opcional. Vide `speaker_icons.yml`.
 # skills:    lista de textos sem espaços, opcional.
 # email:     email, opcional.
 # site:      URL, opcional.
