@@ -656,3 +656,14 @@
   github: "eaborges"
   linkedin: "emylleandressa"
   facebook: "Dressab"
+
+- name: "Tatiane Souto"
+  voluntary: true
+  email: "tatisouto@gmail.com"
+  avatar: "tatiane-souto.jpg"
+  location: "São Paulo - SP"
+  labels: [lgbt]
+  skills: [.net, asp .net, JavaScript, Angular]
+  bio: >
+    Analista Programadora Sr.
+  github: "tatisouto"

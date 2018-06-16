@@ -1280,10 +1280,10 @@ p {
 .speaker-card img {
     display: block;
     margin: 10px auto 0px auto;
-    border: solid 4px #f6a623;
     border-radius: 50%;
     object-fit: cover;
     flex: 0 0 118px;
+    border: solid 4px #f6a623;
 }
 
 .speaker-card {
@@ -1330,19 +1330,13 @@ p {
 
 .mentor {
     background: #660099;
-    top: 45px;
-    color: #660000;
-    left: 10px;
-    border: 2px solid #cc66ff;
-    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
 }
 
 .voluntary {
     background: #000;
-    top: 45px;
-    color: #660000;
-    left: 10px;
-    border: 2px solid #eee;
+    color: #fff;
     border-radius: 4px;
 }
 
