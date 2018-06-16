@@ -1263,7 +1263,7 @@ p {
 }
 
 .speaker-card {
-    padding: 1em 1.5em;
+    padding: 1.2em;
     background-color: #fefefe;
     display: flex;
     flex-direction: column;
@@ -1306,8 +1306,6 @@ p {
     font-weight: 300;
     display: flex;
     position: absolute;
-    top: 10px;
-    left: 0;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
@@ -1326,18 +1324,23 @@ p {
     background: #ffff66;
     color: #660000;
     font-weight: 400;
+    top: 43px;
+    left: 0;
 }
 
 .mentor {
     background: #660099;
     color: #fff;
     font-weight: 400;
+    top: 75px;
+    left: 0;
 }
 
 .voluntary {
     background: #000;
     color: #fff;
-    border-radius: 4px;
+    top: 10px;
+    left: 0;
 }
 
 .speaker-card-skills {
@@ -1347,7 +1350,7 @@ p {
 .speaker-card-skills span {
     color: #fff;
     background: #ff7700;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 5px 8px;
     margin: 2px 1px;
     font-family: Roboto, Sans-Serif;

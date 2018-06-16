@@ -18,9 +18,8 @@
 # instagram: texto sem espaços, opcional. Instagram handle.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- name: "Jeliel Mendes"
+- name: "Evelyn Mendes"
   speaker: true
-  full_name: "Evelyn Jeliel Mendes"
   email: "jelielmendes@gmail.com"
   avatar: "jeliel-mendes.jpg"
   location: "Porto Alegre - RS"
@@ -30,8 +29,9 @@
     Mulher transexual, analista e desenvolvedora de sistemas,
     amo tecnologia, muito nerd e geek, mãe e avó de 3 lindos
     shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
-  site: "http://transnerd.com.br"
-  twitter: "jelielmendes"
+  site: "https://transnerd.tech/"
+  twitter: "evlymn"
+  github: ""
 
 - name: "Geisy Domiciano"
   speaker: true
@@ -219,10 +219,12 @@
 
 - name: "William Oliveira"
   speaker: true
+  voluntary: true
+  mentor: true
   email: "williamozsouza@gmail.com"
   avatar: "william-oliveira.jpg"
   location: "São Paulo - SP"
-  labels: [men, poc]
+  labels: [men, poc, perifa]
   skills: [Comunidades, Front End, Mentoria, Open Source, JavaScript]
   bio: >
     Desenvolvedor de Software, viciado em comunidades, compartilhar conhecimento e código (open source de preferência)
@@ -248,6 +250,8 @@
 
 - name: "Livia Gabos"
   speaker: true
+  voluntary: true
+  mentor: true
   email: "liviagabos@gmail.com"
   avatar: "livia-gabos.jpg"
   location: "São José dos Campos - SP"
@@ -289,6 +293,19 @@
   linkedin: "mariana-elisa-moises"
   facebook: "mel.mariielisa"
 
+- name: "Natalia Manha"
+  speaker: true
+  email: "natalia.manha@outlook.com"
+  avatar: "natalia-manha.jpg"
+  location: "Campinas - SP"
+  labels: [women]
+  skills: [Kanban, Scrum, Lean, Green Belt, Design Thinking, Equipes remotas, Alta performance]
+  bio: >
+    Atualmente, focada em disseminar valores, princípios e práticas ágeis na área de serviços de infraestrutura da IBM com o uso de Lean, Kanban, SCRUM e Design Thinking. Mestre em Gestão de Sistemas Produtivos pelo Centro Paula Souza, na linha de pesquisa de Gestão de Equipes Virtuais Globais.
+  site: "https://www.virtualteamsmanagement.com"
+  linkedin: "nataliamanha"
+  twitter: "nataliamanha"
+
 - name: "Tali"
   speaker: true
   email: "tathianadesigner@gmail.com"
@@ -313,33 +330,6 @@
     Graduada em Administração, com pós graduação em Arquitetura e Gestão de Infraestrutura de Tecnologia, certificada ITIL Expert e mentora da página ITSM na Prática. Trabalho de Governança de TI a mais de 18 anos, atuando em empresas do setor financeiro e de tecnologia. Apaixonada por ITSM e por pessoas sou engajada em diversos trabalhos sociais voltados a carreira na tecnologia. Mãe de dois meninos e filha de uma costureira, meu sonho é que outras meninas da periferia tenham acesso a estudos e oportunidades na área de tecnologia como eu.
   linkedin: "inaray-santos"
 
-- name: "Natalia Manha"
-  speaker: true
-  email: "natalia.manha@outlook.com"
-  avatar: "natalia-manha.jpg"
-  location: "Campinas - SP"
-  labels: [women]
-  skills: [Kanban, Scrum, Lean, Green Belt, Design Thinking, Equipes remotas, Alta performance]
-  bio: >
-    Atualmente, focada em disseminar valores, princípios e práticas ágeis na área de serviços de infraestrutura da IBM com o uso de Lean, Kanban, SCRUM e Design Thinking. Mestre em Gestão de Sistemas Produtivos pelo Centro Paula Souza, na linha de pesquisa de Gestão de Equipes Virtuais Globais.
-  site: "https://www.virtualteamsmanagement.com"
-  linkedin: "nataliamanha"
-  twitter: "nataliamanha"
-
-- name: "Ronan Rodrigo Nunes"
-  speaker: true
-  email: "ronan.nunes@me.com"
-  avatar: "ronan.jpg"
-  location: "São Paulo"
-  labels: [men]
-  skills: [Swift, iOS, Arquitetura de Software, TDD, Clean Code]
-  bio: >
-    Sou engenheiro de software de aplicativos para smartphones e formado em Sistemas de Informação. Gosto conversar sobre minhas experiências e leituras sobre desenvolvimento de software. E também gosto de ajudar quem deseja iniciar ou se aprimorar na carreira de desenvolvimento de software.
-  site: "http://www.ronanrodrigo.com"
-  linkedin: "ronanrodrigo"
-  github: "ronanrodrigo/carbrito"
-  twitter: "ronanrodrigo_"
-
 - name: "Paulo Henrique de Lima Santana"
   speaker: true
   email: "phls@softwarelivre.org"
@@ -354,6 +344,20 @@
   linkedin: "paulo-henrique-de-lima-santana-9394b14b"
   twitter: "phls00"
   facebook: "phls00"
+
+- name: "Ronan Rodrigo Nunes"
+  speaker: true
+  email: "ronan.nunes@me.com"
+  avatar: "ronan.jpg"
+  location: "São Paulo"
+  labels: [men]
+  skills: [Swift, iOS, Arquitetura de Software, TDD, Clean Code]
+  bio: >
+    Sou engenheiro de software de aplicativos para smartphones e formado em Sistemas de Informação. Gosto conversar sobre minhas experiências e leituras sobre desenvolvimento de software. E também gosto de ajudar quem deseja iniciar ou se aprimorar na carreira de desenvolvimento de software.
+  site: "http://www.ronanrodrigo.com"
+  linkedin: "ronanrodrigo"
+  github: "ronanrodrigo/carbrito"
+  twitter: "ronanrodrigo_"
 
 - name: "Nayara Alves"
   speaker: true
@@ -382,19 +386,20 @@
   twitter: "gilenofilho"
   facebook: "gilenofilho"
 
-- name: "Thaysa Mara Monteiro dos Santos"
+- name: "William Grasel"
   speaker: true
-  email: "thaysamarasantos@gmail.com"
-  avatar: "thaysa.jpg"
-  location: "Sorocaba - SP"
-  labels: [women]
-  skills: [HTML, CSS, JavaScript]
+  email: "d.rufos@gmail.com"
+  avatar: "william-grasel.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [JavaScript, TypeScript, Angular, Firebase, PWA, Testes Automatizados, HTML, CSS]
   bio: >
-    Trabalho com o desenvolvimento web desde 2013, sou formada em ADS e apaixonada pelo mundo do front-end.
-  site: "https://thaymara.github.io/"
-  github: "thaymara"
-  linkedin: "thaysa-mara-monteiro-dos-santos-7741a299/"
-  facebook: "thaysamarasantos"
+    Desenvolvedor Web apaixonado com 15 anos de experiência na área, especializado em FrontEnd com Single Page Apps e Progressive Web Apps. Consultor, organizador de meetups, palestrante, coordenador da comunidade AngularSP, amante de JavaScript e programação funcional, sempre fascinado por novas tecnologias.
+  site: "http://willgm.com"
+  github: "willgm"
+  linkedin: "william-grasel-799146114/"
+  twitter: "willgmbr"
+  facebook: "wgrasel"
 
 - name: "Luã Ciceri Schwertner"
   speaker: true
@@ -436,35 +441,33 @@
   github: "lucienemlf"
   linkedin: "luciienee"
 
-- name: "Fernanda Bernardo"
+- name: "Charlotte Lorelei Oliveira"
   speaker: true
-  email: "fernandabernardo94@gmail.com"
-  avatar: "fernanda-bernardo.jpg"
+  highlight: true
+  email: "charlotte.elixir@gmail.com"
+  avatar: "charlotte-lorelei.jpg"
   location: "São Paulo - SP"
-  labels: [women]
-  skills: [Front-End, CSS, JavaScript]
+  labels: [trans, women]
+  skills: [Elixir, Erlang, PostgreSQL]
   bio: >
-    Trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na área de tecnologia meio que por sorte. Gosto tanto de back-end quanto de front-end e também de assuntos relacionados a UX. Adoro palestrar e estudar assuntos novos. Gosto de assuntos relacionados à saúde, sou diabética e tenho um blog sobre o assunto. Apesar disso, adoro doces.
-  site: "http://fernandabernardo.com.br/"
-  github: "fernandabernardo"
-  linkedin: "fernandabernardo"
-  twitter: "Feh_Bernardo"
-  facebook: "fernanda.m.bernardo"
+    Desenvolvedora de software evangelista de Erlang, entusiasta de programação funcional e desenvolvimento web, apaixonada por gatos e por cheesecake.
+  github: "mememori"
+  linkedin: "umamaistempo"
+  twitter: "umamaistempo"
 
-- name: "William Grasel"
+- name: "Thaysa Mara Monteiro dos Santos"
   speaker: true
-  email: "d.rufos@gmail.com"
-  avatar: "william-grasel.jpg"
-  location: "São Paulo - SP"
-  labels: [men]
-  skills: [JavaScript, TypeScript, Angular, Firebase, PWA, Testes Automatizados, HTML, CSS]
+  email: "thaysamarasantos@gmail.com"
+  avatar: "thaysa.jpg"
+  location: "Sorocaba - SP"
+  labels: [women]
+  skills: [HTML, CSS, JavaScript]
   bio: >
-    Desenvolvedor Web apaixonado com 15 anos de experiência na área, especializado em FrontEnd com Single Page Apps e Progressive Web Apps. Consultor, organizador de meetups, palestrante, coordenador da comunidade AngularSP, amante de JavaScript e programação funcional, sempre fascinado por novas tecnologias.
-  site: "http://willgm.com"
-  github: "willgm"
-  linkedin: "william-grasel-799146114/"
-  twitter: "willgmbr"
-  facebook: "wgrasel"
+    Trabalho com o desenvolvimento web desde 2013, sou formada em ADS e apaixonada pelo mundo do front-end.
+  site: "https://thaymara.github.io/"
+  github: "thaymara"
+  linkedin: "thaysa-mara-monteiro-dos-santos-7741a299/"
+  facebook: "thaysamarasantos"
 
 - name: "Marcelo Gasparian Gosling"
   speaker: true
@@ -522,19 +525,20 @@
   linkedin: "lhs-santos/"
   twitter: "_staticvoid"
 
-- name: "Charlotte Lorelei Oliveira"
+- name: "Fernanda Bernardo"
   speaker: true
-  highlight: true
-  email: "charlotte.elixir@gmail.com"
-  avatar: "charlotte-lorelei.jpg"
+  email: "fernandabernardo94@gmail.com"
+  avatar: "fernanda-bernardo.jpg"
   location: "São Paulo - SP"
-  labels: [trans, women]
-  skills: [Elixir, Erlang, PostgreSQL]
+  labels: [women]
+  skills: [Front-End, CSS, JavaScript]
   bio: >
-    Desenvolvedora de software evangelista de Erlang, entusiasta de programação funcional e desenvolvimento web, apaixonada por gatos e por cheesecake.
-  github: "mememori"
-  linkedin: "umamaistempo"
-  twitter: "umamaistempo"
+    Trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na área de tecnologia meio que por sorte. Gosto tanto de back-end quanto de front-end e também de assuntos relacionados a UX. Adoro palestrar e estudar assuntos novos. Gosto de assuntos relacionados à saúde, sou diabética e tenho um blog sobre o assunto. Apesar disso, adoro doces.
+  site: "http://fernandabernardo.com.br/"
+  github: "fernandabernardo"
+  linkedin: "fernandabernardo"
+  twitter: "Feh_Bernardo"
+  facebook: "fernanda.m.bernardo"
 
 - name: "Anderson Casimiro"
   speaker: true
@@ -602,20 +606,19 @@
   twitter: "barbarapcabral"
   facebook: "barbarapalmacabral"
 
-- name: "Carla Vieira"
+- name: "Annelise Gripp"
   speaker: true
-  email: "carlaprv@hotmail.com"
-  avatar: "carla-vieira.jpg"
-  location: "São Paulo - SP"
+  email: "annegripp.ag@gmail.com"
+  avatar: "annelise-gripp.jpg"
+  location: "Porto Alegre - RS"
   labels: [women]
-  skills: [Front-end, CSS3, JavaScript, Gestão de Projetos]
+  skills: [Consultora em Transformação Ágil, Agile Coach, Gerente de Projetos, Coach Pessoal e Profissional]
   bio: >
-    Desenvolvedora front-end. Apaixonada por livros, design, tecnologia e empreendedorismo.
-  site: "https://medium.com/@carlaprv"
-  github: "carlaprv"
-  linkedin: "carlaprv"
-  twitter: "carlaprvieira"
-  facebook: "carlaprvieira"
+    Louca por tecnologia e engajada em integrar pessoas, há 23 anos trabalho com Engenharia de Desenvolvimento de Software. Ao longo desses anos aprendi, ensinei e experimentei novas metodologias, tecnologias, ferramentas e dinâmicas em todo o processo de Engenharia de Software. Nos últimos 10 anos, me dedico a Agilidade, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação, para o cliente e para equipe. Hoje, como Consultora e Especialista em Transformação Ágil, meu trabalho consiste em expandir, compartilhar e aplicar meus conhecimentos, habilidades e experiências nas empresas privadas utilizando técnicas e ferramentas de Coaching.
+  site: "http://www.annelisegripp.com.br"
+  twitter: "AnneliseGripp"
+  facebook: "agilista.annelise"
+  linkedin: "annelisegripp"
 
 - name: "Mariana Beilune Abad"
   speaker: true
@@ -630,19 +633,20 @@
   linkedin: "mariana-beilune-abad-078356110/"
   facebook: "marianabe.abad"
 
-- name: "Annelise Gripp"
+- name: "Carla Vieira"
   speaker: true
-  email: "annegripp.ag@gmail.com"
-  avatar: "annelise-gripp.jpg"
-  location: "Porto Alegre - RS"
+  email: "carlaprv@hotmail.com"
+  avatar: "carla-vieira.jpg"
+  location: "São Paulo - SP"
   labels: [women]
-  skills: [Consultora em Transformação Ágil, Agile Coach, Gerente de Projetos, Coach Pessoal e Profissional]
+  skills: [Front-end, CSS3, JavaScript, Gestão de Projetos]
   bio: >
-    Louca por tecnologia e engajada em integrar pessoas, há 23 anos trabalho com Engenharia de Desenvolvimento de Software. Ao longo desses anos aprendi, ensinei e experimentei novas metodologias, tecnologias, ferramentas e dinâmicas em todo o processo de Engenharia de Software. Nos últimos 10 anos, me dedico a Agilidade, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação, para o cliente e para equipe. Hoje, como Consultora e Especialista em Transformação Ágil, meu trabalho consiste em expandir, compartilhar e aplicar meus conhecimentos, habilidades e experiências nas empresas privadas utilizando técnicas e ferramentas de Coaching.
-  site: "http://www.annelisegripp.com.br"
-  twitter: "AnneliseGripp"
-  facebook: "agilista.annelise"
-  linkedin: "annelisegripp"
+    Desenvolvedora front-end. Apaixonada por livros, design, tecnologia e empreendedorismo.
+  site: "https://medium.com/@carlaprv"
+  github: "carlaprv"
+  linkedin: "carlaprv"
+  twitter: "carlaprvieira"
+  facebook: "carlaprvieira"
 
 - name: "Émylle Andressa Borges"
   speaker: true
@@ -667,3 +671,68 @@
   bio: >
     Analista Programadora Sr.
   github: "tatisouto"
+
+- name: "Lorrayne Patricia Pereira"
+  voluntary: true
+  email: "lorraynepatricia@outlook.com"
+  avatar: "lorrayne_paty.jpg"
+  location: "Belo Horizonte - MG"
+  labels: [women]
+  skills: [Análise de processos BPMN, Gestão de processos e metas, Apoio operacional]
+  bio: >
+    Sou analista de processo, graduada em SI e pós graduada em Gerência de Projeto de Software. Amante da tecnologia e da natureza.
+  linkedin: "lorrayne-p-782a58108"
+  facebook: "lorraynepatricia"
+  twitter: "lorrayne_paty"
+
+- name: "Patrícia Gomes dos Santos Silva"
+  speaker: true
+  email: "gss.patricia@gmail.com"
+  avatar: "paty-go.jpg"
+  location: "Hortolândia - SP"
+  labels: [women]
+  skills: [HTML5, CSS3, Sass, Less and Stylus, SMACSS, BEM and ITCSS, NodeJs, Unit Test, Javascript, AngularJs, React, jQuery, Service Workers, AMP & others, Redux]
+  bio: >
+    Trabalha na área desde 2010, desenvolvedora Front-end apaixonada por boas práticas em desenvolvimento web, acredita que HTML, CSS e Javascript são a base e podemos mudar o mundo através da web.
+  linkedin: "patr%C3%ADcia-gomes-dos-santos-silva%E2%80%8B-5304b233"
+  github: "gss-patricia"
+  twitter: "paty_go"
+
+- name: "Victor Magalhães"
+  speaker: true
+  email: "vhfmag@protonmail.com"
+  avatar: "vhfmag.jpg"
+  location: "Salvador - BA"
+  labels: [lgbt]
+  skills: [Javascript, Typescript, NodeJS, React, PWA, SEO, HTML, HTML Semântico, CSS]
+  bio: >
+    Desenvolvedor, entusiasta da web, de programação funcional e de tecnologias P2P e participante ativo da comunidade Javascript/React de Salvador.
+  site: "https://victormagalhaes.codes"
+  linkedin: "vhfmag"
+  github: "vhfmag"
+  twitter: "vhfmag"
+
+- name: "Anny Caroline Pinheiro Pereira de Sousa"
+  voluntary: true
+  email: "sousa.annyc@gmail.com"
+  avatar: "anny-caroline.jpg"
+  location: "Eng Paulo de Frontin - RJ"
+  labels: [women]
+  skills: [Audiovisual, Produção de eventos, Jogos digitais]
+  bio: >
+    Formada em magistério com ênfase em Informática Educacional. Graduanda em Tecnologia em Jogos Digitais publicou um artigo sobre empreendedorismo e economia criativa pela Revista de Extensão da UFMT, além de atuar em projetos de extensão relacionados a Economia Criativa e desenvolvimento de Jogos Digitais.Foi finalista no Concurso de Serious Games do Tribunal de Contas da União. Desenvolveu projeto em Realidade Virtual no Museu do Amanhã que foi em exposição no VFX Rio 2017, teve um jogo em exposição (Awakening Of Phaedros) durante a Game XP no Rock In Rio 2017. Atualmente é Assistente de Projetos no Cinema Nosso.
+  linkedin: "anny-caroline-sousa-77113071"
+
+- name: "Vinícius Oliveira"
+  speaker: true
+  email: "viniciusdfol@gmail.com"
+  avatar: "vini-oliveira.jpg"
+  location: "Belo Horizonte - MG"
+  labels: [lgbt]
+  skills: [C#, .NET, Web Scraping, Web Crawlers e Java]
+  bio: >
+    Entusiasta da filosofia de Software Livre e da cultura de Código Aberto. Utilizo da criatividade para sempre incentivar a colaboração e novas tecnologias em minha vida profissional.
+  linkedin: "viniciusdavifoliveira"
+  github: "viniciusdfx"
+  facebook: "vinidfr"
+
