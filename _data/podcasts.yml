@@ -62,20 +62,6 @@
   main_url: "https://soundcloud.com/user-363783809"
   rsvp_url: "https://soundcloud.com/user-363783809"
 
-- title: "Geekout"
-  location: "On-line"
-  inclusive: true
-  women: true
-  date: "encerrado"
-  banner: "geekout.png"
-  category: "- 60 minutos"
-  itunes: "https://itunes.apple.com/us/podcast/geek-out/id956387481?mt=2"
-  rss: "https://geekout.fm/feed.xml"
-  twitter: "GeekOutFM"
-  facebook: "geekoutfm"
-  main_url: "https://geekout.fm/"
-  rsvp_url: "https://geekout.fm/"
-
 - title: "pizzadedados"
   location: "São Paulo - SP"
   women: true
@@ -106,6 +92,20 @@
   rss: "https://www.lambda3.com.br/feed/podcast/"
   main_url: "https://www.lambda3.com.br/"
   rsvp_url: "https://www.lambda3.com.br/lambda3-podcast/"
+
+- title: "Quebra Dev"
+  inclusive: true
+  location: "São Paulo - SP"
+  date: "Semanal"
+  banner: "quebra-dev.png"
+  category: "- 60 minutos"
+  hashtag: "quebradev"
+  twitter: "quebradev"
+  github: "QuebraDev"
+  soundcloud: "https://soundcloud.com/quebradev"
+  youtube: "https://www.youtube.com/channel/UCcC9BomrjB8nM4WwGXxAkgg/featured"
+  main_url: "http://quebradev.com.br/index.html"
+  rsvp_url: "http://quebradev.com.br/index.html"
 
 - title: "Dev na estrada"
   convidados: true
@@ -193,6 +193,20 @@
   soundcloud: "https://soundcloud.com/cafe-de-bug"
   main_url: "http://cafedebug.com/"
   rsvp_url: "http://cafedebug.com/category/podcast/"
+
+- title: "Geekout"
+  location: "On-line"
+  inclusive: true
+  women: true
+  date: "encerrado"
+  banner: "geekout.png"
+  category: "- 60 minutos"
+  itunes: "https://itunes.apple.com/us/podcast/geek-out/id956387481?mt=2"
+  rss: "https://geekout.fm/feed.xml"
+  twitter: "GeekOutFM"
+  facebook: "geekoutfm"
+  main_url: "https://geekout.fm/"
+  rsvp_url: "https://geekout.fm/"
 
 - title: "Like a boss"
   location: "On-line"
