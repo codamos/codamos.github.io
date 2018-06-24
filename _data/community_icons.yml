@@ -12,7 +12,7 @@ trans:
 
 mobility:
   class: "fab fa-accessible-icon"
-  label: "incentivo pessoas com mobilidade reduzida."
+  label: "incentivo pessoas com mobilidade reduzida"
 
 sign-language:
   class: "fas fa-sign-language"
