@@ -61,6 +61,11 @@
            rel="noopener" target="_blank"><i class="fab fa-meetup" aria-hidden="true"></i></a>
         {% endif %}
 
+        {% if community.slack %}
+        <a href="https://www.meetup.com/{{ community.slack }}/" title="Slack"
+           rel="noopener" target="_blank"><i class="fab fa-slack" aria-hidden="true"></i></a>
+        {% endif %}
+
         {% if community.medium %}
         <a href="https://www.medium.com/{{ community.medium }}/" title="Medium"
            rel="noopener" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i></a>
