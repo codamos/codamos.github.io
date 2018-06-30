@@ -2,6 +2,9 @@
 title: PHP Community Summit
 location: São Paulo - SP
 date: 14/09 e 15/09
+highlight: true
+inclusive: true
+women: true
 from: '2018-09-14'
 until: '2018-09-15'
 banner: phpsm-lw.png
