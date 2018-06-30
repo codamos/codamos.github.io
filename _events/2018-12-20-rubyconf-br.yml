@@ -8,6 +8,8 @@ date: Definir
 from: '2018-12-20'
 until: '2018-12-20'
 banner: rubyconf.png
+group: locaweb.png
+group_name: Locaweb
 tags:
 - women
 - coc
