@@ -45,3 +45,7 @@ universal-access:
 perifa:
   class: "fas fa-map-pin"
   label: "incentivo comunidade periférica"
+
+juniors:
+  class: "fas fa-lemon"
+  label: "Evento indicado para iniciantes"

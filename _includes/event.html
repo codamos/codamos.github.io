@@ -2,7 +2,7 @@
 # Flags
 
 # group:         arquivo na pasta `images/grupo`, opcional.
-# group_name:    texto sem espaços, opcional. ex. Programaria, Marialab, Training Center.
+# group_name:    texto, opcional. ex. Programaria, Marialab, Training Center.
 # free:          booleano (true ou false), opcional. Evento gratuito.
 # inclusive:     booleano (true ou false), opcional. Evento inclusivo.
 # category:      texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
@@ -18,6 +18,7 @@
 # partners:      booleano (true ou false), opcional. Evento em café.
 # on_line:       booleano (true ou false), opcional. Evento que são on-line.
 # frontendweek:  booleano (true ou false), opcional. Evento da semana FRONTENDWEEK.
+# beginners:     booleano (true ou false), opcional. Evento para iniciantes.
 
 # Infomations
 
@@ -90,6 +91,12 @@
       {% if event.frontendweek %}
       <div class="events-card-header-label frontendweek">
         <i class="fas fa-code-branch" aria-hidden="true"></i><h3>Frontend Week</h3>
+      </div>
+      {% endif %}
+
+      {% if event.beginners %}
+      <div class="events-card-header-label beginners">
+        <i class="fas fa-lemon" aria-hidden="true"></i><h3>Público iniciante</h3>
       </div>
       {% endif %}
 

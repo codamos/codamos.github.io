@@ -937,6 +937,16 @@ p {
     border-radius: 4px;
 }
 
+.beginners {
+    background: #ffeb04;
+    top: 7px;
+    color: #336600;
+    right: 10px;
+    font-weight: 700;
+    border: 2px solid #b6d060;
+    border-radius: 4px;
+}
+
 .opensource {
     background: #000;
     top: 105px;
