@@ -7,12 +7,16 @@ until: '2018-08-04'
 women: true
 inclusive: true
 free: true
+beginners: true
 banner: web-sem-fronteiras.png
 tags:
 - women
 - coc
 - mobility
 - sign-language
+- blind
+- universal-access
+- juniors
 hashtag: websembarreiras
 twitter: websembarreiras
 facebook: Web-sem-barreiras-579127865784596/

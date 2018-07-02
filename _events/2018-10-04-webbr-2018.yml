@@ -4,6 +4,7 @@ location: São Paulo - SP
 inclusive: true
 women: true
 highlight: true
+beginners: true
 date: 04/10 e 05/10
 from: '2018-10-04'
 until: '2018-10-05'
@@ -14,6 +15,7 @@ tags:
 - mobility
 - sign-language
 - universal-access
+- juniors
 hashtag: Webbr2017
 twitter: w3cbrasil
 facebook: W3CWebbr

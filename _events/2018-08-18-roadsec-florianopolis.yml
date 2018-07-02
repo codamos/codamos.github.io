@@ -1,6 +1,8 @@
 ---
 title: Roadsec 2018 | Florianópolis
 inclusive: true
+women: true
+cfp: true
 location: Florianópolis - SC
 date: 18/08
 from: '2018-08-18'
@@ -8,6 +10,8 @@ until: '2018-08-18'
 banner: roadsec-florianopolis.png
 tags:
 - sign-language
+- women
+- poc
 hashtag: Roadsec
 twitter: roadsec
 facebook: roadsec

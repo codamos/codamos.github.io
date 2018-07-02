@@ -1,6 +1,8 @@
 ---
 title: Roadsec 2018 | Porto Alegre
 inclusive: true
+women: true
+cfp: true
 location: Porto Alegre - RS
 date: 25/08
 from: '2018-08-25'
@@ -8,6 +10,8 @@ until: '2018-08-25'
 banner: roadsec-porto-alegre.png
 tags:
 - sign-language
+- women
+- poc
 hashtag: Roadsec
 twitter: roadsec
 facebook: roadsec

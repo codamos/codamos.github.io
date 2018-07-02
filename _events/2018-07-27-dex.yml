@@ -4,6 +4,7 @@ location: São Paulo - SP
 date: 27 e 28/07
 women: true
 highlight: true
+beginners: true
 from: '2018-07-27'
 until: '2018-07-28'
 group: mergo.png
@@ -12,6 +13,7 @@ banner: dex-2018.png
 tags:
 - women
 - coc
+- juniors
 hashtag: MergoLab
 twitter: mergo_ux
 facebook: mergo.user.experience

@@ -1,13 +1,17 @@
 ---
 title: 14ª conferência brasileira da comunidade Python
 location: Natal - RN
+women: true
+cfp: true
 date: 17/10 a 22/10
 from: '2018-10-17'
 until: '2018-10-22'
 banner: python-brasil.png
 tags:
 - coc
+- women
 hashtag: PYBR14
 twitter: pythonbrasil
 facebook: pythonbrasil
 main_url: http://2018.pythonbrasil.org.br/
+rsvp_url: https://www.sympla.com.br/python-brasil-14__260986

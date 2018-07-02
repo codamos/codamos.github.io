@@ -8,12 +8,14 @@ banner: cafe-maria-lab.png
 inclusive: true
 free: true
 coffee: true
+beginners: true
 group: marialab.png
 group_name: Marialab
 tags:
 - women
 - coc
 - mobility
+- juniors
 twitter: MarialabHackers
 facebook: marialab.org
 main_url: https://marialab.org/

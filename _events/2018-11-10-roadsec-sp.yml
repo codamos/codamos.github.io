@@ -1,6 +1,8 @@
 ---
 title: Roadsec 2018 | São Paulo
 inclusive: true
+women: true
+cfp: true
 location: São Paulo - SP
 date: 10/11
 from: '2018-11-10'
@@ -8,6 +10,8 @@ until: '2018-11-10'
 banner: roadsec-sp.png
 tags:
 - sign-language
+- women
+- poc
 hashtag: Roadsec
 twitter: roadsec
 facebook: roadsec
