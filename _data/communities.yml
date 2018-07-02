@@ -163,13 +163,15 @@
   facebook: "PyLadiesSP"
   main_url: "https://www.meetup.com/PyLadiesSP/"
 
-- title: "NodeGirls POA"
+- title: "NodeGirls"
   banner: "node-girls-poa.png"
-  tags: [women, coc]
-  hashtag: "NodeGirls"
+  tags: [women, coc, trans, mobility, child, poc, lgbt, neuter, inclusive, perifa]
+  hashtag: "nodegirlscode"
   twitter: "nodejspoa"
+  facebook: "nodegirls"
   meetup: "Node-js-Porto-Alegre-Meetup"
-  main_url: "https://github.com/node-poa"
+  github: "node-poa"
+  main_url: "http://nodegirlscode.org"
 
 - title: "Code Club Brasil"
   banner: "code-club-brasil.png"
@@ -310,7 +312,7 @@
   main_url: "http://www.techladies.com.br/"
 
 - title: "Ladies that UX São Paulo"
-  banner: ""
+  banner: "ladies-ux-empreendedorismo.png"
   tags: [women, coc]
   twitter: "ladiesthatuxSPO"
   facebook: "ladiesthatuxsp"

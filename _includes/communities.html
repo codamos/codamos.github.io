@@ -4,16 +4,17 @@
 <div class="communities-card-header">
 
     <div class="communities-card-banner">
+
+      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
+
       {% if community.tags %}
-      <span class="communities-card-header-ico">
+      <div class="communities-card-header-ico">
         {% for tag in community.tags %}
           {% assign icon = site.data.community_icons[tag] %}
           <i class="{{ icon.class }}" title="{{ icon.label }}"></i>
         {% endfor %}
-      </span>
+      </div>
       {% endif %}
-
-      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
 
     </div>
     <div class="communities-card-title">
@@ -64,6 +65,11 @@
         {% if community.slack %}
         <a href="https://www.meetup.com/{{ community.slack }}/" title="Slack"
            rel="noopener" target="_blank"><i class="fab fa-slack" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.github %}
+        <a href="https://github.com/{{ community.github }}/" title="Github"
+           rel="noopener" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if community.medium %}
