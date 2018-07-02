@@ -480,7 +480,7 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     background: #d91a5b;
-    padding: 0.5em;
+    padding: 0.5em 0.5em 0.2em 0.5em;
     margin: 0.5em;
 }
 
