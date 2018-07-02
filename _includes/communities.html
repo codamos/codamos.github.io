@@ -47,19 +47,18 @@
         <i class="fab fa-facebook-f" aria-hidden="true"></i>
         {% endif %}
 
-        {% if community.instagram %}
-        <a href="http://instagram.com/{{ community.instagram }}" title="Instagram"
-           rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-        {% endif %}
-
-        {% if community.linkedin %}
-        <a href="https://www.linkedin.com/{{ community.linkedin }}" title="LinkedIn"
-           rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        {% if community.main_url %}
+        <a href="{{ community.main_url }}" title="Site"
+           rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fas fa-link" aria-hidden="true"></i></i>
         {% endif %}
 
         {% if community.meetup %}
         <a href="https://www.meetup.com/{{ community.meetup }}/" title="Meetup"
            rel="noopener" target="_blank"><i class="fab fa-meetup" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fab fa-meetup" aria-hidden="true"></i>
         {% endif %}
 
         {% if community.slack %}
@@ -72,9 +71,19 @@
            rel="noopener" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
         {% endif %}
 
+        {% if community.linkedin %}
+        <a href="https://www.linkedin.com/{{ community.linkedin }}" title="LinkedIn"
+           rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+
         {% if community.medium %}
         <a href="https://www.medium.com/{{ community.medium }}/" title="Medium"
            rel="noopener" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.instagram %}
+        <a href="http://instagram.com/{{ community.instagram }}" title="Instagram"
+           rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if community.youtube %}
@@ -82,8 +91,6 @@
            rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
         {% endif %}
 
-        <a href="{{ community.main_url }}" title="Site"
-           rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
