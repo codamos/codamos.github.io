@@ -412,11 +412,11 @@ p {
     color: #fff;
     background: #4990E2;
     padding: 0.5em;
-    margin-top: 2.5em;
+    margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #9DC8FA;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -428,11 +428,11 @@ p {
     color: #fff;
     background: #660099;
     padding: 0.5em;
-    margin-top: 2.5em;
+    margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #ddc7ed;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -444,16 +444,25 @@ p {
     color: #fff;
     background: #3c60b7;
     padding: 0.5em;
-    margin-top: 2.5em;
+    margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #BACDFB;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+}
+
+@media (max-width: 660px) {
+    .page-section-social-facebook,
+    .page-section-social-tc,
+    .page-section-social-twitter {
+        width: 100%;
+    }
+
 }
 
 .page-section-social-twitter svg,
@@ -471,8 +480,8 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     background: #d91a5b;
-    padding: 10px 10px 0 10px;
-    margin-bottom: 0.5em;
+    padding: 0.5em;
+    margin: 0.5em;
 }
 
 .page-section-title {
@@ -1619,7 +1628,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-bottom: 1.5em;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -1727,7 +1736,7 @@ p {
     text-align: center;
     color: #ffffff;
     padding-bottom: 1.5em;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -1774,7 +1783,7 @@ p {
     text-align: center;
     color: #ffffff;
     padding-bottom: 1.5em;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
