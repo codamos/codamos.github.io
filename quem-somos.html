@@ -40,22 +40,18 @@ layout: default
     Fizemos um estudo e resolvemos criar algo que fosse possível implementar em 48 horas! Nasceu o protótipo do <span class="pink">Codamos</span>. Na época queríamos algo um pouco mais focado em nichos, mas não foi possível implementar um monte de coisa que idealizamos, com isso nasceu uma versão 2 no ano seguinte. Mudaram as pessoas que colaboraram com a plataforma e com isso mudamos a forma como iríamos hospedar o <span class="pink">Codamos</span>, mudamos a linguagem que íamos trabalhar, nos tornamos um time mais preocupado com pessoas, aprendemos a ter empatia e em 2016 foi possível colocar uma versão MVP do projeto no ar com um grupo de voluntários colaborando.
   </p>
 
-  <img class="img-content-highlight" src="images/img-codamos-evento-braziljs.jpg" alt="">
+  <h1 class="page-section-title">O Aprendizado</h1>
 
   <p class="page-section-text">
-    Quando começamos esta jornada, poucas pessoas sabiam a parte de front end/back end e só algumas já trabalhavam na área, então foi um longo aprendizado sobre GitHub e controle de versão, HTML, CSS, Jekyll, UX, acessibilidade, Elixir, Phoenix… Tudo foi um aprendizado até onde estamos hoje, inclusive aprendemos como os eventos funcionam, entendemos como e onde conseguimos gerar inclusão e diversidade no setor. Hoje posso falar que estamos todos bem mais amadurecidos. Nossa equipe é formada por pessoas de diversos backgrounds, formação e profissões ligadas à tecnologia. Somos uma plataforma sem fins lucrativos que recebe contribuições de todos que compartilham nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso ecossistema tecnológico.
+    Quando começamos esta jornada, poucas pessoas sabiam a parte de front end/back end e só algumas já trabalhavam na área, então foi um longo aprendizado sobre GitHub e controle de versão, HTML, CSS, Jekyll, UX, acessibilidade, diversidade... Tudo foi um aprendizado até onde estamos hoje, inclusive aprendemos como os eventos funcionam, entendemos como e onde conseguimos gerar inclusão e diversidade no setor, na verdade acho que ainda estamos aprendendo a fazer isso. Hoje posso falar que estamos todos bem mais amadurecidos como profissionais e projeto. Nossa equipe de voluntários é formada por pessoas de diversos backgrounds, formação e profissões ligadas à tecnologia. Somos uma plataforma <strong>sem fins lucrativos</strong> que recebe contribuições de todos que compartilham nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso ecossistema tecnológico.
   </p>
 
-  <img class="img-content-highlight" src="images/img-codamos-evento-arquibancada.jpg" alt="">
-
   <p class="page-section-text">
-    Em 2017 ajudamos a organizar vários eventos e o foco foi sempre conseguir prover uma grade diversa, eventos gratuitos e tentar fomentar a participação de minorias em grandes eventos, garantindo ambiente agradável e acolhedor para todos, com todos os tipos de conhecimentos, desde a pessoa sênior na área até a que está começando. Eu, pessoalmente, acredito que os eventos (tanto faz grandes ou pequenos) são o coração das comunidades e quando pensamos em comunidade mais diversa e mais inclusiva, são os eventos que devem refletir esse movimento!
+    Eu, pessoalmente, acredito que os eventos (tanto faz grandes ou pequenos) são o coração das comunidades e quando pensamos em comunidade mais diversa e mais inclusiva, são os eventos que devem refletir esse movimento! Entendo que represento só uma parcela dessa diversidade e entendo que mesmo tendo minhas dificuldades em tecnologia, ainda sou privilegiada em várias coisas e faço questão de usar esse tal rpivilégio para divulgar o Codamos e conseguir mudar ou ajudar minimamente outras diversidades dentro da comunidade.
   </p>
 
-  <img class="img-content-highlight" src="images/img-codamos-diversidade-board2.jpg" alt="">
-
   <p class="page-section-text">
-    Nosso foco em 2019 é preparar mais o projeto para que receba contribuições open source, otimizar a curadoria dos eventos, ativar buscas por filtros, ampliar o cadastro de eventos englobando todo o Brasil e que qualquer possa cadastrar seu próprio evento na plataforma. Estamos trabalhando por isso, mas somos um time que se dedica voluntariamente e tenta aprender junto em várias etapas desse crescimento, portanto, tudo isso vai acontecer lentamente. Estamos aprendendo no processo. Sem o voluntáriado e a colaboração de cada um a gente não estaria aqui <span class="pink">S2</span>.
+    Nosso foco em 2019 é preparar mais o projeto para que receba contribuições open source, otimizar a curadoria dos eventos, ativar buscas por filtros, ampliar o cadastro de eventos englobando todo o Brasil e que qualquer possa cadastrar seu próprio evento na plataforma. Estamos trabalhando por isso, mas somos um time que se dedica <strong>voluntariamente</strong> e tenta aprender junto em várias etapas desse crescimento, portanto, tudo isso vai acontecer lentamente. Estamos aprendendo no processo. Sem o voluntáriado e a colaboração de cada um a gente não estaria aqui <span class="pink">S2</span>.
     A Diversidade é possível, dá trabalho, mas é perfeitamente possível e juntos podemos mudar <a href="https://insights.stackoverflow.com/survey/2017#developer-profile" target="_blank">nosso cenário atual na tecnologia</a>!
   </p>
 
@@ -69,7 +65,7 @@ layout: default
 
 <!-- EQUIPE E COLABORADORES -->
 <section id="team-collaborators" class="page-section">
-  <h1 class="page-section-subtitle-alt">Nossa Equipe 2018</h1>
+  <h1 class="page-section-subtitle-alt">Mantenedores do projeto</h1>
 
     <ul class="speakers-cards">
       {% include members.html members=site.data.members %}
@@ -83,7 +79,43 @@ layout: default
     Trabalhamos voluntariamente para fazer do <span class="pink">Codamos</span> um ponto de encontro do fantástico mundo tecnológico.
   </h4>
 
-  <h1 class="page-section-subtitle-alt">Colaboradores</h1>
+  <h1 class="page-section-subtitle-alt">Colaboram</h1>
+  <ul class="team-collaborators-cards">
+    {% for collaborator in site.data.collaborators %}
+    <li class="team-collaborators-card">
+      <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
+      <h3>{{ collaborator.name }}</h3>
+      <ul>
+        <li>
+          {% if collaborator.twitter %}
+          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
+             rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.facebook %}
+          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
+             rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+        <li>
+          {% if collaborator.linkedin %}
+          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
+             rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          {% else %}
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+          {% endif %}
+        </li>
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-section-subtitle-alt">Colaboraram</h1>
   <ul class="team-collaborators-cards">
     {% for collaborator in site.data.collaborators %}
     <li class="team-collaborators-card">

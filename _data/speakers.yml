@@ -736,3 +736,73 @@
   github: "viniciusdfx"
   facebook: "vinidfr"
 
+- name: "Cybelle"
+  speaker: true
+  full_name: "Cybelle"
+  email: "cyb3ll3@protonmail.com"
+  avatar: "cybelle-oliveira.jpg"
+  location: "São Paulo - SP"
+  labels: [women, parent]
+  skills: [Privacidade, Código de Conduta, Eventos, Produção, Gestão de Comunidades]
+  bio: >
+    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac. Atualmente no programa Mozilla Open Leaders.
+    Produtora de eventos, contribuidora da Mozilla, co-fundadora do JSLadies.
+    Entusiasta de privacidade e segurança, feminista e vegetariana.
+  twitter: "cyb3113"
+  linkedin: "cybelleoliveira"
+  github: "cyb3113"
+
+- name: "Cynthia Pereira"
+  speaker: true
+  full_name: "Cynthia Pereira"
+  email: "cynthiacpereira@gmail.com"
+  avatar: "cynthia.jpg"
+  location: "São Paulo - SP"
+  labels: [women, poc]
+  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
+  bio: >
+    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
+    #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
+  linkedin: "cynthiacpereira"
+  twitter: "cynthiapereira_"
+  github: "cynthiapereira"
+
+- name: "Miguel Soares"
+  speaker: true
+  full_name: "Miguel Soares"
+  email: "oieusouamiguel@riseup.net"
+  avatar: "miguel-soares.jpg"
+  location: "São Paulo - SP"
+  labels: [trans, perifa]
+  skills: [Front-end, Back-end, Django, React, Diversidade e Inclusão, Games]
+  bio: >
+    Desenvolvedora Web, atualmente como Dev Back-end na Vert Capital.
+    Contribuo para projetos open-source com foco em dados abertos do Governo e
+    em democratização de informações sobre política e feminismo.
+    Fui instrutora de programação pela ONG Recode. Game dev amadora.
+  site: "http://oieusouamiguel.github.io"
+  twitter: "oieusouamiguell"
+  linkedin: "migueldenegocios"
+  facebook: "oieusouamiguel"
+  github: "oieusouamiguel"
+
+- name: "Ingrid Marion Caparroz Mazoni"
+  speaker: true
+  full_name: "Ingrid Mazoni"
+  email: "ingridmazoni@outlook.com"
+  avatar: "ingrid.jpg"
+  location: "São Paulo - SP"
+  labels: [women]
+  skills: [Desenvolvimento, Back-end, Java]
+  bio: >
+    Técnico em informática na Etec e superior de Análise e
+    Desenvolvimento de Sistemas na Fatec. Desenvolvi um projeto
+    de um sistema web em java para auxiliar os estudos de candidatos que querem prestar o vestibular da Fatec.
+    Esse projeto teve muito sucesso e será adaptado para outros tipos de provas como o Enade.
+  twitter: "ingridmazoni"
+  facebook: "ingridmazoni"
+  github: "ingridmazoni"
+  linkedin: "ingridmazoni"
+
+
+
