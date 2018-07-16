@@ -422,6 +422,7 @@ p {
     align-items: center;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+    text-decoration: none;
 }
 
 .page-section-social-tc {
@@ -454,6 +455,7 @@ p {
     align-items: center;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+    text-decoration: none;
 }
 
 @media (max-width: 660px) {
@@ -465,13 +467,11 @@ p {
 
 }
 
-.page-section-social-twitter svg,
-.page-section-social-twitter a {
+.page-section-social-twitter svg {
     color: #9DC8FA;
 }
 
-.page-section-social-facebook svg,
-.page-section-social-facebook a {
+.page-section-social-facebook svg {
     color: #BACDFB;
 }
 
