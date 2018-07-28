@@ -40,7 +40,7 @@ layout: default
     Fizemos um estudo e resolvemos criar algo que fosse possível implementar em 48 horas! Nasceu o protótipo do <span class="pink">Codamos</span>. Na época queríamos algo um pouco mais focado em nichos, mas não foi possível implementar um monte de coisa que idealizamos, com isso nasceu uma versão 2 no ano seguinte. Mudaram as pessoas que colaboraram com a plataforma e com isso mudamos a forma como iríamos hospedar o <span class="pink">Codamos</span>, mudamos a linguagem que íamos trabalhar, nos tornamos um time mais preocupado com pessoas, aprendemos a ter empatia e em 2016 foi possível colocar uma versão MVP do projeto no ar com um grupo de voluntários colaborando.
   </p>
 
-  <h1 class="page-section-title">O Aprendizado</h1>
+  <h1 class="page-section-title">Nosso propósito e aprendizado</h1>
 
   <p class="page-section-text">
     Quando começamos esta jornada, poucas pessoas sabiam a parte de front end/back end e só algumas já trabalhavam na área, então foi um longo aprendizado sobre GitHub e controle de versão, HTML, CSS, Jekyll, UX, acessibilidade, diversidade... Tudo foi um aprendizado até onde estamos hoje, inclusive aprendemos como os eventos funcionam, entendemos como e onde conseguimos gerar inclusão e diversidade no setor, na verdade acho que ainda estamos aprendendo a fazer isso. Hoje posso falar que estamos todos bem mais amadurecidos como profissionais e projeto. Nossa equipe de voluntários é formada por pessoas de diversos backgrounds, formação e profissões ligadas à tecnologia. Somos uma plataforma <strong>sem fins lucrativos</strong> que recebe contribuições de todos que compartilham nossos objetivos e querem colaborar de maneira saudável e construtiva dentro do nosso ecossistema tecnológico.
@@ -49,6 +49,8 @@ layout: default
   <p class="page-section-text">
     Eu, pessoalmente, acredito que os eventos (tanto faz grandes ou pequenos) são o coração das comunidades e quando pensamos em comunidade mais diversa e mais inclusiva, são os eventos que devem refletir esse movimento! Entendo que represento só uma parcela dessa diversidade e entendo que mesmo tendo minhas dificuldades em tecnologia, ainda sou privilegiada em várias coisas e faço questão de usar esse tal rpivilégio para divulgar o Codamos e conseguir mudar ou ajudar minimamente outras diversidades dentro da comunidade.
   </p>
+
+  <h1 class="page-section-title">Planos pro futuro</h1>
 
   <p class="page-section-text">
     Nosso foco em 2019 é preparar mais o projeto para que receba contribuições open source, otimizar a curadoria dos eventos, ativar buscas por filtros, ampliar o cadastro de eventos englobando todo o Brasil e que qualquer possa cadastrar seu próprio evento na plataforma. Estamos trabalhando por isso, mas somos um time que se dedica <strong>voluntariamente</strong> e tenta aprender junto em várias etapas desse crescimento, portanto, tudo isso vai acontecer lentamente. Estamos aprendendo no processo. Sem o voluntáriado e a colaboração de cada um a gente não estaria aqui <span class="pink">S2</span>.
@@ -117,7 +119,7 @@ layout: default
 
   <h1 class="page-section-subtitle-alt">Colaboraram</h1>
   <ul class="team-collaborators-cards">
-    {% for collaborator in site.data.collaborators %}
+    {% for collaborator in site.data.collaborators-old %}
     <li class="team-collaborators-card">
       <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
       <h3>{{ collaborator.name }}</h3>

@@ -1,0 +1,53 @@
+# Colaboradores.
+
+# name:      texto, obrigatório.
+# avatar:    arquivo na pasta `images/fotos`, obrigatório.
+# twitter:   texto sem espaços, opcional.
+# facebook:  texto sem espaços, opcional.
+# linkedin:  texto sem espaços, opcional.
+# instagram: texto sem espaços, opcional.
+
+
+- name: "Tirzah Lima"
+  avatar: "erica-tirzah.jpg"
+  twitter: "tiirzuda"
+  facebook: "ericatirzah.lima"
+
+- name: "Ane Gurjão"
+  avatar: "ane-gurjao.jpg"
+  twitter: "anegurjao"
+  facebook: "ane.silva.77312"
+
+- name: "Barbara Santiago"
+  avatar: "barbara-santiago.jpg"
+  twitter: "babisantiago"
+  facebook: "barbara.santiagou"
+
+- name: "Mayra Oliveira"
+  avatar: "mayra-oliveira.jpg"
+  facebook: "mayra.oliveira.5074"
+
+- name: "Camila Neri"
+  avatar: "camila-neri.jpg"
+  twitter: "camilaneri"
+  facebook: "camila.neri"
+
+- name: "Carlos Figueiredo"
+  avatar: "carlos.jpg"
+  twitter: "cefigueiredo"
+  facebook: "CarlosFigueiredo"
+
+- name: "Philip Sampaio"
+  avatar: "phillip.jpg"
+  twitter: "philipsampaio"
+  facebook: "philipsampaio"
+
+- name: "Camila Belo"
+  avatar: "camila-belo.jpg"
+  twitter: "camilaibs"
+  facebook: "camilaibs"
+
+- name: "Vanessa Nonato"
+  avatar: "vanessa-nonato.jpg"
+  twitter: "vanNonato"
+  facebook: "vanessa-nonato"
