@@ -63,7 +63,7 @@ table {
 body {
     font-family: Roboto, Sans-Serif;
     color: #3e3e3e;
-    background: #eee;
+    background: #f4f4f4;
 }
 
 p {
@@ -332,7 +332,7 @@ p {
 .button-banner:active, .button-banner:hover {
     color: #ffffff;
     box-shadow: none;
-    background-color: #e60050;
+    background: #e60050;
 }
 
 .button-partners {
@@ -392,16 +392,16 @@ p {
     color: #e60050;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     padding: 5px 5px 0 5px;
-    border-bottom: 2px dotted #e60050;
+    border-bottom: 2px solid #e60050;
 }
 
 .page-section p a:hover {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     padding: 5px 5px 0 5px;
     -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
     -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
@@ -411,12 +411,12 @@ p {
 .page-section-social-twitter {
     color: #fff;
     background: #4990E2;
-    padding: 0.5em;
+    padding: 1.5em;
     margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #9DC8FA;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -428,12 +428,12 @@ p {
 .page-section-social-tc {
     color: #fff;
     background: #660099;
-    padding: 0.5em;
+    padding: 1.5em;
     margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #ddc7ed;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -444,12 +444,12 @@ p {
 .page-section-social-facebook {
     color: #fff;
     background: #3c60b7;
-    padding: 0.5em;
+    padding: 1.5em;
     margin: 4em auto 2.5em auto;
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #BACDFB;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -476,12 +476,21 @@ p {
 }
 
 .page-banner-title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    background: #d91a5b;
-    padding: 0.5em 0.5em 0.2em 0.5em;
-    margin: 0.5em;
+    margin-top: 1em;
+}
+
+.page-banner-subtitle {
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 0 0 1.5em 0;
+    padding: 0.5em;
+    background: rgba(209,229,0,0.7);
+    background-blend-mode: multiply;
+    color: #000;
 }
 
 .page-section-title {
@@ -524,6 +533,13 @@ p {
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 1.5em 0;
+}
+
+@media (max-width: 430px) {
+    .page-banner-title {
+    width: 100%;
+    margin-top: 1em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -750,8 +766,8 @@ p {
     background-repeat: no-repeat;
     background-position: top center;
     position: relative;
-    background-color: darkblue;
-    background-blend-mode: multiply, color-burn;
+    background-blend-mode: multiply;
+    opacity: 0.9;
     border-bottom: 6px solid #d1e500;
 }
 
@@ -777,38 +793,39 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 3em;
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner014.jpg");
+    background-image: url("../images/bg-banner014.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-summit {
-  background-image: url("../images/summit/banner-destaque.png");
+  background-image: url("../images/summit/banner-destaque.png"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-eventos {
-    background-image: url("../images/bg-banner011.jpg");
+    background-image: url("../images/bg-banner011.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-comunidades {
-    background-image: url("../images/bg-banner003.jpg");
+    background-image: url("../images/bg-banner003.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-podcast {
-    background-image: url("../images/bg-banner016.jpg");
+    background-image: url("../images/bg-banner016.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-palestrantes {
-    background-image: url("../images/bg-banner009.jpg");
+    background-image: url("../images/bg-banner009.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-quem-somos {
-    background-image: url("../images/bg-banner004.jpg");
+    background-image: url("../images/bg-banner004.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 .banner-coc {
-    background-image: url("../images/bg-banner002.jpg");
+    background-image: url("../images/bg-banner002.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
 }
 
 #banner .page-section-text, #summit .page-section-text {
@@ -869,13 +886,14 @@ p {
 
 .events-card:hover {
     box-shadow: 6px 6px 12px rgba(32, 0, 0, 0.25);
-    background-color: #FFF0F0;
+    background: #FFF0F0;
+    background-blend-mode: multiply;
 }
 
 .events-card-banner {
     height: 140px;
     border-radius: 10px 10px 0 0;
-    background: linear-gradient(blue -30%, black 150%);
+    background: linear-gradient(to right,  #e60050 0%,#3366cc 100%);
 }
 
 .events-card-banner img {
@@ -1152,12 +1170,12 @@ p {
 .events-card-body-date svg,
 .events-card-body-local svg {
     margin-right: 5px;
-    color: #6d6d6d;
+    color: #666;
 }
 
 .events-card-body-social-media {
     margin: 1em auto;
-    color: #eee;
+    color: #999;
 }
 
 .events-card-body-social-media > * {
@@ -1181,7 +1199,7 @@ p {
 }
 
 .events-card-body-no-hashtag {
-    color: #ccc;
+    color: #999;
 }
 
 .events-card-body-hashtag > * {
@@ -1237,7 +1255,7 @@ p {
 
 .communities-card-body-social-media {
     margin: 1em auto;
-    color: #ccc;
+    color: #999;
 }
 
 .communities-card-body-social-media > * {
