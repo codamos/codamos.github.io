@@ -1355,18 +1355,16 @@ p {
 }
 
 .speaker-card-tag-label {
-    font-size: small;
-    font-weight: 300;
-    display: flex;
     position: absolute;
-    justify-content: center;
+    font-size: 0.625em;
+    font-weight: 300;
+    width: auto;
+    display: flex;
     align-items: center;
     text-transform: uppercase;
-    padding: 0.6em 1.0em 0.4em 1.0em;
-    border-radius: 0px 3px 3px 0px;
+    padding: 0.6em 0.8em;
     letter-spacing: 2px;
-    z-index: 1;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 }
 
 .speaker-card-tag-label h4{
@@ -1376,24 +1374,28 @@ p {
 .speaker {
     background: #ffff66;
     color: #660000;
+    border: 2px solid #f6a623;
     font-weight: 400;
-    top: 43px;
-    left: 0;
+    top: 74px;
+    left: 10px;
 }
 
 .mentor {
     background: #660099;
-    color: #fff;
+    color: #ddc7ed;
+    border: 2px solid #c2a6f0;
     font-weight: 400;
-    top: 75px;
-    left: 0;
+    top: 42px;
+    left: 10px;
 }
 
 .voluntary {
     background: #000;
-    color: #fff;
+    color: #eee;
+    border: 2px solid #999;
+    font-weight: 400;
     top: 10px;
-    left: 0;
+    left: 10px;
 }
 
 .speaker-card-skills {
@@ -1417,6 +1419,10 @@ p {
     font-weight: 300;
     color: #323232;
     flex: 1 1 100%;
+}
+
+.speaker-card-bio strong {
+    font-weight: 700;
 }
 
 .speaker-card-labels {

@@ -18,59 +18,87 @@
 # instagram: texto sem espaços, opcional. Instagram handle.
 # highlight: booleano (true ou false), opcional. Destaque na home.
 
-- name: "Anna e Só"
-  speaker: true
-  voluntary: true
-  mentor: true
-  highlight: true
-  email: "contraexemplo@protonmail.ch"
-  avatar: "anna-e-so.jpg"
-  location: "Goiânia - GO"
-  labels: [women, blind]
-  skills: [Localização, internacionalização, documentação, inclusão, diversidade]
-  bio: >
-    Aquela usuária defiça na qual você precisa pensar (e está disposta a te ajudar!).
-    Trabalha com localização e internacionalização. Uma das poucas pessoas que ama documentação.
-    Participante da 15º rodada do programa de estágios para minorias Outreachy, promovido pela Software Freedom Conservancy,
-    trabalhando com a Wikimedia Foundation.
-  site: "https://anna.flourishing.stream"
-  github: "contraexemplo"
-  twitter: "contraexemplo"
-
-- name: "Annelise Gripp"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "annegripp.ag@gmail.com"
-  avatar: "annelise-gripp.jpg"
-  location: "Porto Alegre - RS"
-  labels: [women]
-  skills: [Consultora em Transformação Ágil, Agile Coach, Gerente de Projetos, Coach Pessoal e Profissional]
-  bio: >
-    Louca por tecnologia e engajada em integrar pessoas, há 23 anos trabalho com Engenharia de Desenvolvimento de Software.
-    Ao longo desses anos aprendi, ensinei e experimentei novas metodologias, tecnologias, ferramentas e dinâmicas em todo o processo de Engenharia de Software.
-    Nos últimos 10 anos, me dedico a Agilidade, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação,
-    para o cliente e para equipe. Hoje, como Consultora e Especialista em Transformação Ágil, meu trabalho consiste em expandir, compartilhar e aplicar meus conhecimentos,
-    habilidades e experiências nas empresas privadas utilizando técnicas e ferramentas de Coaching.
-  site: "http://www.annelisegripp.com.br"
-  twitter: "AnneliseGripp"
-  facebook: "agilista.annelise"
-  linkedin: "annelisegripp"
-
-- name: Alessandra Nastassja
+- name: "Alessandra Nastassja"
   voluntary: true
   labels: [women, poc]
-  avatar: "Alessandra-Nastassja.jpg"
-  location: São Paulo - SP
+  avatar: "alessandra-nastassja.jpg"
+  location: "São Paulo - SP"
   skills: [Liderança, mulher em TI, Front-end, Comunidade negra, Design]
   bio: >
-    Apaixonada por desenvolvimento front end, fazendo graduação em SI pela
-    FATEC e interessada desde design até back-end.
-  email: alessandra.nastassja@hotmail.com
-  site: https://about.me/alessandranastassja
-  linkedin: https://www.linkedin.com/in/alessandra-nastassja/
+    Apaixonada por desenvolvimento front-end, fazendo graduação em SI pela
+    <strong>FATEC</strong> e interessada desde design até back-end.
+  email: "alessandra.nastassja@hotmail.com"
+  site: "https://about.me/alessandranastassja"
+  linkedin: "https://www.linkedin.com/in/alessandra-nastassja/"
   github: https://github.com/Alessandra-Nastassja
-  facebook: https://www.facebook.com/alessandra.nastassja
+  facebook: "https://www.facebook.com/alessandra.nastassja"
+
+- name: "Aline Bastos"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, parent]
+  location: "Porto Alegre - RS"
+  avatar: "aline-bastos.jpg"
+  skills: [CSS3, JavaScript, Mães em TI, Mentoria, Comunidade]
+  bio: >
+    Mãe, mentora, moderadora, escritora e desenvolvedora. Trabalha há 8 anos com desenvolvimento
+    frontend e ama tudo que seja relacionado com CSS e JavaScript.
+  email: "alineabp@gmail.com"
+  linkedin: "alinebastos"
+  github: "alinebastos"
+  twitter: "AlineBastos"
+
+- name: "Aline Bezzoco"
+  speaker: true
+  labels: [women, poc]
+  location: Rio de Janeiro - RJ
+  avatar: "aline-bezzoco.jpg"
+  skills: [HTML, CSS, SASS, Javascript, Typescript, Angular, Ionic, UX, Usabilidade, Acessibilidade, Firebase, DialogFlow, Cosmic JS, Git]
+  bio: >
+    Desenvolvedora front-end, sou formada em Design Gráfico e pós em Marketing e Design Digital.
+    Moro na cidade do Rio de Janeiro e sou uma das organizadoras do evento ngGirls Rio, um evento
+    de programação 100% gratuito voltado para as mulheres que queiram aprender Angular. Sou fã de
+    tecnologia, artes e design. Gosto muito de usar os conhecimentos em prol de ajudar o próximo.
+    MIGAS, Tá Tudo Bem?, The Black Women History API, MyDodo, Mariana são alguns dos meus projetos
+    pessoais.
+  email: contato@alinebezzoco.com
+  site: http://www.alinebezzoco.com
+  linkedin: bezzocoaline
+  github: bezzocoaline
+  twitter: bezzocoaline
+
+- name: "Amanda Pesarini"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "amanda.pesarini@hotmail.com"
+  avatar: "amanda-pesarini.jpg"
+  location: "Florianópolis - SC"
+  labels: [women]
+  skills: [Qualidade de Software]
+  bio: >
+    Sou graduada em Análise e Desenvolvimento de Sistemas, com 3 anos de experiência em qualidade de software.
+    Em transição pra programação <3 Amo ajudar pessoas, de qualquer jeito, a qualquer momento!
+  linkedin: "amanda-pesarini-11777275"
+
+- name: "Ana Eliza Freitas"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, parent]
+  location: "Belo Horizonte - MG"
+  avatar: "aninha-bastos.jpg"
+  skills: [Mulheres em TI, Desenvolvimento de Software, Microsoft, .NET, Podcast, Saúde Física e Mental em TI]
+  bio: >
+    Mineira, especialista em Engenharia e Arquitetura de Software, atua como Analista e Desenvolvedora Sistemas.
+    Podcaster do <strong>PodProgramar</strong>.
+    Atualmente participa de eventos de TI, e incentiva a inclusão e a diversidade na área. Nerd/Geek.
+    Voluntária do time de MG do <strong>GarotasCPBR</strong>. Voluntária do time de MG do <strong>Codamos.Club</strong> com o <strong>Codaí<Talks></strong>
+  email: "anaebastos@gmail.com"
+  linkedin: "anaebastos"
+  twitter: "aninhaebastos"
+  facebook: "anaebastos"
 
 - name: "Anderson Casimiro"
   speaker: true
@@ -85,26 +113,51 @@
     Sou apaixonado por tecnologia desde muito novo - meu primeiro código foi em 88 com 7 anos.
     Comecei a trabalhar efetivamente com Desenvolvimento em 2001 e 10 anos depois assumi minha primeira posição como gestor de times de desenvolvimento;
     além de, obviamente, codificar também atuei na arquitetura, bancos de dados, infraestrutura, processos, agilidade entre outros.
-    No meio disso também ajudei a fundar e colaboro há quase 10 anos com o PHPSP.
+    No meio disso também ajudei a fundar e colaboro há quase 10 anos com o <strong>PHPSP</strong>.
   site: "https://duodra.co"
   github: "duodraco"
   linkedin: "andersoncasimiro"
   twitter: "duodraco"
   facebook: "duodraco"
 
-- name: "Amanda Pesarini"
+- name: "Anna e Só"
   speaker: true
   voluntary: true
   mentor: true
-  email: "amanda.pesarini@hotmail.com"
-  avatar: "amanda-pesarini.jpg"
-  location: "Florianópolis - SC"
-  labels: [women]
-  skills: [Qualidade de Software]
+  highlight: true
+  email: "contraexemplo@protonmail.ch"
+  avatar: "anna-e-so.jpg"
+  location: "Goiânia - GO"
+  labels: [women, blind]
+  skills: [Localização, internacionalização, documentação, inclusão, diversidade]
   bio: >
-    Sou graduada em Análise e Desenvolvimento de Sistemas, com 3 anos de experiência em qualidade de software.
-    Em transição pra programação <3 Amo ajudar pessoas, de qualquer jeito, a qualquer momento!
-  linkedin: "amanda-pesarini-11777275/"
+    Aquela usuária defiça na qual você precisa pensar (e está disposta a te ajudar!).
+    Trabalha com localização e internacionalização. Uma das poucas pessoas que ama documentação.
+    Participante da 15º rodada do programa de estágios para minorias <strong>Outreachy</strong>, promovido pela Software Freedom Conservancy,
+    trabalhando com a <strong>Wikimedia Foundation</strong>.
+  site: "https://anna.flourishing.stream"
+  github: "contraexemplo"
+  twitter: "contraexemplo"
+
+- name: "Annelise Gripp"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "annegripp.ag@gmail.com"
+  avatar: "annelise-gripp.jpg"
+  location: "Porto Alegre - RS"
+  labels: [women]
+  skills: [Transformação Ágil, Agile Coach, Gerente de Projetos, Coach Profissional]
+  bio: >
+    Louca por tecnologia e engajada em integrar pessoas, há 23 anos trabalho com Engenharia de Desenvolvimento de Software.
+    Ao longo desses anos aprendi, ensinei e experimentei novas metodologias, tecnologias, ferramentas e dinâmicas em todo o processo de Engenharia de Software.
+    Nos últimos 10 anos, me dedico a Agilidade, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação,
+    para o cliente e para equipe. Hoje, como Consultora e Especialista em Transformação Ágil, meu trabalho consiste em expandir, compartilhar e aplicar meus conhecimentos,
+    habilidades e experiências nas empresas privadas utilizando técnicas e ferramentas de Coaching.
+  site: "http://www.annelisegripp.com.br"
+  twitter: "AnneliseGripp"
+  facebook: "agilista.annelise"
+  linkedin: "annelisegripp"
 
 - name: "Anny Caroline Pinheiro Pereira de Sousa"
   voluntary: true
@@ -118,94 +171,115 @@
     Graduanda em Tecnologia em Jogos Digitais publicou um artigo sobre empreendedorismo e economia criativa pela Revista de Extensão da UFMT,
     além de atuar em projetos de extensão relacionados a Economia Criativa e desenvolvimento de Jogos Digitais.
     Foi finalista no Concurso de Serious Games do Tribunal de Contas da União.
-    Desenvolveu projeto em Realidade Virtual no Museu do Amanhã que foi em exposição no VFX Rio 2017,
-    teve um jogo em exposição (Awakening Of Phaedros) durante a Game XP no Rock In Rio 2017.
-    Atualmente é Assistente de Projetos no Cinema Nosso.
+    Desenvolveu projeto em Realidade Virtual no <strong>Museu do Amanhã</strong> que foi em exposição no VFX Rio 2017,
+    teve um jogo em exposição (Awakening Of Phaedros) durante a <strong>Game XP</strong> no Rock In Rio 2017.
+    Atualmente é Assistente de Projetos no <strong>Cinema Nosso</strong>.
   linkedin: "anny-caroline-sousa-77113071"
 
-- name: "Evelyn Mendes"
+- name: "Bárbara Cabral"
   speaker: true
-  email: "jelielmendes@gmail.com"
-  avatar: "jeliel-mendes.jpg"
-  location: "Porto Alegre - RS"
-  labels: [women, trans]
-  skills: [Agora JS, TS, NoSQL, Firebase, Angular]
+  voluntary: true
+  mentor: true
+  email: "barbaracabral@gmail.com"
+  avatar: "barbara-cabral.jpg"
+  location: "Florianópolis - SC"
+  labels: [women]
+  skills: [Agile Testing, Qualidade de Sotware, Métricas de Qualidade, Automação de Testes end-to-end, Testes de API/REST]
   bio: >
-    Mulher transexual, analista e desenvolvedora de sistemas,
-    amo tecnologia, muito nerd e geek, mãe e avó de 3 lindos
-    shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
-  site: "https://transnerd.tech/"
-  twitter: "evlymn"
-  github: ""
+    Analista de testes e qualidade, atua há quase 10 anos na área de Testes e Qualidade,
+    nos quais pelo menos 8 deles com Agile Testing. Apaixonada pelas comunidades na área de TI, mentora e blogueira.
+    Palestrou em diversos eventos da área, como o TDC, Agile Trends, CNQS, OctoberTest, etc.
+    Co-organizadora da comunidade GUTS-SC, Agile Testers Conference Floripa, mentora do RailsGirls e co-organizadora do QA Ladies.
+    Considerada uma das mulheres mais influentes em Teste e Qualidade de Software da América Latina pelo Blog da Abstracta.
+  site: "https://barbaracabral.wordpress.com"
+  github: "barbaracabral"
+  linkedin: "barbaracabral"
+  twitter: "barbarapcabral"
+  facebook: "barbarapalmacabral"
 
-- name: "Geisy Domiciano"
+- name: "Beatriz Gomes"
   speaker: true
-  email: "geisydomiciano@gmail.com"
-  avatar: "geisy-domiciano.jpg"
-  location: "Diadema - SP"
-  labels: [women, poc, lgbt]
-  skills: [Desenvolvimento JS, Vue.js, CSS, HTML, Git Flow, CI/CD]
-  bio: >
-    Apaixonada por desenvolvimento front-end, interessada em DevOps e
-    IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
-  linkedin: "geisydomiciano"
-  twitter: "geisydomiciano"
-  github: "gdomiciano"
-
-- name: "Thaís Freitas"
-  speaker: true
-  email: "thaisfreitas31@gmail.com"
-  avatar: "thais-moura.jpg"
-  location: "Recife - PE"
-  labels: [women, lgbt]
-  skills: [Mulher em TI, Qualidade de Software, Testes, Team Ágil]
-  bio: >
-    Sou analista de qualidade, graduada em SI pela UFRPE e mestranda.
-    Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
-    de software e na garantia da qualidade.
-  linkedin: "thaís-freitas-056b1540"
-  twitter: "tha_ta"
-
-- name: "Tatiana Barros"
-  speaker: true
-  email: "sagapolen@gmail.com"
-  avatar: "tatiana-barros.jpg"
-  location: "São Paulo - SP"
-  labels: [women, parent]
-  skills: [Educação, Startup, Prototipações, Validações de Ideias, Processos de Aprendizagem, Jornada do Herói]
-  bio: >
-    Co-Founder da Saga Pólen, uma startup focada em educação multidisciplinar.
-    Criadora do Smart Cities for teens para alunos da rede pública.
-    Ama jornada do herói, arduínos e chatbots.
-  linkedin: "tatybarros"
-  twitter: "umataldetatiana"
-
-- name: "Ivanise Gomes"
-  speaker: true
-  full_name: "Ivanise Maravalhas Gomes"
-  email: "ivanise@gmail.com"
-  avatar: "ivanise-gomes.jpg"
+  voluntary: true
+  mentor: true
+  email: "playmobia71@gmail.com"
+  avatar: "beatriz-gomes.jpg"
   location: "São Paulo - SP"
   labels: [women]
-  skills: [Liderança, Gestão de Projetos, Mentoring, Inclusão e Diversidade, Desenvolvimento de Carreira]
+  skills: [Design, UX Design, Interface, Web]
   bio: >
-    Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
-    de software e gestão de projetos e programas. Especialista em
-    e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
-  linkedin: "ivanise"
+    Savage player. Curious pathfinder, Queen of Corgis. Talibiker and roller derby lover.
+  github: "playmobia"
+  linkedin: "beatriz-gomes-36883722"
+  twitter: "playmobia"
+  facebook: "playmobia"
 
-- name: "Paullo Norato"
+- name: "Bruna Ferratto"
   speaker: true
-  email: "norato.ux@gmail.com"
-  avatar: "paullo-norato.jpg"
-  location: "São Paulo - SP"
-  labels: [men]
-  skills: [UX, Arquitetura de Informação, Front-end]
+  voluntary: true
+  mentor: true
+  labels: [women]
+  avatar: "bruna-ferratto.jpg"
+  location: "São Paulo"
+  skills: [Python, Django, HTML, CSS, JS, Bootstrap, Jquery, SQLite e PostgreSQL]
   bio: >
-    Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário,
-    8 anos de experiência em projetos digitais e co-organizador do Meetup DFUX, em Santos.
-  linkedin: "paullonorato"
-  facebook: "paullonorato23"
+    Desenvolvedora Back-end com um pé no Front, formada em Biologia, resolvi no começo de 2017,
+    estudar programação em casa, só com o que têm de graça. Graças à comunidade incrível virei
+    Dev Python e quero retornar todo o esforço para fortalecer mais pessoas da comunidade, para
+    que se encontrem na programação.
+  email: "bruferratto@gmail.com"
+  linkedin: "/bruna-ferratto"
+  github: "/BFerratto"
+  twitter: "BFerratto"
+  facebook: "/bruna.ferratto"
+
+- name: "Carla Vieira"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "carlaprv@hotmail.com"
+  avatar: "carla-vieira.jpg"
+  location: "São Paulo - SP"
+  labels: [women]
+  skills: [Front-end, CSS3, JavaScript, Gestão de Projetos]
+  bio: >
+    Desenvolvedora front-end. Apaixonada por livros, design, tecnologia e empreendedorismo.
+  site: "https://medium.com/@carlaprv"
+  github: "carlaprv"
+  linkedin: "carlaprv"
+  twitter: "carlaprvieira"
+  facebook: "carlaprvieira"
+
+- name: "Carol Soares"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, lgbt]
+  avatar: "carol-soares.jpg"
+  location: "Osasco - SP"
+  skills: [HTML, CSS, JS, PWA, Produção de conteúdo]
+  bio: >
+    Desenvolvedora Front end, estudante de Sistemas para Internet, palestrante, podcaster @lovelace podcast e
+    comunicadora. Acredito na tecnologia como construção do futuro, por isso apoio inclusão
+    e diversidade no meio.
+  email: "carolinesoaressantoss@gmail.com"
+  linkedin: "carolcode/"
+  github: carolcodes
+  twitter: carolcode
+
+- name: "Charlotte Lorelei Oliveira"
+  speaker: true
+  highlight: true
+  email: "charlotte.elixir@gmail.com"
+  avatar: "charlotte-lorelei.jpg"
+  location: "São Paulo - SP"
+  labels: [women, trans]
+  skills: [Elixir, Erlang, PostgreSQL]
+  bio: >
+    Desenvolvedora de software evangelista de Erlang,
+    entusiasta de programação funcional e desenvolvimento web, apaixonada por gatos e por cheesecake.
+  github: "mememori"
+  linkedin: "umamaistempo"
+  twitter: "umamaistempo"
 
 - name: "Cleber Santos"
   speaker: true
@@ -222,42 +296,36 @@
   twitter: "cleberjsantos"
   github: "cleberjsantos"
 
-- name: "Felipe de Morais"
+- name: "Cybelle Oliveira"
   speaker: true
-  email: "felipejpa15@gmail.com"
-  avatar: "felipe-morais.jpg"
-  location: "Porto Alegre - RS"
-  labels: [men, poc]
-  skills: [Docker, Python, Feedback, Haskell]
-  bio: >
-    Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
-  site: "http://felipedemorais.com.br"
-  facebook: "felipedemorais"
-
-- name: "Lucas Macedo"
-  speaker: true
-  email: "lucas.hmacedo@hotmail.com"
-  avatar: "lucas-macedo.jpg"
+  full_name: "Cybelle"
+  email: "cyb3ll3@protonmail.com"
+  avatar: "cybelle-oliveira.jpg"
   location: "São Paulo - SP"
-  labels: [men, poc]
-  skills: [Debate Racial]
+  labels: [women, parent]
+  skills: [Privacidade, Código de Conduta, Eventos, Produção, Gestão de Comunidades]
   bio: >
-    Com bagagem de 5 anos em marketing nos mais variados segmentos,
-    atua na Resultados Digitais na área de Tech Touch em Customer Success com objetivo de escalar o sucesso.
-  linkedin: "lucashmacedo"
+    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac. Atualmente no programa Mozilla Open Leaders e <strong>The Tor Project</strong>.
+    Produtora de eventos, contribuidora da <strong>Mozilla</strong>, co-fundadora do <strong>JSLadies</strong>.
+    Entusiasta de privacidade e segurança, feminista e vegetariana.
+  twitter: "cyb3113"
+  linkedin: "cybelleoliveira"
+  github: "cyb3113"
 
-- name: "Rogério Rodrigues"
+- name: "Cynthia Pereira"
   speaker: true
-  email: "rogerio@connecthealth.com.br"
-  avatar: "rogerio-rodrigues.jpg"
-  location: "Salvador - BA"
-  labels: [men, poc]
-  skills: [Desenvolvimento Mobile, Inteligencia Artificial, Cognitive Services]
+  full_name: "Cynthia Pereira"
+  email: "cynthiacpereira@gmail.com"
+  avatar: "cynthia.jpg"
+  location: "São Paulo - SP"
+  labels: [women, poc]
+  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
   bio: >
-    Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo IME/USP,
-    CTO na Connect HealthCare e Membro dos Microsoft Student Partners.
-  site: "http://www.rogerio.eti.br"
-  twitter: "rogerrrodrigues"
+    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
+    <strong>Mozilla</strong> – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
+  linkedin: "cynthiacpereira"
+  twitter: "cynthiapereira_"
+  github: "cynthiapereira"
 
 - name: "Dan Jesus"
   speaker: true
@@ -273,46 +341,202 @@
   linkedin: "danjesus"
   facebook: "danper.jesus"
 
-- name: "Keyla Peixoto"
+- name: "Diana Fournier"
   speaker: true
-  email: "keyla.caroline@gmail.com"
-  avatar: "keyla-peixoto.jpg"
-  location: "Rio de Janeiro - RJ"
-  labels: [women, poc]
-  skills: [Modelagem de Dados, DW, ETL]
-  bio: >
-    Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados,
-    quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
-  linkedin: "keyla-peixoto-400a1a33"
-  facebook: "caroline.peixoto.319"
-
-- name: "Lucas Coelho"
-  speaker: true
-  email: "lucas@flama.is"
-  avatar: "lucas-coelho.jpg"
-  location: "Brasília - DF"
-  labels: [men, poc]
-  skills: [UX Design, Business Design, Javascript, Frameworks, Rails]
-  bio: >
-    Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design,
-    educação e tecnologia. Atualmente é Co-Fundador do UnCollege no Brasil e Sócio e Business Designer na Flama.
-  site: "http://lucascoelho.me"
-  twitter: "coelholucas"
-
-- name: "Kirmayr Roberto Tomaz Costa"
-  speaker: true
-  email: "tomaz.kirmayr@gmail.com"
-  avatar: "kirmayr-costa.jpg"
+  labels: [women]
   location: "São Paulo - SP"
-  labels: [men]
-  skills: [JavaScript, Nodejs, Back-end]
+  avatar: "diana-fournier.jpg"
+  skills: [UX Research, Teste de Usabilidade, Acessibilidade, Lean UX]
   bio: >
-    Apaixonado por JavaScript, open-source e comunidade. Organizador do Femug-AM e mentor do Training Center.
-  site: "https://kirmayrtomaz.github.io"
-  linkedin: "kirmayrtomaz"
-  github: "Kirmayrtomaz"
-  twitter: "kirmayrtomaz"
-  facebook: "kirmayr.tomaz"
+    Diana Fournier, formada em Design pela Universidade Federal do Amazonas, pós
+    graduada em Mídias Digitais pelo SENAC-SP. Há 9 anos trabalha com Usabilidade,
+    UX Research, Arquitetura da Informação e metodologias ágeis. Já passou por locais
+    como o Instituto Nokia de Tecnologia (INdT), Try Consultoria e Pesquisas, Tritone
+    Interativa e Universo Online (UOL). Atualmente é UX Research Senior no <strong>Grupo Zap
+    Viva Real</strong> e diretora local do <strong>UXPA SP</strong> (User Experience Professionals Association -
+    Capítulo São Paulo).
+  email: "fournier.designer@gmail.com"
+  linkedin: "dianafournier"
+  github: "difournier"
+  facebook: "fournier.diana"
+
+- name: "Diego Cardoso Garcia"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [men, poc]
+  avatar: "diego-garcia.jpg"
+  location: "Porto Alegre - RS"
+  skills: [DevOps, Ruby, Python, ELK Stack, Scrum, Agile, Docker]
+  bio: >
+    Engenheiro de Computação, especialista em Engenharia de Software. Sou entusiasta DevOps e
+    métodos ageis. Atualmente trabalho com P&D provendo soluções e práticas da cultura DevOps.
+  email: "dcg.cardoso@gmail.com"
+  linkedin: "diego-cardoso-garcia"
+  github: "dcgblack"
+  twitter: "diego_cgarcia"
+
+- name: "Douglas Williams Palheta da Conceição"
+  voluntary: true
+  avatar: "douglas-williams.jpg"
+  labels: [men, poc]
+  location: "Ananindeua - PA"
+  skills: [Iniciante, Desenvolvimento web]
+  bio: >
+    Sou formado em Redes de computadores e estou atualmente aprendendo Desenvolvimento Web.
+  email: "willamsdouglas015@gmail.com"
+
+- name: "Émylle Andressa Borges"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "emylleandressa2811@gmail.com "
+  avatar: "emylle-borges.jpg"
+  location: "Feira de Santana - BA"
+  labels: [women, poc]
+  skills: [Conhecimento e programação em C, Phyton, JavaScript, PHP, HTML, CSS, Bootstrap, Arduíno]
+  bio: >
+    Sou técnica em Informática e Redes de Computadores e graduanda em Engenharia de Computação pela UEFS. Sou programadora tanto na área de software quanto de hardware e amo repassar meus conhecimentos e aprender com as experiências.
+  github: "eaborges"
+  linkedin: "emylleandressa"
+  facebook: "Dressab"
+
+- name: "Enieber Cunha"
+  speaker: true
+  labels: [men]
+  location: Sinop - MT
+  avatar: "enieber-cunha.jpg"
+  skills: [react-native, js]
+  bio: >
+    Sou desenvolvedor js com foco mobile e gosto muito de construir soluções com uma boa experiência ao usuário.
+  email: eniebercunha@gmail.com
+  site: http://enieber.com.br
+  linkedin: enieber
+  github: enieber
+  twitter: enieber
+
+- name: "Erika Faustino"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women]
+  avatar: "erika-faustino.jpg"
+  location: "Quixadá - CE"
+  skills: [Desenvolvedora, Educadora]
+  bio: >
+    Formada em Sistemas de Informação e hoje estuda Engenharia de Software, sou desenvolvedora web, louca por inovação e educação.
+  email: "ehrikaster@gmail.com"
+  twitter: Erika_SFS
+
+- name: "Evelyn Mendes"
+  speaker: true
+  email: "jelielmendes@gmail.com"
+  avatar: "jeliel-mendes.jpg"
+  location: "Porto Alegre - RS"
+  labels: [women, trans]
+  skills: [Agora JS, TS, NoSQL, Firebase, Angular]
+  bio: >
+    Mulher transexual, analista e desenvolvedora de sistemas,
+    amo tecnologia, muito nerd e geek, mãe e avó de 3 lindos
+    shih tzus, e apesar de tudo isso, dizem que eu sou uma pessoa legal.
+  site: "https://transnerd.tech"
+  twitter: "evlymn"
+
+- name: "Felipe de Morais"
+  speaker: true
+  email: "felipejpa15@gmail.com"
+  avatar: "felipe-morais.jpg"
+  location: "Porto Alegre - RS"
+  labels: [men, poc]
+  skills: [Docker, Python, Feedback, Haskell]
+  bio: >
+    Um desenvolvedor apaixonado por agilidade, comunicação e resolver problemas difíceis.
+  site: "http://felipedemorais.com.br"
+  facebook: "felipedemorais"
+
+- name: "Fernanda Bernardo"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "fernandabernardo94@gmail.com"
+  avatar: "fernanda-bernardo.jpg"
+  location: "São Paulo - SP"
+  labels: [women]
+  skills: [front end, css, js]
+  bio: >
+    Trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na
+    área de tecnologia meio que por sorte. Gosto tanto de back-end quanto de front-end e também de
+    assuntos relacionados a UX. Adoro palestrar e estudar assuntos novos. Gosto de assuntos
+    relacionados à saúde, sou diabética e tenho um blog sobre o assunto. Apesar disso, adoro doces.
+  site: "http://fernandabernardo.com.br"
+  github: "fernandabernardo"
+  linkedin: "fernandabernardo"
+  twitter: "Feh_Bernardo"
+  facebook: "fernanda.m.bernardo"
+
+- name: "Geisy Domiciano"
+  speaker: true
+  email: "geisydomiciano@gmail.com"
+  avatar: "geisy-domiciano.jpg"
+  location: "Diadema - SP"
+  labels: [women, poc, lgbt]
+  skills: [Desenvolvimento JS, Vue.js, CSS, HTML, Git Flow, CI/CD]
+  bio: >
+    Apaixonada por desenvolvimento front-end, interessada em DevOps e
+    IoT, atualmente trabalha em desenvolvimento PWA utilizando Vue.JS.
+  linkedin: "geisydomiciano"
+  twitter: "geisydomiciano"
+  github: "gdomiciano"
+
+- name: "Gileno Alves Santa Cruz Filho"
+  speaker: true
+  email: "contato@gilenofilho.com.br"
+  avatar: "gileno-filho.jpg"
+  location: "Recife - PE"
+  labels: [men, parent]
+  skills: [Desenvolvimento Web, Machine Learning, Data Science, Python, Django, Pandas]
+  bio: >
+    Eterno estudante de Ciência da Computação, Pai e evangelizador de Python e Software Livre.
+  site: "http://www.gilenofilho.com.br"
+  github: "gileno"
+  linkedin: "gilenofilho"
+  twitter: "gilenofilho"
+  facebook: "gilenofilho"
+
+- name: "Inaray"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "inaray8@hotmail.com"
+  avatar: "inaray.jpg"
+  location: "Taboão da Serra - SP"
+  labels: [women]
+  skills: [Comunidades, Representatividade, Motivacional, Gerenciamento de Serviços]
+  bio: >
+    Graduada em Administração, com pós graduação em Arquitetura e Gestão de Infraestrutura de Tecnologia,
+    certificada ITIL Expert e mentora da página ITSM na Prática.
+    Trabalho de Governança de TI a mais de 18 anos, atuando em empresas do setor financeiro e de tecnologia.
+    Apaixonada por ITSM e por pessoas sou engajada em diversos trabalhos sociais voltados a carreira na tecnologia.
+    Mãe de dois meninos e filha de uma costureira, meu sonho é que outras meninas da periferia tenham acesso a estudos e oportunidades na área de tecnologia como eu.
+  linkedin: "inaray-santos"
+
+- name: "Ingrid Marion Caparroz Mazoni"
+  speaker: true
+  full_name: "Ingrid Mazoni"
+  email: "ingridmazoni@outlook.com"
+  avatar: "ingrid.jpg"
+  location: "São Paulo - SP"
+  labels: [women]
+  skills: [Desenvolvimento, Back-end, Java]
+  bio: >
+    Técnico em informática na Etec e superior de Análise e
+    Desenvolvimento de Sistemas na Fatec. Desenvolvi um projeto
+    de um sistema web em java para auxiliar os estudos de candidatos que querem prestar o vestibular da Fatec.
+    Esse projeto teve muito sucesso e será adaptado para outros tipos de provas como o Enade.
+  twitter: "ingridmazoni"
+  facebook: "ingridmazoni"
+  github: "ingridmazoni"
+  linkedin: "ingridmazoni"
 
 - name: "Isabelle Galvão"
   speaker: true
@@ -325,46 +549,111 @@
   skills: [Front-End, Design de Interfaces, UX Design]
   bio: >
     Desenvolvedora front-end na UP e-commerce solutions e analista de sistemas por formação,
-    atuou como designer de UX/UI na Prefeitura Municipal de São Paulo. Professora e monitora na {reprograma},
+    atuou como designer de UX/UI na <strong>Prefeitura Municipal de São Paulo</strong>. Professora e monitora na <strong>{reprograma}</strong>,
     iniciativa de empoderamento feminino na tecnologia.
   github: "isabellegalvao"
   linkedin: "galvaoisabelle"
   twitter: "galvaoiisabelle"
   facebook: "galvaoiisabelle"
 
-- name: "Beatriz Gomes"
+- name: "Italo Queiroz"
   speaker: true
-  voluntary: true
-  mentor: true
-  email: "playmobia71@gmail.com"
-  avatar: "beatriz-gomes.jpg"
+  labels: [men]
+  location: "São Paulo - SP"
+  avatar: "italo-queiroz.jpg"
+  skills: [Gerência de TI, Processos, ERP, Customização,  BI, Bancos de dados, Linux, PLSQL, Opensource, Git, Gerenciamento de Projetos]
+  bio: >
+    Aprendi a programar em pascal, foxbase etc, já entrei embaixo de muita mesa, abri muito
+    gabinete, acabei me especializando em implantação e customização de ERP, aprendi muito
+    sobre processo e impostos, depois de adicionar bancos de dados e BI em minha caixa de
+    ferramentas acabei me tornando um consultor relevante, propondo soluções inteligentes
+    para processos complexos. Minha carreira tomou um rumo diferente do que eu esperava no
+    inicio, mostrar esses caminhos alternativos para novos ingressantes é importante para mim.
+  email: "italoclone@gmail.com"
+  site: "http://iqconsultoria.com.br"
+  linkedin: "italomaq"
+  github: "italoclone"
+  twitter: "italoclone"
+  facebook: "italoclone"
+
+- name: "Ivanise Gomes"
+  speaker: true
+  full_name: "Ivanise Maravalhas Gomes"
+  email: "ivanise@gmail.com"
+  avatar: "ivanise-gomes.jpg"
   location: "São Paulo - SP"
   labels: [women]
-  skills: [Design, UX Design, Interface, Web]
+  skills: [Liderança, Gestão de Projetos, Mentoring, Inclusão e Diversidade, Desenvolvimento de Carreira]
   bio: >
-    Savage player. Curious pathfinder, Queen of Corgis. Talibiker and roller derby lover.
-  github: "playmobia"
-  linkedin: "beatriz-gomes-36883722/"
-  twitter: "playmobia"
-  facebook: "playmobia"
+    Trabalha com TI há 25 anos, focada em aplicações, desenvolvimento
+    de software e gestão de projetos e programas. Especialista em
+    e-Business, Gestão de Projetos, CMMi, 6-Sigma e SCRUM.
+  linkedin: "ivanise"
 
-- name: "Livia Gabos"
+- name: "Jacqueline Asano"
+  speaker: true
+  labels: [women]
+  avatar: "jacqueline-asano.jpg"
+  location: "São Paulo - SP"
+  skills: [Product Management, Women Empowerment, Mulher em Tech, Tech debts management, Roadmap]
+  bio: >
+    Sou uma Product Manager apaixonada por fazer produtos que realmente resolvam problemas que
+    realmente existem. Sou feminista e luto por mais mulheres na tecnologia através de iniciativas
+    como o @MulheresdeProduto, uma comunidade que criei para reunir mulheres que ja atuam ou estão
+    interessadas em ingressar em tech. Atualmente na #Nubank.
+  email: "jacqueline.y.asano@gmail.com"
+  site: "https://medium.com/jacqueline-yumi-asano"
+  linkedin: "jacquelineyumiasano/"
+  github: jacquelineasano
+  twitter: jacquelineasano
+  facebook: "JacquelineYumiAsano"
+
+- name: "Jaqueline Venturim"
   speaker: true
   voluntary: true
   mentor: true
-  email: "liviagabos@gmail.com"
-  avatar: "livia-gabos.jpg"
-  location: "São José dos Campos - SP"
-  labels: [women]
-  skills: [Testes, UX Design, IHC, Usabilidade, Acessibilidade]
+  labels: [women, lgbt]
+  avatar: "jaqueline-venturim.jpg"
+  location: "São Paulo - SP"
+  skills: [UI, UX]
   bio: >
-    Formada e Mestre pela Unesp em Ciências da Computação, sempre trabalhei com usabilidade e acessibilidade.
-    Hoje em dia quero ampliar esses assuntos para tudo.
-  site: "http://www.liviagabos.com"
-  github: "liviagabos"
-  linkedin: "liviagabos"
-  twitter: "liviagabos"
-  facebook: "livia.gabos"
+    Sou UXer iniciante e gosto de falar sobre meu caminho e acho importante falar
+    para iniciantes com iniciantes. Sou formada em SI e amante de TI. @LGBTech é
+    a comunidade que to fazendo ganhar vida.
+  email: "jaqueventurim@gmail.com"
+  site: "https://jventurim.com.br/"
+  linkedin: "jaqueventurim"
+
+- name: "Jéssica Lopes"
+  voluntary: true
+  labels: [women]
+  avatar: "jessica-lopes.jpg"
+  location: "São Bernardo do Campo - SP"
+  skills: [HTML, CSS, Bootstrap, JavaScript e Git/GitHub]
+  bio: >
+    Sou apaixonada por programação, pois vejo nela um modo de
+    mudar o mundo e deixar essa mudança acessível à muitos.
+  email: "jeesousa91@gmail.com"
+  linkedin: "jesslsousa"
+  github: "jeesousa"
+  twitter: "jeesousa91"
+  facebook: "jesslsousa"
+
+- name: "Jessica Temporal"
+  speaker: true
+  labels: [women]
+  avatar: "jessica-temporal.jpg"
+  location: "São Paulo - SP"
+  skills: [Data Science, Open Source, Desenvolvimento, Python, Podcast]
+  bio: >
+    Desenvolvedora e cientista de dados na Nuveo, co-fundadora do podcast brasileiro sobre ciência
+    de dados o @PizzadeDados, @PyLady e também mantenedora do projeto Operação #SerenatadeAmor.
+    Formou-se sem Informática Biomédica onde descobriu a paixão por ciência de dados analisando
+    dados genômicos e flertando com processamento de linguagem natural durante a graduação.
+  email: "jessicatemporal@gmail.com"
+  site: "http://jtemporal.com"
+  github: "jtemporal"
+  twitter: "jesstemporal"
 
 - name: "João S. O. Bueno"
   speaker: true
@@ -386,6 +675,340 @@
   twitter: "gwidion"
   facebook: "jsbueno"
 
+- name: "Jonas S. Marques"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [men, blind]
+  location: São Paulo - SP
+  avatar: "jonas-marques.jpg"
+  skills: [Desenvolvedor de software, SysAdmin, Acessibilidade, Padrões web standards]
+  bio: >
+    Parte dos meus dias  é gasta DEPURANDO, codando  ou na \ frente do  terminal quebrando a
+    cabeça. O que sobra eu gasto reclamando desse ciclo infindável no Twitter. Apaixonado por
+    padrões de acessibilidade e código semântico. PS: Indentação com TAB, sempre.
+  email: contato@jonassmarques.com
+  site: https://jonassmarques.com
+  linkedin: jonas-s-marques-56908743
+  twitter: jonassmarques
+  facebook: jonashmarques
+
+- name: "Juliana Dias Santos e Silva"
+  speaker: true
+  labels: [women, trans]
+  location: Goiânia - GO
+  avatar: "juliana-santos.jpg"
+  skills: [Ruby, Ruby on Rails, Git, SQL Linux]
+  bio: >
+    Desenvolvedora Web, pseudo escritora, aspirante a fotógrafa, apaixonada por
+    música e movida a café, conselheira na <strong>GoRailsBr</strong> e membra do <strong>RailsGyn</strong>
+  email: juuh42dias@gmail.com
+  linkedin: juuh42dias
+  github: juuh42dias
+  twitter: juuh42dias
+
+- name: "Juliano Custódio"
+  speaker: true
+  labels: [men]
+  location: "Sorocaba - SP"
+  avatar: "juliano-custodio.jpg"
+  skills: [Mobile, C#, Xamarin]
+  bio: >
+    É formado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia de Sorocaba,
+    Software Developer na Algorama, faz parte da lista de autores do Planet Xamarin, fundador da
+    comunidade Xamarin Sorocaba, palestrante e escreve artigos sobre Xamarin em seu blog.
+  email: "juliano.custodio@hotmail.com.br"
+  site: "https://julianocustodio.com"
+  linkedin: "julianocustodio"
+  github: "juucustodio"
+  twitter: "juucustodio"
+  facebook: "JuuCustodio"
+
+- name: "Juliene Alves"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "juliene.alves@live.com"
+  avatar: "juliene-alves.jpg"
+  location: "Recife - PE"
+  labels: [women]
+  skills: [Segurança da Informação, Desenvolvimento, Empreendedorismo, UX Design, Mulheres na TI]
+  bio: >
+    Desenvolvedora, graduanda em Segurança da Informação, apaixonada por empreendedorismo e inovação.
+  linkedin: "juliene-alves-3b81b0132"
+  facebook: "juliene.alves.180"
+
+- name: "Júlio Campos"
+  speaker: true
+  labels: [men]
+  location: Goiânia - GO
+  avatar: "julio-campos.jpg"
+  skills: [Ruby, Node.js, Blockchain]
+  bio: >
+    Atua no cargo de Assistente Legislativo/Programador de Computador na Assembleia Legislativa
+    do Estado de Goiás de dia. A noite leva uma vida secreta de jedi. Além de estudar a força,
+    tem atuado em projetos de blockchain, desenvolvendo e coordenando.
+  email: oi@juliocampos.com.br
+  linkedin: jcserracampos
+  github: jcserracampos
+  twitter: JCSerraCampos
+
+- name: "Karina Piva"
+  speaker: true
+  labels: [women]
+  location: São Paulo - SP
+  avatar: "ka-piva.jpg"
+  skills: [Python, Modelagem de Dados, Data Mining]
+  bio: >
+    Karina Piva acha que matemática é arte. É louca por dados e o que eles dizem para o mundo.
+    Graças a USP se encontrou no empreendedorismo. É fundadora da <strong>Ela Líder!</strong> , startup voltada
+    para desenvolver a liderança feminina no mercado de trabalho e nas empresas.
+  email: karina.fpiva@gmail.com
+  site: http://www.elalider.com.br
+  linkedin: karina-piva
+  github: kfpiva
+  twitter: ka_piva
+
+- name: "Keyla Peixoto"
+  speaker: true
+  email: "keyla.caroline@gmail.com"
+  avatar: "keyla-peixoto.jpg"
+  location: "Rio de Janeiro - RJ"
+  labels: [women, poc]
+  skills: [Modelagem de Dados, DW, ETL]
+  bio: >
+    Analista BI, Pós Graduada em Banco de Dados, apaixonada por análise de dados,
+    quebrando barreiras diariamente a fim de mostrar a importância da mulher na área da tecnologia.
+  linkedin: "keyla-peixoto-400a1a33"
+  facebook: "caroline.peixoto.319"
+
+- name: "Kirmayr Roberto Tomaz Costa"
+  speaker: true
+  email: "tomaz.kirmayr@gmail.com"
+  avatar: "kirmayr-costa.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [JavaScript, Nodejs, Back-end]
+  bio: >
+    Apaixonado por JavaScript, open-source e comunidade. Organizador do <strong>Femug-AM</strong> e mentor do <strong>Training Center</strong>.
+  site: "https://kirmayrtomaz.github.io"
+  linkedin: "kirmayrtomaz"
+  github: "Kirmayrtomaz"
+  twitter: "kirmayrtomaz"
+  facebook: "kirmayr.tomaz"
+
+- name: "Lauren Ferreira"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, lgbt]
+  location: Sorocaba - SP
+  avatar: "lauren-ferreira.jpg"
+  skills: [Desenvolvimento de Software, Go, Git, Agile]
+  bio: >
+    Estudante de Engenharia de Computação, aspirante a engenheira de software,
+    organizadora do Women Who Go Sampa e aventureira de eventos de tecnologia
+  email: lauren.ferremch@gmail.com
+  site: https://larien.me/
+  linkedin: lauren-ferreira
+  github: laurenmariaferreira
+  facebook: larienmf
+
+- name: "Liliane Tie"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women]
+  location: "São Paulo - SP"
+  avatar: "liliane-tie.jpg"
+  skills: [Blockchain, Dados Abertos, Banco de Dados]
+  bio: >
+    Community Builder na rede Women In Blockchain Brasil. Consultora de Projetos e Engajamento de
+    Stakeholders. Colabora com movimentos de hack ativismo cívico e corporativo porque acredita na
+    frase: “Nunca duvide que um pequeno grupo de pessoas conscientes e engajadas possa mudar o
+    mundo. De fato, foi sempre assim que o mundo mudou. - (Margaret Mead)”.
+  email: "liliane.tie@gmail.com"
+  linkedin: "lilianetie/"
+  twitter: "lilitie"
+  facebook: "hlilitie"
+
+- name: "Livia Gabos"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "liviagabos@gmail.com"
+  avatar: "livia-gabos.jpg"
+  location: "São José dos Campos - SP"
+  labels: [women]
+  skills: [Testes, UX Design, IHC, Usabilidade, Acessibilidade]
+  bio: >
+    Formada e Mestre pela <strong>Unesp</strong> em Ciências da Computação, sempre trabalhei com usabilidade e acessibilidade.
+    Hoje em dia quero ampliar esses assuntos para tudo.
+  site: "http://www.liviagabos.com"
+  github: "liviagabos"
+  linkedin: "liviagabos"
+  twitter: "liviagabos"
+  facebook: "livia.gabos"
+
+- name: "Lorrayne Patricia Pereira"
+  voluntary: true
+  email: "lorraynepatricia@outlook.com"
+  avatar: "lorrayne_paty.jpg"
+  location: "Belo Horizonte - MG"
+  labels: [women]
+  skills: [Análise de processos BPMN, Gestão de processos e metas, Apoio operacional]
+  bio: >
+    Sou analista de processo, graduada em SI e pós graduada em Gerência de
+    Projeto de Software. Amante da tecnologia e da natureza.
+  linkedin: "lorrayne-p-782a58108"
+  facebook: "lorraynepatricia"
+  twitter: "lorrayne_paty"
+
+- name: "Luã Ciceri Schwertner"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "lciceris@gmail.com"
+  avatar: "lua-ciceri.jpg"
+  location: "Florianópolis - SC"
+  labels: [men]
+  skills: [Front-End, WordPress, Html, Css, SEO, Performance Web, JavaScript, Bootstrap]
+  bio: >
+    Desenvolvedor Front-End, Analista de SEO e Performance Web.
+    Sou um entusiasta WordPress e acho muito importante disseminar o conhecimento e estar presente na comunidade.
+  site: "https://www.lciceris.com.br"
+  github: "lciceris"
+  linkedin: "lciceris"
+  twitter: "lciceris"
+
+- name: "Lucas Coelho"
+  speaker: true
+  email: "lucas@flama.is"
+  avatar: "lucas-coelho.jpg"
+  location: "Brasília - DF"
+  labels: [men, poc]
+  skills: [UX Design, Business Design, Javascript, Frameworks, Rails]
+  bio: >
+    Empreendedor, Designer e Facilitador. Acredita em transformar e inspirar pessoas através do design,
+    educação e tecnologia. Atualmente é Co-Fundador do <strong>UnCollege</strong> no Brasil e Sócio e Business Designer na <strong>Flama</strong>.
+  site: "http://lucascoelho.me"
+  twitter: "coelholucas"
+
+- name: "Lucas Macedo"
+  speaker: true
+  email: "lucas.hmacedo@hotmail.com"
+  avatar: "lucas-macedo.jpg"
+  location: "São Paulo - SP"
+  labels: [men, poc]
+  skills: [Debate Racial]
+  bio: >
+    Com bagagem de 5 anos em marketing nos mais variados segmentos,
+    atua na <strong>Resultados Digitais</strong> na área de Tech Touch em Customer Success com objetivo de escalar o sucesso.
+  linkedin: "lucashmacedo"
+
+- name: "Lucas Santos"
+  speaker: true
+  email: "lhs.santoss@gmail.com"
+  avatar: "lucas-santos.jpg"
+  location: "Santo André - SP"
+  labels: [men]
+  skills: [Javascript, Testes, Performance, Infraestrutura, Kubernetes, Docker, MongoDB, Redis, NodeJS, PHP]
+  bio: >
+    Sou engenheiro de software e infraestrutura na Squid Digital Media e estudante de Ciências da Computação pela UFABC.
+    Programador desde 2012 trabalhando com sistemas de alta performance e escalabilidade.
+    Apaixonado por tecnologia e comunidades de desenvolvimento.
+  site: "http://lsantos.me"
+  github: "khaosdoctor"
+  linkedin: "lhs-santos"
+  twitter: "_staticvoid"
+
+- name: "Luiz Felipe de Oliva Limeira"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "lflimeira02@gmail.com"
+  avatar: "luiz-felipe-limeira.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [PHP, Git, JS, Node JS, MySQL, HTML, CSS, TDD]
+  bio: >
+    Sou desenvolvedor Back-end, formado em Ciência da Computação pela USJT.
+    Gosto do desafio de mexer com novas tecnologias, melhorar a qualidade de código e manutenibilidade dos códigos que produzo,
+    e como hobby, gosto de mexer com Arduino, robótica e afins.
+  site: "https://lflimeira.github.io"
+  github: "lflimeira"
+  linkedin: "luiz-felipe-de-oliva-limeira-42060678"
+  twitter: "lflimeira02"
+
+- name: "Marcelo Gasparian Gosling"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "marcelo.gosling@gmail.com"
+  avatar: "marcelo-gosling.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [Django, Python, Docker, Vue, SysAdmin]
+  bio: >
+    Especialista em desenvolvimento ágil, possui mais de 12 anos de experiência em desenvolvimento
+    de software. Trabalhou em diversas start-ups, incluindo FinTechs como Geru e Adianta, onde foi
+    responsável pela arquitetura dos sistemas, inclusive de operações de securitização. Estudou
+    Ciências Moleculares na USP, com ênfase em Matemática Aplicada.
+  github: "Carioca"
+  linkedin: "marcelogosling"
+  twitter: "kriox"
+  facebook: "marcelo.gasparian.gosling"
+
+- name: "Maria Luciene Felix"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "marialucienefelix@gmail.com"
+  avatar: "maria-luciene.jpg"
+  location: "Brasilia - DF"
+  labels: [women]
+  skills: [Desenvolvedora Ruby on Rails, CI/CD, Mulheres na TI]
+  bio: >
+    Sou graduada em Engenharia de Software pela Universidade de Brasília.
+    Apaixonada por aprender novas tecnologias e metodologias ágeis. Co-fundadora do <strong>Aprendendo Juntas</strong>.
+  github: "lucienemlf"
+  linkedin: "luciienee"
+
+- name: "Mariana Beilune Abad"
+  speaker: true
+  email: "maryh.abad@gmail.com"
+  avatar: "mariana-abad.jpg"
+  location: "Curitiba - PR"
+  labels: [women]
+  skills: [Líder Técnica, Front-End, Programação de Jogos, Educação em TI]
+  bio: >
+    Mestranda em Educação (Formação de Professores) pela Universidad del Atlântico.
+    Formada em Licenciatura em Música na PUCPR e especialista em Metodologia do Ensino na Educação Superior e em Tecnologias Sonoro Musicais.
+    Estagiou em várias escolas ministrando aulas nas disciplinas de arte e música.
+    Estagiou também no Brazilian Educational Program for iOS como produtora de sound effects e diretora de narração para games e aplicativos.
+    É monitora de áudio do curso de Tecnologia em Jogos Digitais da PUCPR e monitora do Onloop (Grupo de pesquisa em música para jogos e outras mídias).
+    Trabalhou com Pedagogia Montessori com crianças de 0 a 7 anos e ensino de desenvolvimento de jogos para crianças e adolescentes.
+    Estudou programação Front-End pelo Reprograma e agora atua com Líder Técnica e Consultora de Tecnologia na Mobi+.
+  github: "maaryhabad"
+  linkedin: "mariana-beilune-abad-078356110"
+  facebook: "marianabe.abad"
+
+- name: "Mariana Cunha"
+  voluntary: true
+  labels: [women]
+  location: São Paulo - SP
+  avatar: "mariana-cunha.jpg"
+  skills: [HTML, CSS]
+  bio: >
+    Aluna da turma 5 do <strong>{Reprograma}</strong>, projeto voltado para incluir e formar
+    mulheres na tecnologia; Jornalista, mas a gente ignora essa parte.
+  email: mari.marques26@gmail.com
+  site: https://medium.com/@himariana
+  linkedin: mariana-cunha-a1103677/
+  github: mariana-cunha
+  twitter: himariana
+  facebook: marianamocu
+
 - name: "Mariana Elisa Moisés"
   speaker: true
   voluntary: true
@@ -401,6 +1024,24 @@
   github: "marielisamoises"
   linkedin: "mariana-elisa-moises"
   facebook: "mel.mariielisa"
+
+- name: "Miguel Soares"
+  speaker: true
+  full_name: "Miguel Soares"
+  email: "oieusouamiguel@riseup.net"
+  avatar: "miguel-soares.jpg"
+  location: "São Paulo - SP"
+  labels: [trans, perifa]
+  skills: [Front-end, Back-end, Django, React, Diversidade e Inclusão, Games, podcast]
+  bio: >
+    Desenvolvedora Web, atualmente como Dev Back-end na pagar.me.
+    Contribuo para projetos open-source com foco em dados abertos do Governo e
+    em democratização de informações sobre política e feminismo. Game dev amadora e do Podcast <strong>lovelace</strong>.
+  site: "http://oieusouamiguel.github.io"
+  twitter: "oieusouamiguell"
+  linkedin: "migueldenegocios"
+  facebook: "oieusouamiguel"
+  github: "oieusouamiguel"
 
 - name: "Natalia Manha"
   speaker: true
@@ -419,41 +1060,61 @@
   linkedin: "nataliamanha"
   twitter: "nataliamanha"
 
-- name: "Tali Sanches"
-  speaker: true
+- name: "Nathecia Cunha"
   voluntary: true
-  mentor: true
-  email: "tathianadesigner@gmail.com"
-  avatar: "tathiana.jpg"
-  location: "Rio de Janeiro - RJ"
-  labels: [lgbt, genderless]
-  skills: [Empreendedorismo social, UX Design, Game Design, Representavidade em jogos]
-  bio: >
-    Tali Sanches é agênero, formada em design de mídia digital e empreendedorismo pela PUC-Rio.
-    Faz MBA em management e especialização em jogos digitais. Empreendedora social,
-    game designer e ux designer, desenvolve jogos digitais e experiências gamificadas de impacto social que também abordem representatividade,
-    iversidade e inclusão de minorias. Foi mediadora da mesa "Representatividade interseccional nos jogos digitais :
-    Além da representatividade normativa" no Simpósio brasileiro de games de 2017.
-  site: "https://tathianadesigner.carbonmade.com"
-  linkedin: "in/tathiana-sanches-6b884138/"
-  facebook: "AtemZerokun"
-
-- name: "Inaray"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "inaray8@hotmail.com"
-  avatar: "inaray.jpg"
-  location: "Taboão da Serra - SP"
   labels: [women]
-  skills: [Comunidades, Representatividade, Motivacional, Gerenciamento de Serviços]
+  avatar: "nathecia-cunha.jpg"
+  location: "Natal- RN"
+  skills: [HTML, CSS, Desenvolvimento web]
   bio: >
-    Graduada em Administração, com pós graduação em Arquitetura e Gestão de Infraestrutura de Tecnologia,
-    certificada ITIL Expert e mentora da página ITSM na Prática.
-    Trabalho de Governança de TI a mais de 18 anos, atuando em empresas do setor financeiro e de tecnologia.
-    Apaixonada por ITSM e por pessoas sou engajada em diversos trabalhos sociais voltados a carreira na tecnologia.
-    Mãe de dois meninos e filha de uma costureira, meu sonho é que outras meninas da periferia tenham acesso a estudos e oportunidades na área de tecnologia como eu.
-  linkedin: "inaray-santos"
+    Estudante de Informática no IFRN, Téc. Redes de Computadores pelo IMD e Apaixonada por Arduino
+    e suas tecnologias, membro dos grupos GDG/Potilivre.
+  email: "nathecia02@hotmail.com"
+  linkedin: "nathecia-c-818447142"
+  github: "nathecia"
+  twitter: "natheciacunha"
+  facebook: Nathecia Cunha"
+
+- name: "Nayara Alves"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "nayara.nap@gmail.com"
+  avatar: "nayara-alves.jpg"
+  location: "São Paulo - SP"
+  labels: [women]
+  skills: [Desenvolvimento Web, CSS, HTML, UX, Arquitetura de Informação]
+  bio: >
+    Dev front end há mais de 5 anos, se especializando em Arquitetura de Informação.
+    Estuda psicologia social por conta própria e é apaixonada pela área de Experiência do Usuário.
+  linkedin: "nayara-alves-pereira-a4a12432"
+  facebook: "naahh.lee"
+
+- name: "Patrícia Gomes dos Santos Silva"
+  speaker: true
+  email: "gss.patricia@gmail.com"
+  avatar: "paty-go.jpg"
+  location: "Hortolândia - SP"
+  labels: [women]
+  skills: [HTML5, CSS3, Sass, Less and Stylus, SMACSS, BEM and ITCSS, NodeJs, Unit Test, Javascript, AngularJs, React, jQuery, Service Workers, AMP & others, Redux]
+  bio: >
+    Trabalha na área desde 2010, desenvolvedora Front-end apaixonada por boas práticas em desenvolvimento web, acredita que HTML, CSS e Javascript são a base e podemos mudar o mundo através da web.
+  linkedin: "patr%C3%ADcia-gomes-dos-santos-silva%E2%80%8B-5304b233"
+  github: "gss-patricia"
+  twitter: "paty_go"
+
+- name: "Paullo Norato"
+  speaker: true
+  email: "norato.ux@gmail.com"
+  avatar: "paullo-norato.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [UX, Arquitetura de Informação, Front-end]
+  bio: >
+    Formado em análise e desenvolvimento de sistemas, pós-graduando em design centrado no usuário,
+    8 anos de experiência em projetos digitais e co-organizador do Meetup <strong>DFUX</strong>, em Santos.
+  linkedin: "paullonorato"
+  facebook: "paullonorato23"
 
 - name: "Paulo Henrique de Lima Santana"
   speaker: true
@@ -479,6 +1140,35 @@
   twitter: "phls00"
   facebook: "phls00"
 
+- name: "Priscila Stuani"
+  speaker: true
+  labels: [women]
+  location: "São Paulo - SP"
+  avatar: "priscila-stuani.jpg"
+  skills: [Social Media, Foco, Novos hábitos, Comunicação, Relacionamento pessoal]
+  bio: >
+    Graduada em Marketing, Pós-graduada em Neurociência aplicada à educação, atualmente estudante
+    de Psicologia, quero te ajudar a ressignificar o seu aprendizado através de técnicas de foco,
+    criação de novos hábitos e autoconhecimento.
+  email: "contato@priscilastuani.com.br"
+  site: "http://priscilastuani.com.br"
+  linkedin: "priscilastuani"
+  twitter: "priscilastuani"
+  facebook: "pri.stuani"
+
+- name: "Rogério Rodrigues"
+  speaker: true
+  email: "rogerio@connecthealth.com.br"
+  avatar: "rogerio-rodrigues.jpg"
+  location: "Salvador - BA"
+  labels: [men, poc]
+  skills: [Desenvolvimento Mobile, Inteligencia Artificial, Cognitive Services]
+  bio: >
+    Desenvolvedor de Software, Professor Universitário, Mestrando em Ciências da Computação pelo <strong>IME/USP</strong>,
+    CTO na <strong>Connect HealthCare</strong> e Membro dos <strong>Microsoft Student Partners</strong>.
+  site: "http://www.rogerio.eti.br"
+  twitter: "rogerrrodrigues"
+
 - name: "Ronan Rodrigo Nunes"
   speaker: true
   voluntary: true
@@ -497,137 +1187,154 @@
   github: "ronanrodrigo/carbrito"
   twitter: "ronanrodrigo_"
 
-- name: "Nayara Alves"
+- name: "Ruan Brandão"
   speaker: true
-  voluntary: true
-  mentor: true
-  email: "nayara.nap@gmail.com"
-  avatar: "nayara-alves.jpg"
-  location: "São Paulo - SP"
-  labels: [women]
-  skills: [Desenvolvimento Web, CSS, HTML, UX, Arquitetura de Informação]
-  bio: >
-    Dev front end há mais de 5 anos, se especializando em Arquitetura de Informação.
-    Estuda psicologia social por conta própria e é apaixonada pela área de Experiência do Usuário.
-  linkedin: "nayara-alves-pereira-a4a12432/"
-  facebook: "naahh.lee"
-
-- name: "Gileno Alves Santa Cruz Filho"
-  speaker: true
-  email: "contato@gilenofilho.com.br"
-  avatar: "gileno-filho.jpg"
-  location: "Recife - PE"
-  labels: [men, parent]
-  skills: [Desenvolvimento Web, Machine Learning, Data Science, Python, Django, Pandas]
-  bio: >
-    Eterno estudante de Ciência da Computação, Pai e evangelizador de Python e Software Livre.
-  site: "http://www.gilenofilho.com.br"
-  github: "gileno"
-  linkedin: "gilenofilho"
-  twitter: "gilenofilho"
-  facebook: "gilenofilho"
-
-- name: "William Grasel"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "d.rufos@gmail.com"
-  avatar: "william-grasel.jpg"
-  location: "São Paulo - SP"
-  labels: [men]
-  skills: [JavaScript, TypeScript, Angular, Firebase, PWA, Testes Automatizados, HTML, CSS]
-  bio: >
-    Desenvolvedor Web apaixonado com 15 anos de experiência na área, especializado em FrontEnd com Single Page Apps e Progressive Web Apps.
-    Consultor, organizador de meetups, palestrante, coordenador da comunidade AngularSP, amante de JavaScript e programação funcional,
-    sempre fascinado por novas tecnologias.
-  site: "http://willgm.com"
-  github: "willgm"
-  linkedin: "william-grasel-799146114/"
-  twitter: "willgmbr"
-  facebook: "wgrasel"
-
-- name: "William Oliveira"
-  speaker: true
-  mentor: true
-  email: "williamozsouza@gmail.com"
-  avatar: "william-oliveira.jpg"
-  location: "São Paulo - SP"
   labels: [men, poc, perifa]
-  skills: [HTML, CSS, JavaScript, Performance frontend, Git, GitHub, Open Source]
-  bio: >
-    Desenvolvedor de Software, apaixonado pela plataforma web, Open Source, Git, GitHub, JavaScript
-    e Nodejs, algumas minúcias de ciência da computação e paradigmas de programação, ajudando
-    pessoas a entrarem no mundo da programação no Training Center (http://trainingcenter.io/),
-    acredito que educação pode mudar o mundo.
-  site: "https://woliveiras.com.br/"
-  github: "woliveiras"
-  linkedin: "william-oliveira"
-  twitter: "w_oliveiras"
-  facebook: "woliveiras"
-
-- name: "Luã Ciceri Schwertner"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "lciceris@gmail.com"
-  avatar: "lua-ciceri.jpg"
-  location: "Florianópolis - SC"
-  labels: [men]
-  skills: [Front-End, WordPress, Html, Css, SEO, Performance Web, JavaScript, Bootstrap]
-  bio: >
-    Desenvolvedor Front-End, Analista de SEO e Performance Web.
-    Sou um entusiasta WordPress e acho muito importante disseminar o conhecimento e estar presente na comunidade.
-  site: "https://www.lciceris.com.br/"
-  github: "lciceris"
-  linkedin: "lciceris"
-  twitter: "lciceris"
-
-- name: Bruna Ferratto
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [women]
-  avatar: "bruna-ferratto.jpg"
-  location: São Paulo
-  skills: [Python, Django, HTML, CSS, JS, Bootstrap, Jquery, SQLite e PostgreSQL]
-  bio: >
-    Desenvolvedora Back-end com um pé no Front, formada em Biologia, resolvi no começo de 2017,
-    estudar programação em casa, só com o que têm de graça. Graças à comunidade incrível virei
-    Dev Python e quero retornar todo o esforço para fortalecer mais pessoas da comunidade, para
-    que se encontrem na programação.
-  email: bruferratto@gmail.com
-  linkedin: "/bruna-ferratto"
-  github: "/BFerratto"
-  twitter: "BFerratto"
-  facebook: "/bruna.ferratto"
-
-- name: "Maria Luciene Felix"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "marialucienefelix@gmail.com"
-  avatar: "maria-luciene.jpg"
-  location: "Brasilia - DF"
-  labels: [women]
-  skills: [Desenvolvedora Ruby on Rails, CI/CD, Mulheres na TI]
-  bio: >
-    Sou graduada em Engenharia de Software pela Universidade de Brasília. Apaixonada por aprender novas tecnologias e metodologias ágeis. Co-fundadora do Aprendendo Juntas.
-  github: "lucienemlf"
-  linkedin: "luciienee"
-
-- name: "Charlotte Lorelei Oliveira"
-  speaker: true
-  highlight: true
-  email: "charlotte.elixir@gmail.com"
-  avatar: "charlotte-lorelei.jpg"
+  avatar: "ruan-brandao.jpg"
   location: "São Paulo - SP"
-  labels: [trans, women]
-  skills: [Elixir, Erlang, PostgreSQL]
+  skills: [Desenvolvimento Web, Segurança da Informação, Ruby, Elixir, JavaScript, GitFlow]
   bio: >
-    Desenvolvedora de software evangelista de Erlang, entusiasta de programação funcional e desenvolvimento web, apaixonada por gatos e por cheesecake.
-  github: "mememori"
-  linkedin: "umamaistempo"
-  twitter: "umamaistempo"
+    Desenvolvedor web com background em segurança da informação. Entusiasta de open
+    source, comunidades inclusivas e observar como a tecnologia influencia a sociedade.
+    Baterista amador nas horas vagas.
+  email: "ruan.bernardo@gmail.com"
+  linkedin: "ruanbrandao"
+  github: "ruan-brandao"
+  twitter: "RuanBrandao"
+
+- name: "Samanta Cristina Lopes"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, poc]
+  location: "São Paulo - SP"
+  avatar: "samantha-lopes.jpg"
+  skills: [Negócios, Empreendedorismo, Ideação, Educação Mediadora, Aprendizagem Maker, Inclusão]
+  bio: >
+    Publicitária com experiência em educação inclusiva, projetos e empreendedorismo de
+    impacto social, mentora no <strong>Technovation Challenge</strong> e <strong>BlackRocks Startups</strong>.
+  email: "samlopes_br@hotmail.com"
+  linkedin: "samantalopes"
+  github: "samlopes_br"
+  twitter: "samlopes_br"
+  facebook: "samantalopesBR"
+
+- name: "Silvia Regina Coelho da Rosa"
+  speaker: true
+  labels: [women, parent]
+  location: "São Paulo - SP"
+  avatar: "silvia-regina.jpg"
+  skills: [Conhecimentos em html, css, javascript, bootstrap, C, Matlab, IoT, Eletrônica, Maternidade e Carreira]
+  bio: >
+    Tenho Mestrado e Graduação em Engenharia Elétrica e atuei com pesquisa e desenvolvimento de
+    softwares para celulares. Sou desenvolvedora front end formada pela Reprograma. Em busca de
+    novos desafios, estudo soluções em IoT e linguagem R. Como fundadora da comunidade Elas
+    Programam incentivo mulheres a seguirem carreira em TI, unindo paixão por tecnologia e vontade
+    de transformar o mundo. Mãe da Isadora e do Renato, falo sobre os impactos da maternidade na
+    carreira profissional das mulheres, quais obstáculos e desafios enfrentei, como fiz para
+    superá-los e voltar ao mercado de trabalho depois de 9 anos como mãe em tempo integral.
+  email: "silvia.rcr@gmail.com"
+  site: "https://medium.com/@silviacoelho_92616"
+  linkedin: "silvia-coelho"
+  facebook: "silvia.coelho.31"
+
+- name: "Stefanie Melo"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, lgbt]
+  avatar: stefanie-melo.jpg
+  location: "São Paulo - SP"
+  skills: [Ruby on Rails, Python, React, Nodejs, ES6,]
+  bio: >
+    Trabalho há 10 anos com tecnologia e sou desenvolvedora Full Stack há pouco mais de 2 anos, com
+    experiência em plataformas de e-commerce e educação. Atualmente trabalho como desenvolvedora em
+    uma plataforma de ensino online. Ruby on Rails e Python no Back End e React para o Front End
+    fazem parte do meu dia a dia. Além disso tenho me envolvido como coach em diversos projetos que
+    promovem a diversidade no meio da tecnologia como o @Programaria, @RailsGirls e @DjangoGirls.
+    Sou apaixonada por desenvolvimento e por ajudar mais pessoas a se apaixonarem como eu.
+  email: "stefanietmelo@gmail.com"
+  linkedin: "stefaniemelo"
+  github: melostbr
+  twitter: "@mmelost"
+
+- name: "Tali Sanches"
+  speaker: true
+  voluntary: true
+  mentor: true
+  email: "tathianadesigner@gmail.com"
+  avatar: "tathiana.jpg"
+  location: "Rio de Janeiro - RJ"
+  labels: [lgbt, genderless]
+  skills: [Empreendedorismo social, UX Design, Game Design, Representavidade em jogos]
+  bio: >
+    Tali Sanches é agênero, formada em design de mídia digital e empreendedorismo pela PUC-Rio.
+    Faz MBA em management e especialização em jogos digitais. Empreendedora social,
+    game designer e ux designer, desenvolve jogos digitais e experiências gamificadas de impacto social que também abordem representatividade,
+    iversidade e inclusão de minorias. Foi mediadora da mesa "Representatividade interseccional nos jogos digitais :
+    Além da representatividade normativa" no Simpósio brasileiro de games de 2017.
+  site: "https://tathianadesigner.carbonmade.com"
+  linkedin: "tathiana-sanches-6b884138"
+  facebook: "AtemZerokun"
+
+- name: "Tatiana Barros"
+  speaker: true
+  email: "sagapolen@gmail.com"
+  avatar: "tatiana-barros.jpg"
+  location: "São Paulo - SP"
+  labels: [women, parent]
+  skills: [Educação, Startup, Prototipações, Validações de Ideias, Processos de Aprendizagem, Jornada do Herói]
+  bio: >
+    Co-Founder da <strong>Saga Pólen</strong>, uma startup focada em educação multidisciplinar.
+    Criadora do Smart Cities for teens para alunos da rede pública.
+    Ama jornada do herói, arduínos e chatbots.
+  linkedin: "tatybarros"
+  twitter: "umataldetatiana"
+
+- name: "Tatiane Souto"
+  avatar: "tatiane-souto.jpg"
+  voluntary: true
+  labels: [women, lgbt]
+  location: "São Paulo - SP"
+  skills: [.NET, ASP .NET, JavaScript, Angular]
+  bio: >
+    Analista Programadora Sr.
+  email: "tatisouto@gmail.com"
+  github: tatisouto
+
+- name: "Thaiane Braga"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women, poc]
+  location: "Porto Alegre - RS"
+  avatar: "thaiane-braga.jpg"
+  skills: [Agile, Segurança, Ruby, Mulheres na TI, Igualdade racial, Software livre]
+  bio: >
+    Rubista, feminista e ativista. Engenheira de Software pela Universidade de
+    Brasília e consultora desenvolvedora na Thoughtworks - Porto Alegre. Participa
+    como coach e da organização do Aprendendo Juntas, Afropython, Rails Girls Porto
+    Alegre e Rails Girls Brasília.
+  email: "thaianefbraga@gmail.com"
+  site: "https://thaiane.github.io"
+  linkedin: "thaianebraga"
+  github: "Thaiane"
+  twitter: "ThaiiBraga"
+  facebook: "thaiane.thaibraga"
+
+- name: "Thaís Freitas"
+  speaker: true
+  email: "thaisfreitas31@gmail.com"
+  avatar: "thais-moura.jpg"
+  location: "Recife - PE"
+  labels: [women, lgbt]
+  skills: [Mulher em TI, Qualidade de Software, Testes, Team Ágil]
+  bio: >
+    Sou analista de qualidade, graduada em SI pela <strong>UFRPE</strong> e mestranda.
+    Adoro encontrar formas de ajudar no processo ágil de desenvolvimento
+    de software e na garantia da qualidade.
+  linkedin: "thaís-freitas-056b1540"
+  twitter: "tha_ta"
 
 - name: "Thaysa Mara Monteiro dos Santos"
   speaker: true
@@ -640,83 +1347,74 @@
   skills: [HTML, CSS, JavaScript]
   bio: >
     Trabalho com o desenvolvimento web desde 2013, sou formada em ADS e apaixonada pelo mundo do front-end.
-  site: "https://thaymara.github.io/"
+  site: "https://thaymara.github.io"
   github: "thaymara"
-  linkedin: "thaysa-mara-monteiro-dos-santos-7741a299/"
+  linkedin: "thaysa-mara-monteiro-dos-santos-7741a299"
   facebook: "thaysamarasantos"
 
-- name: "Marcelo Gasparian Gosling"
+- name: "Ulisses Almeida"
   speaker: true
   voluntary: true
   mentor: true
-  email: "marcelo.gosling@gmail.com"
-  avatar: "marcelo-gosling.jpg"
-  location: "São Paulo - SP"
-  labels: [men]
-  skills: [Django, Python, Docker, Vue, SysAdmin]
+  labels: [men, perifa]
+  location: São Paulo - SP
+  avatar: "ulisses-almeida.jpg"
+  skills: [Elixir, Ruby, Javascript, Backend, Frontend, Agile]
   bio: >
-    Especialista em desenvolvimento ágil, possui mais de 12 anos de experiência em desenvolvimento
-    de software. Trabalhou em diversas start-ups, incluindo FinTechs como Geru e Adianta, onde foi
-    responsável pela arquitetura dos sistemas, inclusive de operações de securitização. Estudou
-    Ciências Moleculares na USP, com ênfase em Matemática Aplicada.
-  github: "Carioca"
-  linkedin: "marcelogosling"
-  twitter: "kriox"
-  facebook: "marcelo.gasparian.gosling"
+    Desenvolvedor de software. Autor de livro. Graduado em Ciências da Computação pela FEI.
+  email: anizark@gmail.com
+  site: http://ulissesalmeida.github.io/
+  linkedin: ulissesalmeida
+  github: ulissesalmeida
+  twitter: ulissesalmeida
+  facebook: ulisses.almeida.br
 
-- name: "Luiz Felipe de Oliva Limeira"
-  speaker: true
+- name: "Vanessa Almeida Silvestre"
   voluntary: true
-  mentor: true
-  email: "lflimeira02@gmail.com"
-  avatar: "luiz-felipe-limeira.jpg"
-  location: "São Paulo - SP"
-  labels: [men]
-  skills: [PHP, Git, JS, Node JS, MySQL, HTML, CSS, TDD]
+  labels: [women, parent]
+  location: "São Caetano do Sul - SP"
+  avatar: "vanessa-silvestre.jpg"
+  skills: [Governança de TI, Infraestrutura]
   bio: >
-    Sou desenvolvedor Back-end, formado em Ciência da Computação pela USJT.
-    Gosto do desafio de mexer com novas tecnologias, melhorar a qualidade de código e manutenibilidade dos códigos que produzo,
-    e como hobby, gosto de mexer com Arduino, robótica e afins.
-  site: "https://lflimeira.github.io/"
-  github: "lflimeira"
-  linkedin: "luiz-felipe-de-oliva-limeira-42060678/"
-  twitter: "lflimeira02"
+    37 anos, Mãe do Davi de 8 anos. Engenheira da Computação e Tecnóloga pelo Centro Universitário
+    Fundação Santo André. Atuou por 10 anos em Infraestrutura de TI, e está há 5 anos na área de
+    Governança e Processos. Atua hoje na Pernambucanas e passou por empresas como Theraskin
+    Farmaceutica e Netshoes. Hoje é co-founder do @FemmeIT - O jeito feminino de falar de TI - Canal
+    porta voz da mulher na área de TI. Também é palestrante voluntaria da Ong Próxima Etapa –
+    Integração dos alunos do ensino médio nos ensinos superiores e mercado de trabalho.
+  email: "vanessaasilvestre@hotmail.com"
+  site: "https://femmeit.com.br/"
+  linkedin: "vanessaasilvestreiti"
+  twitter: "vanysdavi"
+  facebook: "vanessa.a.silvestre"
 
-- name: "Lucas Santos"
+- name: "Victor Magalhães"
   speaker: true
-  email: "lhs.santoss@gmail.com"
-  avatar: "lucas-santos.jpg"
-  location: "Santo André - SP"
-  labels: [men]
-  skills: [Javascript, Testes, Performance, Infraestrutura, Kubernetes, Docker, MongoDB, Redis, NodeJS, PHP]
+  email: "vhfmag@protonmail.com"
+  avatar: "vhfmag.jpg"
+  location: "Salvador - BA"
+  labels: [men, lgbt]
+  skills: [Javascript, Typescript, NodeJS, React, PWA, SEO, HTML, HTML Semântico, CSS]
   bio: >
-    Sou engenheiro de software e infraestrutura na Squid Digital Media e estudante de Ciências da Computação pela UFABC.
-    Programador desde 2012 trabalhando com sistemas de alta performance e escalabilidade.
-    Apaixonado por tecnologia e comunidades de desenvolvimento.
-  site: "http://lsantos.me"
-  github: "khaosdoctor"
-  linkedin: "lhs-santos/"
-  twitter: "_staticvoid"
+    Desenvolvedor, entusiasta da web, de programação funcional e de tecnologias P2P e participante ativo da comunidade Javascript/React de Salvador.
+  site: "https://victormagalhaes.codes"
+  linkedin: "vhfmag"
+  github: "vhfmag"
+  twitter: "vhfmag"
 
-- name: "Fernanda Bernardo"
-  speaker: true
+- name: "Vinícius Oliveira"
   voluntary: true
-  mentor: true
-  email: "fernandabernardo94@gmail.com"
-  avatar: "fernanda-bernardo.jpg"
-  location: "São Paulo - SP"
-  labels: [women]
-  skills: [front end, css, js]
+  email: "viniciusdfol@gmail.com"
+  avatar: "vini-oliveira.jpg"
+  location: "Belo Horizonte - MG"
+  labels: [men, lgbt]
+  skills: [C#, .NET, Web Scraping, Web Crawlers, Java]
   bio: >
-    Trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na
-    área de tecnologia meio que por sorte. Gosto tanto de back-end quanto de front-end e também de
-    assuntos relacionados a UX. Adoro palestrar e estudar assuntos novos. Gosto de assuntos
-    relacionados à saúde, sou diabética e tenho um blog sobre o assunto. Apesar disso, adoro doces.
-  site: "http://fernandabernardo.com.br/"
-  github: "fernandabernardo"
-  linkedin: "fernandabernardo"
-  twitter: "Feh_Bernardo"
-  facebook: "fernanda.m.bernardo"
+    Entusiasta da filosofia de Software Livre e da cultura de Código Aberto.
+    Utilizo da criatividade para sempre incentivar a colaboração e novas tecnologias em minha vida profissional.
+  linkedin: "viniciusdavifoliveira"
+  github: "viniciusdfx"
+  facebook: "vinidfr"
 
 - name: "Viviane Santos França"
   speaker: true
@@ -735,393 +1433,57 @@
   twitter: "VivisSF"
   facebook: "viviane.s.franca"
 
-- name: "Juliene Alves"
+- name: "William Grasel"
   speaker: true
   voluntary: true
   mentor: true
-  email: "juliene.alves@live.com"
-  avatar: "juliene-alves.jpg"
+  email: "d.rufos@gmail.com"
+  avatar: "william-grasel.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [JavaScript, TypeScript, Angular, Firebase, PWA, Testes Automatizados, HTML, CSS]
+  bio: >
+    Desenvolvedor Web apaixonado com 15 anos de experiência na área, especializado em FrontEnd com Single Page Apps e Progressive Web Apps.
+    Consultor, organizador de meetups, palestrante, coordenador da comunidade <strong>AngularSP</strong>, amante de JavaScript e programação funcional,
+    sempre fascinado por novas tecnologias.
+  site: "http://willgm.com"
+  github: "willgm"
+  linkedin: "william-grasel-799146114"
+  twitter: "willgmbr"
+  facebook: "wgrasel"
+
+- name: "William Oliveira"
+  speaker: true
+  mentor: true
+  email: "williamozsouza@gmail.com"
+  avatar: "william-oliveira.jpg"
+  location: "São Paulo - SP"
+  labels: [men, poc, perifa]
+  skills: [HTML, CSS, JavaScript, Performance frontend, Git, GitHub, Open Source]
+  bio: >
+    Desenvolvedor de Software, apaixonado pela plataforma web, Open Source, Git, GitHub, JavaScript
+    e Nodejs, algumas minúcias de ciência da computação e paradigmas de programação, ajudando
+    pessoas a entrarem no mundo da programação no <strong>Training Center</strong> - http://trainingcenter.io/,
+    acredito que educação pode mudar o mundo.
+  site: "https://woliveiras.com.br"
+  github: "woliveiras"
+  linkedin: "william-oliveira"
+  twitter: "w_oliveiras"
+  facebook: "woliveiras"
+
+- name: "Yanka Santos"
+  speaker: true
+  voluntary: true
+  mentor: true
+  labels: [women]
+  avatar: "yanka-santos.jpg"
   location: "Recife - PE"
-  labels: [women]
-  skills: [Segurança da Informação, Desenvolvimento, Empreendedorismo, UX Design, Mulheres na TI]
-  bio: >
-    Desenvolvedora, graduanda em Segurança da Informação, apaixonada por empreendedorismo e inovação.
-  linkedin: "juliene-alves-3b81b0132/"
-  facebook: "juliene.alves.180"
-
-- name: "Bárbara Cabral"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "barbaracabral@gmail.com"
-  avatar: "barbara-cabral.jpg"
-  location: "Florianópolis - SC"
-  labels: [women]
-  skills: [Agile Testing, Qualidade de Sotware, Métricas de Qualidade, Automação de Testes end-to-end, Testes de API/REST]
-  bio: >
-    Analista de testes e qualidade, atua há quase 10 anos na área de Testes e Qualidade,
-    nos quais pelo menos 8 deles com Agile Testing. Apaixonada pelas comunidades na área de TI, mentora e blogueira.
-    Palestrou em diversos eventos da área, como o TDC, Agile Trends, CNQS, OctoberTest, etc.
-    Co-organizadora da comunidade GUTS-SC, Agile Testers Conference Floripa, mentora do RailsGirls e co-organizadora do QA Ladies.
-    Considerada uma das mulheres mais influentes em Teste e Qualidade de Software da América Latina pelo Blog da Abstracta.
-  site: "https://barbaracabral.wordpress.com/"
-  github: "barbaracabral"
-  linkedin: "barbaracabral"
-  twitter: "barbarapcabral"
-  facebook: "barbarapalmacabral"
-
-- name: "Mariana Beilune Abad"
-  speaker: true
-  email: "maryh.abad@gmail.com"
-  avatar: "mariana-abad.jpg"
-  location: "Curitiba - PR"
-  labels: [women]
-  skills: [Líder Técnica, Front-End, Programação de Jogos, Educação em TI]
-  bio: >
-    Mestranda em Educação (Formação de Professores) pela Universidad del Atlântico.
-    Formada em Licenciatura em Música na PUCPR e especialista em Metodologia do Ensino na Educação Superior e em Tecnologias Sonoro Musicais.
-    Estagiou em várias escolas ministrando aulas nas disciplinas de arte e música.
-    Estagiou também no Brazilian Educational Program for iOS como produtora de sound effects e diretora de narração para games e aplicativos.
-    É monitora de áudio do curso de Tecnologia em Jogos Digitais da PUCPR e monitora do Onloop (Grupo de pesquisa em música para jogos e outras mídias).
-    Trabalhou com Pedagogia Montessori com crianças de 0 a 7 anos e ensino de desenvolvimento de jogos para crianças e adolescentes.
-    Estudou programação Front-End pelo Reprograma e agora atua com Líder Técnica e Consultora de Tecnologia na Mobi+.
-  github: "maaryhabad"
-  linkedin: "mariana-beilune-abad-078356110/"
-  facebook: "marianabe.abad"
-
-- name: "Carla Vieira"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "carlaprv@hotmail.com"
-  avatar: "carla-vieira.jpg"
-  location: "São Paulo - SP"
-  labels: [women]
-  skills: [Front-end, CSS3, JavaScript, Gestão de Projetos]
-  bio: >
-    Desenvolvedora front-end. Apaixonada por livros, design, tecnologia e empreendedorismo.
-  site: "https://medium.com/@carlaprv"
-  github: "carlaprv"
-  linkedin: "carlaprv"
-  twitter: "carlaprvieira"
-  facebook: "carlaprvieira"
-
-- name: "Émylle Andressa Borges"
-  speaker: true
-  voluntary: true
-  mentor: true
-  email: "emylleandressa2811@gmail.com "
-  avatar: "emylle-borges.jpg"
-  location: "Feira de Santana - BA"
-  labels: [women, poc]
-  skills: [Conhecimento e programação em C, Phyton, JavaScript, PHP, HTML, CSS, Bootstrap, Arduíno]
-  bio: >
-    Sou técnica em Informática e Redes de Computadores e graduanda em Engenharia de Computação pela UEFS. Sou programadora tanto na área de software quanto de hardware e amo repassar meus conhecimentos e aprender com as experiências.
-  github: "eaborges"
-  linkedin: "emylleandressa"
-  facebook: "Dressab"
-
-- name: "Tatiane Souto"
-  avatar: "tatiane-souto.jpg"
-  voluntary: true
-  labels: [lgbt]
-  location: São Paulo - SP
-  skills: [.NET, ASP .NET, JavaScript, Angular]
-  bio: >
-    Analista Programadora Sr.
-  email: tatisouto@gmail.com
-  github: tatisouto
-
-- name: "Lorrayne Patricia Pereira"
-  voluntary: true
-  email: "lorraynepatricia@outlook.com"
-  avatar: "lorrayne_paty.jpg"
-  location: "Belo Horizonte - MG"
-  labels: [women]
-  skills: [Análise de processos BPMN, Gestão de processos e metas, Apoio operacional]
-  bio: >
-    Sou analista de processo, graduada em SI e pós graduada em Gerência de
-    Projeto de Software. Amante da tecnologia e da natureza.
-  linkedin: "lorrayne-p-782a58108"
-  facebook: "lorraynepatricia"
-  twitter: "lorrayne_paty"
-
-- name: "Patrícia Gomes dos Santos Silva"
-  speaker: true
-  email: "gss.patricia@gmail.com"
-  avatar: "paty-go.jpg"
-  location: "Hortolândia - SP"
-  labels: [women]
-  skills: [HTML5, CSS3, Sass, Less and Stylus, SMACSS, BEM and ITCSS, NodeJs, Unit Test, Javascript, AngularJs, React, jQuery, Service Workers, AMP & others, Redux]
-  bio: >
-    Trabalha na área desde 2010, desenvolvedora Front-end apaixonada por boas práticas em desenvolvimento web, acredita que HTML, CSS e Javascript são a base e podemos mudar o mundo através da web.
-  linkedin: "patr%C3%ADcia-gomes-dos-santos-silva%E2%80%8B-5304b233"
-  github: "gss-patricia"
-  twitter: "paty_go"
-
-- name: "Victor Magalhães"
-  speaker: true
-  email: "vhfmag@protonmail.com"
-  avatar: "vhfmag.jpg"
-  location: "Salvador - BA"
-  labels: [lgbt]
-  skills: [Javascript, Typescript, NodeJS, React, PWA, SEO, HTML, HTML Semântico, CSS]
-  bio: >
-    Desenvolvedor, entusiasta da web, de programação funcional e de tecnologias P2P e participante ativo da comunidade Javascript/React de Salvador.
-  site: "https://victormagalhaes.codes"
-  linkedin: "vhfmag"
-  github: "vhfmag"
-  twitter: "vhfmag"
-
-- name: "Vinícius Oliveira"
-  voluntary: true
-  email: "viniciusdfol@gmail.com"
-  avatar: "vini-oliveira.jpg"
-  location: "Belo Horizonte - MG"
-  labels: [lgbt]
-  skills: [C#, .NET, Web Scraping, Web Crawlers e Java]
-  bio: >
-    Entusiasta da filosofia de Software Livre e da cultura de Código Aberto.
-    Utilizo da criatividade para sempre incentivar a colaboração e novas tecnologias em minha vida profissional.
-  linkedin: "viniciusdavifoliveira"
-  github: "viniciusdfx"
-  facebook: "vinidfr"
-
-- name: "Cybelle Oliveira"
-  speaker: true
-  full_name: "Cybelle"
-  email: "cyb3ll3@protonmail.com"
-  avatar: "cybelle-oliveira.jpg"
-  location: "São Paulo - SP"
-  labels: [women, parent]
-  skills: [Privacidade, Código de Conduta, Eventos, Produção, Gestão de Comunidades]
-  bio: >
-    Bacharel em História pela USP, pós graduada em Gestão Cultural pelo Senac. Atualmente no programa Mozilla Open Leaders e The Tor Project.
-    Produtora de eventos, contribuidora da #Mozilla, co-fundadora do @JSLadies.
-    Entusiasta de privacidade e segurança, feminista e vegetariana.
-  twitter: "cyb3113"
-  linkedin: "cybelleoliveira"
-  github: "cyb3113"
-
-- name: "Cynthia Pereira"
-  speaker: true
-  full_name: "Cynthia Pereira"
-  email: "cynthiacpereira@gmail.com"
-  avatar: "cynthia.jpg"
-  location: "São Paulo - SP"
-  labels: [women, poc]
-  skills: [Front-end, Desenvolvimento Web, Mídias Digitais, Gestão de Comunidades, Diversidade e Inclusão]
-  bio: >
-    Estrategista em comunicações digitais, desenvolvedora web, empreendedora e representante da
-    #Mozilla – organização sem fins lucrativos que visa manter a Internet saudável, aberta e acessível a todos.
-  linkedin: "cynthiacpereira"
-  twitter: "cynthiapereira_"
-  github: "cynthiapereira"
-
-- name: "Miguel Soares"
-  speaker: true
-  full_name: "Miguel Soares"
-  email: "oieusouamiguel@riseup.net"
-  avatar: "miguel-soares.jpg"
-  location: "São Paulo - SP"
-  labels: [trans, perifa]
-  skills: [Front-end, Back-end, Django, React, Diversidade e Inclusão, Games, podcast]
-  bio: >
-    Desenvolvedora Web, atualmente como Dev Back-end na pagar.me.
-    Contribuo para projetos open-source com foco em dados abertos do Governo e
-    em democratização de informações sobre política e feminismo. Game dev amadora e do Podcast @lovelace.
-  site: "http://oieusouamiguel.github.io"
-  twitter: "oieusouamiguell"
-  linkedin: "migueldenegocios"
-  facebook: "oieusouamiguel"
-  github: "oieusouamiguel"
-
-- name: "Ingrid Marion Caparroz Mazoni"
-  speaker: true
-  full_name: "Ingrid Mazoni"
-  email: "ingridmazoni@outlook.com"
-  avatar: "ingrid.jpg"
-  location: "São Paulo - SP"
-  labels: [women]
-  skills: [Desenvolvimento, Back-end, Java]
-  bio: >
-    Técnico em informática na Etec e superior de Análise e
-    Desenvolvimento de Sistemas na Fatec. Desenvolvi um projeto
-    de um sistema web em java para auxiliar os estudos de candidatos que querem prestar o vestibular da Fatec.
-    Esse projeto teve muito sucesso e será adaptado para outros tipos de provas como o Enade.
-  twitter: "ingridmazoni"
-  facebook: "ingridmazoni"
-  github: "ingridmazoni"
-  linkedin: "ingridmazoni"
-
-- name: "Douglas Williams Palheta da Conceição"
-  voluntary: true
-  avatar: "Douglas-Williams.jpg"
-  labels: [poc]
-  location: "Ananindeua - PA"
-  skills: [Iniciante, Desenvolvimento web]
-  bio: >
-    Sou formado em Redes de computadores e estou atualmente aprendendo Desenvolvimento Web.
-  email: "willamsdouglas015@gmail.com"
-
-- name: Jéssica Lopes
-  voluntary: true
-  labels: [women]
-  avatar: "Jessica-Lopes.jpg"
-  location: São Bernardo do Campo - SP
-  skills: [HTML, CSS, Bootstrap, JavaScript e Git/GitHub]
-  bio: >
-    Sou apaixonada por programação, pois vejo nela um modo de
-    mudar o mundo e deixar essa mudança acessível à muitos.
-  email: jeesousa91@gmail.com
-  linkedin: "in/jesslsousa/"
-  github: "jeesousa"
-  twitter: "jeesousa91"
-  facebook: "jesslsousa"
-
-- name: Nathecia Cunha
-  voluntary: true
-  labels: [women]
-  avatar: "Nathecia-Cunha.jpg"
-  location: "Natal- RN"
-  skills: [HTML, CSS, Desenvolvimento web]
-  bio: >
-    Estudante de Informática no IFRN, Téc. Redes de Computadores pelo IMD e Apaixonada por Arduino
-    e suas tecnologias, membro dos grupos GDG/Potilivre.
-  email: nathecia02@hotmail.com
-  linkedin: "nathecia-c-818447142"
-  github: "nathecia"
-  twitter: "natheciacunha"
-  facebook: Nathecia Cunha"
-
-- name: Jacqueline Asano
-  speaker: true
-  labels: [women]
-  avatar: "Jacqueline-Asano.jpg"
-  location: São Paulo - SP
-  skills: [Product Management, Women Empowerment, Mulher em Tech, Tech debts management, Roadmap]
-  bio: >
-    Sou uma Product Manager apaixonada por fazer produtos que realmente resolvam problemas que
-    realmente existem. Sou feminista e luto por mais mulheres na tecnologia através de iniciativas
-    como o @MulheresdeProduto, uma comunidade que criei para reunir mulheres que ja atuam ou estão
-    interessadas em ingressar em tech. Atualmente na #Nubank.
-  email: jacqueline.y.asano@gmail.com
-  site: https://medium.com/jacqueline-yumi-asano
-  linkedin: in/jacquelineyumiasano/
-  github: jacquelineasano
-  twitter: jacquelineasano
-  facebook: JacquelineYumiAsano
-
-- name: Jessica Temporal
-  speaker: true
-  labels: [women]
-  avatar: "Jessica-Temporal.jpg"
-  location: São Paulo - SP
-  skills: [Data Science, Open Source, Desenvolvimento, Python, Podcast]
-  bio: >
-    Desenvolvedora e cientista de dados na Nuveo, co-fundadora do podcast brasileiro sobre ciência
-    de dados o @PizzadeDados, @PyLady e também mantenedora do projeto Operação #SerenatadeAmor.
-    Formou-se sem Informática Biomédica onde descobriu a paixão por ciência de dados analisando
-    dados genômicos e flertando com processamento de linguagem natural durante a graduação.
-  email: jessicatemporal@gmail.com
-  site: http://jtemporal.com/
-  github: jtemporal
-  twitter: jesstemporal
-
-- name: Erika Faustino
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [women]
-  avatar: "Erika-Faustino.jpg"
-  location: Quixadá - CE
-  skills: [Desenvolvedora, Educadora]
-  bio: >
-    Formada em Sistemas de Informação e hoje estuda Engenharia de Software, sou desenvolvedora web, louca por inovação e educação.
-  email: ehrikaster@gmail.com
-  twitter: Erika_SFS
-
-- name: Stefanie Melo
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [lwomen, gbt]
-  avatar: Stefanie-Melo.jpg
-  location: São Paulo
-  skills: [Ruby on Rails, Python, React, Nodejs, ES6,]
-  bio: >
-    Trabalho há 10 anos com tecnologia e sou desenvolvedora Full Stack há pouco mais de 2 anos, com
-    experiência em plataformas de e-commerce e educação. Atualmente trabalho como desenvolvedora em
-    uma plataforma de ensino online. Ruby on Rails e Python no Back End e React para o Front End
-    fazem parte do meu dia a dia. Além disso tenho me envolvido como coach em diversos projetos que
-    promovem a diversidade no meio da tecnologia como o @Programaria, @RailsGirls e @DjangoGirls.
-    Sou apaixonada por desenvolvimento e por ajudar mais pessoas a se apaixonarem como eu.
-  email: stefanietmelo@gmail.com
-  linkedin: in/stefaniemelo
-  github: melostbr
-  twitter: "@mmelost"
-
-- name: Carol Soares
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [women, lgbt]
-  avatar: "carol-soares.jpg"
-  location: Osasco - SP
-  skills: [HTML, CSS, JS, PWA, Produção de conteúdo]
-  bio: >
-    Desenvolvedora Front end, estudante de Sistemas para Internet, palestrante, podcaster @lovelace podcast e
-    comunicadora. Acredito na tecnologia como construção do futuro, por isso apoio inclusão
-    e diversidade no meio.
-  email: carolinesoaressantoss@gmail.com
-  linkedin: in/carolcode/
-  github: carolcodes
-  twitter: carolcode
-
-- name: Jaqueline Venturim
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [lgbt]
-  avatar: "Jaqueline-Venturim.jpg"
-  location: São Paulo - SP
-  skills: [UI, UX]
-  bio: >
-    Sou UXer iniciante e gosto de falar sobre meu caminho e acho importante falar
-    para iniciantes com iniciantes. Sou formada em SI e amante de TI. @LGBTech é
-    a comunidade que to fazendo ganhar vida.
-  email: jaqueventurim@gmail.com
-  site: https://jventurim.com.br/
-  linkedin: in/jaqueventurim
-
-- name: Yanka Santos
-  speaker: true
-  voluntary: true
-  mentor: true
-  labels: [women]
-  avatar: "Yanka-Santos.jpg"
-  location: Recife - PE
   skills: [Desenvolvedora Fullstack,  Palestrante, Podcaster]
   bio: >
     Desolvedora Fullstack, palestrante, cursando Sistemas de
     Informação na Uninabuco e Host no podcast DoPortoAoVale.
-  email: yankasantos0107@gmail.com
-  linkedin: in/yanka-santos-324511b1/
-  github: yankasantos
-  twitter: YankaSantosOn
-  facebook: yanka.santos.754
-
-- name: Ruan Brandão
-  speaker: true
-  labels: [poc]
-  avatar: "ruan-brandao.jpg"
-  location: São Paulo - SP
-  skills: [Desenvolvimento Web, Segurança da Informação, Ruby, Elixir, JavaScript, GitFlow]
-  bio: >
-    Desenvolvedor web com background em segurança da informação. Entusiasta de open
-    source, comunidades inclusivas e observar como a tecnologia influencia a sociedade.
-    Baterista amador nas horas vagas.
-  email: ruan.bernardo@gmail.com
-  linkedin: in/ruanbrandao/
-  github: ruan-brandao
-  twitter: RuanBrandao
+  email: "yankasantos0107@gmail.com"
+  linkedin: "yanka-santos-324511b1"
+  github: "yankasantos"
+  twitter: "YankaSantosOn"
+  facebook: "yanka.santos.754"
