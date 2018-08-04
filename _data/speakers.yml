@@ -853,7 +853,7 @@
 - name: "Lorrayne Patricia Pereira"
   voluntary: true
   email: "lorraynepatricia@outlook.com"
-  avatar: "lorrayne_paty.jpg"
+  avatar: "lorrayne-paty.jpg"
   location: "Belo Horizonte - MG"
   labels: [women]
   skills: [Análise de processos BPMN, Gestão de processos e metas, Apoio operacional]
@@ -1391,7 +1391,7 @@
 - name: "Victor Magalhães"
   speaker: true
   email: "vhfmag@protonmail.com"
-  avatar: "vhfmag.jpg"
+  avatar: "victor-magalhaes.jpg"
   location: "Salvador - BA"
   labels: [men, lgbt]
   skills: [Javascript, Typescript, NodeJS, React, PWA, SEO, HTML, HTML Semântico, CSS]
