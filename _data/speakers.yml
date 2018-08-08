@@ -37,6 +37,7 @@
   speaker: true
   voluntary: true
   mentor: true
+  highlight: true
   labels: [women, parent]
   location: "Porto Alegre - RS"
   avatar: "aline-bastos.jpg"
@@ -364,6 +365,7 @@
   speaker: true
   voluntary: true
   mentor: true
+  highlight: true
   labels: [men, poc]
   avatar: "diego-garcia.jpg"
   location: "Porto Alegre - RS"
@@ -390,6 +392,7 @@
   speaker: true
   voluntary: true
   mentor: true
+  highlight: true
   email: "emylleandressa2811@gmail.com "
   avatar: "emylle-borges.jpg"
   location: "Feira de Santana - BA"
@@ -542,6 +545,7 @@
   speaker: true
   voluntary: true
   mentor: true
+  highlight: true
   email: "belle.galvao@yahoo.com.br"
   avatar: "isabelle-galvao.jpg"
   location: "Santos - SP"
@@ -641,6 +645,7 @@
 
 - name: "Jessica Temporal"
   speaker: true
+  highlight: true
   labels: [women]
   avatar: "jessica-temporal.jpg"
   location: "São Paulo - SP"
@@ -679,6 +684,7 @@
   speaker: true
   voluntary: true
   mentor: true
+  highlight: true
   labels: [men, blind]
   location: São Paulo - SP
   avatar: "jonas-marques.jpg"
