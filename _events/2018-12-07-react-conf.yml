@@ -1,17 +1,22 @@
 ---
-title: React Conf
+title: ReactConf 2018
 inclusive: true
 partners: true
+beginners: true
+cfp: true
 location: São Paulo - SP
-date: Definir
-from: '2018-12-07'
-until: '2018-12-07'
+date: 20/10
+from: '2018-10-20'
+until: '2018-10-20'
 banner: react.png
 tags:
 - women
 - coc
+- junior
 - universal-access
 hashtag: reactconf
 twitter: reactconfbr
 facebook: reactconf
-main_url: reactconf
+main_url: http://reactconfbr.com.br/
+rsvp_url: https://www.sympla.com.br/react-conf-brasil-2018__324745
+

@@ -1,7 +1,8 @@
 ---
-title: Rubyconf BR
+title: Rubyconf BR 2018
 inclusive: true
 partners: true
+cfp: true
 location: São Paulo - SP
 date: Definir
 from: '2018-12-20'
@@ -17,3 +18,4 @@ hashtag: rubyconfbr
 twitter: rubyconfbr
 facebook: locaweb
 main_url: http://eventos.locaweb.com.br/proximos-eventos/rubyconf-2017/
+# rsvp_url: http://cfp.rubyconf.com.br/events/rubyconf2018

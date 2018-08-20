@@ -2,9 +2,9 @@
 title: 'python cerrado'
 location: Brasília - DF
 women: true
-date: 18/08 e 19/08
-from: '2018-08-18'
-until: '2018-08-19'
+date: 29/09 e 30/09
+from: '2018-09-29'
+until: '2018-09-30'
 banner: python-cerrado.png
 tags:
 - women
@@ -12,5 +12,6 @@ tags:
 hashtag: pycerrado2018
 twitter: pythoncerrado
 facebook: pythoncerrado
-main_url: hhttp://2018.pythoncerrado.org/
+main_url: http://2018.pythoncerrado.org/
+rsvp_url: https://ev.congressy.com/python-cerrado/
 

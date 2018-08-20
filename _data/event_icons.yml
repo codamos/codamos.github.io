@@ -49,3 +49,7 @@ perifa:
 juniors:
   class: "fas fa-lemon"
   label: "evento indicado para iniciantes"
+
+vegan:
+  class: "fas fa-seedling"
+  label: "inclusivo para restrições alimentares"
