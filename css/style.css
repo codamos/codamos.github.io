@@ -408,23 +408,6 @@ p {
     box-shadow: inset 20px 20px 20px 20px #e60050;
 }
 
-.page-section-social-twitter {
-    color: #fff;
-    background: #4990E2;
-    padding: 1.5em;
-    margin: 4em auto 2.5em auto;
-    font-size: 1.5em;
-    font-family: 'Josefin Sans', sans-serif;
-    border-bottom: 4px solid #9DC8FA;
-    width: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10px 10px 10px 10px;
-    text-align: center;
-    text-decoration: none;
-}
-
 .page-section-social-tc {
     color: #fff;
     background: #660099;
@@ -433,7 +416,7 @@ p {
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #ddc7ed;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -449,22 +432,13 @@ p {
     font-size: 1.5em;
     font-family: 'Josefin Sans', sans-serif;
     border-bottom: 4px solid #BACDFB;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     text-decoration: none;
-}
-
-@media (max-width: 660px) {
-    .page-section-social-facebook,
-    .page-section-social-tc,
-    .page-section-social-twitter {
-        width: 100%;
-    }
-
 }
 
 .page-section-social-twitter svg {
@@ -486,9 +460,9 @@ p {
     font-weight: bold;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin: 0 0 1.5em 0;
+    margin: 1em;
     padding: 0.5em;
-    background: rgba(209,229,0,0.7);
+    background: rgba(209,229,0,0.8);
     background-blend-mode: multiply;
     color: #000;
 }
@@ -838,6 +812,17 @@ p {
         color: #ffffff;
         width: 80%;
     }
+}
+
+@media (min-width: 1440px) {
+    #banner {
+        height: 50vh;
+    }
+
+    .page-banner-title {
+        font-size: 4em;
+    }
+
 }
 
 /*EVENTOS*/
@@ -1654,6 +1639,36 @@ p {
     margin: 0 auto;
 }
 
+#twitter-event {
+    text-align: center;
+    width: 100%;
+    padding: 5em 1em;
+    background: #4990E2;
+    border-bottom: 1.5em solid #9DC8FA;
+    border-top: 1.5em solid #9DC8FA;
+}
+
+.twitter-event-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 0.5em;
+}
+
+.twitter-event-title i {
+    font-size: 1em;
+}
+
+.twitter-event-call {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
 
 /*PARCEIROS E APOIADORES*/
 #partners-supporters {
@@ -1661,6 +1676,8 @@ p {
     width: 100%;
     padding-bottom: 6em;
     margin-top: 6em;
+    display: flex;
+    flex-direction: row;
 }
 
 .partners-supporters-links {
@@ -1691,7 +1708,6 @@ p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 100vh;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -1704,7 +1720,7 @@ p {
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin: 6em 0;
+    margin: 6em auto;
     border-radius: 3px;
     letter-spacing: 2px;
 }
@@ -1728,11 +1744,13 @@ p {
         width: 150px;
         height: 150px;
     }
-    .partners-supporters-box {
-    height: 60vh;
-    }
 }
 
+@media (min-width: 1440px) {
+    .partners-supporters-wannabe h3 {
+        font-size: 4em;
+    }
+}
 
 /*INCLUIR PALESTRANTE*/
 #include-speaker {

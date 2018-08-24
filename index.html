@@ -17,20 +17,20 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <h1 class="page-section-title">Onde estão os eventos de tecnologia?</h1>
+  <h1 class="page-section-title">Onde estão os eventos de tecnologia pelo Brasil?</h1>
 
     <p class="page-section-text">
-    Existem muitas plataformas onde podemos criar eventos, mas poucas que selecionam os que querem ter
+    Existem muitas plataformas onde podemos criar eventos, mas poucas selecionam os que querem ter
     ou já tem inclusão e diversidade. O objetivo do Codamos é promover <a href="/eventos">eventos</a>
-    com esse foco.
+    com foco em ser um espaço seguro para todas as pessoas.
     <br>
-    Aqui você encontra informações relevantes sobre eventos cadastrados e pode facilmente escolher o
-    mais adequado ao seu perfil. Faça parte do Codamos e nos ajude a mudar a vida das pessoas.
+    Aqui você encontra informações relevantes sobre eventos pelo Brasil e pode facilmente escolher o
+    mais adequado ao seu perfil. Faça parte do Codamos, envie seu evento inclusivo para ser cadastrado e nos ajude a mudar a vida das pessoas que querem participar de uma comunidade de tecnologia mais diversa.
   </p>
 
   <img src="images/logo.png" alt="Logotipo Codamos">
 
-  <h1 class="page-section-subtitle-alt">Eventos em destaque</h1>
+  <h1 class="page-section-subtitle-alt">Eventos que não da pra perder!</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
@@ -45,33 +45,31 @@ layout: default
 <section class="page-section">
 
   <p class="page-section-text">
-    Observando a comunidade tecnológica, conseguimos perceber que existe uma lacuna de onde
+    Observando a comunidade tecnológica brasileira, conseguimos perceber que existe uma lacuna de onde
     concentrar todas as informações de eventos, workshops, palestras, cursos e oportunidades de
     networking em todo Brasil reunidas um lugar só. Além disso, são poucos os que preocupam em
-    divulgar e incentivar a inclusão, diversidade e a acessibilidade nos eventos de tecnologia.
-    Nosso objetivo é promover <a href="/eventos">eventos</a> com esse foco.
+    divulgar e incentivar a inclusão, diversidade e a acessibilidade. Essa é a razão pela qual criamos o Codamos.
   </p>
 
   <p class="page-section-text">
-    <a href="/quem-somos">Essa é a razão pela qual criamos o Codamos.</a>
+    <a href="/quem-somos">Conheça a nossa história.</a>
   </p>
 
-  {% include tweet-event.html %}
 </section>
 
-{% include code_of_conduct.html %}
+  {% include tweet-event.html %}
 
 <!-- PALESTRANTES -->
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-subtitle-alt">Pessoas que querem palestrar</h1>
+    <h1 class="page-section-subtitle-alt">Ache pessoas que querem palestrar</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}
       {% include speakers.html speakers=speakers %}
     </ul>
 
-    <a class="button-primary-outline" href="/palestrantes">Veja todos os palestrantes</a>
+    <a class="button-primary-outline" href="/pessoas">Veja todos os palestrantes</a>
   </div>
 </section>
 

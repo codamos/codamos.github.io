@@ -6,7 +6,7 @@
     <title>Codamos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="O Codamos une eventos com inclusão, diversidade, palestrantes, informações de workshops, cursos e oportunidades de networking em TI para todos em todo o Brasil.">
+    <meta name="description" content="O Codamos une eventos com inclusão, diversidade, palestrantes, informações de workshops, cursos e oportunidades de networking em TI para todas as pessoas em todo o Brasil.">
     <meta name="twitter:site" content="@CodamosClub">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="fb:app_id" content="153860871889386">
@@ -41,10 +41,13 @@
             Comunidades</a>
           <a href="/podcast"
              {% if page.url == "/podcast.html" %}class="active"{% endif %}>
-            Para ouvir</a>
+            Para ouvir e ver</a>
           <a href="/pessoas"
              {% if page.url == "/pessoas.html" %}class="active"{% endif %}>
             Pessoas</a>
+          <a href="/sobre-diversidade"
+            {% if page.url == "/sobre-diversidade.html" %}class="active"{% endif %}>
+            Sobre diversidade</a>
           <a href="/quem-somos"
              {% if page.url == "/quem-somos.html" %}class="active"{% endif %}>
             Sobre o Codamos</a>
@@ -78,8 +81,9 @@
           <ul class="submenu-hamburger">
             <li><a href="/eventos">Eventos</a></li>
             <li><a href="/comunidades">Comunidades</a></li>
-            <li><a href="/podcast">Para ouvir</a></li>
+            <li><a href="/podcast">Para ouvir e ver</a></li>
             <li><a href="/pessoas">Pessoas</a></li>
+            <li><a href="/sobre-diversidade">Sobre diversidade</a></li>
             <li><a href="/quem-somos">Sobre o Codamos</a></li>
             <li><a href="/parceiros">Parceiros</a></li>
             <li><a href="/codigo-de-conduta">Código de Conduta</a></li>
@@ -119,11 +123,10 @@
 
       <div class="partners-supporters-box" data-background="images/bg-parceiros.jpg">
         <div class="partners-supporters-wannabe">
-            <h3>Seja um parceiro e apoie a diversidade</h3>
+            <h3>Seja um parceiro, apoie a diversidade.</h3>
             <h4>Preencha o formulário que entramos em contato:</h4>
-            <a class="button-partners" href="/parceiros" target="_blank">Seja nosso parceiro</a>
+            <a class="button-partners" href="/parceiros" target="_blank">Fazer parceria</a>
         </div>
-      </div>
 
       <div>
         <h2 class="page-section-subtitle-patners">Apoiadores</h2>
@@ -165,6 +168,7 @@
         {% endif %}
 
       </div>
+      </div>
 
     </section>
 
@@ -176,10 +180,11 @@
         <span class="divider"></span>
         <a href="/comunidades">Comunidades</a>
         <span class="divider"></span>
-        <a href="/podcast">Para ouvir</a>
+        <a href="/podcast">Para ouvir e ver</a>
         <span class="divider"></span>
         <a href="/pessoas">Pessoas</a>
         <span class="divider"></span>
+        <a href="/sobre-diversidade">Sobre diversidade</a>
         <a href="/quem-somos">Sobre o Codamos</a>
         <span class="divider"></span>
         <a href="/parceiros">Parceiros</a>
@@ -193,9 +198,6 @@
         </a>
         <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank" title="Facebook">
           <i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="#" class="footer-logo">
-          <img src="images/footer.png" alt="Ícone Codamos"/>
         </a>
         <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank" title="Meetup">
           <i class="fab fa-meetup fa-2x" aria-hidden="true"></i>
