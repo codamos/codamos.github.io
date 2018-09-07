@@ -1225,24 +1225,24 @@
   twitter: "samlopes_br"
   facebook: "samantalopesBR"
 
-- name: "Silvia Regina Coelho da Rosa"
-  speaker: true
-  labels: [women, parent]
-  location: "São Paulo - SP"
-  avatar: "silvia-regina.jpg"
-  skills: [Conhecimentos em html, css, javascript, bootstrap, C, Matlab, IoT, Eletrônica, Maternidade e Carreira]
-  bio: >
-    Tenho Mestrado e Graduação em Engenharia Elétrica e atuei com pesquisa e desenvolvimento de
-    softwares para celulares. Sou desenvolvedora front end formada pela Reprograma. Em busca de
-    novos desafios, estudo soluções em IoT e linguagem R. Como fundadora da comunidade Elas
-    Programam incentivo mulheres a seguirem carreira em TI, unindo paixão por tecnologia e vontade
-    de transformar o mundo. Mãe da Isadora e do Renato, falo sobre os impactos da maternidade na
-    carreira profissional das mulheres, quais obstáculos e desafios enfrentei, como fiz para
-    superá-los e voltar ao mercado de trabalho depois de 9 anos como mãe em tempo integral.
-  email: "silvia.rcr@gmail.com"
-  site: "https://medium.com/@silviacoelho_92616"
-  linkedin: "silvia-coelho"
-  facebook: "silvia.coelho.31"
+# - name: "Silvia Regina Coelho da Rosa"
+#   speaker: true
+#   labels: [women, parent]
+#   location: "São Paulo - SP"
+#   avatar: "silvia-regina.jpg"
+#   skills: [Conhecimentos em html, css, javascript, bootstrap, C, Matlab, IoT, Eletrônica, Maternidade e Carreira]
+#   bio: >
+#     Tenho Mestrado e Graduação em Engenharia Elétrica e atuei com pesquisa e desenvolvimento de
+#     softwares para celulares. Sou desenvolvedora front end formada pela Reprograma. Em busca de
+#     novos desafios, estudo soluções em IoT e linguagem R. Como fundadora da comunidade Elas
+#     Programam incentivo mulheres a seguirem carreira em TI, unindo paixão por tecnologia e vontade
+#     de transformar o mundo. Mãe da Isadora e do Renato, falo sobre os impactos da maternidade na
+#     carreira profissional das mulheres, quais obstáculos e desafios enfrentei, como fiz para
+#     superá-los e voltar ao mercado de trabalho depois de 9 anos como mãe em tempo integral.
+#   email: "silvia.rcr@gmail.com"
+#   site: "https://medium.com/@silviacoelho_92616"
+#   linkedin: "silvia-coelho"
+#   facebook: "silvia.coelho.31"
 
 - name: "Stefanie Melo"
   speaker: true

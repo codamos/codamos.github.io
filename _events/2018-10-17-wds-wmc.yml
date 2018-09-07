@@ -5,6 +5,7 @@ date: 27/10
 from: '2018-10-27'
 until: '2018-10-27'
 women: true
+cfp: true
 inclusive: true
 beginners: true
 group: wmc.png
@@ -15,7 +16,7 @@ tags:
   - coc
   - mobility
   - juniors
-hashtag: womakerscode
+hashtag: wds2k18
 twitter: womakerscode
 facebook: womakerscode
 main_url: https://www.meetup.com/WoMakersCode/
