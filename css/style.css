@@ -1674,8 +1674,7 @@ p {
 #partners-supporters {
     text-align: center;
     width: 100%;
-    padding-bottom: 6em;
-    margin-top: 6em;
+    margin-top: 4em;
     display: flex;
     flex-direction: row;
 }
@@ -1704,9 +1703,6 @@ p {
 }
 
 .partners-supporters-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #ffffff;
     background-size: cover;
     background-position: top center;
@@ -1714,6 +1710,8 @@ p {
     background-color: darkmagenta;
     background-blend-mode: multiply, color-burn;
     border-top: 6px solid #e60050;
+    width: 100%;
+    padding-bottom: 6em;
 }
 
 .partners-supporters-wannabe {
@@ -1731,7 +1729,7 @@ p {
 }
 
 .partners-supporters-wannabe h4 {
-    margin-bottom: 2em;
+    margin: 2em 0;
     font-weight: 300;
 }
 
@@ -1743,12 +1741,6 @@ p {
         margin: 2px;
         width: 150px;
         height: 150px;
-    }
-}
-
-@media (min-width: 1440px) {
-    .partners-supporters-wannabe h3 {
-        font-size: 4em;
     }
 }
 
@@ -2128,7 +2120,7 @@ p {
 
 .footer-social a:hover {
     color: #f3f3f3;
-    background: #ffb400;
+    background: #8edbdf;
 }
 
 .footer-social .footer-logo,
