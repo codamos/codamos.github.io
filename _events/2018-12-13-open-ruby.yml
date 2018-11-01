@@ -1,21 +1,23 @@
 ---
-title: Rubyconf BR 2018
+title: Open Ruby - Codamos
 inclusive: true
-partners: true
-cfp: true
+codamos: true
+beginners: true
+women: true
 location: São Paulo - SP
 date: 13/12 e 14/12
 from: '2018-12-13'
 until: '2018-12-13'
-banner: rubyconf.png
-group: locaweb.png
-group_name: Locaweb
+banner: open-ruby.png
+group: codamos.png
+group_name: Codamos
 tags:
 - women
 - coc
 - mobility
-hashtag: rubyconfbr
-twitter: rubyconfbr
-facebook: locaweb
+- juniors
+hashtag: MeulugaremTI
+twitter: CodamosClub
+facebook: codamosclub
 main_url: https://eventos.locaweb.com.br/proximos-eventos/rubyconf-brasil-2018/
 rsvp_url: https://www.sympla.com.br/rubyconf-brasil-2018__373604
