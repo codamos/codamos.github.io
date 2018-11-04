@@ -1,9 +1,9 @@
 ---
 title: 'Campus Party - #CPMG3'
 location: Belo Horizonte - MG
-date: 31/10 a 04/11
-from: '2018-10-31'
-until: '2018-11-04'
+date: 07/11 a 10/11
+from: '2018-11-07'
+until: '2018-11-10'
 banner: cpbr.png
 women: true
 inclusive: true
@@ -16,4 +16,5 @@ hashtag: CPMG3
 twitter: CampusPartyBRA
 facebook: campuspartybrasil
 main_url: http://campuse.ro/
+rsvp_url: https://campuse.ro/events/campus-party-minas-gerais-2018
 
