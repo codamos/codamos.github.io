@@ -7,6 +7,20 @@
 # linkedin:  texto sem espaços, opcional.
 # instagram: texto sem espaços, opcional.
 
+- name: "Cynthia Pereira"
+  avatar: "cynthia.jpg"
+  twitter: "cynthiacpereira"
+  facebook: "cynthiapereira_"
+
+- name: "Miguel Soares"
+  avatar: "miguel-soares.jpg"
+  twitter: "oieusouamiguell"
+  facebook: "oieusouamiguel"
+
+- name: "Ingrid Mazoni"
+  avatar: "ingrid.jpg"
+  twitter: "ingridmazoni"
+  facebook: "ingridmazoni"
 
 - name: "Tirzah Lima"
   avatar: "erica-tirzah.jpg"
