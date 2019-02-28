@@ -4,7 +4,6 @@ inclusive: true
 category: 'Bootcamp'
 women: true
 cpf: true
-highlight: true
 location: São Paulo - SP
 date: '30/11'
 from: '2018-11-30'
