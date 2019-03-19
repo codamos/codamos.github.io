@@ -1,21 +1,19 @@
 ---
 title: Elixir Brasil 2019 - edição 2
 location: São Paulo - SP
-codamos: true
 highlight: true
 beginners: true
-date: a confirmar
-from: '2019-05-01'
-until: '2019-05-01'
+date: 25/05 e 26/05
+from: '2019-05-25'
+until: '2019-05-26'
 banner: elixir-brasil.png
-women: true
 inclusive: true
-hashtag: 'myelixirstatus'
+hashtag: ElixirBrasil
+twitter: elixir_brasil
 tags:
 - women
 - coc
 - mobility
-- universal-access
 - juniors
 main_url: https://www.eventials.com/locaweb/events/elixir-brasil/
 rsvp_url:
