@@ -8,6 +8,7 @@
 # category:      texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
 # women:         booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
 # lgbt:          booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# poc:           booleano (true ou false), opcional. Evento com foco em Diversidade Racial na TI.
 # hackathon:     booleano (true ou false), opcional. Evento no formato hackathon.
 # opensource:    booleano (true ou false), opcional. É um evento para a comunidade Open source.
 # cfp:           booleano (true ou false), opcional. Está com Call For papers aberto.
@@ -145,6 +146,12 @@
       {% if event.lgbt %}
       <div class="events-card-header-tag lgbt">
         <i class="fas fa-flag" aria-hidden="true"></i><h3>Evento LGBT</h3>
+      </div>
+      {% endif %}
+
+      {% if event.poc %}
+      <div class="events-card-header-tag on_line">
+        <i class="fas fa-hand-rock" aria-hidden="true"></i><h3>Diversidade Racial</h3>
       </div>
       {% endif %}
 
