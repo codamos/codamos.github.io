@@ -7,7 +7,6 @@ until: '2019-11-30'
 banner: tdc.png
 women: true
 beginners: true
-inclusive: true
 tags:
 - women
 - coc
