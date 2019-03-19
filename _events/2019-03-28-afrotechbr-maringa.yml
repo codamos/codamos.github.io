@@ -2,6 +2,7 @@
 title: 1º AfroTech MGA
 inclusive: true
 poc: true
+beginners: true
 location: Maringá - PR
 date: 28/03
 from: '2019-03-28'
@@ -10,6 +11,10 @@ banner: afrotech-maringa.png
 tags:
 - women
 - poc
+- coc
+- lgbt
+- perifa
+- juniors
 hashtag: AfrotechBR
 twitter: afrotechbr
 main_url: https://twitter.com/afrotechbr
