@@ -450,7 +450,7 @@ p {
 }
 
 .page-banner-title {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 1em;
 }
@@ -618,8 +618,8 @@ p {
 }
 
 .header-navbar-menu .active {
-    color: #e60050;
-    border-top: 3px solid #e60050;
+    color: #fff;
+    background-color: #e60050;
 }
 
 .header-navbar-menu a:hover,
@@ -713,7 +713,7 @@ p {
     position: absolute;
     display: block;
     background: #a6acff;
-    background: linear-gradient(90deg,#9fd8dd 0,#d6de3f);
+    background: linear-gradient(90deg,#f5b43c 0,#db3f5b);
 }
 
 /*BANNER*/
@@ -2052,8 +2052,8 @@ p {
     color: #eee;
     margin: 0 auto;
     text-align: center;
-    padding: 2em;
-    border-top: 6px solid  #8edbdf;
+    padding: 1em 2em;
+    font-size: 0.75em;
 }
 
 #footer a {
@@ -2066,7 +2066,7 @@ p {
 }
 
 .footer-box {
-    margin: 2em auto;
+    margin: 1em auto;
 }
 
 .footer-menu {
@@ -2111,7 +2111,7 @@ p {
 
 .footer-social a:hover {
     color: #f3f3f3;
-    background: #8edbdf;
+    background: #e60050;
 }
 
 .footer-social .footer-logo,
@@ -2131,6 +2131,41 @@ p {
   transform: rotate(180deg);
 }
 
+.footer-border {
+    content: "";
+    width: 100%;
+    height: 6px;
+    bottom: 0;
+    display: block;
+    background: #a6acff;
+    background: linear-gradient(90deg,#9fd8dd 0,#d6de3f);
+}
+.footer-contato {
+    background: #e60050;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5em 2em;
+    color: #fff;
+    font-size: small;
+}
+.footer-contato-esq {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.footer-contato-esq-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.footer-contato-dir {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 660px) {
     .footer-menu {
         flex-direction: column;
@@ -2143,6 +2178,20 @@ p {
     .footer-social a {
         width: 3.5em;
         height: 3.5em;
+    }
+
+    .footer-contato {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-contato-dir,
+    .footer-contato-esq {
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+
     }
 
     .footer-box {
