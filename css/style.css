@@ -450,21 +450,16 @@ p {
 }
 
 .page-banner-title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 1em;
 }
 
 .page-banner-subtitle {
-    font-size: large;
-    font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.0;
     letter-spacing: 1px;
-    margin: 1em;
-    padding: 0.5em;
-    background: rgba(209,229,0,0.8);
-    background-blend-mode: multiply;
-    color: #000;
+    margin: 1em 1em 2em 1em;
+    color: #fff;
 }
 
 .page-section-title {
@@ -724,16 +719,14 @@ p {
     justify-content: center;
     flex-direction: column;
     color: #ffffff;
-    text-align: center;
     height: 80vh;
     padding: 5% 0 0 0;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
-    position: relative;
-    background-blend-mode: multiply;
-    opacity: 0.9;
-    border-bottom: 6px solid #d1e500;
+    background-position: top left;
+    background-blend-mode: multiply, screen;
+    border-bottom: 1.5em solid #9DC8FA;
 }
 
 #summit {
@@ -762,35 +755,36 @@ p {
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner014.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner014.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-summit {
-  background-image: url("../images/summit/banner-destaque.png"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+  background-image: url("../images/summit/banner-destaque.png"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-eventos {
-    background-image: url("../images/bg-banner011.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner011.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-comunidades {
-    background-image: url("../images/bg-banner003.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner003.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-podcast {
-    background-image: url("../images/bg-banner016.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner016.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-palestrantes {
-    background-image: url("../images/bg-banner009.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner009.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-quem-somos {
-    background-image: url("../images/bg-banner004.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner004.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-coc {
-    background-image: url("../images/bg-banner002.jpg"), linear-gradient(4deg, #ffff7e 0%,#00a8c5 100%);
+    background-image: url("../images/bg-banner002.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
+    background-color: rgba(73, 144, 227, 0.5);
 }
 
 #banner .page-section-text, #summit .page-section-text {
