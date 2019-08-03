@@ -393,8 +393,8 @@ p {
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
-    padding: 5px 5px 0 5px;
-    border-bottom: 2px solid #e60050;
+    border-bottom: 1px solid #e60050;
+    padding-bottom: .15rem;
 }
 
 .page-section p a:hover {
@@ -402,7 +402,6 @@ p {
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
-    padding: 5px 5px 0 5px;
     -webkit-box-shadow: inset 0 -2px 0 #9FD7DE;
     -moz-box-shadow: inset 0 -2px 0 #9FD7DE;
     box-shadow: inset 20px 20px 20px 20px #e60050;
@@ -464,9 +463,9 @@ p {
 
 .page-section-title {
     font-size: 48px;
-    font-size: 2.0em;
-    color: #3366cc;
-    font-weight: 300;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 400;
     margin: 2.5em 0;
 }
 
@@ -755,7 +754,7 @@ p {
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner014.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
+    background-image: url("../images/bg-banner014.jpg"), radial-gradient(ellipse closest-side, rgba(73,144,227,0.75), #4990E2);
 }
 
 .banner-summit {
