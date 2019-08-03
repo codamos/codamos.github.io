@@ -2135,30 +2135,22 @@ p {
 }
 .footer-contato {
     background: #e60050;
-    display: flex;
+    display: block;
     width: 100%;
     justify-content: center;
     padding: 5em 2em;
     color: #fff;
     font-size: small;
+    text-align: center;
 }
-.footer-contato-esq {
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-}
+
 .footer-contato-esq-title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: x-large;
+    font-size: 2.5em;
     font-weight: bold;
+    padding-bottom: 0.5em;
 }
-.footer-contato-dir {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 @media (max-width: 660px) {
     .footer-menu {
         flex-direction: column;
