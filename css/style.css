@@ -311,9 +311,10 @@ p {
 }
 
 .button-default-outline:active, .button-default-outline:hover {
-    color: #ffffff;
+    color: #e60050;
     box-shadow: none;
     border: 2px solid #ffffff;
+    background: #fff;
 }
 
 .button-banner {
@@ -326,13 +327,14 @@ p {
     text-decoration: none;
     padding: 14px 40px;
     border-radius: 14px;
-    background-color: #3366cc;
+    background: #e60050;
+    border: 2px solid #fff;
 }
 
 .button-banner:active, .button-banner:hover {
     color: #ffffff;
     box-shadow: none;
-    background: #e60050;
+    background: #3366cc;
 }
 
 .button-partners {
@@ -462,8 +464,9 @@ p {
 }
 
 .page-banner-title {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .page-banner-subtitle {
@@ -475,9 +478,10 @@ p {
 
 .page-section-title {
     font-size: 1.5em;
-    color: #333;
-    font-weight: 400;
+    color: #4990e3;
+    font-weight: 300;
     margin: 2.5em 0;
+    text-transform: uppercase;
 }
 
 .page-section-subtitle {
@@ -489,7 +493,7 @@ p {
 .page-section-subtitle-alt {
     font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
-    color: #333;
+    color: #262f38;
     margin: 2.5em 0;
     text-align: center;
 }
@@ -506,7 +510,7 @@ p {
 }
 
 .page-section-text {
-    color: #3e3e3e;
+    color: #262f38;
     font-size: large;
     font-weight: 300;
     line-height: 1.5;
@@ -514,8 +518,8 @@ p {
     margin: 1.5em 0;
 }
 
-.list ul li {
-    text-align: left !important;
+#midia-list ul {
+    text-align: left;
     list-style: none;
     margin-left: 3rem;
     color: #3e3e3e;
@@ -525,7 +529,17 @@ p {
     letter-spacing: 1px;
 }
 
-.list li::before {
+#midia-list li {
+    text-align: left;
+}
+
+#midia-list a {
+    text-transform: uppercase;
+    font-size: medium;
+    color: #3366cc;
+}
+
+#midia-list li::before {
     content: "•";
     display: inline-block;
     width: 1em;
@@ -537,6 +551,7 @@ p {
     .page-banner-title {
     width: 100%;
     margin-top: 1em;
+    font-size: x-large;
     }
 }
 
@@ -772,7 +787,6 @@ p {
     background-repeat: no-repeat;
     background-position: top center;
     background-blend-mode: multiply;
-    border-bottom: 1.5em solid #9DC8FA;
 }
 
 #summit {
@@ -1653,8 +1667,9 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    border-bottom: 1.5em solid #fdbbc7;
-    border-top: 1.5em solid #fdbbc7;
+    border-bottom: 1.5em solid #9DC8FA;
+    border-top: 1.5em solid #9DC8FA;
+    background: #4990E2;
 }
 
 .code-of-conduct-title {
@@ -1679,27 +1694,24 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    background: #4990E2;
-    border-bottom: 1.5em solid #9DC8FA;
-    border-top: 1.5em solid #9DC8FA;
+    color: #e60050;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    border-bottom: 0.5em dotted #9DC8FA;
+    border-top: 0.5em dotted #9DC8FA;
 }
 
 .twitter-event-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     font-weight: 300;
-    color: #ffffff;
     padding-bottom: 0.5em;
 }
 
-.twitter-event-title i {
-    font-size: 1em;
+#twitter-event .fa-twitter {
+    color: #4990e3;
 }
 
 .twitter-event-call {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-bottom: 1.5em;
     width: 80%;
@@ -1778,109 +1790,6 @@ p {
         width: 150px;
         height: 150px;
     }
-}
-
-/*INCLUIR PALESTRANTE*/
-#include-speaker {
-    text-align: center;
-    width: 100%;
-    padding: 5em 1em;
-    border-bottom: 1.5em solid #9fd8dd;
-    border-top: 1.5em solid #9fd8dd;
-}
-
-.include-speaker-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 0.5em;
-}
-
-.include-speaker-call {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 1.5em;
-    width: 80%;
-    margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-    .include-speaker-title {
-        font-size: 32px;
-    }
-
-    .include-speaker-call {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 992px) {
-    .include-speaker-title {
-        font-size: 36px;
-    }
-
-    .include-speaker-call {
-        font-size: 20px;
-    }
-}
-
-
-/*INCLUIR EVENTO*/
-#include-event {
-    text-align: center;
-    width: 100%;
-    padding: 5em 1em;
-}
-
-.include-event-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 0.5em;
-}
-
-.include-event-call {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 1.5em;
-    width: 80%;
-    margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-    .include-event-title {
-        font-size: 32px;
-    }
-
-    .include-event-call {
-        font-size: 18px;
-    }
-
-    #include-event img {
-    width: 30%;
-}
-}
-
-@media (min-width: 992px) {
-    .include-event-title {
-        font-size: 36px;
-    }
-
-    .include-event-call {
-        font-size: 20px;
-    }
-
-    #include-event img {
-    width: 30%;
-}
 }
 
 /*SUMMIT*/
@@ -2101,15 +2010,6 @@ p {
     font-size: 0.75em;
 }
 
-#footer a {
-    color: #eee;
-    text-decoration: none;
-}
-
-#footer a:hover {
-    color: #fff;
-}
-
 .footer-box {
     margin: 1em auto;
 }
@@ -2152,14 +2052,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid transparent;
+    box-shadow: 3px 4px 0px transparent;
 }
 
 .footer-social a:hover {
-    color: #f3f3f3;
-    background: #e60050;
+    color: #262f38;
+    background: #9DC8FA;
+    border: 1px solid #4990e3;
+    box-shadow: 3px 4px 0px #e60050;
 }
 
-.footer-social .footer-logo,
+.footer-logo,
 .footer-logo a:hover {
     background: #fff;
 }
@@ -2168,6 +2072,11 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: small;
     font-weight: 300;
+    color: #999;
+}
+
+.footer-creativecommons-text a {
+    color: #eee;
 }
 
 .copyleft {
@@ -2192,13 +2101,17 @@ p {
     justify-content: center;
     padding: 5em 2em;
     color: #fff;
-    font-size: small;
+    font-size: medium;
     text-align: center;
+    border-top: 1.5em solid #fdbbc7;
 }
 
-.footer-contato-esq-title {
+.footer-contato .fa-comment {
+    font-size: 2.5em;
+}
+.footer-contato-title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     padding-bottom: 0.5em;
 }
