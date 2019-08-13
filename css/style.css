@@ -300,13 +300,13 @@ p {
 .button-default-outline {
     display: inline-block;
     cursor: pointer;
-    color: #ffffff;
+    color: #eee;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
     padding: 14px 44px;
-    border: 2px solid #ffffff;
+    border: 2px solid #eee;
     border-radius: 14px;
 }
 
@@ -451,7 +451,6 @@ p {
 .page-banner-title {
     font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 1em;
 }
 
 .page-banner-subtitle {
@@ -462,7 +461,6 @@ p {
 }
 
 .page-section-title {
-    font-size: 48px;
     font-size: 1.5em;
     color: #333;
     font-weight: 400;
@@ -470,15 +468,15 @@ p {
 }
 
 .page-section-subtitle {
-    font-weight: 300;
-    font-size: 1.5em;
+    font-weight: 400;
+    font-size: 1.2em;
     margin: 2em 0;
 }
 
 .page-section-subtitle-alt {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
-    color: #3e3e3e;
+    color: #333;
     margin: 2.5em 0;
     text-align: center;
 }
@@ -723,8 +721,8 @@ p {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-blend-mode: multiply, screen;
+    background-position: top center;
+    background-blend-mode: multiply;
     border-bottom: 1.5em solid #9DC8FA;
 }
 
@@ -750,7 +748,11 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 3em;
+    padding: 3em;
+    width: 100%;
+    height: 80vh;
+    background: rgba(73,144,227,0.70);
+    text-align: center;
 }
 
 .banner-index {
@@ -1565,9 +1567,6 @@ p {
 
 
 /*CÓDIGO DE CONDUTA*/
-.coc-section .page-section-title {
-    color: #3366cc;
-}
 
 .coc-section .page-section-text {
     text-align: left;
@@ -1595,6 +1594,10 @@ p {
 
 .coc-section-license {
     margin: 4em 0;
+}
+
+.coc-section-license p {
+    margin: 4em 0 0 0;
 }
 
 #code-of-conduct {
@@ -2146,7 +2149,7 @@ p {
 
 .footer-contato-esq-title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     padding-bottom: 0.5em;
 }
