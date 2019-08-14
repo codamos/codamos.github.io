@@ -1,24 +1,7 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
+<div class="front">
   <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
-
-  {% if speaker.speaker %}
-    <div class="speaker-card-tag-label speaker">
-      <i class="fas fa-microphone-alt" aria-hidden="true"></i><h4>Palestrar</h4>
-    </div>
-  {% endif %}
-
-  {% if speaker.mentor %}
-    <div class="speaker-card-tag-label mentor">
-      <i class="fas fa-graduation-cap" aria-hidden="true"></i><h4>Mentorar</h4>
-    </div>
-  {% endif %}
-
-  {% if speaker.voluntary %}
-    <div class="speaker-card-tag-label voluntary">
-      <i class="far fa-handshake" aria-hidden="true"></i><h4>Voluntariar</h4>
-    </div>
-  {% endif %}
 
   <div class="speaker-card-labels">
     {% for label in speaker.labels %}
@@ -33,13 +16,33 @@
 
   <h4 class="speaker-card-skills">
     {% for skill in speaker.skills %}
-    <span>{{ skill }}</span>
+    <span><i class="fas fa-hashtag" aria-hidden="true"></i> {{ skill }}</span>
     {% endfor %}
   </h4>
 
-  <p class="speaker-card-bio">
-    {{ speaker.bio }}
-  </p>
+    <div class="speaker-card-header-ico">
+        {% if speaker.speaker %}
+        <span class="speaker-card-tag-label speaker">
+          <i class="fas fa-microphone-alt" aria-hidden="true"></i><h4>Palestrar</h4>
+        </span>
+        {% endif %}
+
+        {% if speaker.mentor %}
+          <span class="speaker-card-tag-label mentor">
+            <i class="fas fa-graduation-cap" aria-hidden="true"></i><h4>Mentorar</h4>
+          </span>
+        {% endif %}
+
+        {% if speaker.voluntary %}
+          <span class="speaker-card-tag-label voluntary">
+            <i class="far fa-handshake" aria-hidden="true"></i><h4>Voluntariar</h4>
+          </span>
+        {% endif %}
+
+        <span class="speaker-card-tag-label show-bio">
+          <i class="far fa-eye" aria-hidden="true"></i></i><h4>Ver bio</h4>
+        </span>
+    </div>
 
   <div class="speaker-card-social-media">
   <h4>Entre em contato</h4>
@@ -47,7 +50,7 @@
     <li>
     {% if speaker.email %}
       <a href="mailto:{{ speaker.email }}" title="E-mail"
-         target="_blank"><i class="far fa-envelope grey" aria-hidden="true"></i></a>
+         target="_blank"><i class="far fa-envelope" aria-hidden="true"></i></a>
     {% else %}
       <i class="far fa-envelope" aria-hidden="true" title="E-mail"></i>
     {% endif %}
@@ -56,7 +59,7 @@
     <li>
     {% if speaker.site %}
       <a href="{{ speaker.site }}" title="Site"
-         rel="noopener" target="_blank"><i class="fas fa-link grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
     {% else %}
       <i class="fas fa-link" aria-hidden="true" title="Site"></i>
     {% endif %}
@@ -65,7 +68,7 @@
     <li>
     {% if speaker.linkedin %}
       <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
-         rel="noopener" target="_blank"><i class="fab fa-linkedin grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
     {% else %}
       <i class="fab fa-linkedin" aria-hidden="true" title="Linkedin"></i>
     {% endif %}
@@ -74,7 +77,7 @@
     <li>
     {% if speaker.github %}
       <a href="https://github.com/{{ speaker.github }}" title="Github"
-         rel="noopener" target="_blank"><i class="fab fa-github-square grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
     {% else %}
       <i class="fab fa-github-square" aria-hidden="true" title="GitHub"></i>
     {% endif %}
@@ -83,7 +86,7 @@
     <li>
     {% if speaker.twitter %}
       <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
-         rel="noopener" target="_blank"><i class="fab fa-twitter grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
     {% else %}
       <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
     {% endif %}
@@ -92,12 +95,20 @@
     <li>
     {% if speaker.facebook %}
       <a href="https://facebook.com/{{ speaker.facebook }}" title="Facebook"
-         rel="noopener" target="_blank"><i class="fab fa-facebook grey" aria-hidden="true"></i></a>
+         rel="noopener" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
     {% else %}
       <i class="fab fa-facebook" aria-hidden="true" title="Facebook"></i>
     {% endif %}
     </li>
   </ul>
   </div>
+</div>
+
+<div class="back">
+  <div class="speaker-card-bio">
+    <div class="speech-bubble"></div>
+    <div class="scroller"><p>{{ speaker.bio }}</p></div>
+  </div>
+</div>
 </li>
 {% endfor %}
