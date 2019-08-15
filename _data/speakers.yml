@@ -167,13 +167,11 @@
 
 - name: "Bárbara Cabral"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "barbaracabral@gmail.com"
   avatar: "barbara-cabral.jpg"
   location: "Florianópolis - SC"
   labels: [women]
-  skills: [Agile Testing, Qualidade de Sotware, Métricas de Qualidade, Automação de Testes end-to-end, Testes de API/REST]
+  skills: [Agile Testing, Qualidade de Sotware, Métricas de Qualidade, Testes de API/REST]
   bio: >
     Analista de testes e qualidade, atua há quase 10 anos na área de Testes e Qualidade,
     nos quais pelo menos 8 deles com Agile Testing. Apaixonada pelas comunidades na área de TI, mentora e blogueira.
@@ -188,8 +186,6 @@
 
 - name: "Beatriz Gomes"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "playmobia71@gmail.com"
   avatar: "beatriz-gomes.jpg"
   location: "São Paulo - SP"
@@ -203,8 +199,6 @@
   facebook: "playmobia"
 
 - name: "Bruna Ferratto"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [women]
   avatar: "bruna-ferratto.jpg"
@@ -222,8 +216,6 @@
   facebook: "/bruna.ferratto"
 
 - name: "Carla Vieira"
-  speaker: true
-  voluntary: true
   mentor: true
   email: "carlaprv@hotmail.com"
   avatar: "carla-vieira.jpg"
@@ -239,8 +231,6 @@
   facebook: "carlaprvieira"
 
 - name: "Carol Soares"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [women, lgbt]
   avatar: "carol-soares.jpg"
@@ -351,8 +341,6 @@
 
 - name: "Diego Cardoso Garcia"
   speaker: true
-  voluntary: true
-  mentor: true
   highlight: true
   labels: [men, poc]
   avatar: "diego-garcia.jpg"
@@ -378,8 +366,6 @@
 
 - name: "Émylle Andressa Borges"
   speaker: true
-  voluntary: true
-  mentor: true
   highlight: true
   email: "emylleandressa2811@gmail.com "
   avatar: "emylle-borges.jpg"
@@ -408,8 +394,6 @@
 
 - name: "Erika Faustino"
   speaker: true
-  voluntary: true
-  mentor: true
   labels: [women]
   avatar: "erika-faustino.jpg"
   location: "Quixadá - CE"
@@ -446,8 +430,6 @@
   facebook: "felipedemorais"
 
 - name: "Fernanda Bernardo"
-  speaker: true
-  voluntary: true
   mentor: true
   email: "fernandabernardo94@gmail.com"
   avatar: "fernanda-bernardo.jpg"
@@ -496,8 +478,6 @@
 
 - name: "Inaray"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "inaray8@hotmail.com"
   avatar: "inaray.jpg"
   location: "Taboão da Serra - SP"
@@ -530,8 +510,6 @@
   linkedin: "ingridmazoni"
 
 - name: "Isabelle Galvão"
-  speaker: true
-  voluntary: true
   mentor: true
   highlight: true
   email: "belle.galvao@yahoo.com.br"
@@ -602,8 +580,6 @@
 
 - name: "Jaqueline Venturim"
   speaker: true
-  voluntary: true
-  mentor: true
   labels: [women, lgbt]
   avatar: "jaqueline-venturim.jpg"
   location: "São Paulo - SP"
@@ -650,8 +626,6 @@
 
 - name: "João S. O. Bueno"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "gwidion@gmail.com"
   avatar: "joao-bueno.jpg"
   location: "Campinas - SP"
@@ -670,8 +644,6 @@
 
 - name: "Jonas S. Marques"
   speaker: true
-  voluntary: true
-  mentor: true
   highlight: true
   labels: [men, blind]
   location: São Paulo - SP
@@ -720,8 +692,6 @@
 
 - name: "Juliene Alves"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "juliene.alves@live.com"
   avatar: "juliene-alves.jpg"
   location: "Recife - PE"
@@ -793,8 +763,6 @@
 
 - name: "Lauren Ferreira"
   speaker: true
-  voluntary: true
-  mentor: true
   labels: [women, lgbt]
   location: Sorocaba - SP
   avatar: "lauren-ferreira.jpg"
@@ -809,8 +777,6 @@
   facebook: larienmf
 
 - name: "Liliane Tie"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [women]
   location: "São Paulo - SP"
@@ -827,13 +793,11 @@
   facebook: "hlilitie"
 
 - name: "Livia Gabos"
-  speaker: true
-  voluntary: true
   mentor: true
   email: "liviagabos@gmail.com"
   avatar: "livia-gabos.jpg"
   location: "São José dos Campos - SP"
-  labels: [women]
+  labels: [women, poc]
   skills: [Testes, UX Design, IHC, Usabilidade, Acessibilidade]
   bio: >
     Formada e Mestre pela <strong>Unesp</strong> em Ciências da Computação, sempre trabalhei com usabilidade e acessibilidade.
@@ -860,8 +824,6 @@
 
 - name: "Luã Ciceri Schwertner"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "lciceris@gmail.com"
   avatar: "lua-ciceri.jpg"
   location: "Florianópolis - SC"
@@ -918,8 +880,6 @@
 
 - name: "Luiz Felipe de Oliva Limeira"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "lflimeira02@gmail.com"
   avatar: "luiz-felipe-limeira.jpg"
   location: "São Paulo - SP"
@@ -936,8 +896,6 @@
 
 - name: "Marcelo Gasparian Gosling"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "marcelo.gosling@gmail.com"
   avatar: "marcelo-gosling.jpg"
   location: "São Paulo - SP"
@@ -955,8 +913,6 @@
 
 - name: "Maria Luciene Felix"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "marialucienefelix@gmail.com"
   avatar: "maria-luciene.jpg"
   location: "Brasilia - DF"
@@ -1005,8 +961,6 @@
 
 - name: "Mariana Elisa Moisés"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "marielisa.moises@gmail.com"
   avatar: "mariana-moises.jpg"
   location: "Sorocaba - SP"
@@ -1039,13 +993,11 @@
 
 - name: "Natalia Manha"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "natalia.manha@outlook.com"
   avatar: "natalia-manha.jpg"
   location: "Campinas - SP"
   labels: [women]
-  skills: [Kanban, Scrum, Lean, Green Belt, Design Thinking, Equipes remotas, Alta performance]
+  skills: [Kanban, Scrum, Lean, Design Thinking, Alta performance]
   bio: >
     Atualmente, focada em disseminar valores, princípios e práticas ágeis na área de serviços de infraestrutura da IBM com o uso de Lean,
     Kanban, SCRUM e Design Thinking. Mestre em Gestão de Sistemas Produtivos pelo Centro Paula Souza,
@@ -1071,8 +1023,6 @@
 
 - name: "Nayara Alves"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "nayara.nap@gmail.com"
   avatar: "nayara-alves.jpg"
   location: "São Paulo - SP"
@@ -1112,8 +1062,6 @@
 
 - name: "Paulo Henrique de Lima Santana"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "phls@softwarelivre.org"
   avatar: "paulo-henrique-lima.jpg"
   location: "Curitiba - PR"
@@ -1165,8 +1113,6 @@
 
 - name: "Ronan Rodrigo Nunes"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "ronan.nunes@me.com"
   avatar: "ronan.jpg"
   location: "São Paulo"
@@ -1197,8 +1143,6 @@
   twitter: "RuanBrandao"
 
 - name: "Samanta Cristina Lopes"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [women, poc]
   location: "São Paulo - SP"
@@ -1234,8 +1178,6 @@
 
 - name: "Stefanie Melo"
   speaker: true
-  voluntary: true
-  mentor: true
   labels: [women, lgbt]
   avatar: stefanie-melo.jpg
   location: "São Paulo - SP"
@@ -1254,8 +1196,6 @@
 
 - name: "Tali Sanches"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "tathianadesigner@gmail.com"
   avatar: "tathiana.jpg"
   location: "Rio de Janeiro - RJ"
@@ -1298,8 +1238,6 @@
 
 - name: "Thaiane Braga"
   speaker: true
-  voluntary: true
-  mentor: true
   labels: [women, poc]
   location: "Porto Alegre - RS"
   avatar: "thaiane-braga.jpg"
@@ -1332,8 +1270,6 @@
 
 - name: "Thaysa Mara Monteiro dos Santos"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "thaysamarasantos@gmail.com"
   avatar: "thaysa.jpg"
   location: "Sorocaba - SP"
@@ -1347,8 +1283,6 @@
   facebook: "thaysamarasantos"
 
 - name: "Ulisses Almeida"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [men, perifa]
   location: São Paulo - SP
@@ -1412,8 +1346,6 @@
 
 - name: "Viviane Santos França"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "vivis.sf07@gmail.com"
   avatar: "viviane-franca.jpg"
   location: "São Paulo - SP"
@@ -1428,8 +1360,6 @@
   facebook: "viviane.s.franca"
 
 - name: "William Grasel"
-  speaker: true
-  voluntary: true
   mentor: true
   email: "d.rufos@gmail.com"
   avatar: "william-grasel.jpg"
@@ -1447,7 +1377,6 @@
   facebook: "wgrasel"
 
 - name: "William Oliveira"
-  speaker: true
   mentor: true
   email: "williamozsouza@gmail.com"
   avatar: "william-oliveira.jpg"
@@ -1466,9 +1395,7 @@
   facebook: "woliveiras"
 
 - name: "Yanka Santos"
-  speaker: true
   voluntary: true
-  mentor: true
   labels: [women]
   avatar: "yanka-santos.jpg"
   location: "Recife - PE"
