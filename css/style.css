@@ -1336,22 +1336,18 @@ p {
 /* width */
 ::-webkit-scrollbar { width: 10px; }
 ::-moz-scrollbar { width: 10px; }
-::-o-scrollbar { width: 10px; }
 
 /* Track */
 ::-webkit-scrollbar-track { background: #4990e3; }
 ::-moz-scrollbar-track { background: #4990e3; }
-::-o-scrollbar-track { background: #4990e3; }
 
 /* Handle */
 ::-webkit-scrollbar-thumb { background: #d5f8ff; }
 ::-moz-scrollbar-thumb { background: #d5f8ff; }
-::-o-scrollbar-thumb { background: #d5f8ff; }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover { background: #262f38; }
 ::-moz-scrollbar-thumb:hover { background: #262f38; }
-::-o-scrollbar-thumb:hover { background: #262f38; }
 
 .scroller {
   display: block;
