@@ -1784,7 +1784,7 @@ p {
     padding: 5em 1em;
     color: #e60050;
     font-family: 'Roboto', sans-serif;
-    background: transparent;
+    background: #fff;
     border-bottom: 0.5em dotted #9DC8FA;
     border-top: 0.5em dotted #9DC8FA;
 }
