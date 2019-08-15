@@ -280,21 +280,43 @@ p {
 .button-primary-outline {
     display: inline-block;
     cursor: pointer;
+    color: #262f38;
+    font-family: Roboto, Sans-Serif;
+    font-size: medium;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #262f38;
+    padding: 14px 44px;
+    border-radius: 14px;
+    margin-top: 1em;
+}
+
+.button-primary-outline:active, .button-primary-outline:hover {
+    color: #e60050;
+    box-shadow: none;
+    border: 2px solid #e60050;
+}
+
+.button-secondary-outline {
+    display: inline-block;
+    cursor: pointer;
     color: #e60050;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
     border: 2px solid #e60050;
     padding: 14px 44px;
     border-radius: 14px;
-    margin-top: 6em;
+    margin-top: 1em;
 }
 
-.button-primary-outline:active, .button-primary-outline:hover {
-    color: #3366cc;
+.button-secondary-outline:active, .button-primary-outline:hover {
+    color: #262f38;
     box-shadow: none;
-    border: 2px solid #3366cc;
+    border: 2px solid #262f38;
 }
 
 .button-default-outline {
@@ -305,8 +327,9 @@ p {
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
     padding: 14px 44px;
-    border: 2px solid #eee;
+    border: 2px solid #fff;
     border-radius: 14px;
 }
 
@@ -320,21 +343,23 @@ p {
 .button-banner {
     display: inline-block;
     cursor: pointer;
-    color: #fff;
+    color: #262f38;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
     padding: 14px 40px;
     border-radius: 14px;
-    background: #e60050;
-    border: 2px solid #fff;
+    background: #9DC8FA;
+    border: 2px solid #262f38;
 }
 
 .button-banner:active, .button-banner:hover {
     color: #ffffff;
     box-shadow: none;
-    background: #3366cc;
+    background: #e60050;
+    border: 2px solid #fff;
 }
 
 .button-partners {
@@ -477,9 +502,9 @@ p {
 }
 
 .page-section-title {
-    font-size: 1.5em;
-    color: #4990e3;
-    font-weight: 300;
+    font-size: 1.4em;
+    color: #262f38;
+    font-weight: 400;
     margin: 2.5em 0;
     text-transform: uppercase;
 }
@@ -902,6 +927,7 @@ p {
     grid-gap: 10px;
     -ms-grid-columns: (minmax(260px, 1fr))[auto-fill];
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin-bottom: 3em;
 }
 
 .events-cards-past {
@@ -1332,23 +1358,6 @@ p {
 
 /* SCROLLER */
 
-
-/* width */
-::-webkit-scrollbar { width: 10px; }
-::-moz-scrollbar { width: 10px; }
-
-/* Track */
-::-webkit-scrollbar-track { background: #4990e3; }
-::-moz-scrollbar-track { background: #4990e3; }
-
-/* Handle */
-::-webkit-scrollbar-thumb { background: #d5f8ff; }
-::-moz-scrollbar-thumb { background: #d5f8ff; }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover { background: #262f38; }
-::-moz-scrollbar-thumb:hover { background: #262f38; }
-
 .scroller {
   display: block;
   padding: 1em;
@@ -1375,6 +1384,7 @@ p {
     grid-gap: 10px;
     -ms-grid-columns: (minmax(260px, 1fr))[auto-fill];
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin-bottom: 3em;
 }
 
 .speaker-card {
@@ -1543,7 +1553,6 @@ p {
 
 .show-bio {
     font-weight: 400;
-    background: #fff;
     border: 2px solid #262f38;
     color: #262f38;
     margin-left: 3px;
@@ -1792,7 +1801,7 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    color: #e60050;
+    color: #4990e3;
     font-family: 'Roboto', sans-serif;
     background: #fff;
     border-bottom: 0.5em dotted #9DC8FA;
