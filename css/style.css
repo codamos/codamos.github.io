@@ -1334,24 +1334,25 @@ p {
 
 
 /* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
+::-webkit-scrollbar { width: 10px; }
+::-moz-scrollbar { width: 10px; }
+::-o-scrollbar { width: 10px; }
 
 /* Track */
-::-webkit-scrollbar-track {
-  background: #4990e3;
-}
+::-webkit-scrollbar-track { background: #4990e3; }
+::-moz-scrollbar-track { background: #4990e3; }
+::-o-scrollbar-track { background: #4990e3; }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
-  background: #d5f8ff;
-}
+::-webkit-scrollbar-thumb { background: #d5f8ff; }
+::-moz-scrollbar-thumb { background: #d5f8ff; }
+::-o-scrollbar-thumb { background: #d5f8ff; }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #e60050;
-}
+::-webkit-scrollbar-thumb:hover { background: #262f38; }
+::-moz-scrollbar-thumb:hover { background: #262f38; }
+::-o-scrollbar-thumb:hover { background: #262f38; }
+
 .scroller {
   display: block;
   padding: 1em;
@@ -1404,17 +1405,22 @@ p {
     box-shadow: 3px 4px 0px #e60050;
 }
 
-.speaker-card:hover .back {
-    display: block;
-    transition: all 0.6s ease-out 0.1s;
-
-    -o-transition: all 0.6s ease-out 0.1s;
-    -moz-transition: all 0.6s ease-out 0.1s;
-    -webkit-transition: all 0.6s ease-out 0.1s;
+.speaker-card-back {
+    display: none;
 }
 
-.speaker-card .back {
+.speaker-card-bio-toggle {
     display: none;
+}
+
+.speaker-card-bio-toggle:checked ~ .speaker-card-back {
+    display: block;
+
+    /*transition: all 0.6s ease-out 0.1s;*/
+
+    /*-o-transition: all 0.6s ease-out 0.1s;*/
+    /*-moz-transition: all 0.6s ease-out 0.1s;*/
+    /*-webkit-transition: all 0.6s ease-out 0.1s;*/
 }
 
 .speaker-card-bio {
@@ -1429,9 +1435,9 @@ p {
     background: #9DC8FA;
     color: #262f38;
     width: 88%;
-    max-height: 65%;
+    max-height: 60%;
     margin: 0;
-    padding: 1.2em;
+    padding: 1.2em 1.2em 0 1.2em;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
@@ -1490,6 +1496,13 @@ p {
     margin-left: 5px;
 }
 
+.speaker-card-hide-bio {
+    margin: 0.5em 0;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+
 .speaker-card img {
     display: block;
     margin: 10px auto 0px auto;
@@ -1534,10 +1547,11 @@ p {
 
 .show-bio {
     font-weight: 400;
-    background: transparent;
+    background: #fff;
     border: 2px solid #262f38;
     color: #262f38;
     margin-left: 3px;
+    cursor: pointer;
 }
 
 .speaker-card-skills {

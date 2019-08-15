@@ -1,6 +1,6 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
-<div class="front">
+<div class="speaker-card-front">
   <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
 
   <div class="speaker-card-labels">
@@ -39,9 +39,9 @@
           </span>
         {% endif %}
 
-        <span class="speaker-card-tag-label show-bio">
+        <label class="speaker-card-tag-label show-bio" for="Bio {{ speaker.name }}">
           <i class="far fa-eye" aria-hidden="true"></i><h4>Ver bio</h4>
-        </span>
+        </label>
     </div>
 
   <div class="speaker-card-social-media">
@@ -104,10 +104,17 @@
   </div>
 </div>
 
-<div class="back">
+<input
+  type="checkbox"
+  class="speaker-card-bio-toggle"
+  aria-hidden="true"
+  id="Bio {{ speaker.name }}">
+
+<div class="speaker-card-back">
   <div class="speaker-card-bio">
     <div class="speech-bubble"></div>
     <div class="scroller"><p>{{ speaker.bio }}</p></div>
+    <label class="speaker-card-hide-bio" for="Bio {{ speaker.name }}"><i class="fas fa-times-circle"></i></label>
   </div>
 </div>
 </li>
