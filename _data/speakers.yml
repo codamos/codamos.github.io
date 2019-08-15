@@ -34,8 +34,6 @@
   facebook: "https://www.facebook.com/alessandra.nastassja"
 
 - name: "Aline Bastos"
-  speaker: true
-  voluntary: true
   mentor: true
   highlight: true
   labels: [women, parent]
@@ -71,8 +69,6 @@
 
 - name: "Amanda Pesarini"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "amanda.pesarini@hotmail.com"
   avatar: "amanda-pesarini.jpg"
   location: "Florianópolis - SC"
@@ -84,13 +80,11 @@
   linkedin: "amanda-pesarini-11777275"
 
 - name: "Ana Eliza Freitas"
-  speaker: true
-  voluntary: true
   mentor: true
   labels: [women, parent]
   location: "Belo Horizonte - MG"
   avatar: "aninha-bastos.jpg"
-  skills: [Mulheres em TI, Desenvolvimento de Software, Microsoft, .NET, Podcast, Saúde Física e Mental em TI]
+  skills: [Desenvolvimento de Software, Podcast, Saúde mental em TI]
   bio: >
     Mineira, especialista em Engenharia e Arquitetura de Software, atua como Analista e Desenvolvedora Sistemas.
     Podcaster do <strong>PodProgramar</strong>.
@@ -102,8 +96,6 @@
   facebook: "anaebastos"
 
 - name: "Anderson Casimiro"
-  speaker: true
-  voluntary: true
   mentor: true
   email: "duodraco@gmail.com"
   avatar: "anderson-casimiro.jpg"
@@ -123,8 +115,6 @@
 
 - name: "Anna e Só"
   speaker: true
-  voluntary: true
-  mentor: true
   highlight: true
   email: "contraexemplo@protonmail.ch"
   avatar: "anna-e-so.jpg"
@@ -142,8 +132,6 @@
 
 - name: "Annelise Gripp"
   speaker: true
-  voluntary: true
-  mentor: true
   email: "annegripp.ag@gmail.com"
   avatar: "annelise-gripp.jpg"
   location: "Porto Alegre - RS"
@@ -160,7 +148,7 @@
   facebook: "agilista.annelise"
   linkedin: "annelisegripp"
 
-- name: "Anny Caroline Pinheiro Pereira de Sousa"
+- name: "Anny Caroline Pinheiro"
   voluntary: true
   email: "sousa.annyc@gmail.com"
   avatar: "anny-caroline.jpg"
