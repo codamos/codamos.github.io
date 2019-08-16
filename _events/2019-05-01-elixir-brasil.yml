@@ -1,11 +1,10 @@
 ---
-title: Elixir Brasil 2019 - edição 2
+title: Elixir Brasil 2019 - edição 3
 location: São Paulo - SP
-highlight: true
 beginners: true
-date: 25/05 e 26/05
-from: '2019-05-25'
-until: '2019-05-26'
+date: 23/05 e 24/05
+from: '2020-05-23'
+until: '2020-05-24'
 banner: elixir-brasil.png
 inclusive: true
 hashtag: ElixirBrasil
@@ -15,5 +14,5 @@ tags:
 - coc
 - mobility
 - juniors
-main_url: https://www.eventials.com/locaweb/events/elixir-brasil/
+main_url: https://2019.elixirbrasil.com/
 rsvp_url:
