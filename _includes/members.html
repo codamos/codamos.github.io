@@ -1,5 +1,136 @@
 {% for member in include.members %}
 <li class="speaker-card">
+<div class="speaker-card-front">
+  <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
+
+  {% if member.codamos %}
+    <div class="team-collaborators-tag">
+      <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>
+    </div>
+  {% endif %}
+
+  <div class="speaker-card-labels">
+    {% for label in member.labels %}
+      {% assign icon = site.data.speaker_icons[label] %}
+      <i class="{{ icon.class }} fa-2x" title="{{ icon.label }}"></i>
+    {% endfor %}
+  </div>
+
+  <h3>{{ member.full_name | default: member.name }}</h3>
+
+  <p class="speaker-card-address"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ member.location }}</p>
+
+  <h4 class="speaker-card-skills">
+    {% for skill in member.skills %}
+    <span><i class="fas fa-hashtag" aria-hidden="true"></i> {{ skill }}</span>
+    {% endfor %}
+  </h4>
+
+    <div class="speaker-card-header-ico">
+        {% if member.speaker %}
+        <span class="speaker-card-tag-label speaker">
+          <i class="fas fa-microphone-alt" aria-hidden="true"></i><h4>Palestrar</h4>
+        </span>
+        {% endif %}
+
+        {% if member.mentor %}
+          <span class="speaker-card-tag-label mentor">
+            <i class="fas fa-graduation-cap" aria-hidden="true"></i><h4>Mentorar</h4>
+          </span>
+        {% endif %}
+
+        {% if member.voluntary %}
+          <span class="speaker-card-tag-label voluntary">
+            <i class="far fa-handshake" aria-hidden="true"></i><h4>Voluntariar</h4>
+          </span>
+        {% endif %}
+
+        <label class="speaker-card-tag-label show-bio" for="Bio {{ member.name }}">
+          <i class="far fa-eye" aria-hidden="true"></i><h4>Ver bio</h4>
+        </label>
+    </div>
+
+  <div class="speaker-card-social-media">
+  <h4>Entre em contato</h4>
+  <ul>
+    <li>
+    {% if member.email %}
+      <a href="mailto:{{ member.email }}" title="E-mail"
+         target="_blank"><i class="far fa-envelope" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="far fa-envelope" aria-hidden="true" title="E-mail"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if member.site %}
+      <a href="{{ member.site }}" title="Site"
+         rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fas fa-link" aria-hidden="true" title="Site"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if member.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" title="Linkedin"
+         rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fab fa-linkedin" aria-hidden="true" title="Linkedin"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if member.github %}
+      <a href="https://github.com/{{ member.github }}" title="Github"
+         rel="noopener" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fab fa-github-square" aria-hidden="true" title="GitHub"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if member.twitter %}
+      <a href="https://twitter.com/{{ member.twitter }}" title="Twitter"
+         rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
+    {% endif %}
+    </li>
+
+    <li>
+    {% if member.facebook %}
+      <a href="https://facebook.com/{{ member.facebook }}" title="Facebook"
+         rel="noopener" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+    {% else %}
+      <i class="fab fa-facebook" aria-hidden="true" title="Facebook"></i>
+    {% endif %}
+    </li>
+  </ul>
+  </div>
+</div>
+
+<input
+  type="checkbox"
+  class="speaker-card-bio-toggle"
+  aria-hidden="true"
+  id="Bio {{ member.name }}">
+
+<div class="speaker-card-back">
+  <div class="speaker-card-bio">
+    <div class="speech-bubble"></div>
+    <div class="scroller"><p>{{ member.bio }}</p></div>
+    <label class="speaker-card-hide-bio" for="Bio {{ member.name }}"><i class="fas fa-times-circle"></i></label>
+  </div>
+</div>
+</li>
+{% endfor %}
+
+
+<!--
+
+{% for member in include.members %}
+<li class="speaker-card">
   <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
   {% if member.codamos %}
     <div class="team-collaborators-tag">
@@ -91,4 +222,4 @@
   </ul>
   </div>
 </li>
-{% endfor %}
+{% endfor %} -->

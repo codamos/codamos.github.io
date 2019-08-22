@@ -42,7 +42,7 @@
   skills: [CSS3, JavaScript, Mães em TI, Mentoria, Comunidade]
   bio: >
     Mãe, mentora, moderadora, escritora e desenvolvedora. Trabalha há 8 anos com desenvolvimento
-    frontend e ama tudo que seja relacionado com CSS e JavaScript.
+    frontend e ama tudo que seja relacionado com <strong>CSS</strong> e <strong>JavaScript</strong>.
   email: "alineabp@gmail.com"
   linkedin: "alinebastos"
   github: "alinebastos"
@@ -56,10 +56,10 @@
   skills: [HTML, CSS, SASS, Javascript, Typescript, Angular, Ionic, UX, Usabilidade, Acessibilidade, Firebase, DialogFlow, Cosmic JS, Git]
   bio: >
     Desenvolvedora front-end, sou formada em Design Gráfico e pós em Marketing e Design Digital.
-    Moro na cidade do Rio de Janeiro e sou uma das organizadoras do evento ngGirls Rio, um evento
+    Moro na cidade do Rio de Janeiro e sou uma das organizadoras do evento <strong>ngGirls Rio<s/trong>, um evento
     de programação 100% gratuito voltado para as mulheres que queiram aprender Angular. Sou fã de
     tecnologia, artes e design. Gosto muito de usar os conhecimentos em prol de ajudar o próximo.
-    MIGAS, Tá Tudo Bem?, The Black Women History API, MyDodo, Mariana são alguns dos meus projetos
+    <strong>MIGAS, Tá Tudo Bem?</strong>, <strong>The Black Women History API</strong>, <strong>MyDodo</strong>, <strong>Mariana</strong> são alguns dos meus projetos
     pessoais.
   email: contato@alinebezzoco.com
   site: http://www.alinebezzoco.com
@@ -75,7 +75,7 @@
   labels: [women]
   skills: [Qualidade de Software]
   bio: >
-    Sou graduada em Análise e Desenvolvimento de Sistemas, com 3 anos de experiência em qualidade de software.
+    Sou graduada em <strong>Análise e Desenvolvimento de Sistemas</strong>, com 3 anos de experiência em qualidade de software.
     Em transição pra programação <3 Amo ajudar pessoas, de qualquer jeito, a qualquer momento!
   linkedin: "amanda-pesarini-11777275"
 
@@ -124,7 +124,7 @@
   bio: >
     Aquela usuária defiça na qual você precisa pensar (e está disposta a te ajudar!).
     Trabalha com localização e internacionalização. Uma das poucas pessoas que ama documentação.
-    Participante da 15º rodada do programa de estágios para minorias <strong>Outreachy</strong>, promovido pela Software Freedom Conservancy,
+    Participante da <strong>15º rodada do programa de estágios para minorias Outreachy</strong>, promovido pela Software Freedom Conservancy,
     trabalhando com a <strong>Wikimedia Foundation</strong>.
   site: "https://anna.flourishing.stream"
   github: "contraexemplo"
@@ -140,7 +140,7 @@
   bio: >
     Louca por tecnologia e engajada em integrar pessoas, há 23 anos trabalho com Engenharia de Desenvolvimento de Software.
     Ao longo desses anos aprendi, ensinei e experimentei novas metodologias, tecnologias, ferramentas e dinâmicas em todo o processo de Engenharia de Software.
-    Nos últimos 10 anos, me dedico a Agilidade, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação,
+    Nos últimos 10 anos, me dedico a <strong>Agilidade</strong>, onde projetos, produtos e pessoas desenvolvem um trabalho juntos, entregando software com rapidez, qualidade e satisfação,
     para o cliente e para equipe. Hoje, como Consultora e Especialista em Transformação Ágil, meu trabalho consiste em expandir, compartilhar e aplicar meus conhecimentos,
     habilidades e experiências nas empresas privadas utilizando técnicas e ferramentas de Coaching.
   site: "http://www.annelisegripp.com.br"
@@ -176,7 +176,7 @@
     Analista de testes e qualidade, atua há quase 10 anos na área de Testes e Qualidade,
     nos quais pelo menos 8 deles com Agile Testing. Apaixonada pelas comunidades na área de TI, mentora e blogueira.
     Palestrou em diversos eventos da área, como o TDC, Agile Trends, CNQS, OctoberTest, etc.
-    Co-organizadora da comunidade GUTS-SC, Agile Testers Conference Floripa, mentora do RailsGirls e co-organizadora do QA Ladies.
+    Co-organizadora da comunidade GUTS-SC, Agile Testers Conference Floripa, mentora do <strong>RailsGirls</strong> e co-organizadora do QA Ladies.
     Considerada uma das mulheres mais influentes em Teste e Qualidade de Software da América Latina pelo Blog da Abstracta.
   site: "https://barbaracabral.wordpress.com"
   github: "barbaracabral"
@@ -207,7 +207,7 @@
   bio: >
     Desenvolvedora Back-end com um pé no Front, formada em Biologia, resolvi no começo de 2017,
     estudar programação em casa, só com o que têm de graça. Graças à comunidade incrível virei
-    Dev Python e quero retornar todo o esforço para fortalecer mais pessoas da comunidade, para
+    <strong>Dev Python</strong> e quero retornar todo o esforço para fortalecer mais pessoas da comunidade, para
     que se encontrem na programação.
   email: "bruferratto@gmail.com"
   linkedin: "/bruna-ferratto"

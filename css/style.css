@@ -391,6 +391,10 @@ p {
     flex-wrap: wrap;
 }
 
+.icon-labels--colapsed .events-section-label {
+    display: none;
+}
+
 .icon-labels li {
     border-radius: 5px;
     padding: 5px 8px;
