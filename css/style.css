@@ -392,7 +392,7 @@ p {
 }
 
 .icon-labels--colapsed .events-section-label {
-    display: none;
+    display: none
 }
 
 .icon-labels li {
@@ -848,7 +848,7 @@ p {
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner017.jpg"), radial-gradient(ellipse closest-side, rgba(73,144,227,0.75), #4990E2);
+    background-image: url("../images/bg-banner017.png"), radial-gradient(ellipse closest-side, rgba(73,144,227,0.75), #4990E2);
 }
 
 .banner-summit {
