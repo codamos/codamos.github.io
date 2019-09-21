@@ -855,6 +855,20 @@
   site: "http://lucascoelho.me"
   twitter: "coelholucas"
 
+- name: "Lucas Fieri"
+  speaker: true
+  email: "lucasfieri@gmail.com"
+  avatar: "lucas-fieri.jpg"
+  location: "São Paulo - SP"
+  labels: [lgbt]
+  skills: [JavaScript, TypeScript, React, Angular, UX, Diversidade, Comunidade, Node, CX Design]
+  bio: >
+    Arroz de eventos, já fui platinado, gosto de JS e um dia terei um podcast. Acredito que a tecnologia pode mudar a vida das pessoas e quero fazer parte disso.
+  site: "http://lucasfieri.github.io"
+  twitter: "lukefieri"
+  linkedin: "lucasfieri"
+  github: "lucasfieri"
+
 - name: "Lucas Macedo"
   speaker: true
   email: "lucas.hmacedo@hotmail.com"
