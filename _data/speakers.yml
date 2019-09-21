@@ -6,6 +6,8 @@
 # location:  texto, obrigatório.
 # lgbt:      texto, opcional.
 # speaker:   texto, obrigatório.
+# mentor:    booleano (true ou false), opcional. Destaque na home.
+# voluntary: booleano (true ou false), opcional. Destaque na home.
 # avatar:    arquivo na pasta `images/fotos`, obrigatório.
 # labels:    lista de labels para ícones, opcional. Vide `speaker_icons.yml`.
 # skills:    lista de textos sem espaços, opcional.
@@ -1438,3 +1440,17 @@
   github: "fcqueiroz"
   facebook: ""
   instagram: ""
+
+- name: "Rita Lino"
+  speaker: true
+  labels: [women]
+  avatar: "leticia.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, Front-End, Acessibilidade Digital, voluntária, palestrante]
+  bio: >
+      "Caiçara nascida em Santos, formada em Análise e Desenvolvimento de Sistemas. Sou desenvolvedora front-end, apaixonada por acessibilidade digital e coordenadora da comunidade Mulheres na Tecnologia Baixada Santista. "
+  email: "rita.rlino@gmail.com"
+  site: "rita.dev"
+  linkedin: "in/rita-lino/"
+  github: "ritalino"
+  twitter: "ritalinux"
