@@ -749,6 +749,20 @@
   github: kfpiva
   twitter: ka_piva
 
+- name: "Keila Castro"
+  voluntary: true
+  labels: [women]
+  avatar: "keila-castro.jpeg"
+  location: "Santo André - SP"
+  skills: [Desenvolvedora, DotNet, JavaScript, BackEnd, FrontEnd]
+  bio: >
+    Formada na Universidade Municipal de São Caetano
+  email: "keilacastro@uol.com"
+  linkedin: "keilacastro"
+  github: "keilacastro"
+  twitter: "keilacastro"
+  facebook: "keilacastrom"
+
 - name: "Keyla Peixoto"
   speaker: true
   email: "keyla.caroline@gmail.com"
