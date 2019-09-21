@@ -379,18 +379,25 @@
   banner: "she-sharp.jpeg"
   hashtag: "shesharp"
   facebook: "developersbr"
-  main_url: "http://www.meetup.com/developersbr"
+  meetup: "developersbr"
 
 - title: "DevelopersBR"
   tags: [women, coc, trans]
   banner: "developersbr.jpg"
   hashtag: "DevelopersBR"
   facebook: "developersbr"
-  main_url: "http://www.meetup.com/developersbr"
+  meetup: "developersbr"
 
 - title: "Nerdgirlz"
   tags: [women, coc, trans, poc]
   banner: "nerdgirlz.jpg"
   hashtag: "Nerdgirlz"
   facebook: "groups/nerdgirlz"
-  main_url: "http://www.meetup.com/nerdzao"
+  meetup: "nerdzao"
+
+- title: "AI Brasil Girls"
+  tags: [women, coc, trans, poc]
+  banner: "brasil-ai.jpeg"
+  hashtag: "AIBrasilGirls"
+  facebook: "BrasilAI"
+  meetup: "ai-brasil"
