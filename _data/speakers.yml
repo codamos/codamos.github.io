@@ -1408,3 +1408,18 @@
   github: "yankasantos"
   twitter: "YankaSantosOn"
   facebook: "yanka.santos.754"
+
+- name: "Melaine Miranda"
+  speaker: true
+  labels: [women]
+  avatar: "melaine.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, palestrante, voluntária, participante de hackatons e meetups, lutando pela igualdade de gênero]
+  bio: >
+    Mais conhecida como Mel, graduada em Análise e desenvolvimento de sistemas pela Universidade de Mogi das Cruzes, ex-aluna formada pelo Reprograma - Front End e faz parte da organização das comunidades: CaquiCoders, Perifacode e Nerdzão. Ama Star Wars, Gatos, Cafés e Metodologias Agéis. Luta diariamente contra a auto sabotagem e com isso, ajuda não só ela, mas outras mulheres a acreditarem em si assim diminuir o gap da presença femina na tecnologia.
+  email: "melanie.miranda.ti@gmail.com"
+  site: ""
+  linkedin: "https://www.linkedin.com/in/melanie-miranda/"
+  github: "https://github.com/mellmiranda"
+  facebook: "https://www.facebook.com/meninah"
+  instagram: "www.instagram.com/meninah.dev"
