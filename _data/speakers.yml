@@ -689,6 +689,21 @@
   github: juuh42dias
   twitter: juuh42dias
 
+- name: "Juliana Negreiros"
+  speaker: true
+  labels: [women, poc, lgbt]
+  location: Sorocaba - SP
+  avatar: "juliana-negreiros.jpg"
+  skills: [JavaScript, FrontEnd, Jogos, GraphQL, Node]
+  bio: >
+    Desenvolvedora e instrutora na Alura, sou apaixonada por desenvolvimento web,
+    jogos, psicologia e dança. Também sou entusiasta de eventos locais e projetos sociais,
+    sendo co-organizadora do Rails Girls Sorocaba e do SorocabaJS.
+  email: negreirosjuu@gmail.com
+  linkedin: juliananegreiros
+  github: juunegreiros
+  twitter: juunegreiros
+
 - name: "Juliano Custódio"
   speaker: true
   labels: [men]
