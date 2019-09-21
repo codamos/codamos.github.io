@@ -1157,6 +1157,17 @@
   twitter: "priscilastuani"
   facebook: "pri.stuani"
 
+- name: "Roberta Binati"
+  speaker: true
+  labels: [women]
+  location: Santo André - SP
+  avatar: "roberta-binati.jpg"
+  skills: [Wordpress, Design]
+  bio: >
+    Apaixonada por design e inclusão. Aberta sempre a novos desafios.
+  email: roberta@mulhergorila.com
+  linkedin: roberta-c-ponzio-binati-a4a93727
+
 - name: "Rogério Rodrigues"
   speaker: true
   email: "rogerio@connecthealth.com.br"
