@@ -197,11 +197,14 @@
   facebook: "wtmsaopaulo"
   main_url: "http://wtmsp.org/"
 
-- title: "Cloud Girls SP"
-  banner: "cloud-girls.jpeg"
-  tags: [women]
-  meetup: "Cloud-Girls-Sao-Paulo"
-  main_url: "https://www.meetup.com/pt-BR/Cloud-Girls-Sao-Paulo/"
+- title: "GuruSP"
+  banner: "gurusp.png"
+  tags: [women, coc]
+  hashtag: "gurusp"
+  twitter: "guru_sp"
+  facebook: "groups/gurusp/"
+  meetup: "Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo"
+  main_url: "https://www.meetup.com/pt-BR/Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo/"
 
 - title: "Collabcode"
   banner: "collabcode.png"
@@ -321,6 +324,7 @@
 - title: "Mulheres de produto"
   banner: "mulheres-produto.png"
   tags: [women, coc]
+  twitter: "mulheresproduto"
   hashtag: "MulheresDeProduto"
   slack: "https://mulheresdeproduto.slack.com/join/shared_invite/enQtMzE4NDY0MzM2NDY3LTA3N2Q3NGE3NTdiMDM5NTAzMzQ4ZjY4ODJhMWNkNTY1Nzc4N2ZlYjQxYzg4MWYxNDkzYWNmOGMxNTdjNjg3YzA"
   main_url: "https://www.meetup.com/Mulheres-de-Produto/"
