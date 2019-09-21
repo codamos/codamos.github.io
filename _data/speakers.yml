@@ -1419,7 +1419,22 @@
     Mais conhecida como Mel, graduada em Análise e desenvolvimento de sistemas pela Universidade de Mogi das Cruzes, ex-aluna formada pelo Reprograma - Front End e faz parte da organização das comunidades: CaquiCoders, Perifacode e Nerdzão. Ama Star Wars, Gatos, Cafés e Metodologias Agéis. Luta diariamente contra a auto sabotagem e com isso, ajuda não só ela, mas outras mulheres a acreditarem em si assim diminuir o gap da presença femina na tecnologia.
   email: "melanie.miranda.ti@gmail.com"
   site: ""
-  linkedin: "https://www.linkedin.com/in/melanie-miranda/"
-  github: "https://github.com/mellmiranda"
-  facebook: "https://www.facebook.com/meninah"
-  instagram: "www.instagram.com/meninah.dev"
+  linkedin: "in/melanie-miranda/"
+  github: "mellmiranda"
+  facebook: "meninah"
+  instagram: "meninah.dev"
+
+- name: "Fernanda Queiroz"
+  speaker: true
+  labels: [women, lgbt, trans]
+  avatar: "fernanda.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, palestrante, voluntária, lutando pela igualdade de gênero, empreendedora social, analista de dados, engenheira de dados]
+  bio: >
+    "I am a transgender person and a multi-disciplinary professional engaged in building a better world. I'm an engineer not because a piece of paper says that, but because I'm passionate about engineering's power to improve people's lives."
+  email: "fernanda.cdqueiroz@gmail.com"
+  site: ""
+  linkedin: "in/fcqueiroz/"
+  github: "fcqueiroz"
+  facebook: ""
+  instagram: ""
