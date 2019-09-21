@@ -354,3 +354,11 @@
   meetup: "MovimentoBaixadaNerd"
   tags: [inclusive, neuter]
   main_url: "https://www.meetup.com/pt-BR/MovimentoBaixadaNerd/"
+
+- title: "Tecnogueto"
+  banner: "tecnogueto.png"
+  hashtag: "tecnogueto"
+  facebook: "tecnogueto"
+  github: "tecnogueto"
+  tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
+  main_url: "http://tecnogueto.com.br/"
