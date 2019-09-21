@@ -250,6 +250,17 @@
   github: carolcodes
   twitter: carolcode
 
+- name: "Cássia Denyelli"
+  voluntary: true
+  labels: [women]
+  avatar: "cassia-deny.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, JavaScript]
+  bio: >
+    I don't believe in humans 👽
+  email: "cassia.deny@gmail.com"
+  twitter: "cassiadeny"
+
 - name: "Charlotte Lorelei Oliveira"
   speaker: true
   highlight: true
