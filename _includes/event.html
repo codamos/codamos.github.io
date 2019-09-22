@@ -36,6 +36,9 @@
 # linkedin:   texto sem espaços, opcional. LinkedIn handle.
 # meetup:     texto sem espaços, opcional. Id do grupo no Meetup.
 # medium:     texto sem espaços, opcional. User do grupo no Medium.
+# github:     texto sem espaços, opcional. user do github.
+# discord:    texto sem espaços, opcional. user discord.
+# twitch:     texto sem espaços, opcional. user twitch.
 # youtube:    texto sem espaços, opcional. Youtube handle.
 # main_url:   URL, obrigatório. Site do evento.
 # rsvp_url:   URL, obrigatório. Site para inscrição no evento.
@@ -227,6 +230,21 @@
         {% if event.youtube %}
         <a href="https://www.youtube.com/{{ event.youtube }}" title="Youtube"
            rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.github %}
+        <a href="https://www.youtube.com/{{ event.github }}" title="GitHub"
+           rel="noopener" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.discord %}
+        <a href="https://www.youtube.com/{{ event.discord }}" title="discord"
+           rel="noopener" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if event.twitch %}
+        <a href="https://www.youtube.com/{{ event.twitch }}" title="twitch"
+           rel="noopener" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a>
         {% endif %}
 
         <a href="{{ event.main_url }}" title="Site"

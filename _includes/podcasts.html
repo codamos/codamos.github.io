@@ -139,6 +139,21 @@
            rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
         {% endif %}
 
+        {% if podcast.github %}
+        <a href="https://www.youtube.com/{{ podcast.github }}" title="GitHub"
+           rel="noopener" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.discord %}
+        <a href="https://www.youtube.com/{{ podcast.discord }}" title="discord"
+           rel="noopener" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if podcast.twitch %}
+        <a href="https://www.youtube.com/{{ podcast.twitch }}" title="twitch"
+           rel="noopener" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a>
+        {% endif %}
+
         <a href="{{ podcast.main_url }}" title="Site"
            rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
         </div>

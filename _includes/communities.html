@@ -91,6 +91,16 @@
            rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
         {% endif %}
 
+        {% if community.discord %}
+        <a href="https://www.youtube.com/{{ community.discord }}" title="discord"
+           rel="noopener" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if community.twitch %}
+        <a href="https://www.youtube.com/{{ community.twitch }}" title="twitch"
+           rel="noopener" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a>
+        {% endif %}
+
       </div>
     </div>
   </div>

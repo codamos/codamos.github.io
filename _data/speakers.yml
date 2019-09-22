@@ -16,6 +16,9 @@
 # linkedin:  texto sem espaços, opcional. LinkedIn handle.
 # github:    texto sem espaços, opcional. Github handle.
 # twitter:   texto sem espaços, opcional. Twitter handle.
+# github:    texto sem espaços, opcional. user do github.
+# discord:   texto sem espaços, opcional. user discord.
+# twitch:    texto sem espaços, opcional. user twitch.
 # facebook:  texto sem espaços, opcional. Facebook handle.
 # instagram: texto sem espaços, opcional. Instagram handle.
 # highlight: booleano (true ou false), opcional. Destaque na home.

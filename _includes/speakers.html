@@ -57,15 +57,6 @@
     </li>
 
     <li>
-    {% if speaker.site %}
-      <a href="{{ speaker.site }}" title="Site"
-         rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
-    {% else %}
-      <i class="fas fa-link" aria-hidden="true" title="Site"></i>
-    {% endif %}
-    </li>
-
-    <li>
     {% if speaker.linkedin %}
       <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" title="Linkedin"
          rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -83,23 +74,48 @@
     {% endif %}
     </li>
 
+    {% if speaker.site %}
     <li>
+      <a href="{{ speaker.site }}" title="Site"
+         rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
+    </li>
+    {% endif %}
+
     {% if speaker.twitter %}
+    <li>
       <a href="https://twitter.com/{{ speaker.twitter }}" title="Twitter"
          rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-    {% else %}
-      <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
-    {% endif %}
     </li>
+    {% endif %}
 
-    <li>
     {% if speaker.facebook %}
+    <li>
       <a href="https://facebook.com/{{ speaker.facebook }}" title="Facebook"
          rel="noopener" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-    {% else %}
-      <i class="fab fa-facebook" aria-hidden="true" title="Facebook"></i>
-    {% endif %}
     </li>
+    {% endif %}
+
+    {% if speaker.instagram %}
+    <li>
+      <a href="{{ speaker.instagram }}" title="Site"
+         rel="noopener" target="_blank"><i class="fab fa-instagram"></i></a>
+    </li>
+    {% endif %}
+
+    {% if speaker.discord %}
+    <li>
+      <a href="{{ speaker.discord }}" title="Site"
+         rel="noopener" target="_blank"><i class="fab fa-discord"></i></a>
+    </li>
+    {% endif %}
+
+    {% if speaker.twitch %}
+    <li>
+      <a href="{{ speaker.twitch }}" title="Site"
+         rel="noopener" target="_blank"><i class="fab fa-twitch"></i></a>
+    </li>
+    {% endif %}
+
   </ul>
   </div>
 </div>

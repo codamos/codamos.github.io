@@ -9,6 +9,9 @@
 # instagram:  texto sem espaços, opcional. Instagram handle.
 # linkedin:   texto sem espaços, opcional. LinkedIn handle.
 # meetup:     texto sem espaços, opcional. Id do grupo no Meetup.
+# github:     texto sem espaços, opcional. user do github.
+# discord:    texto sem espaços, opcional. user discord.
+# twitch:     texto sem espaços, opcional. user twitch.
 # medium:     texto sem espaços, opcional. User do grupo no Medium.
 # youtube:    texto sem espaços, opcional. Youtube handle.
 # main_url:   URL, obrigatório. Site do evento.

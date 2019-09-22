@@ -22,6 +22,9 @@
 # linkedin:    texto sem espaços, opcional. LinkedIn handle.
 # meetup:      texto sem espaços, opcional. Id do grupo no Meetup.
 # medium:      texto sem espaços, opcional. User do grupo no Medium.
+# github:      texto sem espaços, opcional. user do github.
+# discord:     texto sem espaços, opcional. user discord.
+# twitch:      texto sem espaços, opcional. user twitch.
 # youtube:     texto sem espaços, opcional. Youtube handle.
 # itunes:      texto sem espaços, opcional. itunes handle.
 # soundcloud:  texto sem espaços, opcional. Soundcloud handle.
