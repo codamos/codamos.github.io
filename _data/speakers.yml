@@ -220,6 +220,20 @@
   twitter: "BFerratto"
   facebook: "/bruna.ferratto"
 
+- name: "Caique Mitsuoka"
+  mentor: true
+  email: "caique.mitsuoka@gmail.com"
+  avatar: "caique-mitsuoka.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [Ruby, Elixir, JavaScript, Programação funcional, Opensource, Code Review]
+  bio: >
+    Duas fitas duplas de DNA, 46 cromossomos e 23 testes falhando.
+    Ruby, JS e Elixir, fico ouriçadinho por novas tecnologias.
+  github: "caiquemitsuoka"
+  linkedin: "caiquemitsuoka"
+  twitter: "caiquemitsuoka"
+
 - name: "Carla Vieira"
   mentor: true
   email: "carlaprv@hotmail.com"
