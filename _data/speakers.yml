@@ -220,6 +220,20 @@
   twitter: "BFerratto"
   facebook: "/bruna.ferratto"
 
+- name: "Caique Mitsuoka"
+  mentor: true
+  email: "caique.mitsuoka@gmail.com"
+  avatar: "caique-mitsuoka.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [Ruby, Elixir, JavaScript, Programação funcional, Opensource, Code Review]
+  bio: >
+    Duas fitas duplas de DNA, 46 cromossomos e 23 testes falhando.
+    Ruby, JS e Elixir, fico ouriçadinho por novas tecnologias.
+  github: "caiquemitsuoka"
+  linkedin: "caiquemitsuoka"
+  twitter: "caiquemitsuoka"
+
 - name: "Carla Vieira"
   mentor: true
   email: "carlaprv@hotmail.com"
@@ -249,6 +263,17 @@
   linkedin: "carolcode/"
   github: carolcodes
   twitter: carolcode
+
+- name: "Cássia Denyelli"
+  voluntary: true
+  labels: [women]
+  avatar: "cassia-deny.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, JavaScript]
+  bio: >
+    I don't believe in humans 👽
+  email: "cassia.deny@gmail.com"
+  twitter: "cassiadeny"
 
 - name: "Charlotte Lorelei Oliveira"
   speaker: true
@@ -678,6 +703,21 @@
   github: juuh42dias
   twitter: juuh42dias
 
+- name: "Juliana Negreiros"
+  speaker: true
+  labels: [women, poc, lgbt]
+  location: Sorocaba - SP
+  avatar: "juliana-negreiros.jpg"
+  skills: [JavaScript, FrontEnd, Jogos, GraphQL, Node]
+  bio: >
+    Desenvolvedora e instrutora na Alura, sou apaixonada por desenvolvimento web,
+    jogos, psicologia e dança. Também sou entusiasta de eventos locais e projetos sociais,
+    sendo co-organizadora do Rails Girls Sorocaba e do SorocabaJS.
+  email: negreirosjuu@gmail.com
+  linkedin: juliananegreiros
+  github: juunegreiros
+  twitter: juunegreiros
+
 - name: "Juliano Custódio"
   speaker: true
   labels: [men]
@@ -737,6 +777,20 @@
   linkedin: karina-piva
   github: kfpiva
   twitter: ka_piva
+
+- name: "Keila Castro"
+  voluntary: true
+  labels: [women]
+  avatar: "keila-castro.jpeg"
+  location: "Santo André - SP"
+  skills: [Desenvolvedora, DotNet, JavaScript, BackEnd, FrontEnd]
+  bio: >
+    Formada na Universidade Municipal de São Caetano
+  email: "keilacastro@uol.com"
+  linkedin: "keilacastro"
+  github: "keilacastro"
+  twitter: "keilacastro"
+  facebook: "keilacastrom"
 
 - name: "Keyla Peixoto"
   speaker: true
@@ -854,6 +908,20 @@
     educação e tecnologia. Atualmente é Co-Fundador do <strong>UnCollege</strong> no Brasil e Sócio e Business Designer na <strong>Flama</strong>.
   site: "http://lucascoelho.me"
   twitter: "coelholucas"
+
+- name: "Lucas Fieri"
+  speaker: true
+  email: "lucasfieri@gmail.com"
+  avatar: "lucas-fieri.jpg"
+  location: "São Paulo - SP"
+  labels: [lgbt]
+  skills: [JavaScript, TypeScript, React, Angular, UX, Diversidade, Comunidade, Node, CX Design]
+  bio: >
+    Arroz de eventos, já fui platinado, gosto de JS e um dia terei um podcast. Acredito que a tecnologia pode mudar a vida das pessoas e quero fazer parte disso.
+  site: "http://lucasfieri.github.io"
+  twitter: "lukefieri"
+  linkedin: "lucasfieri"
+  github: "lucasfieri"
 
 - name: "Lucas Macedo"
   speaker: true
@@ -1102,6 +1170,17 @@
   linkedin: "priscilastuani"
   twitter: "priscilastuani"
   facebook: "pri.stuani"
+
+- name: "Roberta Binati"
+  speaker: true
+  labels: [women]
+  location: Santo André - SP
+  avatar: "roberta-binati.jpg"
+  skills: [Wordpress, Design]
+  bio: >
+    Apaixonada por design e inclusão. Aberta sempre a novos desafios.
+  email: roberta@mulhergorila.com
+  linkedin: roberta-c-ponzio-binati-a4a93727
 
 - name: "Rogério Rodrigues"
   speaker: true

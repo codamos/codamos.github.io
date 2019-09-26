@@ -366,6 +366,42 @@
   tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
   main_url: "http://tecnogueto.com.br/"
 
+- title: "perifaCode"
+  tags: [women, coc, poc, lgbt, trans, inclusive, perifa]
+  banner: "perifaCode.png"
+  hashtag: "perifaCode"
+  twitter: "perifaCode"
+  facebook: "perifaCode"
+  main_url: "http://www.perifaCode.com"
+
+- title: "She Sharp"
+  tags: [women, coc, trans]
+  banner: "she-sharp.jpeg"
+  hashtag: "shesharp"
+  facebook: "developersbr"
+  meetup: "developersbr"
+
+- title: "DevelopersBR"
+  tags: [women, coc, trans]
+  banner: "developersbr.jpg"
+  hashtag: "DevelopersBR"
+  facebook: "developersbr"
+  meetup: "developersbr"
+
+- title: "Nerdgirlz"
+  tags: [women, coc, trans, poc]
+  banner: "nerdgirlz.jpg"
+  hashtag: "Nerdgirlz"
+  facebook: "groups/nerdgirlz"
+  meetup: "nerdzao"
+
+- title: "AI Brasil Girls"
+  tags: [women, coc, trans, poc]
+  banner: "brasil-ai.jpeg"
+  hashtag: "AIBrasilGirls"
+  facebook: "BrasilAI"
+  meetup: "ai-brasil"
+
 - title: "High5Devs"
   banner: "high5devs.png"
   twitter: "high5devs"
