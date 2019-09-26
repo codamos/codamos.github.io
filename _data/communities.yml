@@ -401,3 +401,17 @@
   hashtag: "AIBrasilGirls"
   facebook: "BrasilAI"
   meetup: "ai-brasil"
+
+- title: "High5Devs"
+  banner: "high5devs.png"
+  twitter: "high5devs"
+  tags: [women, trans, inclusive]
+  main_url: "http://high5devs.com/"
+  meetup: "High5Devs"
+
+- title: "Mulheres na Tecnologia Baixada Santista"
+  banner: "mulheres-na-tecnologia-bs.png"
+  twitter: "mulheresnatecbs"
+  tags: [women, trans, inclusive]
+  main_url: "https://facebook.com/mulheresnatecnologiabs"
+  meetup: "mulheres-na-tecnologia-baixada-santista"
