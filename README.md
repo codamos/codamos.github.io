@@ -57,10 +57,11 @@ rsvp_url: https://link-para-submeter-palestras.com.br
 Há vários outros campos que são descritos no cabeçalho do arquivo [de eventos][event-file].
 É possível encontrar bons exemplos de eventos no diretório `_events`.
 
-## Adicionando uma nova pessoa como palestrante
+## Adicionando uma nova pessoa que deseja ser palestrante, mentor(a) ou voluntário(a)
 
-Se você palestra ou quer começar a palestrar e gostaria de aparecer na lista de pessoas palestrantes,
-basta abrir um _pull request_ com suas informações adicionadas no [arquivo `_data/speakers.yml`][speakers-file].
+Se você palestra ou quer começar a palestrar e gostaria de aparecer na lista de pessoas palestrantes, 
+mentoras ou voluntárias da comunidade, basta abrir um _pull request_ com 
+suas informações adicionadas no [arquivo `_data/speakers.yml`][speakers-file].
 Este arquivo contém uma descrição de todos os campos possíveis em seu cabeçalho.
 
 Se prefirir, [é possível editar o arquivo](https://help.github.com/articles/editing-files-in-your-repository/)
