@@ -1139,7 +1139,7 @@ p {
     width: auto;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 36px;
     background: #e60050;
     color: #fff;
