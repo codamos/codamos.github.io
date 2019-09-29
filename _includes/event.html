@@ -74,12 +74,6 @@
       </div>
       {% endif %}
 
-      {% if event.opensource %}
-      <div class="events-card-header-label opensource">
-        <i class="fas fa-code-branch" aria-hidden="true"></i><h3>open source</h3>
-      </div>
-      {% endif %}
-
       {% if event.codamos %}
       <div class="events-card-header-label codamos">
         <i class="far fa-gem" aria-hidden="true"></i><h3>da casa</h3>
@@ -98,24 +92,12 @@
       </div>
       {% endif %}
 
-      {% if event.beginners %}
-      <div class="events-card-header-label beginners">
-        <i class="fas fa-lemon" aria-hidden="true"></i><h3>+1 Iniciantes</h3>
-      </div>
-      {% endif %}
-
     </div>
 
-    <span>
+    <div class="events-card-header-tags">
       {% if event.category %}
       <div class="events-card-header-tag category">
         <i class="fas fa-graduation-cap" aria-hidden="true"></i><h3>{{ event.category }}</h3>
-      </div>
-      {% endif %}
-
-      {% if event.partners %}
-      <div class="events-card-header-tag partners">
-        <i class="far fa-gem" aria-hidden="true"></i><h3>parceiro</h3>
       </div>
       {% endif %}
 
@@ -149,6 +131,24 @@
       </div>
       {% endif %}
 
+      {% if event.partners %}
+      <div class="events-card-header-tag partners">
+        <i class="far fa-gem" aria-hidden="true"></i><h3>parceiro</h3>
+      </div>
+      {% endif %}
+
+      {% if event.opensource %}
+      <div class="events-card-header-tag opensource">
+        <i class="fas fa-code-branch" aria-hidden="true"></i><h3>open source</h3>
+      </div>
+      {% endif %}
+
+      {% if event.beginners %}
+      <div class="events-card-header-tag beginners">
+        <i class="fas fa-lemon" aria-hidden="true"></i><h3>+1 Iniciantes</h3>
+      </div>
+      {% endif %}
+
       {% if event.lgbt %}
       <div class="events-card-header-tag lgbt">
         <i class="fas fa-flag" aria-hidden="true"></i><h3>Evento LGBT</h3>
@@ -160,7 +160,7 @@
         <i class="fas fa-hand-rock" aria-hidden="true"></i><h3>Diversidade Racial</h3>
       </div>
       {% endif %}
-    </span>
+    </div>
 
     {% if event.tags %}
       <span class="events-card-header-ico">
@@ -170,7 +170,7 @@
         {% endfor %}
       </span>
     {% else %}
-      <span class="events-card-header-ico-no-info">
+      <span class="events-card-header-ico no-info">
         <h4>sem informações inclusivas</h4>
       </span>
     {% endif %}

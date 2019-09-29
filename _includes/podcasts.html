@@ -17,21 +17,9 @@
       </div>
       {% endif %}
 
-      {% if podcast.category %}
-      <div class="events-card-header-tag category">
-        <i class="far fa-clock" aria-hidden="true"></i><h3>{{ podcast.category }}</h3>
-      </div>
-      {% endif %}
-
       {% if podcast.opensource %}
       <div class="events-card-header-label opensource">
         <i class="fas fa-code-branch" aria-hidden="true"></i><h3>open source</h3>
-      </div>
-      {% endif %}
-
-      {% if podcast.codamos %}
-      <div class="events-card-header-label codamos">
-        <i class="far fa-gem" aria-hidden="true"></i><h3>da casa</h3>
       </div>
       {% endif %}
 
@@ -47,6 +35,9 @@
       </div>
       {% endif %}
 
+    </div>
+
+    <div class="events-card-header-tags">
       {% if podcast.tech %}
         <div class="events-card-header-tag hackathon">
           <i class="fas fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
@@ -58,6 +49,18 @@
           <i class="fas fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
         </div>
       {% endif %}
+
+      {% if podcast.codamos %}
+      <div class="events-card-header-label codamos">
+        <i class="far fa-gem" aria-hidden="true"></i><h3>da casa</h3>
+      </div>
+      {% endif %}
+
+      {% if podcast.category %}
+      <div class="events-card-header-tag category">
+        <i class="far fa-clock" aria-hidden="true"></i><h3>{{ podcast.category }}</h3>
+      </div>
+      {% endif %}
     </div>
 
     {% if podcast.tags %}
@@ -68,7 +71,7 @@
         {% endfor %}
       </span>
     {% else %}
-      <span class="events-card-header-ico-no-info">
+      <span class="events-card-header-ico no-info">
         <h4>sem informações inclusivas</h4>
       </span>
     {% endif %}

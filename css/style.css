@@ -1012,38 +1012,9 @@ p {
     background: #ffff66;
     top: 7px;
     color: #660000;
-    right: 10px;
+    left: 10px;
     font-weight: 700;
     border: 2px solid #f6a623;
-    border-radius: 4px;
-}
-
-.frontendweek {
-    background: #ff3300;
-    top: 7px;
-    color: #fff;
-    right: 10px;
-    font-weight: 700;
-    border: 2px solid #660000;
-    border-radius: 4px;
-}
-
-.beginners {
-    background: #ffeb04;
-    top: 40px;
-    color: #336600;
-    right: 10px;
-    font-weight: 700;
-    border: 2px solid #b6d060;
-    border-radius: 4px;
-}
-
-.opensource {
-    background: #000;
-    top: 105px;
-    color: #eee;
-    left: 10px;
-    border: 2px solid #eee;
     border-radius: 4px;
 }
 
@@ -1107,6 +1078,21 @@ p {
     margin-left: 5px;
 }
 
+.frontendweek {
+    background: #660000;
+    color: #fff;
+}
+
+.beginners {
+    background: #ffeb04;
+    color: #336600;
+}
+
+.opensource {
+    background: #000;
+    color: #eee;
+}
+
 .category {
     background: #35186a;
     color: #ddc7ed;
@@ -1118,8 +1104,9 @@ p {
 }
 
 .partners {
-    background: #fff;
-    color: #e60050;
+    background: #9DC8FA;
+    color: #262f38;
+    font-weight: bold;
 }
 .happyhour {
     background: #ff6655;;
@@ -1132,8 +1119,8 @@ p {
 }
 
 .meetup_event {
-    background: #ff2140;
-    color: #fff;
+    background: #fff;
+    color: #ff2140;
 }
 
 .on_line {
@@ -1142,29 +1129,29 @@ p {
 }
 
 .lgbt {
-    background: #7d2eaa;
+    background: url(../images/lgbt.png) repeat;
     color: #fff;
 }
 
 .events-card-header-ico {
+    position: relative;
+    font-size: 1.2em;
+    width: auto;
     display: flex;
     justify-content: center;
     align-content: center;
     height: 36px;
     background: #e60050;
     color: #fff;
+    text-transform: uppercase;
+    flex-wrap: wrap;
 }
 
-.events-card-header-ico-no-info {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 36px;
+.events-card-header-ico.no-info {
     background: #eee;
-    color: #fff;
 }
 
-.events-card-header-ico-no-info h4 {
+.events-card-header-ico.no-info h4 {
     color: #999;
     mix-blend-mode: multiply;
     font-size: x-small;
@@ -1176,7 +1163,7 @@ p {
     margin: 0 0.5em;
 }
 
-.events-card-header span {
+.events-card-header-tags {
     position: relative;
     font-size: 1.2em;
     width: auto;
