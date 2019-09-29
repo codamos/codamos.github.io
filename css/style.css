@@ -1847,14 +1847,9 @@ p {
 
 .partners-supporters-box {
     color: #ffffff;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: darkmagenta;
-    background-blend-mode: multiply, color-burn;
+    background-color: black;
     border-top: 6px solid #e60050;
     width: 100%;
-    padding-bottom: 6em;
 }
 
 .partners-supporters-wannabe {
