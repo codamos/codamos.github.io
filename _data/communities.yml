@@ -415,3 +415,11 @@
   tags: [women, trans, inclusive]
   main_url: "https://facebook.com/mulheresnatecnologiabs"
   meetup: "mulheres-na-tecnologia-baixada-santista"
+
+- title: "Meetup SorocabaCSS"
+  banner: "sorocaba-css.png"
+  tags: [women, inclusive, coc, lgbt]
+  main_url: "https://sorocabacss.github.io/"
+  facebook: "sorocabacss"
+  meetup: "SorocabaCSS"
+  hashtag: "sorocabacss"

@@ -1,15 +1,15 @@
 ---
-title: SorocabaCSS
+title: 7° Meetup SorocabaCSS
 inclusive: true
 partners: false
+women: true
 cfp: true
 location: Sorocaba - SP
 date: 19/10
 from: '2019-10-19'
 until: '2019-10-19'
 banner: 'sorocaba-css.png'
-group:
-group_name: SorocabaCSS
+group_name: Meetup SorocabaCSS
 tags:
 - women
 - coc
@@ -17,7 +17,6 @@ tags:
 - lgbt
 - juniors
 hashtag: sorocabacss
-twitter:
 facebook: sorocabacss
 main_url: https://speakerfight.com/events/meetup-sorocabacss-7a-edicao
-rsvp_url:
+rsvp_url: https://www.meetup.com/SorocabaCSS/events/
