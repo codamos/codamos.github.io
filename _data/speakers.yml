@@ -608,6 +608,19 @@
   twitter: jacquelineasano
   facebook: "JacquelineYumiAsano"
 
+- name: "Jaqueline Arruda"
+  speaker: true
+  labels: [women, parent]
+  avatar: "jaqueline_arruda.jpg"
+  location: "Joinville - SC"
+  skills: [Mãe, WordPress, Projetos, Comunidade, Comunicação]
+  bio: >
+    Mãe e esposa. Gerente de projetos web WordPress.
+    Coordenadora voluntária do meetup WordPress.
+    Louca por cafés e bons livros.
+  email: "jackritzmann@gmail.com"
+  instagram: "jaque_arrudar"
+
 - name: "Jaqueline Venturim"
   speaker: true
   labels: [women, lgbt]
