@@ -83,6 +83,18 @@
     Em transição pra programação <3 Amo ajudar pessoas, de qualquer jeito, a qualquer momento!
   linkedin: "amanda-pesarini-11777275"
 
+- name: "Amynata Nepomuceno"
+  voluntary: true
+  labels: [women, poc, lgbt]
+  avatar: "amynata_nepomuceno.jpg"
+  location: "São Paulo - SP"
+  skills: [Designer, Bonita Profissional, Wannabe Desenvolvedora]
+  email: "amynepomuc@gmail.com"
+  site: "http://amynata-n.com"
+  linkedin: "amynatan"
+  instagram: "amynata_n"
+  github: "amynatan"
+
 - name: "Ana Eliza Freitas"
   mentor: true
   labels: [women, parent]
