@@ -1075,7 +1075,7 @@
   twitter: "oieusouamiguell"
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
-  github: "oieusouamiguel"]
+  github: "oieusouamiguel"
 
 - name: "Monica Craveiro"
   speaker: true
@@ -1563,3 +1563,17 @@
   linkedin: "in/rita-lino/"
   github: "ritalino"
   twitter: "ritalinux"
+
+- name: "Vinícius Lourenço"
+  speaker: true
+  labels: [men]
+  avatar: "vinicius-lourenco.jpeg"
+  location: "São Paulo / São Carlos - SP"
+  skills: [Desenvolvimento, BackEnd, WordPress, IoT, PHP]
+  bio: >
+      "Especialista WordPress/WooCommerce, desenvolvedor backend, fundador da @codysstech. Cultivador de plantas canívoras e que adora uma prosa"
+  email: "vinicius.q.lourenco@gmail.com"
+  site: "blog.vilourenco.com.br"
+  linkedin: "in/vinícius-lourenço-4b02a427/"
+  github: "ViLourenco"
+  twitter: "ViLourenco"
