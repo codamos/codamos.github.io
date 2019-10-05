@@ -1202,6 +1202,15 @@
   github: "gss-patricia"
   twitter: "paty_go"
 
+- name: "Paula Maris"
+  voluntary: true
+  labels: [women, lgbt]
+  avatar: "paula_maris.jpeg"
+  location: "São Paulo - SP"
+  skills: [Designer, Desenvolvedora, Fotógrafa, Música, Arte Gráfica]
+  email: "paulamarisk@gmail.com"
+  instagram: "maris.sketch"
+
 - name: "Paullo Norato"
   speaker: true
   email: "norato.ux@gmail.com"
