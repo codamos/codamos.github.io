@@ -394,6 +394,22 @@
     Sou formado em Redes de computadores e estou atualmente aprendendo Desenvolvimento Web.
   email: "willamsdouglas015@gmail.com"
 
+- name: "Elis Regina de Lima"
+  speaker: true
+  avatar: "elis-regina-lima.jpg"
+  labels: [women, parent]
+  location: "São Paulo - SP"
+  skills: [Empreendedorismo, Contabilidade, Transição de Carreira]
+  bio: >
+    Contadora desde 2008, com ênfase em Controladoria,especialista em depto legal e juridico.
+    Colaboradora em implantação de sistemas e gerenciamento de contas.
+    'Especializações': Controladoria, planejamento tributário e Recrutamento e Seleção.
+    Professora de Ciências Contábeis e Administração.
+    Conhecimento nas áreas de importação e exportação, Tecnologia da informação e Recrutamento e Seleção.Consultora Contábil na Lima Serviços administrativo e Contábeis.
+    Hoje, estudante de Desenvolvimento nas linguagens HTML5 ,CSS, JavaScript.
+  email: "lima.elisregina@gmail.com"
+  instagram: limaelisregina
+
 - name: "Émylle Andressa Borges"
   speaker: true
   highlight: true
