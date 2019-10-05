@@ -382,6 +382,18 @@
   github: "dcgblack"
   twitter: "diego_cgarcia"
 
+- name: "Diego Zanini"
+  speaker: true
+  labels: [men]
+  avatar: "diego_zanini.jpg"
+  location: "São Paulo - SP"
+  skills: [Design, Social Media, Digital Art, Vegetariano]
+  bio: >
+    Photoshoper, professor de design gráfico, freelancer, vegetariano, apaixonado por filmes, músicas, fotos, pets e séries.
+  email: "dizanini@gmail.com"
+  site: "https://zaninidesign.com.br"
+  facebook: "zaninidesign"
+
 - name: "Douglas Williams Palheta da Conceição"
   voluntary: true
   avatar: "douglas-williams.jpg"
