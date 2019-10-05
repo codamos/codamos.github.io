@@ -635,6 +635,24 @@
   site: "https://jventurim.com.br/"
   linkedin: "jaqueventurim"
 
+- name: "Jessiane Leal"
+  speaker: true
+  labels: [women, parent]
+  avatar: "jessiane-leal.jpg"
+  location: "São Bernardo do Campo - SP"
+  skills: [Bootstrap, Carreira, Front-End, Hackathon, Cloud]
+  bio: >
+    Desde a infância, minha paixão sempre foi a tecnologia.
+    No ensino médio, fui aluna monitora de informática, onde conseguia dividir
+    o pouco que eu sabia com outros jovens.
+    Por anos, abdiquei da minha paixão e me foquei em pessoas, pela minha facilidade
+    em resolver problemas e me comunicar, mas a paixão falou mais alto e decidir mudar
+    minha carreira e atuar como desenvolvedora Front-End, traduzindo as soluções dos
+     problemas dos meus clientes através do meu código..
+  email: "jessiane.leal@hotmail.com"
+  site: "https://jldevelopments.com/"
+  linkedin: "jessianeleal"
+
 - name: "Jéssica Lopes"
   voluntary: true
   labels: [women]
