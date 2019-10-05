@@ -423,3 +423,10 @@
   facebook: "sorocabacss"
   meetup: "SorocabaCSS"
   hashtag: "sorocabacss"
+
+- title: "Joinville WordPress Meetup"
+  banner: "wordpress-joinville.jpg"
+  tags: [women, inclusive, coc]
+  main_url: "https://www.meetup.com/pt-BR/wpjoinville/"
+  meetup: "wpjoinville"
+  hashtag: "wpjlle"
