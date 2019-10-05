@@ -1075,7 +1075,21 @@
   twitter: "oieusouamiguell"
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
-  github: "oieusouamiguel"
+  github: "oieusouamiguel"]
+
+- name: "Monica Craveiro"
+  speaker: true
+  labels: [women]
+  avatar: "monica-craveiro.png"
+  location: "São Paulo - SP"
+  skills: [Desenvolvimento web, HTML, CSS, JavaScript, Bootstrap, PHP]
+  bio: >
+      "Sou Carioca, Consultora de BI na Mex Consulting, Professora de Front-end no curso hello.world; para mulheres no [des]programe, Desenvolvedora Front-end / FullStack e Bacharel em Sistemas de Informação e Matemática."
+  email: "craveiromonica@gmail.com"
+  linkedin: "in/monica-craveiro-de-menezes/"
+  github: "monikinhanx"
+  twitter: "monikinhanx"
+  instagram: "monikinhanx"
 
 - name: "Natalia Manha"
   speaker: true
