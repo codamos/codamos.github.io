@@ -1453,6 +1453,18 @@
   twitter: "ThaiiBraga"
   facebook: "thaiane.thaibraga"
 
+- name: "Thaís de Lima Freitas"
+  voluntary: true
+  labels: [women]
+  avatar: "thais_de_lima_freitas.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, Front-End, Segurança da Informação, Wordpress, Infra, Redes]
+  email: "thaistlf25@gmail.com"
+  site: "https://inftektecnologia.com.br/"
+  linkedin: "thaislimafreitasa"
+  twitter: "will_gothic_Tha"
+  facebook: "thaisdelima.will"
+
 - name: "Thaís Freitas"
   speaker: true
   email: "thaisfreitas31@gmail.com"
