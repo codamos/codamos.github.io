@@ -1577,3 +1577,17 @@
   linkedin: "in/vinícius-lourenço-4b02a427/"
   github: "ViLourenco"
   twitter: "ViLourenco"
+
+- name: "Jayme Nigri"
+  speaker: true
+  labels: [men, parent]
+  avatar: "jayme-nigri.jpeg"
+  location: "São Paulo - SP"
+  skills: [Comportamento x Tecnologia, Microsoft Office]
+  bio: >
+      "Empreendedor e publicitário. Fundador da Futura Code, escola-startup de tecnologia pra crianças e adolescentes. Especialista em Análise Comportamental e Transformação Digital."
+  email: "jaymenigri@futuracode.com.br"
+  site: "futuracode.com.br"
+  linkedin: "in/jaymenigri/"
+  facebook: "jaymenigri"
+  instagram: "jaymenigri"
