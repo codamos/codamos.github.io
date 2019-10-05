@@ -423,3 +423,11 @@
   facebook: "sorocabacss"
   meetup: "SorocabaCSS"
   hashtag: "sorocabacss"
+
+- title: "Garoa Hacker Club"
+  banner: "garoa.png"
+  facebook: "GaroaHC"
+  github: "garoa"
+  tags: [coc]
+  main_url: "https://garoa.net.br/"
+  meetup: Garoa-Hacker-Clube
