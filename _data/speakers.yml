@@ -967,6 +967,19 @@
   linkedin: "luiz-felipe-de-oliva-limeira-42060678"
   twitter: "lflimeira02"
 
+- name: "Mara Rosa"
+  voluntary: true
+  labels: [women, poc, perifa]
+  avatar: "mara-rosa.jpeg"
+  location: "São Paulo - SP"
+  skills: [Backend, C#]
+  bio: >
+      "Contadora, Apaixonada por tecnologia, amante dos animais e das causas sociais"
+  email: "mara_rrosa@yahoo.com.br"
+  linkedin: "in/mararosa/"
+  github: "mararosa"
+  twitter: "mara_rrosa"
+
 - name: "Marcelo Gasparian Gosling"
   speaker: true
   email: "marcelo.gosling@gmail.com"
