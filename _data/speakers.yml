@@ -1596,6 +1596,15 @@
   twitter: "YankaSantosOn"
   facebook: "yanka.santos.754"
 
+- name: "Yumi Morimoto"
+  voluntary: true
+  labels: [women]
+  avatar: "yumi-morimoto.jpg"
+  location: "São Paulo - SP"
+  skills: [Desenvolvedora, Gestão]
+  email: "yumi@sintesejr.com.br"
+  instagram: "yumilia"
+
 - name: "Melaine Miranda"
   speaker: true
   labels: [women]
