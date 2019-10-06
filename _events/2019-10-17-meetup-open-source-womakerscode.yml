@@ -7,6 +7,7 @@ until: '2019-10-17'
 free: true
 women: true
 inclusive: true
+opensource: true
 group: wmc.png
 group_name: WoMakersCode
 banner: meetup-opensource-wmc.jpeg
