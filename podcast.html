@@ -15,10 +15,10 @@ layout: default
 </section>
 
 <section class="page-section">
-  <h1 class="page-section-subtitle-alt">Sobre Podcast</h1>
+  <h1 class="page-section-subtitle-alt">Sobre Conteúdo gratuito</h1>
 
   <p class="page-section-text">
-    Listamos os podcasts que abordam tecnologia e alguns deles são bem inclusivos e citando o tema diversidade ou acessibilidade em TI. Criamos rótulos para facilitar a busca pelos que têm ícones representados
+    Listamos conteúdos gratuitos que abordam tecnologia e programacão. Alguns deles são bem inclusivos e citando o tema diversidade ou acessibilidade em TI. Criamos rótulos para facilitar a busca pelos que têm ícones representados
     nas legendas abaixo:
   </p>
 
@@ -33,10 +33,26 @@ layout: default
 </section>
 
 <section class="page-section">
-  <h1 class="page-section-title">Podcast que indicamos</h1>
+  <h1 class="page-section-title">Para ouvir</h1>
 
   <ul class="events-cards">
     {% include podcasts.html podcasts=site.data.podcasts %}
+  </ul>
+</section>
+
+<section class="page-section">
+  <h1 class="page-section-title">Para ver</h1>
+
+  <ul class="events-cards">
+    {% include podcasts.html videos=site.data.videos %}
+  </ul>
+</section>
+
+<section class="page-section">
+  <h1 class="page-section-title">Para ler</h1>
+
+  <ul class="events-cards">
+    {% include podcasts.html blog=site.data.blog %}
   </ul>
 </section>
 

@@ -1,0 +1,52 @@
+# videos e lives atuais.
+
+# title:       texto, obrigatório. Nome do evento.
+# free:        booleano (true ou false), opcional. Evento gratuito.
+# inclusive:   booleano (true ou false), opcional. Evento inclusivo.
+# category:    texto sem espaços, opcional. ex. Tempo em média de duraçnao dos eps.
+# women:       booleano (true ou false), opcional. Tem mulheres no comando dos eps.
+# lgbt:        booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# convidados:  booleano (true ou false), opcional. Tem pessoas convidadas nos ep.
+# tech:        booleano (true ou false), opcional. Evento no formato hackathon.
+# opensource:  booleano (true ou false), opcional. É um evento para a comunidade Open source.
+# location:    texto, obrigatório.
+# date:        texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
+# banner:      arquivo na pasta `images/eventos`, opcional.
+# tags:        lista de tags para ícones e filtros, opcional. Vide `podcast_icons.yml`.
+# group:       arquivo na pasta `images/grupo`, opcional.
+# tags:        lista de classes de ícones do font awesome, opcional.
+# hashtag:     texto sem espaços, opcional. Hashtag oficial do twitter.
+# twitter:     texto sem espaços, opcional. Twitter handle.
+# facebook:    texto sem espaços, opcional. Facebook handle.
+# instagram:   texto sem espaços, opcional. Instagram handle.
+# linkedin:    texto sem espaços, opcional. LinkedIn handle.
+# meetup:      texto sem espaços, opcional. Id do grupo no Meetup.
+# medium:      texto sem espaços, opcional. User do grupo no Medium.
+# github:      texto sem espaços, opcional. user do github.
+# discord:     texto sem espaços, opcional. user discord.
+# twitch:      texto sem espaços, opcional. user twitch.
+# youtube:     texto sem espaços, opcional. Youtube handle.
+# itunes:      texto sem espaços, opcional. itunes handle.
+# soundcloud:  texto sem espaços, opcional. Soundcloud handle.
+# rss:         texto sem espaços, opcional. RSS url.
+# android:     texto sem espaços, opcional. Android handle.
+# main_url:    URL, obrigatório. Site do evento.
+# rsvp_url:    URL, obrigatório. Site para inscrição no evento.
+# highlight:   booleano (true ou false), opcional. Destaque na home.
+
+- title: "Collabcode"
+  inclusive: true
+  women: true
+  location: "On-line"
+  tags: [women, coc, perifa, lgbt]
+  date: "diário"
+  banner: "collabcode.png"
+  category: "+ 120 minutos"
+  hashtag: "collabcode"
+  youtube: "c/collabcode"
+  facebook: "brainstorm9"
+  twitter: "collabcode"
+  discord: "http://discord.gg/YeeEAYj"
+  twitch: "marcobrunobr"
+  main_url: "https://collabcode.training/"
+  rsvp_url: "https://www.youtube.com/c/collabcode"
