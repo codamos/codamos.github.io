@@ -1521,7 +1521,6 @@
   linkedin: "fcqueiroz"
   github: "fcqueiroz"
   facebook: ""
-  instagram: ""
 
 - name: "Rita Lino"
   speaker: true
@@ -1532,7 +1531,7 @@
   bio: >
       "Caiçara nascida em Santos, formada em Análise e Desenvolvimento de Sistemas. Sou desenvolvedora front-end, apaixonada por acessibilidade digital e coordenadora da comunidade Mulheres na Tecnologia Baixada Santista. "
   email: "rita.rlino@gmail.com"
-  site: "rita.dev"
+  site: "https://rita.dev"
   linkedin: "rita-lino"
   github: "ritalino"
   twitter: "ritalinux"

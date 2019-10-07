@@ -97,21 +97,21 @@
 
     {% if speaker.instagram %}
     <li>
-      <a href="{{ speaker.instagram }}" title="Site"
+      <a href="https://www.instagram.com/{{ speaker.instagram }}/" title="Instagram"
          rel="noopener" target="_blank"><i class="fab fa-instagram"></i></a>
     </li>
     {% endif %}
 
     {% if speaker.discord %}
     <li>
-      <a href="{{ speaker.discord }}" title="Site"
+      <a href="https://discordhub.com/profile/{{ speaker.discord }}" title="Discord"
          rel="noopener" target="_blank"><i class="fab fa-discord"></i></a>
     </li>
     {% endif %}
 
     {% if speaker.twitch %}
     <li>
-      <a href="{{ speaker.twitch }}" title="Site"
+      <a href="https://www.twitch.tv/{{ speaker.twitch }}" title="Twitch"
          rel="noopener" target="_blank"><i class="fab fa-twitch"></i></a>
     </li>
     {% endif %}
