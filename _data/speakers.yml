@@ -967,6 +967,19 @@
   linkedin: "luiz-felipe-de-oliva-limeira-42060678"
   twitter: "lflimeira02"
 
+- name: "Mara Rosa"
+  voluntary: true
+  labels: [women, poc, perifa]
+  avatar: "mara-rosa.jpeg"
+  location: "São Paulo - SP"
+  skills: [Backend, C#]
+  bio: >
+      "Contadora, Apaixonada por tecnologia, amante dos animais e das causas sociais"
+  email: "mara_rrosa@yahoo.com.br"
+  linkedin: "mararosa"
+  github: "mararosa"
+  twitter: "mara_rrosa"
+
 - name: "Marcelo Gasparian Gosling"
   speaker: true
   email: "marcelo.gosling@gmail.com"
@@ -1063,6 +1076,20 @@
   linkedin: "migueldenegocios"
   facebook: "oieusouamiguel"
   github: "oieusouamiguel"
+
+- name: "Monica Craveiro"
+  speaker: true
+  labels: [women]
+  avatar: "monica-craveiro.png"
+  location: "São Paulo - SP"
+  skills: [Desenvolvimento web, HTML, CSS, JavaScript, Bootstrap, PHP]
+  bio: >
+      "Sou Carioca, Consultora de BI na Mex Consulting, Professora de Front-end no curso hello.world; para mulheres no [des]programe, Desenvolvedora Front-end / FullStack e Bacharel em Sistemas de Informação e Matemática."
+  email: "craveiromonica@gmail.com"
+  linkedin: "monica-craveiro-de-menezes"
+  github: "monikinhanx"
+  twitter: "monikinhanx"
+  instagram: "monikinhanx"
 
 - name: "Natalia Manha"
   speaker: true
@@ -1535,3 +1562,31 @@
   linkedin: "rita-lino"
   github: "ritalino"
   twitter: "ritalinux"
+
+- name: "Vinícius Lourenço"
+  speaker: true
+  labels: [men]
+  avatar: "vinicius-lourenco.jpeg"
+  location: "São Paulo / São Carlos - SP"
+  skills: [Desenvolvimento, BackEnd, WordPress, IoT, PHP]
+  bio: >
+      "Especialista WordPress/WooCommerce, desenvolvedor backend, fundador da @codysstech. Cultivador de plantas canívoras e que adora uma prosa"
+  email: "vinicius.q.lourenco@gmail.com"
+  site: "https://blog.vilourenco.com.br/"
+  linkedin: "vinícius-lourenço-4b02a427"
+  github: "ViLourenco"
+  twitter: "ViLourenco"
+
+- name: "Jayme Nigri"
+  speaker: true
+  labels: [men, parent]
+  avatar: "jayme-nigri.jpeg"
+  location: "São Paulo - SP"
+  skills: [Comportamento x Tecnologia, Microsoft Office]
+  bio: >
+      "Empreendedor e publicitário. Fundador da Futura Code, escola-startup de tecnologia pra crianças e adolescentes. Especialista em Análise Comportamental e Transformação Digital."
+  email: "jaymenigri@futuracode.com.br"
+  site: "http://futuracode.com.br/"
+  linkedin: "jaymenigri"
+  facebook: "jaymenigri"
+  instagram: "jaymenigri"
