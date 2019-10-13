@@ -432,3 +432,18 @@
   tags: [coc]
   main_url: "https://garoa.net.br/"
   meetup: Garoa-Hacker-Clube
+
+- title: "Joinville WordPress Meetup"
+  banner: "wordpress-joinville.jpg"
+  tags: [women, inclusive, coc]
+  main_url: "https://www.meetup.com/pt-BR/wpjoinville/"
+  meetup: "wpjoinville"
+  hashtag: "wpjlle"
+
+- title: "IxDA - Ribeirão Preto"
+  banner: "ixda-rp.jpg"
+  tags: [women, neuter]
+  main_url: "https://www.sympla.com.br/ixdarp"
+  hashtag: "IxDA"
+  facebook: "ixdarp"
+  instagram: "ixdarp"

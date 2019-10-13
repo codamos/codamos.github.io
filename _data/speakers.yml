@@ -394,6 +394,22 @@
     Sou formado em Redes de computadores e estou atualmente aprendendo Desenvolvimento Web.
   email: "willamsdouglas015@gmail.com"
 
+- name: "Elis Regina de Lima"
+  speaker: true
+  avatar: "elis-regina-lima.jpg"
+  labels: [women, parent]
+  location: "São Paulo - SP"
+  skills: [Empreendedorismo, Contabilidade, Transição de Carreira]
+  bio: >
+    Contadora desde 2008, com ênfase em Controladoria,especialista em depto legal e juridico.
+    Colaboradora em implantação de sistemas e gerenciamento de contas.
+    'Especializações': Controladoria, planejamento tributário e Recrutamento e Seleção.
+    Professora de Ciências Contábeis e Administração.
+    Conhecimento nas áreas de importação e exportação, Tecnologia da informação e Recrutamento e Seleção.Consultora Contábil na Lima Serviços administrativo e Contábeis.
+    Hoje, estudante de Desenvolvimento nas linguagens HTML5 ,CSS, JavaScript.
+  email: "lima.elisregina@gmail.com"
+  instagram: limaelisregina
+
 - name: "Émylle Andressa Borges"
   speaker: true
   highlight: true
@@ -608,6 +624,19 @@
   twitter: "jacquelineasano"
   facebook: "JacquelineYumiAsano"
 
+- name: "Jaqueline Arruda"
+  speaker: true
+  labels: [women, parent]
+  avatar: "jaqueline_arruda.jpg"
+  location: "Joinville - SC"
+  skills: [Mãe, WordPress, Projetos, Comunidade, Comunicação]
+  bio: >
+    Mãe e esposa. Gerente de projetos web WordPress.
+    Coordenadora voluntária do meetup WordPress.
+    Louca por cafés e bons livros.
+  email: "jackritzmann@gmail.com"
+  instagram: "jaque_arrudar"
+
 - name: "Jaqueline Venturim"
   speaker: true
   labels: [women, lgbt]
@@ -621,6 +650,24 @@
   email: "jaqueventurim@gmail.com"
   site: "https://jventurim.com.br/"
   linkedin: "jaqueventurim"
+
+- name: "Jessiane Leal"
+  speaker: true
+  labels: [women, parent]
+  avatar: "jessiane-leal.jpg"
+  location: "São Bernardo do Campo - SP"
+  skills: [Bootstrap, Carreira, Front-End, Hackathon, Cloud]
+  bio: >
+    Desde a infância, minha paixão sempre foi a tecnologia.
+    No ensino médio, fui aluna monitora de informática, onde conseguia dividir
+    o pouco que eu sabia com outros jovens.
+    Por anos, abdiquei da minha paixão e me foquei em pessoas, pela minha facilidade
+    em resolver problemas e me comunicar, mas a paixão falou mais alto e decidir mudar
+    minha carreira e atuar como desenvolvedora Front-End, traduzindo as soluções dos
+     problemas dos meus clientes através do meu código..
+  email: "jessiane.leal@hotmail.com"
+  site: "https://jldevelopments.com/"
+  linkedin: "jessianeleal"
 
 - name: "Jéssica Lopes"
   voluntary: true
@@ -1237,6 +1284,18 @@
   linkedin: "ronanrodrigo"
   github: "ronanrodrigo/carbrito"
   twitter: "ronanrodrigo_"
+
+- name: "Rodrigo Carvalho Pereira"
+  voluntary: true
+  email: "ro-sk-8@hotmail.com"
+  avatar: "rodrigo-carvalho-pereira.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [Programação, HTML, CSS, Python, JavaScript, SQL]
+  bio: >
+    Sou estudante de programação e estou disponível para ajudar como voluntário nos eventos.
+  twitter: "Rodrigo12867447"
+  instagram: "rody_ou_digo"
 
 - name: "Ruan Brandão"
   speaker: true
