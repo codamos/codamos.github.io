@@ -62,7 +62,7 @@
         {% endif %}
 
         {% if community.slack %}
-        <a href="https://www.meetup.com/{{ community.slack }}/" title="Slack"
+        <a href="{{ community.slack }}/" title="Slack"
            rel="noopener" target="_blank"><i class="fab fa-slack" aria-hidden="true"></i></a>
         {% endif %}
 
@@ -92,12 +92,12 @@
         {% endif %}
 
         {% if community.discord %}
-        <a href="https://www.youtube.com/{{ community.discord }}" title="discord"
+        <a href="https://discordapp.com/invite/{{ community.discord }}" title="Discord"
            rel="noopener" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if community.twitch %}
-        <a href="https://www.youtube.com/{{ community.twitch }}" title="twitch"
+        <a href="https://www.twitch.tv/{{ community.twitch }}" title="Twitch"
            rel="noopener" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a>
         {% endif %}
 

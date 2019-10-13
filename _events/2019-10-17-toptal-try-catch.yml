@@ -6,7 +6,7 @@ from: '2019-10-17'
 until: '2019-10-17'
 banner: toptal-sorocaba.jpeg
 twitter: toptal
-facebook: toptal/
+facebook: "toptal"
 main_url: https://www.meetup.com/pt-BR/Toptal-Sorocaba/events/265272220/
 rsvp_url: https://www.meetup.com/pt-BR/Toptal-Sorocaba/events/265272220/
 meetup_event: true

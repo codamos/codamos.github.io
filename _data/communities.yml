@@ -24,7 +24,7 @@
   hashtag: "bg17"
   twitter: "bytegirlevento"
   facebook: "bytegirlevento"
-  main_url: "http://bytegirl.com.br/"
+  main_url: "https://bytegirl.com.br/"
 
 - title: "Rails Girls SP"
   banner: "railsgirls.png"
@@ -423,6 +423,15 @@
   facebook: "sorocabacss"
   meetup: "SorocabaCSS"
   hashtag: "sorocabacss"
+
+- title: "Garoa Hacker Club"
+  banner: "garoa.png"
+  twitter: "garoahc"
+  facebook: "GaroaHC"
+  github: "garoa"
+  tags: [coc]
+  main_url: "https://garoa.net.br/"
+  meetup: Garoa-Hacker-Clube
 
 - title: "Joinville WordPress Meetup"
   banner: "wordpress-joinville.jpg"
