@@ -4,8 +4,12 @@ location: Vancouver - Canadá
 date: 09/12
 from: '2019-09-25'
 until: '2019-10-28'
-banner: criciumaconf.png
+banner: black_in_ai.png
+tags:
+  - poc
 twitter: black_in_ai
-facebook: blackinai/
+facebook: blackinai
 main_url: https://blackinai.github.io
-rsvp_url: https://t.co/4wbB0lpFTt?amp=1
+rsvp_url: https://docs.google.com/document/d/1MIbQUjbRfX0kEU65sWUauJwFUDkeRroNRD8fWxby8zs/edit
+cfp: true
+poc: true
