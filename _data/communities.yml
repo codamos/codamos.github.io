@@ -455,3 +455,10 @@
   facebook: "railsgirlsjoinville"
   instagram: "railsgirlsjoinville"
   main_url: "http://railsgirls.com/joinville.html"
+
+- title: "Rails Girls Floripa"
+  banner: "railsgirls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "railsgirls"
+  facebook: "railsgirlsfloripa"
+  main_url: "http://railsgirls.com/florianopolis.html"
