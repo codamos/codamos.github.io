@@ -1649,3 +1649,17 @@
   linkedin: "jaymenigri"
   facebook: "jaymenigri"
   instagram: "jaymenigri"
+  
+  name: "Renata Maçãs"
+  mentor: true
+  highlight: true
+  labels: [women, parent]
+  location: "Porto Alegre - RS"
+  avatar: "#"
+  skills: [JavaScript, NodeJS, Html, Css, Python, Feminismo, Mães em TI, Mentoria, Comunidades]
+  bio: >
+  "| Coffee fulltime, Mother, Feminist, Developer full stack, Data Science, History |"
+  email: "renata.macas@gmail.com"
+  linkedin: "macasrenata"
+  github: "macasrenata"
+  twitter: "macasrenata"
