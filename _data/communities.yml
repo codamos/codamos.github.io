@@ -447,3 +447,11 @@
   hashtag: "IxDA"
   facebook: "ixdarp"
   instagram: "ixdarp"
+
+- title: "Rails Girls Joinville"
+  banner: "railsgirls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "railsgirls"
+  facebook: "railsgirlsjoinville"
+  instagram: "railsgirlsjoinville"
+  main_url: "http://railsgirls.com/joinville.html"
