@@ -74,10 +74,11 @@
   category: "+ 60 minutos"
   hashtag: "podosfera"
   twitter: "pizzadedados"
+  facebook: "pizzadedados"
   itunes: "us/podcast/pizza-de-dados/id1323137071"
   rss: "http://feeds.feedburner.com/PizzaDeDados"
-  main_url: "http://podcast.datascience.pizza/"
-  rsvp_url: "http://podcast.datascience.pizza/"
+  main_url: "https://podcast.pizzadedados.com"
+  rsvp_url: "https://podcast.pizzadedados.com"
 
 - title: "Lambda3"
   inclusive: true
@@ -191,11 +192,12 @@
   banner: "cafedebug.png"
   category: "- 60 minutos"
   hashtag: "tecnologia"
+  spotify: "https://open.spotify.com/show/3uqyj3GlhBHp1IJN8KJ1xU"
   twitter: "cafedebug"
   facebook: "cafedebug"
   soundcloud: "cafe-de-bug"
   main_url: "http://cafedebug.com/"
-  rsvp_url: "http://cafedebug.com/category/podcast/"
+  rsvp_url: "https://open.spotify.com/show/3uqyj3GlhBHp1IJN8KJ1xU"
 
 - title: "Geekout"
   location: "On-line"
