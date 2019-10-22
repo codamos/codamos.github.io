@@ -102,6 +102,14 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
 
+- title: "PHP-Rio"
+  banner: ""
+  tags: [PHP, RJ]
+  hashtag: "phprio"
+  twitter: ""
+  facebook: ""
+  main_url: "http://php.rio/"
+  
 - title: "PHPWomen"
   banner: "php-women.png"
   tags: [women, coc]
