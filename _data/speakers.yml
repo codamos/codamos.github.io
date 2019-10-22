@@ -1649,3 +1649,17 @@
   linkedin: "jaymenigri"
   facebook: "jaymenigri"
   instagram: "jaymenigri"
+
+- name: "Renata Maçãs"
+  speaker: true
+  labels: [women, parent]
+  avatar: "macas.jpg"
+  location: "Porto Alegre - RS"
+  skills: [Desenvolvedora Software, voluntária Django Girls, Mentoria]
+  bio: >   
+  "Mãe, Feminista, Café toda hora, Desenvolvedora de Software, Ciência de Dados, História."
+  email: "renata.macas@gmail.com"
+  site: "https://macasrenata.github.io"
+  linkedin: "macasrenata"
+  github: "macasrenata"
+  twitter: "macasrenata"
