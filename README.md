@@ -64,7 +64,7 @@ palestrantes, mentoras ou voluntárias da comunidade, basta abrir um _pull reque
 suas informações adicionadas no [arquivo `_data/speakers.yml`](_data/speakers.yml).
 Este arquivo contém uma descrição de todos os campos possíveis em seu cabeçalho.
 
-Se prefirir, [é possível editar o arquivo][editing-files] diretamente através do ícone
+Se preferir, [é possível editar o arquivo][editing-files] diretamente através do ícone
 de edição do Github.
 
 ## Adicionando grupos e comunidades
