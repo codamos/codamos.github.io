@@ -454,3 +454,26 @@
   facebook: "PyLadiesSorocaba"
   github: "PyLadiesSorocaba"
   main_url: "https://facebook.com/PyLadiesSorocaba"
+
+- title: "Rails Girls Joinville"
+  banner: "railsgirls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "railsgirls"
+  facebook: "railsgirlsjoinville"
+  instagram: "railsgirlsjoinville"
+  main_url: "http://railsgirls.com/joinville.html"
+
+- title: "Rails Girls Floripa"
+  banner: "railsgirls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "railsgirls"
+  facebook: "railsgirlsfloripa"
+  main_url: "http://railsgirls.com/florianopolis.html"
+
+- title: "IxDA Joinville"
+  banner: "ixda-jlle.jpg"
+  tags: [women, neuter]
+  hashtag: "IxDA"
+  facebook: "ixdajoinville"
+  instagram: "ixda.joinville"
+  main_url: "https://www.sympla.com.br/ixdajlle"

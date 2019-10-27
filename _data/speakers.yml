@@ -673,16 +673,16 @@
   voluntary: true
   labels: [women]
   avatar: "jessica-lopes.jpg"
-  location: "São Bernardo do Campo - SP"
-  skills: [HTML, CSS, Bootstrap, JavaScript e Git/GitHub]
+  location: "São Paulo - SP"
+  skills: [HTML, CSS, JavaScript, TypeSript e Git/GitHub]
   bio: >
-    Sou apaixonada por programação, pois vejo nela um modo de
-    mudar o mundo e deixar essa mudança acessível à muitos.
+    Curiosa, desenvolvedora frontend, aprendendo, crescendo, 
+    aproveitando a jornada e compartilhando o máximo que posso.
   email: "jeesousa91@gmail.com"
-  linkedin: "jesslsousa"
-  github: "jeesousa"
-  twitter: "jeesousa91"
-  facebook: "jesslsousa"
+  linkedin: "jessicalopess"
+  github: "eudivaloper"
+  twitter: "eudivaloper"
+  facebook: "eujessicalopess"
 
 - name: "Jessica Temporal"
   speaker: true
@@ -1649,3 +1649,17 @@
   linkedin: "jaymenigri"
   facebook: "jaymenigri"
   instagram: "jaymenigri"
+
+- name: "Renata Maçãs"
+  speaker: true
+  labels: [women, parent]
+  avatar: "macas.jpg"
+  location: "Porto Alegre - RS"
+  skills: [Desenvolvedora Software, voluntária Django Girls, Mentoria]
+  bio: >   
+    "Mãe, Feminista, Café toda hora, Desenvolvedora de Software, Ciência de Dados, História."
+  email: "renata.macas@gmail.com"
+  site: "https://macasrenata.github.io"
+  linkedin: "macasrenata"
+  github: "macasrenata"
+  twitter: "macasrenata"

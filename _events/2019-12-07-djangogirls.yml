@@ -1,0 +1,20 @@
+---
+title: "Django Girls São Paulo 4ª Edição"
+inclusive: true 
+partners: false 
+cfp: false 
+location: "São Paulo-SP"
+date: "07/12" 
+from: "2019-12-07" 
+until: "2019-12-07" 
+banner: DjangoGirlsSP.jpg 
+group: DjangoGirlsSP.jpg 
+group_name: "Django Girls São Paulo"
+tags:
+- Tecnologia
+- Django
+hashtag: DjangoGirls
+twitter: DjangoGirlsSP
+facebook: DjangoGirlsSP
+main_url: https://djangogirls.org/saopaulo/apply/
+rsvp_url: false
