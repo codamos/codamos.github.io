@@ -477,3 +477,11 @@
   facebook: "ixdajoinville"
   instagram: "ixda.joinville"
   main_url: "https://www.sympla.com.br/ixdajlle"
+
+- title: "PHPSP"
+  banner: "phpsp.png"
+  tags: [women, inclusive, neuter, coc]
+  hashtag: "PHPSP"
+  facebook: "sao.paulo.elephants"
+  github: "phpsp"
+  main_url: "https://phpsp.org.br"
