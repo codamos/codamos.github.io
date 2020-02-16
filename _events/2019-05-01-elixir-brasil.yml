@@ -2,6 +2,8 @@
 title: Elixir Brasil 2020 - edição 3
 location: São Paulo - SP
 beginners: true
+cfp: true
+highlight: true
 date: 23/05 e 24/05
 from: '2020-05-23'
 until: '2020-05-24'
@@ -15,4 +17,4 @@ tags:
 - mobility
 - juniors
 main_url: https://2019.elixirbrasil.com/
-rsvp_url:
+rsvp_url: https://www.sympla.com.br/elixir-brasil-2020__736536

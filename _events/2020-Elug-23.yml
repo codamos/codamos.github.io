@@ -6,6 +6,7 @@ from: '2020-02-29'
 until: '2020-02-29'
 banner: elug.png
 free: true
+cfp: true
 meetup_event: true
 inclusive: true
 tags:
