@@ -6,7 +6,6 @@ date: 09/11 A 14/12
 from: '2019-11-09'
 until: '2019-12-14'
 beginners: true
-highlight: true
 banner: sesc-libras-robotica.png
 free: true
 group: sesc.png

@@ -7,7 +7,6 @@ from: '2019-10-22'
 until: '2019-11-14'
 banner: sesc-inclusao-3idade.png
 free: true
-highlight: true
 group: sesc.png
 group_name: SESC SP
 tags:
