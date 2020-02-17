@@ -7,6 +7,7 @@ until: '2020-03-08'
 free: true
 poc: true
 inclusive: true
+hackathon: true
 banner: movileafro.png
 tags:
   - poc

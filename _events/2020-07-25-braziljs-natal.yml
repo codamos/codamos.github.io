@@ -1,12 +1,12 @@
 ---
-title: 'BrazilJS OTR RJ'
+title: 'BrazilJS OTR RN'
 inclusive: true
 partners: true
 cfp: true
-location: Rio de Janeiro - RJ
-date: 16/05
-from: '2020-05-16'
-until: '2020-05-16'
+location: Natal - RN
+date: 25/07
+from: '2020-07-25'
+until: '2020-07-25'
 banner: braziljs-OTR.png
 group: brazil-js-grupo.png
 group_name: BrazilJS
@@ -20,4 +20,4 @@ twitter: braziljs
 facebook: braziljs
 instagram: brazil.js
 main_url: https://braziljs.org/conf
-rsvp_url: https://braziljs.org/eventos/otr-rio-de-janeiro/2020/
+rsvp_url: https://braziljs.org/eventos/otr-natal/2020/
