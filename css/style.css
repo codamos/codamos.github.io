@@ -849,7 +849,7 @@ p {
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner017.png"), radial-gradient(ellipse closest-side, rgba(73,144,227,0.75), #4990E2);
+    background-image: url("../images/bg-banner017.jpg"), radial-gradient(ellipse closest-side, rgba(73,144,227,0.75), #4990E2);
 }
 
 .banner-summit {
@@ -861,7 +861,7 @@ p {
 }
 
 .banner-comunidades {
-    background-image: url("../images/bg-banner003.jpg"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
+    background-image: url("../images/bg-banner002.png"), linear-gradient(4deg, #4990E2 0%,#4990E2 100%);
 }
 
 .banner-podcast {
