@@ -1,7 +1,7 @@
 ---
 title: "Inteligência Artificial"
 inclusive: true # (se é inclusivo ou não)
-partners: true # (se o evento é de parceiros do Codamos)
+partners: false # (se o evento é de parceiros do Codamos)
 cfp: false # (se o evento está aceitando propostas de palestras - call for papers)
 location: "São Paulo - SP"
 date: "26/03" # (data do evento)
