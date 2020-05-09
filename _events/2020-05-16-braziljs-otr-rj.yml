@@ -3,21 +3,35 @@ title: 'BrazilJS OTR RJ'
 inclusive: true
 partners: true
 cfp: true
-location: Rio de Janeiro - RJ
-date: 16/05
+free:          false
+category:      false
+women:         false
+lgbt:          false
+poc:           false
+hackathon:     false
+opensource:    false
+highlight:     false
+happyhour:     false
+coffee:        false
+meetup_event:  false
+on_line:       false
+frontendweek:  false
+beginners:     false
+location: 'Rio de Janeiro - RJ'
+date: 'Adiado'
 from: '2020-05-16'
 until: '2020-05-16'
-banner: braziljs-OTR.png
-group: brazil-js-grupo.png
-group_name: BrazilJS
+banner: 'braziljs-OTR.png'
+group: 'brazil-js-grupo.png'
+group_name: 'BrazilJS'
 tags:
 - women
 - coc
 - mobility
 - poc
-hashtag: BrazilJS10anos
-twitter: braziljs
-facebook: braziljs
-instagram: brazil.js
-main_url: https://braziljs.org/conf
-rsvp_url: https://braziljs.org/eventos/otr-rio-de-janeiro/2020/
+hashtag: 'BrazilJS10anos'
+twitter: 'braziljs'
+facebook: 'braziljs'
+instagram: 'brazil.js'
+main_url: 'https://braziljs.org/conf'
+rsvp_url: 'https://braziljs.org/eventos/otr-rio-de-janeiro/2020/'

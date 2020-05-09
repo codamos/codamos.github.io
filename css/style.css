@@ -80,7 +80,7 @@ p {
     --dusty-lavender: #cac8c9;
     --green: #d7df23;
     --grey: #434343;
-    --pink: #d00049;
+    --pink: #ff355e;
     --maize: #f3c259;
     --ocher: #c2a20c;
     --pea: #cbad22;
@@ -133,7 +133,7 @@ p {
 }
 
 .pink {
-    color: #d00049;
+    color: #ff355e;
     color: var(--pink);
 }
 
@@ -293,21 +293,21 @@ p {
 }
 
 .button-primary-outline:active, .button-primary-outline:hover {
-    color: #d00049;
+    color: #ff355e;
     box-shadow: none;
-    border: 2px solid #d00049;
+    border: 2px solid #ff355e;
 }
 
 .button-secondary-outline {
     display: inline-block;
     cursor: pointer;
-    color: #d00049;
+    color: #ff355e;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid #d00049;
+    border: 2px solid #ff355e;
     padding: 14px 44px;
     border-radius: 14px;
     margin-top: 1em;
@@ -334,7 +334,7 @@ p {
 }
 
 .button-default-outline:active, .button-default-outline:hover {
-    color: #d00049;
+    color: #ff355e;
     box-shadow: none;
     border: 2px solid #ffffff;
     background: #fff;
@@ -351,14 +351,15 @@ p {
     font-weight: bold;
     padding: 14px 40px;
     border-radius: 14px;
-    background: #9DC8FA;
+    background: #15f4ee;
     border: 2px solid #262f38;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-banner:active, .button-banner:hover {
     color: #ffffff;
     box-shadow: none;
-    background: #d00049;
+    background: #ff355e;
     border: 2px solid #fff;
 }
 
@@ -379,7 +380,7 @@ p {
 .button-partners:active, .button-partners:hover {
     color: #ffffff;
     box-shadow: none;
-    background-color: #d00049;
+    background-color: #ff355e;
 }
 
 
@@ -420,7 +421,7 @@ p {
 }
 
 .page-section p a {
-    color: #d00049;
+    color: #ff355e;
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
@@ -431,8 +432,8 @@ p {
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
     background: #fff;
-    border: 1px solid #d00049;
-    box-shadow: 3px 4px 0px #d00049;
+    border: 1px solid #fd5b78;
+    box-shadow: 3px 4px 0px #fd5b78;
 }
 
 .page-section p a:hover {
@@ -446,9 +447,9 @@ p {
     font-weight: bold;
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
-    background: #d00049;
-    border: 1px solid #fdbbc7;
-    box-shadow: 3px 4px 0px #fdbbc7;
+    background: #ff355e;
+    border: 1px solid #ff8096;
+    box-shadow: 3px 4px 0px #ff8096;
 }
 
 .page-section-social-tc {
@@ -536,7 +537,7 @@ p {
     font-size: 2.0em;
     font-family: 'Josefin Sans', sans-serif;
     margin: 1.5em 0;
-    color: #d00049;
+    color: #ff355e;
 }
 
 .page-section-text {
@@ -630,7 +631,7 @@ p {
 
 .page-section-pink {
     background-color: var(--pink);
-    background-color: #d00049;
+    background-color: #ff355e;
 }
 
 .page-section-pink-dark {
@@ -683,7 +684,7 @@ p {
     font-weight: bold;
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
-    color: #d00049;
+    color: #ff355e;
     background: transparent;
     border: 1px solid transparent;
     box-shadow: 3px 4px 0px transparent;
@@ -692,20 +693,20 @@ p {
 .header-navbar-menu .active,
 .header-navbar-menu a:active {
     /*color: #fff;
-    background-color: #d00049;
+    background-color: #ff355e;
     #f5b43c 0,#db3f5b #fdbbc7 #9fd8dd 0,#d6de3f #9DC8FA #262f38*/
-    background: #9DC8FA;
+    background: #15f4ee;
     color: #262f38;
-    border: 1px solid #4990e3;
-    box-shadow: 3px 4px 0px #d00049;
+    border: 1px solid #262f38;
+    box-shadow: 3px 4px 0px #ff355e;
 }
 
 .header-navbar-menu a:hover {
     opacity: 1;
-    background: #d00049;
+    background: #ff355e;
     color: white;
-    border: 1px solid #fdbbc7;
-    box-shadow: 3px 4px 0px #fdbbc7;
+    border: 1px solid #ff8096;
+    box-shadow: 3px 4px 0px #ff8096;
 
 }
 
@@ -725,7 +726,7 @@ p {
     width: 100%;
     padding: 30px 0;
     margin: 0;
-    background-color: #d00049;
+    background-color: #ff355e;
 }
 
 .header-menu-hamburger .submenu-hamburger > li + li {
@@ -747,7 +748,7 @@ p {
 }
 
 .header-menu-hamburger .submenu-hamburger a:hover {
-    color: #d00049;
+    color: #ff355e;
     cursor: pointer;
     background: #fff;
     border: 1px solid #fdbbc7;
@@ -799,7 +800,7 @@ p {
     position: absolute;
     display: block;
     background: #a6acff;
-    background: linear-gradient(90deg,#f5b43c 0,#db3f5b);
+    background: linear-gradient(90deg,#fd5b78 0,#ff9966);
 }
 
 /*BANNER*/
@@ -844,7 +845,7 @@ p {
     padding: 3em;
     width: 100%;
     height: 80vh;
-    background: rgba(73,144,227,0.70);
+    background: rgba(21,40,39,0.80);
     text-align: center;
 }
 
@@ -914,14 +915,14 @@ p {
 }
 
 .events-section-label:hover {
-    color: #d00049;
-    border: 2px solid #d00049;
+    color: #ff355e;
+    border: 2px solid #ff355e;
     background: #fff;
 }
 
 .events-section-label:active {
-    color: #d00049;
-    border: 2px solid #d00049;
+    color: #ff355e;
+    border: 2px solid #ff355e;
     background: #fff;
     opacity: 0.7;
 }
@@ -958,7 +959,7 @@ p {
 .events-card-banner {
     height: 140px;
     border-radius: 10px 10px 0 0;
-    background: linear-gradient(to right,  #d00049 0%,#3366cc 100%);
+    background: linear-gradient(to right,  #fd5b78 0%,#ff355e 100%);
 }
 
 .events-card-banner img {
@@ -996,7 +997,7 @@ p {
     top: 74px;
     color: #fff;
     left: 10px;
-    border: 2px solid #40c5f5;
+    border: 1px solid #50bfe6;
     border-radius: 4px;
 }
 
@@ -1005,7 +1006,7 @@ p {
     top: 105px;
     color: #fff;
     left: 10px;
-    border: 2px solid #99ff00;
+    border: 1px solid #99ff00;
     border-radius: 4px;
 }
 
@@ -1015,17 +1016,17 @@ p {
     color: #660000;
     left: 10px;
     font-weight: 700;
-    border: 2px solid #f6a623;
+    border: 1px solid #ffcc33;
     border-radius: 4px;
 }
 
 .women {
-    background: #d00049;
-    top: 71px;
+    background: #ff355e;
+    top: 40px;
     color: #fff;
-    right: 10px;
+    left: 10px;
     font-weight: 300;
-    border: 2px solid #ff9999;
+    border: 1px solid #ff9999;
     border-radius: 4px;
 }
 
@@ -1036,7 +1037,7 @@ p {
 .codamos {
     background: #fff;
     top: 105px;
-    color: #d00049;
+    color: #ff355e;
     right: 10px;
     font-weight: 700;
     border: 2px solid #eee;
@@ -1085,18 +1086,20 @@ p {
 }
 
 .beginners {
-    background: #ffeb04;
+    background: #ffff66;
     color: #336600;
+    font-weight: normal;
 }
 
 .opensource {
-    background: #000;
-    color: #eee;
+    background: #ccff00;
+    color: #336600;
+    font-weight: normal;
 }
 
 .category {
-    background: #35186a;
-    color: #ddc7ed;
+    background: #2e264a;
+    color: #bbc2d8;
 }
 
 .coffee {
@@ -1105,33 +1108,43 @@ p {
 }
 
 .partners {
-    background: #9DC8FA;
+    background: #15f4ee;
     color: #262f38;
-    font-weight: bold;
+    font-weight: normal;
 }
 .happyhour {
-    background: #ff6655;;
-    color: #ffeb04;
+    background: #ff6037;
+    color: #ffff66;
 }
 
 .hackathon {
-    background: #9a6909;
-    color: #fff;
+    background: #ff6eff;
+    color: #2e264a;
+    font-weight: normal;
 }
 
 .meetup_event {
     background: #fff;
     color: #ff2140;
+    font-weight: normal;
 }
 
 .on_line {
-    background: #000;
-    color: #eee;
+    background: #927de0;
+    color: #262f38;
+    font-weight: normal;
+}
+
+.poc {
+    background: #ff9933;
+    color: #262f38;
+    font-weight: normal;
 }
 
 .lgbt {
     background: url(../images/lgbt.png) repeat;
     color: #fff;
+    font-weight: bold;
 }
 
 .events-card-header-ico {
@@ -1142,7 +1155,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 36px;
-    background: #d00049;
+    background: #ff355e;
     color: #fff;
     text-transform: uppercase;
     flex-wrap: wrap;
@@ -1183,7 +1196,7 @@ p {
 }
 
 .events-card-title h3 {
-    color: #d00049;
+    color: #ff355e;
     font-family: 'Josefin Sans', Sans-Serif;
     text-transform: uppercase;
     font-size: medium;
@@ -1234,7 +1247,7 @@ p {
 }
 
 .events-card-body-social-media a:hover {
-    color: #d00049;
+    color: #ff355e;
 }
 
 .events-card-body-hashtag,
@@ -1258,7 +1271,7 @@ p {
 }
 
 .events-card-body-hashtag a:hover {
-    color: #d00049;
+    color: #ff355e;
 }
 
 .events-card-body-button {
@@ -1294,7 +1307,7 @@ p {
 }
 
 .communities-card-title {
-    color: #d00049;
+    color: #ff355e;
     font-family: 'Josefin Sans', Sans-Serif;
     text-transform: uppercase;
     padding: 0.5em;
@@ -1316,7 +1329,7 @@ p {
 }
 
 .communities-card-body-social-media a:hover {
-    color: #d00049;
+    color: #ff355e;
 }
 
 .communities-card-header-ico {
@@ -1326,7 +1339,7 @@ p {
     top: 5px;
     position: absolute;
     z-index: 1;
-    background: #d00049;
+    background: #ff355e;
     padding: 5px;
     border-radius: 0 3px 3px 0;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -1394,8 +1407,8 @@ p {
     /*box-shadow: 6px 6px 12px rgba(32, 0, 0, 0.25);*/
 
     background-color: #FFFFEE;
-    border: 1px solid #d00049;
-    box-shadow: 3px 4px 0px #d00049;
+    border: 1px solid #ff355e;
+    box-shadow: 3px 4px 0px #ff355e;
 }
 
 .speaker-card-back {
@@ -1625,7 +1638,7 @@ p {
     background: #FFF;
     border: 3px solid #eee;
     border-radius: 3px;
-    color: #d00049;
+    color: #ff355e;
 }
 
 .team-collaborators-tag h4 {
@@ -1696,7 +1709,7 @@ p {
 
 .team-collaborators-card li a:hover {
     font-size: 25px;
-    color: #d00049;
+    color: #ff355e;
     text-decoration: none;
 }
 
@@ -1739,7 +1752,7 @@ p {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    color: #ff0066;
+    color: #ff355e;
 }
 
 .coc-section-download {
@@ -1847,7 +1860,7 @@ p {
 .partners-supporters-box {
     color: #ffffff;
     background-color: black;
-    border-top: 6px solid #d00049;
+    border-top: 6px solid #ff355e;
     width: 100%;
 }
 
@@ -1897,7 +1910,7 @@ p {
     .wrapper a{
         color: #fff;
         text-decoration: none;
-        border-bottom: 2px dotted #d00049;
+        border-bottom: 2px dotted #ff355e;
     }
 
     .box {
@@ -2149,7 +2162,7 @@ p {
     color: #262f38;
     background: #9DC8FA;
     border: 1px solid #4990e3;
-    box-shadow: 3px 4px 0px #d00049;
+    box-shadow: 3px 4px 0px #ff355e;
 }
 
 .footer-logo,
@@ -2181,11 +2194,11 @@ p {
     bottom: 0;
     display: block;
     background: #a6acff;
-    background: linear-gradient(90deg,#9fd8dd 0,#d6de3f);
+    background: linear-gradient(90deg,#66ff66 0,#aaf0d1);
 }
 
 .footer-contato {
-    background: #d00049;
+    background: #ff355e;
     display: block;
     width: 100%;
     justify-content: center;
