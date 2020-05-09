@@ -3,12 +3,6 @@
 <div class="speaker-card-front">
   <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
 
-  {% if member.codamos %}
-    <div class="team-collaborators-tag">
-      <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>
-    </div>
-  {% endif %}
-
   <div class="speaker-card-labels">
     {% for label in member.labels %}
       {% assign icon = site.data.speaker_icons[label] %}
@@ -43,6 +37,12 @@
           <span class="speaker-card-tag-label voluntary">
             <i class="far fa-handshake" aria-hidden="true"></i><h4>Voluntariar</h4>
           </span>
+        {% endif %}
+
+        {% if member.codamos %}
+          <div class="team-collaborators-tag">
+            <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>
+          </div>
         {% endif %}
 
         <label class="speaker-card-tag-label show-bio" for="Bio {{ member.name }}">

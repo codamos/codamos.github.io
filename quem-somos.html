@@ -45,7 +45,7 @@ layout: default
   <h1 class="page-section-title">Planos pro futuro</h1>
 
   <p class="page-section-text">
-    Nosso foco em 2019 é preparar mais o projeto para que receba contribuições open source, otimizar a curadoria dos eventos, ativar buscas por filtros, ampliar o cadastro de eventos englobando todo o Brasil e que qualquer possa cadastrar seu próprio evento na plataforma. Estamos trabalhando por isso, mas somos um time que se dedica <strong>voluntariamente</strong> e tenta aprender junto em várias etapas desse crescimento, portanto, tudo isso vai acontecer lentamente. Estamos aprendendo no processo. Sem o voluntáriado e a colaboração de cada um a gente não estaria aqui S2</spa A Diversidade é possível, dá trabalho, mas é perfeitamente possível e juntos podemos mudar <a href="https://insights.stackoverflow.com/survey/" target="_blank">nosso cenário atual na tecnologia</a>!
+    Nosso foco em 2020 é preparar mais o projeto para que receba contribuições open source, otimizar a curadoria dos eventos, ativar buscas por filtros, ampliar o cadastro de eventos englobando todo o Brasil e que qualquer pessoa possa cadastrar seu próprio evento na plataforma. Estamos trabalhando por isso. Somos um time que se dedica <strong>voluntariamente</strong> e tenta aprender junto em várias etapas desse crescimento, portanto, tudo isso vai acontecer lentamente. Estamos aprendendo no processo. Sem o voluntáriado e a colaboração de cada um não estaríamos aqui S2. A Diversidade é possível, dá trabalho, mas é perfeitamente possível e juntos podemos mudar <a href="https://insights.stackoverflow.com/survey/" target="_blank">nosso cenário atual na tecnologia</a>.
   </p>
 
   <img class="img-content-highlight" src="images/codamos-rubyconf.jpg" alt="">
@@ -76,7 +76,9 @@ layout: default
     <li><a href="http://guides.railsgirls.com/guides-ptbr/how-to-continue-with-programming"> Pós-evento: Como Continuar Programando</a> / Rails Girls</li>
     <li><a href="https://brasil.campus-party.org/comunidades/"> Comunidades</a> / Campus Party</li>
     <li><a href="https://diegoeis.com/mulheres-na-area-deti.html/"> Mulheres na área de TI e Respeito</a> / Diego Eis</li>
-
+    <li><a href="https://www.casadocodigo.com.br/products/livro-universo-programacao">O universo da programação: Um guia de carreira em desenvolvimento de software</a> / William Oliveira</li>
+    <li><a href="https://hipsters.tech/eventos-de-tecnologia-da-comunidade-hipsters-191/">Eventos de tecnologia da comunidade</a> / Hipsters.tech</li>
+    <li><a href="https://roadsec.com.br/codamos">ROADSEC 2019</a> / Roadsec</li>
   </ul>
 
 </section>
@@ -93,87 +95,10 @@ layout: default
   <a class="button-primary-outline" href="mailto:codamos.club@gmail.com">Fale conosco</a>
 </section>
 
-{% comment %}
-<section id="team-collaborators" class="page-section">
-  <h1 class="page-section-title">Colaboram</h1>
-
-  <ul class="team-collaborators-cards">
-    {% for collaborator in site.data.collaborators %}
-    <li class="team-collaborators-card">
-      <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
-      <h3>{{ collaborator.name }}</h3>
-      <ul>
-        <li>
-          {% if collaborator.twitter %}
-          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
-             rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-twitter" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.facebook %}
-          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
-             rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-facebook-f" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.linkedin %}
-          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
-             rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-linkedin" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h1 class="page-section-title">Colaboraram</h1>
-  <ul class="team-collaborators-cards">
-    {% for collaborator in site.data.collaborators-old %}
-    <li class="team-collaborators-card">
-      <img data-src="images/fotos/{{ collaborator.avatar }}" alt="{{ collaborator.name }}"/>
-      <h3>{{ collaborator.name }}</h3>
-      <ul>
-        <li>
-          {% if collaborator.twitter %}
-          <a href="https://twitter.com/{{ collaborator.twitter }}" title="Twitter"
-             rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-twitter" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.facebook %}
-          <a href="https://www.facebook.com/{{ collaborator.facebook }}/" title="Facebook"
-             rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-facebook-f" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-        <li>
-          {% if collaborator.linkedin %}
-          <a href="https://www.linkedin.com/{{ collaborator.linkedin }}" title="LinkedIn"
-             rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-          {% else %}
-          <i class="fab fa-linkedin" aria-hidden="true"></i>
-          {% endif %}
-        </li>
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endcomment %}
-
 {% include code_of_conduct.html %}
 
 <section class="page-section">
-  <h1 class="page-section-title">Eventos feitos pelo Codamos ou parcerias</h1>
+  <h1 class="page-section-title">Organizados pelo Codamos ou parcerias</h1>
 
   <ul class="events-cards">
     {% assign codamos = site.archived_events | where:"codamos",true | sort: "from" | reverse %}

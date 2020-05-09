@@ -25,12 +25,9 @@
   avatar: "alda-rocha.jpg"
   location: "São Paulo - SP"
   labels: [women, parent]
-  skills: [UXD, UX Research, Métricas, Teste A/B, Flexbox e CSS Grid, Front-end, Diversidade e Inclusão]
+  skills: [UX, UX Research, Métricas e Dados, Pesquisa, Negócios e estratégias, HTML, CSS, Diversidade e Inclusão]
   bio: >
-    Consultora sênior UX/UX Researcher e instrutora de UXD, HTML e CSS atualmente trabalhando no SENAI.
-    Web desenvolvedora, front-end, formada em arquitetura da informação, engajada nas causas femininas,
-    tecnológicas e Já palestrou em vários eventos de tecnologia. Astrônoma amadora pela USP.
-    Faz parte do comitê do manifesto #DiversidadeTech.
+    Idealizadora #CodamosClub e #ElixirBrasil | Organizadora #UXPAsaopaulo - Design Lead na Raia Drogasil, UX researcher e UXD. Astrônoma amadora pela IAG.
   site: "https://mjcoffeeholick.github.io/"
   twitter: "mjcoffeeholick"
   linkedin: "mjcoffeeholick"
@@ -68,4 +65,18 @@
     Canhoto do pé e destro da mão.
   twitter: "noteu"
   github: "britto"
+
+- name: "Caique Mitsuoka"
+  codamos: true
+  email: "caique.mitsuoka@gmail.com"
+  avatar: "caique-mitsuoka.jpg"
+  location: "São Paulo - SP"
+  labels: [men]
+  skills: [Ruby, Elixir, JavaScript, Programação funcional, Opensource, Code Review]
+  bio: >
+    Duas fitas duplas de DNA, 46 cromossomos e 23 testes falhando.
+    Ruby, JS e Elixir, fico ouriçadinho por novas tecnologias.
+  github: "caiquemitsuoka"
+  linkedin: "caiquemitsuoka"
+  twitter: "caiquemitsuoka"
 
