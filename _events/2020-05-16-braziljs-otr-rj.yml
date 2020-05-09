@@ -2,7 +2,8 @@
 title: 'BrazilJS OTR RJ'
 inclusive: true
 partners: true
-cfp: true
+adiado: true
+cfp: false
 free:          false
 category:      false
 women:         false
@@ -18,7 +19,7 @@ on_line:       false
 frontendweek:  false
 beginners:     false
 location: 'Rio de Janeiro - RJ'
-date: 'Adiado'
+date: 'adiado'
 from: '2020-05-16'
 until: '2020-05-16'
 banner: 'braziljs-OTR.png'

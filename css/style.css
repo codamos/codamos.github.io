@@ -1020,6 +1020,16 @@ p {
     border-radius: 4px;
 }
 
+.adiado {
+    background: #ff6037;
+    top: 7px;
+    color: #ffff66;
+    left: 10px;
+    font-weight: 700;
+    border: 1px solid #ff9966;
+    border-radius: 4px;
+}
+
 .women {
     background: #ff355e;
     top: 40px;

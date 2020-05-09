@@ -1,9 +1,11 @@
 ---
 title: UXconfBR
+alterado: true
+inclusive: true
 location: Porto Alegre - RS
-date: 15/05 e 16/05
-from: '2020-05-15'
-until: '2020-05-16'
+date: 15/10 e 16/10
+from: '2020-10-15'
+until: '2020-10-166'
 banner: ux-confbr.png
 tags:
 - coc
