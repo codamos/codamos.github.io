@@ -811,7 +811,7 @@ p {
     flex-direction: column;
     color: #ffffff;
     height: 80vh;
-    padding: 5% 0 0 0;
+    padding: 0;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
