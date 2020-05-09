@@ -40,7 +40,6 @@
 
 - name: "Aline Bastos"
   mentor: true
-  highlight: true
   labels: [women, parent]
   location: "Porto Alegre - RS"
   avatar: "aline-bastos.jpg"
@@ -338,7 +337,6 @@
 
 - name: "Dan Jesus"
   speaker: true
-  highlight: true
   email: "danper.jesus@gmail.com"
   avatar: "dan-jesus.jpg"
   location: "Salvador - BA"
@@ -557,7 +555,6 @@
 
 - name: "Isabelle Galvão"
   mentor: true
-  highlight: true
   email: "belle.galvao@yahoo.com.br"
   avatar: "isabelle-galvao.jpg"
   location: "Santos - SP"
@@ -676,7 +673,7 @@
   location: "São Paulo - SP"
   skills: [HTML, CSS, JavaScript, TypeSript e Git/GitHub]
   bio: >
-    Curiosa, desenvolvedora frontend, aprendendo, crescendo, 
+    Curiosa, desenvolvedora frontend, aprendendo, crescendo,
     aproveitando a jornada e compartilhando o máximo que posso.
   email: "jeesousa91@gmail.com"
   linkedin: "jessicalopess"
@@ -721,7 +718,6 @@
 
 - name: "Jonas S. Marques"
   speaker: true
-  highlight: true
   labels: [men, blind]
   location: São Paulo - SP
   avatar: "jonas-marques.jpg"
@@ -1656,7 +1652,7 @@
   avatar: "macas.jpg"
   location: "Porto Alegre - RS"
   skills: [Desenvolvedora Software, voluntária Django Girls, Mentoria]
-  bio: >   
+  bio: >
     "Mãe, Feminista, Café toda hora, Desenvolvedora de Software, Ciência de Dados, História."
   email: "renata.macas@gmail.com"
   site: "https://macasrenata.github.io"
