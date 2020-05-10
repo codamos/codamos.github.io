@@ -1020,6 +1020,16 @@ p {
     border-radius: 4px;
 }
 
+.streaming {
+    background: #ff00cc;
+    top: 7px;
+    color: #191e30;
+    left: 10px;
+    font-weight: 700;
+    border: 1px solid #ff6eff;
+    border-radius: 4px;
+}
+
 .adiado {
     background: #ff6037;
     top: 7px;

@@ -87,6 +87,12 @@
       </div>
       {% endif %}
 
+      {% if event.streaming and include.streaming != false %}
+      <div class="events-card-header-label streaming">
+        <i class="fas fa-broadcast-tower" aria-hidden="true"></i><h3>#ficaemcasa</h3>
+      </div>
+      {% endif %}
+
       {% if event.adiado and include.cfp != false %}
       <div class="events-card-header-label adiado">
         <i class="fas fa-exclamation-triangle" aria-hidden="true"></i><h3>COVID-19 | adiado</h3>
