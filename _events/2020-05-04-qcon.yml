@@ -1,9 +1,10 @@
 ---
 title: Qcon
+alterado: true
 location: São Paulo - SP
-date: '04/05 a 06/05'
-from: '2020-05-04'
-until: '2020-05-06'
+date: '14/12 a 16/12'
+from: '2020-12-14'
+until: '2020-12-16'
 banner: qcon.png
 tags:
 - coc
