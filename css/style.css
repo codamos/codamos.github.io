@@ -1021,12 +1021,12 @@ p {
 }
 
 .streaming {
-    background: #ff00cc;
+    background: #ccff00;
     top: 7px;
     color: #191e30;
     left: 10px;
     font-weight: 700;
-    border: 1px solid #ff6eff;
+    border: 2px solid #ee34d2;
     border-radius: 4px;
 }
 
