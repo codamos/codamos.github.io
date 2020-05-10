@@ -1,0 +1,21 @@
+---
+title: TDC - Porto Alegre
+women: true
+location: Porto Alegre - RS
+date: 02/12 a 05/12
+from: '2020-12-02'
+until: '2020-12-05'
+banner: tdc.png
+beginners: true
+tags:
+- women
+- coc
+- mobility
+- sign-language
+- child
+hashtag: TheDevConf
+twitter: TheDevConf
+facebook: thedevelopersconference
+instagram: thedevconf
+main_url: https://thedevconf.com/tdc/2020/
+rsvp_url: https://thedevconf.com/tdc/2020/index.html
