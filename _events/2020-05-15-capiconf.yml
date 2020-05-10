@@ -1,11 +1,20 @@
 ---
 title: Capiconf
+streaming: true
+on_line: true
+women: true
+inclusive: true
 location: Curitiba - PR
-date: 15/05
-from: '2020-05-15'
+date: 11/05 a 16/05
+from: '2020-05-11'
 until: '2020-05-16'
-banner: capiconf.jpeg
+banner: capiconf.png
+tags:
+- juniors
+- coc
 twitter: capiconf
+hashtag: CapiConf
 facebook: "capiconf"
-main_url: https://capiconf.com/
-rsvp_url: https://capiconf.com/
+instagram: capiconf
+main_url: https://capiconf.com/online
+rsvp_url: https://capiconf.com/online
