@@ -4,7 +4,7 @@ location: São Paulo - SP
 date: 10/10
 from: '2020-10-10'
 until: '2020-10-10'
-inclusive: true
+women: true
 beginners: true
 category: 'Curso'
 banner: next-movile.png

@@ -5,8 +5,8 @@ partners: true
 adiado: true
 location: Espirito Santo - ES
 date: adiado
-from: '2020-06-27'
-until: '2020-06-27'
+from: '2020-12-31'
+until: '2020-12-31'
 banner: braziljs-OTR.png
 group: brazil-js-grupo.png
 group_name: BrazilJS

@@ -20,8 +20,8 @@ frontendweek:  false
 beginners:     false
 location: 'Rio de Janeiro - RJ'
 date: 'adiado'
-from: '2020-05-16'
-until: '2020-05-16'
+from: '2020-12-31'
+until: '2020-12-31'
 banner: 'braziljs-OTR.png'
 group: 'brazil-js-grupo.png'
 group_name: 'BrazilJS'
