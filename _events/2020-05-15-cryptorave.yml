@@ -6,8 +6,8 @@ highlight: true
 adiado: true
 location: São Paulo - SP
 date: 'adiado'
-from: ''
-until: ''
+from: '2020-12-31'
+until: '2020-12-31'
 banner: cryptorave.png
 tags:
 - women
