@@ -811,7 +811,7 @@ p {
     justify-content: center;
     flex-direction: column;
     color: #ffffff;
-    height: 60vh;
+    height: 80vh;
     padding: 0;
     position: relative;
     background-size: cover;
@@ -827,7 +827,7 @@ p {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    height: 60vh;
+    height: 80vh;
     padding: 5% 0 0 0;
     background-size: cover;
     background-repeat: no-repeat;
