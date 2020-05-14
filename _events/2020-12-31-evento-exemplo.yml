@@ -1,0 +1,65 @@
+---
+title: BrazilJS Conf
+location: Porto Alegre - RS
+group: brazil-js-grupo.png
+group_name: BrazilJS
+highlight: true
+date: 06/05 a 08/05
+from: '2020-05-06'
+until: '2020-05-08'
+banner: braziljs-conf.jpg
+main_url: https://braziljs.org/
+rsvp_url: https://braziljs.org/eventos/braziljs-conf/2020
+
+frontendweek: false
+cfp: false
+streaming: false
+adiado: false
+alterado: true
+
+free: true
+inclusive: true
+women: true
+codamos: false
+
+category: curso
+meetup_event: false
+on_line: true
+hackathon: false
+happyhour: false
+coffee: false
+partners: false
+opensource: false
+beginners: false
+lgbt: false
+poc: true
+
+tags:
+- women
+- coc
+- trans
+- mobility
+- sign-language
+- blind
+#- streaming
+#- child
+#- poc
+#- lgbt
+#- universal-access
+#- perifa
+#- juniors
+#- vegan
+
+hashtag: braziljs
+
+twitter: braziljs
+facebook: braziljs
+instagram: braziljs
+linkedin: braziljs
+meetup: braziljs
+medium: braziljs
+github:
+discord:
+twitch:
+youtube:
+

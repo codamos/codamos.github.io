@@ -9,6 +9,7 @@ from: '2020-05-17'
 until: '2020-05-17'
 banner: reactssa.png
 tags:
+  - juniors
 hashtag: LiveCoding
 twitter: reactssa
 facebook: reactssa

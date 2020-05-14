@@ -1015,7 +1015,6 @@ p {
     top: 7px;
     color: #660000;
     left: 10px;
-    font-weight: 700;
     border: 1px solid #ffcc33;
     border-radius: 4px;
 }
@@ -1025,7 +1024,6 @@ p {
     top: 7px;
     color: #191e30;
     left: 10px;
-    font-weight: 700;
     border: 2px solid #ee34d2;
     border-radius: 4px;
 }
@@ -1045,7 +1043,6 @@ p {
     top: 40px;
     color: #fff;
     left: 10px;
-    font-weight: 300;
     border: 1px solid #ff9999;
     border-radius: 4px;
 }
@@ -1054,12 +1051,20 @@ p {
     font-size: 1.4em;
 }
 
+.frontendweek {
+    background: #660000;
+    top: 7px;
+    color: #fff;
+    left: 10px;
+    border: 1px solid #ff9966;
+    border-radius: 4px;
+}
+
 .codamos {
     background: #fff;
     top: 105px;
     color: #ff355e;
     right: 10px;
-    font-weight: 700;
     border: 2px solid #eee;
     border-radius: 4px;
 }
@@ -1098,11 +1103,6 @@ p {
 
 .events-card-header-tag h3 {
     margin-left: 5px;
-}
-
-.frontendweek {
-    background: #660000;
-    color: #fff;
 }
 
 .beginners {

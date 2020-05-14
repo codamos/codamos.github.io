@@ -1,38 +1,69 @@
 {% comment %}
-# Flags
-
-# group:         arquivo na pasta `images/grupo`, opcional.
-# group_name:    texto, opcional. ex. Programaria, Marialab, Training Center.
-# free:          booleano (true ou false), opcional. Evento gratuito.
-# inclusive:     booleano (true ou false), opcional. Evento inclusivo.
-# category:      texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
-# women:         booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
-# lgbt:          booleano (true ou false), opcional. Evento para o público LGBTQ+.
-# poc:           booleano (true ou false), opcional. Evento com foco em Diversidade Racial na TI.
-# hackathon:     booleano (true ou false), opcional. Evento no formato hackathon.
-# opensource:    booleano (true ou false), opcional. É um evento para a comunidade Open source.
-# cfp:           booleano (true ou false), opcional. Está com Call For papers aberto.
-# highlight:     booleano (true ou false), opcional. Destaque na home.
-# happyhour:     booleano (true ou false), opcional. Evento no bar.
-# coffee:        booleano (true ou false), opcional. Evento em café.
-# meetup_event:  booleano (true ou false), opcional. Evento que é um meetup.
-# partners:      booleano (true ou false), opcional. Evento em café.
-# on_line:       booleano (true ou false), opcional. Evento que são on-line.
-# frontendweek:  booleano (true ou false), opcional. Evento da semana FRONTENDWEEK.
-# beginners:     booleano (true ou false), opcional. Evento para iniciantes.
-
-# Infomations
+# Event Informations
 
 # title:      texto, obrigatório. Nome do evento.
 # location:   texto, obrigatório.
+# group:         arquivo na pasta `images/grupo`, opcional. Icone do grupo que esse evento é organizado.
+# group_name:    texto, opcional. ex. Programaria, Marialab, Training Center. Nome do grupo que organiza o evento.
+# highlight:     booleano (true ou false), opcional. Destaque na home do site em 'NÃO DA PRA PERDER!'.
 # date:       texto, obrigatório. Data do evento para exibição. Exemplos: "02/11 a 16/11", "02/2018".
 # from:       data, obrigatório. Data de início do evento. Exemplo: "2018-07-21".
 # until:      data, obrigatório. Data até quando o evento deve ficar ativo. Exemplo: "2018-07-22".
+# banner:     arquivo na pasta `images/eventos`, opcional.
 # main_url:   URL, obrigatório. Site do evento.
 # rsvp_url:   URL, obrigatório. Site para inscrição no evento.
-# banner:     arquivo na pasta `images/eventos`, opcional.
-# tags:       lista de tags para ícones e filtros, opcional. Vide `event_icons.yml`.
+
+# Event Flags (na imagem do evento, no card)
+
+# frontendweek:  booleano (true ou false), opcional. Evento da semana FRONTENDWEEK.
+# cfp:           booleano (true ou false), opcional. Está com Call For papers aberto.
+# streaming:     booleano (true ou false), opcional. Eventos que são lives e outros formatos feitos remotamente por conta da COVID-19.
+# adiado:        booleano (true ou false), opcional. Evento que tinha data marcada e ainda está sem data por conta da COVID-19.
+# alterado:      booleano (true ou false), opcional. Evento que tinha data marcada e foi alterada por conta da COVID-19.
+
+# free:          booleano (true ou false), opcional. Evento gratuito.
+# inclusive:     booleano (true ou false), opcional. Evento inclusivo.
+# women:         booleano (true ou false), opcional. Tem mulheres na grade de palestrantes.
+# codamos:       booleano (true ou false), opcional. Evento organizado pelo Codamos ou em parceria.
+
+# Event Category (abaixo da imagem do evento)
+
+# category:      texto sem espaços, opcional. ex. Curso, Workshop, Treinamento.
+# meetup_event:  booleano (true ou false), opcional. Evento que é um meetup. É uma categoria.
+# on_line:       booleano (true ou false), opcional. Evento que são on-line. É uma categoria.
+# hackathon:     booleano (true ou false), opcional. Evento no formato hackathon.
+# happyhour:     booleano (true ou false), opcional. Evento no bar.
+# coffee:        booleano (true ou false), opcional. Evento em café.
+# partners:      booleano (true ou false), opcional. Evento em café. É uma categoria.
+# opensource:    booleano (true ou false), opcional. É um evento para a comunidade Open source.
+# beginners:     booleano (true ou false), opcional. Evento para iniciantes.
+# lgbt:          booleano (true ou false), opcional. Evento para o público LGBTQ+.
+# poc:           booleano (true ou false), opcional. Evento com foco em Diversidade Racial na TI.
+
+# Event Tags (ícones no card antes do nome do evento, no máximo 7)
+
+# tags:               lista de tags para ícones e filtros, opcional. Vide `event_icons.yml`.
+
+# - women:            incentivo para mulheres.
+# - coc:              tem código de conduta.
+# - trans:            incentivo pessoas trans.
+# - mobility:         acesso para cadeirantes.
+# - sign-language:    tem tradução para libras.
+# - blind:            apoio para deficientes visuais.
+# - streaming:        on-line, para todos os públicos.
+# - child:            tem espaço/atividades infantis.
+# - poc:              lincentivo comunidade negra.
+# - lgbt:             incentivo para comunidade LGBT.
+# - universal-access: tem acessibilidade.
+# - perifa:           incentivo comunidade periférica.
+# - juniors:          evento indicado para iniciantes.
+# - vegan:            inclusivo para restrições alimentares.
+
+
+# Event Social urls
+
 # hashtag:    texto sem espaços, opcional. Hashtag oficial do twitter.
+
 # twitter:    texto sem espaços, opcional. Twitter handle.
 # facebook:   texto sem espaços, opcional. Facebook handle.
 # instagram:  texto sem espaços, opcional. Instagram handle.
@@ -87,19 +118,19 @@
       </div>
       {% endif %}
 
-      {% if event.streaming and include.streaming != false %}
+      {% if event.streaming %}
       <div class="events-card-header-label streaming">
         <i class="fas fa-broadcast-tower" aria-hidden="true"></i><h3>#ficaemcasa</h3>
       </div>
       {% endif %}
 
-      {% if event.adiado and include.cfp != false %}
+      {% if event.adiado %}
       <div class="events-card-header-label adiado">
         <i class="fas fa-exclamation-triangle" aria-hidden="true"></i><h3>COVID-19 | adiado</h3>
       </div>
       {% endif %}
 
-      {% if event.alterado and include.cfp != false %}
+      {% if event.alterado %}
       <div class="events-card-header-label adiado">
         <i class="fas fa-exclamation-triangle" aria-hidden="true"></i><h3>COVID-19 | alterado</h3>
       </div>
