@@ -5,8 +5,8 @@ partners: true
 adiado: true
 location: 'Rio de Janeiro - RJ'
 date: 'adiado'
-from: '2020-12-31'
-until: '2020-12-31'
+from: '2020-02-02'
+until: '2020-02-02'
 banner: 'braziljs-OTR.png'
 group: 'brazil-js-grupo.png'
 group_name: 'BrazilJS'
