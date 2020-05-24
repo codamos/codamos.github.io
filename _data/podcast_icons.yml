@@ -1,43 +1,55 @@
-coc:
-  class: "far fa-closed-captioning"
-  label: "tem código de conduta/manifesto"
-
 women:
   class: "fas fa-venus"
-  label: "liderado por mulheres"
+  label: "incentivo para mulheres"
 
-neuter:
-  class: "fas fa-neuter"
-  label: "tem diversidade de gênero"
+coc:
+  class: "far fa-closed-captioning"
+  label: "tem código de conduta"
 
-audio-description:
-  class: "fas fa-audio-description"
-  label: "cegos podem ouvir"
+trans:
+  class: "fas fa-transgender-alt"
+  label: "incentivo pessoas trans"
 
-universal-access:
-  class: "fas fa-universal-access"
-  label: "tem acessibilidade"
+mobility:
+  class: "fab fa-accessible-icon"
+  label: "acesso para cadeirantes"
 
-deaf:
-  class: "fas fa-deaf"
-  label: "tem transcrição do audio"
+sign-language:
+  class: "fas fa-sign-language"
+  label: "tem tradução para libras"
 
-poc:
-  class: "far fa-hand-rock"
-  label: "incentivo a comunidade negra"
+blind:
+  class: "fas fa-blind"
+  label: "apoio para deficientes visuais"
+
+streaming:
+  class: "fas fa-broadcast-tower"
+  label: "on-line, para todos os públicos"
 
 child:
   class: "fas fa-child"
-  label: "para crianças"
+  label: "tem espaço/atividades infantis"
 
-inclusive:
-  class: "fas fa-heart"
-  label: "inclusivo ou apoia diversidade"
+poc:
+  class: "far fa-hand-rock"
+  label: "incentivo comunidade negra"
 
 lgbt:
   class: "fas fa-flag"
   label: "incentivo para comunidade LGBT"
 
+universal-access:
+  class: "fas fa-universal-access"
+  label: "tem acessibilidade"
+
 perifa:
   class: "fas fa-map-pin"
   label: "incentivo comunidade periférica"
+
+juniors:
+  class: "fas fa-lemon"
+  label: "evento indicado para iniciantes"
+
+vegan:
+  class: "fas fa-seedling"
+  label: "inclusivo para restrições alimentares"

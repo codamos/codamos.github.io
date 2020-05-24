@@ -3,7 +3,7 @@
   <div class="events-card-header">
 
     <div class="events-card-banner">
-      <img data-src="images/podcast/{{ channel.banner | default:'codamos.png' }}" alt="{{ channel.title }}">
+      <img data-src="images/channels/{{ channel.banner | default:'codamos.png' }}" alt="{{ channel.title }}">
 
       {% if channel.free %}
       <div class="events-card-header-label free">
@@ -31,7 +31,7 @@
 
       {% if channel.women %}
       <div class="events-card-header-label women">
-        <i class="fas fa-venus" aria-hidden="true"></i><h3>no audio</h3>
+        <i class="fas fa-venus" aria-hidden="true"></i><h3>no vídeo</h3>
       </div>
       {% endif %}
 
@@ -113,8 +113,6 @@
         {% if channel.facebook %}
         <a href="https://www.facebook.com/{{ channel.facebook }}/" title="Facebook"
            rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-        {% else %}
-        <i class="fab fa-facebook-f" aria-hidden="true"></i>
         {% endif %}
 
         {% if channel.instagram %}
@@ -190,15 +188,15 @@
       </div>
 
       <div class="events-card-body-date">
-        <i class="fas fa-podcast" aria-hidden="true"></i>
-        <p>Podcast</p>
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+        <p>Canal Youtube</p>
       </div>
 
     </div>
 
     {% if channel.rsvp_url %}
     <div class="events-card-body-button">
-      <a href="{{ channel.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ouvir</a>
+      <a href="{{ channel.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ver</a>
     </div>
     {% endif %}
   </div>
