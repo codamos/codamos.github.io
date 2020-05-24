@@ -1,0 +1,206 @@
+{% for channel in include.channels %}
+<li class="events-card">
+  <div class="events-card-header">
+
+    <div class="events-card-banner">
+      <img data-src="images/podcast/{{ channel.banner | default:'codamos.png' }}" alt="{{ channel.title }}">
+
+      {% if channel.free %}
+      <div class="events-card-header-label free">
+        <i class="fas fa-ticket-alt" aria-hidden="true"></i><h3>Gratuito</h3>
+      </div>
+      {% endif %}
+
+      {% if channel.inclusive %}
+      <div class="events-card-header-label inclusive">
+        <i class="fas fa-heart" aria-hidden="true"></i><h3>Inclusivo</h3>
+      </div>
+      {% endif %}
+
+      {% if channel.opensource %}
+      <div class="events-card-header-label opensource">
+        <i class="fas fa-code-branch" aria-hidden="true"></i><h3>open source</h3>
+      </div>
+      {% endif %}
+
+      {% if channel.convidados %}
+      <div class="events-card-header-label call4papers">
+        <i class="fas fa-bullhorn" aria-hidden="true"></i><h3>Convidados</h3>
+      </div>
+      {% endif %}
+
+      {% if channel.women %}
+      <div class="events-card-header-label women">
+        <i class="fas fa-venus" aria-hidden="true"></i><h3>no audio</h3>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="events-card-header-tags">
+      {% if channel.tech %}
+        <div class="events-card-header-tag hackathon">
+          <i class="fas fa-laptop" aria-hidden="true"></i><h3>Só sobre tecnologia</h3>
+        </div>
+      {% endif %}
+
+      {% if channel.lgbt %}
+        <div class="events-card-header-tag lgbt">
+          <i class="fas fa-flag" aria-hidden="true"></i><h3>Tem diversidade LGBTQ+</h3>
+        </div>
+      {% endif %}
+
+      {% if channel.codamos %}
+      <div class="events-card-header-label codamos">
+        <i class="far fa-gem" aria-hidden="true"></i><h3>da casa</h3>
+      </div>
+      {% endif %}
+
+      {% if channel.category %}
+      <div class="events-card-header-tag category">
+        <i class="far fa-clock" aria-hidden="true"></i><h3>{{ channel.category }}</h3>
+      </div>
+      {% endif %}
+    </div>
+
+    {% if channel.tags %}
+      <span class="events-card-header-ico">
+        {% for tag in channel.tags %}
+          {% assign icon = site.data.podcast_icons[tag] %}
+          <i class="{{ icon.class }}" title="{{ icon.label }}"></i>
+        {% endfor %}
+      </span>
+    {% else %}
+      <span class="events-card-header-ico no-info">
+        <h4>sem informações inclusivas</h4>
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="events-card-title">
+    <h3>{{ channel.title }}</h3>
+  </div>
+
+  <div class="events-card-body">
+    <div class="events-card-body-content">
+
+      {% if channel.hashtag %}
+      <div class="events-card-body-hashtag">
+        <i class="fas fa-hashtag" aria-hidden="true"></i>
+        <a href="https://twitter.com/hashtag/{{ channel.hashtag }}?src=hash"
+           rel="noopener" target="_blank" title="Hashtag">{{ channel.hashtag }}</a>
+      </div>
+      {% else %}
+      <div class="events-card-body-no-hashtag">
+        <i class="fas fa-hashtag" aria-hidden="true"></i> SemHashtag
+      </div>
+      {% endif %}
+
+      {% if channel.group %}
+      <div class="events-card-body-grupo">
+        <img src="images/grupo/{{ channel.group }}">
+      </div>
+      {% endif %}
+
+      <div class="events-card-body-social-media">
+        {% if channel.twitter %}
+        <a href="https://twitter.com/{{ channel.twitter }}" title="Twitter"
+           rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if channel.facebook %}
+        <a href="https://www.facebook.com/{{ channel.facebook }}/" title="Facebook"
+           rel="noopener" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        {% else %}
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+        {% endif %}
+
+        {% if channel.instagram %}
+        <a href="http://instagram.com/{{ channel.instagram }}" title="Instagram"
+           rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.linkedin %}
+        <a href="https://www.linkedin.com/{{ channel.linkedin }}" title="LinkedIn"
+           rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.meetup %}
+        <a href="https://www.meetup.com/{{ channel.meetup }}/" title="Meetup"
+           rel="noopener" target="_blank"><i class="fab fa-meetup" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.medium %}
+        <a href="https://www.medium.com/{{ channel.medium }}/" title="Medium"
+           rel="noopener" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.youtube %}
+        <a href="https://www.youtube.com/{{ channel.youtube }}" title="Youtube"
+           rel="noopener" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.github %}
+        <a href="https://github.com/{{ channel.github }}" title="GitHub"
+           rel="noopener" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.discord %}
+        <a href="https://discordapp.com/invite/{{ channel.discord }}" title="Discord"
+           rel="noopener" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.twitch %}
+        <a href="https://www.twitch.tv/{{ channel.twitch }}" title="twitch"
+           rel="noopener" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a>
+        {% endif %}
+
+        <a href="{{ channel.main_url }}" title="Site"
+           rel="noopener" target="_blank"><i class="fas fa-link" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="events-card-body-social-media">
+        {% if channel.itunes %}
+        <a href="https://itunes.apple.com/{{ channel.itunes }}" title="iTunes"
+           rel="noopener" target="_blank"><i class="fab fa-apple" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.soundcloud %}
+        <a href="https://soundcloud.com/{{ channel.soundcloud }}" title="SoundCloud"
+           rel="noopener" target="_blank"><i class="fab fa-soundcloud" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.rss %}
+        <a href="{{ channel.rss }}" title="RSS"
+           rel="noopener" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% if channel.android %}
+        <a href="{{ channel.android }}" title="Android"
+           rel="noopener" target="_blank"><i class="fab fa-android" aria-hidden="true"></i></a>
+        {% endif %}
+
+      </div>
+
+      <div class="events-card-body-local">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <p>{{ channel.date }}</p>
+      </div>
+
+      <div class="events-card-body-date">
+        <i class="fas fa-podcast" aria-hidden="true"></i>
+        <p>Podcast</p>
+      </div>
+
+    </div>
+
+    {% if channel.rsvp_url %}
+    <div class="events-card-body-button">
+      <a href="{{ channel.rsvp_url }}" class="button-primary" rel="noopener" target="_blank">Quero ouvir</a>
+    </div>
+    {% endif %}
+  </div>
+</li>
+{% endfor %}

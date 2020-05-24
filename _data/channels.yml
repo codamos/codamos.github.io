@@ -40,7 +40,6 @@
   women: true
   convidados: true
   inclusive: true
-  highlight: true
   location: "Belo Horizonte - MG"
   date: "Quinzenal"
   banner: "podprogramar.png"
@@ -100,7 +99,6 @@
 
 - title: "Quebra Dev"
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "quebra-dev.png"
@@ -146,7 +144,6 @@
 - title: "Hipsters.Tech"
   convidados: true
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "hipsterstech.jpg"

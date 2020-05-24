@@ -15,7 +15,7 @@ layout: default
 </section>
 
 <section class="page-section">
-  <h1 class="page-section-subtitle-alt">Sobre Podcast</h1>
+  <h1 class="page-section-subtitle-alt">Sobre ouvir, ver e ler!</h1>
 
   <p class="page-section-text">
     Listamos os podcasts que abordam tecnologia e alguns deles são bem inclusivos e citando o tema diversidade ou acessibilidade em TI. Criamos rótulos para facilitar a busca pelos que têm ícones representados
@@ -30,13 +30,32 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <h1 class="page-section-title">Nossas indicações</h1>
+
+  <ul class="events-cards">
+    {% assign podcast_highlights = site.data.podcasts | where:"highlight",true %}
+    {% include podcasts.html podcasts=podcast_highlights %}
+
+    {% assign channel_highlights = site.data.channels | where:"highlight",true %}
+    {% include channels.html channels=channel_highlights %}
+  </ul>
 </section>
 
+
 <section class="page-section">
-  <h1 class="page-section-title">Podcast que indicamos</h1>
+  <h1 class="page-section-title">Podcast sobre tecnologia</h1>
 
   <ul class="events-cards">
     {% include podcasts.html podcasts=site.data.podcasts %}
+  </ul>
+</section>
+
+<section class="page-section">
+  <h1 class="page-section-title">Canais de tecnologia</h1>
+
+  <ul class="events-cards">
+    {% include channels.html channels=site.data.channels %}
   </ul>
 </section>
 
