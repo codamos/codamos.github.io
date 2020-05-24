@@ -43,7 +43,7 @@
   date: "Semanal"
   banner: "pg-dinamica.png"
   category: "- 25 minutos"
-  tags: [women, coc, juniors]
+  tags: [women, coc, poc, juniors]
   hashtag: "diariodepesquisa"
   twitter: "pgdinamica"
   medium: "programacaodinamica"
@@ -61,10 +61,42 @@
   date: "Mensal"
   banner: "computacao-sem-cao.png"
   category: "- 4 minutos"
-  tags: [women, coc, juniors]
+  tags: [women, coc, poc, juniors]
   twitter: "ninadhora"
   github: "NinadHora"
   instagram: "ninadhora"
   youtube: "channel/UCaBOUYQGTZgIdMTXtZTosRQ"
   main_url: "https://www.computacaosemcao.com.br/"
   rsvp_url: "https://www.youtube.com/channel/UCaBOUYQGTZgIdMTXtZTosRQ/featured"
+
+- title: "BrazilJS Weekly"
+  inclusive: true
+  women: true
+  location: "Youtube"
+  date: "Semanal"
+  banner: "braziljs.png"
+  category: "- 4 minutos"
+  tags: [women, cc, poc, lgbt, juniors]
+  hashtag: "BrazilJS"
+  twitter: "braziljs"
+  facebook: "braziljs"
+  instagram: "brazil.js"
+  youtube: "user/BrazilJS"
+  main_url: "https://braziljs.org"
+  rsvp_url: "user/BrazilJS"
+
+- title: "UXLab"
+  convidados: true
+  category: "Entrevistas"
+  location: "Youtube"
+  date: "Semanal"
+  banner: "ux-lab.png "
+  category: "+ 60 minutos"
+  tags: [juniors]
+  hashtag: "UXlab"
+  twitter: "andreigurgel"
+  spotify: "https://open.spotify.com/show/0f2hoLnZXsD8I8xWPUwFhv?si=IrqUq6hzRDWYAxX9_7vWTg"
+  instagram: "uxlab.cc/"
+  youtube: "channel/UCw-CQYphBIs_nplLNJuz44w/"
+  main_url: "http://laboratorioux.webflow.io/"
+  rsvp_url: "uxlab?sub_confirmation=1"

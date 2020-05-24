@@ -45,6 +45,7 @@
   date: "Quinzenal"
   banner: "podprogramar.png"
   category: "- 40 minutos"
+  tags: [women, coc, juniors]
   hashtag: "PodProgramar"
   twitter: "PodProgramar"
   facebook: "PodProgramar"
@@ -61,6 +62,7 @@
   date: "indefinido"
   banner: "lovelace.png"
   category: "+ 60 minutos"
+  tags: [women, perifa, juniors]
   twitter: "LovelacePodcast"
   facebook: "lovelacepodcast"
   main_url: "https://anchor.fm/lovelacepodcast"
@@ -73,6 +75,7 @@
   date: "indefinido"
   banner: "pizza-dados.png"
   category: "+ 60 minutos"
+  tags: [women]
   hashtag: "podosfera"
   twitter: "pizzadedados"
   facebook: "pizzadedados"
@@ -88,6 +91,7 @@
   date: "Semanal"
   banner: "lambda3.png"
   category: "+ 60 minutos"
+  tags: [women, cc, poc, lgbt, juniors]
   hashtag: "PodcastFriday"
   twitter: "lambdatres"
   facebook: "Lambda3BR"
@@ -100,11 +104,11 @@
 
 - title: "Quebra Dev"
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "quebra-dev.png"
   category: "- 60 minutos"
+  tags: [women, poc, perifa, juniors]
   hashtag: "quebradev"
   twitter: "quebradev"
   github: "QuebraDev"
@@ -115,7 +119,6 @@
 
 - title: "Dev na estrada"
   convidados: true
-  inclusive: true
   location: "São Paulo - SP"
   date: "Semanal"
   banner: "dev-na-estrada.png"
@@ -146,11 +149,11 @@
 - title: "Hipsters.Tech"
   convidados: true
   inclusive: true
-  highlight: true
   location: "São Paulo - SP"
   date: "Semanal"
-  banner: "hipsterstech.jpg"
+  banner: "hipsterstech.png"
   category: "60 minutos"
+  tags: [women, juniors]
   hashtag: "hipsterspontotech"
   twitter: "AluraOnline"
   facebook: "groups/hipsterspontotech"
