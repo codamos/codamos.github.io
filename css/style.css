@@ -850,7 +850,7 @@ p {
 }
 
 .banner-index {
-    background-image: url("../images/bg-banner017.jpg"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/blm.png"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
 }
 
 .banner-summit {
