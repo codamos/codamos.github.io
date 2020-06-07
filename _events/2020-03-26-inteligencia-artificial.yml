@@ -1,14 +1,14 @@
 ---
 title: "Inteligência Artificial"
-inclusive: true # (se é inclusivo ou não)
-partners: false # (se o evento é de parceiros do Codamos)
-cfp: false # (se o evento está aceitando propostas de palestras - call for papers)
+inclusive: true
+partners: false
+cfp: false
 location: "São Paulo - SP"
-date: "26/03" # (data do evento)
-from: "2020-03-26" # (data do começo do evento)
-until: "2020-03-26" # (data do final do evento)
-banner: high5devs.png # (um nome de imagem presente em `images/eventos/`)
-group: high5devs.png # (um nome de grupo presente em `images/grupo/`)
+date: "26/03"
+from: "2020-03-26"
+until: "2020-03-26"
+banner: high5devs.png
+group: high5devs.png
 group_name: "High5Devs"
 meetup_event: true
 women: true
