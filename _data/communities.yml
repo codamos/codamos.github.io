@@ -102,6 +102,15 @@
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
 
+- title: "PHP-Rio"
+  hashtag: "phprio"
+  twitter: "phprio"
+  facebook: "PHPRio-160383237381004"
+  github: "PHPRio"
+  linkedin: "groups/1202577"
+  medium: "phprio"
+  main_url: "http://php.rio/"
+  
 - title: "PHPWomen"
   banner: "php-women.png"
   tags: [women, coc]
