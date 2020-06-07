@@ -100,3 +100,17 @@
   youtube: "channel/UCw-CQYphBIs_nplLNJuz44w/"
   main_url: "http://laboratorioux.webflow.io/"
   rsvp_url: "uxlab?sub_confirmation=1"
+
+- title: "dadosdejulieta"
+  inclusive: true
+  women: true
+  category: "Lives"
+  location: "Youtube"
+  date: "semanal"
+  banner: "dados-juieta.png"
+  category: "+ 60 minutos"
+  tags: [women, coc, poc, juniors]
+  twitter: "dii_lua"
+  youtube: "dadosdejulieta"
+  main_url: "https://leticiadasilva.github.io/"
+  rsvp_url: "https://www.youtube.com/dadosdejulieta"
