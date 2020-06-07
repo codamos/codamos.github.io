@@ -485,3 +485,20 @@
   facebook: "sao.paulo.elephants"
   github: "phpsp"
   main_url: "https://phpsp.org.br"
+
+- title: "UX Minas Pretas"
+  tags: [women, coc, mobility, poc, perifa]
+  banner: "ux-minas-pretas.png"
+  hashtag: "UXMP"
+  twitter: "uxminaspretas"
+  facebook: "uxparaminaspretas"
+  medium: "@uxparaminaspretas"
+  main_url: "https://twitter.com/uxminaspretas"
+
+- title: "Black power data"
+  tags: [women, poc]
+  banner: "black_data.png"
+  hashtag: "UXMP"
+  twitter: "BlackPowerData1"
+  github: "BlackPowerData"
+  main_url: "https://blackpowerdata.github.io"
