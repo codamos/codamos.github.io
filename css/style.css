@@ -948,7 +948,7 @@ p {
 .events-card-banner {
     height: 140px;
     border-radius: 10px 10px 0 0;
-    background: radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(2,4,14,1) 100%);
+    background: linear-gradient(0deg, rgba(20,6,0,1) 0%, rgba(77,10,126,1) 100%);
 }
 
 .events-card-banner img {
