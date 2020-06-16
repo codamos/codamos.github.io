@@ -18,57 +18,6 @@
 
 # COMUNIDADES
 
-- title: "bytegirl"
-  banner: "byte-girl-2017.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "bg17"
-  twitter: "bytegirlevento"
-  facebook: "bytegirlevento"
-  main_url: "https://bytegirl.com.br/"
-
-- title: "Rails Girls SP"
-  banner: "railsgirls.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "railsgirls"
-  twitter: "railsgirlssp"
-  facebook: "railsgirls.sp"
-  main_url: "http://railsgirls.com/saopaulo.html"
-
-- title: "Marialab"
-  banner: "maria.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "Marialab"
-  twitter: "MarialabHackers"
-  facebook: "marialab.org"
-  meetup: "marialab"
-  main_url: "https://marialab.org/"
-
-- title: "Elug"
-  banner: "elixir.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "myelixirstatus"
-  twitter: "elug_sp"
-  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
-
-- title: "Programaria"
-  banner: "programaria.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "programariaSummit"
-  twitter: "programaria"
-  facebook: "programaria"
-  main_url: "https://www.programaria.org/"
-  rsvp_url: "http://summit.programaria.org/"
-
-- title: "Ela Líder"
-  banner: "ela-lider.png"
-  tags: [women, coc]
-  hashtag: "elalider"
-  twitter: "_elalider"
-  facebook: "elaliderfeminina"
-  meetup: "elalider"
-  instagram: "_elalider"
-  main_url: "https://elalider.com/"
-
 - title: "InfoPreta"
   banner: "infopreta.png"
   tags: [women, poc, coc, trans, lgbt]
@@ -79,13 +28,13 @@
   instagram: "infopreta"
   main_url: "http://infopreta.com.br"
 
-- title: "{Reprograma}"
-  banner: "reprograma.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "vamosreprogramaromundo"
-  twitter: "Reprograma_Br"
-  facebook: "ReprogramaBrasil"
-  main_url: "http://www.reprograma.com.br/"
+- title: "Afro Python"
+  banner: "afropythonbr.png"
+  tags: [women, poc, coc, trans]
+  hashtag: "AfroPython"
+  facebook: "AfroPython"
+  main_url: "http://afropython.org/"
+  rsvp_url: "http://afropython.org/"
 
 - title: "Blackrocks"
   banner: "blackrocks.png"
@@ -94,6 +43,102 @@
   facebook: "blackrocksstartup"
   main_url: "http://www.arenablackrocks.com.br"
 
+- title: "UX Minas Pretas"
+  tags: [women, coc, mobility, poc, perifa]
+  banner: "ux-minas-pretas.png"
+  hashtag: "UXMP"
+  twitter: "uxminaspretas"
+  facebook: "uxparaminaspretas"
+  medium: "@uxparaminaspretas"
+  main_url: "https://twitter.com/uxminaspretas"
+
+- title: "Black power data"
+  tags: [women, poc]
+  banner: "black_data.png"
+  twitter: "BlackPowerData1"
+  github: "BlackPowerData"
+  main_url: "https://blackpowerdata.github.io"
+
+- title: "InspirAda na Computação"
+  tags: [women, poc, inclusive]
+  banner: "inspirada.png"
+  hashtag: "InspirAdaNaComputacao"
+  twitter: "InspirAdaNaComp"
+  youtube: "/channel/UC-d2KiNel6ZTCrwSTupXtgA"
+  main_url: "http://www.inspiradanacomputacao.com/"
+
+- title: "Tecnogueto"
+  banner: "tecnogueto.png"
+  hashtag: "tecnogueto"
+  facebook: "tecnogueto"
+  github: "tecnogueto"
+  tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
+  main_url: "http://tecnogueto.com.br/"
+
+- title: "perifaCode"
+  tags: [women, coc, poc, lgbt, trans, inclusive, perifa]
+  banner: "perifaCode.png"
+  hashtag: "perifaCode"
+  twitter: "perifaCode"
+  facebook: "perifaCode"
+  main_url: "http://www.perifaCode.com"
+
+- title: "Todas as letras"
+  banner: "todas-as-letras.png"
+  hashtag: "lgbtiintech"
+  twitter: "LGBTIinTech"
+  tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
+  main_url: "https://www.meetup.com/pt-BR/LGBTIinTech-SP/"
+  meetup: "LGBTIinTech-SP"
+
+- title: "</> JUNTOS NA TI"
+  banner: "juntos-na-ti.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "JuntosnaTI"
+  facebook: "JuntosnaTI"
+
+- title: "{Reprograma}"
+  banner: "reprograma.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "vamosreprogramaromundo"
+  twitter: "Reprograma_Br"
+  facebook: "ReprogramaBrasil"
+  main_url: "http://www.reprograma.com.br/"
+
+- title: "You Go Girls"
+  banner: "you-go-girls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "JogueComoUmaGarota"
+  twitter: "yougogirls_"
+  facebook: "yougogirlsoficial"
+  instagram: "yougogirlsoficial"
+  main_url: "https://yougogirls.com.br/"
+
+- title: "Coding Rights"
+  banner: "coding_rights.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "safermanas"
+  twitter: "CodingRights"
+  facebook: "codingrights"
+  medium: "codingrights"
+  main_url: "https://www.codingrights.org/"
+
+- title: "Devs JavaGirls"
+  banner: "devs-java-girls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "devsjavagirltalkshow"
+  twitter: "devsjavagirl"
+  youtube: "channel/UCgoGOLleKmM9ikxQhGhhOhQ"
+  main_url: "https://twitter.com/devsjavagirl"
+
+- title: "Brazilians in Tech"
+  banner: "brazilians-tech.png"
+  tags: [women]
+  hashtag: "braziliansintech"
+  twitter: "brazilianstech"
+  instagram: "https://instagram.com/braziliansintech?igshid=7v4wu7brlxoj"
+  main_url: "https://braziliansintech.com/"
+
 - title: "WoMakersCode"
   banner: "womakerscode.png"
   tags: [women, coc, lgbt]
@@ -101,15 +146,6 @@
   twitter: "womakerscode"
   facebook: "womakerscode"
   main_url: "http://womakerscode.org/"
-
-- title: "PHP-Rio"
-  hashtag: "phprio"
-  twitter: "phprio"
-  facebook: "PHPRio-160383237381004"
-  github: "PHPRio"
-  linkedin: "groups/1202577"
-  medium: "phprio"
-  main_url: "http://php.rio/"
 
 - title: "PHPWomen"
   banner: "php-women.png"
@@ -136,14 +172,6 @@
   facebook: "railsgirlspoa"
   main_url: "http://railsgirls.com/portoalegre"
 
-- title: "Afro Python"
-  banner: "afropythonbr.png"
-  tags: [women, poc, coc, trans]
-  hashtag: "AfroPython"
-  facebook: "AfroPython"
-  main_url: "http://afropython.org/"
-  rsvp_url: "http://afropython.org/"
-
 - title: "minas programam"
   banner: "minas-programam.png"
   tags: [women, coc, trans, lgbt]
@@ -152,12 +180,6 @@
   facebook: "minasprogramam"
   instagram: "minasprogramam"
   main_url: "http://minasprogramam.com/"
-
-- title: "</> JUNTOS NA TI"
-  banner: "juntos-na-ti.png"
-  tags: [women, coc, trans, lgbt]
-  hashtag: "JuntosnaTI"
-  facebook: "JuntosnaTI"
 
 - title: "Projeto Devas"
   banner: "devas.png"
@@ -185,22 +207,6 @@
   github: "node-poa"
   main_url: "http://nodegirlscode.org"
 
-- title: "Code Club Brasil"
-  banner: "code-club-brasil.png"
-  tags: [coc, kids]
-  hashtag: "codeclub"
-  twitter: "CodeClubBrasil"
-  facebook: "CodeClubBrasil"
-  main_url: "http://www.codeclubbrasil.org.br/"
-
-- title: "AngularSP"
-  banner: "angular-sp.png"
-  tags: [women, coc]
-  hashtag: "AngularSP"
-  twitter: "AngularSP"
-  facebook: "AngularSP"
-  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/"
-
 - title: "Women Techmakers"
   banner: "women-techmakers.png"
   tag: [women, coc]
@@ -208,23 +214,6 @@
   twitter: "wtmsaopaulo"
   facebook: "wtmsaopaulo"
   main_url: "http://wtmsp.org/"
-
-- title: "GuruSP"
-  banner: "gurusp.png"
-  tags: [women, coc]
-  hashtag: "gurusp"
-  twitter: "guru_sp"
-  facebook: "groups/gurusp/"
-  meetup: "Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo"
-  main_url: "https://www.meetup.com/pt-BR/Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo/"
-
-- title: "Collabcode"
-  banner: "collabcode.png"
-  tags: [women, coc, mobility]
-  hashtag: "Meetup"
-  twitter: "collabcodebr"
-  facebook: "collabcode"
-  main_url: "https://www.meetup.com/CollabCodeBR/"
 
 - title: "DjangoGirls"
   banner: "django-girls.png"
@@ -350,13 +339,6 @@
   facebook: "Laboratoriabr"
   main_url: "http://www.laboratoria.la/br"
 
-- title: "LGBTI+ In Tech"
-  banner: "lgbti-in-tech.png"
-  twitter: "LGBTIinTech"
-  tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
-  main_url: "https://www.meetup.com/pt-BR/LGBTIinTech-SP/"
-  meetup: "LGBTIinTech-SP"
-
 - title: "Baixada Nerd"
   banner: "baixada-nerd.png"
   hashtag: "BaixadaNerd"
@@ -366,22 +348,6 @@
   meetup: "MovimentoBaixadaNerd"
   tags: [inclusive, neuter]
   main_url: "https://www.meetup.com/pt-BR/MovimentoBaixadaNerd/"
-
-- title: "Tecnogueto"
-  banner: "tecnogueto.png"
-  hashtag: "tecnogueto"
-  facebook: "tecnogueto"
-  github: "tecnogueto"
-  tags: [inclusive, lgbt, trans, neuter, women, coc, mobility, poc, perifa]
-  main_url: "http://tecnogueto.com.br/"
-
-- title: "perifaCode"
-  tags: [women, coc, poc, lgbt, trans, inclusive, perifa]
-  banner: "perifaCode.png"
-  hashtag: "perifaCode"
-  twitter: "perifaCode"
-  facebook: "perifaCode"
-  main_url: "http://www.perifaCode.com"
 
 - title: "She Sharp"
   tags: [women, coc, trans]
@@ -449,14 +415,6 @@
   meetup: "wpjoinville"
   hashtag: "wpjlle"
 
-- title: "IxDA - Ribeirão Preto"
-  banner: "ixda-rp.jpg"
-  tags: [women, neuter]
-  main_url: "https://www.sympla.com.br/ixdarp"
-  hashtag: "IxDA"
-  facebook: "ixdarp"
-  instagram: "ixdarp"
-
 - title: "PyLadies Sorocaba"
   banner: "pyladies_sorocaba_logo.jpg"
   tags: [women, inclusive, trans, lgbt]
@@ -479,6 +437,74 @@
   facebook: "railsgirlsfloripa"
   main_url: "http://railsgirls.com/florianopolis.html"
 
+- title: "Minas TI"
+  tags: [women, poc, inclusive]
+  banner: "minas-TI.png"
+  twitter: "MINAS_TI"
+  github: "minas-ti"
+  linkedin: "company/minas-t-i/"
+  main_url: "https://twitter.com/MINAS_TI"
+
+- title: "bytegirl"
+  banner: "byte-girl-2017.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "bg17"
+  twitter: "bytegirlevento"
+  facebook: "bytegirlevento"
+  main_url: "https://bytegirl.com.br/"
+
+- title: "Rails Girls SP"
+  banner: "railsgirls.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "railsgirls"
+  twitter: "railsgirlssp"
+  facebook: "railsgirls.sp"
+  main_url: "http://railsgirls.com/saopaulo.html"
+
+- title: "Marialab"
+  banner: "maria.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "Marialab"
+  twitter: "MarialabHackers"
+  facebook: "marialab.org"
+  meetup: "marialab"
+  main_url: "https://marialab.org/"
+
+- title: "Programaria"
+  banner: "programaria.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "programariaSummit"
+  twitter: "programaria"
+  facebook: "programaria"
+  main_url: "https://www.programaria.org/"
+  rsvp_url: "http://summit.programaria.org/"
+
+- title: "Ela Líder"
+  banner: "ela-lider.png"
+  tags: [women, coc]
+  hashtag: "elalider"
+  twitter: "_elalider"
+  facebook: "elaliderfeminina"
+  meetup: "elalider"
+  instagram: "_elalider"
+  main_url: "https://elalider.com/"
+
+- title: "Code Club Brasil"
+  banner: "code-club-brasil.png"
+  tags: [coc, kids]
+  hashtag: "codeclub"
+  twitter: "CodeClubBrasil"
+  facebook: "CodeClubBrasil"
+  main_url: "http://www.codeclubbrasil.org.br/"
+
+- title: "IxDA - Ribeirão Preto"
+  banner: "ixda-rp.jpg"
+  tags: [women, neuter]
+  main_url: "https://www.sympla.com.br/ixdarp"
+  hashtag: "IxDA"
+  facebook: "ixdarp"
+  instagram: "ixdarp"
+
 - title: "IxDA Joinville"
   banner: "ixda-jlle.jpg"
   tags: [women, neuter]
@@ -486,6 +512,15 @@
   facebook: "ixdajoinville"
   instagram: "ixda.joinville"
   main_url: "https://www.sympla.com.br/ixdajlle"
+
+- title: "PHP-Rio"
+  hashtag: "phprio"
+  twitter: "phprio"
+  facebook: "PHPRio-160383237381004"
+  github: "PHPRio"
+  linkedin: "groups/1202577"
+  medium: "phprio"
+  main_url: "http://php.rio/"
 
 - title: "PHPSP"
   banner: "phpsp.png"
@@ -495,26 +530,34 @@
   github: "phpsp"
   main_url: "https://phpsp.org.br"
 
-- title: "UX Minas Pretas"
-  tags: [women, coc, mobility, poc, perifa]
-  banner: "ux-minas-pretas.png"
-  hashtag: "UXMP"
-  twitter: "uxminaspretas"
-  facebook: "uxparaminaspretas"
-  medium: "@uxparaminaspretas"
-  main_url: "https://twitter.com/uxminaspretas"
+- title: "Elug"
+  banner: "elixir.png"
+  tags: [women, coc, trans, lgbt]
+  hashtag: "myelixirstatus"
+  twitter: "elug_sp"
+  main_url: "https://groups.google.com/forum/?hl=pt#!forum/elug-sp"
 
-- title: "Black power data"
-  tags: [women, poc]
-  banner: "black_data.png"
-  twitter: "BlackPowerData1"
-  github: "BlackPowerData"
-  main_url: "https://blackpowerdata.github.io"
+- title: "AngularSP"
+  banner: "angular-sp.png"
+  tags: [women, coc]
+  hashtag: "AngularSP"
+  twitter: "AngularSP"
+  facebook: "AngularSP"
+  main_url: "https://www.meetup.com/AngularJS-Sao-Paulo/"
 
-- title: "InspirAda na Computação"
-  tags: [women, poc, inclusive]
-  banner: "inspirada.png"
-  hashtag: "InspirAdaNaComputacao"
-  twitter: "InspirAdaNaComp"
-  youtube: "/channel/UC-d2KiNel6ZTCrwSTupXtgA"
-  main_url: "http://www.inspiradanacomputacao.com/"
+- title: "GuruSP"
+  banner: "gurusp.png"
+  tags: [women, coc]
+  hashtag: "gurusp"
+  twitter: "guru_sp"
+  facebook: "groups/gurusp/"
+  meetup: "Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo"
+  main_url: "https://www.meetup.com/pt-BR/Guru-SP-Grupo-de-Usuarios-Ruby-de-Sao-Paulo/"
+
+- title: "Collabcode"
+  banner: "collabcode.png"
+  tags: [women, coc, mobility]
+  hashtag: "Meetup"
+  twitter: "collabcodebr"
+  facebook: "collabcode"
+  main_url: "https://www.meetup.com/CollabCodeBR/"
