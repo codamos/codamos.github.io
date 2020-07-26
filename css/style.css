@@ -62,7 +62,7 @@ table {
 
 body {
     font-family: Roboto, Sans-Serif;
-    color: #3e3e3e;
+    color: #262f38;
     background: #f4f4f4;
 }
 
@@ -244,22 +244,21 @@ p {
 .button-primary {
     display: inline-block;
     cursor: pointer;
-    color: #ffffff;
+    color: #fff;
     font-family: Roboto, Sans-Serif;
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     padding: 14px 40px;
     border-radius: 14px;
-    border: 4px solid #f1f1f1;
-    background-color: #3366cc;
+    border: 4px solid #eee;
+    background-color: #ff355e;
 }
 
 .button-primary:active, .button-primary:hover {
     text-shadow: none;
-    color: #fff;
-    background-color: #4990E2;
+    color: #262f38;
+    background-color: #15f4ee;
 }
 
 .button-stand-by {
@@ -270,10 +269,9 @@ p {
     font-size: medium;
     text-transform: uppercase;
     text-decoration: none;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     padding: 14px 40px;
     border-radius: 14px;
-    border: 4px solid #f1f1f1;
+    border: 4px solid #eee;
     background-color: #757575;
 }
 
@@ -352,7 +350,7 @@ p {
     padding: 14px 40px;
     border-radius: 14px;
     background: #15f4ee;
-    border: 2px solid #fff;
+    border: 2px solid #262f38;
     box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -811,7 +809,7 @@ p {
     justify-content: center;
     flex-direction: column;
     color: #ffffff;
-    height: 60vh;
+    height: 80vh;
     padding: 5% 0 0 0;
     position: relative;
     background-size: cover;
@@ -828,7 +826,7 @@ p {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    height: 60vh;
+    height: 80vh;
     padding: 5% 0 0 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -843,43 +841,43 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
-    background: rgba(21,40,39,0.25);
     text-align: center;
+    /*background: rgba(21,40,39,0.25);*/
 }
 
 .banner-index {
-    background-image: url("../images/blm.png"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/blm.png"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-summit {
-  background-image: url("../images/summit/banner-destaque.png"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+  background-image: url("../images/summit/banner-destaque.png"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-eventos {
-    background-image: url("../images/bg-banner011.jpg"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/bg-banner011.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-comunidades {
-    background-image: url("../images/bg-banner002.png"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/bg-banner002.png"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-podcast {
-    background-image: url("../images/bg-banner016.jpg"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/bg-banner016.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-palestrantes {
-    background-image: url("../images/bg-banner009.jpg"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/bg-banner009.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-quem-somos {
-    background-image: url("../images/bg-banner004.jpg"), radial-gradient(ellipse closest-side, rgba(2,4,14,1) 25%, rgba(255,53,94,1) 100%);
+    background-image: url("../images/bg-banner004.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-coc {
-    background-image: url("../images/bg-banner002.jpg"), radial-gradient(ellipse, rgba(2,4,14,1) 10%, rgba(255,53,94,1) 100%);
-    background-color: rgba(73, 144, 227, 0.5);
+    background-image: url("../images/bg-banner002.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    /*background-color: rgba(73, 144, 227, 0.5);*/
 }
 
 #banner .page-section-text, #summit .page-section-text {
@@ -940,23 +938,23 @@ p {
 }
 
 .events-card:hover {
-    box-shadow: 6px 6px 12px rgba(32, 0, 0, 0.25);
-    background: #FFF0F0;
-    background-blend-mode: multiply;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 .events-card-banner {
     height: 140px;
     border-radius: 10px 10px 0 0;
-    background: linear-gradient(0deg, rgba(20,6,0,1) 0%, rgba(77,10,126,1) 100%);
+    background: linear-gradient(120deg,#0e11bf,#8f14fb);
+    border: 2px #8f14fb;
 }
 
 .events-card-banner img {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    opacity: 0.7;
+    opacity: 0.3;
     border-radius: 10px 10px 0 0;
+    background-blend-mode: multiply;
 }
 
 .events-card-header {
@@ -1059,15 +1057,14 @@ p {
 }
 
 .events-card-body-grupo img {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     border-radius: 100px;
-    mix-blend-mode: multiply;
 }
 
 .events-card-body-grupo {
-    background: #fff;
-    border: 2px solid #f1f1f1;
+    background: #000;
+    border: 0;
     border-radius: 100px;
     width: 30px;
     height: 30px;
@@ -1075,7 +1072,7 @@ p {
     z-index: 1;
     left: 10px;
     bottom: 3px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 4px rgba(202,37,60, 0.8);
 }
 
 .events-card-header-tag {
@@ -1209,6 +1206,7 @@ p {
     font-family: 'Josefin Sans', Sans-Serif;
     text-transform: uppercase;
     font-size: medium;
+    font-weight: bold;
 }
 
 .events-card-body {
@@ -1239,12 +1237,12 @@ p {
 .events-card-body-date svg,
 .events-card-body-local svg {
     margin-right: 5px;
-    color: #666;
+    color: #262f38;
 }
 
 .events-card-body-social-media {
     margin: 1em auto;
-    color: #757575;
+    color: #eee;
 }
 
 .events-card-body-social-media > * {
@@ -1252,7 +1250,7 @@ p {
 }
 
 .events-card-body-social-media a {
-    color: #36c;
+    color: #262f38;
 }
 
 .events-card-body-social-media a:hover {
@@ -1268,11 +1266,11 @@ p {
 }
 
 .events-card-body-no-hashtag {
-    color: #4a4a4a;
+    color: #eee;
 }
 
 .events-card-body-hashtag > * {
-    color: #36c;
+    color: #262f38;
 }
 
 .events-card-body-hashtag a {
