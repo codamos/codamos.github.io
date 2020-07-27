@@ -392,7 +392,7 @@ p {
 }
 
 .icon-labels--colapsed .events-section-label {
-    display: none
+    display: none;
 }
 
 .icon-labels li {
@@ -895,9 +895,9 @@ p {
 /*EVENTOS*/
 
 .events-section-label {
-    color: #fff;
-    border: 2px solid #e5b9b5;
-    background: #b70b48;
+    color: #262f38;
+    border: 2px solid #999;
+    background: #eee;
     transition: all 0.6s ease-out;
 }
 
@@ -1380,7 +1380,7 @@ p {
 }
 
 .speakers-section-label, .communities-section-label, .podcast-section-label {
-    color: #333;
+    color: #262f38;
     border: 2px solid #999;
     background: #eee;
 }

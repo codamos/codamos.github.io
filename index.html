@@ -17,28 +17,22 @@ layout: default
 
 <!-- EVENTOS -->
 <section class="page-section">
-  <!--
   <h1 class="page-section-subtitle-alt">Onde estão os eventos de tecnologia inclusivos e diversos?</h1>
 
 
     <p class="page-section-text">
-    Somos uma vitrine de <a href="/eventos">eventos</a>, meetups, cursos, workshops,
+    Somos uma vitrine de <a href="/eventos">eventos</a>, meetups, cursos, workshops, bootcamps, canais,
     palestras e palestrantes, aqui, você pode achar eventos inclusivos.
-    Nosso propósito é descomplicar a comunicação entre quem organiza e quem quer participar de eventos.
+    O objetivo do Codamos é promover eventos com foco em ser um espaço seguro para todas as pessoas.
+  </p>
+  <img src="images/logo.png" alt="Logotipo Codamos">
+  <p class="page-section-text">
     As pessoas são nossa essência, estão em primeiro lugar e fazemos o nosso melhor para reconhecer,
     valorizar e respeitar a pluralidade.
-  </p>
-  -->
-  <img src="images/logo.png" alt="Logotipo Codamos">
-  <!--
-  <p class="page-section-text">
-    O objetivo do Codamos é promover eventos com foco em ser um espaço seguro para todas as pessoas.
-    <br>
-    Aqui você encontra informações relevantes sobre eventos pelo Brasil e pode facilmente escolher o
-    mais adequado ao seu perfil. * Faça parte do Codamos, envie seu evento inclusivo para ser cadastrado e nos ajude a mudar a vida das pessoas que querem participar de uma comunidade de tecnologia mais diversa. *
+    Envie seu evento diverso e inclusivo para ser cadastrado, ajude-nos a mudar a vida das pessoas que querem participar de uma comunidade de tecnologia mais humana.
   </p>
 
-  <h1 class="page-section-title">Não da pra perder!</h1>
+  <h1 class="page-section-title">Nossos destaques</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
@@ -48,7 +42,6 @@ layout: default
   </ul>
 
   <a class="button-primary-outline" href="/eventos">Veja todos os eventos</a>
--->
 </section>
 
 <section class="page-section">
@@ -71,7 +64,7 @@ layout: default
 
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-title">Pessoas que querem colaborar com a comunidade:</h1>
+    <h1 class="page-section-title">Querem colaborar com a comunidade</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}
