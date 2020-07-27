@@ -259,6 +259,7 @@ p {
     text-shadow: none;
     color: #262f38;
     background-color: #15f4ee;
+    border: 4px solid #262f38;
 }
 
 .button-stand-by {
@@ -419,7 +420,7 @@ p {
 }
 
 .page-section p a {
-    color: #ff355e;
+    color: #262f38;
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
@@ -429,9 +430,9 @@ p {
     font-weight: bold;
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
-    background: #fff;
-    border: 1px solid #fd5b78;
-    box-shadow: 3px 4px 0px #fd5b78;
+    background: #15f4ee;
+    border: 1px solid #262f38;
+    box-shadow: 3px 4px 0px #ff355e;
 }
 
 .page-section p a:hover {
@@ -446,8 +447,8 @@ p {
     padding: 5px 5px 3px 5px;
     letter-spacing: 1px;
     background: #ff355e;
-    border: 1px solid #ff8096;
-    box-shadow: 3px 4px 0px #ff8096;
+    border: 1px solid #fff;
+    box-shadow: 3px 4px 0px #15f4ee;
 }
 
 .page-section-social-tc {
@@ -551,7 +552,7 @@ p {
     text-align: left;
     list-style: none;
     margin-left: 3rem;
-    color: #3e3e3e;
+    color: #262f38;
     font-size: large;
     font-weight: 300;
     line-height: 1.5;
@@ -563,9 +564,8 @@ p {
 }
 
 #midia-list a {
-    text-transform: uppercase;
     font-size: medium;
-    color: #3366cc;
+    color: #ff0066;
 }
 
 #midia-list li::before {
@@ -573,7 +573,7 @@ p {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    color: #ff0066;
+    color: #262f38;
 }
 
 @media (max-width: 430px) {
@@ -703,8 +703,8 @@ p {
     opacity: 1;
     background: #ff355e;
     color: white;
-    border: 1px solid #ff8096;
-    box-shadow: 3px 4px 0px #ff8096;
+    border: 1px solid #fff;
+    box-shadow: 3px 4px 0px #15f4ee;
 
 }
 
@@ -1780,21 +1780,21 @@ p {
     text-align: center;
     width: 100%;
     padding: 5em 1em;
-    border-bottom: 1.5em solid #9DC8FA;
-    border-top: 1.5em solid #9DC8FA;
-    background: #3b74b7;
+    border-bottom: 1.5em solid #ac6af7;
+    border-top: 1.5em solid #ac6af7;
+    background: #6534ae;
 }
 
 .code-of-conduct-title {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     font-weight: 300;
-    color: #ffffff;
+    color: #fff;
     padding-bottom: 0.5em;
 }
 
 .code-of-conduct-call {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -2199,8 +2199,8 @@ p {
 
 .footer-social a:hover {
     color: #262f38;
-    background: #9DC8FA;
-    border: 1px solid #4990e3;
+    background: #15f4ee;
+    border: 1px solid #262f38;
     box-shadow: 3px 4px 0px #ff355e;
 }
 
@@ -2232,8 +2232,7 @@ p {
     height: 6px;
     bottom: 0;
     display: block;
-    background: #a6acff;
-    background: linear-gradient(90deg,#66ff66 0,#aaf0d1);
+    background: #15f4ee;
 }
 
 .footer-contato {
