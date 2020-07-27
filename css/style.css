@@ -864,7 +864,7 @@ p {
 }
 
 .banner-podcast {
-    background-image: url("../images/bg-banner016.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner004.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-palestrantes {
@@ -872,7 +872,7 @@ p {
 }
 
 .banner-quem-somos {
-    background-image: url("../images/bg-banner004.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner016.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-coc {
