@@ -18,21 +18,18 @@ layout: default
 <!-- EVENTOS -->
 <section class="page-section">
   <h1 class="page-section-subtitle-alt">Onde estão os eventos de tecnologia inclusivos e diversos?</h1>
-
-
     <p class="page-section-text">
     Somos uma vitrine de <a href="/eventos">eventos</a>, meetups, cursos, workshops, bootcamps, canais,
     palestras e palestrantes, aqui, você pode achar eventos inclusivos.
     O objetivo do Codamos é promover eventos com foco em ser um espaço seguro para todas as pessoas.
   </p>
-  <img src="images/logo.png" alt="Logotipo Codamos">
   <p class="page-section-text">
-    As pessoas são nossa essência, estão em primeiro lugar e fazemos o nosso melhor para reconhecer,
+    Pessoas são nossa essência, estão em primeiro lugar e fazemos o nosso melhor para reconhecer,
     valorizar e respeitar a pluralidade.
     Envie seu evento diverso e inclusivo para ser cadastrado, ajude-nos a mudar a vida das pessoas que querem participar de uma comunidade de tecnologia mais humana.
   </p>
 
-  <h1 class="page-section-title">Nossos destaques</h1>
+  <h1 class="page-section-title">Eventos em destaque</h1>
 
   <ul class="events-cards">
     {% assign highlights = site.events | where:"highlight",true | sort: "from" %}
@@ -64,7 +61,7 @@ layout: default
 
 <section id="speakers">
   <div class="page-section">
-    <h1 class="page-section-title">Querem colaborar com a comunidade</h1>
+    <h1 class="page-section-title">Pessoas da comunidade</h1>
 
     <ul class="speakers-cards">
       {% assign speakers = site.data.speakers | where:"highlight",true %}
