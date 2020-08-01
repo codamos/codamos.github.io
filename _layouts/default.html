@@ -54,23 +54,6 @@
           </a>
         </nav>
 
-        {% comment %}
-        <div class="header-social-media">
-          <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank" title="Twitter">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank" title="Facebook">
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank" title="Meetup">
-            <i class="fab fa-meetup" aria-hidden="true"></i>
-          </a>
-          <a href="https://medium.com/codamos" rel="noopener" target="_blank" title="Medium">
-            <i class="fab fa-medium" aria-hidden="true"></i>
-          </a>
-        </div>
-        {% endcomment %}
-
         <div class="header-menu-hamburger">
           <input id="button-hamburguer" type="checkbox">
           <label for="button-hamburguer">
@@ -85,32 +68,6 @@
             <li><a href="/quem-somos">Sobre o Codamos</a></li>
             <li><a href="/parceiros">Parceiros</a></li>
             <li><a href="/codigo-de-conduta">Código de Conduta</a></li>
-            <li>
-              {% comment %}
-              <ul class="submenu-hamburger-social-media">
-                <li>
-                  <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/codamosclub" rel="noopener" target="_blank">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.meetup.com/pt-BR/Codamos-Club/" rel="noopener" target="_blank">
-                    <i class="fab fa-meetup" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/codamos" rel="noopener" target="_blank">
-                    <i class="fab fa-medium" aria-hidden="true"></i>
-                  </a>
-                </li>
-              </ul>
-              {% endcomment %}
-            </li>
           </ul>
         </div>
       </div>
@@ -118,56 +75,6 @@
     </header>
 
     {{ content }}
-
-    {% comment %}
-    <section id="partners-supporters" class="page-section-black">
-
-      <div class="partners-supporters-box">
-
-      <div>
-        <h2 class="page-section-subtitle-patners">Apoiadores</h2>
-
-        <ul class="partners-supporters-links">
-          {% for supporter in site.data.supporters %}
-            <li>
-              <a href="{{ supporter.main_url }}" rel="noopener" target="_blank">
-                <img src="images/apoiadores/{{ supporter.logo }}" alt="{{ supporter.name }}"/>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <h2 class="page-section-subtitle-patners">Parceiros</h2>
-
-        <ul class="partners-supporters-links">
-          {% for partner in site.data.partners %}
-            <li>
-              <a href="{{ partner.main_url }}" rel="noopener" target="_blank">
-                <img src="images/parceiros/{{ partner.logo }}" alt="{{ partner.name }}"/>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        {% if site.data.sponsors %}
-        <h2 class="page-section-subtitle-patners">Patrocinadores</h2>
-
-        <ul class="partners-supporters-links">
-          {% for sponsor in site.data.sponsors %}
-            <li>
-              <a href="{{ sponsor.main_url }}" rel="noopener" target="_blank">
-                <img src="images/patrocinadores/{{ sponsor.logo }}" alt="{{ sponsor.name }}"/>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-
-      </div>
-      </div>
-
-    </section>
-    {% endcomment %}
 
     <!-- FOOTER -->
     <div class="footer-contato">
@@ -178,28 +85,11 @@
       </p>
 
       <a class="button-default-outline" href="https://forms.gle/8CqgF2vxnhjVn4Cj8"> Olá Codamos!</a>
-
     </div>
-    <div class="footer-border"></div>
-    <footer id="footer" class="page-section-black">
-      {% comment %}
-      <nav class="footer-box footer-menu">
-        <a href="/eventos">Eventos</a>
-        <span class="divider"></span>
-        <a href="/comunidades">Comunidades</a>
-        <span class="divider"></span>
-        <a href="/podcast">Para ouvir, ver e ler</a>
-        <span class="divider"></span>
-        <a href="/pessoas">Pessoas</a>
-        <span class="divider"></span>
-        <a href="/quem-somos">Sobre o Codamos</a>
-        <span class="divider"></span>
-        <a href="/parceiros">Parceiros</a>
-        <span class="divider"></span>
-        <a href="/codigo-de-conduta">Código de conduta</a>
-      </nav>
-      {% endcomment %}
 
+    <div class="footer-border"></div>
+
+    <footer id="footer" class="page-section-black">
       <nav class="footer-box footer-social">
         <a href="https://twitter.com/CodamosClub" rel="noopener" target="_blank" title="Twitter" aria-label="Twitter">
           <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
