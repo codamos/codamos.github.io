@@ -1,7 +1,11 @@
 {% for member in include.members %}
 <li class="speaker-card">
 <div class="speaker-card-front">
-  <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
+  <img src="images/fotos/{{ member.avatar }}"
+       alt="{{ member.name }}"
+       width="118"
+       height="118"
+       loading="lazy"/>
 
   <div class="speaker-card-labels">
     {% for label in member.labels %}
@@ -131,7 +135,7 @@
 
 {% for member in include.members %}
 <li class="speaker-card">
-  <img data-src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
+  <img src="images/fotos/{{ member.avatar }}" alt="{{ member.name }}" width="118" height="118" />
   {% if member.codamos %}
     <div class="team-collaborators-tag">
       <i class="far fa-gem" aria-hidden="true"></i><h4>da casa</h4>

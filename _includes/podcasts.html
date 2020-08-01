@@ -3,7 +3,9 @@
   <div class="events-card-header">
 
     <div class="events-card-banner">
-      <img data-src="images/podcast/{{ podcast.banner | default:'codamos.png' }}" alt="{{ podcast.title }}">
+      <img src="images/podcast/{{ podcast.banner | default:'codamos.png' }}"
+           alt="{{ podcast.title }}"
+           loading="lazy">
 
       {% if podcast.free %}
       <div class="events-card-header-label free">
@@ -98,7 +100,7 @@
 
       {% if podcast.group %}
       <div class="events-card-body-grupo">
-        <img src="images/grupo/{{ podcast.group }}">
+        <img src="images/grupo/{{ podcast.group }}" loading="lazy">
       </div>
       {% endif %}
 

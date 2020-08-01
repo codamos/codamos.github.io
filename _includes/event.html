@@ -81,12 +81,16 @@
 
     {% if event.group %}
     <div class="events-card-body-grupo">
-      <img src="images/grupo/{{ event.group }}" title="Evento do grupo {{ event.group_name }}" >
+      <img src="images/grupo/{{ event.group }}"
+           title="Evento do grupo {{ event.group_name }}"
+           loading="lazy">
     </div>
     {% endif %}
 
     <div class="events-card-banner">
-      <img data-src="images/eventos/{{ event.banner | default:'codamos.png' }}" alt="{{ event.title }}">
+      <img src="images/eventos/{{ event.banner | default:'codamos.png' }}"
+           alt="{{ event.title }}"
+           loading="lazy">
 
       {% if event.free %}
       <div class="events-card-header-label free">

@@ -1,7 +1,11 @@
 {% for speaker in include.speakers %}
 <li class="speaker-card">
 <div class="speaker-card-front">
-  <img data-src="images/fotos/{{ speaker.avatar }}" alt="{{ speaker.name }}" width="118" height="118" />
+  <img src="images/fotos/{{ speaker.avatar }}"
+       alt="{{ speaker.name }}"
+       width="118"
+       height="118"
+       loading="lazy"/>
 
   <div class="speaker-card-labels">
     {% for label in speaker.labels %}

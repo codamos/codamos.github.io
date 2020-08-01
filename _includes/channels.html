@@ -3,7 +3,9 @@
   <div class="events-card-header">
 
     <div class="events-card-banner">
-      <img data-src="images/channels/{{ channel.banner | default:'codamos.png' }}" alt="{{ channel.title }}">
+      <img src="images/channels/{{ channel.banner | default:'codamos.png' }}"
+           alt="{{ channel.title }}"
+           loading="lazy">
 
       {% if channel.free %}
       <div class="events-card-header-label free">
@@ -98,7 +100,7 @@
 
       {% if channel.group %}
       <div class="events-card-body-grupo">
-        <img src="images/grupo/{{ channel.group }}">
+        <img src="images/grupo/{{ channel.group }}" loading="lazy">
       </div>
       {% endif %}
 

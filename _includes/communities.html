@@ -5,7 +5,9 @@
 
     <div class="communities-card-banner">
 
-      <img data-src="images/eventos/{{ community.banner | default:'codamos.png' }}" alt="{{ community.title }}">
+      <img src="images/eventos/{{ community.banner | default:'codamos.png' }}"
+           alt="{{ community.title }}"
+           loading="lazy">
 
       {% if community.tags %}
       <div class="communities-card-header-ico">
