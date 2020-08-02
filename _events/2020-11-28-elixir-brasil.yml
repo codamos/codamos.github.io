@@ -1,0 +1,21 @@
+---
+title: "Elixir Brasil 2020"
+inclusive: true # (se é inclusivo ou não)
+partners: true # (se o evento é de parceiros do Codamos)
+cfp: true # (se o evento está aceitando propostas de palestras - call for papers)
+alterado: true #(Evento que tinha data marcada e foi alterada por conta da COVID-19.)
+location: "São Paulo - SP"
+date: "28/11 e 29/11" # (data do evento)
+from: "2020-11-28" # (data do começo do evento)
+until: "2020-11-29" # (data do final do evento)
+banner: elixir.png # (um nome de imagem presente em `images/eventos/`)
+# group: locaweb.png # (um nome de grupo presente em `images/grupo/`)
+group_name: "Nome do grupo"
+tags:
+- coc
+- lgbt
+hashtag: elixirBrasil
+twitter: elixir_brasil
+# facebook: conta-no-facebook
+main_url: https://2020.elixirbrasil.com/pt/
+rsvp_url: https://docs.google.com/forms/d/e/1FAIpQLSdOW0gKIC9TcQkIwttrQeIoFnO30d1LYXcH17s2iE6zwLrmCw/viewform
