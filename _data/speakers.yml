@@ -86,7 +86,7 @@
 - name: "Amynata Nepomuceno"
   voluntary: true
   labels: [women, poc, lgbt]
-  avatar: "amynata_nepomuceno.jpg"
+  avatar: "amynata-nepomuceno.jpg"
   location: "São Paulo - SP"
   skills: [Designer, Bonita Profissional, Wannabe Desenvolvedora]
   email: "amynepomuc@gmail.com"
@@ -397,7 +397,7 @@
 - name: "Diego Zanini"
   speaker: true
   labels: [men]
-  avatar: "diego_zanini.jpg"
+  avatar: "diego-zanini.jpg"
   location: "São Paulo - SP"
   skills: [Design, Social Media, Digital Art, Vegetariano]
   bio: >
@@ -648,7 +648,7 @@
 - name: "Jaqueline Arruda"
   speaker: true
   labels: [women, parent]
-  avatar: "jaqueline_arruda.jpg"
+  avatar: "jaqueline-arruda.jpg"
   location: "Joinville - SC"
   skills: [Mãe, WordPress, Projetos, Comunidade, Comunicação]
   bio: >
@@ -848,7 +848,7 @@
 - name: "Keila Castro"
   voluntary: true
   labels: [women]
-  avatar: "keila-castro.jpeg"
+  avatar: "keila-castro.jpg"
   location: "Santo André - SP"
   skills: [Desenvolvedora, DotNet, JavaScript, BackEnd, FrontEnd]
   bio: >
@@ -1037,7 +1037,7 @@
 - name: "Mara Rosa"
   voluntary: true
   labels: [women, poc, perifa]
-  avatar: "mara-rosa.jpeg"
+  avatar: "mara-rosa.jpg"
   location: "São Paulo - SP"
   skills: [Backend, C#]
   bio: >
@@ -1147,7 +1147,7 @@
 - name: "Monica Craveiro"
   speaker: true
   labels: [women]
-  avatar: "monica-craveiro.png"
+  avatar: "monica-craveiro.jpg"
   location: "São Paulo - SP"
   skills: [Desenvolvimento web, HTML, CSS, JavaScript, Bootstrap, PHP]
   bio: >
@@ -1217,7 +1217,7 @@
 - name: "Paula Maris"
   voluntary: true
   labels: [women, lgbt]
-  avatar: "paula_maris.jpeg"
+  avatar: "paula-maris.jpg"
   location: "São Paulo - SP"
   skills: [Designer, Desenvolvedora, Fotógrafa, Música, Arte Gráfica]
   email: "paulamarisk@gmail.com"
@@ -1663,7 +1663,7 @@
 - name: "Vinícius Lourenço"
   speaker: true
   labels: [men]
-  avatar: "vinicius-lourenco.jpeg"
+  avatar: "vinicius-lourenco.jpg"
   location: "São Paulo / São Carlos - SP"
   skills: [Desenvolvimento, BackEnd, WordPress, IoT, PHP]
   bio: >
@@ -1677,7 +1677,7 @@
 - name: "Jayme Nigri"
   speaker: true
   labels: [men, parent]
-  avatar: "jayme-nigri.jpeg"
+  avatar: "jayme-nigri.jpg"
   location: "São Paulo - SP"
   skills: [Comportamento x Tecnologia, Microsoft Office]
   bio: >
