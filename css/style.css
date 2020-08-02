@@ -856,27 +856,27 @@ p {
 }
 
 .banner-eventos {
-    background-image: url("../images/bg-banner011.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-eventos.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-comunidades {
-    background-image: url("../images/bg-banner002.png"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-comunidades.png"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-podcast {
-    background-image: url("../images/bg-banner004.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-podcast.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-palestrantes {
-    background-image: url("../images/bg-banner009.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-palestrantes.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-quem-somos {
-    background-image: url("../images/bg-banner016.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-quem-somos.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
 }
 
 .banner-coc {
-    background-image: url("../images/bg-banner002.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
+    background-image: url("../images/bg-banner-coc.jpg"), linear-gradient(120deg,#0e11bf,#8f14fb);
     /*background-color: rgba(73, 144, 227, 0.5);*/
 }
 
