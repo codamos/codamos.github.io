@@ -1,0 +1,22 @@
+---
+title: "Codecon 2020"
+inclusive: true # (se é inclusivo ou não)
+partners: false # (se o evento é de parceiros do Codamos)
+cfp: false # (se o evento está aceitando propostas de palestras - call for papers)
+location: "Online"
+date: "09/09 a 12/09" # (data do evento)
+from: "2020-09-09" # (data do começo do evento)
+until: "2020-09-12" # (data do final do evento)
+banner: codecon.jpeg # (um nome de imagem presente em `images/eventos/`)
+# group: locaweb.png # (um nome de grupo presente em `images/grupo/`)
+# group_name: "Nome do grupo"
+on-line: true
+free: true
+tags:
+- coc
+# hashtag: hash-tag-do-event-no-twitter
+twitter: codecondev
+instagram: codecon.dev
+# facebook: conta-no-facebook
+main_url: https://codecon.dev
+rsvp_url: https://www.sympla.com.br/codecon-2020---a-dev-couch-conference__869446
